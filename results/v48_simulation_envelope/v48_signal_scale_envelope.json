@@ -1,0 +1,14 @@
+{
+  "source": "frozen normalized production B, foreground pixels only",
+  "foreground_pixel_count": 15837,
+  "B_l2_norm_quantiles": {
+    "P10": 0.392390763759613,
+    "P25": 0.4856993854045868,
+    "P50": 0.6036783456802368,
+    "P75": 0.7035136222839355,
+    "P90": 0.7992634415626525
+  },
+  "future_scaling_rule": "For a generated abundance shape x, compute ||A x||_2 and multiply x by the linear factor required to hit a preregistered real-B norm quantile.",
+  "normalization_warning": "Do not force sum(X_true)=1 as a final abundance scale; unit-sum is used only temporarily for abundance shape.",
+  "solver_accuracy_not_used": true
+}

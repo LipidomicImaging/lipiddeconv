@@ -1,0 +1,217 @@
+{
+  "status": "PASS_SIMULATION_ENVELOPE_AUDIT_PENDING_HUMAN_APPROVAL",
+  "x_true_generated": false,
+  "production_ista_run": false,
+  "eligible_candidates": {
+    "isolation_window_mz": [
+      748.0,
+      798.0
+    ],
+    "frozen_library_count": 391,
+    "eligible_count": 391,
+    "all_frozen_candidates_eligible": true
+  },
+  "complexity": {
+    "interpretation": "Simulation-design proxies only; none is K_true.",
+    "foreground_pixel_count": 15837,
+    "fixed_observation_threshold": 0.0002443958772029583,
+    "acquisition_isolation_window_mz": [
+      748.0,
+      798.0
+    ],
+    "previous_748_803_explanation": "The earlier 748-803 range was inherited from the production loss parent-channel range so M1-M4 isotope channels above the 798 isolation edge were retained. It is not the acquisition isolation window and is removed from precursor-evidence complexity analysis.",
+    "precursor_group_definition": "Candidates are grouped when their M0 precursors map, under the exact historical nearest-source-channel rule (<0.025 Da), to the same frozen source channel; observed support is read from the frozen empirical-overlap peak-response matrix and restricted to final channels inside 748-798 m/z.",
+    "precursor_compatible_group_count": 110,
+    "candidate_multiplicity_per_group": {
+      "P10": 1.0,
+      "P25": 2.0,
+      "P50": 3.0,
+      "P75": 5.0,
+      "P90": 6.1000000000000085,
+      "max": 10.0
+    },
+    "proxy_distributions": {
+      "observed_precursor_group_count_foreground": {
+        "P10": 97.0,
+        "P25": 100.0,
+        "P50": 103.0,
+        "P75": 105.0,
+        "P90": 107.0,
+        "max": 110.0
+      },
+      "sum_compatible_candidate_multiplicities_foreground": {
+        "P10": 354.0,
+        "P25": 365.0,
+        "P50": 375.0,
+        "P75": 381.0,
+        "P90": 385.0,
+        "max": 391.0
+      },
+      "observed_group_multiplicity_pooled_occurrences": {
+        "P10": 1.0,
+        "P25": 2.0,
+        "P50": 3.0,
+        "P75": 5.0,
+        "P90": 7.0,
+        "max": 10.0
+      },
+      "observed_precursor_group_count_frozen_roi": {
+        "P10": 104.4,
+        "P25": 105.0,
+        "P50": 107.0,
+        "P75": 108.0,
+        "P90": 109.0,
+        "max": 110.0
+      },
+      "sum_compatible_candidate_multiplicities_frozen_roi": {
+        "P10": 378.0,
+        "P25": 380.0,
+        "P50": 386.0,
+        "P75": 389.0,
+        "P90": 390.0,
+        "max": 391.0
+      }
+    },
+    "secondary_effective_complexity_descriptors": {
+      "active_count_1e-4": {
+        "P10": 67.0,
+        "P25": 74.0,
+        "P50": 81.0,
+        "P75": 87.0,
+        "P90": 95.0,
+        "max": 125.0
+      },
+      "active_count_1e-3": {
+        "P10": 44.0,
+        "P25": 48.0,
+        "P50": 55.0,
+        "P75": 62.0,
+        "P90": 66.0,
+        "max": 91.0
+      },
+      "active_count_1e-2": {
+        "P10": 18.0,
+        "P25": 21.0,
+        "P50": 24.0,
+        "P75": 27.0,
+        "P90": 30.0,
+        "max": 40.0
+      },
+      "participation_ratio": {
+        "P10": 10.34966812133789,
+        "P25": 11.581542015075684,
+        "P50": 13.430694580078125,
+        "P75": 16.205970764160156,
+        "P90": 21.319668197631835,
+        "max": 33.663455963134766
+      }
+    },
+    "preregistered_K_stress_grid_proposal": {
+      "values": [
+        1,
+        5,
+        13,
+        25,
+        50,
+        75,
+        90,
+        100,
+        105,
+        110,
+        150,
+        250,
+        350,
+        375,
+        385,
+        391
+      ],
+      "role": "Experimental stress axis only; not a recommended or estimated biological K.",
+      "design": "Spans sparse to full-library stress, with denser coverage around both the foreground observed-group P10-P90 region and the compatible-candidate-sum P10-P90 region.",
+      "approval_status": "PROPOSED_PENDING_HUMAN_APPROVAL"
+    }
+  },
+  "abundance": {
+    "status": "FROZEN_FOR_FUTURE_SIMULATION_PENDING_HUMAN_APPROVAL",
+    "primary_model": "empirical_rank_resampling",
+    "selection_rule": "Choose between the two preregistered models using fidelity to observed abundance quantiles/rank curve only; solver accuracy was not evaluated.",
+    "selection_result": "empirical rank-resampling retained because it preserves the observed rank curve directly; the single log-normal has nonzero log-quantile error.",
+    "source": "frozen production X on 15,837 foreground pixels",
+    "active_threshold_reused": 0.0001,
+    "normalization_for_shape_only": "Within each pixel, active abundances are divided by their active sum. Total signal scale is modeled separately from real B.",
+    "empirical_rank_resampling": {
+      "profile_count": 15837,
+      "sampling_seed": 20260907,
+      "future_sampling_rule": "Sample one stored empirical descending normalized rank profile; truncate/interpolate only after the approved K is fixed, then renormalize weights to unit shape before applying B-norm scale.",
+      "quantile_log_rmse_to_empirical": 0.0
+    },
+    "preregistered_tail_scenarios": {
+      "lighter_tail": "Raise each sampled empirical rank weight to power 0.75, then renormalize to unit sum.",
+      "central": "Unmodified empirical rank-resampling profile, then renormalize to unit sum.",
+      "heavier_tail": "Raise each sampled empirical rank weight to power 1.25, then renormalize to unit sum.",
+      "equal_abundance_control": "All K active members receive weight 1/K; control only.",
+      "approval_status": "PROPOSED_PENDING_HUMAN_APPROVAL"
+    },
+    "fixed_lognormal_comparator": {
+      "mu_log_fraction": -5.991876500997765,
+      "sigma_log_fraction": 1.9111011476909183,
+      "quantile_log_rmse_to_empirical": 0.3929385091992852
+    },
+    "abundance_fraction_quantiles": {
+      "P1": 8.294756689667322e-05,
+      "P5": 0.00013095241874785962,
+      "P10": 0.0001958473027428671,
+      "P25": 0.0005160704027203464,
+      "P50": 0.0023086006567725505,
+      "P75": 0.011316579861381237,
+      "P90": 0.0343197577686078,
+      "P95": 0.05578816871671059,
+      "P99": 0.15768141120808626
+    },
+    "dynamic_range_P99_over_P1": 1900.9769316622403,
+    "prohibition": "Model choice and parameters must not be changed after viewing future solver accuracy."
+  },
+  "signal_scale": {
+    "source": "frozen normalized production B, foreground pixels only",
+    "foreground_pixel_count": 15837,
+    "B_l2_norm_quantiles": {
+      "P10": 0.392390763759613,
+      "P25": 0.4856993854045868,
+      "P50": 0.6036783456802368,
+      "P75": 0.7035136222839355,
+      "P90": 0.7992634415626525
+    },
+    "future_scaling_rule": "For a generated abundance shape x, compute ||A x||_2 and multiply x by the linear factor required to hit a preregistered real-B norm quantile.",
+    "normalization_warning": "Do not force sum(X_true)=1 as a final abundance scale; unit-sum is used only temporarily for abundance shape.",
+    "solver_accuracy_not_used": true
+  },
+  "future_spatial_support_design_only": [
+    "broad smooth support",
+    "localized smooth blob",
+    "partially overlapping competing supports"
+  ],
+  "competition_design": {
+    "frozen_cutoff": 0.02,
+    "group_family_hash": "23ec3084b5719bfe3ac6f010cd9d8514092293ec810d2f0c0952c8c6d4a1218e",
+    "component_count_including_singletons": 2,
+    "non_singleton_component_count": 2,
+    "non_singleton_sizes": [
+      30,
+      6
+    ],
+    "allowed_future_patterns": [
+      "spatial overlap",
+      "partial separation"
+    ]
+  },
+  "frozen_input_hashes": {
+    "A": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69",
+    "B": "e716031ee95953a071f34beb386381eeb05cb4198096951b504a46ea6cab99e4",
+    "X_production": "698bd3ed72b57ffe7a6f2bd16cee580388a442a0dbf1bdaaa6e819b0a5c419a4",
+    "candidate_metadata": "63b032f12d9e517ae250adf21f0cb054cc8e5c421425977f2e53bb797f53b474",
+    "channel_axis": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf",
+    "foreground_mask": "a93f3adb97afe0295690d6f943917b6f0771aeeb9fff7d21582024c8ffbb4293",
+    "v47b_input_gate": "be819265ba6844104c04900a1cb71cbfe6ccd023ce504098721ed3e200e2f58e"
+  },
+  "random_seed_reserved_for_future_empirical_rank_sampling": 20260907,
+  "stop_rule": "Envelope audit complete. Stop before X_true generation and production ISTA execution; wait for human approval."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_FOR_FUTURE_SIMULATION_PENDING_HUMAN_APPROVAL",
+  "primary_model": "empirical_rank_resampling",
+  "selection_rule": "Choose between the two preregistered models using fidelity to observed abundance quantiles/rank curve only; solver accuracy was not evaluated.",
+  "selection_result": "empirical rank-resampling retained because it preserves the observed rank curve directly; the single log-normal has nonzero log-quantile error.",
+  "source": "frozen production X on 15,837 foreground pixels",
+  "active_threshold_reused": 0.0001,
+  "normalization_for_shape_only": "Within each pixel, active abundances are divided by their active sum. Total signal scale is modeled separately from real B.",
+  "empirical_rank_resampling": {
+    "profile_count": 15837,
+    "sampling_seed": 20260907,
+    "future_sampling_rule": "Sample one stored empirical descending normalized rank profile; truncate/interpolate only after the approved K is fixed, then renormalize weights to unit shape before applying B-norm scale.",
+    "quantile_log_rmse_to_empirical": 0.0
+  },
+  "preregistered_tail_scenarios": {
+    "lighter_tail": "Raise each sampled empirical rank weight to power 0.75, then renormalize to unit sum.",
+    "central": "Unmodified empirical rank-resampling profile, then renormalize to unit sum.",
+    "heavier_tail": "Raise each sampled empirical rank weight to power 1.25, then renormalize to unit sum.",
+    "equal_abundance_control": "All K active members receive weight 1/K; control only.",
+    "approval_status": "PROPOSED_PENDING_HUMAN_APPROVAL"
+  },
+  "fixed_lognormal_comparator": {
+    "mu_log_fraction": -5.991876500997765,
+    "sigma_log_fraction": 1.9111011476909183,
+    "quantile_log_rmse_to_empirical": 0.3929385091992852
+  },
+  "abundance_fraction_quantiles": {
+    "P1": 8.294756689667322e-05,
+    "P5": 0.00013095241874785962,
+    "P10": 0.0001958473027428671,
+    "P25": 0.0005160704027203464,
+    "P50": 0.0023086006567725505,
+    "P75": 0.011316579861381237,
+    "P90": 0.0343197577686078,
+    "P95": 0.05578816871671059,
+    "P99": 0.15768141120808626
+  },
+  "dynamic_range_P99_over_P1": 1900.9769316622403,
+  "prohibition": "Model choice and parameters must not be changed after viewing future solver accuracy."
+}

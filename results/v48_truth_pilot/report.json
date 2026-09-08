@@ -1,0 +1,63 @@
+{
+  "status": "PASS_TRUTH_PIPELINE_K1",
+  "case_count": 1,
+  "seed": 20260907,
+  "K": 1,
+  "residual_l2_ratio": 0.0,
+  "spatial_support": "foreground-wide uniform",
+  "device": "cuda",
+  "gpu_name": "NVIDIA vGPU-32GB",
+  "peak_gpu_memory_bytes": 1178484224,
+  "peak_gpu_memory_mib": 1123.89013671875,
+  "selected_candidate_index": 277,
+  "selected_candidate_id": "PG-H__0044",
+  "selected_lipid_name": "PG 14:0_20:0",
+  "X_true_shape": [
+    391,
+    200,
+    90
+  ],
+  "B_clean_shape": [
+    1,
+    200,
+    90,
+    1084
+  ],
+  "production_solver_B_shape": [
+    1,
+    1084,
+    200,
+    90
+  ],
+  "X_hat_shape": [
+    391,
+    200,
+    90
+  ],
+  "target_real_B_P50_norm": 0.6036783456802368,
+  "achieved_synthetic_B_foreground_median_norm": 0.6036783456802368,
+  "scale_factor": 0.6036782737161787,
+  "forward_consistency_max_abs": 0.0,
+  "true_abundance": 0.6036783456802368,
+  "recovered_abundance": 0.7115699052810669,
+  "relative_abundance_error": 0.17872358744167924,
+  "false_allocation_mass": 0.3796145714968943,
+  "reconstruction_rmse": 0.011936948634684086,
+  "reconstruction_relative_residual": 0.6510125398635864,
+  "timing_seconds": {
+    "X_true_generation": 0.006973341107368469,
+    "B_clean_generation_and_scaling": 0.44152889400720596,
+    "preprocessing_tensor_reshape": 0.27369439601898193,
+    "model_loading": 0.09869527071714401,
+    "GPU_forward": 0.24754992872476578,
+    "saving_and_metrics": 0.44932907447218895,
+    "total_wall": 1.5180710069835186
+  },
+  "paths": {
+    "X_true": "/root/autodl-tmp/decon-lipid/v48_truth_benchmark_k1/X_true.npy",
+    "B_clean": "/root/autodl-tmp/decon-lipid/v48_truth_benchmark_k1/B_clean.npy",
+    "X_hat": "/root/autodl-tmp/decon-lipid/v48_truth_benchmark_k1/X_hat.npy",
+    "B_reconstructed": "/root/autodl-tmp/decon-lipid/v48_truth_benchmark_k1/B_reconstructed.npy"
+  },
+  "stop_rule": "Single K=1 benchmark complete; no remaining smoke cases launched."
+}

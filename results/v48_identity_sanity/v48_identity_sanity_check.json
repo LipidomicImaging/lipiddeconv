@@ -1,0 +1,462 @@
+{
+  "status": "PASS",
+  "provenance": {
+    "status": "PASS",
+    "identity_records_path": "/root/autodl-tmp/decon-lipid/v48_pilot_48/identity_first/v48_identity_certificate_records.parquet",
+    "cached_certificate_source_path": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv",
+    "source_row_count": 18768,
+    "identity_false_row_count": 160,
+    "identity_false_unique_case_candidate_count": 160,
+    "merge_key": [
+      "case_id",
+      "candidate_id"
+    ],
+    "matched_rows": 160,
+    "field_sources": {
+      "rho_zero": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv",
+      "necessity_signal": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv",
+      "profile_lower": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv",
+      "profile_upper": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv",
+      "profile_relative_width": "/root/autodl-tmp/decon-lipid/v48_pilot_48/v48_pilot_lipid_observations.csv"
+    },
+    "field_exact_checks": {
+      "rho_zero": {
+        "matching_rows": 160,
+        "mismatching_rows": 0
+      },
+      "necessity_signal": {
+        "matching_rows": 160,
+        "mismatching_rows": 0
+      },
+      "profile_lower": {
+        "matching_rows": 160,
+        "mismatching_rows": 0
+      },
+      "profile_upper": {
+        "matching_rows": 160,
+        "mismatching_rows": 0
+      },
+      "profile_relative_width": {
+        "matching_rows": 160,
+        "mismatching_rows": 0
+      }
+    },
+    "new_certificate_calculations": 0
+  },
+  "relative_width_sanity": [
+    {
+      "identity": "TRUE",
+      "absolute_profile_width": {
+        "n": 784,
+        "p25": 0.0329407509527826,
+        "median": 0.0502235986306037,
+        "p75": 0.07856463992217846
+      },
+      "profile_relative_width": {
+        "n": 784,
+        "p25": 2.1220344272996656,
+        "median": 6.9976433259435975,
+        "p75": 93.49726253283961
+      },
+      "estimated_abundance_X_hat": {
+        "n": 784,
+        "p25": 0.0,
+        "median": 0.0020977861713617502,
+        "p75": 0.01915979757905005
+      },
+      "fraction_X_hat_le_1e-12": 0.34566326530612246,
+      "implied_relative_width_denominator": {
+        "n": 784,
+        "p25": 0.0004102284510737735,
+        "median": 0.0058556548771299295,
+        "p75": 0.036545485648648034
+      },
+      "x_reference_field": "MISSING",
+      "x_reference": "MISSING",
+      "fraction_x_reference_le_numerical_epsilon": "MISSING"
+    },
+    {
+      "identity": "FALSE",
+      "absolute_profile_width": {
+        "n": 160,
+        "p25": 0.035657483292555074,
+        "median": 0.056278574404155346,
+        "p75": 0.09250940129833678
+      },
+      "profile_relative_width": {
+        "n": 160,
+        "p25": 21883268740.800644,
+        "median": 45717817819.47505,
+        "p75": 75740854248.51117
+      },
+      "estimated_abundance_X_hat": {
+        "n": 160,
+        "p25": 0.02384741185232995,
+        "median": 0.03248856216669075,
+        "p75": 0.04360160790383812
+      },
+      "fraction_X_hat_le_1e-12": 0.0,
+      "implied_relative_width_denominator": {
+        "n": 160,
+        "p25": 9.999999999999988e-13,
+        "median": 9.999999999999996e-13,
+        "p75": 1e-12
+      },
+      "x_reference_field": "MISSING",
+      "x_reference": "MISSING",
+      "fraction_x_reference_le_numerical_epsilon": "MISSING"
+    }
+  ],
+  "risk_coverage_stratified": [
+    {
+      "stratum_type": "overall",
+      "stratum_value": "all",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 95,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "overall",
+      "stratum_value": "all",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 189,
+      "identity_precision": 0.9894179894179894,
+      "mass_weighted_false_fraction": 0.006633325567880213
+    },
+    {
+      "stratum_type": "overall",
+      "stratum_value": "all",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 95,
+      "identity_precision": 0.9894736842105263,
+      "mass_weighted_false_fraction": 0.003526237348529776
+    },
+    {
+      "stratum_type": "overall",
+      "stratum_value": "all",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 189,
+      "identity_precision": 0.9841269841269841,
+      "mass_weighted_false_fraction": 0.008726232296307809
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "13",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 10,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "13",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 19,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "13",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 10,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "13",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 19,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "25",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 14,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "25",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 28,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "25",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 14,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "25",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 28,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "55",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 26,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "55",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 52,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "55",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 26,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "55",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 52,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "103",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 46,
+      "identity_precision": 0.9782608695652174,
+      "mass_weighted_false_fraction": 0.020777793313049898
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "103",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 91,
+      "identity_precision": 0.989010989010989,
+      "mass_weighted_false_fraction": 0.01584257129351143
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "103",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 46,
+      "identity_precision": 0.9782608695652174,
+      "mass_weighted_false_fraction": 0.018219048086923748
+    },
+    {
+      "stratum_type": "K",
+      "stratum_value": "103",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 91,
+      "identity_precision": 0.989010989010989,
+      "mass_weighted_false_fraction": 0.015884124841154867
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.0",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.0",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.0",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.0",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.1",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.1",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.9789473684210527,
+      "mass_weighted_false_fraction": 0.012298851709484295
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.1",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 0.9791666666666666,
+      "mass_weighted_false_fraction": 0.005992345052794351
+    },
+    {
+      "stratum_type": "residual_ratio",
+      "stratum_value": "0.1",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.968421052631579,
+      "mass_weighted_false_fraction": 0.016023753889935374
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "hard_competition",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "hard_competition",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.9894736842105263,
+      "mass_weighted_false_fraction": 0.004459246446223186
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "hard_competition",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "hard_competition",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.9789473684210527,
+      "mass_weighted_false_fraction": 0.007983454996356165
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "random",
+      "feature": "rho_zero",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "random",
+      "feature": "rho_zero",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.9894736842105263,
+      "mass_weighted_false_fraction": 0.009878274770138437
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "random",
+      "feature": "profile_relative_width",
+      "coverage": 0.1,
+      "n": 48,
+      "identity_precision": 1.0,
+      "mass_weighted_false_fraction": 0.0
+    },
+    {
+      "stratum_type": "selection_mode",
+      "stratum_value": "random",
+      "feature": "profile_relative_width",
+      "coverage": 0.2,
+      "n": 95,
+      "identity_precision": 0.9894736842105263,
+      "mass_weighted_false_fraction": 0.009730451104594657
+    }
+  ],
+  "top10_false_mass_coverage": {
+    "scope": "16 replicate=0 identity-pilot cases",
+    "overall": {
+      "n": 16,
+      "p25": 0.4848649424428419,
+      "median": 0.5652121988450429,
+      "p75": 0.6087711802036516
+    },
+    "by_K": {
+      "13": 0.5759633376448692,
+      "25": 0.5437385470361277,
+      "55": 0.5652121988450429,
+      "103": 0.5496876011667182
+    },
+    "all_48_context_overall": {
+      "n": 48,
+      "p25": 0.4338817060530294,
+      "median": 0.5036313010711775,
+      "p75": 0.6087711802036516
+    }
+  },
+  "notes": [
+    "No ISTA/profile/certificate was recomputed.",
+    "x_reference/x_NNLS is reported missing when absent; X_hat is shown separately and is not relabeled as a reference solution.",
+    "Risk coverage uses the existing 944-record enriched identity dataset."
+  ]
+}

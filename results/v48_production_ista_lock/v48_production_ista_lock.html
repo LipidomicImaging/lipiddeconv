@@ -1,0 +1,7 @@
+<!doctype html><html lang='zh-CN'><meta charset='utf-8'><title>v48 production ISTA lock</title>
+<style>body{font-family:Arial,'Microsoft YaHei',sans-serif;max-width:1100px;margin:32px auto;line-height:1.6;color:#1f2937}.pass{padding:12px 16px;background:#ecfdf5;border-left:5px solid #059669}table{border-collapse:collapse}td,th{border:1px solid #cbd5e1;padding:6px 10px}code{background:#f1f5f9;padding:2px 5px}</style>
+<h1>v48 Stage 0 — production ISTA lock</h1><p class='pass'><b>PASS_PRODUCTION_ISTA_LOCKED</b><br>已用正式 checkpoint、冻结 A/B 和原 production export 入口复现保存的 X。Stage 1 未启动。</p>
+<h2>锁定对象</h2><ul><li><code>run_758_ista.py --mode export</code></li><li><code>lipid_ista.LipidENNet</code>，12 个 unfolded ISTA layers</li><li>完整空间输入：1×1084×200×90</li><li>checkpoint SHA256：<code>32bcf603195883b18e4237d430ece1e99e98d184daf83b97c277d088f614d3ef</code></li></ul>
+<h2>复现误差</h2><table><tr><th>指标</th><th>结果</th></tr><tr><td>output shape</td><td>[391, 200, 90]</td></tr><tr><td>candidate order</td><td>True</td></tr><tr><td>max |ΔX|</td><td>5.27501106e-06</td></tr><tr><td>median |ΔX|</td><td>0</td></tr><tr><td>relative L2 ΔX</td><td>6.81991196e-07</td></tr><tr><td>max |Δ reconstructed B|</td><td>1.31201818e-06</td></tr><tr><td>median |Δ reconstructed B|</td><td>2.6839518e-12</td></tr><tr><td>relative L2 Δ reconstructed B</td><td>2.81660562e-07</td></tr></table>
+<h2>结论</h2><p>历史 CUDA 输出与本次 CPU eval 复现仅存在浮点级差异；A calibration 完全一致。该 production solver、输入语义和参数现已冻结。按照预注册规则，本页完成后停止，不自动启动 Stage 1。</p>
+<p><a href='v48_production_ista_lock.json'>完整机器可读锁定记录</a></p></html>

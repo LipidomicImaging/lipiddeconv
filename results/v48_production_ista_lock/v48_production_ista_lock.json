@@ -1,0 +1,190 @@
+{
+  "status": "PASS_PRODUCTION_ISTA_LOCKED",
+  "stage1_started": false,
+  "canonical_run": {
+    "main_script": "run_758_ista.py",
+    "entry": "run_758_ista.py --mode export",
+    "solver_class": "lipid_ista.LipidENNet",
+    "solver_function": "LipidENNet.forward",
+    "A_library": "adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready/A_library.npy",
+    "B_input": "adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready/B_cube.npy",
+    "candidate_metadata": "adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready/candidate_metadata_final.npy",
+    "channel_axis": "adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready/shared_mz_final.npy",
+    "checkpoint": "results_758_v38_ce29_empiricalfwhm_globalq99_fixed_library_joint_earlystop/latest_model.pth",
+    "historical_training_device": "cuda",
+    "reproduction_device": "cpu",
+    "random_seed": 42,
+    "eval_mode": true
+  },
+  "production_input_and_preprocessing": {
+    "A_shape_channels_by_candidates": [
+      1084,
+      391
+    ],
+    "B_stored_shape": [
+      1,
+      200,
+      90,
+      1084
+    ],
+    "B_solver_shape": [
+      1,
+      1084,
+      200,
+      90
+    ],
+    "spatial_handling": "full 200x90 cube; learned per-lipid 1x1/3x3/5x5 depthwise spatial attention at every unfolded layer",
+    "experimental_extraction": "profile-overlap-integral",
+    "channel_axis_count": 1084,
+    "B_normalization": {
+      "foreground_mask_source": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v35_ce29effective_v36adapter_pccl_mechanistic_m0m4_dynamic_r50000_centroid_ista_ready\\foreground_pixel_mask.npy",
+      "background_max_threshold": 600.0,
+      "background_mask_axis_count": 550,
+      "background_pixel_count": 2163,
+      "foreground_pixel_count": 15837,
+      "background_fraction": 0.12016666666666667,
+      "channel_weighting": "none",
+      "channel_coefficient_formula": "1",
+      "pixel_normalization": "global-foreground-quantile",
+      "pixel_normalization_denominator": "one global q0.99 foreground pixel L2 norm",
+      "global_foreground_norm_quantile": 0.99,
+      "global_B_scale": 9492.794960937497
+    },
+    "A_peak_response": {
+      "mode": "empirical-overlap-integral",
+      "source": "empirical FWHM Gaussian area integrated independently over the same overlapping centered windows as B",
+      "normalization": "unit-area Gaussian window integrals; response columns are not renormalized",
+      "convert_fwhm_to_sigma": true,
+      "empirical_fwhm_intercept": 0.0042266,
+      "empirical_fwhm_slope": 1.7345e-05,
+      "profile_bin_halfwidth_fwhm": 0.5,
+      "cutoff_sigma": 5.0,
+      "response_min": 1e-06,
+      "nonzero_count": 2170,
+      "shape": [
+        1084,
+        1084
+      ]
+    },
+    "training_loss_channel_weighting": {
+      "mode": "auto",
+      "parent_weight_multiplier_before_renormalization": 1.0,
+      "parent_mz_range": [
+        748.0,
+        803.0
+      ],
+      "parent_channel_count": 238,
+      "fragment_channel_count": 846,
+      "mean_parent_channel_weight": 0.529440701007843,
+      "mean_fragment_channel_weight": 1.1709932088851929,
+      "mean_all_channel_weight": 1.0301358699798584
+    },
+    "inference_channel_weighting": "none applied to B or A during forward; weights only affected production training loss"
+  },
+  "production_solver_parameters": {
+    "unfolded_ista_steps": 12,
+    "initialization": "ReLU(A_calibrated^T B * learned init_scale)",
+    "learned_init_scale": 4.803445339202881,
+    "learned_step_sizes_by_layer": [
+      0.0951930433511734,
+      0.07765140384435654,
+      0.09856186807155609,
+      0.12045935541391373,
+      0.10601859539747238,
+      0.09763260185718536,
+      0.18020327389240265,
+      0.15786708891391754,
+      0.16930176317691803,
+      0.1298992782831192,
+      0.06304648518562317,
+      0.13897600769996643
+    ],
+    "learned_momentum_by_layer": [
+      0.800000011920929,
+      0.8253260254859924,
+      0.7682039737701416,
+      0.9374604225158691,
+      0.9316878914833069,
+      0.896897554397583,
+      0.8573148846626282,
+      0.9183077812194824,
+      0.9197742938995361,
+      0.9236385226249695,
+      0.9072802066802979,
+      0.913163423538208
+    ],
+    "learned_lambda1_all_layers": {
+      "min": -0.0038907122798264027,
+      "median": -0.0004086906265001744,
+      "max": 0.17032484710216522
+    },
+    "learned_lambda2_all_layers": {
+      "min": -0.0027046992909163237,
+      "median": -1.725226320559159e-05,
+      "max": 0.18646419048309326
+    },
+    "threshold_rule": "l1=ReLU(lambda1*(1+1e-4-attention_mask)); X=ReLU(Z-l1)/(1+ReLU(lambda2))",
+    "nonnegative_handling": "ReLU at initialization and each threshold layer",
+    "spectral_calibration": {
+      "rule": "A_base * clamp(W, 0.5, 1.5)",
+      "raw_W": {
+        "min": 1.0,
+        "median": 1.0,
+        "max": 1.0
+      },
+      "A_calibrated_exactly_matches_reproduction": true
+    },
+    "dropout": "Dropout2d(p=0.1) in training; disabled by net.eval() for production export",
+    "inference_stopping_rule": "fixed 12 unfolded layers; no data-dependent inference stopping",
+    "training_optimizer": "AdamW; lr_net=1e-4; weight_decay=1e-4; cosine schedule",
+    "training_early_stop": {
+      "min_epochs": 800,
+      "check_frequency": 25,
+      "patience_checks": 12,
+      "loss_relative_tolerance": 0.0002,
+      "abundance_relative_tolerance": 0.0005
+    },
+    "training_stopped_epoch": 2325,
+    "training_stop_reason": "converged"
+  },
+  "reproduction_gate": {
+    "reference_X_shape": [
+      391,
+      200,
+      90
+    ],
+    "reproduced_X_shape": [
+      391,
+      200,
+      90
+    ],
+    "output_shape_identical": true,
+    "candidate_order_identical": true,
+    "max_absolute_X_difference": 5.27501106262207e-06,
+    "median_absolute_X_difference": 0.0,
+    "relative_L2_X_difference": 6.819911959610181e-07,
+    "max_absolute_reconstructed_B_difference": 1.3120181847625645e-06,
+    "median_absolute_reconstructed_B_difference": 2.6839518021265496e-12,
+    "relative_L2_reconstructed_B_difference": 2.8166056154077523e-07,
+    "reproduced_reconstruction_rmse_against_input_B": 0.004406653810292482,
+    "reproduced_reconstruction_mae_against_input_B": 0.0010154587216675282,
+    "interpretation": "Numerically reproduced; remaining differences are consistent with CUDA historical export versus CPU reproduction floating-point execution."
+  },
+  "hashes_sha256": {
+    "production_main_script": "ec87f8cbd87b99c347c1168258dfa3f33aa99eceabfea3e7e35f4910805b1dc7",
+    "production_solver_implementation": "0af7105baf95c63df3c710ecc6703a13c1d0dd82811784ca2c9bfead036726c9",
+    "production_config": "ee4c1665bc4e67c80adbb31df79d947ce73fb89a30ce2a157be148d397c06d05",
+    "production_checkpoint": "32bcf603195883b18e4237d430ece1e99e98d184daf83b97c277d088f614d3ef",
+    "A_library": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69",
+    "B_cube": "e716031ee95953a071f34beb386381eeb05cb4198096951b504a46ea6cab99e4",
+    "candidate_metadata": "c6567b2e852c0e97255efbffe501f0527f2c8ea4daedbb181bb0d25308f230b3",
+    "channel_axis": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf",
+    "reference_X": "698bd3ed72b57ffe7a6f2bd16cee580388a442a0dbf1bdaaa6e819b0a5c419a4",
+    "reproduced_X": "1d898ef9ee4da7a2583df566f6cf200d96c78ce524785defb97fdc96b36f5126"
+  },
+  "remote_local_code_hash_match": {
+    "run_758_ista.py": true,
+    "config_758.py": true,
+    "lipid_ista.py": true
+  }
+}

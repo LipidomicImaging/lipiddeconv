@@ -1,0 +1,261 @@
+{
+  "status": "ALL_REPORTED_CANDIDATE_IDENTITY_VALIDATION_COMPLETE",
+  "scope": {
+    "cached_rows": 18768,
+    "cases": 48,
+    "no_new_calculations": true,
+    "gates": [
+      0.0001,
+      0.001,
+      0.01
+    ]
+  },
+  "gates": {
+    "0.0001": {
+      "baseline": {
+        "row_type": "gate_baseline",
+        "gate": 0.0001,
+        "n_reported": 5843,
+        "identity_precision": 0.24011637857265103,
+        "false_identity_fraction": 0.759883621427349,
+        "mass_weighted_false_fraction": 0.45899060878029807
+      },
+      "features": {
+        "rho_zero": {
+          "identity_AUROC": 0.8793181278213352,
+          "true_median": 1.9345361730192958e-05,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "necessity_signal": {
+          "identity_AUROC": 0.8818096517757957,
+          "true_median": 1.9345361730192958e-05,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "profile_relative_width": {
+          "identity_AUROC": 0.8821808800960619,
+          "true_median": 3.1206110687452853,
+          "false_median": 30901656568.99545,
+          "note": "contains a near-zero-reference denominator effect"
+        },
+        "global_fragment_cone_residual": {
+          "identity_AUROC": 0.42344838601966184,
+          "true_median": 0.1015948890244557,
+          "false_median": 0.1255218371469928,
+          "note": "negative comparator"
+        }
+      },
+      "rho_zero_risk_coverage": [
+        {
+          "coverage": 0.05,
+          "n_reported": 293,
+          "identity_precision": 1.0,
+          "mass_weighted_false_fraction": 0.0
+        },
+        {
+          "coverage": 0.1,
+          "n_reported": 585,
+          "identity_precision": 0.9572649572649573,
+          "mass_weighted_false_fraction": 0.01992342546439039
+        },
+        {
+          "coverage": 0.2,
+          "n_reported": 1169,
+          "identity_precision": 0.7322497861420018,
+          "mass_weighted_false_fraction": 0.08918873784088065
+        },
+        {
+          "coverage": 0.4,
+          "n_reported": 2338,
+          "identity_precision": 0.5265183917878529,
+          "mass_weighted_false_fraction": 0.21689904366156776
+        },
+        {
+          "coverage": 0.6,
+          "n_reported": 3506,
+          "identity_precision": 0.3522532800912721,
+          "mass_weighted_false_fraction": 0.33929127559296507
+        },
+        {
+          "coverage": 0.8,
+          "n_reported": 4675,
+          "identity_precision": 0.26994652406417113,
+          "mass_weighted_false_fraction": 0.4165454819116518
+        },
+        {
+          "coverage": 1.0,
+          "n_reported": 5843,
+          "identity_precision": 0.24011637857265103,
+          "mass_weighted_false_fraction": 0.45899060878029807
+        }
+      ]
+    },
+    "0.001": {
+      "baseline": {
+        "row_type": "gate_baseline",
+        "gate": 0.001,
+        "n_reported": 4648,
+        "identity_precision": 0.2708691910499139,
+        "false_identity_fraction": 0.7291308089500861,
+        "mass_weighted_false_fraction": 0.4560222111059713
+      },
+      "features": {
+        "rho_zero": {
+          "identity_AUROC": 0.8938530746228219,
+          "true_median": 3.601313785865218e-05,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "necessity_signal": {
+          "identity_AUROC": 0.8956232740087247,
+          "true_median": 3.601313785865218e-05,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "profile_relative_width": {
+          "identity_AUROC": 0.8979455327953283,
+          "true_median": 2.7172358674333403,
+          "false_median": 33132173104.73405,
+          "note": "contains a near-zero-reference denominator effect"
+        },
+        "global_fragment_cone_residual": {
+          "identity_AUROC": 0.4240303687747422,
+          "true_median": 0.0999835662368672,
+          "false_median": 0.1238096391114646,
+          "note": "negative comparator"
+        }
+      },
+      "rho_zero_risk_coverage": [
+        {
+          "coverage": 0.05,
+          "n_reported": 233,
+          "identity_precision": 1.0,
+          "mass_weighted_false_fraction": 0.0
+        },
+        {
+          "coverage": 0.1,
+          "n_reported": 465,
+          "identity_precision": 0.9827956989247312,
+          "mass_weighted_false_fraction": 0.005608004313904139
+        },
+        {
+          "coverage": 0.2,
+          "n_reported": 930,
+          "identity_precision": 0.8129032258064516,
+          "mass_weighted_false_fraction": 0.06752389520586762
+        },
+        {
+          "coverage": 0.4,
+          "n_reported": 1860,
+          "identity_precision": 0.6064516129032258,
+          "mass_weighted_false_fraction": 0.19265924118394484
+        },
+        {
+          "coverage": 0.6,
+          "n_reported": 2789,
+          "identity_precision": 0.40552169236285407,
+          "mass_weighted_false_fraction": 0.32159411833567475
+        },
+        {
+          "coverage": 0.8,
+          "n_reported": 3719,
+          "identity_precision": 0.3076095724657166,
+          "mass_weighted_false_fraction": 0.40909824762445973
+        },
+        {
+          "coverage": 1.0,
+          "n_reported": 4648,
+          "identity_precision": 0.2708691910499139,
+          "mass_weighted_false_fraction": 0.4560222111059713
+        }
+      ]
+    },
+    "0.01": {
+      "baseline": {
+        "row_type": "gate_baseline",
+        "gate": 0.01,
+        "n_reported": 1804,
+        "identity_precision": 0.4268292682926829,
+        "false_identity_fraction": 0.5731707317073171,
+        "mass_weighted_false_fraction": 0.39741669380137756
+      },
+      "features": {
+        "rho_zero": {
+          "identity_AUROC": 0.9263621291667713,
+          "true_median": 0.00017724312727940002,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "necessity_signal": {
+          "identity_AUROC": 0.9276740184380416,
+          "true_median": 0.00017724312727940002,
+          "false_median": 0.0,
+          "note": ""
+        },
+        "profile_relative_width": {
+          "identity_AUROC": 0.9328292597151397,
+          "true_median": 1.7780342158957074,
+          "false_median": 39592972785.52504,
+          "note": "contains a near-zero-reference denominator effect"
+        },
+        "global_fragment_cone_residual": {
+          "identity_AUROC": 0.421210027883142,
+          "true_median": 0.0966567540930236,
+          "false_median": 0.1224402109578783,
+          "note": "negative comparator"
+        }
+      },
+      "rho_zero_risk_coverage": [
+        {
+          "coverage": 0.05,
+          "n_reported": 91,
+          "identity_precision": 1.0,
+          "mass_weighted_false_fraction": 0.0
+        },
+        {
+          "coverage": 0.1,
+          "n_reported": 181,
+          "identity_precision": 1.0,
+          "mass_weighted_false_fraction": 0.0
+        },
+        {
+          "coverage": 0.2,
+          "n_reported": 361,
+          "identity_precision": 1.0,
+          "mass_weighted_false_fraction": 0.0
+        },
+        {
+          "coverage": 0.4,
+          "n_reported": 722,
+          "identity_precision": 0.8434903047091413,
+          "mass_weighted_false_fraction": 0.08798008807457769
+        },
+        {
+          "coverage": 0.6,
+          "n_reported": 1083,
+          "identity_precision": 0.6694367497691598,
+          "mass_weighted_false_fraction": 0.20749998836162378
+        },
+        {
+          "coverage": 0.8,
+          "n_reported": 1444,
+          "identity_precision": 0.5048476454293629,
+          "mass_weighted_false_fraction": 0.32496045751769187
+        },
+        {
+          "coverage": 1.0,
+          "n_reported": 1804,
+          "identity_precision": 0.4268292682926829,
+          "mass_weighted_false_fraction": 0.39741669380137756
+        }
+      ]
+    }
+  },
+  "notes": [
+    "rho_zero is primary with fixed higher-is-trustworthy direction.",
+    "necessity_signal is parallel evidence; profile_relative_width is secondary and carries a near-zero-reference denominator effect.",
+    "global_fragment_cone_residual is retained as a negative comparator.",
+    "No classifier, threshold selection, simulation, ISTA, profile, or certificate was run."
+  ]
+}
