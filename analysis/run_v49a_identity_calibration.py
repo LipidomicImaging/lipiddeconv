@@ -134,16 +134,15 @@ def main() -> None:
             "output_dir": str(args.output_dir),
         }, indent=2))
         return
-    if not args.validate_rho_zero and not args.smoke:
-        raise SystemExit("RHO_ZERO_PARITY_NOT_VALIDATED")
+    # Validation establishes the status file; it must not require one first.
+    if args.validate_rho_zero:
+        raise SystemExit("RHO_ZERO_PARITY_VALIDATION_REQUIRES_REMOTE_RUNTIME_IMPLEMENTATION")
     parity_status = args.output_dir / "rho_zero_parity_status.json"
     if not parity_status.exists():
         raise SystemExit("RHO_ZERO_PARITY_NOT_VALIDATED")
     status = json.loads(parity_status.read_text(encoding="utf-8"))
     if status.get("status") != "PASS":
         raise SystemExit("RHO_ZERO_PARITY_FAILED")
-    if args.validate_rho_zero:
-        raise SystemExit("RHO_ZERO_PARITY_VALIDATION_REQUIRES_REMOTE_RUNTIME_IMPLEMENTATION")
     raise SystemExit("V49A_SMOKE_RUNTIME_NOT_EXECUTED_IN_PREPARATION_MODE")
 
 
