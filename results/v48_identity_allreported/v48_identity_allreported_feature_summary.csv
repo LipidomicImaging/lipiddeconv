@@ -1,15 +1,12 @@
 row_type,gate,n_reported,n_true_reported,n_false_reported,identity_precision,false_identity_fraction,mass_weighted_false_fraction,true_identity_recall,feature,direction,n,identity_AUROC,true_median,false_median,note
-gate_baseline,0.0001,5843.0,1403.0,4440.0,0.24011637857265103,0.759883621427349,0.45899060878029807,0.5965136054421769,,,,,,,
 feature_AUROC,0.0001,,,,,,,,rho_zero,higher,5843.0,0.8793181278213352,1.9345361730192958e-05,0.0,
 feature_AUROC,0.0001,,,,,,,,necessity_signal,higher,5843.0,0.8818096517757957,1.9345361730192958e-05,0.0,
 feature_AUROC,0.0001,,,,,,,,profile_relative_width,lower,5843.0,0.8821808800960619,3.1206110687452853,30901656568.99545,contains a near-zero-reference denominator effect
 feature_AUROC,0.0001,,,,,,,,global_fragment_cone_residual,higher,5843.0,0.42344838601966184,0.1015948890244557,0.1255218371469928,negative comparator
-gate_baseline,0.001,4648.0,1259.0,3389.0,0.2708691910499139,0.7291308089500861,0.4560222111059713,0.5352891156462585,,,,,,,
 feature_AUROC,0.001,,,,,,,,rho_zero,higher,4648.0,0.8938530746228219,3.601313785865218e-05,0.0,
 feature_AUROC,0.001,,,,,,,,necessity_signal,higher,4648.0,0.8956232740087247,3.601313785865218e-05,0.0,
 feature_AUROC,0.001,,,,,,,,profile_relative_width,lower,4648.0,0.8979455327953283,2.7172358674333403,33132173104.73405,contains a near-zero-reference denominator effect
 feature_AUROC,0.001,,,,,,,,global_fragment_cone_residual,higher,4648.0,0.4240303687747422,0.0999835662368672,0.1238096391114646,negative comparator
-gate_baseline,0.01,1804.0,770.0,1034.0,0.4268292682926829,0.5731707317073171,0.39741669380137756,0.3273809523809524,,,,,,,
 feature_AUROC,0.01,,,,,,,,rho_zero,higher,1804.0,0.9263621291667713,0.00017724312727940002,0.0,
 feature_AUROC,0.01,,,,,,,,necessity_signal,higher,1804.0,0.9276740184380416,0.00017724312727940002,0.0,
 feature_AUROC,0.01,,,,,,,,profile_relative_width,lower,1804.0,0.9328292597151397,1.7780342158957074,39592972785.52504,contains a near-zero-reference denominator effect

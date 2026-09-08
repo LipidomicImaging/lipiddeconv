@@ -304,7 +304,7 @@ but not every candidate that would actually be reported.
 
 
 
-Need all-reported-candidate validation using existing abundance gates.
+All-reported-candidate validation completed using existing abundance gates.
 
 
 
@@ -328,7 +328,13 @@ These are existing gates and must not be retuned based on current results.
 
 
 
-v48 all-reported-candidate identity validation
+v48 all-reported-candidate identity validation COMPLETED
+
+
+Cached input: `results/v48_pilot_48/v48_pilot_lipid_observations.csv` (18,768 rows)
+
+
+Requested outputs written under `results/v48_identity_allreported/`.
 
 
 
