@@ -11,6 +11,2745 @@
   "channel_count": 1084,
   "cone_isolation_definition": "min_{z>=0} ||A_-j z - A_j||_2 / ||A_j||_2 (scipy.optimize.nnls)",
   "ranking_rule": "descending finite cone-isolation score, then ascending candidate index",
+  "cone_isolation_ranking": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    },
+    {
+      "candidate_index": 114,
+      "candidate_id": "PS-H__0457",
+      "lipid_name": "PS 17:0_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.8592744291053689
+    },
+    {
+      "candidate_index": 328,
+      "candidate_id": "PG-H__0459",
+      "lipid_name": "PG 17:0_20:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.8310149974793403
+    },
+    {
+      "candidate_index": 375,
+      "candidate_id": "PC+Cl__0219",
+      "lipid_name": "PC 14:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8078312049387865
+    },
+    {
+      "candidate_index": 351,
+      "candidate_id": "PCO+HCOO__0084",
+      "lipid_name": "PC O-16:1_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8076497414228311
+    },
+    {
+      "candidate_index": 336,
+      "candidate_id": "PG-H__0479",
+      "lipid_name": "PG 17:1_18:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.7709258001816848
+    },
+    {
+      "candidate_index": 329,
+      "candidate_id": "PG-H__0460",
+      "lipid_name": "PG 17:0_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.7656382983426151
+    },
+    {
+      "candidate_index": 85,
+      "candidate_id": "PS-H__0043",
+      "lipid_name": "PS 14:0_22:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.7566456616873307
+    },
+    {
+      "candidate_index": 84,
+      "candidate_id": "PS-H__0042",
+      "lipid_name": "PS 14:0_22:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.755911282254363
+    },
+    {
+      "candidate_index": 362,
+      "candidate_id": "PCO+CH3COO__0453",
+      "lipid_name": "PC O-16:0_17:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.7536429126805174
+    },
+    {
+      "candidate_index": 0,
+      "candidate_id": "PA-H__0075",
+      "lipid_name": "PA 16:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.729606198131629
+    },
+    {
+      "candidate_index": 277,
+      "candidate_id": "PG-H__0044",
+      "lipid_name": "PG 14:0_20:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.7233219574944608
+    },
+    {
+      "candidate_index": 221,
+      "candidate_id": "PEO-H__0107",
+      "lipid_name": "PE O-16:1_24:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.7013195190822913
+    },
+    {
+      "candidate_index": 229,
+      "candidate_id": "PEO-H__0126",
+      "lipid_name": "PE O-18:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6919909071159304
+    },
+    {
+      "candidate_index": 91,
+      "candidate_id": "PS-H__0060",
+      "lipid_name": "PS 16:0_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6781582371045598
+    },
+    {
+      "candidate_index": 220,
+      "candidate_id": "PEO-H__0106",
+      "lipid_name": "PE O-16:1_24:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6719956962672089
+    },
+    {
+      "candidate_index": 113,
+      "candidate_id": "PS-H__0456",
+      "lipid_name": "PS 17:0_18:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6537549379034493
+    },
+    {
+      "candidate_index": 260,
+      "candidate_id": "PEO-H__0211",
+      "lipid_name": "PE O-18:3_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6471690508908507
+    },
+    {
+      "candidate_index": 83,
+      "candidate_id": "PS-H__0037",
+      "lipid_name": "PS 14:0_20:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6452509214029478
+    },
+    {
+      "candidate_index": 387,
+      "candidate_id": "PC+Cl__0444",
+      "lipid_name": "PC 16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.6451321224456396
+    },
+    {
+      "candidate_index": 82,
+      "candidate_id": "PS-H__0036",
+      "lipid_name": "PS 14:0_20:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6390062445975
+    },
+    {
+      "candidate_index": 111,
+      "candidate_id": "PS-H__0133",
+      "lipid_name": "PS 18:1_18:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6381277857367744
+    },
+    {
+      "candidate_index": 326,
+      "candidate_id": "PG-H__0456",
+      "lipid_name": "PG 17:0_18:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.6327722887636469
+    },
+    {
+      "candidate_index": 104,
+      "candidate_id": "PS-H__0091",
+      "lipid_name": "PS 16:1_20:4",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6316414058973379
+    },
+    {
+      "candidate_index": 335,
+      "candidate_id": "PG-H__0478",
+      "lipid_name": "PG 17:1_18:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.6168343533979017
+    },
+    {
+      "candidate_index": 252,
+      "candidate_id": "PEO-H__0183",
+      "lipid_name": "PE O-18:2_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6092428422951907
+    },
+    {
+      "candidate_index": 374,
+      "candidate_id": "PC+Cl__0180",
+      "lipid_name": "PC 14:0_20:4",
+      "lipid_class": "PC",
+      "cone_isolation": 0.6036768381098416
+    },
+    {
+      "candidate_index": 92,
+      "candidate_id": "PS-H__0062",
+      "lipid_name": "PS 16:0_20:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5982023461058829
+    },
+    {
+      "candidate_index": 377,
+      "candidate_id": "PC+Cl__1186",
+      "lipid_name": "PC 20:0_14:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.593367589246976
+    },
+    {
+      "candidate_index": 214,
+      "candidate_id": "PEO-H__0099",
+      "lipid_name": "PE O-16:1_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5895517686839958
+    },
+    {
+      "candidate_index": 365,
+      "candidate_id": "PCO+CH3COO__0476",
+      "lipid_name": "PC O-16:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5790731778499716
+    },
+    {
+      "candidate_index": 350,
+      "candidate_id": "PCO+HCOO__0083",
+      "lipid_name": "PC O-16:1_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.578408761742055
+    },
+    {
+      "candidate_index": 235,
+      "candidate_id": "PEO-H__0133",
+      "lipid_name": "PE O-18:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5753436233533816
+    },
+    {
+      "candidate_index": 108,
+      "candidate_id": "PS-H__0110",
+      "lipid_name": "PS 18:0_18:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5738266720137706
+    },
+    {
+      "candidate_index": 59,
+      "candidate_id": "PA-H__0237",
+      "lipid_name": "PA 20:2_20:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.5731558925579161
+    },
+    {
+      "candidate_index": 115,
+      "candidate_id": "PS-H__0477",
+      "lipid_name": "PS 18:0_17:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5700329198506149
+    },
+    {
+      "candidate_index": 325,
+      "candidate_id": "PG-H__0455",
+      "lipid_name": "PG 17:0_18:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.5692674122568047
+    },
+    {
+      "candidate_index": 81,
+      "candidate_id": "PA-H__0371",
+      "lipid_name": "PA 22:6_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.5618631902016936
+    },
+    {
+      "candidate_index": 240,
+      "candidate_id": "PEO-H__0154",
+      "lipid_name": "PE O-18:1_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5577857427715306
+    },
+    {
+      "candidate_index": 1,
+      "candidate_id": "PA-H__0076",
+      "lipid_name": "PA 16:0_24:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.5504804076642431
+    },
+    {
+      "candidate_index": 348,
+      "candidate_id": "PCO+HCOO__0057",
+      "lipid_name": "PC O-16:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5447177151365321
+    },
+    {
+      "candidate_index": 107,
+      "candidate_id": "PS-H__0109",
+      "lipid_name": "PS 18:0_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.541157843513578
+    },
+    {
+      "candidate_index": 384,
+      "candidate_id": "PC+Cl__0435",
+      "lipid_name": "PC 16:1_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5387988106372762
+    },
+    {
+      "candidate_index": 11,
+      "candidate_id": "PA-H__0124",
+      "lipid_name": "PA 18:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.5363596171784565
+    },
+    {
+      "candidate_index": 89,
+      "candidate_id": "PS-H__0058",
+      "lipid_name": "PS 16:0_18:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5338078555993598
+    },
+    {
+      "candidate_index": 159,
+      "candidate_id": "PE-H__0163",
+      "lipid_name": "PE 22:1_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5331745268800695
+    },
+    {
+      "candidate_index": 376,
+      "candidate_id": "PC+Cl__0793",
+      "lipid_name": "PC 18:0_14:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5302390072873353
+    },
+    {
+      "candidate_index": 267,
+      "candidate_id": "PEO-H__0237",
+      "lipid_name": "PE O-20:0_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.526269032993801
+    },
+    {
+      "candidate_index": 369,
+      "candidate_id": "PC+Cl__0169",
+      "lipid_name": "PC 14:0_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5260423696444757
+    },
+    {
+      "candidate_index": 370,
+      "candidate_id": "PC+Cl__0176",
+      "lipid_name": "PC 14:0_20:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.5174354081656964
+    },
+    {
+      "candidate_index": 99,
+      "candidate_id": "PS-H__0084",
+      "lipid_name": "PS 16:1_18:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5162932804885375
+    },
+    {
+      "candidate_index": 71,
+      "candidate_id": "PA-H__0276",
+      "lipid_name": "PA 22:3_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.5133313032763523
+    },
+    {
+      "candidate_index": 349,
+      "candidate_id": "PCO+HCOO__0082",
+      "lipid_name": "PC O-16:1_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.511873624201587
+    },
+    {
+      "candidate_index": 246,
+      "candidate_id": "PEO-H__0161",
+      "lipid_name": "PE O-18:1_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5117301540657673
+    },
+    {
+      "candidate_index": 65,
+      "candidate_id": "PA-H__0260",
+      "lipid_name": "PA 20:3_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.506993961836033
+    },
+    {
+      "candidate_index": 110,
+      "candidate_id": "PS-H__0132",
+      "lipid_name": "PS 18:1_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5035381539353998
+    },
+    {
+      "candidate_index": 106,
+      "candidate_id": "PS-H__0108",
+      "lipid_name": "PS 18:0_18:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.5024918162288118
+    },
+    {
+      "candidate_index": 69,
+      "candidate_id": "PA-H__0274",
+      "lipid_name": "PA 22:1_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4982506449670433
+    },
+    {
+      "candidate_index": 98,
+      "candidate_id": "PS-H__0083",
+      "lipid_name": "PS 18:0_16:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4974005788167513
+    },
+    {
+      "candidate_index": 100,
+      "candidate_id": "PS-H__0087",
+      "lipid_name": "PS 20:0_16:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.49681824282241865
+    },
+    {
+      "candidate_index": 97,
+      "candidate_id": "PS-H__0067",
+      "lipid_name": "PS 16:0_20:5",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4925110672748304
+    },
+    {
+      "candidate_index": 381,
+      "candidate_id": "PC+Cl__0390",
+      "lipid_name": "PC 16:0_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.49212912704514206
+    },
+    {
+      "candidate_index": 112,
+      "candidate_id": "PS-H__0154",
+      "lipid_name": "PS 18:2_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.48970262007816334
+    },
+    {
+      "candidate_index": 228,
+      "candidate_id": "PEO-H__0125",
+      "lipid_name": "PE O-18:0_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4891883874519232
+    },
+    {
+      "candidate_index": 72,
+      "candidate_id": "PA-H__0277",
+      "lipid_name": "PA 20:4_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.48634054946811606
+    },
+    {
+      "candidate_index": 213,
+      "candidate_id": "PEO-H__0077",
+      "lipid_name": "PE O-16:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.48470573742722234
+    },
+    {
+      "candidate_index": 341,
+      "candidate_id": "PG-H__0485",
+      "lipid_name": "PG 17:1_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.4831275545644737
+    },
+    {
+      "candidate_index": 52,
+      "candidate_id": "PA-H__0223",
+      "lipid_name": "PA 20:1_22:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.48292710886676304
+    },
+    {
+      "candidate_index": 86,
+      "candidate_id": "PS-H__0044",
+      "lipid_name": "PS 14:0_22:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4826107446087538
+    },
+    {
+      "candidate_index": 48,
+      "candidate_id": "PA-H__0218",
+      "lipid_name": "PA 20:1_20:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4799544894237642
+    },
+    {
+      "candidate_index": 125,
+      "candidate_id": "PE-H__0093",
+      "lipid_name": "PE 22:0_16:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4791490094759039
+    },
+    {
+      "candidate_index": 28,
+      "candidate_id": "PA-H__0164",
+      "lipid_name": "PA 18:2_22:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.47866516502254414
+    },
+    {
+      "candidate_index": 333,
+      "candidate_id": "PG-H__0464",
+      "lipid_name": "PG 17:0_20:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.4773765897889221
+    },
+    {
+      "candidate_index": 340,
+      "candidate_id": "PG-H__0484",
+      "lipid_name": "PG 17:1_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.47559446497964003
+    },
+    {
+      "candidate_index": 90,
+      "candidate_id": "PS-H__0059",
+      "lipid_name": "PS 16:0_18:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.47547241841180754
+    },
+    {
+      "candidate_index": 70,
+      "candidate_id": "PA-H__0275",
+      "lipid_name": "PA 22:2_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.47434523544092577
+    },
+    {
+      "candidate_index": 64,
+      "candidate_id": "PA-H__0258",
+      "lipid_name": "PA 22:1_20:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.47201880717776407
+    },
+    {
+      "candidate_index": 4,
+      "candidate_id": "PA-H__0100",
+      "lipid_name": "PA 24:0_16:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.47172636833494863
+    },
+    {
+      "candidate_index": 17,
+      "candidate_id": "PA-H__0141",
+      "lipid_name": "PA 18:1_22:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.46175873097333114
+    },
+    {
+      "candidate_index": 306,
+      "candidate_id": "PG-H__0084",
+      "lipid_name": "PG 18:2_20:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.45600375389372205
+    },
+    {
+      "candidate_index": 68,
+      "candidate_id": "PA-H__0273",
+      "lipid_name": "PA 22:0_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4550397992700734
+    },
+    {
+      "candidate_index": 166,
+      "candidate_id": "PE-H__0178",
+      "lipid_name": "PE 20:1_18:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4489705865818388
+    },
+    {
+      "candidate_index": 22,
+      "candidate_id": "PA-H__0148",
+      "lipid_name": "PA 18:1_24:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4394175718623714
+    },
+    {
+      "candidate_index": 93,
+      "candidate_id": "PS-H__0063",
+      "lipid_name": "PS 16:0_20:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.438433265063827
+    },
+    {
+      "candidate_index": 21,
+      "candidate_id": "PA-H__0147",
+      "lipid_name": "PA 24:0_18:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.43680623844895256
+    },
+    {
+      "candidate_index": 165,
+      "candidate_id": "PE-H__0177",
+      "lipid_name": "PE 20:0_18:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.43633437740238207
+    },
+    {
+      "candidate_index": 234,
+      "candidate_id": "PEO-H__0132",
+      "lipid_name": "PE O-18:0_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.43559350264218133
+    },
+    {
+      "candidate_index": 248,
+      "candidate_id": "PEO-H__0259",
+      "lipid_name": "PE O-20:1_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4351737905876049
+    },
+    {
+      "candidate_index": 30,
+      "candidate_id": "PA-H__0169",
+      "lipid_name": "PA 24:0_18:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4349361980895777
+    },
+    {
+      "candidate_index": 310,
+      "candidate_id": "PG-H__0089",
+      "lipid_name": "PG 18:1_20:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.43403628582268905
+    },
+    {
+      "candidate_index": 60,
+      "candidate_id": "PA-H__0241",
+      "lipid_name": "PA 22:1_20:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.43337633237958284
+    },
+    {
+      "candidate_index": 105,
+      "candidate_id": "PS-H__0107",
+      "lipid_name": "PS 18:0_18:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4331045541325963
+    },
+    {
+      "candidate_index": 258,
+      "candidate_id": "PEO-H__0189",
+      "lipid_name": "PE O-18:2_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4310647780235847
+    },
+    {
+      "candidate_index": 308,
+      "candidate_id": "PG-H__0087",
+      "lipid_name": "PG 16:0_22:6",
+      "lipid_class": "PG",
+      "cone_isolation": 0.42771565508602566
+    },
+    {
+      "candidate_index": 172,
+      "candidate_id": "PE-H__0202",
+      "lipid_name": "PE 20:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.42609430792144315
+    },
+    {
+      "candidate_index": 247,
+      "candidate_id": "PEO-H__0231",
+      "lipid_name": "PE O-20:0_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.42571487661894175
+    },
+    {
+      "candidate_index": 94,
+      "candidate_id": "PS-H__0064",
+      "lipid_name": "PS 16:0_20:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4254264414636681
+    },
+    {
+      "candidate_index": 137,
+      "candidate_id": "PE-H__0116",
+      "lipid_name": "PE 18:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4239120961696826
+    },
+    {
+      "candidate_index": 47,
+      "candidate_id": "PA-H__0217",
+      "lipid_name": "PA 20:1_20:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4231895167566119
+    },
+    {
+      "candidate_index": 281,
+      "candidate_id": "PG-H__0053",
+      "lipid_name": "PG 16:1_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.42128232363155954
+    },
+    {
+      "candidate_index": 142,
+      "candidate_id": "PE-H__0134",
+      "lipid_name": "PE 20:0_18:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4201460661155732
+    },
+    {
+      "candidate_index": 224,
+      "candidate_id": "PEO-H__0112",
+      "lipid_name": "PE O-16:1_24:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.41848831684391674
+    },
+    {
+      "candidate_index": 31,
+      "candidate_id": "PA-H__0170",
+      "lipid_name": "PA 24:1_18:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.416531063009088
+    },
+    {
+      "candidate_index": 87,
+      "candidate_id": "PS-H__0045",
+      "lipid_name": "PS 14:0_22:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.41601375018608094
+    },
+    {
+      "candidate_index": 378,
+      "candidate_id": "PC+Cl__0231",
+      "lipid_name": "PC 14:1_20:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.4158486366407816
+    },
+    {
+      "candidate_index": 101,
+      "candidate_id": "PS-H__0088",
+      "lipid_name": "PS 16:1_20:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.4129541991564398
+    },
+    {
+      "candidate_index": 343,
+      "candidate_id": "PC+HCOO__0032",
+      "lipid_name": "PC 14:0_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.4124557378851926
+    },
+    {
+      "candidate_index": 58,
+      "candidate_id": "PA-H__0236",
+      "lipid_name": "PA 20:2_20:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4107496994340883
+    },
+    {
+      "candidate_index": 109,
+      "candidate_id": "PS-H__0131",
+      "lipid_name": "PS 18:1_18:1",
+      "lipid_class": "PS",
+      "cone_isolation": 0.40966522110944875
+    },
+    {
+      "candidate_index": 63,
+      "candidate_id": "PA-H__0257",
+      "lipid_name": "PA 22:0_20:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4070101497165706
+    },
+    {
+      "candidate_index": 29,
+      "candidate_id": "PA-H__0165",
+      "lipid_name": "PA 18:2_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.40654814292933356
+    },
+    {
+      "candidate_index": 355,
+      "candidate_id": "PC+CH3COO__0032",
+      "lipid_name": "PC 14:0_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.40651003337338365
+    },
+    {
+      "candidate_index": 334,
+      "candidate_id": "PG-H__0477",
+      "lipid_name": "PG 18:0_17:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.4056545540310176
+    },
+    {
+      "candidate_index": 18,
+      "candidate_id": "PA-H__0142",
+      "lipid_name": "PA 18:1_22:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.40366716929733215
+    },
+    {
+      "candidate_index": 66,
+      "candidate_id": "PA-H__0261",
+      "lipid_name": "PA 20:3_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.402579539322542
+    },
+    {
+      "candidate_index": 51,
+      "candidate_id": "PA-H__0222",
+      "lipid_name": "PA 22:0_20:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.4020166500263304
+    },
+    {
+      "candidate_index": 371,
+      "candidate_id": "PC+Cl__0177",
+      "lipid_name": "PC 14:0_20:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.40061504805859177
+    },
+    {
+      "candidate_index": 132,
+      "candidate_id": "PE-H__0111",
+      "lipid_name": "PE 18:0_20:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.40021591861516753
+    },
+    {
+      "candidate_index": 264,
+      "candidate_id": "PEO-H__0217",
+      "lipid_name": "PE O-18:3_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.4000023234384312
+    },
+    {
+      "candidate_index": 147,
+      "candidate_id": "PE-H__0139",
+      "lipid_name": "PE 18:1_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3998586987063159
+    },
+    {
+      "candidate_index": 102,
+      "candidate_id": "PS-H__0089",
+      "lipid_name": "PS 16:1_20:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.399126245510874
+    },
+    {
+      "candidate_index": 382,
+      "candidate_id": "PC+Cl__0391",
+      "lipid_name": "PC 16:0_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3986166534022413
+    },
+    {
+      "candidate_index": 176,
+      "candidate_id": "PE-H__0221",
+      "lipid_name": "PE 20:1_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3973599004661181
+    },
+    {
+      "candidate_index": 373,
+      "candidate_id": "PC+Cl__0179",
+      "lipid_name": "PC 14:0_20:3",
+      "lipid_class": "PC",
+      "cone_isolation": 0.39431987909766586
+    },
+    {
+      "candidate_index": 302,
+      "candidate_id": "PG-H__0079",
+      "lipid_name": "PG 14:0_22:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.39347230654553556
+    },
+    {
+      "candidate_index": 389,
+      "candidate_id": "PC+Cl__0658",
+      "lipid_name": "PC 17:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3922836268459849
+    },
+    {
+      "candidate_index": 385,
+      "candidate_id": "PC+Cl__0797",
+      "lipid_name": "PC 18:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.39177303368002603
+    },
+    {
+      "candidate_index": 279,
+      "candidate_id": "PG-H__0051",
+      "lipid_name": "PG 14:0_22:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3916326572569566
+    },
+    {
+      "candidate_index": 314,
+      "candidate_id": "PG-H__0095",
+      "lipid_name": "PG 18:0_20:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3912132251385195
+    },
+    {
+      "candidate_index": 236,
+      "candidate_id": "PEO-H__0150",
+      "lipid_name": "PE O-18:1_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.39089349908072424
+    },
+    {
+      "candidate_index": 180,
+      "candidate_id": "PE-H__0239",
+      "lipid_name": "PE 20:2_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3893851070272266
+    },
+    {
+      "candidate_index": 327,
+      "candidate_id": "PG-H__0457",
+      "lipid_name": "PG 17:0_18:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3764851143957298
+    },
+    {
+      "candidate_index": 79,
+      "candidate_id": "PA-H__0362",
+      "lipid_name": "PA 22:5_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.37471749963267753
+    },
+    {
+      "candidate_index": 386,
+      "candidate_id": "PC+Cl__0443",
+      "lipid_name": "PC 16:1_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3710824945274597
+    },
+    {
+      "candidate_index": 61,
+      "candidate_id": "PA-H__0244",
+      "lipid_name": "PA 20:2_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.37047771471182533
+    },
+    {
+      "candidate_index": 77,
+      "candidate_id": "PA-H__0353",
+      "lipid_name": "PA 22:4_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3689568116282089
+    },
+    {
+      "candidate_index": 153,
+      "candidate_id": "PE-H__0156",
+      "lipid_name": "PE 20:0_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3689127363796803
+    },
+    {
+      "candidate_index": 27,
+      "candidate_id": "PA-H__0163",
+      "lipid_name": "PA 22:1_18:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3672416022212644
+    },
+    {
+      "candidate_index": 16,
+      "candidate_id": "PA-H__0140",
+      "lipid_name": "PA 22:0_18:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3671639070922606
+    },
+    {
+      "candidate_index": 307,
+      "candidate_id": "PG-H__0085",
+      "lipid_name": "PG 18:3_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.36662092140260855
+    },
+    {
+      "candidate_index": 158,
+      "candidate_id": "PE-H__0161",
+      "lipid_name": "PE 18:2_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3650213504933583
+    },
+    {
+      "candidate_index": 339,
+      "candidate_id": "PG-H__0483",
+      "lipid_name": "PG 17:1_20:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3618393165271139
+    },
+    {
+      "candidate_index": 280,
+      "candidate_id": "PG-H__0052",
+      "lipid_name": "PG 16:0_20:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3586980333079263
+    },
+    {
+      "candidate_index": 141,
+      "candidate_id": "PE-H__0123",
+      "lipid_name": "PE 18:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3578455473352584
+    },
+    {
+      "candidate_index": 265,
+      "candidate_id": "PEO-H__0235",
+      "lipid_name": "PE O-20:0_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3574277360579778
+    },
+    {
+      "candidate_index": 222,
+      "candidate_id": "PEO-H__0110",
+      "lipid_name": "PE O-16:1_24:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3570621957782415
+    },
+    {
+      "candidate_index": 143,
+      "candidate_id": "PE-H__0135",
+      "lipid_name": "PE 18:1_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3563849153816259
+    },
+    {
+      "candidate_index": 124,
+      "candidate_id": "PE-H__0081",
+      "lipid_name": "PE 16:0_24:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.354462542162506
+    },
+    {
+      "candidate_index": 75,
+      "candidate_id": "PA-H__0289",
+      "lipid_name": "PA 22:1_20:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.35373566324826666
+    },
+    {
+      "candidate_index": 198,
+      "candidate_id": "PE-H__0481",
+      "lipid_name": "PE 20:0_17:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3521808615762064
+    },
+    {
+      "candidate_index": 103,
+      "candidate_id": "PS-H__0090",
+      "lipid_name": "PS 16:1_20:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.34984059386853866
+    },
+    {
+      "candidate_index": 312,
+      "candidate_id": "PG-H__0093",
+      "lipid_name": "PG 16:0_22:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3489957354663407
+    },
+    {
+      "candidate_index": 154,
+      "candidate_id": "PE-H__0157",
+      "lipid_name": "PE 20:1_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3477875659110764
+    },
+    {
+      "candidate_index": 55,
+      "candidate_id": "PA-H__0226",
+      "lipid_name": "PA 20:1_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.34668458838690386
+    },
+    {
+      "candidate_index": 223,
+      "candidate_id": "PEO-H__0111",
+      "lipid_name": "PE O-16:1_24:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.34567378912555613
+    },
+    {
+      "candidate_index": 73,
+      "candidate_id": "PA-H__0278",
+      "lipid_name": "PA 20:4_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3445703765702606
+    },
+    {
+      "candidate_index": 191,
+      "candidate_id": "PE-H__0464",
+      "lipid_name": "PE 17:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.34361334142228894
+    },
+    {
+      "candidate_index": 53,
+      "candidate_id": "PA-H__0224",
+      "lipid_name": "PA 20:1_22:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.34352237197995034
+    },
+    {
+      "candidate_index": 26,
+      "candidate_id": "PA-H__0162",
+      "lipid_name": "PA 22:0_18:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.34226134747101367
+    },
+    {
+      "candidate_index": 311,
+      "candidate_id": "PG-H__0090",
+      "lipid_name": "PG 18:2_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.34092969232903264
+    },
+    {
+      "candidate_index": 183,
+      "candidate_id": "PE-H__0256",
+      "lipid_name": "PE 20:3_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.33900755670745725
+    },
+    {
+      "candidate_index": 282,
+      "candidate_id": "PG-H__0054",
+      "lipid_name": "PG 18:2_18:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3382696779534152
+    },
+    {
+      "candidate_index": 5,
+      "candidate_id": "PA-H__0117",
+      "lipid_name": "PA 18:0_22:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3381799302246325
+    },
+    {
+      "candidate_index": 271,
+      "candidate_id": "PEO-H__0265",
+      "lipid_name": "PE O-20:1_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3379492442482309
+    },
+    {
+      "candidate_index": 309,
+      "candidate_id": "PG-H__0088",
+      "lipid_name": "PG 16:1_22:5",
+      "lipid_class": "PG",
+      "cone_isolation": 0.33527002658239174
+    },
+    {
+      "candidate_index": 388,
+      "candidate_id": "PC+Cl__0657",
+      "lipid_name": "PC 17:0_17:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3349749352720744
+    },
+    {
+      "candidate_index": 54,
+      "candidate_id": "PA-H__0225",
+      "lipid_name": "PA 20:1_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.33476954438953394
+    },
+    {
+      "candidate_index": 313,
+      "candidate_id": "PG-H__0094",
+      "lipid_name": "PG 16:1_22:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3345858310837336
+    },
+    {
+      "candidate_index": 12,
+      "candidate_id": "PA-H__0125",
+      "lipid_name": "PA 18:0_24:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3334734584306543
+    },
+    {
+      "candidate_index": 332,
+      "candidate_id": "PG-H__0463",
+      "lipid_name": "PG 17:0_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.333380957182523
+    },
+    {
+      "candidate_index": 32,
+      "candidate_id": "PA-H__0173",
+      "lipid_name": "PA 18:2_24:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.33277246997096527
+    },
+    {
+      "candidate_index": 253,
+      "candidate_id": "PEO-H__0427",
+      "lipid_name": "PE O-22:1_18:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3303710154344505
+    },
+    {
+      "candidate_index": 6,
+      "candidate_id": "PA-H__0118",
+      "lipid_name": "PA 18:0_22:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3291126428847987
+    },
+    {
+      "candidate_index": 42,
+      "candidate_id": "PA-H__0205",
+      "lipid_name": "PA 20:0_22:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3285634366810597
+    },
+    {
+      "candidate_index": 390,
+      "candidate_id": "PC+Cl__0706",
+      "lipid_name": "PC 17:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.32843304652277755
+    },
+    {
+      "candidate_index": 88,
+      "candidate_id": "PS-H__0046",
+      "lipid_name": "PS 14:0_22:4",
+      "lipid_class": "PS",
+      "cone_isolation": 0.3282929959935041
+    },
+    {
+      "candidate_index": 372,
+      "candidate_id": "PC+Cl__0178",
+      "lipid_name": "PC 14:0_20:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3254331442131747
+    },
+    {
+      "candidate_index": 225,
+      "candidate_id": "PEO-H__0122",
+      "lipid_name": "PE O-18:0_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.318148671588633
+    },
+    {
+      "candidate_index": 95,
+      "candidate_id": "PS-H__0065",
+      "lipid_name": "PS 16:0_20:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.31718607034211305
+    },
+    {
+      "candidate_index": 315,
+      "candidate_id": "PG-H__0096",
+      "lipid_name": "PG 18:1_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3168478513612436
+    },
+    {
+      "candidate_index": 342,
+      "candidate_id": "PG-H__0502",
+      "lipid_name": "PG 17:0_17:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.31615195069938173
+    },
+    {
+      "candidate_index": 152,
+      "candidate_id": "PE-H__0146",
+      "lipid_name": "PE 18:1_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3159564682544253
+    },
+    {
+      "candidate_index": 121,
+      "candidate_id": "PE-H__0074",
+      "lipid_name": "PE 16:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.314182126552006
+    },
+    {
+      "candidate_index": 383,
+      "candidate_id": "PC+Cl__0392",
+      "lipid_name": "PC 16:0_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.3131917397743864
+    },
+    {
+      "candidate_index": 197,
+      "candidate_id": "PE-H__0471",
+      "lipid_name": "PE 17:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.31244709118745745
+    },
+    {
+      "candidate_index": 215,
+      "candidate_id": "PEO-H__0100",
+      "lipid_name": "PE O-16:1_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.3096547237703799
+    },
+    {
+      "candidate_index": 33,
+      "candidate_id": "PA-H__0174",
+      "lipid_name": "PA 18:2_24:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.30902833514416345
+    },
+    {
+      "candidate_index": 35,
+      "candidate_id": "PA-H__0197",
+      "lipid_name": "PA 20:0_20:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.30857219638826255
+    },
+    {
+      "candidate_index": 305,
+      "candidate_id": "PG-H__0083",
+      "lipid_name": "PG 16:1_22:6",
+      "lipid_class": "PG",
+      "cone_isolation": 0.3058230202104568
+    },
+    {
+      "candidate_index": 43,
+      "candidate_id": "PA-H__0206",
+      "lipid_name": "PA 20:0_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3047114646464892
+    },
+    {
+      "candidate_index": 316,
+      "candidate_id": "PG-H__0097",
+      "lipid_name": "PG 18:2_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.30467147072044287
+    },
+    {
+      "candidate_index": 41,
+      "candidate_id": "PA-H__0204",
+      "lipid_name": "PA 20:0_22:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3017443733307278
+    },
+    {
+      "candidate_index": 50,
+      "candidate_id": "PA-H__0220",
+      "lipid_name": "PA 20:1_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.3008190275753367
+    },
+    {
+      "candidate_index": 268,
+      "candidate_id": "PEO-H__0262",
+      "lipid_name": "PE O-20:1_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.300364327002164
+    },
+    {
+      "candidate_index": 317,
+      "candidate_id": "PG-H__0098",
+      "lipid_name": "PG 20:2_18:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.29870029929230885
+    },
+    {
+      "candidate_index": 245,
+      "candidate_id": "PEO-H__0160",
+      "lipid_name": "PE O-18:1_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.29720123032042856
+    },
+    {
+      "candidate_index": 126,
+      "candidate_id": "PE-H__0094",
+      "lipid_name": "PE 16:1_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.29634414058106057
+    },
+    {
+      "candidate_index": 171,
+      "candidate_id": "PE-H__0201",
+      "lipid_name": "PE 20:0_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.29604340865370693
+    },
+    {
+      "candidate_index": 346,
+      "candidate_id": "PC+HCOO__0057",
+      "lipid_name": "PC 16:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.2950266638772892
+    },
+    {
+      "candidate_index": 49,
+      "candidate_id": "PA-H__0219",
+      "lipid_name": "PA 20:1_20:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2950230689775499
+    },
+    {
+      "candidate_index": 34,
+      "candidate_id": "PA-H__0175",
+      "lipid_name": "PA 18:2_24:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.29491975880184035
+    },
+    {
+      "candidate_index": 233,
+      "candidate_id": "PEO-H__0131",
+      "lipid_name": "PE O-18:0_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.29140314574818993
+    },
+    {
+      "candidate_index": 38,
+      "candidate_id": "PA-H__0200",
+      "lipid_name": "PA 20:0_20:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.28594755195446475
+    },
+    {
+      "candidate_index": 96,
+      "candidate_id": "PS-H__0066",
+      "lipid_name": "PS 16:0_20:4",
+      "lipid_class": "PS",
+      "cone_isolation": 0.28261631942641324
+    },
+    {
+      "candidate_index": 199,
+      "candidate_id": "PE-H__0482",
+      "lipid_name": "PE 17:1_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2809048613188857
+    },
+    {
+      "candidate_index": 37,
+      "candidate_id": "PA-H__0199",
+      "lipid_name": "PA 20:0_20:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2807555140432376
+    },
+    {
+      "candidate_index": 207,
+      "candidate_id": "PE-H__0493",
+      "lipid_name": "PE 17:1_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2805102678681988
+    },
+    {
+      "candidate_index": 304,
+      "candidate_id": "PG-H__0081",
+      "lipid_name": "PG 18:0_18:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.27746580180873914
+    },
+    {
+      "candidate_index": 286,
+      "candidate_id": "PG-H__0059",
+      "lipid_name": "PG 18:1_18:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2765752615706676
+    },
+    {
+      "candidate_index": 67,
+      "candidate_id": "PA-H__0263",
+      "lipid_name": "PA 20:3_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2764948485403268
+    },
+    {
+      "candidate_index": 76,
+      "candidate_id": "PA-H__0344",
+      "lipid_name": "PA 22:3_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.27640168722125424
+    },
+    {
+      "candidate_index": 300,
+      "candidate_id": "PG-H__0076",
+      "lipid_name": "PG 20:0_16:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.27509463736924117
+    },
+    {
+      "candidate_index": 212,
+      "candidate_id": "PEO-H__0076",
+      "lipid_name": "PE O-16:0_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2748935194643735
+    },
+    {
+      "candidate_index": 7,
+      "candidate_id": "PA-H__0119",
+      "lipid_name": "PA 18:0_22:2",
+      "lipid_class": "PA",
+      "cone_isolation": 0.27393752390511106
+    },
+    {
+      "candidate_index": 278,
+      "candidate_id": "PG-H__0045",
+      "lipid_name": "PG 16:0_18:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2730282086736678
+    },
+    {
+      "candidate_index": 74,
+      "candidate_id": "PA-H__0279",
+      "lipid_name": "PA 20:4_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.27117341147389906
+    },
+    {
+      "candidate_index": 164,
+      "candidate_id": "PE-H__0168",
+      "lipid_name": "PE 18:2_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2708371237553922
+    },
+    {
+      "candidate_index": 36,
+      "candidate_id": "PA-H__0198",
+      "lipid_name": "PA 20:0_20:1",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2700502904887188
+    },
+    {
+      "candidate_index": 186,
+      "candidate_id": "PE-H__0459",
+      "lipid_name": "PE 17:0_20:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2698075638945543
+    },
+    {
+      "candidate_index": 323,
+      "candidate_id": "PG-H__0104",
+      "lipid_name": "PG 18:2_20:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.26810270421335247
+    },
+    {
+      "candidate_index": 8,
+      "candidate_id": "PA-H__0120",
+      "lipid_name": "PA 18:0_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.26685411549166754
+    },
+    {
+      "candidate_index": 185,
+      "candidate_id": "PE-H__0272",
+      "lipid_name": "PE 20:4_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.26664550336010406
+    },
+    {
+      "candidate_index": 266,
+      "candidate_id": "PEO-H__0236",
+      "lipid_name": "PE O-20:0_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2665585874291982
+    },
+    {
+      "candidate_index": 338,
+      "candidate_id": "PG-H__0482",
+      "lipid_name": "PG 17:1_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.266391512522408
+    },
+    {
+      "candidate_index": 337,
+      "candidate_id": "PG-H__0481",
+      "lipid_name": "PG 20:0_17:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2654323776683324
+    },
+    {
+      "candidate_index": 62,
+      "candidate_id": "PA-H__0246",
+      "lipid_name": "PA 20:2_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2611282723143124
+    },
+    {
+      "candidate_index": 257,
+      "candidate_id": "PEO-H__0188",
+      "lipid_name": "PE O-18:2_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.26103860623460656
+    },
+    {
+      "candidate_index": 227,
+      "candidate_id": "PEO-H__0124",
+      "lipid_name": "PE O-18:0_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.26090867432576414
+    },
+    {
+      "candidate_index": 19,
+      "candidate_id": "PA-H__0143",
+      "lipid_name": "PA 18:1_22:3",
+      "lipid_class": "PA",
+      "cone_isolation": 0.26035456632127724
+    },
+    {
+      "candidate_index": 23,
+      "candidate_id": "PA-H__0151",
+      "lipid_name": "PA 18:1_24:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2590661626283403
+    },
+    {
+      "candidate_index": 25,
+      "candidate_id": "PA-H__0153",
+      "lipid_name": "PA 18:1_24:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.25854770171004793
+    },
+    {
+      "candidate_index": 208,
+      "candidate_id": "PEO-H__0072",
+      "lipid_name": "PE O-16:0_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.25810380084870377
+    },
+    {
+      "candidate_index": 291,
+      "candidate_id": "PG-H__0065",
+      "lipid_name": "PG 18:0_18:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2545735512048524
+    },
+    {
+      "candidate_index": 133,
+      "candidate_id": "PE-H__0112",
+      "lipid_name": "PE 18:0_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.25393425517668783
+    },
+    {
+      "candidate_index": 131,
+      "candidate_id": "PE-H__0099",
+      "lipid_name": "PE 16:1_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2519478993591113
+    },
+    {
+      "candidate_index": 203,
+      "candidate_id": "PE-H__0488",
+      "lipid_name": "PE 17:1_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.25190782559573593
+    },
+    {
+      "candidate_index": 366,
+      "candidate_id": "PC+Cl__0165",
+      "lipid_name": "PC 14:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.2483052155298588
+    },
+    {
+      "candidate_index": 298,
+      "candidate_id": "PG-H__0074",
+      "lipid_name": "PG 14:0_22:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2477557680566548
+    },
+    {
+      "candidate_index": 274,
+      "candidate_id": "PEO-H__0293",
+      "lipid_name": "PE O-20:2_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.24665164194411826
+    },
+    {
+      "candidate_index": 226,
+      "candidate_id": "PEO-H__0123",
+      "lipid_name": "PE O-18:0_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.24588669439016053
+    },
+    {
+      "candidate_index": 263,
+      "candidate_id": "PEO-H__0216",
+      "lipid_name": "PE O-18:3_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.24245622912169137
+    },
+    {
+      "candidate_index": 239,
+      "candidate_id": "PEO-H__0153",
+      "lipid_name": "PE O-18:1_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.24144300871075103
+    },
+    {
+      "candidate_index": 44,
+      "candidate_id": "PA-H__0207",
+      "lipid_name": "PA 20:0_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.241048023112079
+    },
+    {
+      "candidate_index": 344,
+      "candidate_id": "PC+HCOO__0033",
+      "lipid_name": "PC 14:0_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.2403996776773795
+    },
+    {
+      "candidate_index": 24,
+      "candidate_id": "PA-H__0152",
+      "lipid_name": "PA 18:1_24:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2403872498285696
+    },
+    {
+      "candidate_index": 320,
+      "candidate_id": "PG-H__0101",
+      "lipid_name": "PG 16:1_22:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.23838939494724698
+    },
+    {
+      "candidate_index": 324,
+      "candidate_id": "PG-H__0105",
+      "lipid_name": "PG 20:1_18:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.23811465068961957
+    },
+    {
+      "candidate_index": 57,
+      "candidate_id": "PA-H__0228",
+      "lipid_name": "PA 20:1_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.23670331410171605
+    },
+    {
+      "candidate_index": 318,
+      "candidate_id": "PG-H__0099",
+      "lipid_name": "PG 14:0_24:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.2364766144017557
+    },
+    {
+      "candidate_index": 237,
+      "candidate_id": "PEO-H__0151",
+      "lipid_name": "PE O-18:1_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.23640856435982596
+    },
+    {
+      "candidate_index": 144,
+      "candidate_id": "PE-H__0136",
+      "lipid_name": "PE 18:1_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.23433578314102768
+    },
+    {
+      "candidate_index": 146,
+      "candidate_id": "PE-H__0138",
+      "lipid_name": "PE 18:1_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.23301651126656459
+    },
+    {
+      "candidate_index": 20,
+      "candidate_id": "PA-H__0144",
+      "lipid_name": "PA 18:1_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.23118051955905902
+    },
+    {
+      "candidate_index": 170,
+      "candidate_id": "PE-H__0200",
+      "lipid_name": "PE 20:0_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.23032749244938702
+    },
+    {
+      "candidate_index": 136,
+      "candidate_id": "PE-H__0115",
+      "lipid_name": "PE 18:0_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.22953824843435902
+    },
+    {
+      "candidate_index": 175,
+      "candidate_id": "PE-H__0220",
+      "lipid_name": "PE 20:1_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.22946614386916517
+    },
+    {
+      "candidate_index": 3,
+      "candidate_id": "PA-H__0080",
+      "lipid_name": "PA 16:0_24:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.22923411741411742
+    },
+    {
+      "candidate_index": 301,
+      "candidate_id": "PG-H__0077",
+      "lipid_name": "PG 18:0_18:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.22385302590484416
+    },
+    {
+      "candidate_index": 285,
+      "candidate_id": "PG-H__0058",
+      "lipid_name": "PG 16:1_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.22255220982248494
+    },
+    {
+      "candidate_index": 2,
+      "candidate_id": "PA-H__0079",
+      "lipid_name": "PA 16:0_24:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2223063465458067
+    },
+    {
+      "candidate_index": 209,
+      "candidate_id": "PEO-H__0073",
+      "lipid_name": "PE O-16:0_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.22163710097107966
+    },
+    {
+      "candidate_index": 56,
+      "candidate_id": "PA-H__0227",
+      "lipid_name": "PA 20:1_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.22030580527220145
+    },
+    {
+      "candidate_index": 354,
+      "candidate_id": "PCO+HCOO__0475",
+      "lipid_name": "PC O-16:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.21989783570473154
+    },
+    {
+      "candidate_index": 187,
+      "candidate_id": "PE-H__0460",
+      "lipid_name": "PE 17:0_20:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.21935078912512027
+    },
+    {
+      "candidate_index": 276,
+      "candidate_id": "PEO-H__0321",
+      "lipid_name": "PE O-20:3_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.2145730867610224
+    },
+    {
+      "candidate_index": 140,
+      "candidate_id": "PE-H__0122",
+      "lipid_name": "PE 18:0_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.21456025597759804
+    },
+    {
+      "candidate_index": 78,
+      "candidate_id": "PA-H__0354",
+      "lipid_name": "PA 22:4_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.21443724145284473
+    },
+    {
+      "candidate_index": 123,
+      "candidate_id": "PE-H__0080",
+      "lipid_name": "PE 16:0_24:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.21271686018449112
+    },
+    {
+      "candidate_index": 219,
+      "candidate_id": "PEO-H__0104",
+      "lipid_name": "PE O-16:1_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.21260509314897325
+    },
+    {
+      "candidate_index": 211,
+      "candidate_id": "PEO-H__0075",
+      "lipid_name": "PE O-16:0_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.21233553953653375
+    },
+    {
+      "candidate_index": 230,
+      "candidate_id": "PEO-H__0128",
+      "lipid_name": "PE O-18:0_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20944781852532984
+    },
+    {
+      "candidate_index": 321,
+      "candidate_id": "PG-H__0102",
+      "lipid_name": "PG 18:0_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.208514138364971
+    },
+    {
+      "candidate_index": 134,
+      "candidate_id": "PE-H__0113",
+      "lipid_name": "PE 18:0_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20640637141641593
+    },
+    {
+      "candidate_index": 80,
+      "candidate_id": "PA-H__0363",
+      "lipid_name": "PA 22:5_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.2059912863450382
+    },
+    {
+      "candidate_index": 196,
+      "candidate_id": "PE-H__0470",
+      "lipid_name": "PE 17:0_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20553202250395822
+    },
+    {
+      "candidate_index": 116,
+      "candidate_id": "PE-H__0069",
+      "lipid_name": "PE 16:0_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20454583643989277
+    },
+    {
+      "candidate_index": 122,
+      "candidate_id": "PE-H__0079",
+      "lipid_name": "PE 16:0_24:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20377617848089738
+    },
+    {
+      "candidate_index": 319,
+      "candidate_id": "PG-H__0100",
+      "lipid_name": "PG 16:0_22:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.20371874124768685
+    },
+    {
+      "candidate_index": 322,
+      "candidate_id": "PG-H__0103",
+      "lipid_name": "PG 18:1_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.20356606656639115
+    },
+    {
+      "candidate_index": 173,
+      "candidate_id": "PE-H__0218",
+      "lipid_name": "PE 20:1_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20294033552387394
+    },
+    {
+      "candidate_index": 251,
+      "candidate_id": "PEO-H__0181",
+      "lipid_name": "PE O-18:2_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20161747503517874
+    },
+    {
+      "candidate_index": 270,
+      "candidate_id": "PEO-H__0264",
+      "lipid_name": "PE O-20:1_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20156572631951045
+    },
+    {
+      "candidate_index": 120,
+      "candidate_id": "PE-H__0073",
+      "lipid_name": "PE 16:0_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.20118322550403206
+    },
+    {
+      "candidate_index": 297,
+      "candidate_id": "PG-H__0072",
+      "lipid_name": "PG 18:1_18:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.20074680321951024
+    },
+    {
+      "candidate_index": 360,
+      "candidate_id": "PCO+CH3COO__0057",
+      "lipid_name": "PC O-16:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.19936849220098288
+    },
+    {
+      "candidate_index": 363,
+      "candidate_id": "PCO+CH3COO__0454",
+      "lipid_name": "PC O-16:1_17:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.19601713649372615
+    },
+    {
+      "candidate_index": 361,
+      "candidate_id": "PCO+CH3COO__0082",
+      "lipid_name": "PC O-16:1_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.1949832272390983
+    },
+    {
+      "candidate_index": 210,
+      "candidate_id": "PEO-H__0074",
+      "lipid_name": "PE O-16:0_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.19242974363625995
+    },
+    {
+      "candidate_index": 216,
+      "candidate_id": "PEO-H__0101",
+      "lipid_name": "PE O-16:1_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.19181527150552552
+    },
+    {
+      "candidate_index": 135,
+      "candidate_id": "PE-H__0114",
+      "lipid_name": "PE 18:0_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.19168425851262216
+    },
+    {
+      "candidate_index": 151,
+      "candidate_id": "PE-H__0145",
+      "lipid_name": "PE 18:1_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.19163429981325247
+    },
+    {
+      "candidate_index": 231,
+      "candidate_id": "PEO-H__0129",
+      "lipid_name": "PE O-18:0_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.19149650312872654
+    },
+    {
+      "candidate_index": 13,
+      "candidate_id": "PA-H__0128",
+      "lipid_name": "PA 18:0_24:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.19065424453428229
+    },
+    {
+      "candidate_index": 127,
+      "candidate_id": "PE-H__0095",
+      "lipid_name": "PE 16:1_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1902046504564912
+    },
+    {
+      "candidate_index": 179,
+      "candidate_id": "PE-H__0238",
+      "lipid_name": "PE 20:2_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.18995619886808268
+    },
+    {
+      "candidate_index": 200,
+      "candidate_id": "PE-H__0483",
+      "lipid_name": "PE 17:1_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.18976008058885643
+    },
+    {
+      "candidate_index": 9,
+      "candidate_id": "PA-H__0121",
+      "lipid_name": "PA 18:0_22:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.18925162859522815
+    },
+    {
+      "candidate_index": 117,
+      "candidate_id": "PE-H__0070",
+      "lipid_name": "PE 16:0_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1886425381510025
+    },
+    {
+      "candidate_index": 45,
+      "candidate_id": "PA-H__0208",
+      "lipid_name": "PA 20:0_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.18797776572568772
+    },
+    {
+      "candidate_index": 169,
+      "candidate_id": "PE-H__0188",
+      "lipid_name": "PE 18:3_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.18752526203346254
+    },
+    {
+      "candidate_index": 155,
+      "candidate_id": "PE-H__0158",
+      "lipid_name": "PE 18:2_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.18632332063996887
+    },
+    {
+      "candidate_index": 292,
+      "candidate_id": "PG-H__0066",
+      "lipid_name": "PG 18:1_18:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.18514361914509317
+    },
+    {
+      "candidate_index": 40,
+      "candidate_id": "PA-H__0202",
+      "lipid_name": "PA 20:0_20:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.18367672004065808
+    },
+    {
+      "candidate_index": 46,
+      "candidate_id": "PA-H__0209",
+      "lipid_name": "PA 20:0_22:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.18342642508946627
+    },
+    {
+      "candidate_index": 287,
+      "candidate_id": "PG-H__0060",
+      "lipid_name": "PG 18:2_18:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.18259721218393685
+    },
+    {
+      "candidate_index": 356,
+      "candidate_id": "PC+CH3COO__0033",
+      "lipid_name": "PC 14:0_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.18245888828111903
+    },
+    {
+      "candidate_index": 139,
+      "candidate_id": "PE-H__0121",
+      "lipid_name": "PE 18:0_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.18017532391550736
+    },
+    {
+      "candidate_index": 145,
+      "candidate_id": "PE-H__0137",
+      "lipid_name": "PE 18:1_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17948687007626737
+    },
+    {
+      "candidate_index": 249,
+      "candidate_id": "PEO-H__0179",
+      "lipid_name": "PE O-18:2_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17873488478864286
+    },
+    {
+      "candidate_index": 296,
+      "candidate_id": "PG-H__0071",
+      "lipid_name": "PG 18:0_18:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.17839411678077585
+    },
+    {
+      "candidate_index": 202,
+      "candidate_id": "PE-H__0485",
+      "lipid_name": "PE 17:1_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17664660802052665
+    },
+    {
+      "candidate_index": 206,
+      "candidate_id": "PE-H__0492",
+      "lipid_name": "PE 17:1_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1734421065443991
+    },
+    {
+      "candidate_index": 238,
+      "candidate_id": "PEO-H__0152",
+      "lipid_name": "PE O-18:1_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17248031845796863
+    },
+    {
+      "candidate_index": 232,
+      "candidate_id": "PEO-H__0130",
+      "lipid_name": "PE O-18:0_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17092763078541914
+    },
+    {
+      "candidate_index": 201,
+      "candidate_id": "PE-H__0484",
+      "lipid_name": "PE 17:1_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17058675100295786
+    },
+    {
+      "candidate_index": 118,
+      "candidate_id": "PE-H__0071",
+      "lipid_name": "PE 16:0_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.17057139729731954
+    },
+    {
+      "candidate_index": 273,
+      "candidate_id": "PEO-H__0292",
+      "lipid_name": "PE O-20:2_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1699072530804405
+    },
+    {
+      "candidate_index": 272,
+      "candidate_id": "PEO-H__0291",
+      "lipid_name": "PE O-20:2_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.16900636562700858
+    },
+    {
+      "candidate_index": 130,
+      "candidate_id": "PE-H__0098",
+      "lipid_name": "PE 16:1_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.16815322958457346
+    },
+    {
+      "candidate_index": 275,
+      "candidate_id": "PEO-H__0320",
+      "lipid_name": "PE O-20:3_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1678765453740962
+    },
+    {
+      "candidate_index": 241,
+      "candidate_id": "PEO-H__0156",
+      "lipid_name": "PE O-18:1_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.16641771598064747
+    },
+    {
+      "candidate_index": 269,
+      "candidate_id": "PEO-H__0263",
+      "lipid_name": "PE O-20:1_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1653451175229508
+    },
+    {
+      "candidate_index": 195,
+      "candidate_id": "PE-H__0469",
+      "lipid_name": "PE 17:0_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.16492324087593133
+    },
+    {
+      "candidate_index": 163,
+      "candidate_id": "PE-H__0167",
+      "lipid_name": "PE 18:2_22:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.16453696138061585
+    },
+    {
+      "candidate_index": 39,
+      "candidate_id": "PA-H__0201",
+      "lipid_name": "PA 20:0_20:4",
+      "lipid_class": "PA",
+      "cone_isolation": 0.1645114953783594
+    },
+    {
+      "candidate_index": 15,
+      "candidate_id": "PA-H__0130",
+      "lipid_name": "PA 18:0_24:6",
+      "lipid_class": "PA",
+      "cone_isolation": 0.1641748706562144
+    },
+    {
+      "candidate_index": 188,
+      "candidate_id": "PE-H__0461",
+      "lipid_name": "PE 17:0_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1630015495704311
+    },
+    {
+      "candidate_index": 190,
+      "candidate_id": "PE-H__0463",
+      "lipid_name": "PE 17:0_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1628046691202565
+    },
+    {
+      "candidate_index": 14,
+      "candidate_id": "PA-H__0129",
+      "lipid_name": "PA 18:0_24:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.1609179673339711
+    },
+    {
+      "candidate_index": 283,
+      "candidate_id": "PG-H__0056",
+      "lipid_name": "PG 14:0_22:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.16089959008702454
+    },
+    {
+      "candidate_index": 303,
+      "candidate_id": "PG-H__0080",
+      "lipid_name": "PG 16:0_20:0",
+      "lipid_class": "PG",
+      "cone_isolation": 0.1602949985961718
+    },
+    {
+      "candidate_index": 244,
+      "candidate_id": "PEO-H__0159",
+      "lipid_name": "PE O-18:1_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1591848957034343
+    },
+    {
+      "candidate_index": 119,
+      "candidate_id": "PE-H__0072",
+      "lipid_name": "PE 16:0_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15895469448868532
+    },
+    {
+      "candidate_index": 167,
+      "candidate_id": "PE-H__0181",
+      "lipid_name": "PE 18:3_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15717262060050777
+    },
+    {
+      "candidate_index": 331,
+      "candidate_id": "PG-H__0462",
+      "lipid_name": "PG 17:0_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.15645235358917814
+    },
+    {
+      "candidate_index": 168,
+      "candidate_id": "PE-H__0187",
+      "lipid_name": "PE 18:3_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15449729928871136
+    },
+    {
+      "candidate_index": 192,
+      "candidate_id": "PE-H__0466",
+      "lipid_name": "PE 17:0_22:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1543111669513844
+    },
+    {
+      "candidate_index": 174,
+      "candidate_id": "PE-H__0219",
+      "lipid_name": "PE 20:1_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15409170574418976
+    },
+    {
+      "candidate_index": 250,
+      "candidate_id": "PEO-H__0180",
+      "lipid_name": "PE O-18:2_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15389249231375365
+    },
+    {
+      "candidate_index": 217,
+      "candidate_id": "PEO-H__0102",
+      "lipid_name": "PE O-16:1_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15301712497872955
+    },
+    {
+      "candidate_index": 189,
+      "candidate_id": "PE-H__0462",
+      "lipid_name": "PE 17:0_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.15187039632663366
+    },
+    {
+      "candidate_index": 256,
+      "candidate_id": "PEO-H__0187",
+      "lipid_name": "PE O-18:2_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.14828595476682938
+    },
+    {
+      "candidate_index": 157,
+      "candidate_id": "PE-H__0160",
+      "lipid_name": "PE 18:2_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.14619914077909651
+    },
+    {
+      "candidate_index": 156,
+      "candidate_id": "PE-H__0159",
+      "lipid_name": "PE 18:2_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.14518288049439587
+    },
+    {
+      "candidate_index": 284,
+      "candidate_id": "PG-H__0057",
+      "lipid_name": "PG 16:0_20:4",
+      "lipid_class": "PG",
+      "cone_isolation": 0.14379851807726615
+    },
+    {
+      "candidate_index": 259,
+      "candidate_id": "PEO-H__0208",
+      "lipid_name": "PE O-18:3_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.14272429629361114
+    },
+    {
+      "candidate_index": 358,
+      "candidate_id": "PC+CH3COO__0057",
+      "lipid_name": "PC 16:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.14078117259663253
+    },
+    {
+      "candidate_index": 242,
+      "candidate_id": "PEO-H__0157",
+      "lipid_name": "PE O-18:1_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1397728776659262
+    },
+    {
+      "candidate_index": 262,
+      "candidate_id": "PEO-H__0215",
+      "lipid_name": "PE O-18:3_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1395747875215276
+    },
+    {
+      "candidate_index": 10,
+      "candidate_id": "PA-H__0122",
+      "lipid_name": "PA 18:0_22:5",
+      "lipid_class": "PA",
+      "cone_isolation": 0.13936661280823676
+    },
+    {
+      "candidate_index": 138,
+      "candidate_id": "PE-H__0120",
+      "lipid_name": "PE 18:0_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.13894652703571336
+    },
+    {
+      "candidate_index": 177,
+      "candidate_id": "PE-H__0236",
+      "lipid_name": "PE 20:2_20:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.13796437864051098
+    },
+    {
+      "candidate_index": 193,
+      "candidate_id": "PE-H__0467",
+      "lipid_name": "PE 17:0_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.13503108538528152
+    },
+    {
+      "candidate_index": 243,
+      "candidate_id": "PEO-H__0158",
+      "lipid_name": "PE O-18:1_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.13284776908049512
+    },
+    {
+      "candidate_index": 148,
+      "candidate_id": "PE-H__0142",
+      "lipid_name": "PE 18:1_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12985107942569446
+    },
+    {
+      "candidate_index": 218,
+      "candidate_id": "PEO-H__0103",
+      "lipid_name": "PE O-16:1_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12973055438059183
+    },
+    {
+      "candidate_index": 194,
+      "candidate_id": "PE-H__0468",
+      "lipid_name": "PE 17:0_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12944258217526786
+    },
+    {
+      "candidate_index": 160,
+      "candidate_id": "PE-H__0164",
+      "lipid_name": "PE 18:2_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.1271355008514916
+    },
+    {
+      "candidate_index": 254,
+      "candidate_id": "PEO-H__0185",
+      "lipid_name": "PE O-18:2_22:2",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12665676335127843
+    },
+    {
+      "candidate_index": 290,
+      "candidate_id": "PG-H__0064",
+      "lipid_name": "PG 16:1_20:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.12567904821660042
+    },
+    {
+      "candidate_index": 182,
+      "candidate_id": "PE-H__0255",
+      "lipid_name": "PE 20:3_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12448475029069515
+    },
+    {
+      "candidate_index": 261,
+      "candidate_id": "PEO-H__0214",
+      "lipid_name": "PE O-18:3_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12439321564387905
+    },
+    {
+      "candidate_index": 128,
+      "candidate_id": "PE-H__0096",
+      "lipid_name": "PE 16:1_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12325824954460242
+    },
+    {
+      "candidate_index": 161,
+      "candidate_id": "PE-H__0165",
+      "lipid_name": "PE 18:2_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12289383117903037
+    },
+    {
+      "candidate_index": 184,
+      "candidate_id": "PE-H__0271",
+      "lipid_name": "PE 20:4_20:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.12143494692201809
+    },
+    {
+      "candidate_index": 380,
+      "candidate_id": "PC+Cl__0383",
+      "lipid_name": "PC 16:0_16:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.12024383132576463
+    },
+    {
+      "candidate_index": 181,
+      "candidate_id": "PE-H__0254",
+      "lipid_name": "PE 20:3_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.11972298568219342
+    },
+    {
+      "candidate_index": 129,
+      "candidate_id": "PE-H__0097",
+      "lipid_name": "PE 16:1_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.11707440620301834
+    },
+    {
+      "candidate_index": 255,
+      "candidate_id": "PEO-H__0186",
+      "lipid_name": "PE O-18:2_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.11689533016188987
+    },
+    {
+      "candidate_index": 205,
+      "candidate_id": "PE-H__0491",
+      "lipid_name": "PE 17:1_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.11399010042613276
+    },
+    {
+      "candidate_index": 150,
+      "candidate_id": "PE-H__0144",
+      "lipid_name": "PE 18:1_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.11052846478170081
+    },
+    {
+      "candidate_index": 204,
+      "candidate_id": "PE-H__0490",
+      "lipid_name": "PE 17:1_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.10570325194754038
+    },
+    {
+      "candidate_index": 364,
+      "candidate_id": "PCO+CH3COO__0475",
+      "lipid_name": "PC O-16:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.10549498522907921
+    },
+    {
+      "candidate_index": 149,
+      "candidate_id": "PE-H__0143",
+      "lipid_name": "PE 18:1_22:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.10400557506001402
+    },
+    {
+      "candidate_index": 353,
+      "candidate_id": "PCO+HCOO__0454",
+      "lipid_name": "PC O-16:1_17:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.10392782718246293
+    },
+    {
+      "candidate_index": 178,
+      "candidate_id": "PE-H__0237",
+      "lipid_name": "PE 20:2_20:3",
+      "lipid_class": "PE",
+      "cone_isolation": 0.10342592469336877
+    },
+    {
+      "candidate_index": 299,
+      "candidate_id": "PG-H__0075",
+      "lipid_name": "PG 16:0_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.10277086760820646
+    },
+    {
+      "candidate_index": 368,
+      "candidate_id": "PC+Cl__0168",
+      "lipid_name": "PC 14:0_18:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.10173303336151761
+    },
+    {
+      "candidate_index": 330,
+      "candidate_id": "PG-H__0461",
+      "lipid_name": "PG 17:0_20:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.10023340318631115
+    },
+    {
+      "candidate_index": 162,
+      "candidate_id": "PE-H__0166",
+      "lipid_name": "PE 18:2_22:4",
+      "lipid_class": "PE",
+      "cone_isolation": 0.09902267490516374
+    },
+    {
+      "candidate_index": 295,
+      "candidate_id": "PG-H__0070",
+      "lipid_name": "PG 16:1_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.09626468926765062
+    },
+    {
+      "candidate_index": 347,
+      "candidate_id": "PC+HCOO__0474",
+      "lipid_name": "PC 14:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.09548835338967109
+    },
+    {
+      "candidate_index": 288,
+      "candidate_id": "PG-H__0062",
+      "lipid_name": "PG 14:0_22:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.08672432217020402
+    },
+    {
+      "candidate_index": 289,
+      "candidate_id": "PG-H__0063",
+      "lipid_name": "PG 16:0_20:3",
+      "lipid_class": "PG",
+      "cone_isolation": 0.08072333624957098
+    },
+    {
+      "candidate_index": 379,
+      "candidate_id": "PC+Cl__0382",
+      "lipid_name": "PC 16:0_16:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.074235030035795
+    },
+    {
+      "candidate_index": 367,
+      "candidate_id": "PC+Cl__0167",
+      "lipid_name": "PC 14:0_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.06684283090386553
+    },
+    {
+      "candidate_index": 293,
+      "candidate_id": "PG-H__0068",
+      "lipid_name": "PG 14:0_22:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.06638483445544971
+    },
+    {
+      "candidate_index": 294,
+      "candidate_id": "PG-H__0069",
+      "lipid_name": "PG 16:0_20:2",
+      "lipid_class": "PG",
+      "cone_isolation": 0.06404391649487126
+    },
+    {
+      "candidate_index": 359,
+      "candidate_id": "PC+CH3COO__0474",
+      "lipid_name": "PC 14:0_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.04847231659048648
+    },
+    {
+      "candidate_index": 357,
+      "candidate_id": "PC+CH3COO__0056",
+      "lipid_name": "PC 16:0_16:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.01580146506998347
+    },
+    {
+      "candidate_index": 345,
+      "candidate_id": "PC+HCOO__0056",
+      "lipid_name": "PC 16:0_16:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.00439247404365462
+    }
+  ],
   "k1_easy": [
     {
       "candidate_index": 352,
@@ -65,6 +2804,236 @@
       "cosine_similarity": 0.0
     }
   ],
+  "nested_extension_rule": {
+    "starting_support": [
+      352,
+      375,
+      0
+    ],
+    "candidate_pool": "same top ceil(0.1 * n_finite) cone-isolated pool used by K=3",
+    "greedy_order": "minimize maximum cosine to selected support, then mean cosine, then maximize cone-isolation, then ranking position and candidate index",
+    "solver_outcomes_used_for_selection": false
+  },
+  "supports_nested": true,
+  "k5_easy": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    },
+    {
+      "candidate_index": 375,
+      "candidate_id": "PC+Cl__0219",
+      "lipid_name": "PC 14:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8078312049387865
+    },
+    {
+      "candidate_index": 0,
+      "candidate_id": "PA-H__0075",
+      "lipid_name": "PA 16:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.729606198131629
+    },
+    {
+      "candidate_index": 260,
+      "candidate_id": "PEO-H__0211",
+      "lipid_name": "PE O-18:3_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6471690508908507
+    },
+    {
+      "candidate_index": 229,
+      "candidate_id": "PEO-H__0126",
+      "lipid_name": "PE O-18:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6919909071159304
+    }
+  ],
+  "k10_easy": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    },
+    {
+      "candidate_index": 375,
+      "candidate_id": "PC+Cl__0219",
+      "lipid_name": "PC 14:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8078312049387865
+    },
+    {
+      "candidate_index": 0,
+      "candidate_id": "PA-H__0075",
+      "lipid_name": "PA 16:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.729606198131629
+    },
+    {
+      "candidate_index": 260,
+      "candidate_id": "PEO-H__0211",
+      "lipid_name": "PE O-18:3_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6471690508908507
+    },
+    {
+      "candidate_index": 229,
+      "candidate_id": "PEO-H__0126",
+      "lipid_name": "PE O-18:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6919909071159304
+    },
+    {
+      "candidate_index": 329,
+      "candidate_id": "PG-H__0460",
+      "lipid_name": "PG 17:0_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.7656382983426151
+    },
+    {
+      "candidate_index": 350,
+      "candidate_id": "PCO+HCOO__0083",
+      "lipid_name": "PC O-16:1_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.578408761742055
+    },
+    {
+      "candidate_index": 221,
+      "candidate_id": "PEO-H__0107",
+      "lipid_name": "PE O-16:1_24:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.7013195190822913
+    },
+    {
+      "candidate_index": 374,
+      "candidate_id": "PC+Cl__0180",
+      "lipid_name": "PC 14:0_20:4",
+      "lipid_class": "PC",
+      "cone_isolation": 0.6036768381098416
+    },
+    {
+      "candidate_index": 111,
+      "candidate_id": "PS-H__0133",
+      "lipid_name": "PS 18:1_18:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6381277857367744
+    }
+  ],
+  "k13_easy": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    },
+    {
+      "candidate_index": 375,
+      "candidate_id": "PC+Cl__0219",
+      "lipid_name": "PC 14:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8078312049387865
+    },
+    {
+      "candidate_index": 0,
+      "candidate_id": "PA-H__0075",
+      "lipid_name": "PA 16:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.729606198131629
+    },
+    {
+      "candidate_index": 260,
+      "candidate_id": "PEO-H__0211",
+      "lipid_name": "PE O-18:3_22:0",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6471690508908507
+    },
+    {
+      "candidate_index": 229,
+      "candidate_id": "PEO-H__0126",
+      "lipid_name": "PE O-18:0_20:5",
+      "lipid_class": "PE",
+      "cone_isolation": 0.6919909071159304
+    },
+    {
+      "candidate_index": 329,
+      "candidate_id": "PG-H__0460",
+      "lipid_name": "PG 17:0_20:1",
+      "lipid_class": "PG",
+      "cone_isolation": 0.7656382983426151
+    },
+    {
+      "candidate_index": 350,
+      "candidate_id": "PCO+HCOO__0083",
+      "lipid_name": "PC O-16:1_18:0",
+      "lipid_class": "PC",
+      "cone_isolation": 0.578408761742055
+    },
+    {
+      "candidate_index": 221,
+      "candidate_id": "PEO-H__0107",
+      "lipid_name": "PE O-16:1_24:1",
+      "lipid_class": "PE",
+      "cone_isolation": 0.7013195190822913
+    },
+    {
+      "candidate_index": 374,
+      "candidate_id": "PC+Cl__0180",
+      "lipid_name": "PC 14:0_20:4",
+      "lipid_class": "PC",
+      "cone_isolation": 0.6036768381098416
+    },
+    {
+      "candidate_index": 111,
+      "candidate_id": "PS-H__0133",
+      "lipid_name": "PS 18:1_18:3",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6381277857367744
+    },
+    {
+      "candidate_index": 235,
+      "candidate_id": "PEO-H__0133",
+      "lipid_name": "PE O-18:0_22:6",
+      "lipid_class": "PE",
+      "cone_isolation": 0.5753436233533816
+    },
+    {
+      "candidate_index": 82,
+      "candidate_id": "PS-H__0036",
+      "lipid_name": "PS 14:0_20:0",
+      "lipid_class": "PS",
+      "cone_isolation": 0.6390062445975
+    },
+    {
+      "candidate_index": 114,
+      "candidate_id": "PS-H__0457",
+      "lipid_name": "PS 17:0_18:2",
+      "lipid_class": "PS",
+      "cone_isolation": 0.8592744291053689
+    }
+  ],
+  "support_cosine_summary": {
+    "k1": {
+      "maximum_pairwise_cosine": 0.0
+    },
+    "k3": {
+      "maximum_pairwise_cosine": 0.0
+    },
+    "k5": {
+      "maximum_pairwise_cosine": 9.542690504224222e-05
+    },
+    "k10": {
+      "maximum_pairwise_cosine": 0.02258741712627176
+    },
+    "k13": {
+      "maximum_pairwise_cosine": 0.08771054511014673
+    }
+  },
   "synthetic_contract": {
     "spatial_template": "foreground-masked per-pixel channel L2 norm of frozen real B, normalized to foreground median 1",
     "k1_relative_abundance": [
@@ -75,7 +3044,42 @@
       1,
       1
     ],
+    "k5_relative_abundance": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "k10_relative_abundance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "k13_relative_abundance": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
     "shared_template_across_k3_members": true,
+    "shared_template_across_all_active_members": true,
     "global_scale_target": {
       "statistic": "median foreground B_sim channel-L2 norm",
       "value": 0.6036783456802368

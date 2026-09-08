@@ -36,6 +36,9 @@ REPORT_GATE = 1.0e-3
 SENSITIVITY_GATE = 1.0e-4
 EXPECTED_A_SHAPE = (1084, 391)
 K3_POOL_FRACTION = 0.10
+CASE_SIZES = {"k1": 1, "k3": 3, "k5": 5, "k10": 10, "k13": 13}
+CASE_NAMES = tuple(CASE_SIZES)
+VALIDATED_K3_SUPPORT = [352, 375, 0]
 LOSS_NAMES = ("reconstruction", "ssim", "tv", "anchor")
 CFG_DEFAULTS = {
     "seed": 42,
@@ -143,17 +146,54 @@ def candidate_record(index: int, scores: np.ndarray, metadata: dict) -> dict:
     }
 
 
-def compute_design(A: np.ndarray, metadata: dict, paths: dict[str, Path]) -> dict:
+def cone_isolation_scores(A: np.ndarray, cached_design: dict | None) -> np.ndarray:
     scores = np.full(A.shape[1], np.nan, dtype=np.float64)
+    cached_ranking = (cached_design or {}).get("cone_isolation_ranking", [])
+    if len(cached_ranking) == A.shape[1]:
+        for row in cached_ranking:
+            index = int(row["candidate_index"])
+            if index < 0 or index >= A.shape[1] or np.isfinite(scores[index]):
+                raise RuntimeError("INVALID_CACHED_DESIGN: cone-isolation ranking")
+            scores[index] = float(row["cone_isolation"])
+        if np.all(np.isfinite(scores)):
+            return scores
+
     for index in range(A.shape[1]):
         norm = np.linalg.norm(A[:, index])
         if not np.isfinite(norm) or norm <= 0:
             continue
         _, residual = nnls(np.delete(A, index, axis=1), A[:, index])
         scores[index] = residual / norm
+    return scores
+
+
+def support_cosine_report(indices: list[int], cosine: np.ndarray) -> dict:
+    pairs = [
+        {
+            "candidate_index_left": int(left),
+            "candidate_index_right": int(right),
+            "cosine_similarity": float(cosine[left, right]),
+        }
+        for left, right in itertools.combinations(indices, 2)
+    ]
+    return {
+        "maximum_pairwise_cosine": max(
+            (row["cosine_similarity"] for row in pairs), default=0.0
+        ),
+        "pairwise_cosine": pairs,
+    }
+
+
+def compute_design(
+    A: np.ndarray,
+    metadata: dict,
+    paths: dict[str, Path],
+    cached_design: dict | None = None,
+) -> dict:
+    scores = cone_isolation_scores(A, cached_design)
     finite = np.flatnonzero(np.isfinite(scores))
-    if finite.size < 3:
-        raise RuntimeError("EASY_CASE_NOT_IDENTIFIABLE: fewer than three finite cone scores")
+    if finite.size < max(CASE_SIZES.values()):
+        raise RuntimeError("EASY_CASE_NOT_IDENTIFIABLE: too few finite cone scores")
     ranking = sorted(finite.tolist(), key=lambda j: (-scores[j], j))
     k1_index = ranking[0]
 
@@ -172,14 +212,44 @@ def compute_design(A: np.ndarray, metadata: dict, paths: dict[str, Path]) -> dic
             indices,
         )
 
-    k3_indices = min(itertools.combinations(pool, 3), key=triplet_key)
-    pairs = []
-    for left, right in itertools.combinations(k3_indices, 2):
-        pairs.append({
-            "candidate_index_left": int(left),
-            "candidate_index_right": int(right),
-            "cosine_similarity": float(cosine[left, right]),
-        })
+    k3_indices = list(min(itertools.combinations(pool, 3), key=triplet_key))
+    if k3_indices != VALIDATED_K3_SUPPORT:
+        raise RuntimeError(
+            f"VALIDATED_DESIGN_MISMATCH: K=3 support {k3_indices} != "
+            f"{VALIDATED_K3_SUPPORT}"
+        )
+
+    nested_indices = list(k3_indices)
+    nested_supports = {"k1": [k1_index], "k3": list(k3_indices)}
+    for case_name in ("k5", "k10", "k13"):
+        while len(nested_indices) < CASE_SIZES[case_name]:
+            def extension_key(index: int) -> tuple:
+                similarities = cosine[index, nested_indices]
+                return (
+                    float(np.max(similarities)),
+                    float(np.mean(similarities)),
+                    -float(scores[index]),
+                    ranking.index(index),
+                    index,
+                )
+
+            available = [index for index in pool if index not in nested_indices]
+            if not available:
+                raise RuntimeError("EASY_CASE_NOT_IDENTIFIABLE: easy pool exhausted")
+            nested_indices.append(min(available, key=extension_key))
+        nested_supports[case_name] = list(nested_indices)
+
+    nested_ok = all(
+        set(nested_supports[left]).issubset(nested_supports[right])
+        for left, right in zip(CASE_NAMES, CASE_NAMES[1:])
+    )
+    if not nested_ok:
+        raise RuntimeError("INVALID_DESIGN: supports are not nested")
+
+    support_reports = {
+        case_name: support_cosine_report(indices, cosine)
+        for case_name, indices in nested_supports.items()
+    }
     return {
         "status": "DESIGN_READY",
         "asset_paths": {key: str(value) for key, value in paths.items()},
@@ -187,6 +257,9 @@ def compute_design(A: np.ndarray, metadata: dict, paths: dict[str, Path]) -> dic
         "channel_count": int(A.shape[0]),
         "cone_isolation_definition": "min_{z>=0} ||A_-j z - A_j||_2 / ||A_j||_2 (scipy.optimize.nnls)",
         "ranking_rule": "descending finite cone-isolation score, then ascending candidate index",
+        "cone_isolation_ranking": [
+            candidate_record(index, scores, metadata) for index in ranking
+        ],
         "k1_easy": [candidate_record(k1_index, scores, metadata)],
         "k3_selection_rule": {
             "pool": f"top ceil({K3_POOL_FRACTION} * n_finite) cone-isolated candidates",
@@ -194,12 +267,35 @@ def compute_design(A: np.ndarray, metadata: dict, paths: dict[str, Path]) -> dic
             "triplet_order": "minimize maximum pairwise cosine, then mean cosine, then maximize minimum and summed cone-isolation, then lexicographic indices",
         },
         "k3_easy": [candidate_record(j, scores, metadata) for j in k3_indices],
-        "k3_pairwise_cosine": pairs,
+        "k3_pairwise_cosine": support_reports["k3"]["pairwise_cosine"],
+        "nested_extension_rule": {
+            "starting_support": VALIDATED_K3_SUPPORT,
+            "candidate_pool": f"same top ceil({K3_POOL_FRACTION} * n_finite) cone-isolated pool used by K=3",
+            "greedy_order": "minimize maximum cosine to selected support, then mean cosine, then maximize cone-isolation, then ranking position and candidate index",
+            "solver_outcomes_used_for_selection": False,
+        },
+        "supports_nested": nested_ok,
+        **{
+            f"{case_name}_easy": [
+                candidate_record(index, scores, metadata) for index in nested_supports[case_name]
+            ]
+            for case_name in ("k5", "k10", "k13")
+        },
+        "support_cosine_summary": {
+            case_name: {
+                "maximum_pairwise_cosine": report["maximum_pairwise_cosine"]
+            }
+            for case_name, report in support_reports.items()
+        },
         "synthetic_contract": {
             "spatial_template": "foreground-masked per-pixel channel L2 norm of frozen real B, normalized to foreground median 1",
             "k1_relative_abundance": [1],
             "k3_relative_abundance": [1, 1, 1],
+            "k5_relative_abundance": [1] * 5,
+            "k10_relative_abundance": [1] * 10,
+            "k13_relative_abundance": [1] * 13,
             "shared_template_across_k3_members": True,
+            "shared_template_across_all_active_members": True,
             "global_scale_target": {
                 "statistic": "median foreground B_sim channel-L2 norm",
                 "value": TARGET_B_P50,
@@ -645,7 +741,11 @@ def prepare(args):
     paths = asset_paths(args.asset_root.resolve())
     validation = validate_assets(paths)
     A, metadata = load_library_and_metadata(paths)
-    design = compute_design(A, metadata, paths)
+    design_path = args.output_dir / "design.json"
+    cached_design = None
+    if design_path.exists():
+        cached_design = json.loads(design_path.read_text(encoding="utf-8"))
+    design = compute_design(A, metadata, paths, cached_design)
     design["asset_validation"] = validation
     atomic_write_json(args.output_dir / "design.json", design)
     return paths, A, metadata, design
@@ -670,7 +770,7 @@ def parse_args() -> argparse.Namespace:
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
     mode.add_argument("--oracle-only", action="store_true")
-    mode.add_argument("--case", choices=("k1", "k3"))
+    mode.add_argument("--case", choices=CASE_NAMES)
     parser.add_argument("--device", default="cuda")
     return parser.parse_args()
 
@@ -685,7 +785,12 @@ def main() -> None:
             "asset_paths": design["asset_paths"],
             "k1_easy": design["k1_easy"],
             "k3_easy": design["k3_easy"],
+            "k5_easy": design["k5_easy"],
+            "k10_easy": design["k10_easy"],
+            "k13_easy": design["k13_easy"],
             "k3_pairwise_cosine": design["k3_pairwise_cosine"],
+            "support_cosine_summary": design["support_cosine_summary"],
+            "supports_nested": design["supports_nested"],
             "synthetic_contract": design["synthetic_contract"],
             "training_contract": design["training_contract"],
             "gpu_work_performed": False,
@@ -693,7 +798,7 @@ def main() -> None:
         return
 
     B_real, mask = load_real_spatial_assets(paths, A)
-    requested_cases = ("k1", "k3") if args.oracle_only else (args.case,)
+    requested_cases = CASE_NAMES if args.oracle_only else (args.case,)
     oracle_reports = []
     prepared_cases = {}
     for case_name in requested_cases:
