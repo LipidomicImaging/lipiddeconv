@@ -328,7 +328,17 @@ These are existing gates and must not be retuned based on current results.
 
 
 
-v48 all-reported-candidate identity validation COMPLETED
+v48 identity validation complete
+
+status = CONDITIONAL_READY_FOR_V49
+
+frozen historical rho_zero implementation recovered
+
+v49a code preparation complete
+
+rho_zero parity NOT YET executed
+
+no remote v49a cases executed
 
 
 Cached input: `results/v48_pilot_48/v48_pilot_lipid_observations.csv` (18,768 rows)

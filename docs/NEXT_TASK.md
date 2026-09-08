@@ -2,7 +2,33 @@
 
 
 
-Status: COMPLETED
+Status: V49A_RHO_ZERO_PARITY_READY
+
+The frozen historical rho_zero implementation has been recovered into
+`src/rho_zero.py`. Numerical parity has NOT yet been executed.
+
+First, manually run on the remote GPU host:
+
+```text
+python analysis/run_v49a_identity_calibration.py \
+  --asset-root /root/autodl-tmp/decon-lipid \
+  --output-dir results/v49a_identity_runtime \
+  --device cuda \
+  --validate-rho-zero
+```
+
+Only after parity reports PASS, manually run the fixed four-case smoke test:
+
+```text
+python analysis/run_v49a_identity_calibration.py \
+  --asset-root /root/autodl-tmp/decon-lipid \
+  --output-dir results/v49a_identity_runtime \
+  --device cuda \
+  --smoke
+```
+
+After human inspection of smoke output, rerun without `--smoke` for the full
+192 cases. Do not auto-start the full run after smoke.
 
 
 
