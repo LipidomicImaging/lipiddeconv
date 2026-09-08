@@ -164,6 +164,26 @@ def load_runtime_assets(asset_root: Path, device_name: str) -> dict:
     missing = [str(path) for path in required if not path.exists()]
     if missing:
         raise RuntimeError("MISSING_DEPENDENCY: " + "; ".join(missing))
+
+    lock_path = ROOT / "results/v48_production_ista_lock/v48_production_ista_lock.json"
+    if not lock_path.exists():
+        raise RuntimeError("MISSING_DEPENDENCY: " + str(lock_path))
+    lock_hashes = json.loads(lock_path.read_text(encoding="utf-8"))["hashes_sha256"]
+    stage0_assets = {
+        "checkpoint": (paths["checkpoint"], "production_checkpoint"),
+        "A_library": (paths["A_library"], "A_library"),
+        "B_cube": (paths["B_cube"], "B_cube"),
+        "candidate_metadata": (paths["candidate_metadata"], "candidate_metadata"),
+        "channel_axis": (paths["channel_axis"], "channel_axis"),
+        "production_abundance": (paths["production_abundance"], "reference_X"),
+        "production_solver_implementation": (
+            ROOT / "src/lipid_ista.py", "production_solver_implementation"
+        ),
+    }
+    for asset_name, (path, hash_name) in stage0_assets.items():
+        if not path.exists() or sha256(path) != lock_hashes.get(hash_name):
+            raise RuntimeError(f"STAGE0_LOCK_MISMATCH: {asset_name}")
+
     device = torch.device(device_name)
     if device.type == "cuda" and not torch.cuda.is_available():
         raise RuntimeError("MISSING_DEPENDENCY: CUDA requested but unavailable")
@@ -174,6 +194,16 @@ def load_runtime_assets(asset_root: Path, device_name: str) -> dict:
     mask = np.load(paths["foreground_mask"]).astype(bool)
     X_prod = np.load(paths["production_abundance"]).astype(np.float32)
     metadata = np.load(paths["candidate_metadata"], allow_pickle=True).item()
+    if A.shape != (1084, 391):
+        raise RuntimeError("STAGE0_LOCK_MISMATCH: A_library")
+    if len(metadata["candidate_id"]) != 391:
+        raise RuntimeError("STAGE0_LOCK_MISMATCH: candidate_metadata")
+    print(json.dumps({
+        "status": "STAGE0_LOCK_PASS",
+        "validated_assets": list(stage0_assets),
+        "A_shape": list(A.shape),
+        "candidate_count": len(metadata["candidate_id"]),
+    }), flush=True)
     measured = np.moveaxis(B_real, -1, 0).reshape(A.shape[0], -1)
     real_x = X_prod.reshape(A.shape[1], -1)
     flat_mask = mask.reshape(-1)
