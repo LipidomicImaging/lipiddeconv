@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import re
 from pathlib import Path
 from typing import Any
@@ -33,11 +34,27 @@ def json_number(value: float) -> float | None:
     return value if np.isfinite(value) else None
 
 
+def to_jsonable(value: Any) -> Any:
+    if isinstance(value, np.generic):
+        return to_jsonable(value.item())
+    if isinstance(value, np.ndarray):
+        return to_jsonable(value.tolist())
+    if isinstance(value, dict):
+        return {key: to_jsonable(item) for key, item in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [to_jsonable(item) for item in value]
+    if isinstance(value, Path):
+        return str(value)
+    if isinstance(value, float) and not math.isfinite(value):
+        return None
+    return value
+
+
 def atomic_write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
     temporary.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False),
+        json.dumps(to_jsonable(payload), ensure_ascii=False, indent=2, allow_nan=False),
         encoding="utf-8",
     )
     temporary.replace(path)
