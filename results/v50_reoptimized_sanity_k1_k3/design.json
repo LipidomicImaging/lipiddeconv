@@ -1,0 +1,136 @@
+{
+  "status": "DESIGN_READY",
+  "asset_paths": {
+    "A_library": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\A_library.npy",
+    "B_cube": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\B_cube.npy",
+    "foreground_mask": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\foreground_pixel_mask.npy",
+    "candidate_metadata": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\candidate_metadata_final.npy",
+    "channel_axis": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\shared_mz_final.npy"
+  },
+  "candidate_count": 391,
+  "channel_count": 1084,
+  "cone_isolation_definition": "min_{z>=0} ||A_-j z - A_j||_2 / ||A_j||_2 (scipy.optimize.nnls)",
+  "ranking_rule": "descending finite cone-isolation score, then ascending candidate index",
+  "k1_easy": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    }
+  ],
+  "k3_selection_rule": {
+    "pool": "top ceil(0.1 * n_finite) cone-isolated candidates",
+    "pool_size": 40,
+    "triplet_order": "minimize maximum pairwise cosine, then mean cosine, then maximize minimum and summed cone-isolation, then lexicographic indices"
+  },
+  "k3_easy": [
+    {
+      "candidate_index": 352,
+      "candidate_id": "PCO+HCOO__0085",
+      "lipid_name": "PC O-16:1_18:2",
+      "lipid_class": "PC",
+      "cone_isolation": 0.905898646108516
+    },
+    {
+      "candidate_index": 375,
+      "candidate_id": "PC+Cl__0219",
+      "lipid_name": "PC 14:1_17:1",
+      "lipid_class": "PC",
+      "cone_isolation": 0.8078312049387865
+    },
+    {
+      "candidate_index": 0,
+      "candidate_id": "PA-H__0075",
+      "lipid_name": "PA 16:0_24:0",
+      "lipid_class": "PA",
+      "cone_isolation": 0.729606198131629
+    }
+  ],
+  "k3_pairwise_cosine": [
+    {
+      "candidate_index_left": 352,
+      "candidate_index_right": 375,
+      "cosine_similarity": 0.0
+    },
+    {
+      "candidate_index_left": 352,
+      "candidate_index_right": 0,
+      "cosine_similarity": 0.0
+    },
+    {
+      "candidate_index_left": 375,
+      "candidate_index_right": 0,
+      "cosine_similarity": 0.0
+    }
+  ],
+  "synthetic_contract": {
+    "spatial_template": "foreground-masked per-pixel channel L2 norm of frozen real B, normalized to foreground median 1",
+    "k1_relative_abundance": [
+      1
+    ],
+    "k3_relative_abundance": [
+      1,
+      1,
+      1
+    ],
+    "shared_template_across_k3_members": true,
+    "global_scale_target": {
+      "statistic": "median foreground B_sim channel-L2 norm",
+      "value": 0.6036783456802368
+    },
+    "forward_model": "B_sim = A_library @ X_true",
+    "residual": 0.0,
+    "noise": 0.0
+  },
+  "training_contract": {
+    "network": "fresh lipid_ista.LipidENNet per case",
+    "unfolded_ista_layers": 12,
+    "checkpoint_loads": "forbidden; none",
+    "training_inputs": [
+      "frozen normalized A_library",
+      "case B_sim"
+    ],
+    "X_true_used_by_optimization": false,
+    "losses": [
+      "reconstruction",
+      "ssim",
+      "tv",
+      "anchor"
+    ],
+    "loss_source": "exact production train (1).ipynb compute_advanced_losses semantics",
+    "loss_balancer": "fresh exact production AutomaticWeightedLoss(num_losses=4)",
+    "optimizer": {
+      "name": "AdamW",
+      "lr_net": 0.0001,
+      "lr_loss_balancer": 0.001,
+      "weight_decay": 0.0001
+    },
+    "scheduler": {
+      "name": "CosineAnnealingLR",
+      "T_max": 5000,
+      "eta_min": 1e-06
+    },
+    "channel_weighting": "auto",
+    "gradient_clip_norm": 1.0,
+    "warmup_epochs": 500,
+    "epoch_ceiling": 5000,
+    "early_stop": {
+      "minimum_epochs": 800,
+      "check_frequency": 25,
+      "patience_checks": 12,
+      "physical_loss_rtol": 0.0002,
+      "abundance_rtol": 0.0005
+    }
+  },
+  "asset_validation": {
+    "production_lock": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v48_production_ista_lock\\v48_production_ista_lock.json",
+    "validated_hashes": {
+      "A_library": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69",
+      "B_cube": "e716031ee95953a071f34beb386381eeb05cb4198096951b504a46ea6cab99e4",
+      "candidate_metadata": "c6567b2e852c0e97255efbffe501f0527f2c8ea4daedbb181bb0d25308f230b3",
+      "channel_axis": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf"
+    }
+  }
+}
