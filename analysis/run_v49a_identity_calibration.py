@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
+from rho_zero import identity_weights, rho_zero_from_weighted_case
 
 K_VALUES = (13, 25, 55, 103)
 RESIDUALS = (0.0, 0.1)
@@ -108,6 +109,92 @@ def asset_paths(asset_root: Path) -> dict[str, PurePosixPath]:
     }
 
 
+def reconstruct_v48_certificate_b(
+    manifest: dict, asset_root: Path, A: np.ndarray, empirical: np.ndarray
+) -> np.ndarray:
+    """Exact v48 attach_v47_certificates_v48_pilot.py reconstruction path."""
+    truth_spec = (
+        asset_root / "v48_pilot_48" / "cases" / manifest["case_name"] / "truth_spec.npz"
+    )
+    spec = np.load(truth_spec)
+    selected = spec["selected_indices"].astype(int)
+    true_values = spec["true_abundances"].astype(np.float32)
+    clean = A[:, selected] @ true_values
+    sources = spec["residual_source_indices"].astype(int)
+    if float(manifest["residual_ratio"]) == 0.0:
+        return clean
+    sampled = empirical[:, sources].copy()
+    sampled /= np.maximum(np.linalg.norm(sampled, axis=0, keepdims=True), 1e-15)
+    sampled *= float(manifest["residual_ratio"]) * np.linalg.norm(clean)
+    observed = np.maximum(clean[:, None] + sampled, 0.0)
+    return observed.mean(axis=1)
+
+
+def run_rho_zero_parity(asset_root: Path, output_dir: Path, pairs: pd.DataFrame) -> None:
+    """Recompute the frozen 12-pair v48 certificate and record raw parity."""
+    data = asset_root / "adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready"
+    reference = asset_root / "results_758_v38_ce29_empiricalfwhm_globalq99_fixed_library_joint_earlystop"
+    manifest_path = asset_root / "v48_pilot_48" / "v48_pilot_manifest.csv"
+    required = [data / "A_library.npy", data / "B_cube.npy", data / "foreground_pixel_mask.npy", reference / "X_abundance.npy", manifest_path]
+    missing = [str(path) for path in required if not path.exists()]
+    if missing:
+        raise RuntimeError("MISSING_V48_PARITY_ASSET: " + "; ".join(missing))
+    manifest = pd.read_csv(manifest_path).set_index("case_id")
+    A = np.load(data / "A_library.npy").astype(np.float64)
+    A = A[0] if A.ndim == 3 else A
+    B_real = np.load(data / "B_cube.npy").astype(np.float64)[0]
+    mask = np.load(data / "foreground_pixel_mask.npy").astype(bool)
+    X_prod = np.load(reference / "X_abundance.npy").astype(np.float64)
+    measured = np.moveaxis(B_real, -1, 0).reshape(A.shape[0], -1)
+    real_x = X_prod.reshape(A.shape[1], -1)
+    empirical = measured[:, mask.reshape(-1)] - A @ real_x[:, mask.reshape(-1)]
+    empirical = empirical[:, np.linalg.norm(empirical, axis=0) > 1e-12]
+    weights = identity_weights(A)
+    reconstructed: dict[int, np.ndarray] = {}
+    results = []
+    for pair in pairs.to_dict("records"):
+        case_id = int(pair["case_id"])
+        if case_id not in manifest.index:
+            raise RuntimeError(f"MISSING_V48_CASE_MANIFEST: case_id={case_id}")
+        if case_id not in reconstructed:
+            reconstructed[case_id] = reconstruct_v48_certificate_b(
+                manifest.loc[case_id].to_dict(), asset_root, A, empirical
+            )
+        recomputed = rho_zero_from_weighted_case(
+            A, reconstructed[case_id], int(pair["candidate_index"]), weights
+        )["rho_zero"]
+        cached = float(pair["cached_rho_zero"])
+        absolute = abs(float(recomputed) - cached)
+        results.append({
+            **pair,
+            "recomputed_rho_zero": float(recomputed),
+            "abs_diff": absolute,
+            "relative_diff": absolute / max(abs(cached), 1e-30),
+        })
+    output_dir.mkdir(parents=True, exist_ok=True)
+    result_frame = pd.DataFrame(results)
+    result_frame.to_csv(output_dir / "rho_zero_parity_results.csv", index=False)
+    status = {
+        "status": "REVIEW_REQUIRED",
+        "n_pairs": int(len(pairs)),
+        "n_success": int(len(results)),
+        "max_abs_diff": float(result_frame.abs_diff.max()),
+        "median_abs_diff": float(result_frame.abs_diff.median()),
+        "max_relative_diff": float(result_frame.relative_diff.max()),
+        "median_relative_diff": float(result_frame.relative_diff.median()),
+        "historical_weighting": "identity (W=I)",
+        "historical_objective": "nonnegative NNLS q_star and leave-one-candidate-out nonnegative NNLS q_deleted; rho_zero=max(0,(q_deleted-q_star)/(b^T W^2 b + 1e-12))",
+        "notes": [
+            "Exact v48 reconstruction from run_v48_pilot_48.py and attach_v47_certificates_v48_pilot.py.",
+            "No frozen numerical tolerance exists; raw differences require human review before PASS is recorded.",
+        ],
+    }
+    (output_dir / "rho_zero_parity_status.json").write_text(
+        json.dumps(status, indent=2), encoding="utf-8"
+    )
+    print(json.dumps(status, indent=2))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--asset-root", type=Path, required=True)
@@ -136,7 +223,8 @@ def main() -> None:
         return
     # Validation establishes the status file; it must not require one first.
     if args.validate_rho_zero:
-        raise SystemExit("RHO_ZERO_PARITY_VALIDATION_REQUIRES_REMOTE_RUNTIME_IMPLEMENTATION")
+        run_rho_zero_parity(args.asset_root, args.output_dir, pairs)
+        return
     parity_status = args.output_dir / "rho_zero_parity_status.json"
     if not parity_status.exists():
         raise SystemExit("RHO_ZERO_PARITY_NOT_VALIDATED")

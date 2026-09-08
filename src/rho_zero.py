@@ -13,7 +13,9 @@ import numpy as np
 from scipy.optimize import nnls
 
 
-EPSILON_Q = 1e-15
+# v48 attach_v47_certificates_v48_pilot.py overrides the v47 audit default
+# with this value for every cached pilot certificate.
+EPSILON_Q = 1e-12
 
 
 def identity_weights(A: np.ndarray) -> np.ndarray:
@@ -79,11 +81,11 @@ def rho_zero_from_weighted_case(
     _, deleted_residual = nnls(Aw[:, keep], bw, maxiter=10 * Aw.shape[1])
     q_star = float(residual * residual)
     q_deleted = float(deleted_residual * deleted_residual)
-    signal = float(bw @ bw) + float(epsilon_q)
-    delta_q = max(0.0, q_deleted - q_star)
+    signal = max(float(bw @ bw) + float(epsilon_q), float(epsilon_q))
+    delta_q = q_deleted - q_star
     return {
         "rho_zero": max(0.0, delta_q / signal),
-        "necessity_signal": delta_q / max(signal, float(epsilon_q)),
+        "necessity_signal": delta_q / signal,
         "necessity_fit": delta_q / max(q_star, float(epsilon_q)),
         "q_star": q_star,
         "q_deleted": q_deleted,
