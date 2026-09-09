@@ -561,6 +561,10 @@ def run_one(args, context: dict, design: dict, tables: dict, dataset: str, condi
         write_json(path, report)
         raise RuntimeError(f"TRAINING_FAILED_NONFINITE_LOSS: {dataset}")
     records, raw = v54.learned_records(dataset, case, learned, context, args.rho_workers)
+    raw["molecular_level"].update(recall_accounting(
+        raw["molecular_level"]["TP"], raw["molecular_level"]["FP"],
+        raw["molecular_level"]["FN"], raw["molecular_level"]["TP"], raw["molecular_level"]["FP"]))
+    preserve_candidate_records(directory, dataset, case, learned, records, context)
     for level in ("candidate_level", "molecular_level"):
         counts = raw[level]
         counts.update(wilson(counts["FP"], counts["TP"] + counts["FP"]))
@@ -586,38 +590,63 @@ def wilson(fp: int, n: int) -> dict:
     return {"FDR": p, "FDR_lower95": max(0.0, center - radius), "FDR_upper95": min(1.0, center + radius)}
 
 
+def recall_accounting(raw_tp: int, raw_fp: int, raw_fn: int, tp: int, fp: int) -> dict:
+    loss = raw_tp - tp
+    require(loss >= 0, "FILTER_CANNOT_ADD_TRUE_IDENTITIES")
+    retention = tp / raw_tp if raw_tp else None
+    return {"raw_solver_TP": raw_tp, "raw_solver_FP": raw_fp, "raw_solver_FN": raw_fn,
+            "filtered_TP": tp, "filtered_FP": fp, "filtered_FN": raw_fn + loss,
+            "true_positive_retention": retention, "TP_retention": retention,
+            "filter_induced_true_loss": loss,
+            "filter_induced_true_loss_fraction": loss / raw_tp if raw_tp else None}
+
+
 def metrics(units: list[dict], reports: dict, score=None, threshold=None) -> dict:
     retained = units if score is None else ([] if threshold is None else [u for u in units if u[score] >= threshold])
     tp = sum(u["molecular_truth"] for u in retained)
     fp = len(retained) - tp
     truth = sum(r["all_truth_molecular_identity_count"] for r in reports.values())
     reportable = sum(r["reportable_truth_molecular_identity_count"] for r in reports.values())
+    raw_tp = sum(u["molecular_truth"] for u in units)
     return {"N_retained": len(retained), "TP": tp, "FP": fp, "FN": truth - tp,
+            **recall_accounting(raw_tp, len(units) - raw_tp, truth - raw_tp, tp, fp),
             "precision": tp / len(retained) if retained else None, **wilson(fp, len(retained)),
             "coverage": len(retained) / len(units) if units else None,
             "all_truth_recall": tp / truth if truth else None,
             "reportable_truth_recall": sum(u["reportable_truth"] for u in retained) / reportable if reportable else None}
 
 
-def calibration_curve(units: list[dict], score: str) -> list[dict]:
+def calibration_curve(units: list[dict], score: str, reports: dict) -> list[dict]:
     require(all(np.isfinite(u[score]) for u in units), f"NONFINITE_CAL_SCORE: {score}")
     # Keep tied molecular scores together. No HOLD information enters this function.
     groups = defaultdict(list)
     for unit in units:
         groups[unit[score]].append(unit)
-    rows, tp, fp = [], 0, 0
+    truth = sum(r["all_truth_molecular_identity_count"] for r in reports.values())
+    reportable = sum(r["reportable_truth_molecular_identity_count"] for r in reports.values())
+    raw_tp = sum(u["molecular_truth"] for u in units)
+    rows, tp, fp, reportable_tp = [], 0, 0, 0
     for threshold in sorted(groups, reverse=True):
         group = groups[threshold]
         tp += sum(u["molecular_truth"] for u in group)
         fp += sum(not u["molecular_truth"] for u in group)
+        reportable_tp += sum(u["reportable_truth"] for u in group)
         rows.append({"threshold": threshold, "N_retained": tp + fp, "TP": tp, "FP": fp,
-                     "FDR": fp / (tp + fp), "precision": tp / (tp + fp)})
+                     "FN": truth - tp, **wilson(fp, tp + fp), "precision": tp / (tp + fp),
+                     **recall_accounting(raw_tp, len(units) - raw_tp, truth - raw_tp, tp, fp),
+                     "all_truth_recall": tp / truth if truth else None,
+                     "reportable_truth_recall": reportable_tp / reportable if reportable else None,
+                     "coverage": (tp + fp) / len(units) if units else None})
     return rows
 
 
 def choose_threshold(curve: list[dict], target: float):
     eligible = [r for r in curve if r["FDR"] <= target]
-    return min(eligible, key=lambda r: (-r["N_retained"], r["threshold"])) if eligible else None
+    if not eligible:
+        return None
+    chosen = min(eligible, key=lambda r: (-r["N_retained"], r["threshold"]))
+    # Preserve the frozen threshold payload and selection rule; new diagnostics live in curves.
+    return {k: chosen[k] for k in ("threshold", "N_retained", "TP", "FP", "FDR", "precision")}
 
 
 def load_completed(output: Path, condition: str, split: str, levels, fingerprint: str):
@@ -645,8 +674,8 @@ def subset(units, reports, k=None, replicate=None):
     return [u for u in units if u["dataset_id"] in ids], {d: reports[d] for d in ids}
 
 
-def threshold_pack(units) -> tuple[dict, dict]:
-    curves = {score: calibration_curve(units, score) for score in ("rho_zero", "X_hat")}
+def threshold_pack(units, reports) -> tuple[dict, dict]:
+    curves = {score: calibration_curve(units, score, reports) for score in ("rho_zero", "X_hat")}
     pack = {score: {f"FDR{int(target * 100)}": choose_threshold(curves[score], target)
                     for target in (0.05, 0.01)} for score in curves}
     return pack, curves
@@ -701,13 +730,139 @@ def rho_distributions(units, split, levels):
     return rows
 
 
-def aggregate_condition(output: Path, design: dict, condition="CLEAN") -> dict:
+GEOMETRY_FIELDS = ("cone_isolation", "max_fragment_cosine", "max_full_cosine",
+                   "collective_gain", "lipid_class")
+
+
+def analysis_geometry(context: dict) -> dict:
+    result = {}
+    for source in context["geometry"]:
+        row = {key: source[key] for key in GEOMETRY_FIELDS if key != "collective_gain"}
+        full = float(np.clip(source["max_full_cosine"], -1, 1))
+        row["collective_gain"] = math.sqrt(max(0.0, 1 - full * full)) - source["cone_isolation"]
+        result[int(source["candidate_index"])] = row
+    return result
+
+
+def preserve_candidate_records(directory, dataset, case, learned, records, context):
+    """Save all solver outputs; rho remains evaluated only for reported candidates."""
+    geometry = analysis_geometry(context)
+    reported = {r["candidate_index"]: r for r in records}
+    xhat = learned["X_hat"][:, case["foreground_mask"]].mean(axis=1, dtype=np.float64)
+    names = context["metadata"]["lipid_name"]
+    truth_names = {str(names[i]) for i in case["active_indices"]}
+    reportable_names = {str(names[i]) for i in case["reportable_truth_indices"]}
+    split, replicate, label = dataset.split("_")
+    rows = []
+    for i, name in enumerate(names):
+        rows.append({"dataset_id": dataset, "candidate_index": i, "lipid_name": str(name),
+                     "X_hat": float(xhat[i]), "rho_zero": reported[i]["rho_zero"] if i in reported else None,
+                     "rho_zero_status": "COMPUTED" if i in reported else "NOT_COMPUTED_NOT_REPORTED",
+                     "raw_solver_reported": i in reported, "molecular_truth": str(name) in truth_names,
+                     "reportable_truth": str(name) in reportable_names,
+                     "K": int(label[1:]), "replicate": replicate, "split": split, **geometry[i]})
+    write_rows(directory / "candidate_false_negative_records.csv", rows)
+
+
+def export_false_negative_records(output, destination, condition, units, reports, pack, context):
+    """Flags are the primary molecular decisions, repeated on constituent candidates.
+
+    Keep both score rules in separate rows. Geometry of multi-candidate names is
+    preserved as candidate-indexed values, never collapsed to a new group score.
+    """
+    geometry = analysis_geometry(context)
+    by_unit = {(u["dataset_id"], u["lipid_name"]): u for u in units}
+    candidate_rows, molecular_rows = [], []
+    for dataset, report in reports.items():
+        directory = dataset_directory(output, condition, dataset)
+        preserved = directory / "candidate_false_negative_records.csv"
+        if preserved.exists():
+            candidates = read_rows(preserved)
+            for row in candidates:
+                if row["rho_zero"] == "":
+                    row["rho_zero"] = None
+        else:
+            # Legacy cached results lack sub-gate abundance. Preserve missingness;
+            # do not rerun inference or falsely replace missing abundances by zero.
+            known = {r["candidate_index"]: r for r in read_rows(directory / "reported_identity_records.csv")}
+            raw = report["learned_raw_identity_performance"]
+            split, replicate, label = dataset.split("_")
+            candidates = [{"dataset_id": dataset, "candidate_index": i, "lipid_name": str(name),
+                           "rho_zero": known[i]["rho_zero"] if i in known else None,
+                           "X_hat": known[i]["X_hat"] if i in known else None,
+                           "rho_zero_status": "COMPUTED" if i in known else "NOT_COMPUTED_NOT_REPORTED",
+                           "raw_solver_reported": i in known,
+                           "molecular_truth": str(name) in raw["truth_lipid_names"],
+                           "reportable_truth": str(name) in raw["reportable_truth_lipid_names"],
+                           "K": int(label[1:]), "replicate": replicate, "split": split,
+                           **geometry[i]} for i, name in enumerate(context["metadata"]["lipid_name"])]
+        grouped = defaultdict(list)
+        for row in candidates:
+            grouped[row["lipid_name"]].append(row)
+        for name, members in grouped.items():
+            unit = by_unit.get((dataset, name))
+            first = members[0]
+            for score, targets in pack.items():
+                flags = {}
+                for target in ("FDR5", "FDR1"):
+                    entry = targets[target]
+                    flags[f"retained_by_global_{target}"] = bool(
+                        unit is not None and entry is not None and unit[score] >= entry["threshold"])
+                    flags[f"global_{target}_threshold_available"] = entry is not None
+                    flags[f"solver_missed_truth_{target}"] = bool(first["molecular_truth"] and unit is None)
+                    flags[f"filter_removed_truth_{target}"] = bool(
+                        first["molecular_truth"] and unit is not None and not flags[f"retained_by_global_{target}"])
+                common = {"condition": condition, "filter_score": score, **flags}
+                for member in members:
+                    candidate_rows.append({**member, **common,
+                                           "retention_flag_unit": "dataset/lipid_name",
+                                           "X_hat_available": member["X_hat"] is not None})
+                molecular = {key: first[key] for key in
+                             ("dataset_id", "lipid_name", "molecular_truth", "reportable_truth", "K", "replicate", "split")}
+                molecular.update({**common, "raw_solver_reported": unit is not None,
+                                  "candidate_indices": [m["candidate_index"] for m in members],
+                                  "rho_zero": unit["rho_zero"] if unit else None,
+                                  "rho_zero_status": "COMPUTED" if unit else "NOT_COMPUTED_NOT_REPORTED",
+                                  "X_hat": unit["X_hat"] if unit else (
+                                      sum(m["X_hat"] for m in members) if all(m["X_hat"] is not None for m in members) else None),
+                                  "X_hat_definition": "sum reported candidates (primary score); for solver misses, sum all candidates if available"})
+                for key in GEOMETRY_FIELDS:
+                    molecular[key] = first[key] if len(members) == 1 else {
+                        str(m["candidate_index"]): m[key] for m in members}
+                molecular_rows.append(molecular)
+    write_rows(destination / "candidate_false_negative_analysis.csv", candidate_rows)
+    write_rows(destination / "molecular_false_negative_analysis.csv", molecular_rows)
+
+
+def export_recall_curves(destination, condition, cal, cal_reports, hold, hold_reports, levels):
+    rows = []
+    for split, units, reports in (("CAL", cal, cal_reports), ("HOLD", hold, hold_reports)):
+        for k in (None, *levels):
+            us, rs = subset(units, reports, k=k)
+            for score in ("rho_zero", "X_hat"):
+                rows.extend({"condition": condition, "split": split, "K": k if k else "GLOBAL",
+                             "score": score, "curve_role": "DESCRIPTIVE_NO_HOLD_THRESHOLD_SELECTION", **row}
+                            for row in calibration_curve(us, score, rs))
+    # Each CSV contains global/per-K curves for both scores and both splits.
+    base = ["condition", "split", "K", "score", "curve_role", "threshold", "TP", "FP", "FDR",
+            "FDR_lower95", "FDR_upper95", "precision"]
+    write_rows(destination / "fdr_vs_recall_curves.csv", rows,
+               base + ["all_truth_recall", "reportable_truth_recall", "TP_retention", "coverage",
+                       "raw_solver_TP", "raw_solver_FP", "raw_solver_FN", "filtered_TP", "filtered_FP", "filtered_FN",
+                       "true_positive_retention", "filter_induced_true_loss", "filter_induced_true_loss_fraction"])
+    write_rows(destination / "fdr_vs_tp_retention_curves.csv", rows,
+               base + ["TP_retention", "coverage", "all_truth_recall", "reportable_truth_recall",
+                       "raw_solver_TP", "raw_solver_FP", "raw_solver_FN", "filtered_TP", "filtered_FP", "filtered_FN",
+                       "true_positive_retention", "filter_induced_true_loss", "filter_induced_true_loss_fraction"])
+
+
+def aggregate_condition(output: Path, design: dict, context: dict, condition="CLEAN") -> dict:
     levels = K_LEVELS if condition == "CLEAN" else ROBUST_K
     destination = output if condition == "CLEAN" else output / "robustness" / condition
     fingerprint = design["design_fingerprint"]
     cal, cal_reports, cal_hashes = load_completed(output, condition, "CAL", levels, fingerprint)
-    pack, curves = threshold_pack(cal)
-    secondary = {str(k): threshold_pack(subset(cal, cal_reports, k=k)[0])[0]["rho_zero"] for k in levels}
+    pack, curves = threshold_pack(cal, cal_reports)
+    secondary = {str(k): threshold_pack(*subset(cal, cal_reports, k=k))[0]["rho_zero"] for k in levels}
     frozen = {"status": "CAL_THRESHOLDS_FROZEN_BEFORE_HOLD", "condition": condition,
               "design_fingerprint": fingerprint, "CAL_source_hashes": cal_hashes,
               "global_thresholds": pack, "SECONDARY_K_SPECIFIC_CALIBRATION": secondary,
@@ -722,18 +877,26 @@ def aggregate_condition(output: Path, design: dict, condition="CLEAN") -> dict:
         write_json(frozen_path, frozen)
     for score, name in (("rho_zero", "rho"), ("X_hat", "abundance")):
         write_rows(destination / f"global_{name}_calibration_curve.csv", curves[score],
-                   ["threshold", "N_retained", "TP", "FP", "FDR", "precision"])
+                   list(curves[score][0]) if curves[score] else ["threshold", "TP", "FP", "FDR", "precision",
+                       "all_truth_recall", "reportable_truth_recall", "TP_retention", "coverage"])
     clean = None
     if condition != "CLEAN":
         clean = v54.read_json(output / "global_frozen_thresholds.json")
         require(clean["design_fingerprint"] == fingerprint and clean["condition"] == "CLEAN",
                 "CLEAN_THRESHOLD_DESIGN_MISMATCH")
-        clean_cal, _, clean_hashes = load_completed(output, "CLEAN", "CAL", K_LEVELS, fingerprint)
+        clean_cal, clean_reports, clean_hashes = load_completed(output, "CLEAN", "CAL", K_LEVELS, fingerprint)
         require(clean["CAL_source_hashes"] == clean_hashes and
-                clean["global_thresholds"] == threshold_pack(clean_cal)[0],
+                clean["global_thresholds"] == threshold_pack(clean_cal, clean_reports)[0],
                 "CLEAN_FROZEN_THRESHOLD_OR_CAL_SOURCE_CHANGED")
     # HOLD is intentionally loaded only after CAL thresholds are persisted.
     hold, hold_reports, _ = load_completed(output, condition, "HOLD", levels, fingerprint)
+    export_recall_curves(destination, condition, cal, cal_reports, hold, hold_reports, levels)
+    export_false_negative_records(output, destination, condition, cal + hold,
+                                  {**cal_reports, **hold_reports}, pack, context)
+    for dataset, dataset_report in {**cal_reports, **hold_reports}.items():
+        us = [u for u in cal + hold if u["dataset_id"] == dataset]
+        dataset_report["learned_raw_identity_performance"]["molecular_level"].update(
+            metrics(us, {dataset: dataset_report}))
     overall, by_k, by_r = validation(hold, hold_reports, pack, levels)
     secondary_results = {}
     for k in levels:
@@ -753,6 +916,13 @@ def aggregate_condition(output: Path, design: dict, condition="CLEAN") -> dict:
     # This retains the entire raw reported set and supplies the same CI/replicate summaries.
     raw_validation = validation(hold, hold_reports, {"X_hat": {"RAW_REPORTED": {"threshold": GATE}}}, levels)
     raw["HOLD_by_K_with_replicate_FDR_statistics"] = raw_validation[1]
+    dataset_validation = {}
+    for dataset, dataset_report in {**cal_reports, **hold_reports}.items():
+        us = [u for u in cal + hold if u["dataset_id"] == dataset]
+        dataset_validation[dataset] = {
+            f"{score}_{target}": {"threshold_available": entry is not None,
+                **metrics(us, {dataset: dataset_report}, score, entry["threshold"] if entry else None)}
+            for score, targets in pack.items() for target, entry in targets.items()}
     statistical = {"method": "95% Wilson binomial false-proportion interval; z=1.959963984540054",
                    "zero_retained_policy": "FDR/precision/CI undefined (null), not zero",
                    "replicate_SD": "sample SD (ddof=1), separate from Wilson CI",
@@ -763,7 +933,15 @@ def aggregate_condition(output: Path, design: dict, condition="CLEAN") -> dict:
               "SECONDARY_K_SPECIFIC_CALIBRATION": secondary_results,
               "clean_threshold_transfer_without_recalibration": transfer, "raw_molecular_metrics": raw,
               "dataset_raw_metrics": {d: r["learned_raw_identity_performance"] for d, r in {**cal_reports, **hold_reports}.items()},
+              "dataset_global_filtered_metrics": dataset_validation,
               "statistical_summary": statistical, "limitations": LIMITATIONS,
+              "recall_accounting": {
+                  "definition": "filtered_FN = raw_solver_FN + filter_induced_true_loss; all mapped identities remain truth",
+                  "zero_raw_TP_policy": "TP retention and filter-induced loss fraction are null",
+                  "curve_files": ["fdr_vs_recall_curves.csv", "fdr_vs_tp_retention_curves.csv"],
+                  "record_files": ["candidate_false_negative_analysis.csv", "molecular_false_negative_analysis.csv"],
+                  "record_flags": "global molecular decision per filter_score; unavailable thresholds retain none",
+                  "missing_scores": "Unreported candidates have no computed rho; legacy sub-gate X_hat may be null"},
               "final_deployment_threshold_frozen": False}
     write_json(destination / "heldout_global_validation.json", overall)
     write_rows(destination / "heldout_by_K.csv", by_k)
@@ -775,6 +953,7 @@ def aggregate_condition(output: Path, design: dict, condition="CLEAN") -> dict:
                "Status: PENDING_REVIEW. Final deployment threshold frozen: NO.", "",
                "Primary: one global CAL threshold per target, applied unchanged across HOLD K and mapping replicates.",
                "Secondary K-specific calibration is descriptive only.", "",
+               "Solver misses (raw_solver_FN) and filtering losses (filter_induced_true_loss) are separate; their sum is filtered_FN. TP retention is relative to raw solver TP, whereas recall uses mapped truth denominators.", "",
                "## Global HOLD validation", "", "```json", json.dumps(overall, indent=2), "```", "",
                "## Interpretation boundaries", "", *[f"- {line}" for line in LIMITATIONS]]
     stage0.atomic_write_text(destination / "summary.md", "\n".join(summary) + "\n")
@@ -879,12 +1058,12 @@ def main() -> None:
         print("DESIGN_FROZEN_BEFORE_TRAINING; explicit --freeze-design records review; no GPU training")
         return
     if args.aggregate_clean:
-        aggregate_condition(args.output_dir, design)
+        aggregate_condition(args.output_dir, design, context)
         print("CLEAN_ANALYSIS_WRITTEN_PENDING_REVIEW")
         return
     if args.aggregate_robustness:
         for condition in MISMATCH:
-            aggregate_condition(args.output_dir, design, condition)
+            aggregate_condition(args.output_dir, design, context, condition)
         print("ROBUSTNESS_ANALYSIS_WRITTEN_PENDING_REVIEW")
         return
     condition = args.robustness_condition or args.condition
