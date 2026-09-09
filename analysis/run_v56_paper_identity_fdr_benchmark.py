@@ -35,6 +35,10 @@ FEATURES = (*v54.CONTINUOUS_FEATURES, "d_single")
 TARGET_SIGNAL = 0.6036783456802368
 GATE = 1e-3
 TEMPLATE_RELATIVE_FLOOR = 1e-8
+TEMPLATE_AMPLITUDE_RULE = (
+    "Divide each selected complete production map by its positive foreground mean before identity assignment; "
+    "then apply only the existing one dataset-wide scalar, with no subsequent per-identity scaling."
+)
 MISMATCH = {
     "MISMATCH_MILD": {"fragment_log_sigma": 0.10, "fragment_dropout": 0.05,
                       "parent_min": 0.9, "parent_max": 1.1},
@@ -52,6 +56,7 @@ LIMITATIONS = [
     "Wilson intervals are descriptive binomial intervals; repeated identities, nested K and shared templates induce dependence and are not independent biological trials.",
     "Spectral mismatch excludes measurement noise: locked production B background is zeroed. No Gaussian, low-signal foreground or production residual noise fallback is permitted.",
     "Log gaps involving numerical-zero false rho are descriptive, not physical quantities.",
+    "This is a controlled fixed-total-signal complexity benchmark using foreground-mean-normalized real spatial templates; it preserves spatial morphology but does not preserve the original between-lipid abundance distribution.",
 ]
 
 
@@ -253,6 +258,39 @@ def make_tables(context: dict) -> tuple[dict, dict]:
     return tables, details
 
 
+def normalized_template_bank(context: dict, templates: list[dict]) -> tuple[np.ndarray, dict]:
+    """Normalize full maps once; retain raw X_real for selection and provenance."""
+    indices = tuple(sorted(t["original_candidate_index"] for t in templates))
+    cached = context.get("normalized_template_bank")
+    if cached is not None and cached[0] == indices:
+        return cached[1], cached[2]
+    bank = np.zeros_like(context["X_real"], dtype=np.float32)
+    metadata = {}
+    for i in indices:
+        original = context["X_real"][i]
+        mean = float(original[context["mask"]].mean(dtype=np.float64))
+        require(np.isfinite(mean) and mean > 0, f"INVALID_TEMPLATE_FOREGROUND_MEAN: {i}")
+        normalized = (original.astype(np.float64) / mean).astype(np.float32)
+        require(np.isfinite(normalized).all(), f"NONFINITE_NORMALIZED_TEMPLATE: {i}")
+        require(np.array_equal(original > 0, normalized > 0), f"TEMPLATE_OCCUPANCY_CHANGED: {i}")
+        require(np.allclose(normalized.astype(np.float64) * mean, original, rtol=2e-6, atol=0),
+                f"TEMPLATE_SPATIAL_SHAPE_CHANGED: {i}")
+        normalized_mean = float(normalized[context["mask"]].mean(dtype=np.float64))
+        require(np.isclose(normalized_mean, 1.0, rtol=2e-6), f"NORMALIZED_TEMPLATE_MEAN_NOT_ONE: {i}")
+        bank[i] = normalized
+        metadata[i] = {"template_amplitude_rule": TEMPLATE_AMPLITUDE_RULE,
+                       "pre_normalization_foreground_mean": mean,
+                       "normalized_foreground_mean": normalized_mean}
+    context["normalized_template_bank"] = (indices, bank, metadata)
+    return bank, metadata
+
+
+def annotate_template_amplitudes(tables: dict, context: dict) -> None:
+    _, metadata = normalized_template_bank(context, tables["template_bank"])
+    for template in tables["template_bank"]:
+        template.update(metadata[template["original_candidate_index"]])
+
+
 def audit_tables(tables: dict, context: dict) -> dict:
     pairs, templates, mappings = (tables[k] for k in
                                  ("matched_identity_pairs", "template_bank", "template_mappings"))
@@ -315,12 +353,21 @@ def audit_tables(tables: dict, context: dict) -> dict:
     for t in templates:
         require(np.isclose(t["foreground_mean"], context["foreground_means"][t["original_candidate_index"]],
                            rtol=1e-12, atol=0), "TEMPLATE_MEAN_CHANGED")
+    _, amplitude_metadata = normalized_template_bank(context, templates)
+    for t in templates:
+        expected = amplitude_metadata[t["original_candidate_index"]]
+        # Fresh dry-run tables may not yet have annotation; saved designs must agree.
+        for key, value in expected.items():
+            if key in t:
+                require(t[key] == value, f"TEMPLATE_AMPLITUDE_METADATA_CHANGED: {key}")
     balance = {}
     for k in K_LEVELS:
         ps = [p for p in pairs if p["block"] <= k // 25]
         ts = [t for t in templates if t["block"] <= k // 25]
         balance[str(k)] = {
             "template_abundance": v54.numeric_summary([t["foreground_mean"] for t in ts]),
+            "normalized_template_abundance": v54.numeric_summary([
+                amplitude_metadata[t["original_candidate_index"]]["normalized_foreground_mean"] for t in ts]),
             "pair_ambiguity": v54.numeric_summary([p["pair_ambiguity_score"] for p in ps]),
             "identity_quintile_counts": dict(Counter(p["quintile"] for p in ps)),
             "template_quintile_counts": dict(Counter(t["quintile"] for t in ts)),
@@ -335,6 +382,14 @@ def audit_tables(tables: dict, context: dict) -> dict:
             "replicates_change_only_within_block_mapping": True, "solver_candidates": 391,
             "training_input_keys": ["case_name", "B_sim", "foreground_mask"],
             "balance_by_K": balance, "class_balance_is_approximate": True,
+            "template_amplitude_rule": TEMPLATE_AMPLITUDE_RULE,
+            "template_amplitudes": amplitude_metadata,
+            "complete_spatial_shape_and_occupancy_preserved": True,
+            "dataset_truth_complexity": {
+                f"{r['condition']}/{r['dataset_id']}": {
+                    key: (json.loads(r[key]) if key == "K_true_pixel_foreground" and isinstance(r[key], str) else r[key])
+                    for key in ("reportable_truth_global_count", "reportable_fraction", "K_true_pixel_foreground")}
+                for r in tables["dataset_manifest"] if "reportable_fraction" in r},
             "available_singleton_ambiguity": v54.numeric_summary(
                 [r["ambiguity_design_score"] for r in geometry.values()]),
             "selected_identity_ambiguity": v54.numeric_summary(
@@ -356,7 +411,13 @@ def construct_case(context: dict, tables: dict, dataset: str, condition="CLEAN")
     mapping = [m for m in tables["template_mappings"] if m["split"] == split and
                m["replicate"] == replicate and m["block"] <= k // 25]
     require(len(mapping) == k, "DATASET_MAPPING_COUNT")
-    case = v54.construct_dataset(context, mapping, dataset)
+    bank, _ = normalized_template_bank(context, tables["template_bank"])
+    # V54 assigns these normalized templates and performs the unchanged single
+    # dataset scalar. Raw production maps in the original context remain untouched.
+    case = v54.construct_dataset({**context, "X_real": bank}, mapping, dataset)
+    case.update({"template_amplitude_rule": TEMPLATE_AMPLITUDE_RULE,
+                 "reportable_truth_global_count": case["reportable_truth_molecular_identity_count"],
+                 "reportable_fraction": case["reportable_truth_molecular_identity_count"] / k})
     require(np.isclose(case["achieved_foreground_B_l2_p50"], TARGET_SIGNAL, rtol=2e-6), "SIGNAL_NORMALIZATION_FAILED")
     perturbations = []
     if condition != "CLEAN":
@@ -401,7 +462,7 @@ def design_fingerprint(design: dict) -> str:
     return payload_hash(payload)
 
 
-def load_design(output: Path, context: dict, frozen=False) -> tuple[dict, dict]:
+def load_design(output: Path, context: dict, frozen=False, amplitude_upgrade=False) -> tuple[dict, dict]:
     design = v54.read_json(output / "design.json")
     require(design["design_fingerprint"] == design_fingerprint(design), "DESIGN_CONTENT_CHANGED")
     require(design["script_version"] == VERSION, "DESIGN_VERSION_MISMATCH")
@@ -410,20 +471,53 @@ def load_design(output: Path, context: dict, frozen=False) -> tuple[dict, dict]:
         require(design["status"] == "DESIGN_FROZEN_BEFORE_TRAINING", "EXPLICIT_DESIGN_REVIEW_AND_FREEZE_REQUIRED")
     require(design["input_hashes"] == context["validation"]["hashes_sha256"] and
             design["result_hashes"] == context["result_hashes"], "FROZEN_INPUT_CHANGED")
-    require(design["implementation_hashes"] == implementation_hashes(), "FROZEN_IMPLEMENTATION_CHANGED")
+    if amplitude_upgrade:
+        require(design["status"] == "DESIGN_PREPARED" and
+                design.get("template_amplitude_rule") != TEMPLATE_AMPLITUDE_RULE,
+                "AMPLITUDE_UPGRADE_REQUIRES_OLD_UNFROZEN_DESIGN")
+        own_path = str(Path(__file__).resolve().relative_to(ROOT))
+        require({k: v for k, v in design["implementation_hashes"].items() if k != own_path} ==
+                {k: v for k, v in implementation_hashes().items() if k != own_path},
+                "NON_AMPLITUDE_IMPLEMENTATION_CHANGED")
+    else:
+        require(design["implementation_hashes"] == implementation_hashes(), "FROZEN_IMPLEMENTATION_CHANGED")
+        require(design.get("template_amplitude_rule") == TEMPLATE_AMPLITUDE_RULE,
+                "PREPARE_NORMALIZED_TEMPLATE_DESIGN_FIRST")
     for name, checksum in design["table_hashes"].items():
         require(digest(output / f"{name}.csv") == checksum, f"FROZEN_TABLE_CHANGED: {name}")
     tables = {name: read_rows(output / f"{name}.csv") for name in TABLES}
+    if amplitude_upgrade:
+        annotate_template_amplitudes(tables, context)
     audit_tables(tables, context)
     return design, tables
 
 
 def prepare(output: Path, context: dict) -> dict:
+    previous = None
     if (output / "design.json").exists():
-        design, _ = load_design(output, context)
-        return {"status": "EXISTING_DESIGN_VALIDATED_NOT_REDRAWN", "design_status": design["status"]}
-    tables, details = make_tables(context)
-    audit = audit_tables(tables, context)
+        previous = v54.read_json(output / "design.json")
+        if previous.get("template_amplitude_rule") == TEMPLATE_AMPLITUDE_RULE:
+            design, _ = load_design(output, context)
+            return {"status": "EXISTING_DESIGN_VALIDATED_NOT_REDRAWN", "design_status": design["status"]}
+        require(previous.get("status") == "DESIGN_PREPARED", "CANNOT_REGENERATE_FROZEN_DESIGN")
+        # Refuse to invalidate any oracle, training, checkpoint or aggregation result.
+        for subdir in (output / "clean", output / "robustness"):
+            require(not subdir.exists() or not any(p.is_file() for p in subdir.rglob("*")),
+                    "AMPLITUDE_REGENERATION_REQUIRES_NO_RUNTIME_RESULTS")
+        require(not (output / "report.json").exists() and not (output / "global_frozen_thresholds.json").exists(),
+                "AMPLITUDE_REGENERATION_REQUIRES_NO_ANALYSIS_RESULTS")
+        oracle_summary = output / "oracle_summary.csv"
+        require(not oracle_summary.exists() or not read_rows(oracle_summary),
+                "AMPLITUDE_REGENERATION_REQUIRES_NO_ORACLE_RESULTS")
+        previous, tables = load_design(output, context, amplitude_upgrade=True)
+        details = {key: previous[key] for key in (
+            "singleton_identity_count", "unused_singleton_identities", "template_numerical_floor",
+            "template_relative_floor", "eligible_template_count", "excluded_template_indices",
+            "unused_eligible_template_indices")}
+    else:
+        tables, details = make_tables(context)
+    annotate_template_amplitudes(tables, context)
+    audit_tables(tables, context)
     # CPU-only synthesis records true complexity and signal scaling, not oracle/training.
     clean_summaries = {}
     for dataset in dataset_ids():
@@ -431,10 +525,13 @@ def prepare(output: Path, context: dict) -> dict:
         clean_summaries[dataset] = {"global_signal_scalar": case["global_scale"],
                                    "global_truth_K": case["global_truth_K"],
                                    "reportable_truth_global_count": case["reportable_truth_molecular_identity_count"],
+                                   "reportable_fraction": case["reportable_fraction"],
                                    "K_true_pixel_foreground": case["K_true_pixel_foreground"],
                                    "achieved_clean_signal_p50": case["achieved_foreground_B_l2_p50"]}
     for row in tables["dataset_manifest"]:
         row.update(clean_summaries[row["dataset_id"]])
+        row["template_amplitude_rule"] = TEMPLATE_AMPLITUDE_RULE
+    audit = audit_tables(tables, context)
     for name, rows in tables.items():
         write_rows(output / f"{name}.csv", rows)
     write_rows(output / "oracle_summary.csv", [], ["condition", "dataset_id", "status", "FP", "FN"])
@@ -448,7 +545,14 @@ def prepare(output: Path, context: dict) -> dict:
               "ambiguity_score": "mean(rank parent cosine, rank fragment cosine, rank full cosine, 1-rank cone isolation, rank collective gain)",
               "derived_geometry_provenance": "V54 audited convention: d_single=sqrt(max(0,1-max_full_cosine^2)); collective_gain=d_single-cone_isolation; no geometry optimization rerun",
               "block_rule": "7 x 25; exactly five members from each rank quintile per block; greedy class balance",
-              "template_rule": "175 evenly spaced abundance ranks above prespecified numerical floor; original identity discarded; no individual map rescaling",
+              "template_rule": "175 evenly spaced raw abundance ranks above prespecified numerical floor; original identity discarded; original indices, ranks, blocks and mappings retained; foreground-mean normalization before assignment",
+              "template_amplitude_rule": TEMPLATE_AMPLITUDE_RULE,
+              "template_amplitudes": {str(t["original_candidate_index"]): {
+                  key: t[key] for key in ("pre_normalization_foreground_mean", "normalized_foreground_mean")}
+                  for t in tables["template_bank"]},
+              "dataset_truth_complexity": clean_summaries,
+              "amplitude_regeneration": {"previous_design_fingerprint": previous["design_fingerprint"] if previous else None,
+                                         "existing_indices_blocks_mappings_reused": previous is not None},
               "signal_target": TARGET_SIGNAL, "reporting_gate": GATE,
               "robustness": MISMATCH, "robustness_clean_reference": "Existing V56 CLEAN runs; never retrain CLEAN for robustness",
               "mismatch_truth_contract": "Reuse exact CLEAN X_true and global scalar; original A_solver used for training, diagnostic NNLS and rho_zero",
@@ -471,6 +575,7 @@ def prepare(output: Path, context: dict) -> dict:
 
 def truth_report(case: dict) -> dict:
     return {k: case[k] for k in ("global_truth_K", "global_truth_identity_count",
+                                "template_amplitude_rule", "reportable_truth_global_count", "reportable_fraction",
                                 "all_truth_molecular_identity_count", "reportable_truth_molecular_identity_count",
                                 "subthreshold_truth_molecular_identity_count", "K_true_pixel_foreground", "global_scale")}
 
