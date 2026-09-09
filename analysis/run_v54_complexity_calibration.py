@@ -748,6 +748,24 @@ def train_resumable(
     from run_758_ista import build_channel_weights
     from utils import set_seed
 
+    def _rng_state_to_cpu_byte_tensor(value, field_name):
+        if value is None:
+            return None
+        try:
+            if isinstance(value, torch.Tensor):
+                tensor = value.detach().to(
+                    device="cpu", dtype=torch.uint8
+                ).clone()
+            else:
+                tensor = torch.as_tensor(
+                    value, dtype=torch.uint8, device="cpu"
+                ).clone()
+        except Exception as exc:
+            raise RuntimeError(
+                f"INVALID_CHECKPOINT_RNG_STATE: {field_name}"
+            ) from exc
+        return tensor.reshape(-1)
+
     if device_name.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError("CUDA_REQUIRED_FOR_TRAINING")
     device = torch.device(device_name)
@@ -799,9 +817,26 @@ def train_resumable(
         optimizer.load_state_dict(saved["optimizer"])
         scheduler.load_state_dict(saved["scheduler"])
         if saved.get("torch_rng_state") is not None:
-            torch.set_rng_state(saved["torch_rng_state"].cpu())
+            torch.set_rng_state(
+                _rng_state_to_cpu_byte_tensor(
+                    saved["torch_rng_state"], "torch_rng_state"
+                )
+            )
         if torch.cuda.is_available() and saved.get("cuda_rng_states") is not None:
-            torch.cuda.set_rng_state_all(saved["cuda_rng_states"])
+            raw_cuda_states = saved["cuda_rng_states"]
+            if isinstance(raw_cuda_states, (torch.Tensor, np.ndarray)):
+                raw_cuda_states = [raw_cuda_states]
+            elif not isinstance(raw_cuda_states, (list, tuple)):
+                raise RuntimeError(
+                    "INVALID_CHECKPOINT_RNG_STATE: cuda_rng_states container"
+                )
+            normalized_cuda_states = [
+                _rng_state_to_cpu_byte_tensor(
+                    state, f"cuda_rng_states[{index}]"
+                )
+                for index, state in enumerate(raw_cuda_states)
+            ]
+            torch.cuda.set_rng_state_all(normalized_cuda_states)
         history = saved["history"]
         diagnostics = saved["diagnostics"]
         previous_eval_loss = saved["previous_eval_loss"]
@@ -825,8 +860,15 @@ def train_resumable(
             "previous_eval_x": previous_eval_x.detach().cpu() if previous_eval_x is not None else None,
             "previous_checkpoint_x": previous_checkpoint_x,
             "stable_checks": stable_checks,
-            "torch_rng_state": torch.get_rng_state(),
-            "cuda_rng_states": torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None,
+            "torch_rng_state": _rng_state_to_cpu_byte_tensor(
+                torch.get_rng_state(), "torch_rng_state"
+            ),
+            "cuda_rng_states": [
+                _rng_state_to_cpu_byte_tensor(
+                    state, f"cuda_rng_states[{index}]"
+                )
+                for index, state in enumerate(torch.cuda.get_rng_state_all())
+            ] if torch.cuda.is_available() else None,
             "terminal_stop_reason": (
                 "converged" if stable_checks >= Cfg.early_stop_patience
                 else ("max_epochs" if epoch >= MAX_EPOCH else None)
