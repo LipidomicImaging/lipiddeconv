@@ -383,7 +383,9 @@ def audit_tables(tables: dict, context: dict) -> dict:
             "training_input_keys": ["case_name", "B_sim", "foreground_mask"],
             "balance_by_K": balance, "class_balance_is_approximate": True,
             "template_amplitude_rule": TEMPLATE_AMPLITUDE_RULE,
-            "template_amplitudes": amplitude_metadata,
+            "template_amplitudes": {
+                str(k): v for k, v in amplitude_metadata.items()
+            },
             "complete_spatial_shape_and_occupancy_preserved": True,
             "dataset_truth_complexity": {
                 f"{r['condition']}/{r['dataset_id']}": {
