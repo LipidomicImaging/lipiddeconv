@@ -1092,6 +1092,19 @@ def extract_thresholds(payload: dict | None) -> dict[str, float | None]:
         return None
 
     payload = payload or {}
+
+    # Backward compatibility with the manually frozen v54 CAL file:
+    # scopes -> POOLED -> rho_tau_FDR5 / rho_tau_FDR1
+    scopes = payload.get("scopes")
+    if isinstance(scopes, dict):
+        pooled = scopes.get("POOLED")
+        if isinstance(pooled, dict):
+            return {
+                "tau_cal_FDR5": find_value(pooled.get("rho_tau_FDR5")),
+                "tau_cal_FDR1": find_value(pooled.get("rho_tau_FDR1")),
+            }
+
+    # Native v54 aggregate / generic nested schemas.
     for _ in range(4):
         nested = next((
             payload[key]
@@ -1104,6 +1117,7 @@ def extract_thresholds(payload: dict | None) -> dict[str, float | None]:
         if nested is None:
             break
         payload = nested
+
     return {
         name: find_value(payload.get(name))
         for name in ("tau_cal_FDR5", "tau_cal_FDR1")
