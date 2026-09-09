@@ -558,6 +558,8 @@ def construct_dataset(context: dict, mapping: list[dict], dataset_id: str) -> di
     foreground_truth_means = X_true[:, context["mask"]].mean(axis=1, dtype=np.float64)
     reportable = [index for index in true_indices if foreground_truth_means[index] > REPORT_GATE]
     K_pixel = np.sum(X_true[true_indices][:, context["mask"]] > REPORT_GATE, axis=0)
+    all_truth_count = len(true_indices)
+    reportable_truth_count = len(reportable)
     return {
         "case_name": dataset_id, "active_indices": true_indices,
         "X_true": X_true, "B_sim": B_sim.astype(np.float32, copy=False),
@@ -565,10 +567,166 @@ def construct_dataset(context: dict, mapping: list[dict], dataset_id: str) -> di
         "target_foreground_B_l2_p50": TARGET_SIGNAL_P50,
         "achieved_foreground_B_l2_p50": achieved,
         "forward_consistency_max_abs": forward_error,
-        "global_truth_identity_count": len(true_indices),
+        "global_truth_K": all_truth_count,
+        "global_truth_identity_count": all_truth_count,
+        "all_truth_molecular_identity_count": all_truth_count,
+        "reportable_truth_molecular_identity_count": reportable_truth_count,
+        "subthreshold_truth_molecular_identity_count": all_truth_count - reportable_truth_count,
         "reportable_truth_indices": reportable,
+        "K_true_pixel_foreground": numeric_summary(K_pixel),
         "true_per_pixel_K_foreground": numeric_summary(K_pixel),
     }
+
+
+def reporting_gate_oracle(case: dict, A_solver: np.ndarray, metadata: dict) -> dict:
+    """Exact NNLS oracle whose PASS denominator is reportable scaled truth."""
+    mask = case["foreground_mask"]
+    mean_spectrum = case["B_sim"][:, mask].mean(axis=1).astype(np.float64)
+    recovered, residual_norm = nnls(
+        A_solver.astype(np.float64), mean_spectrum, maxiter=10 * A_solver.shape[1]
+    )
+    reported_indices = set(np.flatnonzero(recovered > REPORT_GATE).astype(int).tolist())
+    all_truth_indices = set(map(int, case["active_indices"]))
+    reportable_truth_indices = set(map(int, case["reportable_truth_indices"]))
+    names = np.asarray(metadata["lipid_name"], dtype=str)
+    reported_names = {str(names[index]) for index in reported_indices}
+    all_truth_names = {str(names[index]) for index in all_truth_indices}
+    reportable_truth_names = {str(names[index]) for index in reportable_truth_indices}
+    false_names = reported_names - all_truth_names
+    false_candidate_indices = reported_indices - all_truth_indices
+
+    all_tp = len(reported_names & all_truth_names)
+    all_fp = len(false_names)
+    all_fn = len(all_truth_names - reported_names)
+    reportable_tp = len(reported_names & reportable_truth_names)
+    reportable_fp = len(false_names)
+    reportable_fn = len(reportable_truth_names - reported_names)
+    serious = reportable_fn > 0 or reportable_fp > 0
+    return {
+        "status": "SERIOUS_MOLECULAR_AMBIGUITY" if serious else "PASS",
+        "scope": "exact full-library foreground-mean NNLS at the 1e-3 reporting gate",
+        "reporting_gate": REPORT_GATE,
+        "all_truth_molecular_identity_count": len(all_truth_names),
+        "reportable_truth_molecular_identity_count": len(reportable_truth_names),
+        "subthreshold_truth_molecular_identity_count": (
+            len(all_truth_names) - len(reportable_truth_names)
+        ),
+        "all_truth_metrics": {
+            "TP": all_tp, "FP": all_fp, "FN": all_fn,
+            "all_truth_recall": safe_ratio(all_tp, len(all_truth_names)),
+        },
+        "reportable_truth_metrics": {
+            "TP": reportable_tp, "FP": reportable_fp, "FN": reportable_fn,
+            "precision": safe_ratio(reportable_tp, reportable_tp + reportable_fp),
+            "recall": safe_ratio(reportable_tp, len(reportable_truth_names)),
+            "FDR": safe_ratio(reportable_fp, reportable_tp + reportable_fp),
+        },
+        "candidate_level_all_truth_metrics": {
+            "TP": len(reported_indices & all_truth_indices),
+            "FP": len(false_candidate_indices),
+            "FN": len(all_truth_indices - reported_indices),
+            "all_truth_recall": safe_ratio(
+                len(reported_indices & all_truth_indices), len(all_truth_indices)
+            ),
+        },
+        "candidate_level_reportable_truth_metrics": {
+            "TP": len(reported_indices & reportable_truth_indices),
+            "FP": len(false_candidate_indices),
+            "FN": len(reportable_truth_indices - reported_indices),
+            "precision": safe_ratio(
+                len(reported_indices & reportable_truth_indices),
+                len(reported_indices & reportable_truth_indices) + len(false_candidate_indices),
+            ),
+            "recall": safe_ratio(
+                len(reported_indices & reportable_truth_indices),
+                len(reportable_truth_indices),
+            ),
+            "FDR": safe_ratio(
+                len(false_candidate_indices),
+                len(reported_indices & reportable_truth_indices) + len(false_candidate_indices),
+            ),
+        },
+        "reported_subthreshold_true_molecular_identity_count": len(
+            (reported_names & all_truth_names) - reportable_truth_names
+        ),
+        "reconstruction_relative_residual": float(
+            residual_norm / max(np.linalg.norm(mean_spectrum), 1e-30)
+        ),
+        "reported_candidate_indices": sorted(reported_indices),
+        "reported_molecular_identities": sorted(reported_names),
+        "false_reported_molecular_identities": sorted(false_names),
+        "identity_pool_or_mapping_redesigned_from_oracle": False,
+        "pass_fail_denominator": "reportable scaled truth molecular identities only",
+    }
+
+
+def dataset_truth_complexity_summaries(
+    context: dict, mappings: list[dict]
+) -> dict[str, dict]:
+    by_dataset: dict[str, list[dict]] = defaultdict(list)
+    for row in mappings:
+        by_dataset[str(row["dataset_id"])].append(row)
+    summaries = {}
+    for dataset_id in DATASETS:
+        rows = sorted(by_dataset[dataset_id], key=lambda row: int(row["mapping_slot"]))
+        case = construct_dataset(context, rows, dataset_id)
+        summaries[dataset_id] = {
+            "global_truth_K": case["global_truth_K"],
+            "all_truth_molecular_identity_count": case["all_truth_molecular_identity_count"],
+            "reportable_truth_global_count": case["reportable_truth_molecular_identity_count"],
+            "subthreshold_truth_global_count": case["subthreshold_truth_molecular_identity_count"],
+            "K_true_pixel_foreground": case["K_true_pixel_foreground"],
+            "global_signal_scalar": case["global_scale"],
+            "target_foreground_median_signal_norm": TARGET_SIGNAL_P50,
+            "achieved_foreground_median_signal_norm": case["achieved_foreground_B_l2_p50"],
+        }
+    return summaries
+
+
+def attach_truth_complexity_to_bundle(context: dict, bundle: dict) -> None:
+    summaries = dataset_truth_complexity_summaries(context, bundle["mappings"])
+    bundle["design"]["dataset_truth_complexity"] = summaries
+    for row in bundle["manifest"]:
+        summary = summaries[row["dataset_id"]]
+        row.update({
+            "global_truth_K": summary["global_truth_K"],
+            "reportable_truth_global_count": summary["reportable_truth_global_count"],
+            "subthreshold_truth_global_count": summary["subthreshold_truth_global_count"],
+            "global_signal_scalar": summary["global_signal_scalar"],
+            **{
+                f"K_true_pixel_{name}": value
+                for name, value in summary["K_true_pixel_foreground"].items()
+            },
+        })
+
+
+def refresh_frozen_design_reporting(output: Path, context: dict) -> None:
+    """Add derived complexity summaries without changing frozen design choices."""
+    design = validate_frozen_design(output, context)
+    mappings = [
+        {key: parse_scalar(value) for key, value in row.items()}
+        for row in read_csv(output / "template_mappings.csv")
+    ]
+    manifest = [
+        {key: parse_scalar(value) for key, value in row.items()}
+        for row in read_csv(output / "dataset_manifest.csv")
+    ]
+    summaries = dataset_truth_complexity_summaries(context, mappings)
+    design["dataset_truth_complexity"] = summaries
+    for row in manifest:
+        summary = summaries[str(row["dataset_id"])]
+        row.update({
+            "global_truth_K": summary["global_truth_K"],
+            "reportable_truth_global_count": summary["reportable_truth_global_count"],
+            "subthreshold_truth_global_count": summary["subthreshold_truth_global_count"],
+            "global_signal_scalar": summary["global_signal_scalar"],
+            **{
+                f"K_true_pixel_{name}": value
+                for name, value in summary["K_true_pixel_foreground"].items()
+            },
+        })
+    stage0.atomic_write_json(output / "design.json", design)
+    write_csv(output / "dataset_manifest.csv", manifest, list(manifest[0]))
 
 
 def checkpoint_fields() -> list[str]:
@@ -873,14 +1031,21 @@ def learned_records(
 def run_dataset(args: argparse.Namespace, context: dict, dataset_id: str, oracle_only: bool = False) -> dict:
     mapping = dataset_mapping(args.output_dir, dataset_id)
     case = construct_dataset(context, mapping, dataset_id)
-    oracle = v53.run_oracle(case, context["A_solver"], context["metadata"])
+    oracle = reporting_gate_oracle(case, context["A_solver"], context["metadata"])
     dataset_dir = args.output_dir / dataset_id
     dataset_dir.mkdir(parents=True, exist_ok=True)
     base_report = {
         "dataset_id": dataset_id, "split": dataset_id.split("_")[0],
         "replicate": dataset_id.split("_")[1],
         "complexity_condition": dataset_id.split("_")[2],
+        "global_truth_K": case["global_truth_K"],
         "global_truth_identity_count": case["global_truth_identity_count"],
+        "all_truth_molecular_identity_count": case["all_truth_molecular_identity_count"],
+        "reportable_truth_global_count": case["reportable_truth_molecular_identity_count"],
+        "subthreshold_truth_global_count": case["subthreshold_truth_molecular_identity_count"],
+        "reportable_truth_molecular_identity_count": case["reportable_truth_molecular_identity_count"],
+        "subthreshold_truth_molecular_identity_count": case["subthreshold_truth_molecular_identity_count"],
+        "K_true_pixel_foreground": case["K_true_pixel_foreground"],
         "true_per_pixel_K_foreground": case["true_per_pixel_K_foreground"],
         "learned_reported_count_definition": "foreground_mean(X_hat_j) > 1e-3",
         "global_signal_scalar": case["global_scale"],
@@ -889,13 +1054,28 @@ def run_dataset(args: argparse.Namespace, context: dict, dataset_id: str, oracle
         "forward_consistency_max_abs": case["forward_consistency_max_abs"],
         "oracle": oracle, "identity_pool_or_mapping_redesigned_from_oracle": False,
     }
-    if oracle["status"] != "PASS":
-        report = {**base_report, "status": "ORACLE_MOLECULAR_AMBIGUITY",
-                  "learned_training_performed": False}
+    if oracle_only:
+        existing_path = dataset_dir / "report.json"
+        existing = read_json(existing_path) if existing_path.exists() else {}
+        report = {
+            **existing, **base_report,
+            "status": (
+                existing.get("status")
+                if existing.get("learned_training_performed")
+                else (
+                    "ORACLE_ONLY_PASS" if oracle["status"] == "PASS"
+                    else "SERIOUS_MOLECULAR_AMBIGUITY"
+                )
+            ),
+            "learned_training_performed": bool(
+                existing.get("learned_training_performed", False)
+            ),
+        }
         stage0.atomic_write_json(dataset_dir / "report.json", report)
         return report
-    if oracle_only:
-        report = {**base_report, "status": "ORACLE_ONLY_PASS", "learned_training_performed": False}
+    if oracle["status"] != "PASS":
+        report = {**base_report, "status": "SERIOUS_MOLECULAR_AMBIGUITY",
+                  "learned_training_performed": False}
         stage0.atomic_write_json(dataset_dir / "report.json", report)
         return report
     learned = train_resumable(case, context, dataset_dir)
@@ -1268,8 +1448,8 @@ def main() -> None:
             print(json.dumps(payload, ensure_ascii=False, indent=2))
             return
         raise RuntimeError("REQUIRED_ASSETS_OR_RESULTS_MISSING: " + json.dumps(payload))
-    bundle = build_design(context)
     if args.dry_run:
+        bundle = build_design(context)
         print(json.dumps(stage0.to_jsonable({
             "status": "DRY_RUN_READY", "singleton_identity_count": len(bundle["features"]),
             "interference_features": list(BALANCE_FEATURES) + ["lipid_class"],
@@ -1282,20 +1462,28 @@ def main() -> None:
             "outputs_written": False, "GPU_training_performed": False,
         }), ensure_ascii=False, indent=2, allow_nan=False))
         return
-    if args.prepare_design or args.oracle_only or args.all:
-        write_design(args.output_dir, bundle)
-    elif args.dataset and not (args.output_dir / "design.json").exists():
-        raise RuntimeError("DESIGN_NOT_PREPARED: run --prepare-design first")
     if args.prepare_design:
+        if (args.output_dir / "design.json").exists():
+            refresh_frozen_design_reporting(args.output_dir, context)
+        else:
+            bundle = build_design(context)
+            attach_truth_complexity_to_bundle(context, bundle)
+            write_design(args.output_dir, bundle)
         print(json.dumps({"status": "DESIGN_PREPARED", "output_dir": str(args.output_dir)}, indent=2))
         return
+    if args.all and not (args.output_dir / "design.json").exists():
+        bundle = build_design(context)
+        attach_truth_complexity_to_bundle(context, bundle)
+        write_design(args.output_dir, bundle)
+    if not (args.output_dir / "design.json").exists():
+        raise RuntimeError("DESIGN_NOT_PREPARED: run --prepare-design first")
+    validate_frozen_design(args.output_dir, context)
     if args.oracle_only:
         reports = [run_dataset(args, context, name, oracle_only=True) for name in DATASETS]
         print(json.dumps(stage0.to_jsonable({"status": "ORACLE_ONLY_COMPLETE", "datasets": reports}),
                          ensure_ascii=False, indent=2, allow_nan=False))
         return
     if args.dataset:
-        validate_frozen_design(args.output_dir, context)
         report = run_dataset(args, context, args.dataset)
         print(json.dumps(stage0.to_jsonable(report), ensure_ascii=False, indent=2, allow_nan=False))
         return
