@@ -171,7 +171,548 @@ Git commit: PENDING_USER_COMMIT
   ],
   "validity_status": "PENDING_REVIEW",
   "final_deployment_threshold_frozen": false,
-  "oracle_results": [],
+  "oracle_results": [
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R1_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R2_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R3_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R4_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "CAL_R5_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R1_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R2_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R3_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R4_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K050",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 50, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 50, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K075",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 75, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 75, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K100",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 100, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 100, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K125",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 125, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 125, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K150",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 150, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 150, \"precision\": 1.0, \"recall\": 1.0}"
+    },
+    {
+      "condition": "CLEAN",
+      "dataset_id": "HOLD_R5_K175",
+      "status": "PASS",
+      "FP": 0,
+      "FN": 0,
+      "all_truth_metrics": "{\"FN\": 0, \"FP\": 0, \"TP\": 175, \"all_truth_recall\": 1.0}",
+      "reportable_truth_metrics": "{\"FDR\": 0.0, \"FN\": 0, \"FP\": 0, \"TP\": 175, \"precision\": 1.0, \"recall\": 1.0}"
+    }
+  ],
   "analyses": {}
 }
 ```
