@@ -1,0 +1,82 @@
+{
+  "tau_cal_FDR5": {
+    "achievable_on_CAL": true,
+    "frozen_CAL_threshold": 4.95115963961107e-21,
+    "HOLD_POOLED": {
+      "scope": "POOLED",
+      "threshold": 4.95115963961107e-21,
+      "n_retained": 320,
+      "TP": 288,
+      "FP": 32,
+      "precision": 0.9,
+      "FDR": 0.1,
+      "all_truth_recall": 0.7024390243902439,
+      "reportable_truth_recall": 0.8074534161490683,
+      "coverage": 0.5914972273567468
+    },
+    "HOLD_BASE76": {
+      "scope": "BASE76",
+      "threshold": 4.95115963961107e-21,
+      "n_retained": 144,
+      "TP": 128,
+      "FP": 16,
+      "precision": 0.8888888888888888,
+      "FDR": 0.1111111111111111,
+      "all_truth_recall": 0.8421052631578947,
+      "reportable_truth_recall": 0.8421052631578947,
+      "coverage": 0.5475285171102662
+    },
+    "HOLD_HIGH129": {
+      "scope": "HIGH129",
+      "threshold": 4.95115963961107e-21,
+      "n_retained": 176,
+      "TP": 160,
+      "FP": 16,
+      "precision": 0.9090909090909091,
+      "FDR": 0.09090909090909091,
+      "all_truth_recall": 0.6201550387596899,
+      "reportable_truth_recall": 0.7764705882352941,
+      "coverage": 0.6330935251798561
+    }
+  },
+  "tau_cal_FDR1": {
+    "achievable_on_CAL": true,
+    "frozen_CAL_threshold": 1.92595867506159e-20,
+    "HOLD_POOLED": {
+      "scope": "POOLED",
+      "threshold": 1.92595867506159e-20,
+      "n_retained": 296,
+      "TP": 288,
+      "FP": 8,
+      "precision": 0.972972972972973,
+      "FDR": 0.02702702702702703,
+      "all_truth_recall": 0.7024390243902439,
+      "reportable_truth_recall": 0.8074534161490683,
+      "coverage": 0.5471349353049908
+    },
+    "HOLD_BASE76": {
+      "scope": "BASE76",
+      "threshold": 1.92595867506159e-20,
+      "n_retained": 130,
+      "TP": 128,
+      "FP": 2,
+      "precision": 0.9846153846153847,
+      "FDR": 0.015384615384615385,
+      "all_truth_recall": 0.8421052631578947,
+      "reportable_truth_recall": 0.8421052631578947,
+      "coverage": 0.49429657794676807
+    },
+    "HOLD_HIGH129": {
+      "scope": "HIGH129",
+      "threshold": 1.92595867506159e-20,
+      "n_retained": 166,
+      "TP": 160,
+      "FP": 6,
+      "precision": 0.963855421686747,
+      "FDR": 0.03614457831325301,
+      "all_truth_recall": 0.6201550387596899,
+      "reportable_truth_recall": 0.7764705882352941,
+      "coverage": 0.5971223021582733
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "tau_cal_FDR5": {
+    "achievable_on_CAL": true,
+    "frozen_CAL_threshold": 0.020752153287375452,
+    "HOLD_POOLED": {
+      "scope": "POOLED",
+      "threshold": 0.020752153287375452,
+      "n_retained": 67,
+      "TP": 58,
+      "FP": 9,
+      "precision": 0.8656716417910447,
+      "FDR": 0.13432835820895522,
+      "all_truth_recall": 0.14146341463414633,
+      "reportable_truth_recall": 0.18012422360248448,
+      "coverage": 0.12384473197781885
+    },
+    "HOLD_BASE76": {
+      "scope": "BASE76",
+      "threshold": 0.020752153287375452,
+      "n_retained": 33,
+      "TP": 28,
+      "FP": 5,
+      "precision": 0.8484848484848485,
+      "FDR": 0.15151515151515152,
+      "all_truth_recall": 0.18421052631578946,
+      "reportable_truth_recall": 0.18421052631578946,
+      "coverage": 0.12547528517110265
+    },
+    "HOLD_HIGH129": {
+      "scope": "HIGH129",
+      "threshold": 0.020752153287375452,
+      "n_retained": 34,
+      "TP": 30,
+      "FP": 4,
+      "precision": 0.8823529411764706,
+      "FDR": 0.11764705882352941,
+      "all_truth_recall": 0.11627906976744186,
+      "reportable_truth_recall": 0.17647058823529413,
+      "coverage": 0.1223021582733813
+    }
+  },
+  "tau_cal_FDR1": {
+    "achievable_on_CAL": true,
+    "frozen_CAL_threshold": 0.07821292951116768,
+    "HOLD_POOLED": {
+      "scope": "POOLED",
+      "threshold": 0.07821292951116768,
+      "n_retained": 20,
+      "TP": 20,
+      "FP": 0,
+      "precision": 1.0,
+      "FDR": 0.0,
+      "all_truth_recall": 0.04878048780487805,
+      "reportable_truth_recall": 0.062111801242236024,
+      "coverage": 0.036968576709796676
+    },
+    "HOLD_BASE76": {
+      "scope": "BASE76",
+      "threshold": 0.07821292951116768,
+      "n_retained": 10,
+      "TP": 10,
+      "FP": 0,
+      "precision": 1.0,
+      "FDR": 0.0,
+      "all_truth_recall": 0.06578947368421052,
+      "reportable_truth_recall": 0.06578947368421052,
+      "coverage": 0.03802281368821293
+    },
+    "HOLD_HIGH129": {
+      "scope": "HIGH129",
+      "threshold": 0.07821292951116768,
+      "n_retained": 10,
+      "TP": 10,
+      "FP": 0,
+      "precision": 1.0,
+      "FDR": 0.0,
+      "all_truth_recall": 0.03875968992248062,
+      "reportable_truth_recall": 0.058823529411764705,
+      "coverage": 0.03597122302158273
+    }
+  }
+}

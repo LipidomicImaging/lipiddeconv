@@ -1,0 +1,380 @@
+{
+  "script_version": "v54_complexity_calibration",
+  "timestamp_utc": "2026-09-09T05:07:03.833670+00:00",
+  "status": "FROZEN_BEFORE_TRAINING",
+  "input_hashes_sha256": {
+    "A_library": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69",
+    "B_cube": "e716031ee95953a071f34beb386381eeb05cb4198096951b504a46ea6cab99e4",
+    "candidate_metadata": "c6567b2e852c0e97255efbffe501f0527f2c8ea4daedbb181bb0d25308f230b3",
+    "channel_axis": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf",
+    "production_X_hat": "698bd3ed72b57ffe7a6f2bd16cee580388a442a0dbf1bdaaa6e819b0a5c419a4",
+    "foreground_mask": "a93f3adb97afe0295690d6f943917b6f0771aeeb9fff7d21582024c8ffbb4293",
+    "production_checkpoint": "32bcf603195883b18e4237d430ece1e99e98d184daf83b97c277d088f614d3ef"
+  },
+  "A_solver_contract": {
+    "shape": [
+      1084,
+      391
+    ],
+    "definition": "float32 A_library column-L2 normalized with denominator norm+1e-8",
+    "consistent_for_synthesis_oracle_training_rho_zero": true
+  },
+  "singleton_identity_count": 368,
+  "same_lipid_name_partners_excluded": true,
+  "full_391_candidate_library_is_interference_reference": true,
+  "interference_features": [
+    "max_parent_cosine",
+    "max_fragment_cosine",
+    "max_full_cosine",
+    "cone_isolation",
+    "collective_gain",
+    "d_single",
+    "lipid_class"
+  ],
+  "cone_isolation_rank_direction": "raw ascending percentile retained; lower raw cone_isolation means greater ambiguity",
+  "matching": {
+    "rank_features": [
+      "max_parent_cosine",
+      "max_fragment_cosine",
+      "max_full_cosine",
+      "cone_isolation",
+      "collective_gain"
+    ],
+    "algorithm": "deterministic greedy nearest-neighbor Euclidean matching within lipid_class, then across-class leftovers",
+    "all_pair_count": 184,
+    "unpaired_leftover_count": 0,
+    "selected_pair_count": 129,
+    "selected_pair_rule": "129 evenly spaced positions after sorting all pairs by pair ambiguity score",
+    "pool_split_seed": 5400,
+    "CAL_HOLD_lipid_name_overlap": 0
+  },
+  "base76_subset": {
+    "count": 76,
+    "rule": "76 evenly spaced positions across the 129 selected pairs sorted by pair ambiguity score",
+    "nested_in_high129": true
+  },
+  "geometry_balance": {
+    "CAL": {
+      "max_parent_cosine": {
+        "count": 129,
+        "min": 0.3253992797115297,
+        "q01": 0.42710764194646533,
+        "q10": 0.999999999999998,
+        "q20": 0.9999999999999992,
+        "q25": 0.9999999999999993,
+        "q50": 0.9999999999999998,
+        "q75": 1.0,
+        "q80": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q99": 1.0,
+        "max": 1.0,
+        "mean": 0.975376518419428,
+        "median": 0.9999999999999998,
+        "std": 0.11450690907381891
+      },
+      "max_fragment_cosine": {
+        "count": 129,
+        "min": 0.36304209523983627,
+        "q01": 0.49512465626924107,
+        "q10": 0.604465510997488,
+        "q20": 0.7491148840097194,
+        "q25": 0.7745273553735048,
+        "q50": 0.9209267513286628,
+        "q75": 0.969840644646915,
+        "q80": 0.9788930566578933,
+        "q90": 0.9849116559691866,
+        "q95": 0.9880320061082768,
+        "q99": 0.9950261969760639,
+        "max": 0.9965803996234099,
+        "mean": 0.852961410875685,
+        "median": 0.9209267513286628,
+        "std": 0.1471399250402804
+      },
+      "max_full_cosine": {
+        "count": 129,
+        "min": 0.3495144909050598,
+        "q01": 0.4336977978269268,
+        "q10": 0.5958113515827768,
+        "q20": 0.6545445300062964,
+        "q25": 0.670144021014576,
+        "q50": 0.7982095721390224,
+        "q75": 0.9135491254421633,
+        "q80": 0.9197378118383173,
+        "q90": 0.961886707097784,
+        "q95": 0.979939811602716,
+        "q99": 0.9861542249159326,
+        "max": 0.9917278076514663,
+        "mean": 0.7833440532596609,
+        "median": 0.7982095721390224,
+        "std": 0.14676255230416077
+      },
+      "cone_isolation": {
+        "count": 129,
+        "min": 0.06404391649487126,
+        "q01": 0.07586243370009091,
+        "q10": 0.13973325963704647,
+        "q20": 0.18483287725755607,
+        "q25": 0.20074680321951024,
+        "q50": 0.3131917397743864,
+        "q75": 0.42128232363155954,
+        "q80": 0.4637912197009564,
+        "q90": 0.5645592768320312,
+        "q95": 0.6649477912409916,
+        "q99": 0.79736703787531,
+        "max": 0.8078312049387865,
+        "mean": 0.3322400235990855,
+        "median": 0.3131917397743864,
+        "std": 0.16640137415917045
+      },
+      "collective_gain": {
+        "count": 129,
+        "min": 0.02841221371765762,
+        "q01": 0.03019968641401652,
+        "q10": 0.05917113118260059,
+        "q20": 0.11503566839545767,
+        "q25": 0.13364990366733687,
+        "q50": 0.2259228959194089,
+        "q75": 0.33488958683382175,
+        "q80": 0.35590491875695573,
+        "q90": 0.4295817844441486,
+        "q95": 0.46268246135272506,
+        "q99": 0.5218640220738526,
+        "max": 0.5499702514118422,
+        "mean": 0.23611585533460422,
+        "median": 0.2259228959194089,
+        "std": 0.13143771883313482
+      },
+      "d_single": {
+        "count": 129,
+        "min": 0.12835869869555497,
+        "q01": 0.16579649053218942,
+        "q10": 0.2732473852442625,
+        "q20": 0.39252718477857057,
+        "q25": 0.40672840496313833,
+        "q50": 0.6023798460652868,
+        "q75": 0.7422310900914993,
+        "q80": 0.7560222035231219,
+        "q90": 0.8031244156896475,
+        "q95": 0.8380808872652148,
+        "q99": 0.9007556113854873,
+        "max": 0.9369309583140994,
+        "mean": 0.5683558789336898,
+        "median": 0.6023798460652868,
+        "std": 0.20446134682479014
+      },
+      "lipid_class_counts": {
+        "PA": 25,
+        "PC": 11,
+        "PE": 55,
+        "PG": 25,
+        "PS": 13
+      }
+    },
+    "HOLD": {
+      "max_parent_cosine": {
+        "count": 129,
+        "min": 0.10849440475098747,
+        "q01": 0.11595890056502416,
+        "q10": 0.9999999999999962,
+        "q20": 0.9999999999999993,
+        "q25": 0.9999999999999994,
+        "q50": 0.9999999999999998,
+        "q75": 1.0,
+        "q80": 1.0,
+        "q90": 1.0,
+        "q95": 1.0,
+        "q99": 1.0,
+        "max": 1.0,
+        "mean": 0.960733602572768,
+        "median": 0.9999999999999998,
+        "std": 0.16268881920667583
+      },
+      "max_fragment_cosine": {
+        "count": 129,
+        "min": 0.4240431892510307,
+        "q01": 0.45506231067527175,
+        "q10": 0.6147487791156706,
+        "q20": 0.7350150146173114,
+        "q25": 0.7895886904138678,
+        "q50": 0.9193711031721301,
+        "q75": 0.9706937176364202,
+        "q80": 0.9796724074104938,
+        "q90": 0.9854563389959631,
+        "q95": 0.9887964497817644,
+        "q99": 0.9923755383909935,
+        "max": 0.9942019114139844,
+        "mean": 0.8548149689845039,
+        "median": 0.9193711031721301,
+        "std": 0.14499191486868393
+      },
+      "max_full_cosine": {
+        "count": 129,
+        "min": 0.3776688339649247,
+        "q01": 0.39473987971335944,
+        "q10": 0.563924415543581,
+        "q20": 0.6351693928049703,
+        "q25": 0.6635490105932277,
+        "q50": 0.7937994919963063,
+        "q75": 0.9143115872726723,
+        "q80": 0.9318844703607484,
+        "q90": 0.966004120603864,
+        "q95": 0.9779497847962506,
+        "q99": 0.984122008949211,
+        "max": 0.9865062605034273,
+        "mean": 0.7781508525121229,
+        "median": 0.7937994919963063,
+        "std": 0.15474669049035217
+      },
+      "cone_isolation": {
+        "count": 129,
+        "min": 0.08072333624957098,
+        "q01": 0.09016786093599274,
+        "q10": 0.15073614521712622,
+        "q20": 0.16909496999790277,
+        "q25": 0.19065424453428229,
+        "q50": 0.3008190275753367,
+        "q75": 0.4310647780235847,
+        "q80": 0.47852752253448927,
+        "q90": 0.573290048449087,
+        "q95": 0.664699392921705,
+        "q99": 0.8513617882500808,
+        "max": 0.905898646108516,
+        "mean": 0.3372196192331102,
+        "median": 0.3008190275753367,
+        "std": 0.17692194698805003
+      },
+      "collective_gain": {
+        "count": 129,
+        "min": 0.016839149861247793,
+        "q01": 0.0174230945814183,
+        "q10": 0.05007034684219543,
+        "q20": 0.10599896843016701,
+        "q25": 0.14460872784795248,
+        "q50": 0.2301307579031726,
+        "q75": 0.3151168353722158,
+        "q80": 0.3400154817044368,
+        "q90": 0.43200676764490115,
+        "q95": 0.4658972875965617,
+        "q99": 0.5301548731315018,
+        "max": 0.5954341339760317,
+        "mean": 0.2342537550137709,
+        "median": 0.2301307579031726,
+        "std": 0.13280535368334578
+      },
+      "d_single": {
+        "count": 129,
+        "min": 0.16372354133582656,
+        "q01": 0.17748997274252076,
+        "q10": 0.25836233458298147,
+        "q20": 0.36270404840347037,
+        "q25": 0.4050115077117274,
+        "q50": 0.6081795512070478,
+        "q75": 0.7481328161100465,
+        "q80": 0.7723643222161126,
+        "q90": 0.8257862971450122,
+        "q95": 0.862162370771529,
+        "q99": 0.9185617248031294,
+        "max": 0.9259407388443248,
+        "mean": 0.5714733742468812,
+        "median": 0.6081795512070478,
+        "std": 0.2096494575328626
+      },
+      "lipid_class_counts": {
+        "PA": 25,
+        "PC": 10,
+        "PE": 56,
+        "PG": 25,
+        "PS": 13
+      }
+    }
+  },
+  "template_banks": {
+    "BASE76": "foreground_mean(real production X_hat_j) > 1e-3",
+    "HIGH129": "foreground_mean(real production X_hat_j) > 1e-4; contains BASE76 plus 53 weak maps",
+    "base_count": 76,
+    "high_count": 129,
+    "weak_extra_count": 53,
+    "individual_map_rescaling": false,
+    "original_identities_discarded": true
+  },
+  "mapping_seeds": {
+    "R1": 5401,
+    "R2": 5402
+  },
+  "mapping_contract": "same pair permutation for CAL/HOLD; HIGH preserves every BASE assignment",
+  "datasets": [
+    "CAL_R1_BASE76",
+    "CAL_R1_HIGH129",
+    "CAL_R2_BASE76",
+    "CAL_R2_HIGH129",
+    "HOLD_R1_BASE76",
+    "HOLD_R1_HIGH129",
+    "HOLD_R2_BASE76",
+    "HOLD_R2_HIGH129"
+  ],
+  "synthesis": {
+    "definition": "B_sim = A_solver @ (s * X_true_unscaled)",
+    "clean": true,
+    "empirical_residual": false,
+    "Gaussian_noise": false,
+    "target_foreground_median_signal_norm": 0.6036783456802368,
+    "one_global_scalar_per_dataset": true
+  },
+  "training": {
+    "network": "fresh lipid_ista.LipidENNet per case",
+    "unfolded_ista_layers": 12,
+    "checkpoint_loads": "same-dataset v54 runtime resume checkpoints only; real-data and cross-dataset checkpoints forbidden",
+    "training_inputs": [
+      "frozen normalized A_library",
+      "case B_sim"
+    ],
+    "X_true_used_by_optimization": false,
+    "losses": [
+      "reconstruction",
+      "ssim",
+      "tv",
+      "anchor"
+    ],
+    "loss_source": "exact production train (1).ipynb compute_advanced_losses semantics",
+    "loss_balancer": "fresh exact production AutomaticWeightedLoss(num_losses=4)",
+    "optimizer": {
+      "name": "AdamW",
+      "lr_net": 0.0001,
+      "lr_loss_balancer": 0.001,
+      "weight_decay": 0.0001
+    },
+    "scheduler": {
+      "name": "CosineAnnealingLR",
+      "T_max": 5000,
+      "eta_min": 1e-06
+    },
+    "channel_weighting": "auto",
+    "gradient_clip_norm": 1.0,
+    "warmup_epochs": 500,
+    "epoch_ceiling": 3000,
+    "early_stop": {
+      "minimum_epochs": 800,
+      "check_frequency": 25,
+      "patience_checks": 12,
+      "physical_loss_rtol": 0.0002,
+      "abundance_rtol": 0.0005
+    },
+    "scheduler_T_max": 5000,
+    "runtime_checkpoint_epochs": [
+      1000,
+      1500,
+      2000,
+      2500,
+      3000
+    ],
+    "resumable_latest_model": true,
+    "truth_dependent_stopping": false
+  },
+  "rho_zero": {
+    "implementation": "src/rho_zero.py",
+    "weighting": "W=I"
+  },
+  "validity_status": "PENDING_REVIEW",
+  "final_deployment_threshold_frozen": false
+}
