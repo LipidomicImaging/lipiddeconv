@@ -111,3 +111,68 @@ Git commit: PENDING_USER_COMMIT
 - Final threshold frozen: NO
 
 <!-- END v55_spectral_noise_robustness -->
+
+<!-- BEGIN v56_paper_identity_fdr_benchmark -->
+## V56 paper identity FDR benchmark
+
+```json
+{
+  "design_status": "DESIGN_FROZEN_BEFORE_TRAINING",
+  "K_LEVELS": [
+    50,
+    75,
+    100,
+    125,
+    150,
+    175
+  ],
+  "identity_split_seed": 5600,
+  "mapping_seeds": {
+    "R1": 5601,
+    "R2": 5602,
+    "R3": 5603,
+    "R4": 5604,
+    "R5": 5605
+  },
+  "block_design": "7 x 25; exactly five members from each rank quintile per block; greedy class balance",
+  "template_design": "175 evenly spaced raw abundance ranks above prespecified numerical floor; original identity discarded; original indices, ranks, blocks and mappings retained; foreground-mean normalization before assignment",
+  "signal_normalization": {
+    "target": 0.6036783456802368,
+    "interpretation": "FIXED-TOTAL-SIGNAL COMPLEXITY STRESS TEST: as K increases, more components share the same total spectral signal budget; per-component abundance is not held fixed."
+  },
+  "planned_runs": {
+    "clean": 60,
+    "additional_mismatch": 60
+  },
+  "robustness": {
+    "MISMATCH_MILD": {
+      "fragment_log_sigma": 0.1,
+      "fragment_dropout": 0.05,
+      "parent_min": 0.9,
+      "parent_max": 1.1
+    },
+    "MISMATCH_MODERATE": {
+      "fragment_log_sigma": 0.2,
+      "fragment_dropout": 0.1,
+      "parent_min": 0.8,
+      "parent_max": 1.2
+    }
+  },
+  "limitations": [
+    "Synthetic global K is controlled mixture complexity, not the unknown biological K of tissue.",
+    "FIXED-TOTAL-SIGNAL COMPLEXITY STRESS TEST: as K increases, more components share the same total spectral signal budget; per-component abundance is not held fixed.",
+    "CAL/HOLD is molecular-identity separation, not network train/test splitting.",
+    "Mapping replicates repeat spatial/amplitude-to-identity assignments, not biological samples.",
+    "FDR calibration is empirical and does not guarantee 1% or 5% FDR.",
+    "Wilson intervals are descriptive binomial intervals; repeated identities, nested K and shared templates induce dependence and are not independent biological trials.",
+    "Spectral mismatch excludes measurement noise: locked production B background is zeroed. No Gaussian, low-signal foreground or production residual noise fallback is permitted.",
+    "Log gaps involving numerical-zero false rho are descriptive, not physical quantities.",
+    "This is a controlled fixed-total-signal complexity benchmark using foreground-mean-normalized real spatial templates; it preserves spatial morphology but does not preserve the original between-lipid abundance distribution."
+  ],
+  "validity_status": "PENDING_REVIEW",
+  "final_deployment_threshold_frozen": false,
+  "oracle_results": [],
+  "analyses": {}
+}
+```
+<!-- END v56_paper_identity_fdr_benchmark -->
