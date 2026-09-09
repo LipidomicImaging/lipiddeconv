@@ -353,12 +353,49 @@ def empirical_background(context: dict) -> dict:
         raise RuntimeError("EMPIRICAL_BACKGROUND_SHAPE_MISMATCH")
     if not np.isfinite(residual_spectra).all():
         raise RuntimeError("EMPIRICAL_BACKGROUND_NONFINITE")
+    residual_median = float(np.median(np.linalg.norm(residual_spectra, axis=0)))
+    unavailable = not np.isfinite(residual_median) or residual_median <= 0
+    reason = (
+        "Locked observed B background residual median L2 norm is non-positive "
+        f"or non-finite ({residual_median}); empirical measurement noise cannot be constructed."
+        if unavailable else None
+    )
     return {
         "center": center,
         "residual_spectra": residual_spectra,
         "background_pixel_count": background_count,
         "center_summary": v54.numeric_summary(center),
+        "empirical_background_residual_median_l2": residual_median,
+        "empirical_noise_source_status": "NOISE_SOURCE_UNAVAILABLE" if unavailable else "AVAILABLE",
+        "empirical_noise_unavailable_reason": reason,
+        "available_conditions": [
+            name for name in CONDITION_ORDER
+            if not unavailable or ERROR_CONDITIONS[name]["noise_eta"] == 0
+        ],
+        "unavailable_conditions": {
+            name: {"status": "NOISE_SOURCE_UNAVAILABLE", "reason": reason}
+            for name in CONDITION_ORDER
+            if unavailable and ERROR_CONDITIONS[name]["noise_eta"] > 0
+        },
     }
+
+
+def noise_availability_fields(source: dict) -> dict:
+    return {key: source[key] for key in (
+        "empirical_noise_source_status", "empirical_noise_unavailable_reason",
+        "available_conditions", "unavailable_conditions",
+    )}
+
+
+def require_available_conditions(source: dict, conditions: list[str]) -> None:
+    unavailable = [name for name in conditions if name in source["unavailable_conditions"]]
+    if unavailable:
+        raise RuntimeError(
+            f"NOISE_SOURCE_UNAVAILABLE: requested conditions {unavailable}. "
+            f"{source['empirical_noise_unavailable_reason']} "
+            "No fallback noise is permitted. Explicitly select an available condition "
+            f"from {source['available_conditions']} (for example --condition MISMATCH_MILD --all)."
+        )
 
 
 def noise_seed(condition_name: str, split: str, replicate: str) -> int:
@@ -369,7 +406,14 @@ def noise_seed(condition_name: str, split: str, replicate: str) -> int:
 def sampled_noise_field(
     context: dict, background: dict, condition_name: str, split: str, replicate: str
 ) -> tuple[np.ndarray, dict]:
+    require_available_conditions(background, [condition_name])
     seed = noise_seed(condition_name, split, replicate)
+    if ERROR_CONDITIONS[condition_name]["noise_eta"] == 0:
+        # This condition requests no noise; this is not a substitute noise source.
+        return np.zeros_like(context["B_real"], dtype=np.float32), {
+            "deterministic_noise_seed": seed,
+            "sampled_background_index_sha256": None,
+        }
     pixel_count = int(np.prod(context["mask"].shape))
     sampled_indices = np.random.default_rng(seed).integers(
         0, background["background_pixel_count"], size=pixel_count, dtype=np.int64
@@ -452,6 +496,7 @@ def spectral_summary(rows: list[dict]) -> dict:
 def construct_v55_case(
     context: dict, background: dict, condition_name: str, base_dataset_id: str
 ) -> tuple[dict, dict]:
+    require_available_conditions(background, [condition_name])
     base = v54_case(context, base_dataset_id)
     frozen_x = base["X_true"]
     frozen_x_digest = array_digest(frozen_x)
@@ -536,7 +581,7 @@ def build_prepare_artifacts(context: dict) -> tuple[dict, list[dict], list[dict]
 
     dataset_rows = []
     pair_diagnostics: dict[tuple[str, str, str], dict[str, dict]] = defaultdict(dict)
-    for condition_name in CONDITION_ORDER:
+    for condition_name in background["available_conditions"]:
         for base_dataset_id in BASE_DATASETS:
             case, diagnostics = construct_v55_case(
                 context, background, condition_name, base_dataset_id
@@ -563,8 +608,26 @@ def build_prepare_artifacts(context: dict) -> tuple[dict, list[dict], list[dict]
                 "status": "PENDING_TRAINING",
             })
 
+    # Keep unavailable datasets visible without constructing synthetic observations.
+    manifest_fields = list(dataset_rows[0])
+    for condition_name, unavailable in background["unavailable_conditions"].items():
+        for base_dataset_id in BASE_DATASETS:
+            split, replicate, complexity = base_dataset_id.split("_")
+            dataset_rows.append({
+                **dict.fromkeys(manifest_fields),
+                "v55_dataset_id": f"V55__{condition_name}__{base_dataset_id}",
+                "base_v54_dataset_id": base_dataset_id,
+                "error_condition": condition_name,
+                "split": split,
+                "replicate": replicate,
+                "complexity_condition": complexity,
+                "target_noise_eta": float(ERROR_CONDITIONS[condition_name]["noise_eta"]),
+                "dataset_directory": f"{condition_name}/{base_dataset_id}",
+                "status": unavailable["status"],
+            })
+
     noise_rows = []
-    for condition_name in CONDITION_ORDER:
+    for condition_name in background["available_conditions"]:
         for split in ("CAL", "HOLD"):
             for replicate in ("R1", "R2"):
                 paired = pair_diagnostics[(condition_name, split, replicate)]
@@ -607,6 +670,7 @@ def build_prepare_artifacts(context: dict) -> tuple[dict, list[dict], list[dict]
         "script_version": VERSION,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "status": "FROZEN_BEFORE_TRAINING",
+        **noise_availability_fields(background),
         "v54_provenance": {
             "directory": str(V54_OUTPUT),
             "design_status": context["v54_design"]["status"],
@@ -624,11 +688,12 @@ def build_prepare_artifacts(context: dict) -> tuple[dict, list[dict], list[dict]
             "definition": "exact locked production observed B; background median centered per channel",
             "bootstrap_unit": "one complete 1084-channel background residual spectrum",
             "spatial_correlation_preserved": False,
+            "empirical_background_residual_median_l2": background["empirical_background_residual_median_l2"],
         },
         "parent_mz_range_inclusive": list(PARENT_MZ_RANGE),
         "error_conditions": conditions_payload(),
         "datasets": list(V55_DATASETS),
-        "new_GPU_dataset_count": len(V55_DATASETS),
+        "new_GPU_dataset_count": len(background["available_conditions"]) * len(BASE_DATASETS),
         "truth_contract": {
             "source": "v54.construct_dataset using frozen v54 template_mappings.csv",
             "X_true_identical_to_v54": True,
@@ -686,6 +751,9 @@ def validate_v55_design(output: Path, context: dict) -> dict:
         raise RuntimeError("V54_FROZEN_MAPPING_CHANGED_AFTER_V55_PREPARATION")
     if design.get("input_hashes_sha256") != context["validation"]["hashes_sha256"]:
         raise RuntimeError("V55_LOCKED_ASSET_HASH_MISMATCH")
+    availability = noise_availability_fields(empirical_background(context))
+    if any(design.get(key) != value for key, value in availability.items()):
+        raise RuntimeError("V55_NOISE_AVAILABILITY_CHANGED_OR_MISSING: run --prepare-design again")
     return design
 
 
@@ -704,7 +772,8 @@ def solver_library_fit_diagnostic(case: dict, context: dict) -> dict:
 def run_dataset(
     args: argparse.Namespace, context: dict, condition_name: str, base_dataset_id: str
 ) -> dict:
-    validate_v55_design(args.output_dir, context)
+    design = validate_v55_design(args.output_dir, context)
+    require_available_conditions(design, [condition_name])
     dataset_dir = args.output_dir / condition_name / base_dataset_id
     existing_path = dataset_dir / "report.json"
     if existing_path.exists():
@@ -718,6 +787,7 @@ def run_dataset(
     fit_diagnostic = solver_library_fit_diagnostic(case, context)
     dataset_dir.mkdir(parents=True, exist_ok=True)
     base_report = {
+        **noise_availability_fields(design),
         "dataset_id": base_dataset_id,
         "v55_dataset_id": diagnostics["v55_dataset_id"],
         "base_v54_dataset_id": base_dataset_id,
@@ -1151,6 +1221,8 @@ def build_summary(report: dict) -> str:
         "## 2. V54 CLEAN reference", "",
         f"`{json.dumps(conditions['CLEAN'], ensure_ascii=False)}`", "",
         "## 3. Measurement-noise model", "",
+        f"`{json.dumps(noise_availability_fields(report), ensure_ascii=False)}`", "",
+        "Conditions marked NOISE_SOURCE_UNAVAILABLE were not run. A condition with noise_eta=0 uses no noise and performs no background bootstrap.", "",
         "The exact locked production B is loaded through the Stage0 lock. Per-channel background medians are removed, then whole 1084-channel background residual spectra are bootstrapped. BASE76/HIGH129 pairs share sampled spectra; scaling is dataset-specific because eta is defined relative to each B_signal. Spatial correlation is not claimed.", "",
         "## 4. Spectral-library mismatch model", "",
         "Only truth columns are perturbed. Originally nonzero fragments receive log-normal relative-intensity variation and deterministic dropout with at least one fragment retained; parents receive one candidate-level multiplier; the full column is then L2-normalized. A_perturbed is synthesis-only.", "",
@@ -1187,7 +1259,7 @@ def update_experiment_log(report: dict, design: dict) -> None:
             "rho_zero_calibration": report["conditions"][name]["rho_zero_calibration"]["thresholds"],
             "condition_specific_HOLD_validation": report["conditions"][name]["condition_specific_HOLD_validation"],
         }
-        for name in CONDITION_ORDER
+        for name in report["available_conditions"]
     }
     lines = [
         LOG_BEGIN,
@@ -1198,7 +1270,8 @@ def update_experiment_log(report: dict, design: dict) -> None:
         f"- Seeds: {json.dumps({name: ERROR_CONDITIONS[name]['seed'] for name in CONDITION_ORDER}, ensure_ascii=False)}; noise additionally keyed by split/replicate; spectral perturbations additionally keyed by candidate/type.",
         f"- V54 provenance: {json.dumps(design['v54_provenance'], ensure_ascii=False)}",
         f"- Locked hashes: {json.dumps(design['input_hashes_sha256'], ensure_ascii=False)}",
-        f"- Number of new trained datasets: {len(V55_DATASETS)}",
+        f"- Empirical noise availability: {json.dumps(noise_availability_fields(report), ensure_ascii=False)}",
+        f"- Number of new trained datasets: {report['new_GPU_dataset_count']}",
         f"- Condition calibration and heldout results: {json.dumps(condition_results, ensure_ascii=False)}",
         f"- CLEAN-threshold transfer: {json.dumps(report['clean_threshold_transfer'], ensure_ascii=False)}",
         "- Limitations: whole-spectrum noise bootstrap does not preserve spatial correlation; mismatch omits m/z drift/jitter, broadening, novel fragments, unmodeled interferents, full empirical production residual, and biological-library incompleteness.",
@@ -1224,10 +1297,16 @@ def aggregate(output: Path) -> dict:
     design = v54.read_json(output / "design.json")
     if design.get("script_version") != VERSION:
         raise RuntimeError("V55_DESIGN_VERSION_MISMATCH")
-    analyses = {name: analyze_condition(output, name) for name in CONDITION_ORDER}
+    availability = noise_availability_fields(design)
+    available = availability["available_conditions"]
+    analyses = {name: analyze_condition(output, name) for name in available}
+    analyses.update(availability["unavailable_conditions"])
     threshold_source = clean_threshold_source()
     transfers = {
-        name: apply_clean_transfer(analyses[name], threshold_source)
+        name: (
+            apply_clean_transfer(analyses[name], threshold_source)
+            if name in available else availability["unavailable_conditions"][name]
+        )
         for name in CONDITION_ORDER
     }
     for analysis in analyses.values():
@@ -1252,17 +1331,19 @@ def aggregate(output: Path) -> dict:
                 for dataset_id in BASE_DATASETS
             },
         }
-        for name in CONDITION_ORDER
+        for name in available
     }
+    perturbation_audit.update(availability["unavailable_conditions"])
     report = {
         "status": "PENDING_REVIEW",
+        **availability,
         "script_version": VERSION,
         "condition_order": list(SUMMARY_CONDITION_ORDER),
         "conditions": conditions,
         "perturbation_severity_audit": perturbation_audit,
         "clean_threshold_transfer_source": threshold_source,
         "clean_threshold_transfer": transfers,
-        "new_GPU_dataset_count": len(V55_DATASETS),
+        "new_GPU_dataset_count": len(available) * len(BASE_DATASETS),
         "solver_library_contract": {
             "A_solver_used_by_solver": True,
             "A_perturbed_used_only_for_synthesis": True,
@@ -1304,6 +1385,11 @@ def run_child(args: argparse.Namespace, condition_name: str, base_dataset_id: st
 
 
 def run_selected(args: argparse.Namespace, context: dict) -> list[dict]:
+    # Validate the entire request before cached-result skips or GPU worker launch.
+    background = empirical_background(context)
+    require_available_conditions(
+        background, [args.condition] if args.condition else list(CONDITION_ORDER)
+    )
     pending = []
     for condition_name, base_dataset_id in selected_pairs(args):
         report_path = args.output_dir / condition_name / base_dataset_id / "report.json"
@@ -1402,7 +1488,8 @@ def main() -> None:
             "v54_design_status": context["v54_design"]["status"],
             "locked_hashes_validated": True,
             "conditions": design["error_conditions"],
-            "new_GPU_dataset_count": len(V55_DATASETS),
+            **noise_availability_fields(design),
+            "new_GPU_dataset_count": design["new_GPU_dataset_count"],
             "dataset_manifest_rows": len(dataset_rows),
             "spectral_perturbation_manifest_rows": len(spectral_rows),
             "noise_manifest_rows": len(noise_rows),
@@ -1418,8 +1505,9 @@ def main() -> None:
         )
         print(json.dumps({
             "status": "DESIGN_PREPARED",
+            **noise_availability_fields(design),
             "output_dir": str(args.output_dir),
-            "new_GPU_dataset_count": len(V55_DATASETS),
+            "new_GPU_dataset_count": design["new_GPU_dataset_count"],
             "GPU_training_performed": False,
         }, indent=2))
         return
