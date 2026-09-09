@@ -112,6 +112,7 @@ Git commit: PENDING_USER_COMMIT
 
 <!-- END v55_spectral_noise_robustness -->
 
+
 <!-- BEGIN v56_paper_identity_fdr_benchmark -->
 ## V56 paper identity FDR benchmark
 
@@ -717,3 +718,36 @@ Git commit: PENDING_USER_COMMIT
 }
 ```
 <!-- END v56_paper_identity_fdr_benchmark -->
+
+<!-- BEGIN v56_failed_normalized_template_preflight -->
+## V56 normalized-template preflight — INVALID
+
+V56 normalized-template benchmark INVALID for formal identity benchmark.
+
+The observations below were supplied in the V57 task request. They are recorded as prior preflight evidence, not as locally rerun or independently remeasured results.
+
+- Cause: per-template foreground-mean normalization amplified ultra-sparse production X_hat maps and generated severe out-of-domain spatial intensity.
+- REAL B: p99/p50 approximately 1.66; max/p50 approximately 4.18.
+- Failed V56 synthetic B: p99/p50 approximately 23–24; max/p50 approximately 749–1410.
+- Pathological template example: occupancy approximately 6.314e-05; foreground mean normalized to 1; maximum approximately 1.584e4.
+- Learned final foreground reconstruction relative residuals: CAL_R1_K050 0.9829; CAL_R1_K075 0.9983; CAL_R1_K100 0.9997; CAL_R1_K125 0.9986; CAL_R1_K150 0.9996; CAL_R1_K175 0.9939.
+- Exact oracle reconstruction residual remained approximately 1e-6: the problem was exactly solvable, but the synthetic spatial domain invalidated the learned-solver benchmark.
+- V56 must not be used for formal rho/FDR calibration. Its code and results are preserved; no V56 result is overwritten or deleted by V57.
+<!-- END v56_failed_normalized_template_preflight -->
+
+<!-- BEGIN v57_spectral_spatial_identity_confidence_benchmark -->
+## V57 spectral–spatial identity confidence benchmark — code preparation
+
+- New runner: analysis/run_v57_spectral_spatial_identity_confidence_benchmark.py. CLEAN only: 6 K levels (50, 75, 100, 125, 150, 175) x 5 mapping replicates x CAL/HOLD = 60 datasets.
+- Inherit the existing V56 175 matched singleton CAL/HOLD units and seven 25-unit blocks verbatim, with zero molecular-name overlap; no identity re-splitting. Design seed 5700; mapping seeds 5701–5705.
+- Each block: two hard/high, two hard/low, two easy/high, two easy/low spectral–spatial pairs, plus nine singleton controls. Spectral ranks use frozen V51 geometry; fixed 35% candidate pools and 20,000 deterministic search restarts, with no fallback widening.
+- Healthy morphology pool expected count 97; fixed occupancy and tail criteria precede mean normalization. Smooth independent 5% multiplicative spatial perturbations are morphology variation, not measurement noise. Base assignments use at most two slots per template per replicate, with shared high-pair assignments counted once.
+- Every block receives the same empirical 25-value abundance multiplier multiset clipped to [0.5, 2.0]. One final dataset scalar targets foreground spectrum-norm median 0.6036783456802368. Every truth must remain above the fixed 1e-3 reporting gate.
+- Domain envelope: twice the maximum REAL/successful V54 reference tail ratio, checked across all 60 V57 CLEAN datasets before freeze. No oracle before freeze; no GPU before 60/60 exact candidate and molecular oracle PASS; no CLEAN batch before two sentinel PASS.
+- Corrected sentinel contract: retain production early-stop; 3000 epochs is a hard cap, not a minimum duration. Normally completed finite runs pass when final foreground reconstruction relative residual <=0.10, including early-stopped runs below 3000 epochs. Nonfinite runs or crashes fail. No TP/FP/FDR/rho/recall or other identity-outcome criteria enter sentinel validity.
+- User-confirmed mechanism interpretation: the four designed roles contain truth units only. Category FP/FDR is not applicable; nontruth solver outputs are reported under UNASSIGNED_FALSE_POSITIVE. Global FDR remains defined normally.
+- Global CAL rho and abundance thresholds are persisted before reading HOLD metrics. Solver FN and filter-induced true loss remain separate. No group-rho, no measurement-noise synthesis, no mismatch execution.
+- Coding stage only: no oracle, sentinel, or CLEAN GPU run launched. The local V51 geometry CSVs and V56 result design are unavailable; real-data design feasibility and audit PASS remain unverified until remote prepare/audit.
+- Validity status: PENDING_DESIGN_AUDIT. Final deployment threshold frozen: NO.
+<!-- END v57_spectral_spatial_identity_confidence_benchmark -->
+
