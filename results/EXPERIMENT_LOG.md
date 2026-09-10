@@ -751,3 +751,105 @@ The observations below were supplied in the V57 task request. They are recorded 
 - Validity status: PENDING_DESIGN_AUDIT. Final deployment threshold frozen: NO.
 <!-- END v57_spectral_spatial_identity_confidence_benchmark -->
 
+
+## V57 spectral-spatial identity confidence benchmark — CLEAN formal benchmark
+
+Status: COMPLETE / PENDING FINAL INTERPRETATION
+
+Design fingerprint:
+805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9
+
+### Validity
+- Design audit: PASS
+- Oracle identifiability: 60/60 PASS
+- Sentinel solver validity: 2/2 PASS
+- Formal CLEAN datasets: 60/60 COMPLETE
+- Reconstruction relative residual:
+  - overall min = 0.0289753
+  - median = 0.0335484
+  - max = 0.0433278
+
+### Raw HOLD molecular identity performance
+- TP = 3253
+- FP = 3212
+- FN = 122
+- FDR = 49.683%
+- all-truth recall = 96.385%
+
+### Frozen global rho_zero thresholds from CAL
+- FDR5 threshold = 1.272651000158792e-20
+- FDR1 threshold = 6.683949277609072e-20
+
+### Independent HOLD validation
+rho_zero FDR5:
+- TP = 3253
+- FP = 112
+- FN = 122
+- FDR = 3.328%
+- precision = 96.672%
+- all-truth recall = 96.385%
+- TP retention = 100%
+- filter-induced TP loss = 0
+
+rho_zero FDR1:
+- TP = 3253
+- FP = 8
+- FN = 122
+- FDR = 0.245%
+- precision = 99.755%
+- all-truth recall = 96.385%
+- TP retention = 100%
+- filter-induced TP loss = 0
+
+### Abundance baseline
+X_hat FDR5:
+- HOLD FDR = 4.026%
+- all-truth recall = 30.370%
+- TP retention = 31.509%
+
+X_hat FDR1:
+- HOLD FDR = 0%
+- all-truth recall = 4.474%
+- TP retention = 4.642%
+
+Conclusion:
+rho_zero strongly separates molecular identity confidence from abundance.
+In CLEAN matched-library conditions it removes almost all false allocations
+without additional loss of solver-recovered true identities.
+
+### rho_zero numerical separation
+CAL:
+- min true rho = 5.2089e-11
+- max false rho = 2.8098e-19
+- min-true / max-false = 1.8538e8
+
+HOLD:
+- min true rho = 8.2716e-12
+- max false rho = 1.5597e-19
+- min-true / max-false = 5.3033e7
+
+Interpretation:
+The CLEAN-domain threshold lies near numerical zero and must NOT be treated
+as a universal deployment cutoff. Robustness to library/model mismatch must
+be evaluated separately.
+
+### Mechanism analysis
+HOLD truth recovery:
+- spectral hard + spatial high: recall 93.889%
+- spectral hard + spatial low: recall 94.074%
+- spectral easy + spatial high: recall 97.222%
+- spectral easy + spatial low: recall 97.963%
+- singleton control: recall 97.449%
+
+All categories:
+- rho filter TP retention = 100%
+
+Main mechanism:
+spectral ambiguity is the dominant driver of solver false negatives;
+spatial similarity adds only a modest additional penalty under V57 CLEAN.
+
+Next:
+V58 mismatch robustness:
+1. frozen CLEAN threshold transfer
+2. mismatch-domain CAL threshold recalibration
+3. independent mismatch HOLD validation

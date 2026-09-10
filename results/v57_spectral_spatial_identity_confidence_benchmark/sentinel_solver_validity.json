@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+  "datasets": [
+    {
+      "dataset_id": "CAL_R1_K050",
+      "epoch": 3000,
+      "stop_reason": "max_epochs",
+      "reconstruction_residual_trajectory": [
+        {
+          "epoch": 1000,
+          "reconstruction_relative_residual": 0.06638160347938538
+        },
+        {
+          "epoch": 1500,
+          "reconstruction_relative_residual": 0.05635128170251846
+        },
+        {
+          "epoch": 2000,
+          "reconstruction_relative_residual": 0.04930882528424263
+        },
+        {
+          "epoch": 2500,
+          "reconstruction_relative_residual": 0.0446874164044857
+        },
+        {
+          "epoch": 3000,
+          "reconstruction_relative_residual": 0.04178161174058914
+        },
+        {
+          "epoch": 3000,
+          "reconstruction_relative_residual": 0.04178103059530258
+        }
+      ],
+      "final_residual": 0.04178103059530258,
+      "solver_finite": true,
+      "completed_normally": true,
+      "residual_gate_pass": true,
+      "status": "PASS",
+      "solver_run_sha256": "38eb86707017c08b0183ca46a00118d23f4ce493bb158535e54dbbdae39027fc"
+    },
+    {
+      "dataset_id": "CAL_R1_K175",
+      "epoch": 3000,
+      "stop_reason": "max_epochs",
+      "reconstruction_residual_trajectory": [
+        {
+          "epoch": 1000,
+          "reconstruction_relative_residual": 0.0445917584002018
+        },
+        {
+          "epoch": 1500,
+          "reconstruction_relative_residual": 0.03725528344511986
+        },
+        {
+          "epoch": 2000,
+          "reconstruction_relative_residual": 0.03383054956793785
+        },
+        {
+          "epoch": 2500,
+          "reconstruction_relative_residual": 0.03109581768512726
+        },
+        {
+          "epoch": 3000,
+          "reconstruction_relative_residual": 0.029480023309588432
+        },
+        {
+          "epoch": 3000,
+          "reconstruction_relative_residual": 0.02948000282049179
+        }
+      ],
+      "final_residual": 0.02948000282049179,
+      "solver_finite": true,
+      "completed_normally": true,
+      "residual_gate_pass": true,
+      "status": "PASS",
+      "solver_run_sha256": "28d792fb3c98e4d1b7907ff1a87e49d3273f663ee518959593c1d66a75a4791e"
+    }
+  ],
+  "validity_metric": "normal finite completion and final foreground reconstruction relative residual <=0.10",
+  "duration_requirement": "none; production early-stop retained; 3000 epochs is the hard cap only",
+  "identity_outcomes_used": false,
+  "rho_computed": false
+}

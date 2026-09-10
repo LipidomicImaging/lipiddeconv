@@ -1,0 +1,168 @@
+{
+  "status": "FROZEN_FROM_CAL_ONLY",
+  "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+  "CAL_source_hashes": {
+    "CAL_R1_K050": {
+      "report.json": "4ef9cedc81c8c35d2098e0598379f4b29fe6d68a1c8201b969398a220149919c",
+      "reported_identity_records.csv": "9ef0b4fcb308ea52e472cfd0b170ff357f5bec70e2cc6fdf5ec54d43d1a297f5"
+    },
+    "CAL_R1_K075": {
+      "report.json": "beddd3c44323c7064a8bce019ed2deff7c246bc82c0a4f908e5cf7a09c5ebfda",
+      "reported_identity_records.csv": "4360a044894681855a149b3dbc9999f7213c68c180a6600414dcb682c8dd7018"
+    },
+    "CAL_R1_K100": {
+      "report.json": "5e70a9d521d79abf3e34c61ace2796eeb3391f47752bddf88ddce18771533ccc",
+      "reported_identity_records.csv": "d3eff49c551eb43364948c2c90ff2b7513f4d20afcad036e4255878fc1fb5ee4"
+    },
+    "CAL_R1_K125": {
+      "report.json": "05619e35ec6ca0929f51f8d0b0d64087d8ff4f7d68e52ddeace7aa8ea6b5c386",
+      "reported_identity_records.csv": "d48408448c53cda3be38b342b81f6452152e74a52d09f355c0c906a1ad5bdad3"
+    },
+    "CAL_R1_K150": {
+      "report.json": "5425f9b6cd620abc1c3a47472878c0dd2597626ab15ca0fc7733c8b61254f39c",
+      "reported_identity_records.csv": "6ab6c23a6437d599ffa1a60e41672512056ac23da6a21e6947ac22e1b2280fbf"
+    },
+    "CAL_R1_K175": {
+      "report.json": "a61cfa28bd203b5cb2d855abec3818b8b6a0047bc20ea896df904cab4b9fb04e",
+      "reported_identity_records.csv": "92e6996c169296e16db611e31d843e4389626ba049bf668a3f2f608cb25e5b9b"
+    },
+    "CAL_R2_K050": {
+      "report.json": "1a0462804cee299f1299054dd4bc0315ce91e36d6aa0c48d9756700b53360e27",
+      "reported_identity_records.csv": "749be9e2d08df49a6132ee07679dba5f4aef493ed9e834512b4f62ed1246e23a"
+    },
+    "CAL_R2_K075": {
+      "report.json": "b00edd1af53950399e743ce409093a98e5355761380ffda39b7d21530fc42f50",
+      "reported_identity_records.csv": "9daf4fb32db52c37074135abe34b861b312aef331069d2e35ed4e72e6ffbb45b"
+    },
+    "CAL_R2_K100": {
+      "report.json": "c11d268d3e83530a90ffd226c59fc9fdd08ee8d1b4fea025b27e604daa7aa314",
+      "reported_identity_records.csv": "7e48d28294f0d8d5ba225402e7aa19bddba4da3adc420ddaf66e8575a33d2ee6"
+    },
+    "CAL_R2_K125": {
+      "report.json": "4142aff8cd2c63c92327382f06fc87583a95addc59ff085c8a6c6f14086cbd53",
+      "reported_identity_records.csv": "9b7e4704458bfda882cedfcece99c40e20f95a103ceade28a61febf0efed47ff"
+    },
+    "CAL_R2_K150": {
+      "report.json": "e98b5dedea79132211437f88983bfdb224ab1302daf7ab9d1ee030599b975d99",
+      "reported_identity_records.csv": "a9cf67a42542c14fdc7018e8968113b40dddbced4e42ae04ae5cff0133b9dfcc"
+    },
+    "CAL_R2_K175": {
+      "report.json": "913cc0b2c762a515dd38fad60819378c9f18d226811cadb41ac6f008884b1b1a",
+      "reported_identity_records.csv": "6226a538dc65b0cb63084018ce95b59a02935c27a7f155779e16a0edf8b0a817"
+    },
+    "CAL_R3_K050": {
+      "report.json": "acb82881f86730c3b008486ebcdcc89563ffe50e44e4bebc166a50c4ee6aa1e1",
+      "reported_identity_records.csv": "c7f1cad5ae0437da3594e35ea04196a8e61afbda030661c3646d55dbceeb9580"
+    },
+    "CAL_R3_K075": {
+      "report.json": "07b8a0897f10ad2671e8a28d5babea819d75ecaf581139e5e11f22a9ce033670",
+      "reported_identity_records.csv": "83f033896554eaf974cffa1bb1cad2e5427983352e630d7bfc69c78014c4f1fd"
+    },
+    "CAL_R3_K100": {
+      "report.json": "01b60a1527b9cb348dc73bcce9ac45d9bb722f9c616280b0f21c694c0edcbc39",
+      "reported_identity_records.csv": "440db611a803c702a3137a5260b23e83acf2a6e50806bc18342a0b0927b6f7ca"
+    },
+    "CAL_R3_K125": {
+      "report.json": "306ee0c7cb2381176c67f56711835137e19c54bca8749ba8704f3e318101618b",
+      "reported_identity_records.csv": "2fbba17686b7933c71e8cf6ecf2325d512bd7d2e918769b9317e59b7e21aefc0"
+    },
+    "CAL_R3_K150": {
+      "report.json": "b5d398936eadd9b8f06d6d7c4f845e53fd8e8ad32af15aa9cd1e84dc900f9ec2",
+      "reported_identity_records.csv": "9ff79c8d81e300ca9ce9701721b6d0135b5e1e994ac271b9fa077c6e2325d081"
+    },
+    "CAL_R3_K175": {
+      "report.json": "82afca0360aa024eb4c31cbed846650689fbec597ce74035c3dbed9919e39d42",
+      "reported_identity_records.csv": "64256e94d8ad9cbcbed5fc9ac28a793aef39eece4968c67824de9e1bde1d9366"
+    },
+    "CAL_R4_K050": {
+      "report.json": "d09aebda79f641012e865d3267e0fbc7188c35a6c99dfef2cf4472594bbf845d",
+      "reported_identity_records.csv": "f4485de5b8b24966096d57954baaafe8831b8b4d3bc184557dcde4ebb7e54d8d"
+    },
+    "CAL_R4_K075": {
+      "report.json": "8609392afe9bcf441581c342bece7d4891a838927a25252a223ac8248d706cf9",
+      "reported_identity_records.csv": "fb8b9545891069484d97edf39e2e1565005f53b1ab159c796d0930e137c8f30e"
+    },
+    "CAL_R4_K100": {
+      "report.json": "37d4c2b56baedc949f53d8247265856eab47f7e20b6c37238a04fc0398c0b1d1",
+      "reported_identity_records.csv": "8e6f99b6cdc54e736ef85b972537b25724901e4af7a1f4491247104bbeb76250"
+    },
+    "CAL_R4_K125": {
+      "report.json": "fd2f83d42d0039499cea34a677c28759da8b3bff4550757d5cfc5a034c33cd12",
+      "reported_identity_records.csv": "96ced6255cd6930a605105666e8c02550d45e0334a654414754f76dc5885f287"
+    },
+    "CAL_R4_K150": {
+      "report.json": "adf310bcd58edaa9825aee51295891377392ce9a2f5e22ef58a9c7be95d51bfb",
+      "reported_identity_records.csv": "96bf7c3f585a5c6173300bf80a1b9e65bced52a8256a364089ba243bea1f91d9"
+    },
+    "CAL_R4_K175": {
+      "report.json": "80189f39372001bf67705315fa098763df67f7978d9a49f87819144196cec6ed",
+      "reported_identity_records.csv": "3b41894bd88029901c21343652e758e49fb863f3d6e70e4bfecce6f1d92274bc"
+    },
+    "CAL_R5_K050": {
+      "report.json": "f392b6e0079c97ccfe550b8809551e02925f5f0c45be42e59620740e46a2320d",
+      "reported_identity_records.csv": "73d6be7c032962ba2f57f4689b0bf8b4450b7e92f7ed5d63f17b230a04ba97bf"
+    },
+    "CAL_R5_K075": {
+      "report.json": "a3feae9e25f6da16dbd7d50fc8afa773d5a9653479c61c8223703cd682b44023",
+      "reported_identity_records.csv": "ca8f0f2663324e0f7877719b0fbf8c93e9261b8ef9d7162b0514f9858640a534"
+    },
+    "CAL_R5_K100": {
+      "report.json": "bfb3c3a56eaa01d49a355e25511677e5aecda8860565702fb0b5786d66a15ee0",
+      "reported_identity_records.csv": "24d153e647a74a42003a5c56683d2b511cfc770592bf10759a2446bb05d92004"
+    },
+    "CAL_R5_K125": {
+      "report.json": "069d6da6cd149333ca342d09b6471f9bc52ad456653044539f37948eac4a4c3c",
+      "reported_identity_records.csv": "936dfb46e2f80cd1a50dc46be795057eda0feb2c1cb8e16699a2318c3a2fc65f"
+    },
+    "CAL_R5_K150": {
+      "report.json": "20254afe0fd2b4e8c0370d6805a42b8a7c5f99f07ce2ca7204446f6ed667a29c",
+      "reported_identity_records.csv": "b7d8d9a7b78549670d6567ddf94e756250f64f4e147d76dae47302e15a2e812a"
+    },
+    "CAL_R5_K175": {
+      "report.json": "1db89ef2300c9c4a56437409abe5b56bad4830ae8b848971360f1eb22a64803e",
+      "reported_identity_records.csv": "82d62d0567740f74b02d1ff84ea6d3da4f57d18ea8f2bc55d9c9bb4738b6933e"
+    }
+  },
+  "global_thresholds": {
+    "rho_zero": {
+      "FDR5": {
+        "threshold": 1.272651000158792e-20,
+        "N_retained": 3486,
+        "TP": 3312,
+        "FP": 174,
+        "FDR": 0.04991394148020654,
+        "precision": 0.9500860585197934
+      },
+      "FDR1": {
+        "threshold": 6.683949277609072e-20,
+        "N_retained": 3345,
+        "TP": 3312,
+        "FP": 33,
+        "FDR": 0.009865470852017937,
+        "precision": 0.9901345291479821
+      }
+    },
+    "X_hat": {
+      "FDR5": {
+        "threshold": 0.018091292524783753,
+        "N_retained": 1080,
+        "TP": 1026,
+        "FP": 54,
+        "FDR": 0.05,
+        "precision": 0.95
+      },
+      "FDR1": {
+        "threshold": 0.03656235259957045,
+        "N_retained": 131,
+        "TP": 130,
+        "FP": 1,
+        "FDR": 0.007633587786259542,
+        "precision": 0.9923664122137404
+      }
+    }
+  },
+  "rho_tau_FDR5": 1.272651000158792e-20,
+  "rho_tau_FDR1": 6.683949277609072e-20,
+  "selection": "maximum retained molecular units with empirical CAL FDR<=target; lower threshold breaks ties",
+  "molecular_score": "max reported-candidate rho; sum reported-candidate X_hat; no group-rho"
+}
