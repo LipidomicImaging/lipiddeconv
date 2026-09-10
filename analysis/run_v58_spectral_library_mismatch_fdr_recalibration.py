@@ -19,6 +19,13 @@ ROOT = Path(__file__).resolve().parents[1]
 VERSION = "v58_spectral_library_mismatch_fdr_recalibration"
 PERTURBATION_NAMESPACE = "v58_spectral_library_mismatch_fdr_recalibration"
 RESULT_VARIANT = "v58_spectral_library_mismatch_fdr_recalibration_compact"
+ADOPTED_SENTINEL_MODE = "ADOPTED_EQUIVALENT_SUPERSEDED_SENTINEL"
+NATIVE_SENTINEL_MODE = "COMPACT_LEARNED_SENTINEL"
+# Exact pre-adoption compact runner. Only the explicit adoption action can authorize
+# this code-only transition; the frozen design and its fingerprint are never edited.
+PRE_ADOPTION_COMPACT_RUNNER_SHA256 = "30a641cf9402735adf4896290093d9da07dcd257113e09a49ed776c54af9c3d2"
+EQUIVALENCE_RTOL = 1e-12
+EQUIVALENCE_ATOL = 1e-15
 SUPERSEDED_DRAFT = {
     "superseded_draft_fingerprint": "d9df4ea9d9395573f47104572816b607e0728065f8171d5745dc5748337f1b9a",
     "superseded_draft_status": "FROZEN_AND_TARGET_ORACLE_PASS_BEFORE_LEARNED_TRAINING",
@@ -346,7 +353,8 @@ def update_log(design, report=None):
     payload = report or {"status": "DESIGN_PREPARED; audit/oracle/sentinel/results pending"}
     section = "\n".join([begin, "", "## Final compact V58 spectral-library mismatch and FDR recalibration", "",
         "Final compact V58. Supersedes frozen 120-run pre-training draft for compute efficiency.",
-        "No learned mismatch training was performed under the superseded draft.",
+        "The superseded-draft metadata records the pre-training redesign declaration. Any later adoption of draft sentinel "
+        "training is recorded separately in sentinel_solver_validity.json, retaining its original provenance.",
         "Target perturbation libraries are byte-identical to the superseded draft.",
         json.dumps(SUPERSEDED_DRAFT, sort_keys=True), COMPACT_RATIONALE,
         "Scientific questions: CLEAN threshold transfer; target CAL recalibration; true/false rho separation and drift.",
@@ -386,7 +394,21 @@ def load_design(args, expected):
     design = load_json(args.output_dir / "design.json")
     require(not design["status"].startswith("INVALID"), "V58_INVALID; no outcome-driven redesign")
     require(design["design_fingerprint"] == v57.fingerprint(design["scientific"]), "DESIGN_CONTENT_CHANGED")
-    require(design["scientific"] == expected, "DESIGN_PROVENANCE_OR_SCIENTIFIC_CONTRACT_CHANGED")
+    if design["scientific"] != expected:
+        # A new evidence reader changes this runner's file hash, not any scientific
+        # input. Permit precisely the pinned compact predecessor, never other code.
+        runner = Path(__file__).name
+        previous_sha = design["scientific"]["source_implementation_hashes"].get(runner)
+        require(previous_sha == PRE_ADOPTION_COMPACT_RUNNER_SHA256, "UNSUPPORTED_FROZEN_RUNNER_UPGRADE")
+        compatible = json.loads(json.dumps(expected))
+        compatible["source_implementation_hashes"][runner] = previous_sha
+        require(design["scientific"] == compatible, "DESIGN_PROVENANCE_OR_SCIENTIFIC_CONTRACT_CHANGED")
+        if not getattr(args, "adopt_equivalent_sentinel", False):
+            evidence = load_json(args.output_dir / "sentinel_solver_validity.json")
+            require(evidence.get("evidence_mode") == ADOPTED_SENTINEL_MODE and
+                    evidence.get("adoption_runner_sha256") == expected["source_implementation_hashes"][runner] and
+                    evidence.get("design_fingerprint") == design["design_fingerprint"],
+                    "EXPLICIT_EQUIVALENT_SENTINEL_ADOPTION_REQUIRED_FOR_RUNNER_UPGRADE")
     require(all(design.get(k) == v for k, v in SUPERSEDED_DRAFT.items()), "SUPERSEDED_DRAFT_PROVENANCE_CHANGED")
     require(load_json(args.output_dir / "target_library_hashes.json") == expected["target_library_hashes"], "TARGET_LIBRARY_HASHES_CHANGED")
     return design
@@ -672,12 +694,15 @@ def sentinel(args, context, parent, targets, design):
     path = args.output_dir / "sentinel_solver_validity.json"
     if path.exists():
         previous = load_json(path)
+        require(previous.get("evidence_mode") != ADOPTED_SENTINEL_MODE,
+                "ADOPTED_SENTINEL_EVIDENCE_ALREADY_EXISTS; do not overwrite it with native evidence")
         require(previous["design_fingerprint"] == design["design_fingerprint"] and previous["status"] != "FAIL",
                 "SENTINEL_FAILED_OR_CHANGED; no outcome-driven redesign")
     results = {}
 
     def save(status):
         write_json(path, {"status": status, "design_fingerprint": design["design_fingerprint"], "datasets": results,
+            "evidence_mode": NATIVE_SENTINEL_MODE, "learned_training_reexecuted": True,
             "gate_formula": GATE_FORMULA, "gate_frozen_audit_sha256": design["frozen_audit_sha256"],
             "residual_scope": "full observed cube, all channels/pixels; no channel weighting",
             "early_stop_allowed": True, "hard_cap": 3000, "identity_outcomes_used": False,
@@ -711,10 +736,17 @@ def sentinel(args, context, parent, targets, design):
     save("PASS")
 
 
-def require_sentinels(args, design):
+def require_sentinels(args, design, context=None, parent=None, targets=None):
     require_oracles(args, design)
     audit = checked_audit(args, design)
     gate = load_json(args.output_dir / "sentinel_solver_validity.json")
+    if gate.get("evidence_mode") == ADOPTED_SENTINEL_MODE:
+        context, parent, targets = adoption_inputs(args, design, context, parent, targets)
+        verified = equivalent_sentinel_evidence(args, context, parent, targets, design,
+                                                Path(gate["source_draft_directory"]))
+        require(gate == v57.canonical(verified), "ADOPTED_SENTINEL_EVIDENCE_OR_SOURCE_ARTIFACTS_CHANGED")
+        return gate
+    require(gate.get("evidence_mode", NATIVE_SENTINEL_MODE) == NATIVE_SENTINEL_MODE, "UNKNOWN_SENTINEL_EVIDENCE_MODE")
     require(gate["status"] == "PASS" and gate["design_fingerprint"] == design["design_fingerprint"] and
             set(gate["datasets"]) == set(SENTINELS) and gate["gate_formula"] == GATE_FORMULA and
             gate["gate_frozen_audit_sha256"] == design["frozen_audit_sha256"], "SENTINEL_4_OF_4_PASS_REQUIRED")
@@ -731,6 +763,162 @@ def require_sentinels(args, design):
     return gate
 
 
+def adoption_inputs(args, design, context=None, parent=None, targets=None):
+    if context is None or parent is None or targets is None:
+        parent, _, hashes = parent_provenance(args)
+        require(hashes == design["scientific"]["V57_parent_file_hashes"], "ADOPTION_PARENT_CHANGED")
+        context = load_context(args, parent)
+        targets, _, _ = build_targets(context)
+    return context, parent, targets
+
+
+def equivalent_sentinel_evidence(args, context, parent, targets, design, source):
+    """Read/reconstruct only; never train, copy artifacts, or rebind source outputs."""
+    source = source.resolve()
+    output = args.output_dir.resolve()
+    require(source != output and source not in output.parents and output not in source.parents,
+            "ADOPTION_SOURCE_OVERLAPS_COMPACT_OUTPUT")
+    require(design["design_fingerprint"] == v57.fingerprint(design["scientific"]), "COMPACT_DESIGN_CHANGED")
+    require(design["scientific"]["contract"] == v57.canonical(CONTRACT), "COMPACT_CONTRACT_CHANGED")
+    require_oracles(args, design)
+    files = ("design.json", "design_audit.json", "target_library_hashes.json", "sentinel_solver_validity.json")
+    source_hashes = {name: v56.digest(source / name) for name in files}
+    old = load_json(source / "design.json")
+    old_fp = SUPERSEDED_DRAFT["superseded_draft_fingerprint"]
+    require(old["status"] == "DESIGN_FROZEN_BEFORE_TRAINING" and
+            old["design_fingerprint"] == v57.fingerprint(old["scientific"]) == old_fp, "ADOPTION_SOURCE_DESIGN_CHANGED")
+    require(old["frozen_audit_sha256"] == source_hashes["design_audit.json"], "ADOPTION_SOURCE_FROZEN_AUDIT_CHANGED")
+    old_audit = load_json(source / "design_audit.json")
+    require(old_audit["status"] == "PASS" and old_audit["design_fingerprint"] == old_fp, "ADOPTION_SOURCE_AUDIT_INVALID")
+    old_gate = load_json(source / "sentinel_solver_validity.json")
+    require(old_gate["status"] == "PASS" and old_gate["design_fingerprint"] == old_fp and
+            set(old_gate["datasets"]) == set(SENTINELS) and
+            old_gate.get("evidence_mode", NATIVE_SENTINEL_MODE) != ADOPTED_SENTINEL_MODE,
+            "ADOPTION_REQUIRES_EXACT_FOUR_NATIVE_DRAFT_SENTINELS_PASS")
+    require(old_gate["gate_frozen_audit_sha256"] == old["frozen_audit_sha256"] and
+            old_gate["gate_formula"] == GATE_FORMULA and old_gate["hard_cap"] == CONTRACT["hard_epoch_cap"] and
+            old_gate["early_stop_allowed"] is True and old_gate["identity_outcomes_used"] is False and
+            old_gate["rho_computed"] is False and old_gate["truth_used_in_training_or_stopping"] is False,
+            "ADOPTION_SOURCE_GATE_CONTRACT_CHANGED")
+    libraries = design["scientific"]["target_library_hashes"]
+    require(libraries == old["scientific"]["target_library_hashes"] ==
+            load_json(source / "target_library_hashes.json") == old_audit["target_library_hashes"] ==
+            EXPECTED_DRAFT_LIBRARY_HASHES, "ADOPTION_LIBRARY_HASH_MISMATCH")
+    # The known draft fingerprint anchors the original config and driver guards.
+    # All scientific contract fields it contains must agree, apart from the K/count contraction.
+    for key, value in old["scientific"]["contract"].items():
+        if key not in ("K_levels", "mismatch_runs"):
+            require(v57.canonical(CONTRACT.get(key)) == value, f"ADOPTION_CONTRACT_MISMATCH: {key}")
+    for key in ("production_asset_hashes", "stage0_hashes", "candidate_order", "V57_parent_file_hashes"):
+        require(old["scientific"][key] == design["scientific"][key], f"ADOPTION_INPUT_PROVENANCE_MISMATCH: {key}")
+    current_hashes = implementation_hashes()
+    runner = Path(__file__).name
+    old_implementations = {k: h for k, h in old["scientific"]["source_implementation_hashes"].items() if k != runner}
+    for implementations in (design["scientific"]["source_implementation_hashes"], current_hashes):
+        require(old_implementations == {k: h for k, h in implementations.items() if k != runner},
+                "ADOPTION_PRODUCTION_IMPLEMENTATION_MISMATCH")
+    require(design["scientific"]["source_implementation_hashes"][runner] in
+            (PRE_ADOPTION_COMPACT_RUNNER_SHA256, current_hashes[runner]), "ADOPTION_UNSUPPORTED_COMPACT_RUNNER")
+    from config_758 import Cfg
+    config = {**v54.v50.CFG_DEFAULTS, "parent_channel_weight_multiplier": 1.0}
+    require(all(getattr(Cfg, k) == value for k, value in config.items()), "ADOPTION_PRODUCTION_CONFIG_CHANGED")
+    require(v54.MAX_EPOCH == CONTRACT["hard_epoch_cap"] and tuple(v54.CHECKPOINT_EPOCHS) == CONTRACT["checkpoint_epochs"],
+            "ADOPTION_TRAINING_DURATION_CONTRACT_CHANGED")
+    datasets, checks, artifacts = {}, {}, {}
+    for dataset in SENTINELS:
+        case, row = checked_case(args, context, parent, targets, design, dataset)
+        compact_binding = binding(design, dataset, row)
+        original = old_gate["datasets"][dataset]
+        old_binding = original["runtime_binding"]
+        # Compare the common scientific fields; keep the two fingerprints separate.
+        require(old_binding["design_fingerprint"] == old_fp and
+                {k: v for k, v in old_binding.items() if k != "design_fingerprint"} ==
+                {k: v for k, v in compact_binding.items() if k != "design_fingerprint"}, "ADOPTION_DATASET_INPUT_MISMATCH")
+        require(old_binding == binding(old, dataset, old_audit["datasets"][dataset]), "ADOPTION_OLD_RUNTIME_AUDIT_MISMATCH")
+        forward = original["forward_mismatch_residual"]
+        require(math.isfinite(forward) and math.isclose(forward, row["forward_mismatch_residual"],
+                rel_tol=EQUIVALENCE_RTOL, abs_tol=EQUIVALENCE_ATOL), "ADOPTION_FORWARD_MISMATCH_CHANGED")
+        require(math.isclose(forward, old_audit["datasets"][dataset]["forward_mismatch_residual"],
+                rel_tol=EQUIVALENCE_RTOL, abs_tol=EQUIVALENCE_ATOL), "ADOPTION_OLD_FORWARD_AUDIT_CHANGED")
+        require(original["gate_residual"] == row["sentinel_gate_residual"] == collapse_gate(row["forward_mismatch_residual"]) ==
+                collapse_gate(forward) == old_audit["datasets"][dataset]["sentinel_gate_residual"], "ADOPTION_GATE_RESIDUAL_CHANGED")
+        severity, base, *_ = parts(dataset)
+        location = source / severity / base
+        require(v56.digest(location / "solver_run.json") == original["solver_run_sha256"], "ADOPTION_SOURCE_SOLVER_RUN_CHANGED")
+        saved = load_json(location / "solver_run.json")
+        require(saved["runtime_binding"] == load_json(location / "runtime_contract.json") == old_binding,
+                "ADOPTION_SOURCE_RUNTIME_BINDING_CHANGED")
+        require(saved["X_true_used_in_training_or_stopping"] is False and saved["A_target_used_by_solver"] is False,
+                "ADOPTION_SOURCE_TRAINING_LEAKAGE")
+        require(set(saved["training_artifact_hashes"]) == {"training_history.json", "checkpoint_diagnostics.csv"},
+                "ADOPTION_INCOMPLETE_TRAINING_ARTIFACT_HASHES")
+        for name, sha in saved["training_artifact_hashes"].items():
+            require(v56.digest(location / name) == sha, f"ADOPTION_SOURCE_ARTIFACT_CHANGED: {dataset}/{name}")
+        require(v56.digest(location / "learned_arrays.npz") == saved["arrays_sha256"], "ADOPTION_SOURCE_ARRAYS_CHANGED")
+        require(finite_loss_history(load_json(location / "training_history.json")), "ADOPTION_SOURCE_NONFINITE_HISTORY")
+        with np.load(location / "learned_arrays.npz", allow_pickle=False) as arrays:
+            learned = {**saved["training"], "X_hat": arrays["X_hat"], "B_hat": arrays["B_hat"]}
+            require(all(solver_validity(learned)) and learned["X_hat"].shape == case["X_true"].shape and
+                    learned["B_hat"].shape == case["B_sim"].shape, "ADOPTION_SOURCE_SOLVER_NONFINITE_OR_ABNORMAL")
+            residual = relative_residual(learned["B_hat"], case["B_sim"])
+        recorded_residual = original["final_full_cube_reconstruction_relative_residual"]
+        require(original["status"] == "PASS" and original["normal_completion"] is True and
+                original["all_outputs_losses_finite"] is True and original["stop_reason"] == saved["training"]["stop_reason"] and
+                original["epoch"] == saved["training"]["stopped_epoch"] and
+                1 <= original["epoch"] <= CONTRACT["hard_epoch_cap"] and
+                saved["training"]["scheduler_T_max"] == config["n_epochs"] and
+                recorded_residual is not None and math.isfinite(recorded_residual) and
+                math.isclose(residual, recorded_residual, rel_tol=EQUIVALENCE_RTOL, abs_tol=EQUIVALENCE_ATOL) and
+                max(residual, recorded_residual) <= row["sentinel_gate_residual"], "ADOPTION_SOURCE_SENTINEL_VALIDITY_FAILED")
+        checkpoint_names = {"latest_model.pth", *[f"checkpoint_epoch_{epoch}.pth" for epoch in CONTRACT["checkpoint_epochs"]
+                                                if epoch <= original["epoch"]]}
+        require({p.name for p in location.glob("*.pth")} == checkpoint_names, "ADOPTION_CHECKPOINT_SET_INCOMPLETE_OR_CHANGED")
+        names = {*checkpoint_names, "runtime_contract.json", "solver_run.json", "learned_arrays.npz",
+                 "training_history.json", "checkpoint_diagnostics.csv"}
+        artifacts[dataset] = {name: v56.digest(location / name) for name in sorted(names)}
+        require(artifacts[dataset]["solver_run.json"] == original["solver_run_sha256"] and
+                artifacts[dataset]["learned_arrays.npz"] == saved["arrays_sha256"] and
+                all(artifacts[dataset][name] == sha for name, sha in saved["training_artifact_hashes"].items()),
+                "ADOPTION_SOURCE_ARTIFACT_CHANGED_DURING_READ")
+        # Source evidence is embedded intact: its runtime_binding remains the old fingerprint.
+        datasets[dataset] = original
+        checks[dataset] = {"scientific_inputs_identical": True, "compact_runtime_binding": compact_binding,
+            "source_runtime_binding": old_binding, "reconstructed_forward_mismatch_residual": row["forward_mismatch_residual"],
+            "reconstructed_final_residual": residual, "compact_gate_residual": row["sentinel_gate_residual"],
+            "normal_completion": True, "all_outputs_losses_finite": True, "artifact_hashes_verified": True}
+        del case, learned
+    require(all(v56.digest(source / name) == sha for name, sha in source_hashes.items()), "ADOPTION_SOURCE_CHANGED_DURING_READ")
+    for dataset, file_hashes in artifacts.items():
+        severity, base, *_ = parts(dataset)
+        require(all(v56.digest(source / severity / base / name) == sha for name, sha in file_hashes.items()),
+                "ADOPTION_SOURCE_ARTIFACT_CHANGED_DURING_READ")
+    return {"status": "PASS", "design_fingerprint": design["design_fingerprint"], "datasets": datasets,
+        "evidence_mode": ADOPTED_SENTINEL_MODE, "learned_training_reexecuted": False,
+        "source_draft_directory": str(source), "source_draft_fingerprint": old_fp,
+        "source_sentinel_file_sha256": source_hashes["sentinel_solver_validity.json"], "source_file_hashes": source_hashes,
+        "source_solver_artifact_hashes": artifacts, "equivalence_checks": checks, "scientific_inputs_identical": True,
+        "production_implementation_hashes": old_implementations, "production_training_config": config,
+        "training_config_evidence": "identical frozen config/driver hashes and production config guards; scheduler_T_max verified",
+        "checkpoint_hash_provenance": "weights first SHA-pinned at adoption; source runner already pinned history, diagnostics and arrays",
+        "compact_frozen_runner_sha256": design["scientific"]["source_implementation_hashes"][runner],
+        "adoption_runner_sha256": current_hashes[runner], "float_equivalence_tolerance": {"rtol": EQUIVALENCE_RTOL, "atol": EQUIVALENCE_ATOL},
+        "gate_formula": GATE_FORMULA, "gate_frozen_audit_sha256": design["frozen_audit_sha256"],
+        "early_stop_allowed": True, "hard_cap": CONTRACT["hard_epoch_cap"], "checkpoint_epochs": CONTRACT["checkpoint_epochs"],
+        "identity_outcomes_used": False, "rho_computed": False, "truth_used_in_training_or_stopping": False,
+        "ordinary_mismatch_results_adopted": False}
+
+
+def adopt_equivalent_sentinel(args, context, parent, targets, design):
+    guard_output(args)
+    evidence = equivalent_sentinel_evidence(args, context, parent, targets, design, args.source_draft_dir)
+    path = args.output_dir / "sentinel_solver_validity.json"
+    if path.exists():
+        require(load_json(path) == v57.canonical(evidence), "REFUSE_TO_REPLACE_EXISTING_SENTINEL_EVIDENCE")
+    else:
+        write_json(path, evidence)
+    print("ADOPTED_EQUIVALENT_SUPERSEDED_SENTINEL PASS 4/4; source artifacts and runtime bindings unchanged; no training")
+
+
 RECORD_FILES = ("reported_identity_records.csv", "candidate_false_negative_records.csv", "molecular_false_negative_records.csv")
 
 
@@ -745,7 +933,7 @@ def verified_report(args, design, dataset, row):
 
 
 def run_dataset(args, context, parent, targets, design, dataset):
-    require_sentinels(args, design)
+    require_sentinels(args, design, context, parent, targets)
     case, row = checked_case(args, context, parent, targets, design, dataset)
     output = directory(args, dataset)
     if (output / "report.json").exists():
@@ -1029,8 +1217,8 @@ def compact_mechanism_metrics(records, pack):
     return [row for row in v57.mechanism_metrics(records, pack) if row["K"] in ("GLOBAL", *K_LEVELS)]
 
 
-def aggregate(args, design, clean_thresholds):
-    sentinels = require_sentinels(args, design)
+def aggregate(args, design, clean_thresholds, context=None, parent=None, targets=None):
+    sentinels = require_sentinels(args, design, context, parent, targets)
     calibrated = {}
     # Phase 1 is exclusively CAL. No HOLD records are even loaded into memory here.
     for severity in SEVERITIES:
@@ -1094,7 +1282,10 @@ def aggregate(args, design, clean_thresholds):
         "result_variant": RESULT_VARIANT, "compact_rationale": COMPACT_RATIONALE, **SUPERSEDED_DRAFT,
         "measurement_noise": False, "mismatch_runs": 60, "clean_runs": 0,
         "target_oracle": {"status": "PASS", "count": 60, "summary_sha256": v56.digest(args.output_dir / "oracle_summary.json")},
-        "sentinel": {"status": sentinels["status"], "count": len(sentinels["datasets"]), "gate_formula": GATE_FORMULA},
+        "sentinel": {"status": sentinels["status"], "count": len(sentinels["datasets"]), "gate_formula": GATE_FORMULA,
+                     "evidence_mode": sentinels.get("evidence_mode", NATIVE_SENTINEL_MODE),
+                     "source_draft_fingerprint": sentinels.get("source_draft_fingerprint"),
+                     "source_sentinel_file_sha256": sentinels.get("source_sentinel_file_sha256")},
         "CLEAN_FIXED": fixed_metrics, "LOCAL_CAL_RECALIBRATION": local_metrics,
         "rho_separation": [r for r in separation if r["K"] == "GLOBAL"],
         "local_threshold_file_hashes": {s: v56.digest(threshold_path(args, s)) for s in SEVERITIES},
@@ -1117,10 +1308,13 @@ def parse_args(argv=None):
     parser.add_argument("--asset-root", type=Path, default=Path("/root/autodl-tmp/decon-lipid"))
     parser.add_argument("--v57-output", type=Path, default=ROOT / "results" / PARENT_VERSION)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "results" / RESULT_VARIANT)
+    parser.add_argument("--source-draft-dir", type=Path, default=ROOT / "results" / VERSION,
+                        help="read-only source of the four equivalent draft sentinels")
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--rho-workers", type=int, default=1)
     actions = parser.add_mutually_exclusive_group(required=True)
-    for name in ("prepare-design", "audit-design", "freeze-design", "oracle-all", "sentinel", "mismatch-all", "aggregate"):
+    for name in ("prepare-design", "audit-design", "freeze-design", "oracle-all", "sentinel",
+                 "adopt-equivalent-sentinel", "mismatch-all", "aggregate"):
         actions.add_argument(f"--{name}", action="store_true")
     actions.add_argument("--dataset", choices=dataset_ids(), metavar="SEVERITY__SPLIT_Rn_Knnn",
                          help="one mismatch dataset, e.g. MILD__CAL_R1_K050; all lifecycle gates still required")
@@ -1158,10 +1352,12 @@ def main():
         oracle_all(args, context, parent, targets, design)
     elif args.sentinel:
         sentinel(args, context, parent, targets, design)
+    elif args.adopt_equivalent_sentinel:
+        adopt_equivalent_sentinel(args, context, parent, targets, design)
     elif args.aggregate:
-        aggregate(args, design, clean_thresholds)
+        aggregate(args, design, clean_thresholds, context, parent, targets)
     else:
-        require_sentinels(args, design)
+        require_sentinels(args, design, context, parent, targets)
         for dataset in ([args.dataset] if args.dataset else dataset_ids()):
             run_dataset(args, context, parent, targets, design, dataset)
 
