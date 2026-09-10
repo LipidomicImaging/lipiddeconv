@@ -1,5 +1,7 @@
 # Active state update — 2026-09-10
 
+V59 live check at 2026-09-10T12:55Z: no stall. D0/D1 sentinels PASS (final residual0.0417713/0.0525857); D2 actively training at epoch2150 with fresh history and100% GPU utilization. Supervisor stage timestamp is coarse, not an epoch heartbeat. Snapshot: results/active_experiments/v59_status_20260910T1255Z.json. No process restarted.
+
 Three missing-library reference controls passed CPU reconstruction and production/checkpoint audit: original B bindings match byte-for-byte, all production implementation/config checks pass, 15 named checkpoints and final histories agree. See results/computational_closure/missing_library/control_reconstruction_audit.json. X_true hashes are frozen-design reconstructions, not independent historical seals. Reduced-N adapter remains pending; no GPU work launched.
 
 Missing-library selection prepared: five close-neighbor truths and five same-class/exact-abundance matched controls, same IDs for HOLD_R1–R3 K125. Selection fingerprint bc5c0efd7fa07b0ecfd206ce37b189bb63a05d28d90df1dfdbebb1c874c0501a. Three control array/binding audits pass; execution freeze still awaits B/X_true reconstruction and implementation/checkpoint provenance. No new training. Git updates authorized and previous progress pushed to codex/v58-v59-run-records (321e684).

@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-09-10T12:55:18Z",
+  "status": "ACTIVE_SENTINEL_TRAINING",
+  "supervisor_pid": 2200,
+  "training_pid": 2591,
+  "gpu_utilization_percent": 100,
+  "gpu_memory_used_MiB": 25440,
+  "gpu_memory_total_MiB": 32760,
+  "sentinel_gate_status": "IN_PROGRESS",
+  "sentinels": {
+    "D0__CAL_R1_K125": {"status": "PASS", "stopped_epoch": 3000, "final_residual": 0.04177125624605165},
+    "D1__CAL_R1_K125": {"status": "PASS", "stopped_epoch": 3000, "final_residual": 0.052585734803495},
+    "D2__CAL_R1_K125": {"status": "TRAINING", "last_history_epoch": 2150, "history_updated_utc": "2026-09-10T12:55:18.760289+00:00", "last_checkpoint_epoch": 2000, "checkpoint_residual": 0.044504012912511826}
+  },
+  "interpretation": "Fresh history and active GPU confirm progress. Supervisor stage timestamp does not track individual sentinel epochs. D2 checkpoint residual is not final PASS evidence.",
+  "actions": "Read-only inspection; no restart or training changes."
+}
