@@ -1,0 +1,40 @@
+{
+  "snapshot_date": "2026-09-10",
+  "final_results_complete": false,
+  "V58": {
+    "experiment": "compact spectral-library mismatch / FDR recalibration",
+    "planned_count": 60,
+    "completed_count": 25,
+    "status": "RUNNING",
+    "active_dataset": "MILD__HOLD_R4_K125",
+    "status_updated_utc": "2026-09-10T11:24:53.199046+00:00",
+    "design_fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+    "host": "connect.westc.seetacloud.com",
+    "ssh_port": 55786,
+    "status_path": "/root/v58_jobs/compact_recovery_status.json"
+  },
+  "V59": {
+    "experiment": "standardized cross-library CLEAN / domain-local FDR calibration",
+    "planned_count": 18,
+    "oracle_count_passed": 18,
+    "status": "RUNNING_SENTINEL",
+    "active_dataset": "D0__CAL_R1_K125",
+    "last_observed_epoch": 850,
+    "GPU_utilization_percent": 95,
+    "GPU_memory_used_MiB": 20406,
+    "stage_started_utc": "2026-09-10T11:26:56.794182+00:00",
+    "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3",
+    "host": "connect.cqa1.seetacloud.com",
+    "ssh_port": 48975,
+    "status_path": "/root/autodl-tmp/v59_jobs/oracle_float64_recovery/status.json",
+    "sentinel_pass_not_yet_verified": true
+  },
+  "final_handoff_required": [
+    "verified compact result records",
+    "CAL thresholds and seals",
+    "HOLD metrics and recall curves",
+    "provenance and failure/recovery evidence",
+    "scientific analysis",
+    "git commit and push"
+  ]
+}

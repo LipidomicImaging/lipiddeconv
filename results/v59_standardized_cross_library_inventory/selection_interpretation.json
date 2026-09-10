@@ -1,0 +1,9 @@
+{
+  "eligible_domains": [
+    "W800_850",
+    "W850_900"
+  ],
+  "reason": "700-750 and 750-800 overlap frozen production W0; only two external windows remain. No automatic reduction to two.",
+  "required_external_count": 3,
+  "status": "INSUFFICIENT_NONOVERLAPPING_STANDARDIZED_WINDOWS"
+}

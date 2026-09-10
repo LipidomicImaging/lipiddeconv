@@ -1,0 +1,3598 @@
+{
+  "W0_PROD": {
+    "N_candidates": 391,
+    "N_duplicate_lipid_names": 9,
+    "N_singleton_lipid_names": 368,
+    "N_unique_lipid_names": 377,
+    "R_window": 0.9642813330662598,
+    "adduct_composition": {
+      "[M+CH3COO]-": 11,
+      "[M+Cl]-": 25,
+      "[M+HCOO]-": 12,
+      "[M-H]-": 343
+    },
+    "class_composition": {
+      "PA": 82,
+      "PC": 48,
+      "PE": 161,
+      "PG": 66,
+      "PS": 34
+    },
+    "formal_eligible_external_R_percentile_fraction": 0.0,
+    "formal_eligible_external_count": 2,
+    "fraction_standardized_external_R_leq": 0.0,
+    "max_candidates_per_lipid_name": 3
+  },
+  "W0_STD": {
+    "N_candidates": 896,
+    "N_duplicate_lipid_names": 69,
+    "N_singleton_lipid_names": 758,
+    "N_unique_lipid_names": 827,
+    "R_window": 0.9658824070738246,
+    "adduct_composition": {
+      "[M+CH3COO]-": 85,
+      "[M+HCOO]-": 109,
+      "[M-H]-": 702
+    },
+    "class_composition": {
+      "PA": 125,
+      "PC": 194,
+      "PE": 353,
+      "PG": 105,
+      "PI": 26,
+      "PS": 93
+    },
+    "formal_eligible_external_R_percentile_fraction": 0.0,
+    "formal_eligible_external_count": 2,
+    "fraction_standardized_external_R_leq": 0.25,
+    "max_candidates_per_lipid_name": 2
+  },
+  "external_precursor_range": [
+    700,
+    900
+  ],
+  "production_candidate_coverage": 0.9360613810741688,
+  "production_only_candidates": [
+    "PC+Cl__0165",
+    "PC+Cl__0167",
+    "PC+Cl__0168",
+    "PC+Cl__0169",
+    "PC+Cl__0176",
+    "PC+Cl__0177",
+    "PC+Cl__0178",
+    "PC+Cl__0179",
+    "PC+Cl__0180",
+    "PC+Cl__0219",
+    "PC+Cl__0231",
+    "PC+Cl__0382",
+    "PC+Cl__0383",
+    "PC+Cl__0390",
+    "PC+Cl__0391",
+    "PC+Cl__0392",
+    "PC+Cl__0435",
+    "PC+Cl__0443",
+    "PC+Cl__0444",
+    "PC+Cl__0657",
+    "PC+Cl__0658",
+    "PC+Cl__0706",
+    "PC+Cl__0793",
+    "PC+Cl__0797",
+    "PC+Cl__1186"
+  ],
+  "shared_candidate_id_count": 366,
+  "shared_candidate_spectra": [
+    {
+      "candidate_id": "PA-H__0075",
+      "cosine": 0.9999999988784858,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 1.062639057636261e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 4.7364035014260584e-05
+    },
+    {
+      "candidate_id": "PA-H__0076",
+      "cosine": 0.9999061244311268,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.002756994916126132,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013835246155584995
+    },
+    {
+      "candidate_id": "PA-H__0079",
+      "cosine": 0.9999997850480534,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0001669733173912391,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0006556842973203826
+    },
+    {
+      "candidate_id": "PA-H__0080",
+      "cosine": 0.999903535224957,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0038335153367370367,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013889881886699911
+    },
+    {
+      "candidate_id": "PA-H__0100",
+      "cosine": 0.9999653570357458,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0015138094323674522,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.008340623521477283
+    },
+    {
+      "candidate_id": "PA-H__0117",
+      "cosine": 0.9999999980249649,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 1.2888625406048959e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 6.284994717849378e-05
+    },
+    {
+      "candidate_id": "PA-H__0118",
+      "cosine": 0.9998071494378745,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0044800774194300175,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.019647710870061758
+    },
+    {
+      "candidate_id": "PA-H__0119",
+      "cosine": 0.9998282159663829,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004229231271892786,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.018535566020500157
+    },
+    {
+      "candidate_id": "PA-H__0120",
+      "cosine": 0.9997425603052574,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005276183132082224,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02269094850358726
+    },
+    {
+      "candidate_id": "PA-H__0121",
+      "cosine": 0.9995112187217373,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00643436898087657,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03126599477804833
+    },
+    {
+      "candidate_id": "PA-H__0122",
+      "cosine": 0.9999452780065226,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0028818612918257713,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.010461547262912199
+    },
+    {
+      "candidate_id": "PA-H__0124",
+      "cosine": 0.9999999975440753,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 1.32300689585918e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 7.008464827227637e-05
+    },
+    {
+      "candidate_id": "PA-H__0125",
+      "cosine": 0.9998183173408347,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004401144105941057,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.019074230471084926
+    },
+    {
+      "candidate_id": "PA-H__0128",
+      "cosine": 0.9999993745702375,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00025026194634847343,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0011184778330467916
+    },
+    {
+      "candidate_id": "PA-H__0129",
+      "cosine": 0.9998889183101252,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003911122214049101,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.014905113560787343
+    },
+    {
+      "candidate_id": "PA-H__0130",
+      "cosine": 0.9999144338998646,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0034905096981674433,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013081749987829792
+    },
+    {
+      "candidate_id": "PA-H__0140",
+      "cosine": 0.9999713468628713,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0013117752969264984,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.007588046227860714
+    },
+    {
+      "candidate_id": "PA-H__0141",
+      "cosine": 0.9996996407120684,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00650812080129981,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.024509553364417094
+    },
+    {
+      "candidate_id": "PA-H__0142",
+      "cosine": 0.9994651146506484,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007582922000437975,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03270724976133975
+    },
+    {
+      "candidate_id": "PA-H__0143",
+      "cosine": 0.9992690362413078,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007615146692842245,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03823502891061269
+    },
+    {
+      "candidate_id": "PA-H__0144",
+      "cosine": 0.9994017734072626,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0064119985327124596,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03458963974489478
+    },
+    {
+      "candidate_id": "PA-H__0147",
+      "cosine": 0.9999540939145615,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.001696505001746118,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.009627870008366573
+    },
+    {
+      "candidate_id": "PA-H__0148",
+      "cosine": 0.9992425182413195,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008430333051364869,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03892186951803059
+    },
+    {
+      "candidate_id": "PA-H__0151",
+      "cosine": 0.9997823657917938,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00421072356402874,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0208627167845941
+    },
+    {
+      "candidate_id": "PA-H__0152",
+      "cosine": 0.9994350569952822,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00596374376618769,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03361342477307508
+    },
+    {
+      "candidate_id": "PA-H__0153",
+      "cosine": 0.9996596732904404,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005070591811090708,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.026089361099134317
+    },
+    {
+      "candidate_id": "PA-H__0162",
+      "cosine": 0.9999828773881817,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0012534846318885684,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.005851931228115362
+    },
+    {
+      "candidate_id": "PA-H__0163",
+      "cosine": 0.9997828240280705,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004720201250165701,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02084103521898578
+    },
+    {
+      "candidate_id": "PA-H__0164",
+      "cosine": 0.9997760430791438,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005270925350487232,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.021163918604771664
+    },
+    {
+      "candidate_id": "PA-H__0165",
+      "cosine": 0.9994107882242013,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006342145614326,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0343280288905979
+    },
+    {
+      "candidate_id": "PA-H__0169",
+      "cosine": 0.999971079320593,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0016043896321207285,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.007605329566821253
+    },
+    {
+      "candidate_id": "PA-H__0170",
+      "cosine": 0.9997223483489003,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005399556830525398,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.023564646887764076
+    },
+    {
+      "candidate_id": "PA-H__0173",
+      "cosine": 0.9997249607276746,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004960869904607534,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02345337608782542
+    },
+    {
+      "candidate_id": "PA-H__0174",
+      "cosine": 0.9994536794884352,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005384525284171104,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.033055440346325335
+    },
+    {
+      "candidate_id": "PA-H__0175",
+      "cosine": 0.9996387512390023,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004782631527632475,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.026879290458864193
+    },
+    {
+      "candidate_id": "PA-H__0197",
+      "cosine": 0.9999999994836847,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 7.603348876727978e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 3.21376796060136e-05
+    },
+    {
+      "candidate_id": "PA-H__0198",
+      "cosine": 0.9996885158752021,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006632015109062195,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02676768499695094
+    },
+    {
+      "candidate_id": "PA-H__0199",
+      "cosine": 0.999783030701266,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004695969643080389,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.020831170563251337
+    },
+    {
+      "candidate_id": "PA-H__0200",
+      "cosine": 0.9998138505179056,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004439362790435553,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01929504384790641
+    },
+    {
+      "candidate_id": "PA-H__0201",
+      "cosine": 0.9998982067284674,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003517990233376622,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.014268372424677551
+    },
+    {
+      "candidate_id": "PA-H__0202",
+      "cosine": 0.9999542026937346,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.002525271149352193,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.009570505418062421
+    },
+    {
+      "candidate_id": "PA-H__0204",
+      "cosine": 0.9994497082426972,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007983757182955742,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.033185305720018245
+    },
+    {
+      "candidate_id": "PA-H__0205",
+      "cosine": 0.999562424626079,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0067765191197395325,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029582856224758647
+    },
+    {
+      "candidate_id": "PA-H__0206",
+      "cosine": 0.9995491385110032,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006661415100097656,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.030028682896906578
+    },
+    {
+      "candidate_id": "PA-H__0207",
+      "cosine": 0.9997650666788721,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005058265756815672,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02167640466288512
+    },
+    {
+      "candidate_id": "PA-H__0208",
+      "cosine": 0.9999326010744208,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.002944675274193287,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.011610245498955866
+    },
+    {
+      "candidate_id": "PA-H__0209",
+      "cosine": 0.9999523388016096,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0025429656803908074,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.009763317016210266
+    },
+    {
+      "candidate_id": "PA-H__0217",
+      "cosine": 0.9997558477322608,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006667532958090305,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.022097612258570085
+    },
+    {
+      "candidate_id": "PA-H__0218",
+      "cosine": 0.9898696116170451,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03673700778745115,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.14210874651646063
+    },
+    {
+      "candidate_id": "PA-H__0219",
+      "cosine": 0.9771213590331097,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0494876466691494,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.21390913539893877
+    },
+    {
+      "candidate_id": "PA-H__0220",
+      "cosine": 0.999519498289819,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0062405262142419815,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.031000044921922872
+    },
+    {
+      "candidate_id": "PA-H__0222",
+      "cosine": 0.9995640549114169,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007290108175311616,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029551150749812436
+    },
+    {
+      "candidate_id": "PA-H__0223",
+      "cosine": 0.9994566662954532,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008202771656215191,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.032964637945094195
+    },
+    {
+      "candidate_id": "PA-H__0224",
+      "cosine": 0.9992901829324814,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009470751509070396,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03767793911609571
+    },
+    {
+      "candidate_id": "PA-H__0225",
+      "cosine": 0.9992503048812317,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009233794175088406,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038721940573171854
+    },
+    {
+      "candidate_id": "PA-H__0226",
+      "cosine": 0.9993782809136699,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007127996534109116,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03526241572443032
+    },
+    {
+      "candidate_id": "PA-H__0227",
+      "cosine": 0.9994424640439882,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007136051543056965,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03339268666276298
+    },
+    {
+      "candidate_id": "PA-H__0228",
+      "cosine": 0.9993957407612105,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009806767333884636,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03476440847758523
+    },
+    {
+      "candidate_id": "PA-H__0236",
+      "cosine": 0.9997525140081779,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005467487033456564,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.022247963887527842
+    },
+    {
+      "candidate_id": "PA-H__0237",
+      "cosine": 0.9909283619822136,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.030622679740190506,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1344317709834971
+    },
+    {
+      "candidate_id": "PA-H__0241",
+      "cosine": 0.9995563399715341,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006405378691852093,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029787914421453447
+    },
+    {
+      "candidate_id": "PA-H__0244",
+      "cosine": 0.9994251287095373,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005053847562521696,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.033907848635494224
+    },
+    {
+      "candidate_id": "PA-H__0246",
+      "cosine": 0.9992843286062555,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009480008905484283,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.037834153352773146
+    },
+    {
+      "candidate_id": "PA-H__0257",
+      "cosine": 0.9997372418326749,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005125073374301792,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0229241301006334
+    },
+    {
+      "candidate_id": "PA-H__0258",
+      "cosine": 0.999524202633008,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006049158626183271,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.030847911532178897
+    },
+    {
+      "candidate_id": "PA-H__0260",
+      "cosine": 0.9994311255821408,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004120948462514207,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03373035910118253
+    },
+    {
+      "candidate_id": "PA-H__0261",
+      "cosine": 0.9994973159072316,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004618560429662466,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03171510140623971
+    },
+    {
+      "candidate_id": "PA-H__0263",
+      "cosine": 0.999340205887142,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008336339145898819,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03632789913114238
+    },
+    {
+      "candidate_id": "PA-H__0273",
+      "cosine": 0.9998502006542788,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0037883948534727097,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.017308914122400577
+    },
+    {
+      "candidate_id": "PA-H__0274",
+      "cosine": 0.9994722434596919,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006105589680373669,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03248864822539998
+    },
+    {
+      "candidate_id": "PA-H__0275",
+      "cosine": 0.9995140561107154,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005822372157126665,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.031174934109233835
+    },
+    {
+      "candidate_id": "PA-H__0276",
+      "cosine": 0.9993703821094431,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006499968469142914,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035521562443006485
+    },
+    {
+      "candidate_id": "PA-H__0277",
+      "cosine": 0.9995769848092253,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004167813807725906,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029091733297833444
+    },
+    {
+      "candidate_id": "PA-H__0278",
+      "cosine": 0.9993158928529668,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005158759653568268,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03699210630697871
+    },
+    {
+      "candidate_id": "PA-H__0279",
+      "cosine": 0.9710439121603619,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.04879508540034294,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.2406488952389677
+    },
+    {
+      "candidate_id": "PA-H__0289",
+      "cosine": 0.9992707235582385,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009379411116242409,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0381910028513564
+    },
+    {
+      "candidate_id": "PA-H__0344",
+      "cosine": 0.9990933707814544,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010090941563248634,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04258226755128492
+    },
+    {
+      "candidate_id": "PA-H__0353",
+      "cosine": 0.940158874258682,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.07448934228159487,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.3445303203923824
+    },
+    {
+      "candidate_id": "PA-H__0354",
+      "cosine": 0.934588105793614,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.08672042936086655,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.3616955008555659
+    },
+    {
+      "candidate_id": "PA-H__0362",
+      "cosine": 0.9994412614914718,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008300635032355785,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03342867906819866
+    },
+    {
+      "candidate_id": "PA-H__0363",
+      "cosine": 0.9156160804164166,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.08916586637496948,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.4093835914818575
+    },
+    {
+      "candidate_id": "PA-H__0371",
+      "cosine": 0.998907065020866,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00865006074309349,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04675327687340555
+    },
+    {
+      "candidate_id": "PC+CH3COO__0032",
+      "cosine": 0.9999999998738736,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 5.5356403123596465e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 1.5882462484110848e-05
+    },
+    {
+      "candidate_id": "PC+CH3COO__0033",
+      "cosine": 0.9999985457627776,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0005372883169911802,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0017081044123086803
+    },
+    {
+      "candidate_id": "PC+CH3COO__0056",
+      "cosine": 0.9999999940914556,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 4.295061808079481e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.00010870647777739128
+    },
+    {
+      "candidate_id": "PC+CH3COO__0057",
+      "cosine": 0.9999953822051351,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0006534568965435028,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0030429644073497143
+    },
+    {
+      "candidate_id": "PC+CH3COO__0474",
+      "cosine": 0.9547285831011686,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.09161295741796494,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.30089743045403394
+    },
+    {
+      "candidate_id": "PC+HCOO__0032",
+      "cosine": 0.9999999977010561,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 2.181123176114852e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 6.780773102717947e-05
+    },
+    {
+      "candidate_id": "PC+HCOO__0033",
+      "cosine": 0.9999851974491624,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00154920294880867,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.005441037527819047
+    },
+    {
+      "candidate_id": "PC+HCOO__0056",
+      "cosine": 0.999999994341501,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 4.183844430372119e-05,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.00010638142377823844
+    },
+    {
+      "candidate_id": "PC+HCOO__0057",
+      "cosine": 0.999996358783475,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0006376804667524993,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0027023136511030573
+    },
+    {
+      "candidate_id": "PC+HCOO__0474",
+      "cosine": 0.9758255834447754,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.06877763569355011,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.2198813706886232
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0057",
+      "cosine": 0.9999999999825524,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 2.0517443104495214e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 5.907233038873786e-06
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0082",
+      "cosine": 0.999998732053586,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00039030088282743236,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0015924482575418093
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0453",
+      "cosine": 0.9999999996909905,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 6.792790372855961e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 2.486047772972278e-05
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0454",
+      "cosine": 0.9999977222804488,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.000732668855562224,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.00213434647541739
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0475",
+      "cosine": 0.9999999998934502,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 4.851011908613145e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 1.4597924151059043e-05
+    },
+    {
+      "candidate_id": "PCO+CH3COO__0476",
+      "cosine": 0.9999967606604597,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0008903415437089279,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.002545323118091036
+    },
+    {
+      "candidate_id": "PCO+HCOO__0057",
+      "cosine": 0.9999999521880483,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00011627342610154301,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0003092311483961805
+    },
+    {
+      "candidate_id": "PCO+HCOO__0082",
+      "cosine": 0.9999970942787895,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0006875925391796045,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0024106937003361252
+    },
+    {
+      "candidate_id": "PCO+HCOO__0083",
+      "cosine": 0.9999983081972786,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0004175013448275422,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0018399391859431982
+    },
+    {
+      "candidate_id": "PCO+HCOO__0084",
+      "cosine": 0.9999930261369951,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0010873514932683292,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.003735895496649718
+    },
+    {
+      "candidate_id": "PCO+HCOO__0085",
+      "cosine": 0.9999913072723658,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0013052437368514802,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.004171522366359857
+    },
+    {
+      "candidate_id": "PCO+HCOO__0454",
+      "cosine": 0.9999949687273991,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0010895139384956565,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.003172148496538558
+    },
+    {
+      "candidate_id": "PCO+HCOO__0475",
+      "cosine": 0.999999999672871,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 8.758744698411647e-06,
+      "precursor_exact": true,
+      "relative_L2_difference": 2.5578474247393822e-05
+    },
+    {
+      "candidate_id": "PE-H__0069",
+      "cosine": 0.9992620179525356,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013760325498878956,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03841827715889302
+    },
+    {
+      "candidate_id": "PE-H__0070",
+      "cosine": 0.9992547680379059,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01412522979080677,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03860652635470714
+    },
+    {
+      "candidate_id": "PE-H__0071",
+      "cosine": 0.9992147330435365,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014883756637573242,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03962996216278534
+    },
+    {
+      "candidate_id": "PE-H__0072",
+      "cosine": 0.9991459385566801,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015505822375416756,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04132944356190462
+    },
+    {
+      "candidate_id": "PE-H__0073",
+      "cosine": 0.9991481656927472,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014396638609468937,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.041275521028970905
+    },
+    {
+      "candidate_id": "PE-H__0074",
+      "cosine": 0.9993625500531158,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009465303272008896,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0357057347439847
+    },
+    {
+      "candidate_id": "PE-H__0079",
+      "cosine": 0.9999974531412467,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0007008821703493595,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0022573050634155617
+    },
+    {
+      "candidate_id": "PE-H__0080",
+      "cosine": 0.9988857375213808,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017110842105466872,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04720624420397519
+    },
+    {
+      "candidate_id": "PE-H__0081",
+      "cosine": 0.9988354444050425,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015751583501696587,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04826085539134059
+    },
+    {
+      "candidate_id": "PE-H__0093",
+      "cosine": 0.9999993705653875,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00028828048380091786,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.001121993403290176
+    },
+    {
+      "candidate_id": "PE-H__0094",
+      "cosine": 0.999526040431523,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009859131649136543,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0307882925739204
+    },
+    {
+      "candidate_id": "PE-H__0095",
+      "cosine": 0.9992849908887016,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013381723314523697,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03781558061826968
+    },
+    {
+      "candidate_id": "PE-H__0096",
+      "cosine": 0.9990841243076163,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017635265365242958,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04279895649445738
+    },
+    {
+      "candidate_id": "PE-H__0097",
+      "cosine": 0.9990532859560276,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018515249714255333,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04351352979705799
+    },
+    {
+      "candidate_id": "PE-H__0098",
+      "cosine": 0.9991053764114267,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.016064271330833435,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04229947931848177
+    },
+    {
+      "candidate_id": "PE-H__0099",
+      "cosine": 0.9992762494627203,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010769004002213478,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038046001720941684
+    },
+    {
+      "candidate_id": "PE-H__0111",
+      "cosine": 0.9999985599297944,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0005196449103266332,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0016970974442279585
+    },
+    {
+      "candidate_id": "PE-H__0112",
+      "cosine": 0.999352988368002,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013665976002812386,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035972522761024174
+    },
+    {
+      "candidate_id": "PE-H__0113",
+      "cosine": 0.9993518250019079,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013857196502158331,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.036004849597599205
+    },
+    {
+      "candidate_id": "PE-H__0114",
+      "cosine": 0.9993415071249375,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013772482052445412,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.036290287561628616
+    },
+    {
+      "candidate_id": "PE-H__0115",
+      "cosine": 0.9994049303629947,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011914991773664951,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.034498379040185975
+    },
+    {
+      "candidate_id": "PE-H__0116",
+      "cosine": 0.999596789268023,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00804123468697071,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.028397538686238392
+    },
+    {
+      "candidate_id": "PE-H__0120",
+      "cosine": 0.9990639975491743,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017346570268273354,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04326666222681391
+    },
+    {
+      "candidate_id": "PE-H__0121",
+      "cosine": 0.9971316453327652,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.023488791542746412,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0757410414443355
+    },
+    {
+      "candidate_id": "PE-H__0122",
+      "cosine": 0.9991443465310897,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013416781090199947,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.041367920001970614
+    },
+    {
+      "candidate_id": "PE-H__0123",
+      "cosine": 0.9992786899188224,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010239003226161003,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03798177450487343
+    },
+    {
+      "candidate_id": "PE-H__0134",
+      "cosine": 0.9999984116389353,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.000534467282705009,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0017823361032915058
+    },
+    {
+      "candidate_id": "PE-H__0135",
+      "cosine": 0.9995663435861475,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009378940798342228,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029450170333510144
+    },
+    {
+      "candidate_id": "PE-H__0136",
+      "cosine": 0.9993845407422826,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012169911619366758,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035084443586718146
+    },
+    {
+      "candidate_id": "PE-H__0137",
+      "cosine": 0.9993766339561251,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013010790571570396,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03530907822427454
+    },
+    {
+      "candidate_id": "PE-H__0138",
+      "cosine": 0.9993931596833531,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011719809845089912,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.034837896469181104
+    },
+    {
+      "candidate_id": "PE-H__0139",
+      "cosine": 0.9996487224382423,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007177698891609907,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02650573516136575
+    },
+    {
+      "candidate_id": "PE-H__0142",
+      "cosine": 0.9991447290523915,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.016555437818169594,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.041358694991031654
+    },
+    {
+      "candidate_id": "PE-H__0143",
+      "cosine": 0.9990572816223624,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01845872402191162,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04342160486039377
+    },
+    {
+      "candidate_id": "PE-H__0144",
+      "cosine": 0.9990377254764955,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01811343804001808,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04386966606412481
+    },
+    {
+      "candidate_id": "PE-H__0145",
+      "cosine": 0.9991017387114841,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014170229434967041,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04238536832653439
+    },
+    {
+      "candidate_id": "PE-H__0146",
+      "cosine": 0.9992831077815919,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009291242808103561,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.037865355341802784
+    },
+    {
+      "candidate_id": "PE-H__0156",
+      "cosine": 0.9999979392344731,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0005071894265711308,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0020301974606682397
+    },
+    {
+      "candidate_id": "PE-H__0157",
+      "cosine": 0.9998126180950446,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005367180332541466,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.019358691564160115
+    },
+    {
+      "candidate_id": "PE-H__0158",
+      "cosine": 0.9995946734994233,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.009679721668362617,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.028471851139750457
+    },
+    {
+      "candidate_id": "PE-H__0159",
+      "cosine": 0.9995929205147933,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010270832106471062,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.028533344716602474
+    },
+    {
+      "candidate_id": "PE-H__0160",
+      "cosine": 0.9993959926425614,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012532731518149376,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03475644382838548
+    },
+    {
+      "candidate_id": "PE-H__0161",
+      "cosine": 0.9995690791506988,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007960780523717403,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02935702217020281
+    },
+    {
+      "candidate_id": "PE-H__0163",
+      "cosine": 0.9998438396792572,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005273759365081787,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.017672504093681485
+    },
+    {
+      "candidate_id": "PE-H__0164",
+      "cosine": 0.9991658170384452,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015502478927373886,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04084556354993139
+    },
+    {
+      "candidate_id": "PE-H__0165",
+      "cosine": 0.9992072731030522,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015181736089289188,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03981767025376459
+    },
+    {
+      "candidate_id": "PE-H__0166",
+      "cosine": 0.9990358685395729,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018836641684174538,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04391196447588909
+    },
+    {
+      "candidate_id": "PE-H__0167",
+      "cosine": 0.9990853317113293,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015229891054332256,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.042770693865203234
+    },
+    {
+      "candidate_id": "PE-H__0168",
+      "cosine": 0.9992753486689987,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010467356181834475,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03806957305385847
+    },
+    {
+      "candidate_id": "PE-H__0177",
+      "cosine": 0.9999499905484086,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003317189117296948,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01000094676887712
+    },
+    {
+      "candidate_id": "PE-H__0178",
+      "cosine": 0.9998654268054973,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005201187497732462,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01640568597957661
+    },
+    {
+      "candidate_id": "PE-H__0181",
+      "cosine": 0.9994564645542053,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012088918127119541,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03297075468156546
+    },
+    {
+      "candidate_id": "PE-H__0187",
+      "cosine": 0.9991815421609502,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01556972786784172,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04045881461632745
+    },
+    {
+      "candidate_id": "PE-H__0188",
+      "cosine": 0.9991806156242484,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014421707950532436,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.040481708137800464
+    },
+    {
+      "candidate_id": "PE-H__0200",
+      "cosine": 0.9993585231483334,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013581093400716782,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03581833791544821
+    },
+    {
+      "candidate_id": "PE-H__0201",
+      "cosine": 0.9993971980585774,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011896903822616878,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03472180251094816
+    },
+    {
+      "candidate_id": "PE-H__0202",
+      "cosine": 0.9994676480631122,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008762570442286233,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03262980455128547
+    },
+    {
+      "candidate_id": "PE-H__0218",
+      "cosine": 0.9993725134391102,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011318579316139221,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03645288232918886
+    },
+    {
+      "candidate_id": "PE-H__0219",
+      "cosine": 0.9993035722808284,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014184261672198772,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03732094478429444
+    },
+    {
+      "candidate_id": "PE-H__0220",
+      "cosine": 0.9993030309424422,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011758378706872463,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03733548003672433
+    },
+    {
+      "candidate_id": "PE-H__0221",
+      "cosine": 0.9994142839267594,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007836785431663884,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.034226185824383915
+    },
+    {
+      "candidate_id": "PE-H__0236",
+      "cosine": 0.9992909229220925,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01781853660941124,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03765838090903279
+    },
+    {
+      "candidate_id": "PE-H__0237",
+      "cosine": 0.9993536373168868,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011642607860267162,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03728668283234612
+    },
+    {
+      "candidate_id": "PE-H__0238",
+      "cosine": 0.9993230565177079,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012458440914542734,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0367951673608201
+    },
+    {
+      "candidate_id": "PE-H__0239",
+      "cosine": 0.9993747909138206,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008010923862457275,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03536151366419335
+    },
+    {
+      "candidate_id": "PE-H__0254",
+      "cosine": 0.9992879975870609,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01813058992047445,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03773598251345727
+    },
+    {
+      "candidate_id": "PE-H__0255",
+      "cosine": 0.9993499138549027,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012164506129920483,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0370019076137308
+    },
+    {
+      "candidate_id": "PE-H__0256",
+      "cosine": 0.9993780150349548,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008104164153337479,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03526991242517684
+    },
+    {
+      "candidate_id": "PE-H__0271",
+      "cosine": 0.9993021273614806,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017417730763554573,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03735966948323524
+    },
+    {
+      "candidate_id": "PE-H__0272",
+      "cosine": 0.9994164467329333,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007387503515928984,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035848385947929516
+    },
+    {
+      "candidate_id": "PE-H__0459",
+      "cosine": 0.9999991383163361,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0004694243787639607,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0013127706813797662
+    },
+    {
+      "candidate_id": "PE-H__0460",
+      "cosine": 0.9950467756445665,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.036262478679418564,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09953091894495954
+    },
+    {
+      "candidate_id": "PE-H__0461",
+      "cosine": 0.9951791473865188,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.036279916763305664,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09819216854393002
+    },
+    {
+      "candidate_id": "PE-H__0462",
+      "cosine": 0.9958523988915481,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.031975358724594116,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09107797761725217
+    },
+    {
+      "candidate_id": "PE-H__0463",
+      "cosine": 0.9969645029720059,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.024588558822870255,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.07791641384128903
+    },
+    {
+      "candidate_id": "PE-H__0464",
+      "cosine": 0.9911296812762084,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03789883852005005,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.13319405390803304
+    },
+    {
+      "candidate_id": "PE-H__0466",
+      "cosine": 0.997766076248276,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.020068218931555748,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.06684195659455604
+    },
+    {
+      "candidate_id": "PE-H__0467",
+      "cosine": 0.9979635969532092,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018777649849653244,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.06381853855326135
+    },
+    {
+      "candidate_id": "PE-H__0468",
+      "cosine": 0.9975707169322381,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021220015361905098,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.06970341396041153
+    },
+    {
+      "candidate_id": "PE-H__0469",
+      "cosine": 0.9951070244591907,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03255780413746834,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09892396843877621
+    },
+    {
+      "candidate_id": "PE-H__0470",
+      "cosine": 0.9943403447880025,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03211865574121475,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.10639227265594697
+    },
+    {
+      "candidate_id": "PE-H__0471",
+      "cosine": 0.9911126870850548,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03612089157104492,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1333215607310968
+    },
+    {
+      "candidate_id": "PE-H__0481",
+      "cosine": 0.9869315735596835,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.05814143270254135,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.16166794217014305
+    },
+    {
+      "candidate_id": "PE-H__0482",
+      "cosine": 0.9891253403579363,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.048752572387456894,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1474764799370275
+    },
+    {
+      "candidate_id": "PE-H__0483",
+      "cosine": 0.9934239680964926,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03911467641592026,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1146824078668428
+    },
+    {
+      "candidate_id": "PE-H__0484",
+      "cosine": 0.9962657165040089,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.028625810518860817,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.08642062224765577
+    },
+    {
+      "candidate_id": "PE-H__0485",
+      "cosine": 0.9976819432372606,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021001296117901802,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0680889962878103
+    },
+    {
+      "candidate_id": "PE-H__0488",
+      "cosine": 0.9944109877530722,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03394192457199097,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1057261726363451
+    },
+    {
+      "candidate_id": "PE-H__0490",
+      "cosine": 0.9990577160045893,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018737757578492165,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04341160720626144
+    },
+    {
+      "candidate_id": "PE-H__0491",
+      "cosine": 0.9990364851517866,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01855950802564621,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04389793981085533
+    },
+    {
+      "candidate_id": "PE-H__0492",
+      "cosine": 0.9988515972649498,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01507167425006628,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04792498501367284
+    },
+    {
+      "candidate_id": "PE-H__0493",
+      "cosine": 0.9992734659870784,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010004318332676121,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038119230447098126
+    },
+    {
+      "candidate_id": "PEO-H__0072",
+      "cosine": 0.9990598954076285,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01751154288649559,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043361758186836546
+    },
+    {
+      "candidate_id": "PEO-H__0073",
+      "cosine": 0.999051398286906,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018291788175702095,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043556925872327665
+    },
+    {
+      "candidate_id": "PEO-H__0074",
+      "cosine": 0.999037400701031,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01892891526222229,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043876869088331445
+    },
+    {
+      "candidate_id": "PEO-H__0075",
+      "cosine": 0.9990466386645426,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01743914932012558,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043665903652091075
+    },
+    {
+      "candidate_id": "PEO-H__0076",
+      "cosine": 0.9991061345131187,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013996977359056473,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.042284826520174644
+    },
+    {
+      "candidate_id": "PEO-H__0077",
+      "cosine": 0.9993774795648493,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00884388666599989,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0352857396617349
+    },
+    {
+      "candidate_id": "PEO-H__0099",
+      "cosine": 0.9999176254868659,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0028532337164506316,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.012839015508256255
+    },
+    {
+      "candidate_id": "PEO-H__0100",
+      "cosine": 0.9990817717372921,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015308437868952751,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04285424424574463
+    },
+    {
+      "candidate_id": "PEO-H__0101",
+      "cosine": 0.9989924286604435,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018372107297182083,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.044889829473656905
+    },
+    {
+      "candidate_id": "PEO-H__0102",
+      "cosine": 0.9989889793062596,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.020674725994467735,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04496707938311059
+    },
+    {
+      "candidate_id": "PEO-H__0103",
+      "cosine": 0.9989974239444873,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0211945753544569,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04477890270528861
+    },
+    {
+      "candidate_id": "PEO-H__0104",
+      "cosine": 0.9989959438492153,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01756005920469761,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04481190982025832
+    },
+    {
+      "candidate_id": "PEO-H__0106",
+      "cosine": 0.9998947602765536,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003802294610068202,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.014507786807444889
+    },
+    {
+      "candidate_id": "PEO-H__0107",
+      "cosine": 0.99876089548067,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017634463030844927,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0497796976994737
+    },
+    {
+      "candidate_id": "PEO-H__0110",
+      "cosine": 0.9999372977632078,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0035663284852489596,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01119824297525432
+    },
+    {
+      "candidate_id": "PEO-H__0111",
+      "cosine": 0.9987533698407937,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02099994441960007,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.049931258001023146
+    },
+    {
+      "candidate_id": "PEO-H__0112",
+      "cosine": 0.9987054972372548,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01609746193707906,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.05088233456800716
+    },
+    {
+      "candidate_id": "PEO-H__0122",
+      "cosine": 0.9993340727104328,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014273568987846375,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0364968358073299
+    },
+    {
+      "candidate_id": "PEO-H__0123",
+      "cosine": 0.9993436966887284,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014623049646615982,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0362301238928041
+    },
+    {
+      "candidate_id": "PEO-H__0124",
+      "cosine": 0.9993073440462525,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014635100029408932,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03721833288078374
+    },
+    {
+      "candidate_id": "PEO-H__0125",
+      "cosine": 0.9993756981363728,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011022633872926235,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035334775076724376
+    },
+    {
+      "candidate_id": "PEO-H__0126",
+      "cosine": 0.9995311396536847,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006499298382550478,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03064390872856796
+    },
+    {
+      "candidate_id": "PEO-H__0128",
+      "cosine": 0.9990329258719362,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018774952739477158,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0439788669004873
+    },
+    {
+      "candidate_id": "PEO-H__0129",
+      "cosine": 0.9990488960666398,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018130356445908546,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043613104798252735
+    },
+    {
+      "candidate_id": "PEO-H__0130",
+      "cosine": 0.9990430321753505,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017152240499854088,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.043748292969340484
+    },
+    {
+      "candidate_id": "PEO-H__0131",
+      "cosine": 0.9991195640314522,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015405725687742233,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04195977845968179
+    },
+    {
+      "candidate_id": "PEO-H__0132",
+      "cosine": 0.9605898000637176,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.08363189041847363,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.2806729862223889
+    },
+    {
+      "candidate_id": "PEO-H__0133",
+      "cosine": 0.9992990173861543,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007336510969480514,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03743639165509561
+    },
+    {
+      "candidate_id": "PEO-H__0150",
+      "cosine": 0.9994187139834023,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012670797295868397,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.034097010110322144
+    },
+    {
+      "candidate_id": "PEO-H__0151",
+      "cosine": 0.999298148511805,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015018982878700626,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.037464764697221944
+    },
+    {
+      "candidate_id": "PEO-H__0152",
+      "cosine": 0.999301838799427,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01648037025870508,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03736718301531481
+    },
+    {
+      "candidate_id": "PEO-H__0153",
+      "cosine": 0.9993290166047587,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013146072863037261,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03663437825929838
+    },
+    {
+      "candidate_id": "PEO-H__0154",
+      "cosine": 0.9996025657425749,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007706523407250643,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.028193687456488085
+    },
+    {
+      "candidate_id": "PEO-H__0156",
+      "cosine": 0.9990031176043316,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021308768540620804,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.044651444683808314
+    },
+    {
+      "candidate_id": "PEO-H__0157",
+      "cosine": 0.9990115411575871,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02159830555319786,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04446238288339813
+    },
+    {
+      "candidate_id": "PEO-H__0158",
+      "cosine": 0.9990154426978174,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021350350230932236,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.044374546820218026
+    },
+    {
+      "candidate_id": "PEO-H__0159",
+      "cosine": 0.9979093656106911,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02001479108002968,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.06466194774689289
+    },
+    {
+      "candidate_id": "PEO-H__0160",
+      "cosine": 0.999089602107564,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013573079369962215,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.042668358404702324
+    },
+    {
+      "candidate_id": "PEO-H__0161",
+      "cosine": 0.999258870776652,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008429686538875103,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03850024748711658
+    },
+    {
+      "candidate_id": "PEO-H__0179",
+      "cosine": 0.9992715932461784,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.016433180265266856,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038168142649889776
+    },
+    {
+      "candidate_id": "PEO-H__0180",
+      "cosine": 0.9992567338393468,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017697244882583618,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03855557891199737
+    },
+    {
+      "candidate_id": "PEO-H__0181",
+      "cosine": 0.9992657952547739,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014724830372415454,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03831986366219603
+    },
+    {
+      "candidate_id": "PEO-H__0183",
+      "cosine": 0.9999757435428059,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0014647315344973322,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.00699900408886962
+    },
+    {
+      "candidate_id": "PEO-H__0185",
+      "cosine": 0.998986998299834,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.022088197991251945,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04501114243425488
+    },
+    {
+      "candidate_id": "PEO-H__0186",
+      "cosine": 0.9989885644129561,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02203221432864666,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04497633775242794
+    },
+    {
+      "candidate_id": "PEO-H__0187",
+      "cosine": 0.9989856226954184,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0201695766299963,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.045041680941435215
+    },
+    {
+      "candidate_id": "PEO-H__0188",
+      "cosine": 0.9989745525221779,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01538118813186884,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.045286874643316065
+    },
+    {
+      "candidate_id": "PEO-H__0189",
+      "cosine": 0.9990676392781223,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010126952081918716,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0431823901012665
+    },
+    {
+      "candidate_id": "PEO-H__0208",
+      "cosine": 0.9992636848783922,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.018073448911309242,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03837485978108747
+    },
+    {
+      "candidate_id": "PEO-H__0211",
+      "cosine": 0.9995597932207275,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010430459269628045,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0296700208528007
+    },
+    {
+      "candidate_id": "PEO-H__0214",
+      "cosine": 0.9989880242658107,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021856825798749924,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04498834628843263
+    },
+    {
+      "candidate_id": "PEO-H__0215",
+      "cosine": 0.9989887712098326,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.020781558007001877,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.044971741795703124
+    },
+    {
+      "candidate_id": "PEO-H__0216",
+      "cosine": 0.9989712177605228,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01646176353096962,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04536038212240484
+    },
+    {
+      "candidate_id": "PEO-H__0217",
+      "cosine": 0.9989921485165726,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.011339382268488407,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.04489656938639169
+    },
+    {
+      "candidate_id": "PEO-H__0231",
+      "cosine": 0.9999988727903253,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00041385774966329336,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0015016215091469322
+    },
+    {
+      "candidate_id": "PEO-H__0235",
+      "cosine": 0.9994432129170914,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012111635878682137,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03336616895677424
+    },
+    {
+      "candidate_id": "PEO-H__0236",
+      "cosine": 0.9993296232774909,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0115051856264472,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.036615422568067546
+    },
+    {
+      "candidate_id": "PEO-H__0237",
+      "cosine": 0.9995089160105891,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0103202558857447,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.031335711667037955
+    },
+    {
+      "candidate_id": "PEO-H__0259",
+      "cosine": 0.999860860465636,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004468924972570676,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.016681385796981443
+    },
+    {
+      "candidate_id": "PEO-H__0262",
+      "cosine": 0.9993365377180953,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013599788770079613,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03642400988819016
+    },
+    {
+      "candidate_id": "PEO-H__0263",
+      "cosine": 0.9992542175198503,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.016037236899137497,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03862070575463911
+    },
+    {
+      "candidate_id": "PEO-H__0264",
+      "cosine": 0.9992645178570208,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.015562363914796151,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03835240585509579
+    },
+    {
+      "candidate_id": "PEO-H__0265",
+      "cosine": 0.9759580485401996,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.07258319982793182,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.21924418479713187
+    },
+    {
+      "candidate_id": "PEO-H__0291",
+      "cosine": 0.9992539106368026,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017342882366392587,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038628642239058056
+    },
+    {
+      "candidate_id": "PEO-H__0292",
+      "cosine": 0.9980854943497426,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021233031526207924,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.061878478271201465
+    },
+    {
+      "candidate_id": "PEO-H__0293",
+      "cosine": 0.9992565239755379,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013187329607262654,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038559535503699234
+    },
+    {
+      "candidate_id": "PEO-H__0320",
+      "cosine": 0.9992495241368664,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01730411349899441,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.038742079430956304
+    },
+    {
+      "candidate_id": "PEO-H__0321",
+      "cosine": 0.9992553757171004,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01438763590203962,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03859089625145343
+    },
+    {
+      "candidate_id": "PEO-H__0427",
+      "cosine": 0.9998183613072015,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006539718313433696,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.019059293665351938
+    },
+    {
+      "candidate_id": "PG-H__0044",
+      "cosine": 0.9932756016747496,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.04229478072375059,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.11591187037560031
+    },
+    {
+      "candidate_id": "PG-H__0045",
+      "cosine": 0.997258764704997,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.021396440104581416,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.07402880006970626
+    },
+    {
+      "candidate_id": "PG-H__0051",
+      "cosine": 0.9997417777278632,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00669638579711318,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02272541623125128
+    },
+    {
+      "candidate_id": "PG-H__0052",
+      "cosine": 0.9997576366147609,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006142336620541755,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.022016510089414364
+    },
+    {
+      "candidate_id": "PG-H__0053",
+      "cosine": 0.9998417644057334,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005743019282817841,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.017789636570854746
+    },
+    {
+      "candidate_id": "PG-H__0054",
+      "cosine": 0.9999996394846822,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00015658116899430752,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0008491553161617249
+    },
+    {
+      "candidate_id": "PG-H__0056",
+      "cosine": 0.9999372383349405,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0041502672247588634,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01120371947292806
+    },
+    {
+      "candidate_id": "PG-H__0057",
+      "cosine": 0.9998883908805023,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0050017192131690535,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01494048959672821
+    },
+    {
+      "candidate_id": "PG-H__0058",
+      "cosine": 0.9999799837454177,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.002524453680962324,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.006327124845136567
+    },
+    {
+      "candidate_id": "PG-H__0059",
+      "cosine": 0.999999851199947,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00010656080235094123,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0005455273642601806
+    },
+    {
+      "candidate_id": "PG-H__0060",
+      "cosine": 0.9999988127452637,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0004050331190228462,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0015409979863454095
+    },
+    {
+      "candidate_id": "PG-H__0062",
+      "cosine": 0.9999780097317287,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0026822625659406185,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.006631782177072119
+    },
+    {
+      "candidate_id": "PG-H__0063",
+      "cosine": 0.9999703354905823,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003002970098350488,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.007702533137127113
+    },
+    {
+      "candidate_id": "PG-H__0064",
+      "cosine": 0.9999946835575116,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0014242702163755894,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0032608104709348834
+    },
+    {
+      "candidate_id": "PG-H__0065",
+      "cosine": 0.9999977116521227,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0006254786858335137,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.002139320858782152
+    },
+    {
+      "candidate_id": "PG-H__0066",
+      "cosine": 0.9999992821564245,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0002605472691357136,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0012171982131572972
+    },
+    {
+      "candidate_id": "PG-H__0068",
+      "cosine": 0.9994561980342188,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.013619639910757542,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.032978860508228805
+    },
+    {
+      "candidate_id": "PG-H__0069",
+      "cosine": 0.999457314936309,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.01243519634954282,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.032944975219880566
+    },
+    {
+      "candidate_id": "PG-H__0070",
+      "cosine": 0.9994596324558496,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.014494925737380981,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03287455553827838
+    },
+    {
+      "candidate_id": "PG-H__0071",
+      "cosine": 0.9997772002615063,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0061091589741408825,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.021109138615019188
+    },
+    {
+      "candidate_id": "PG-H__0072",
+      "cosine": 0.9997628498854318,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007657416230358649,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.021778440367282426
+    },
+    {
+      "candidate_id": "PG-H__0074",
+      "cosine": 0.9879513987393554,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.06651895120739937,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1551911738400545
+    },
+    {
+      "candidate_id": "PG-H__0075",
+      "cosine": 0.9886033422113841,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.055437275441363454,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.15093643380197136
+    },
+    {
+      "candidate_id": "PG-H__0076",
+      "cosine": 0.997979289351658,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.019067749730311334,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.06356944426356274
+    },
+    {
+      "candidate_id": "PG-H__0077",
+      "cosine": 0.9950382083889306,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.028958788374438882,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09960554231757406
+    },
+    {
+      "candidate_id": "PG-H__0079",
+      "cosine": 0.9999740421039749,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00302935391664505,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0072249367496894585
+    },
+    {
+      "candidate_id": "PG-H__0080",
+      "cosine": 0.9999554001908091,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0022237382363528013,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.009454204820568024
+    },
+    {
+      "candidate_id": "PG-H__0081",
+      "cosine": 0.9999943877682389,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0011372537119314075,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0033513301315183895
+    },
+    {
+      "candidate_id": "PG-H__0083",
+      "cosine": 0.9994330173698541,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00927719588025866,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.033674396405716366
+    },
+    {
+      "candidate_id": "PG-H__0084",
+      "cosine": 0.9998166418846236,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005465826088993708,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.019149749719175817
+    },
+    {
+      "candidate_id": "PG-H__0085",
+      "cosine": 0.9996467632366687,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007776299025863409,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.026579567894897113
+    },
+    {
+      "candidate_id": "PG-H__0087",
+      "cosine": 0.9994821602112314,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008298108354210854,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03218197229581156
+    },
+    {
+      "candidate_id": "PG-H__0088",
+      "cosine": 0.9993879424650515,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.010119655169546604,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0349873557170651
+    },
+    {
+      "candidate_id": "PG-H__0089",
+      "cosine": 0.9998326336519124,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005126718591327517,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01829570086400399
+    },
+    {
+      "candidate_id": "PG-H__0090",
+      "cosine": 0.9996588792071821,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00775289310035987,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02611968217213178
+    },
+    {
+      "candidate_id": "PG-H__0093",
+      "cosine": 0.9995594025258823,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008331194519996643,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02968492171377297
+    },
+    {
+      "candidate_id": "PG-H__0094",
+      "cosine": 0.9995276149818382,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0092593003064394,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03073710991612985
+    },
+    {
+      "candidate_id": "PG-H__0095",
+      "cosine": 0.9997475851627233,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0059794592671096325,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.022468409099590213
+    },
+    {
+      "candidate_id": "PG-H__0096",
+      "cosine": 0.999744343674905,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0065267329146081465,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02261222065837254
+    },
+    {
+      "candidate_id": "PG-H__0097",
+      "cosine": 0.9996438177432223,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008180825971066952,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.026690126639748644
+    },
+    {
+      "candidate_id": "PG-H__0098",
+      "cosine": 0.9997042305552045,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007495671741935439,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.024321568470396796
+    },
+    {
+      "candidate_id": "PG-H__0099",
+      "cosine": 0.9999985194429366,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00038348426460288465,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0017208469460115107
+    },
+    {
+      "candidate_id": "PG-H__0100",
+      "cosine": 0.999695695944388,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0076388888992369175,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02466995023441351
+    },
+    {
+      "candidate_id": "PG-H__0101",
+      "cosine": 0.9998542399376673,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005634496454149485,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.017073960399950548
+    },
+    {
+      "candidate_id": "PG-H__0102",
+      "cosine": 0.9997848786763505,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005951366387307644,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.020742290397901583
+    },
+    {
+      "candidate_id": "PG-H__0103",
+      "cosine": 0.9997982382606867,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006121892016381025,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.020087892918942092
+    },
+    {
+      "candidate_id": "PG-H__0104",
+      "cosine": 0.999922818783737,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0044182282872498035,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.012424265896595581
+    },
+    {
+      "candidate_id": "PG-H__0105",
+      "cosine": 0.999725316725175,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0066099707037210464,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.023438568120201918
+    },
+    {
+      "candidate_id": "PG-H__0455",
+      "cosine": 0.9999942545413485,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.000782620336394757,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.00338982535850024
+    },
+    {
+      "candidate_id": "PG-H__0456",
+      "cosine": 0.9960192249170202,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02630644105374813,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.08919514944016095
+    },
+    {
+      "candidate_id": "PG-H__0457",
+      "cosine": 0.9954823978485462,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.029086732771247625,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09501595850688317
+    },
+    {
+      "candidate_id": "PG-H__0459",
+      "cosine": 0.9999820564817856,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0018814150243997574,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.005990578646850011
+    },
+    {
+      "candidate_id": "PG-H__0460",
+      "cosine": 0.9999358973007463,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003676281844946061,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.011322778999713366
+    },
+    {
+      "candidate_id": "PG-H__0461",
+      "cosine": 0.9999584031155078,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0033008139580488205,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.009121059159158925
+    },
+    {
+      "candidate_id": "PG-H__0462",
+      "cosine": 0.9999133565204185,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0045507135801017284,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013163846606523446
+    },
+    {
+      "candidate_id": "PG-H__0463",
+      "cosine": 0.9998276784738187,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0057527110911905766,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.018564562969953697
+    },
+    {
+      "candidate_id": "PG-H__0464",
+      "cosine": 0.9997496533588872,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006128499364422169,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02237618219671402
+    },
+    {
+      "candidate_id": "PG-H__0477",
+      "cosine": 0.9983961412817822,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.017119819298386574,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.05662847711545067
+    },
+    {
+      "candidate_id": "PG-H__0478",
+      "cosine": 0.9933657074002972,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03863138612359762,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.11512218255799493
+    },
+    {
+      "candidate_id": "PG-H__0479",
+      "cosine": 0.9999996926704237,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0001852798797443711,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0007840020616219643
+    },
+    {
+      "candidate_id": "PG-H__0481",
+      "cosine": 0.9999073809210229,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00407297583296895,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013610221016000425
+    },
+    {
+      "candidate_id": "PG-H__0482",
+      "cosine": 0.9999937632296276,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.001477155888096604,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0035317889985483886
+    },
+    {
+      "candidate_id": "PG-H__0483",
+      "cosine": 0.9999833976480463,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0023368327651951404,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.005762350582985185
+    },
+    {
+      "candidate_id": "PG-H__0484",
+      "cosine": 0.9999025773223138,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004793259483903967,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013958701366786598
+    },
+    {
+      "candidate_id": "PG-H__0485",
+      "cosine": 0.9997183383466279,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007047389838817253,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.023734446461626396
+    },
+    {
+      "candidate_id": "PG-H__0502",
+      "cosine": 0.9995257833151898,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.012987919617444277,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.030795567550404784
+    },
+    {
+      "candidate_id": "PS-H__0036",
+      "cosine": 0.9999898742878782,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0009857268905761885,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.004500361528374888
+    },
+    {
+      "candidate_id": "PS-H__0037",
+      "cosine": 0.9998638106329971,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003138997359201312,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.016505708660336727
+    },
+    {
+      "candidate_id": "PS-H__0042",
+      "cosine": 0.9996378709266324,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004508468919084407,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.02691540543312424
+    },
+    {
+      "candidate_id": "PS-H__0043",
+      "cosine": 0.9899130759888388,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03447738181603199,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1419634495455378
+    },
+    {
+      "candidate_id": "PS-H__0044",
+      "cosine": 0.9995552588579723,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.008279082889202982,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029826813081513495
+    },
+    {
+      "candidate_id": "PS-H__0045",
+      "cosine": 0.999962137688189,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.001708905678242445,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.008702238599250428
+    },
+    {
+      "candidate_id": "PS-H__0046",
+      "cosine": 0.9893058017000358,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.04009576194221154,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.1462577539636342
+    },
+    {
+      "candidate_id": "PS-H__0058",
+      "cosine": 0.9999998032856157,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0001387856800647569,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.000627239477495531
+    },
+    {
+      "candidate_id": "PS-H__0059",
+      "cosine": 0.9998666284701084,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003503361949697137,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01633704658664284
+    },
+    {
+      "candidate_id": "PS-H__0060",
+      "cosine": 0.999789980195225,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0041729732497515215,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.020494858963407078
+    },
+    {
+      "candidate_id": "PS-H__0062",
+      "cosine": 0.9999973283467861,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00039574566585542925,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.002311561313322624
+    },
+    {
+      "candidate_id": "PS-H__0063",
+      "cosine": 0.9997556860529809,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0050238092649124155,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.022103640355110858
+    },
+    {
+      "candidate_id": "PS-H__0064",
+      "cosine": 0.999921737356398,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0022067647919357114,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.012511119465799856
+    },
+    {
+      "candidate_id": "PS-H__0065",
+      "cosine": 0.9999121347743594,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00270632840692997,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01325741908362779
+    },
+    {
+      "candidate_id": "PS-H__0066",
+      "cosine": 0.9900734350933845,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0368115070159547,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.14091007312394527
+    },
+    {
+      "candidate_id": "PS-H__0067",
+      "cosine": 0.9369324728942348,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.07411902397871017,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.35515495753372545
+    },
+    {
+      "candidate_id": "PS-H__0083",
+      "cosine": 0.9998521285646937,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.003645844990387559,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.01720247065732648
+    },
+    {
+      "candidate_id": "PS-H__0084",
+      "cosine": 0.9993456477979429,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.006574194441782311,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.036175807242331784
+    },
+    {
+      "candidate_id": "PS-H__0087",
+      "cosine": 0.9998322148697406,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00367236346937716,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.018317858421753406
+    },
+    {
+      "candidate_id": "PS-H__0088",
+      "cosine": 0.999615199181429,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.005864532075065654,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.027743428096765343
+    },
+    {
+      "candidate_id": "PS-H__0089",
+      "cosine": 0.9996790913506393,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004940586164593697,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0253328461336375
+    },
+    {
+      "candidate_id": "PS-H__0090",
+      "cosine": 0.9905295385846129,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.03257136383126635,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.13763411900797412
+    },
+    {
+      "candidate_id": "PS-H__0091",
+      "cosine": 0.9020831457412709,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.09843432158231735,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.4425306144350873
+    },
+    {
+      "candidate_id": "PS-H__0107",
+      "cosine": 0.9999994186807993,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00023030859983919072,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.0010782573182458125
+    },
+    {
+      "candidate_id": "PS-H__0108",
+      "cosine": 0.9999132566909286,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0026329513639211655,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.013346714725625312
+    },
+    {
+      "candidate_id": "PS-H__0109",
+      "cosine": 0.999971915592867,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0015145650831982493,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.007494584332958434
+    },
+    {
+      "candidate_id": "PS-H__0110",
+      "cosine": 0.9998284766559447,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00379737326875329,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.018529559939377684
+    },
+    {
+      "candidate_id": "PS-H__0131",
+      "cosine": 0.9995670132544359,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.007343597710132599,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.029427213647998298
+    },
+    {
+      "candidate_id": "PS-H__0132",
+      "cosine": 0.9995154125605221,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.004797250498086214,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03141427722907165
+    },
+    {
+      "candidate_id": "PS-H__0133",
+      "cosine": 0.9993713447576671,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.00439749679230772,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.035458437841243994
+    },
+    {
+      "candidate_id": "PS-H__0154",
+      "cosine": 0.9993850759080144,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0067564332857728004,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.03506883735563745
+    },
+    {
+      "candidate_id": "PS-H__0456",
+      "cosine": 0.9954052421057615,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.02339239147840999,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09585375525658323
+    },
+    {
+      "candidate_id": "PS-H__0457",
+      "cosine": 0.9998343354774385,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.0035728751681745052,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.018204559024862742
+    },
+    {
+      "candidate_id": "PS-H__0477",
+      "cosine": 0.995126384725574,
+      "lipid_name_exact": true,
+      "max_absolute_difference": 0.023681412683799863,
+      "precursor_exact": true,
+      "relative_L2_difference": 0.09871921563444688
+    }
+  ],
+  "shared_candidate_spectral_summary": {
+    "cosine": {
+      "count": 366,
+      "fraction_ge_0.9": 1.0,
+      "fraction_ge_0.95": 0.9863387978142076,
+      "fraction_ge_0.99": 0.9508196721311475,
+      "fraction_ge_0.999": 0.8142076502732241,
+      "max": 0.9999999999825524,
+      "median": 0.9994464605798943,
+      "min": 0.9020831457412709,
+      "q10": 0.9961424707105145,
+      "q25": 0.9991026481364698,
+      "q75": 0.9998592053336439,
+      "q90": 0.9999969274696245,
+      "q95": 0.9999994076531589,
+      "q99": 0.9999999996792128
+    },
+    "max_absolute_difference": {
+      "count": 366,
+      "fraction_ge_0.9": 0.0,
+      "fraction_ge_0.95": 0.0,
+      "fraction_ge_0.99": 0.0,
+      "fraction_ge_0.999": 0.0,
+      "max": 0.09843432158231735,
+      "median": 0.008142495062202215,
+      "min": 2.0517443104495214e-06,
+      "q10": 0.000694237354764482,
+      "q25": 0.004154653870500624,
+      "q75": 0.01605751272290945,
+      "q90": 0.02413498575333506,
+      "q95": 0.03844824922271073,
+      "q99": 0.08471287904831122
+    },
+    "relative_L2_difference": {
+      "count": 366,
+      "fraction_ge_0.9": 0.0,
+      "fraction_ge_0.95": 0.0,
+      "fraction_ge_0.99": 0.0,
+      "fraction_ge_0.999": 0.0,
+      "max": 0.4425306144350873,
+      "median": 0.03327573733839624,
+      "min": 5.907233038873786e-06,
+      "q10": 0.002478008409213581,
+      "q25": 0.01677952944772372,
+      "q75": 0.042363896074521235,
+      "q90": 0.08780788584390836,
+      "q95": 0.14009108459495248,
+      "q99": 0.3482489433918527
+    }
+  },
+  "shared_lipid_name_count": 359,
+  "spectral_comparison_definition": "production cached spectrum_source_STICK before empirical response vs standardized intrinsic sticks; pairwise common R50000 grid; no direct equality claim across native grids",
+  "spectral_comparison_is_diagnostic_only": true,
+  "standardized_only_candidates": [
+    "PA-H__0077",
+    "PA-H__0078",
+    "PA-H__0101",
+    "PA-H__0102",
+    "PA-H__0103",
+    "PA-H__0104",
+    "PA-H__0126",
+    "PA-H__0127",
+    "PA-H__0149",
+    "PA-H__0150",
+    "PA-H__0171",
+    "PA-H__0172",
+    "PA-H__0183",
+    "PA-H__0184",
+    "PA-H__0185",
+    "PA-H__0190",
+    "PA-H__0191",
+    "PA-H__0192",
+    "PA-H__0193",
+    "PA-H__0194",
+    "PA-H__0195",
+    "PA-H__0196",
+    "PA-H__0203",
+    "PA-H__0240",
+    "PA-H__0242",
+    "PA-H__0243",
+    "PA-H__0245",
+    "PA-H__0259",
+    "PA-H__0262",
+    "PA-H__0270",
+    "PA-H__0285",
+    "PA-H__0286",
+    "PA-H__0288",
+    "PA-H__0290",
+    "PA-H__0291",
+    "PA-H__0292",
+    "PA-H__0293",
+    "PA-H__0294",
+    "PA-H__0299",
+    "PA-H__0300",
+    "PA-H__0301",
+    "PA-H__0472",
+    "PA-H__0494",
+    "PC+CH3COO__0005",
+    "PC+CH3COO__0006",
+    "PC+CH3COO__0007",
+    "PC+CH3COO__0008",
+    "PC+CH3COO__0009",
+    "PC+CH3COO__0010",
+    "PC+CH3COO__0011",
+    "PC+CH3COO__0012",
+    "PC+CH3COO__0013",
+    "PC+CH3COO__0014",
+    "PC+CH3COO__0030",
+    "PC+CH3COO__0031",
+    "PC+CH3COO__0034",
+    "PC+CH3COO__0035",
+    "PC+CH3COO__0082",
+    "PC+CH3COO__0409",
+    "PC+CH3COO__0410",
+    "PC+CH3COO__0411",
+    "PC+CH3COO__0412",
+    "PC+CH3COO__0413",
+    "PC+CH3COO__0414",
+    "PC+CH3COO__0420",
+    "PC+CH3COO__0430",
+    "PC+CH3COO__0431",
+    "PC+CH3COO__0432",
+    "PC+CH3COO__0451",
+    "PC+CH3COO__0452",
+    "PC+CH3COO__0473",
+    "PC+CH3COO__0497",
+    "PC+CH3COO__0498",
+    "PC+CH3COO__0499",
+    "PC+CH3COO__0500",
+    "PC+CH3COO__0501",
+    "PC+HCOO__0005",
+    "PC+HCOO__0006",
+    "PC+HCOO__0009",
+    "PC+HCOO__0010",
+    "PC+HCOO__0011",
+    "PC+HCOO__0012",
+    "PC+HCOO__0013",
+    "PC+HCOO__0014",
+    "PC+HCOO__0020",
+    "PC+HCOO__0021",
+    "PC+HCOO__0030",
+    "PC+HCOO__0031",
+    "PC+HCOO__0034",
+    "PC+HCOO__0035",
+    "PC+HCOO__0041",
+    "PC+HCOO__0082",
+    "PC+HCOO__0411",
+    "PC+HCOO__0412",
+    "PC+HCOO__0413",
+    "PC+HCOO__0414",
+    "PC+HCOO__0415",
+    "PC+HCOO__0416",
+    "PC+HCOO__0417",
+    "PC+HCOO__0418",
+    "PC+HCOO__0419",
+    "PC+HCOO__0420",
+    "PC+HCOO__0431",
+    "PC+HCOO__0432",
+    "PC+HCOO__0433",
+    "PC+HCOO__0434",
+    "PC+HCOO__0435",
+    "PC+HCOO__0436",
+    "PC+HCOO__0452",
+    "PC+HCOO__0453",
+    "PC+HCOO__0454",
+    "PC+HCOO__0475",
+    "PC+HCOO__0476",
+    "PC+HCOO__0497",
+    "PC+HCOO__0498",
+    "PC+HCOO__0499",
+    "PC+HCOO__0500",
+    "PC+HCOO__0501",
+    "PCO+CH3COO__0005",
+    "PCO+CH3COO__0006",
+    "PCO+CH3COO__0009",
+    "PCO+CH3COO__0010",
+    "PCO+CH3COO__0011",
+    "PCO+CH3COO__0012",
+    "PCO+CH3COO__0013",
+    "PCO+CH3COO__0014",
+    "PCO+CH3COO__0020",
+    "PCO+CH3COO__0021",
+    "PCO+CH3COO__0030",
+    "PCO+CH3COO__0031",
+    "PCO+CH3COO__0032",
+    "PCO+CH3COO__0033",
+    "PCO+CH3COO__0034",
+    "PCO+CH3COO__0035",
+    "PCO+CH3COO__0041",
+    "PCO+CH3COO__0056",
+    "PCO+CH3COO__0411",
+    "PCO+CH3COO__0412",
+    "PCO+CH3COO__0413",
+    "PCO+CH3COO__0414",
+    "PCO+CH3COO__0415",
+    "PCO+CH3COO__0416",
+    "PCO+CH3COO__0417",
+    "PCO+CH3COO__0418",
+    "PCO+CH3COO__0419",
+    "PCO+CH3COO__0420",
+    "PCO+CH3COO__0431",
+    "PCO+CH3COO__0432",
+    "PCO+CH3COO__0433",
+    "PCO+CH3COO__0434",
+    "PCO+CH3COO__0435",
+    "PCO+CH3COO__0436",
+    "PCO+CH3COO__0452",
+    "PCO+CH3COO__0474",
+    "PCO+CH3COO__0497",
+    "PCO+CH3COO__0498",
+    "PCO+CH3COO__0499",
+    "PCO+CH3COO__0500",
+    "PCO+CH3COO__0501",
+    "PCO+HCOO__0009",
+    "PCO+HCOO__0010",
+    "PCO+HCOO__0011",
+    "PCO+HCOO__0012",
+    "PCO+HCOO__0013",
+    "PCO+HCOO__0014",
+    "PCO+HCOO__0015",
+    "PCO+HCOO__0016",
+    "PCO+HCOO__0017",
+    "PCO+HCOO__0018",
+    "PCO+HCOO__0019",
+    "PCO+HCOO__0020",
+    "PCO+HCOO__0021",
+    "PCO+HCOO__0032",
+    "PCO+HCOO__0033",
+    "PCO+HCOO__0034",
+    "PCO+HCOO__0035",
+    "PCO+HCOO__0036",
+    "PCO+HCOO__0037",
+    "PCO+HCOO__0038",
+    "PCO+HCOO__0039",
+    "PCO+HCOO__0040",
+    "PCO+HCOO__0041",
+    "PCO+HCOO__0056",
+    "PCO+HCOO__0058",
+    "PCO+HCOO__0059",
+    "PCO+HCOO__0060",
+    "PCO+HCOO__0061",
+    "PCO+HCOO__0086",
+    "PCO+HCOO__0411",
+    "PCO+HCOO__0412",
+    "PCO+HCOO__0415",
+    "PCO+HCOO__0416",
+    "PCO+HCOO__0417",
+    "PCO+HCOO__0418",
+    "PCO+HCOO__0419",
+    "PCO+HCOO__0420",
+    "PCO+HCOO__0426",
+    "PCO+HCOO__0427",
+    "PCO+HCOO__0431",
+    "PCO+HCOO__0432",
+    "PCO+HCOO__0433",
+    "PCO+HCOO__0434",
+    "PCO+HCOO__0435",
+    "PCO+HCOO__0436",
+    "PCO+HCOO__0442",
+    "PCO+HCOO__0452",
+    "PCO+HCOO__0453",
+    "PCO+HCOO__0474",
+    "PCO+HCOO__0476",
+    "PCO+HCOO__0500",
+    "PCO+HCOO__0501",
+    "PCO+HCOO__0502",
+    "PCO+HCOO__0503",
+    "PCO+HCOO__0504",
+    "PE-H__0049",
+    "PE-H__0050",
+    "PE-H__0051",
+    "PE-H__0052",
+    "PE-H__0053",
+    "PE-H__0054",
+    "PE-H__0055",
+    "PE-H__0068",
+    "PE-H__0078",
+    "PE-H__0102",
+    "PE-H__0103",
+    "PE-H__0104",
+    "PE-H__0105",
+    "PE-H__0106",
+    "PE-H__0179",
+    "PE-H__0180",
+    "PE-H__0182",
+    "PE-H__0183",
+    "PE-H__0184",
+    "PE-H__0185",
+    "PE-H__0186",
+    "PE-H__0189",
+    "PE-H__0287",
+    "PE-H__0428",
+    "PE-H__0443",
+    "PE-H__0444",
+    "PE-H__0445",
+    "PE-H__0446",
+    "PE-H__0447",
+    "PE-H__0448",
+    "PE-H__0449",
+    "PE-H__0450",
+    "PE-H__0465",
+    "PE-H__0486",
+    "PE-H__0487",
+    "PE-H__0489",
+    "PEO-H__0050",
+    "PEO-H__0051",
+    "PEO-H__0052",
+    "PEO-H__0053",
+    "PEO-H__0054",
+    "PEO-H__0055",
+    "PEO-H__0056",
+    "PEO-H__0071",
+    "PEO-H__0078",
+    "PEO-H__0079",
+    "PEO-H__0080",
+    "PEO-H__0081",
+    "PEO-H__0082",
+    "PEO-H__0083",
+    "PEO-H__0084",
+    "PEO-H__0108",
+    "PEO-H__0109",
+    "PEO-H__0121",
+    "PEO-H__0127",
+    "PEO-H__0149",
+    "PEO-H__0155",
+    "PEO-H__0177",
+    "PEO-H__0178",
+    "PEO-H__0184",
+    "PEO-H__0205",
+    "PEO-H__0206",
+    "PEO-H__0207",
+    "PEO-H__0212",
+    "PEO-H__0213",
+    "PEO-H__0229",
+    "PEO-H__0230",
+    "PEO-H__0232",
+    "PEO-H__0233",
+    "PEO-H__0234",
+    "PEO-H__0238",
+    "PEO-H__0257",
+    "PEO-H__0258",
+    "PEO-H__0260",
+    "PEO-H__0261",
+    "PEO-H__0266",
+    "PEO-H__0285",
+    "PEO-H__0286",
+    "PEO-H__0287",
+    "PEO-H__0288",
+    "PEO-H__0289",
+    "PEO-H__0290",
+    "PEO-H__0294",
+    "PEO-H__0313",
+    "PEO-H__0314",
+    "PEO-H__0315",
+    "PEO-H__0316",
+    "PEO-H__0317",
+    "PEO-H__0318",
+    "PEO-H__0319",
+    "PEO-H__0322",
+    "PEO-H__0341",
+    "PEO-H__0342",
+    "PEO-H__0343",
+    "PEO-H__0345",
+    "PEO-H__0346",
+    "PEO-H__0347",
+    "PEO-H__0348",
+    "PEO-H__0349",
+    "PEO-H__0350",
+    "PEO-H__0357",
+    "PEO-H__0369",
+    "PEO-H__0370",
+    "PEO-H__0373",
+    "PEO-H__0374",
+    "PEO-H__0375",
+    "PEO-H__0376",
+    "PEO-H__0377",
+    "PEO-H__0378",
+    "PEO-H__0384",
+    "PEO-H__0385",
+    "PEO-H__0395",
+    "PEO-H__0396",
+    "PEO-H__0397",
+    "PEO-H__0398",
+    "PEO-H__0399",
+    "PEO-H__0400",
+    "PEO-H__0423",
+    "PEO-H__0424",
+    "PEO-H__0425",
+    "PEO-H__0426",
+    "PEO-H__0428",
+    "PEO-H__0451",
+    "PEO-H__0452",
+    "PEO-H__0453",
+    "PEO-H__0454",
+    "PEO-H__0455",
+    "PEO-H__0456",
+    "PEO-H__0479",
+    "PEO-H__0480",
+    "PEO-H__0481",
+    "PEO-H__0482",
+    "PEO-H__0483",
+    "PEO-H__0484",
+    "PEO-H__0507",
+    "PEO-H__0508",
+    "PEO-H__0509",
+    "PEO-H__0510",
+    "PEO-H__0511",
+    "PEO-H__0512",
+    "PEO-H__0535",
+    "PEO-H__0536",
+    "PEO-H__0537",
+    "PEO-H__0538",
+    "PEO-H__0539",
+    "PEO-H__0540",
+    "PEO-H__0546",
+    "PEO-H__0563",
+    "PEO-H__0565",
+    "PEO-H__0566",
+    "PEO-H__0567",
+    "PEO-H__0568",
+    "PEO-H__0573",
+    "PEO-H__0574",
+    "PEO-H__0590",
+    "PEO-H__0591",
+    "PEO-H__0592",
+    "PEO-H__0618",
+    "PEO-H__0619",
+    "PEO-H__0620",
+    "PEO-H__0646",
+    "PEO-H__0647",
+    "PEO-H__0648",
+    "PEO-H__0674",
+    "PEO-H__0675",
+    "PEO-H__0676",
+    "PEO-H__0702",
+    "PEO-H__0703",
+    "PEO-H__0704",
+    "PEO-H__0730",
+    "PEO-H__0731",
+    "PEO-H__0732",
+    "PEO-H__0758",
+    "PEO-H__0759",
+    "PEO-H__0760",
+    "PEO-H__0828",
+    "PEO-H__0843",
+    "PEO-H__0844",
+    "PEO-H__0845",
+    "PEO-H__0846",
+    "PEO-H__0847",
+    "PEO-H__0848",
+    "PEO-H__0849",
+    "PEO-H__0850",
+    "PEO-H__0865",
+    "PEO-H__0866",
+    "PEO-H__0867",
+    "PEO-H__0868",
+    "PEO-H__0869",
+    "PEO-H__0870",
+    "PEO-H__0871",
+    "PEO-H__0872",
+    "PG-H__0043",
+    "PG-H__0046",
+    "PG-H__0047",
+    "PG-H__0048",
+    "PG-H__0049",
+    "PG-H__0050",
+    "PG-H__0055",
+    "PG-H__0061",
+    "PG-H__0067",
+    "PG-H__0073",
+    "PG-H__0078",
+    "PG-H__0082",
+    "PG-H__0086",
+    "PG-H__0091",
+    "PG-H__0092",
+    "PG-H__0421",
+    "PG-H__0422",
+    "PG-H__0423",
+    "PG-H__0424",
+    "PG-H__0425",
+    "PG-H__0426",
+    "PG-H__0427",
+    "PG-H__0428",
+    "PG-H__0437",
+    "PG-H__0438",
+    "PG-H__0439",
+    "PG-H__0440",
+    "PG-H__0441",
+    "PG-H__0442",
+    "PG-H__0443",
+    "PG-H__0444",
+    "PG-H__0445",
+    "PG-H__0446",
+    "PG-H__0447",
+    "PG-H__0448",
+    "PG-H__0449",
+    "PG-H__0458",
+    "PG-H__0480",
+    "PG-H__0486",
+    "PI-H__0003",
+    "PI-H__0004",
+    "PI-H__0005",
+    "PI-H__0006",
+    "PI-H__0007",
+    "PI-H__0008",
+    "PI-H__0029",
+    "PI-H__0030",
+    "PI-H__0031",
+    "PI-H__0409",
+    "PI-H__0410",
+    "PI-H__0411",
+    "PI-H__0412",
+    "PI-H__0413",
+    "PI-H__0414",
+    "PI-H__0430",
+    "PI-H__0431",
+    "PI-H__0432",
+    "PI-H__0451",
+    "PI-H__0452",
+    "PI-H__0473",
+    "PI-H__0474",
+    "PI-H__0496",
+    "PI-H__0497",
+    "PI-H__0498",
+    "PI-H__0499",
+    "PS-H__0015",
+    "PS-H__0016",
+    "PS-H__0017",
+    "PS-H__0018",
+    "PS-H__0019",
+    "PS-H__0020",
+    "PS-H__0021",
+    "PS-H__0022",
+    "PS-H__0023",
+    "PS-H__0024",
+    "PS-H__0025",
+    "PS-H__0026",
+    "PS-H__0027",
+    "PS-H__0028",
+    "PS-H__0038",
+    "PS-H__0039",
+    "PS-H__0040",
+    "PS-H__0041",
+    "PS-H__0047",
+    "PS-H__0048",
+    "PS-H__0061",
+    "PS-H__0085",
+    "PS-H__0086",
+    "PS-H__0092",
+    "PS-H__0155",
+    "PS-H__0176",
+    "PS-H__0415",
+    "PS-H__0421",
+    "PS-H__0422",
+    "PS-H__0423",
+    "PS-H__0424",
+    "PS-H__0425",
+    "PS-H__0426",
+    "PS-H__0427",
+    "PS-H__0428",
+    "PS-H__0433",
+    "PS-H__0437",
+    "PS-H__0438",
+    "PS-H__0439",
+    "PS-H__0440",
+    "PS-H__0441",
+    "PS-H__0442",
+    "PS-H__0447",
+    "PS-H__0448",
+    "PS-H__0449",
+    "PS-H__0453",
+    "PS-H__0455",
+    "PS-H__0458",
+    "PS-H__0463",
+    "PS-H__0464",
+    "PS-H__0478",
+    "PS-H__0479",
+    "PS-H__0480",
+    "PS-H__0484",
+    "PS-H__0485",
+    "PS-H__0486",
+    "PS-H__0502",
+    "PS-H__0503",
+    "PS-H__0504"
+  ]
+}

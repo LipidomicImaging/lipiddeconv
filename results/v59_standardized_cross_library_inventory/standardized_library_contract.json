@@ -1,0 +1,44 @@
+{
+  "NN_all": "diagnostic only",
+  "W0": [
+    748,
+    798
+  ],
+  "accumulation": "float64",
+  "axis": "original build_resolution_axis, complete-span m/R clustering at R=50000; library-intensity-weighted centroid; 8-decimal mass keys",
+  "candidate_count_cap": null,
+  "chain_prior_filter": false,
+  "channel_response": "intrinsic clustered stick library only; no experimental FWHM, overlap response, observation-axis merge, q99 or B input",
+  "definition": "STANDARDIZED_CROSS_LIBRARY_GEOMETRY_GENERALIZATION",
+  "endpoint_policy": "touch-if-disjoint",
+  "experimental_outcomes_used": false,
+  "external_bins": "complete 50-Da bins within 700-900 and actual V36 coverage; bounds multiples of 50",
+  "external_precursor_range": [
+    700,
+    900
+  ],
+  "formal_design": {
+    "K": 125,
+    "domains": 4,
+    "learned_runs": 24,
+    "replicates": 3,
+    "splits": 2
+  },
+  "fragment_region": "channels outside the translated parent region; strict nonzero support",
+  "inclusion": "each source row becomes one column iff L <= precursor_mz <= H",
+  "isotopes": "original conditional exact isotope-state formulas, M0-M4; absolute natural-abundance rank weights, no rank renormalization",
+  "monoisotopic_intensity": "source prediction on channels with positive source mask, finite target m/z and positive intensity; original builder formula routines",
+  "normalization": "float32 torch column L2 norm +1e-8, identical arithmetic to production utils.get_A_matrix",
+  "observation_filter": false,
+  "ordering": "unchanged source row order; candidate_id = source entry_id",
+  "parent_region": "[L,H+5]; +5 derived from production configured upper bounds 803-798; classification only",
+  "parent_region_limitation": "m/z region labels, not a guarantee that every in-region peak is chemically a parent ion",
+  "primary": "q90 NN_other_identity",
+  "primary_reason": "same-lipid-name candidates cannot by themselves constitute molecular identity false allocation",
+  "quantile_method": "linear",
+  "selection": "LOW Q25, MID Q50, HIGH Q75 sequential; distance, lower_mz, upper_mz; no candidate-set overlap",
+  "sn_collapse": false,
+  "source": "V36 full CE29 predictions; no supplementary PC-Cl workbook candidates",
+  "truth": "singleton lipid_name only; at least 250 per formal domain",
+  "zero_or_unresolved_spectrum": "STOP; never silently remove a selected candidate"
+}

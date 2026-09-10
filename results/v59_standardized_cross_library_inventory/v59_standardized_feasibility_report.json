@@ -1,0 +1,23 @@
+{
+  "GPU_training_executed": false,
+  "V57_reference": "existing production W0 CLEAN",
+  "V58_reference": "within-library spectral mismatch; no V58 outcomes read",
+  "benchmark_plumbing": "V54 EXPECTED_A_SHAPE (1084,391); V57 fixed bank and reporting loops; V58 shape guards. New formal runner must derive shapes and metadata dynamically.",
+  "claim": "same algorithm/calibration across standardized library geometries; not validation of acquisition pipelines or transfer of learned weights",
+  "external_precursor_range": [
+    700,
+    900
+  ],
+  "formal_design_feasible": false,
+  "formal_domain_count": 4,
+  "planned_learned_runs": 24,
+  "production_solver_core": "VARIABLE_N_FROM_A_SHAPE; fresh initialization, no checkpoint transfer",
+  "rho_or_FDR_computed": false,
+  "scientific_definition": "STANDARDIZED_CROSS_LIBRARY_GEOMETRY_GENERALALIZATION",
+  "selection": {
+    "eligible_count": 2,
+    "status": "INSUFFICIENT_NONOVERLAPPING_STANDARDIZED_WINDOWS"
+  },
+  "status": "INSUFFICIENT_NONOVERLAPPING_STANDARDIZED_WINDOWS",
+  "superseded_evidence_directory": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_standardized_cross_library_inventory\\history\\superseded_scope_20260910T092801559980Z"
+}

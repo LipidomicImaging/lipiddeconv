@@ -1,3 +1,11 @@
+# Active next task — V58/V59 result handoff
+
+Status: REMOTE_EXPERIMENTS_RUNNING; FINAL_RESULTS_NOT_YET_COMPLETE.
+
+Read [ACTIVE_EXPERIMENTS.md](ACTIVE_EXPERIMENTS.md) for exact scientific definitions, hosts, status/output paths, frozen fingerprints and recovery evidence. When asked for status, read those bounded status/log paths; do not rerun or redesign the experiments. After completion, verify the planned60/18 result sets, retrieve compact results and provenance, analyze them, then commit and push the results/analysis records as requested by the user. Do not mark this task complete from a progress snapshot. Do not stage unrelated V52 or historical V48 changes.
+
+The earlier V48/V49 task text below is retained as historical context, not the active execution task.
+
 \# NEXT TASK — v48 All-Reported-Candidate Identity Validation
 
 

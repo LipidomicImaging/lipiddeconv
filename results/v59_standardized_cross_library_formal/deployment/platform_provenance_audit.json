@@ -1,0 +1,12 @@
+{
+  "local_prepared_fingerprint": "7197add774baf570869275f38d70248cd0b5f6047bf481fb3ab3803cd8a65367",
+  "remote_frozen_fingerprint": "f0767f657af3aa80d5493edef5481de3934f606c61c65f65b6ae723bbf49127d",
+  "libraries_candidate_order_splits_spatial_abundance_implementations_equal": true,
+  "all_18_X_true_byte_exact": true,
+  "all_18_reportable_truth_count": 125,
+  "B_bytes_equal": false,
+  "interpretation": "Platform-dependent float32 forward products; each runtime independently passes its forward-consistency check and exact deterministic reconstruction. Remote design was prepared/audited/frozen before any remote oracle or learned outcome; local prepared design retained unchanged.",
+  "details": "platform_signature_differences.json",
+  "design_reselected": false,
+  "old_fingerprint_substituted": false
+}

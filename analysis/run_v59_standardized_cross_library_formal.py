@@ -36,6 +36,7 @@ CONTRACT = {
     'measurement_noise': False, 'spectral_mismatch': False, 'new_tissue': False,
     'sentinel_max_residual': .10, 'oracle_max_residual': 1e-6,
     'oracle': 'independent full-library foreground-mean NNLS; candidate and molecular FP=FN=0; not a uniqueness proof',
+    'oracle_mean_accumulation': 'float64; exact cast of frozen float32 B before mean, matching rho foreground-mean precision',
     'hard_epoch_cap': 3000, 'checkpoint_epochs': [1000, 1500, 2000, 2500, 3000],
     'early_stop': 'unchanged production semantics; no minimum sentinel duration',
     'primary': 'domain-local CAL maximum retained molecular units at empirical FDR<=alpha; ties lower threshold',
@@ -322,6 +323,17 @@ def oracle_pass(report):
     return all(report[k]['FP']==report[k]['FN']==0 for k in ('all_truth_metrics','candidate_level_all_truth_metrics')) and np.isfinite(report['reconstruction_relative_residual']) and report['reconstruction_relative_residual']<=CONTRACT['oracle_max_residual']
 
 
+def target_oracle(case, a, metadata):
+    # Casting AFTER a float32 reduction cannot recover its lost precision. The
+    # frozen observation values are exactly representable in float64; this only
+    # changes accumulation precision, not B, the NNLS problem or its tolerance.
+    oracle_case={**case, 'B_sim':case['B_sim'].astype(np.float64)}
+    result=v54.reporting_gate_oracle(oracle_case,a,metadata)
+    result['foreground_mean_accumulation_dtype']='float64'
+    result['frozen_B_values_modified']=False
+    return result
+
+
 def oracles(args, design):
     hashes = {}
     for dataset in ids():
@@ -332,7 +344,7 @@ def oracles(args, design):
                 require(record['design_fingerprint']==design['design_fingerprint'], 'ORACLE_DESIGN_CHANGED')
             else:
                 lib,case = context_case(args,design,dataset)
-                result = v54.reporting_gate_oracle(case,lib['A_solver'],lib['metadata'])
+                result = target_oracle(case,lib['A_solver'],lib['metadata'])
                 record = {'dataset_id':dataset,'design_fingerprint':design['design_fingerprint'],
                           'oracle':result,'status':'PASS' if oracle_pass(result) else 'FAIL',
                           'uniqueness_proven':False,'truth_used_as_NNLS_initialization':False}
@@ -620,9 +632,25 @@ def self_test():
         with torch.no_grad():
             x,layers,ac,_=net(torch.tensor(case['B_sim'][None]))
         require(tuple(x.shape)==(1,n,8,8) and tuple(ac.shape)==(m,n) and len(layers)==Cfg.K_layers,'TEST_VARIABLE_N_FORWARD')
-        result=v54.reporting_gate_oracle(case,a,metadata)
+        result=target_oracle(case,a,metadata)
         require(oracle_pass(result),'TEST_INDEPENDENT_NNLS')
     tests.update(variable_N_and_M_model_forward='PASS',production_12_layers='PASS',deterministic_design='PASS',independent_oracle_small='PASS')
+    # A long float32 reduction with mixed magnitudes must use the same double
+    # precision mean as rho, without mutating the frozen observation array.
+    precision_case=dict(case)
+    precision_case['B_sim']=np.repeat(case['B_sim'],256,axis=2)
+    precision_case['foreground_mask']=np.repeat(mask,256,axis=1)
+    frozen_B_sha=ahash(precision_case['B_sim'])
+    expected_mean=precision_case['B_sim'][:,precision_case['foreground_mask']].mean(axis=1,dtype=np.float64)
+    original=v54.reporting_gate_oracle
+    def check_mean(received, a, metadata):
+        actual=received['B_sim'][:,received['foreground_mask']].mean(axis=1)
+        require(received['B_sim'].dtype==np.float64 and np.array_equal(actual,expected_mean),'TEST_ORACLE_MEAN_PRECISION')
+        return original(received,a,metadata)
+    with patch.object(v54,'reporting_gate_oracle',check_mean):
+        require(oracle_pass(target_oracle(precision_case,a,metadata)),'TEST_ORACLE_PRECISION_RECOVERY')
+    require(ahash(precision_case['B_sim'])==frozen_B_sha,'TEST_FROZEN_B_NOT_MUTATED')
+    tests['oracle_float64_mean_without_B_mutation']='PASS'
     bad={**result,'reconstruction_relative_residual':.1}
     require(not oracle_pass(bad),'TEST_ORACLE_RESIDUAL_GATE')
     with tempfile.TemporaryDirectory(prefix='v59_unit_') as tmp:

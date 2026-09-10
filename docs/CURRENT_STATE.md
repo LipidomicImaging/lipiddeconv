@@ -1,3 +1,7 @@
+# Active state update — 2026-09-10
+
+V58 compact (60 datasets) and V59 standardized cross-library (18 datasets) are executing on separate remote instances. Authoritative current task context and runtime paths: [ACTIVE_EXPERIMENTS.md](ACTIVE_EXPERIMENTS.md). Final result review/commit/push remains pending. The V48/V49 notes below are historical context, not instructions to restart those experiments.
+
 \# LD Project — Current State
 
 
