@@ -1,6 +1,6 @@
 # Missing-library challenge: bounded protocol
 
-Status: SELECTION_PREPARED_NOT_EXECUTION_FROZEN. No GPU launch or frozen execution manifest yet.
+Status: EXECUTION_FROZEN_CPU_CHECKED. Six new fits ready; no GPU launch yet. See results/missing_library_challenge_k125/EXECUTION.md for frozen fingerprint, validation and exact commands.
 
 Selection is recorded in results/computational_closure/missing_library/selection_manifest.json with fingerprint bc5c0efd7fa07b0ecfd206ce37b189bb63a05d28d90df1dfdbebb1c874c0501a. The source V51 pair/candidate geometry hashes match frozen V57 references. All five controls match abundance and lipid class; one control has fragment cosine 0.966, so this is a relatively lower-similarity matched arm, not a uniformly isolated class. Exact selection preference is same abundance, same class when available, then ascending cosine and name, without replacement in hard-selection order.
 
@@ -22,4 +22,4 @@ Production solver/training/early-stop/rho/reporting definitions stay unchanged; 
 
 Primary evaluation uses existing frozen V57 CAL FDR5/FDR1 thresholds for rho and X_hat. Report TP/FP/FN, recall, TP retention, filter loss, residual, surviving-truth recovery, and changes in predesignated nontruth neighbor allocation. Neighbor changes are descriptive, not uniquely attributable source decompositions. Full-library controls and omission arms remain paired; three mappings are not biological replication. No noise, additional K, new windows, group-rho or outcome-based retuning.
 
-Next: generate and verify the exact asset/selection manifest without reading learned outcomes, then implement an isolated adapter reusing existing production code. GPU execution waits for a released card; no automatic queue is configured.
+Completed: isolated reduced-N adapter, all six CPU forward/input checks, omitted-FN/filter-loss tests, cache rejection tests, frozen manifest and independent reload check. GPU execution waits for a released card; no automatic queue is configured. Source V57/V58/V59 runners remain unchanged.

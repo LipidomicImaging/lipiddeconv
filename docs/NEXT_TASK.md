@@ -1,5 +1,7 @@
 # Active next task — V58/V59 result handoff
 
+The user's two requested missing-library preparation items are COMPLETE: isolated execution adapter and CPU checks/frozen six-case manifest. Next run six omission fits on a released GPU using results/missing_library_challenge_k125/EXECUTION.md, without changing the frozen design. No omission GPU run or automatic queue has been started. Continue V58/V59/NNLS result handoffs independently.
+
 User authorized CPU NNLS baseline. Runner and six-case protocol: analysis/run_nnls_solver_baseline.py and docs/NNLS_BASELINE_PROTOCOL.md. Four-worker timing passed (~32min/case extrapolation excluding rho); run independently of GPU jobs, then review both raw and filtered outcomes. Do not treat the old foreground-mean oracle as the new pixelwise baseline. Missing-library adapter remains a separate unfinished priority.
 
 Control reconstruction/checkpoint audit now PASS for all three references. Next implement and validate isolated reduced-N context/metadata/output mapping, preserving original B and full truth denominators. Production channel weights are library-dependent: retain the formula and record resulting weights rather than silently fixing full-library weights. Then freeze the execution manifest; no new training before these checks.

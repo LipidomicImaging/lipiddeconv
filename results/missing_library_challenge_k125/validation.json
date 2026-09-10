@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "removed_FN_and_spurious_FP": "PASS",
+  "filter_loss_separate": "PASS",
+  "cross_design_cache_rejected": "PASS",
+  "unbound_checkpoint_rejected": "PASS",
+  "metadata_mapping": "PASS",
+  "case_count": 6,
+  "cpu_forward_all_six": "PASS",
+  "training_executed": false
+}
