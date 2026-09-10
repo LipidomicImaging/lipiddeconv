@@ -1,5 +1,7 @@
 # Active state update — 2026-09-10
 
+CPU NNLS baseline now actually running on V58 host: supervisor PID41814 with four nice10 CPU workers, no GPU allocation. Six frozen V57 K125 CAL/HOLD R1-R3 cases; first case CAL_R1_K125 at PIXEL_NNLS. Runner hash matches committed8f21a4e. See results/active_experiments/nnls_cpu4_launch.json and docs/NNLS_BASELINE_PROTOCOL.md. Automatically seals CAL thresholds before HOLD, then compares to existing ISTA outputs. No completion claim yet.
+
 V59 live check at 2026-09-10T12:55Z: no stall. D0/D1 sentinels PASS (final residual0.0417713/0.0525857); D2 actively training at epoch2150 with fresh history and100% GPU utilization. Supervisor stage timestamp is coarse, not an epoch heartbeat. Snapshot: results/active_experiments/v59_status_20260910T1255Z.json. No process restarted.
 
 Three missing-library reference controls passed CPU reconstruction and production/checkpoint audit: original B bindings match byte-for-byte, all production implementation/config checks pass, 15 named checkpoints and final histories agree. See results/computational_closure/missing_library/control_reconstruction_audit.json. X_true hashes are frozen-design reconstructions, not independent historical seals. Reduced-N adapter remains pending; no GPU work launched.
