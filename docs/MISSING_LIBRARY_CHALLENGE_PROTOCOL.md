@@ -1,6 +1,10 @@
 # Missing-library challenge: bounded protocol
 
-Status: PROTOCOL_DEFINED_ASSET_MANIFEST_PENDING. No GPU launch or frozen case manifest yet.
+Status: SELECTION_PREPARED_NOT_EXECUTION_FROZEN. No GPU launch or frozen execution manifest yet.
+
+Selection is recorded in results/computational_closure/missing_library/selection_manifest.json with fingerprint bc5c0efd7fa07b0ecfd206ce37b189bb63a05d28d90df1dfdbebb1c874c0501a. The source V51 pair/candidate geometry hashes match frozen V57 references. All five controls match abundance and lipid class; one control has fragment cosine 0.966, so this is a relatively lower-similarity matched arm, not a uniformly isolated class. Exact selection preference is same abundance, same class when available, then ascending cosine and name, without replacement in hard-selection order.
+
+Three remote control learned-array hashes match solver_run.json and dataset/fingerprint bindings agree. training_history.json is present for all three; recorded hashes cover history, runtime contract, solver run, learned arrays and latest model. This is an initial artifact audit, not complete reuse approval: fresh B/X_true reconstruction, implementation/config equivalence and historical checkpoint checks remain pending. Source artifacts are unchanged.
 
 Use V57 CLEAN HOLD_R1_K125, HOLD_R2_K125 and HOLD_R3_K125. These are a fixed intermediate complexity and the first three mapping replicates, chosen without inspecting their recovery for challenge selection. Preserve original observations, truth, maps, abundance and scaling. This is a stress test of frozen CLEAN threshold transfer, not a new calibration dataset.
 

@@ -33,4 +33,4 @@ Analyze true identities retained versus filtered using cone isolation, fragment/
 
 After each completes, follow ACTIVE_EXPERIMENTS.md: account for every planned dataset, verify provenance, retrieve compact outputs, and review calibration transfer/recalibration plus false-negative costs. Show replicate/domain variation and limited replication; do not claim universal FDR control from pooled point estimates or candidate-level independence intervals.
 
-Keep code, analysis definitions, compact reports and provenance in the Git handoff. Existing push approval remains unresolved; this plan does not claim any new remote Git update. Preserve all source results and interrupted-run evidence.
+Keep code, analysis definitions, compact reports and provenance in the Git handoff. User explicitly approved repository pushes; progress through 321e684 has been verified on codex/v58-v59-run-records. Preserve all source results and interrupted-run evidence.

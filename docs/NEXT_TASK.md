@@ -1,5 +1,7 @@
 # Active next task — V58/V59 result handoff
 
+Missing-library selection and initial three-control artifact audit now saved under results/computational_closure/missing_library. Next reconstruct the three parent B/X_true cases and verify runtime B hashes plus production configuration/checkpoint lineage before implementing/freezing the isolated reduced-N adapter. Do not relabel selection preparation as execution freeze. Git push is now explicitly authorized to the user's repository; preserve progress on codex/v58-v59-run-records.
+
 Closure progress: V57 snapshot accounting and bounded remote CAL provenance check completed; see results/computational_closure/v57/analysis_record.md. Next resolve exact parent solver artifacts and produce the missing-library selection manifest under docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md before any new training. Do not attempt rho true-loss enrichment on V57's empty filtered-truth group.
 
 User-authorized closure preparation: see [COMPUTATIONAL_CLOSURE_PLAN.md](COMPUTATIONAL_CLOSURE_PLAN.md). Prepare the small missing-library challenge and audit existing V57 analysis inputs while V58/V59 continue; no new GPU job has been queued. The final result handoff below remains pending.

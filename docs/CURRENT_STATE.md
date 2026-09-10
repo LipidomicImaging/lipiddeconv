@@ -1,5 +1,7 @@
 # Active state update — 2026-09-10
 
+Missing-library selection prepared: five close-neighbor truths and five same-class/exact-abundance matched controls, same IDs for HOLD_R1–R3 K125. Selection fingerprint bc5c0efd7fa07b0ecfd206ce37b189bb63a05d28d90df1dfdbebb1c874c0501a. Three control array/binding audits pass; execution freeze still awaits B/X_true reconstruction and implementation/checkpoint provenance. No new training. Git updates authorized and previous progress pushed to codex/v58-v59-run-records (321e684).
+
 V57 closure accounting completed in results/computational_closure/v57: frozen rho FDR5/FDR1 retain all3253 raw HOLD TP, with112/8 FP and122 solver FN. Zero filter-induced true losses: ambiguity enrichment of that empty group is not estimable. Remote60 CAL source hashes pass; local molecular aggregate is byte-identical. Missing-library protocol is bounded to three K125 mappings and two five-identity omission arms (six new fits if controls verify), with exact asset manifest still pending; see docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md. No new GPU job launched.
 
 Computational closure preparation has started; see [COMPUTATIONAL_CLOSURE_PLAN.md](COMPUTATIONAL_CLOSURE_PLAN.md). Latest bounded status read: V58 29/60 complete; V59 supervisor remains at sentinel after all18 oracle checks. Local V57 analysis tables and required headers are present; provenance/statistical review remains pending. No new training launched.

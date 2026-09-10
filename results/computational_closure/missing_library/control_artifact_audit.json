@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "HOLD_R1_K125",
+    "array_hash_match": true,
+    "runtime_binding": {
+      "dataset_id": "HOLD_R1_K125",
+      "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+      "B_sha256": "9590a256310f59e1b3bb49929d095886f35d76aeb98fdd64799bc50f247f3841"
+    },
+    "artifact_hashes": {
+      "solver_run.json": "99c2117e6ccf3a4e8c8b8cfba15e9030948a823155f360136c196c1873c2b95f",
+      "runtime_contract.json": "b990e3cca7856251fce001be8eed7ea99e26a6a283c50f3f98813275e30541a0",
+      "training_history.json": "60850c4b2268ba7056d1b0f75cc5b6ba1fee4182b545e04699e8b35c8e665f9c",
+      "learned_arrays.npz": "0aac56869791a0e587d5490f3c8eee03b59d2d5cd0ef624efae1598a1eb3d1ad",
+      "latest_model.pth": "ae254129f7e0ae95ae976aba0ca2ca10d4268c5c5f409135582e4e105c9feddd"
+    },
+    "history_last_epoch": 3000,
+    "status": "ARTIFACT_BINDINGS_MATCH_RECONSTRUCTION_PENDING"
+  },
+  {
+    "dataset": "HOLD_R2_K125",
+    "array_hash_match": true,
+    "runtime_binding": {
+      "dataset_id": "HOLD_R2_K125",
+      "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+      "B_sha256": "c28f22336a6546f68889e60ee9a74eecfb8107d6c126295be65f7e7baaec19db"
+    },
+    "artifact_hashes": {
+      "solver_run.json": "20418cf1d5c0a155efa9e3b49f931584413a14f78099d45043ff0b59542a3a19",
+      "runtime_contract.json": "ed338a4a8806b45b8d224a57d18c7cae1c694d73f32511862c1348b737e0d90d",
+      "training_history.json": "2a49eaad659e9902a7bc36efc75af8bb3ec3f31063a906fb03633a309a13e0da",
+      "learned_arrays.npz": "adaa84fba14dfe53f1b9488274db056e0aa357def2aa8c3e6273cbd7b46e1ffa",
+      "latest_model.pth": "22b795cd6c6c214f2c35b183431fe4580147dfcbb75c84cad17c869c25ff1e8b"
+    },
+    "history_last_epoch": 3000,
+    "status": "ARTIFACT_BINDINGS_MATCH_RECONSTRUCTION_PENDING"
+  },
+  {
+    "dataset": "HOLD_R3_K125",
+    "array_hash_match": true,
+    "runtime_binding": {
+      "dataset_id": "HOLD_R3_K125",
+      "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+      "B_sha256": "7decc6e434f7d99b5fc1f592154eb02765bbd10a201b0557052fe80460819123"
+    },
+    "artifact_hashes": {
+      "solver_run.json": "a7ab0d1d55a2a5733367af6680e40c1e22bb29361adb8570c8104ba4301f9841",
+      "runtime_contract.json": "8e0a84900424ca7ed16996ac54261dde42db9f4729911980dfc34e5f43e70d25",
+      "training_history.json": "b92cd15f2b4ee1a9651ae0bb41ea160bb2af8a7b84ccde61b4939c03a037a102",
+      "learned_arrays.npz": "f65e69f6e9bc99f7dbdd8f0d676792fe96cfe2bd582e0cf842caaccb41078e9b",
+      "latest_model.pth": "279c2a32afaea6c0648b526f4572592e0f739af9cb9b7e814728ad7613cde764"
+    },
+    "history_last_epoch": 3000,
+    "status": "ARTIFACT_BINDINGS_MATCH_RECONSTRUCTION_PENDING"
+  }
+]
