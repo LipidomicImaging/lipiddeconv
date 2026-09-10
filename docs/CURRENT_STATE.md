@@ -1,5 +1,7 @@
 # Active state update — 2026-09-10
 
+Three missing-library reference controls passed CPU reconstruction and production/checkpoint audit: original B bindings match byte-for-byte, all production implementation/config checks pass, 15 named checkpoints and final histories agree. See results/computational_closure/missing_library/control_reconstruction_audit.json. X_true hashes are frozen-design reconstructions, not independent historical seals. Reduced-N adapter remains pending; no GPU work launched.
+
 Missing-library selection prepared: five close-neighbor truths and five same-class/exact-abundance matched controls, same IDs for HOLD_R1–R3 K125. Selection fingerprint bc5c0efd7fa07b0ecfd206ce37b189bb63a05d28d90df1dfdbebb1c874c0501a. Three control array/binding audits pass; execution freeze still awaits B/X_true reconstruction and implementation/checkpoint provenance. No new training. Git updates authorized and previous progress pushed to codex/v58-v59-run-records (321e684).
 
 V57 closure accounting completed in results/computational_closure/v57: frozen rho FDR5/FDR1 retain all3253 raw HOLD TP, with112/8 FP and122 solver FN. Zero filter-induced true losses: ambiguity enrichment of that empty group is not estimable. Remote60 CAL source hashes pass; local molecular aggregate is byte-identical. Missing-library protocol is bounded to three K125 mappings and two five-identity omission arms (six new fits if controls verify), with exact asset manifest still pending; see docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md. No new GPU job launched.

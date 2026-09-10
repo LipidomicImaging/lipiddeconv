@@ -1,5 +1,7 @@
 # Active next task — V58/V59 result handoff
 
+Control reconstruction/checkpoint audit now PASS for all three references. Next implement and validate isolated reduced-N context/metadata/output mapping, preserving original B and full truth denominators. Production channel weights are library-dependent: retain the formula and record resulting weights rather than silently fixing full-library weights. Then freeze the execution manifest; no new training before these checks.
+
 Missing-library selection and initial three-control artifact audit now saved under results/computational_closure/missing_library. Next reconstruct the three parent B/X_true cases and verify runtime B hashes plus production configuration/checkpoint lineage before implementing/freezing the isolated reduced-N adapter. Do not relabel selection preparation as execution freeze. Git push is now explicitly authorized to the user's repository; preserve progress on codex/v58-v59-run-records.
 
 Closure progress: V57 snapshot accounting and bounded remote CAL provenance check completed; see results/computational_closure/v57/analysis_record.md. Next resolve exact parent solver artifacts and produce the missing-library selection manifest under docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md before any new training. Do not attempt rho true-loss enrichment on V57's empty filtered-truth group.

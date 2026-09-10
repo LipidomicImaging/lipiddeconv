@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "parent_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+  "production_implementation_hashes": {
+    "run_v57_spectral_spatial_identity_confidence_benchmark.py": "630b9aaea1f34840c0962fdf177fd17b2817f39b7eae46ce8725e3cc4c556596",
+    "run_v56_paper_identity_fdr_benchmark.py": "090585df0170eff67fe22b5d6484f93e52d317a9dee5c281ad1b851db1994a8b",
+    "run_v54_complexity_calibration.py": "3eb731f1572bf709a5ff3f96e40d74c5ecaa6da36833e4c7e7e294499d0f7505",
+    "run_v55_spectral_noise_robustness.py": "20e8c2e5b23861f7bcdc282b6c9f55e630144994d655e9f85c67185a7e776fa8",
+    "run_v50_reoptimized_sanity.py": "f35ee105a55458254cff67c7f033fbb320a9825f46e3242f93c0fecbc2bb0633",
+    "rho_zero.py": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+    "config_758.py": "ee4c1665bc4e67c80adbb31df79d947ce73fb89a30ce2a157be148d397c06d05",
+    "lipid_ista.py": "0af7105baf95c63df3c710ecc6703a13c1d0dd82811784ca2c9bfead036726c9",
+    "run_758_ista.py": "ec87f8cbd87b99c347c1168258dfa3f33aa99eceabfea3e7e35f4910805b1dc7"
+  },
+  "production_config": {
+    "seed": 42,
+    "n_epochs": 5000,
+    "lr_net": 0.0001,
+    "grad_clip_norm": 1.0,
+    "K_layers": 12,
+    "warmup_epochs": 500,
+    "calib_clamp_min": 0.5,
+    "calib_clamp_max": 1.5,
+    "early_stop_min_epochs": 800,
+    "early_stop_check_freq": 25,
+    "early_stop_patience": 12,
+    "early_stop_loss_rtol": 0.0002,
+    "early_stop_x_rtol": 0.0005,
+    "loss_channel_weighting": "auto",
+    "parent_channel_weight_multiplier": 1.0
+  },
+  "hard_epoch_cap": 3000,
+  "checkpoint_epochs": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "datasets": [
+    {
+      "dataset_id": "HOLD_R1_K125",
+      "status": "PASS",
+      "B_sha256": "9590a256310f59e1b3bb49929d095886f35d76aeb98fdd64799bc50f247f3841",
+      "X_true_reconstructed_sha256": "cf4e3f3546c494db48e364363f1d85254fe971e0258931772248731ffc2722c3",
+      "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+      "global_scale": 0.015327582866187028,
+      "stopped_epoch": 3000,
+      "checkpoints": [
+        {
+          "file": "checkpoint_epoch_1000.pth",
+          "sha256": "4932cf971e505cf05becdcda48920f98ed7f926016b4ab51e51eff8f21817525",
+          "epoch": 1000
+        },
+        {
+          "file": "checkpoint_epoch_1500.pth",
+          "sha256": "3da855b3e2cc573a35c339fdcc63255de6ccf72a8bc05009d01d2220b5f4c1f7",
+          "epoch": 1500
+        },
+        {
+          "file": "checkpoint_epoch_2000.pth",
+          "sha256": "1abc6c4f448c00f747fba81691a3dd0710038bb9d5c975c6dddd3ac0e7166d04",
+          "epoch": 2000
+        },
+        {
+          "file": "checkpoint_epoch_2500.pth",
+          "sha256": "fb7db4d6bba418b7b30f47baa13d8d30dba3bcdbd51d152691f519aab8c5f60a",
+          "epoch": 2500
+        },
+        {
+          "file": "checkpoint_epoch_3000.pth",
+          "sha256": "a5fc209bddd4551a96483d97bbb797c387be3f5604b6ae4b0777e5a4744c5d3f",
+          "epoch": 3000
+        }
+      ],
+      "latest_sha256": "ae254129f7e0ae95ae976aba0ca2ca10d4268c5c5f409135582e4e105c9feddd"
+    },
+    {
+      "dataset_id": "HOLD_R2_K125",
+      "status": "PASS",
+      "B_sha256": "c28f22336a6546f68889e60ee9a74eecfb8107d6c126295be65f7e7baaec19db",
+      "X_true_reconstructed_sha256": "ed3886ab41f8d28801b4caa9d86a6cd4361050a2832eb0753997e3b00931c173",
+      "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+      "global_scale": 0.015850102446825005,
+      "stopped_epoch": 3000,
+      "checkpoints": [
+        {
+          "file": "checkpoint_epoch_1000.pth",
+          "sha256": "7db331dee7b7d0968ed4988a23441cd069563b08a97d3b56a15ba06bfbf99e67",
+          "epoch": 1000
+        },
+        {
+          "file": "checkpoint_epoch_1500.pth",
+          "sha256": "66043913d1bb824d37a6539c6eaee0474132ff9852c7d8cb2de6dfdbd66ad322",
+          "epoch": 1500
+        },
+        {
+          "file": "checkpoint_epoch_2000.pth",
+          "sha256": "bad3cc7c513b6ac5691d5a8ace688251f669da2378115ef4e0c87f87f2fc6802",
+          "epoch": 2000
+        },
+        {
+          "file": "checkpoint_epoch_2500.pth",
+          "sha256": "cbd0b7f206c75176bc5a73e2a05ee85715c782b98da0ec42fb9a4bfe223be4dc",
+          "epoch": 2500
+        },
+        {
+          "file": "checkpoint_epoch_3000.pth",
+          "sha256": "b4eabba5f330c8972b358f21e9059e3b4ea1b2921e0f9eae3cc9ab1a9935c8c0",
+          "epoch": 3000
+        }
+      ],
+      "latest_sha256": "22b795cd6c6c214f2c35b183431fe4580147dfcbb75c84cad17c869c25ff1e8b"
+    },
+    {
+      "dataset_id": "HOLD_R3_K125",
+      "status": "PASS",
+      "B_sha256": "7decc6e434f7d99b5fc1f592154eb02765bbd10a201b0557052fe80460819123",
+      "X_true_reconstructed_sha256": "b44f70a0c7831ffba7077c59be3820c61583416dd0cc401eedc39dacb374cbc1",
+      "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+      "global_scale": 0.015820963249229474,
+      "stopped_epoch": 3000,
+      "checkpoints": [
+        {
+          "file": "checkpoint_epoch_1000.pth",
+          "sha256": "dba47e9737a18f968e96ce96aefa54a75b72286ec10394ba1a1492ceed956105",
+          "epoch": 1000
+        },
+        {
+          "file": "checkpoint_epoch_1500.pth",
+          "sha256": "a41767bf71a64a52e97aebd00c4d47fb75b7c7e4dd0aa902317f6ce0151b623a",
+          "epoch": 1500
+        },
+        {
+          "file": "checkpoint_epoch_2000.pth",
+          "sha256": "1dadb5503b72fd842bb8abed3f224d6da477fe71e61d9b14d9df72416d03b458",
+          "epoch": 2000
+        },
+        {
+          "file": "checkpoint_epoch_2500.pth",
+          "sha256": "c92dc259662d6a8a3a1e18dfa2e40d25632fdea6efd3db364167d234893c4db9",
+          "epoch": 2500
+        },
+        {
+          "file": "checkpoint_epoch_3000.pth",
+          "sha256": "1838772b5b4af9c2be7e8580f2fc122f799f679eb12254844ce93ddaef39bc05",
+          "epoch": 3000
+        }
+      ],
+      "latest_sha256": "279c2a32afaea6c0648b526f4572592e0f739af9cb9b7e814728ad7613cde764"
+    }
+  ],
+  "script_sha256": "8043d9eef7f672b64c107d95318ef01fb8a12db78b0c1912e55864a667edb271",
+  "limitations": [
+    "X_true hashes are reconstructed from the frozen design; no independent historical X_true byte hash was found in solver artifacts.",
+    "Checkpoint hashes are current audit snapshots, not claims of historical hash sealing.",
+    "This validates full-library controls; reduced-library execution adapter is not yet validated."
+  ]
+}
