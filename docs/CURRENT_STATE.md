@@ -1,5 +1,7 @@
 # Active state update — 2026-09-10
 
+Monitoring schedule corrected per user: first check2026-09-11 02:00 China time, then every30min; automation id automation. V59 all sentinels PASS; formal serial CPU postprocessing leaves GPU temporarily idle, not released (13:35UTC snapshot). Earlier V59 completion estimate omitted rho and is withdrawn. NNLS first case10501/15837 pixels at13:32UTC, no reported failure. V57 stratified review complete:122 miss contexts across30 identities; top5 account for48; no rho filter-induced true loss. See docs/EXPERIMENT_MONITOR_HANDOFF.md and results/computational_closure/v57/stratified_review.
+
 Missing-library adaptation and CPU verification COMPLETE; six-fit execution frozen as b51137f3c6f12cf9bdf0e3e9f1c00c1fff53f9e4d62dc1c54de0b04a7910d9ef. All six input/386-candidate forward checks, omitted-truth FN, filter-loss, metadata and cache rejection tests PASS. Separate reload check reproduces fingerprint. See results/missing_library_challenge_k125/EXECUTION.md. READY_FOR_GPU_EXECUTION, not running or automatically queued.
 
 CPU NNLS baseline now actually running on V58 host: supervisor PID41814 with four nice10 CPU workers, no GPU allocation. Six frozen V57 K125 CAL/HOLD R1-R3 cases; first case CAL_R1_K125 at PIXEL_NNLS. Runner hash matches committed8f21a4e. See results/active_experiments/nnls_cpu4_launch.json and docs/NNLS_BASELINE_PROTOCOL.md. Automatically seals CAL thresholds before HOLD, then compares to existing ISTA outputs. No completion claim yet.
