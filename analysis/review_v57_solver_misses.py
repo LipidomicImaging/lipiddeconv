@@ -20,6 +20,10 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     with SOURCE.open(newline='',encoding='utf-8') as f:
         rows=[r for r in csv.DictReader(f) if r['split']=='HOLD']
+    for row in rows:
+        if row['lipid_class'].startswith('{'):
+            classes=set(json.loads(row['lipid_class']).values())
+            row['lipid_class']=next(iter(classes)) if len(classes)==1 else 'UNRESOLVED_MIXED_CLASS'
     grouped={};strata=[]
     for field in ('K','replicate','lipid_class'):
         groups=defaultdict(list)
