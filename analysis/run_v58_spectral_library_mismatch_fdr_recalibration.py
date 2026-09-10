@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""V58 spectral-library mismatch robustness and FDR recalibration.
+"""Final compact V58 spectral-library mismatch robustness and FDR recalibration.
 
-Lifecycle: prepare -> audit -> freeze -> 120 target oracles -> four sentinels
+Lifecycle: prepare -> audit -> freeze -> 60 target oracles -> four sentinels
 -> mismatch-all -> aggregate (CAL -> immutable thresholds -> HOLD).
 No measurement noise, source solver changes, or CLEAN retraining.
 """
@@ -17,11 +17,35 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "v58_spectral_library_mismatch_fdr_recalibration"
+PERTURBATION_NAMESPACE = "v58_spectral_library_mismatch_fdr_recalibration"
+RESULT_VARIANT = "v58_spectral_library_mismatch_fdr_recalibration_compact"
+SUPERSEDED_DRAFT = {
+    "superseded_draft_fingerprint": "d9df4ea9d9395573f47104572816b607e0728065f8171d5745dc5748337f1b9a",
+    "superseded_draft_status": "FROZEN_AND_TARGET_ORACLE_PASS_BEFORE_LEARNED_TRAINING",
+    "superseded_draft_disposition": "SUPERSEDED_BEFORE_LEARNED_TRAINING",
+    "superseded_draft_mismatch_runs": 120,
+    "superseded_draft_reason": "compute-efficiency redesign: six-point nested K ladder was redundant for the primary mismatch/FDR "
+                               "recalibration question; no learned-solver mismatch training had begun.",
+}
+EXPECTED_DRAFT_LIBRARY_HASHES = {
+    "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+    "A_target_MILD_sha256": "b835ef8e531e12803c1a949b0e89fa35c32f0f82ea2dbfefa2fefbcc9dcfa24b",
+    "A_target_MODERATE_sha256": "838af17725b3bdf28fd83668d86ce3856c4e8d6650b2e9785bf7c03cd5206ecd",
+}
+COMPACT_RATIONALE = (
+    "V58 primary question is mismatch-domain identity-confidence calibration, not reconstruction-complexity mapping. "
+    "V57 has already established the six-point K complexity curve. Because V57 K levels are nested, repeating six K "
+    "levels in both mismatch severities produces strongly correlated repeated identity observations. K50/K125/K175 "
+    "retain the low endpoint, intermediate state and high endpoint, while K175 preserves the full 175-identity "
+    "CAL/HOLD molecular-identity coverage. Five spatial replicates are retained because they provide meaningful "
+    "variation in spatial realization and solver behavior."
+)
 PARENT_VERSION = "v57_spectral_spatial_identity_confidence_benchmark"
 PARENT_FINGERPRINT = "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9"
 PARENT_COMMIT = "705c52c128dbd73496ba970f6b9a61874c3f292c"
 EXPECTED_CLEAN_RHO = {"FDR5": 1.272651000158792e-20, "FDR1": 6.683949277609072e-20}
-K_LEVELS = (50, 75, 100, 125, 150, 175)
+PARENT_K_LEVELS = (50, 75, 100, 125, 150, 175)
+K_LEVELS = (50, 125, 175)
 REPLICATES = tuple(f"R{i}" for i in range(1, 6))
 SEVERITIES = {
     "MILD": {"fragment_log_sigma": .10, "fragment_dropout_rate": .05, "parent_deviation": .10},
@@ -32,7 +56,10 @@ SELECTION = "maximum retained molecular units with empirical CAL FDR<=alpha; low
 GATE_FORMULA = "min(0.50, max(0.10, 2.0 * forward_mismatch_residual + 0.05))"
 CONTRACT = {
     "design_seed": 5800, "K_levels": K_LEVELS, "replicates": REPLICATES, "splits": ("CAL", "HOLD"),
-    "severity_parameters": SEVERITIES, "measurement_noise": False, "mismatch_runs": 120, "clean_runs": 0,
+    "severity_parameters": SEVERITIES, "measurement_noise": False, "mismatch_runs": 60, "clean_runs": 0,
+    "result_variant": RESULT_VARIANT, "perturbation_namespace": PERTURBATION_NAMESPACE,
+    "parent_K_levels": PARENT_K_LEVELS, "compact_rationale": COMPACT_RATIONALE,
+    "expected_draft_library_hashes": EXPECTED_DRAFT_LIBRARY_HASHES, **SUPERSEDED_DRAFT,
     "parent_fingerprint": PARENT_FINGERPRINT, "parent_commit": PARENT_COMMIT,
     "X_true": "unmodified V57 frozen construction, including its original single source-domain global scalar",
     "nested_perturbation": "SHA256(V58|5800|candidate_index|kind), shared z/u/v; severity absent from seed",
@@ -57,6 +84,9 @@ LIMITATIONS = [
     "Synthetic library mismatch has fixed, nested directions; it is not measured spectral error or measurement noise.",
     "V57 identities, spatial morphology, abundance and source-domain signal scaling are inherited unchanged.",
     "CAL/HOLD separates truth molecular identities; replicates and nested K are not independent biological samples.",
+    "Because K is nested, the same molecular identity may contribute multiple dataset-level observations across K and "
+    "replicates; these are correlated solver contexts, not independent molecular samples. Calibration retains the "
+    "dataset x molecular-identity unit without deduplication.",
     "Empirical CAL FDR and descriptive Wilson intervals do not guarantee population FDR.",
     "Target NNLS checks reporting-gate identifiability; source NNLS is a mismatch diagnostic only.",
     "Truth roles cannot attribute false positives; category FP/FDR are not applicable.",
@@ -83,6 +113,22 @@ def dependencies():
 def base_ids(split=None):
     return [f"{s}_{r}_K{k:03d}" for s in ((split,) if split else ("CAL", "HOLD"))
             for r in REPLICATES for k in K_LEVELS]
+
+
+def parent_base_ids(split=None):
+    return [f"{s}_{r}_K{k:03d}" for s in ((split,) if split else ("CAL", "HOLD"))
+            for r in REPLICATES for k in PARENT_K_LEVELS]
+
+
+def guard_output(args):
+    output = args.output_dir.resolve()
+    old = (ROOT / "results" / VERSION).resolve()
+    require(output != old and old not in output.parents and output not in old.parents,
+            "REFUSE_TO_OVERWRITE_SUPERSEDED_FROZEN_DRAFT")
+    existing = output / "design.json"
+    if existing.is_file():
+        require(load_json(existing).get("design_fingerprint") != SUPERSEDED_DRAFT["superseded_draft_fingerprint"],
+                "REFUSE_TO_OVERWRITE_SUPERSEDED_FROZEN_DRAFT")
 
 
 def dataset_ids():
@@ -148,7 +194,7 @@ def parent_provenance(args):
     thresholds = load_json(args.v57_output / "global_frozen_thresholds.json")
     require(thresholds["design_fingerprint"] == PARENT_FINGERPRINT and
             thresholds["status"] == "FROZEN_FROM_CAL_ONLY", "V57_THRESHOLD_PROVENANCE_CHANGED")
-    require(set(thresholds["CAL_source_hashes"]) == set(base_ids("CAL")), "V57_CAL_SOURCE_SET_CHANGED")
+    require(set(thresholds["CAL_source_hashes"]) == set(parent_base_ids("CAL")), "V57_CAL_SOURCE_SET_CHANGED")
     for target, expected in EXPECTED_CLEAN_RHO.items():
         require(thresholds["global_thresholds"]["rho_zero"][target]["threshold"] == expected ==
                 thresholds[f"rho_tau_{target}"], f"V57_THRESHOLD_VALUE_CHANGED: {target}")
@@ -186,7 +232,7 @@ def validate_source(context, expected=None):
 
 
 def latent_seed(index, kind):
-    text = f"{VERSION}|{CONTRACT['design_seed']}|{int(index)}|{kind}"
+    text = f"{PERTURBATION_NAMESPACE}|{CONTRACT['design_seed']}|{int(index)}|{kind}"
     return int.from_bytes(hashlib.sha256(text.encode()).digest()[:8], "little")
 
 
@@ -283,7 +329,9 @@ def mismatch_case(context, parent, targets, dataset):
 
 
 def snapshot(args, context, parent_hashes, library_hashes):
-    return v57.canonical({"version": VERSION, "contract": CONTRACT, "V57_parent_file_hashes": parent_hashes,
+    require(library_hashes == EXPECTED_DRAFT_LIBRARY_HASHES, "COMPACT_TARGET_LIBRARIES_CHANGED_FROM_DRAFT")
+    return v57.canonical({"version": VERSION, "result_variant": RESULT_VARIANT, "contract": CONTRACT,
+        "V57_parent_file_hashes": parent_hashes,
         "production_asset_hashes": context["validation"]["hashes_sha256"], "stage0_hashes": context["result_hashes"],
         "source_implementation_hashes": implementation_hashes(), "target_library_hashes": library_hashes,
         "candidate_order": [{"candidate_index": j, "candidate_id": str(context["metadata"]["candidate_id"][j]),
@@ -292,17 +340,21 @@ def snapshot(args, context, parent_hashes, library_hashes):
 
 
 def update_log(design, report=None):
-    begin, end = f"<!-- BEGIN {VERSION} -->", f"<!-- END {VERSION} -->"
+    begin, end = f"<!-- BEGIN {RESULT_VARIANT} -->", f"<!-- END {RESULT_VARIANT} -->"
     path = ROOT / "results/EXPERIMENT_LOG.md"
     text = path.read_text(encoding="utf-8") if path.exists() else ""
     payload = report or {"status": "DESIGN_PREPARED; audit/oracle/sentinel/results pending"}
-    section = "\n".join([begin, "", "## V58 spectral-library mismatch and FDR recalibration", "",
+    section = "\n".join([begin, "", "## Final compact V58 spectral-library mismatch and FDR recalibration", "",
+        "Final compact V58. Supersedes frozen 120-run pre-training draft for compute efficiency.",
+        "No learned mismatch training was performed under the superseded draft.",
+        "Target perturbation libraries are byte-identical to the superseded draft.",
+        json.dumps(SUPERSEDED_DRAFT, sort_keys=True), COMPACT_RATIONALE,
         "Scientific questions: CLEAN threshold transfer; target CAL recalibration; true/false rho separation and drift.",
         f"V57 parent: {PARENT_FINGERPRINT}; commit {PARENT_COMMIT}.",
         f"V58 design fingerprint: {design['design_fingerprint']}.",
         "MILD sigma/dropout/parent deviation=0.10/0.05/0.10; MODERATE=0.20/0.10/0.20.",
         "Shared candidate z/u/v, protected strongest fragment, nested dropout; fixed full 391-column target libraries.",
-        "120 mismatch datasets; V57 X_true unchanged; CLEAN runs=0; measurement noise=false; no rescaling.",
+        "60 mismatch datasets; K50/K125/K175; V57 X_true unchanged; CLEAN runs=0; measurement noise=false; no rescaling.",
         f"Sentinel: four runs; normal finite completion and residual <= {GATE_FORMULA}; early-stop retained.",
         "```json", json.dumps(v57.canonical(payload), ensure_ascii=False, indent=2), "```",
         *[f"- {item}" for item in LIMITATIONS], "Final deployment threshold frozen: false.", "", end])
@@ -316,9 +368,10 @@ def update_log(design, report=None):
 
 
 def prepare(args, scientific, manifest):
+    guard_output(args)
     path = args.output_dir / "design.json"
     require(not path.exists(), "DESIGN_EXISTS: audit existing design; never silently regenerate")
-    design = {"status": "DESIGN_PREPARED", "scientific": scientific,
+    design = {"status": "DESIGN_PREPARED", "scientific": scientific, **SUPERSEDED_DRAFT,
               "design_fingerprint": v57.fingerprint(scientific)}
     write_rows(args.output_dir / "spectral_perturbation_manifest.csv", manifest)
     write_json(args.output_dir / "target_library_hashes.json", scientific["target_library_hashes"])
@@ -329,10 +382,12 @@ def prepare(args, scientific, manifest):
 
 
 def load_design(args, expected):
+    guard_output(args)
     design = load_json(args.output_dir / "design.json")
     require(not design["status"].startswith("INVALID"), "V58_INVALID; no outcome-driven redesign")
     require(design["design_fingerprint"] == v57.fingerprint(design["scientific"]), "DESIGN_CONTENT_CHANGED")
     require(design["scientific"] == expected, "DESIGN_PROVENANCE_OR_SCIENTIFIC_CONTRACT_CHANGED")
+    require(all(design.get(k) == v for k, v in SUPERSEDED_DRAFT.items()), "SUPERSEDED_DRAFT_PROVENANCE_CHANGED")
     require(load_json(args.output_dir / "target_library_hashes.json") == expected["target_library_hashes"], "TARGET_LIBRARY_HASHES_CHANGED")
     return design
 
@@ -345,6 +400,7 @@ def invalidate(args, design, reason):
 def audit_design(args, context, parent, targets, design, manifest):
     _, again, hashes = build_targets(context)
     require(hashes == design["scientific"]["target_library_hashes"] and again == manifest, "NONDETERMINISTIC_A_TARGET")
+    require(hashes == EXPECTED_DRAFT_LIBRARY_HASHES, "COMPACT_TARGET_LIBRARIES_CHANGED_FROM_DRAFT")
     # Compare parsed CSV cells using the shared JSON-cell encoding.
     persisted = v57.rows(args.output_dir / "spectral_perturbation_manifest.csv")
     expected = [{k: v54.parse_scalar(json.dumps(v, sort_keys=True) if isinstance(v, (dict, list)) else ("" if v is None else str(v)))
@@ -360,17 +416,17 @@ def audit_design(args, context, parent, targets, design, manifest):
         if base in truths:
             require(truths[base] == row["X_true_sha256"], "MILD_MODERATE_X_TRUE_SHA_CHANGED")
         truths[base] = row["X_true_sha256"]
-        previous = f"{severity}__{split}_{replicate}_K{k-25:03d}"
-        if previous in records:
-            require(set(records[previous]["truth_indices"]) <= set(row["truth_indices"]), "K_NESTING_CHANGED")
         records[dataset] = row
         del case
         print(f"AUDIT {dataset}", flush=True)
-    require(set(records) == set(dataset_ids()) and len(truths) == 60, "INCOMPLETE_120_DATASET_AUDIT")
+    require(set(records) == set(dataset_ids()) and len(truths) == 30, "INCOMPLETE_60_DATASET_AUDIT")
+    audit_selected_k_nesting(records)
     validate_source(context, hashes["A_solver_sha256"])
     result = {"status": "PASS", "design_fingerprint": design["design_fingerprint"], "datasets": records,
               "target_library_hashes": hashes, "manifest_sha256": v56.digest(args.output_dir / "spectral_perturbation_manifest.csv"),
               "latent_nesting_verified": True, "CAL_HOLD_leakage": False, "K_nesting_verified": True,
+              "byte_identical_to_superseded_draft_libraries": hashes == EXPECTED_DRAFT_LIBRARY_HASHES,
+              "selected_K_predecessors": {"50": None, "125": 50, "175": 125},
               "domain_diagnostics_used_to_select_cases": False, "scientific_outcomes_read": False}
     path = args.output_dir / "design_audit.json"
     if design["status"] == "DESIGN_FROZEN_BEFORE_TRAINING":
@@ -378,14 +434,26 @@ def audit_design(args, context, parent, targets, design, manifest):
         require(v56.digest(path) == design["frozen_audit_sha256"], "FROZEN_AUDIT_CHANGED")
     else:
         write_json(path, result)
-    print("DESIGN AUDIT PASS 120/120; signal tails are diagnostics only")
+    print("DESIGN AUDIT PASS 60/60; draft library SHAs identical; signal tails are diagnostics only")
+
+
+def audit_selected_k_nesting(records):
+    require(set(records) == set(dataset_ids()), "INCOMPLETE_60_DATASET_NESTING_AUDIT")
+    for severity in SEVERITIES:
+        for split in ("CAL", "HOLD"):
+            for replicate in REPLICATES:
+                for previous_k, k in zip(K_LEVELS, K_LEVELS[1:]):
+                    previous = records[f"{severity}__{split}_{replicate}_K{previous_k:03d}"]
+                    current = records[f"{severity}__{split}_{replicate}_K{k:03d}"]
+                    require(set(previous["truth_indices"]) < set(current["truth_indices"]), "K_NESTING_CHANGED")
 
 
 def checked_audit(args, design, frozen=True):
     path = args.output_dir / "design_audit.json"
     audit = load_json(path)
     require(audit["status"] == "PASS" and audit["design_fingerprint"] == design["design_fingerprint"] and
-            set(audit["datasets"]) == set(dataset_ids()), "DESIGN_AUDIT_120_PASS_REQUIRED")
+            set(audit["datasets"]) == set(dataset_ids()), "DESIGN_AUDIT_60_PASS_REQUIRED")
+    require(audit["target_library_hashes"] == EXPECTED_DRAFT_LIBRARY_HASHES, "COMPACT_TARGET_LIBRARIES_CHANGED_FROM_DRAFT")
     require(audit["manifest_sha256"] == v56.digest(args.output_dir / "spectral_perturbation_manifest.csv"), "MANIFEST_MUTATED")
     if frozen:
         require(design["status"] == "DESIGN_FROZEN_BEFORE_TRAINING" and
@@ -478,7 +546,7 @@ def oracle_all(args, context, parent, targets, design):
             raise
         del case
         print(f"TARGET_ORACLE PASS {dataset}", flush=True)
-    write_json(args.output_dir / "oracle_summary.json", {"status": "PASS", "count": 120,
+    write_json(args.output_dir / "oracle_summary.json", {"status": "PASS", "count": 60,
         "design_fingerprint": design["design_fingerprint"], "oracle_sha256": hashes,
         "source_library_diagnostic_used_for_validity": False})
 
@@ -486,9 +554,9 @@ def oracle_all(args, context, parent, targets, design):
 def require_oracles(args, design):
     audit = checked_audit(args, design)
     summary = load_json(args.output_dir / "oracle_summary.json")
-    require(summary["status"] == "PASS" and summary["count"] == 120 and
+    require(summary["status"] == "PASS" and summary["count"] == 60 and
             summary["design_fingerprint"] == design["design_fingerprint"] and
-            set(summary["oracle_sha256"]) == set(dataset_ids()), "TARGET_ORACLE_120_OF_120_PASS_REQUIRED")
+            set(summary["oracle_sha256"]) == set(dataset_ids()), "TARGET_ORACLE_60_OF_60_PASS_REQUIRED")
     for dataset, expected in summary["oracle_sha256"].items():
         path = args.output_dir / "oracle" / f"{dataset}.json"
         require(v56.digest(path) == expected, "TARGET_ORACLE_CHANGED")
@@ -794,7 +862,7 @@ def read_completed(args, design, severity, split):
 
 def freeze_local_thresholds(args, design, severity, records, reports, hashes):
     require(all(r["split"] == "CAL" and r["severity"] == severity for r in records) and
-            set(reports) == {f"{severity}__{d}" for d in base_ids("CAL")}, "ONLY_30_SAME_SEVERITY_CAL_DATASETS_ALLOWED")
+            set(reports) == {f"{severity}__{d}" for d in base_ids("CAL")}, "ONLY_15_SAME_SEVERITY_CAL_DATASETS_ALLOWED")
     require(set(hashes) == set(reports) and all(set(files) == set(("report.json", *RECORD_FILES))
                                              for files in hashes.values()), "INCOMPLETE_CAL_SOURCE_HASHES")
     units = [r for r in records if r["raw_solver_reported"]]
@@ -941,9 +1009,12 @@ def clean_reference(args):
     records, reports = [], {}
     for split, filename in (("CAL", "calibration_records.csv"), ("HOLD", "heldout_records.csv")):
         current = normalize_records(v57.rows(args.v57_output / filename))
-        require({r["dataset_id"] for r in current} == set(base_ids(split)) and all(r["split"] == split for r in current),
+        require({r["dataset_id"] for r in current} == set(parent_base_ids(split)) and all(r["split"] == split for r in current),
                 "CLEAN_REFERENCE_SCOPE_CHANGED")
-        records.extend(current)
+        require(all(r["K"] == int(r["dataset_id"].split("_")[2][1:]) for r in current), "CLEAN_REFERENCE_K_CHANGED")
+        selected = [r for r in current if r["K"] in K_LEVELS]
+        require({r["dataset_id"] for r in selected} == set(base_ids(split)), "COMPACT_CLEAN_REFERENCE_INCOMPLETE")
+        records.extend(selected)
     for row in records:
         report = reports.setdefault(row["dataset_id"], {"K": row["K"], "replicate": row["replicate"],
             "all_truth_molecular_identity_count": 0, "reportable_truth_molecular_identity_count": 0})
@@ -951,6 +1022,11 @@ def clean_reference(args):
         report["reportable_truth_molecular_identity_count"] += int(row["reportable_truth"])
     require(all(r["all_truth_molecular_identity_count"] == r["K"] for r in reports.values()), "CLEAN_REFERENCE_TRUTH_CHANGED")
     return records, reports
+
+
+def compact_mechanism_metrics(records, pack):
+    # V57 deliberately retains its full six-K contract. Filter only its returned analysis rows.
+    return [row for row in v57.mechanism_metrics(records, pack) if row["K"] in ("GLOBAL", *K_LEVELS)]
 
 
 def aggregate(args, design, clean_thresholds):
@@ -983,7 +1059,7 @@ def aggregate(args, design, clean_thresholds):
                 "truth_count": row["raw_solver_TP"] + row["raw_solver_FN"], "solver_FN": row["raw_solver_FN"],
                 "category_FP": None, "category_FDR": None,
                 "threshold_available": pack["rho_zero"][row["target"]] is not None}
-                for row in v57.mechanism_metrics(combined, pack))
+                for row in compact_mechanism_metrics(combined, pack))
         for split, records, reports in (("CAL", cal, cal_reports), ("HOLD", hold, hold_reports)):
             separation.extend(separation_summary(records, severity, split, k) for k in (None, *K_LEVELS))
             curves.extend(descriptive_curves(records, reports, severity, split))
@@ -1015,8 +1091,9 @@ def aggregate(args, design, clean_thresholds):
         write_rows(args.output_dir / f"fdr_tp_retention_curve_{label}.csv", points)
     report = {"status": "PENDING_REVIEW", "process_validity": "PASS", "design_fingerprint": design["design_fingerprint"],
         "V57_parent_fingerprint": PARENT_FINGERPRINT, "V57_parent_file_hashes": design["scientific"]["V57_parent_file_hashes"],
-        "measurement_noise": False, "mismatch_runs": 120, "clean_runs": 0,
-        "target_oracle": {"status": "PASS", "count": 120, "summary_sha256": v56.digest(args.output_dir / "oracle_summary.json")},
+        "result_variant": RESULT_VARIANT, "compact_rationale": COMPACT_RATIONALE, **SUPERSEDED_DRAFT,
+        "measurement_noise": False, "mismatch_runs": 60, "clean_runs": 0,
+        "target_oracle": {"status": "PASS", "count": 60, "summary_sha256": v56.digest(args.output_dir / "oracle_summary.json")},
         "sentinel": {"status": sentinels["status"], "count": len(sentinels["datasets"]), "gate_formula": GATE_FORMULA},
         "CLEAN_FIXED": fixed_metrics, "LOCAL_CAL_RECALIBRATION": local_metrics,
         "rho_separation": [r for r in separation if r["K"] == "GLOBAL"],
@@ -1024,7 +1101,8 @@ def aggregate(args, design, clean_thresholds):
         "scientific_outcomes_used_for_validity": False, "limitations": LIMITATIONS,
         "final_deployment_threshold_frozen": False}
     write_json(args.output_dir / "report.json", report)
-    summary = ["# V58 spectral-library mismatch and FDR recalibration", "", "Status: PENDING_REVIEW", "",
+    summary = ["# Final compact V58 spectral-library mismatch and FDR recalibration", "", "Status: PENDING_REVIEW", "",
+        COMPACT_RATIONALE, "",
         "CLEAN_FIXED evaluates absolute threshold transfer; LOCAL_CAL_RECALIBRATION uses only same-domain CAL.",
         "Scientific FDR/retention failures remain results, not invalid experiments.", "",
         "```json", json.dumps(v57.canonical(report), ensure_ascii=False, indent=2), "```", "",
@@ -1038,7 +1116,7 @@ def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--asset-root", type=Path, default=Path("/root/autodl-tmp/decon-lipid"))
     parser.add_argument("--v57-output", type=Path, default=ROOT / "results" / PARENT_VERSION)
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "results" / VERSION)
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "results" / RESULT_VARIANT)
     parser.add_argument("--device", default="cuda:0")
     parser.add_argument("--rho-workers", type=int, default=1)
     actions = parser.add_mutually_exclusive_group(required=True)
@@ -1051,6 +1129,7 @@ def parse_args(argv=None):
 
 def main():
     args = parse_args()
+    guard_output(args)
     dependencies()
     sys.path.insert(0, str(ROOT / "src"))
     require(args.rho_workers >= 1, "RHO_WORKERS_MUST_BE_POSITIVE")
