@@ -1,5 +1,9 @@
 # Active next task — V58/V59 result handoff
 
+Closure progress: V57 snapshot accounting and bounded remote CAL provenance check completed; see results/computational_closure/v57/analysis_record.md. Next resolve exact parent solver artifacts and produce the missing-library selection manifest under docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md before any new training. Do not attempt rho true-loss enrichment on V57's empty filtered-truth group.
+
+User-authorized closure preparation: see [COMPUTATIONAL_CLOSURE_PLAN.md](COMPUTATIONAL_CLOSURE_PLAN.md). Prepare the small missing-library challenge and audit existing V57 analysis inputs while V58/V59 continue; no new GPU job has been queued. The final result handoff below remains pending.
+
 Status: REMOTE_EXPERIMENTS_RUNNING; FINAL_RESULTS_NOT_YET_COMPLETE.
 
 Read [ACTIVE_EXPERIMENTS.md](ACTIVE_EXPERIMENTS.md) for exact scientific definitions, hosts, status/output paths, frozen fingerprints and recovery evidence. When asked for status, read those bounded status/log paths; do not rerun or redesign the experiments. After completion, verify the planned60/18 result sets, retrieve compact results and provenance, analyze them, then commit and push the results/analysis records as requested by the user. Do not mark this task complete from a progress snapshot. Do not stage unrelated V52 or historical V48 changes.

@@ -1,0 +1,465 @@
+{
+  "status": "SNAPSHOT_ACCOUNTING_VERIFIED_SOURCE_PROVENANCE_PARTIAL",
+  "design_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+  "CAL_source_checks": [
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K050\\report.json",
+      "expected": "4ef9cedc81c8c35d2098e0598379f4b29fe6d68a1c8201b969398a220149919c",
+      "actual": "233ede9a9b14d69906603dc4ec9254d98491e514108969d4388905b72bff2711",
+      "lf_normalized_sha256": "4ef9cedc81c8c35d2098e0598379f4b29fe6d68a1c8201b969398a220149919c",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K050\\reported_identity_records.csv",
+      "expected": "9ef0b4fcb308ea52e472cfd0b170ff357f5bec70e2cc6fdf5ec54d43d1a297f5",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K075\\report.json",
+      "expected": "beddd3c44323c7064a8bce019ed2deff7c246bc82c0a4f908e5cf7a09c5ebfda",
+      "actual": "809408216b6d3f31a380c5b7056257c47eb66015bdf86080013c1c0bdbe84e09",
+      "lf_normalized_sha256": "beddd3c44323c7064a8bce019ed2deff7c246bc82c0a4f908e5cf7a09c5ebfda",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K075\\reported_identity_records.csv",
+      "expected": "4360a044894681855a149b3dbc9999f7213c68c180a6600414dcb682c8dd7018",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K100\\report.json",
+      "expected": "5e70a9d521d79abf3e34c61ace2796eeb3391f47752bddf88ddce18771533ccc",
+      "actual": "655ff22f4454823712d8e43b52e2c05e360854b82c3e092d1828b7efed0de91c",
+      "lf_normalized_sha256": "5e70a9d521d79abf3e34c61ace2796eeb3391f47752bddf88ddce18771533ccc",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K100\\reported_identity_records.csv",
+      "expected": "d3eff49c551eb43364948c2c90ff2b7513f4d20afcad036e4255878fc1fb5ee4",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K125\\report.json",
+      "expected": "05619e35ec6ca0929f51f8d0b0d64087d8ff4f7d68e52ddeace7aa8ea6b5c386",
+      "actual": "573c55e7f6dae5a667964f7d312b025bb3657a2b5f4c99bdc3bd70a4f00f80f2",
+      "lf_normalized_sha256": "05619e35ec6ca0929f51f8d0b0d64087d8ff4f7d68e52ddeace7aa8ea6b5c386",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K125\\reported_identity_records.csv",
+      "expected": "d48408448c53cda3be38b342b81f6452152e74a52d09f355c0c906a1ad5bdad3",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K150\\report.json",
+      "expected": "5425f9b6cd620abc1c3a47472878c0dd2597626ab15ca0fc7733c8b61254f39c",
+      "actual": "0336cbac2efba19a88cb3fba0f87591459a9484d36ab31ddd3c3f2f25121bacc",
+      "lf_normalized_sha256": "5425f9b6cd620abc1c3a47472878c0dd2597626ab15ca0fc7733c8b61254f39c",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K150\\reported_identity_records.csv",
+      "expected": "6ab6c23a6437d599ffa1a60e41672512056ac23da6a21e6947ac22e1b2280fbf",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K175\\report.json",
+      "expected": "a61cfa28bd203b5cb2d855abec3818b8b6a0047bc20ea896df904cab4b9fb04e",
+      "actual": "53cecb44e6e7e3e5f5193d85b439bd4a596bdf25aa1047b7ae3e0e975cdfaaf6",
+      "lf_normalized_sha256": "a61cfa28bd203b5cb2d855abec3818b8b6a0047bc20ea896df904cab4b9fb04e",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R1_K175\\reported_identity_records.csv",
+      "expected": "92e6996c169296e16db611e31d843e4389626ba049bf668a3f2f608cb25e5b9b",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K050\\report.json",
+      "expected": "1a0462804cee299f1299054dd4bc0315ce91e36d6aa0c48d9756700b53360e27",
+      "actual": "6c5d366f77d3a7e20c1eefb47b18f81298a033ac40727906885004d17557d5cc",
+      "lf_normalized_sha256": "1a0462804cee299f1299054dd4bc0315ce91e36d6aa0c48d9756700b53360e27",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K050\\reported_identity_records.csv",
+      "expected": "749be9e2d08df49a6132ee07679dba5f4aef493ed9e834512b4f62ed1246e23a",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K075\\report.json",
+      "expected": "b00edd1af53950399e743ce409093a98e5355761380ffda39b7d21530fc42f50",
+      "actual": "f8148c1fc70e37ec04ca30b65ee4de60d90e024a5cbaae72c874b73a4c553a3c",
+      "lf_normalized_sha256": "b00edd1af53950399e743ce409093a98e5355761380ffda39b7d21530fc42f50",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K075\\reported_identity_records.csv",
+      "expected": "9daf4fb32db52c37074135abe34b861b312aef331069d2e35ed4e72e6ffbb45b",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K100\\report.json",
+      "expected": "c11d268d3e83530a90ffd226c59fc9fdd08ee8d1b4fea025b27e604daa7aa314",
+      "actual": "8a6c79a99051274443cdb14e9051aeb52575320b0160c9af7018082cebfab45a",
+      "lf_normalized_sha256": "c11d268d3e83530a90ffd226c59fc9fdd08ee8d1b4fea025b27e604daa7aa314",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K100\\reported_identity_records.csv",
+      "expected": "7e48d28294f0d8d5ba225402e7aa19bddba4da3adc420ddaf66e8575a33d2ee6",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K125\\report.json",
+      "expected": "4142aff8cd2c63c92327382f06fc87583a95addc59ff085c8a6c6f14086cbd53",
+      "actual": "e1bbb1966ed527dafdb9ca205a3dcf6be46b5690602cf6232a89a776464d02a5",
+      "lf_normalized_sha256": "4142aff8cd2c63c92327382f06fc87583a95addc59ff085c8a6c6f14086cbd53",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K125\\reported_identity_records.csv",
+      "expected": "9b7e4704458bfda882cedfcece99c40e20f95a103ceade28a61febf0efed47ff",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K150\\report.json",
+      "expected": "e98b5dedea79132211437f88983bfdb224ab1302daf7ab9d1ee030599b975d99",
+      "actual": "d0809cdb9491bd30173f270d113a240b827742058a797a471329d0893d1cfcb8",
+      "lf_normalized_sha256": "e98b5dedea79132211437f88983bfdb224ab1302daf7ab9d1ee030599b975d99",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K150\\reported_identity_records.csv",
+      "expected": "a9cf67a42542c14fdc7018e8968113b40dddbced4e42ae04ae5cff0133b9dfcc",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K175\\report.json",
+      "expected": "913cc0b2c762a515dd38fad60819378c9f18d226811cadb41ac6f008884b1b1a",
+      "actual": "e5020c32c1433d218ab5cfa0eed9de47ca27fc468c0d60478603319ae9b3e4c9",
+      "lf_normalized_sha256": "913cc0b2c762a515dd38fad60819378c9f18d226811cadb41ac6f008884b1b1a",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R2_K175\\reported_identity_records.csv",
+      "expected": "6226a538dc65b0cb63084018ce95b59a02935c27a7f155779e16a0edf8b0a817",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K050\\report.json",
+      "expected": "acb82881f86730c3b008486ebcdcc89563ffe50e44e4bebc166a50c4ee6aa1e1",
+      "actual": "15c5670967a664bae434f604aa6474b15a936e6c898498ded7347d96b2709da0",
+      "lf_normalized_sha256": "acb82881f86730c3b008486ebcdcc89563ffe50e44e4bebc166a50c4ee6aa1e1",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K050\\reported_identity_records.csv",
+      "expected": "c7f1cad5ae0437da3594e35ea04196a8e61afbda030661c3646d55dbceeb9580",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K075\\report.json",
+      "expected": "07b8a0897f10ad2671e8a28d5babea819d75ecaf581139e5e11f22a9ce033670",
+      "actual": "1ee1597e7660ffaa8174171fa537df90d1df1d79e49e19411dbe5d3c32f16b58",
+      "lf_normalized_sha256": "07b8a0897f10ad2671e8a28d5babea819d75ecaf581139e5e11f22a9ce033670",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K075\\reported_identity_records.csv",
+      "expected": "83f033896554eaf974cffa1bb1cad2e5427983352e630d7bfc69c78014c4f1fd",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K100\\report.json",
+      "expected": "01b60a1527b9cb348dc73bcce9ac45d9bb722f9c616280b0f21c694c0edcbc39",
+      "actual": "71e2b2dbd772d8fc53f37f106e7e25b52617b0272f70a6a46f0ebb02f1b0c60f",
+      "lf_normalized_sha256": "01b60a1527b9cb348dc73bcce9ac45d9bb722f9c616280b0f21c694c0edcbc39",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K100\\reported_identity_records.csv",
+      "expected": "440db611a803c702a3137a5260b23e83acf2a6e50806bc18342a0b0927b6f7ca",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K125\\report.json",
+      "expected": "306ee0c7cb2381176c67f56711835137e19c54bca8749ba8704f3e318101618b",
+      "actual": "a007863b06af264f3b90743e3c72d6515fda2802e64496fbc513ccd97175623e",
+      "lf_normalized_sha256": "306ee0c7cb2381176c67f56711835137e19c54bca8749ba8704f3e318101618b",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K125\\reported_identity_records.csv",
+      "expected": "2fbba17686b7933c71e8cf6ecf2325d512bd7d2e918769b9317e59b7e21aefc0",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K150\\report.json",
+      "expected": "b5d398936eadd9b8f06d6d7c4f845e53fd8e8ad32af15aa9cd1e84dc900f9ec2",
+      "actual": "04fb5257371052e54f7ebae4b026fd3ab210d87ddd755c497e917d9d04a77ec6",
+      "lf_normalized_sha256": "b5d398936eadd9b8f06d6d7c4f845e53fd8e8ad32af15aa9cd1e84dc900f9ec2",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K150\\reported_identity_records.csv",
+      "expected": "9ff79c8d81e300ca9ce9701721b6d0135b5e1e994ac271b9fa077c6e2325d081",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K175\\report.json",
+      "expected": "82afca0360aa024eb4c31cbed846650689fbec597ce74035c3dbed9919e39d42",
+      "actual": "1e655667e54699950d84fde2711620685c0e9c10e66c3296e4cf52e9670bbb9d",
+      "lf_normalized_sha256": "82afca0360aa024eb4c31cbed846650689fbec597ce74035c3dbed9919e39d42",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R3_K175\\reported_identity_records.csv",
+      "expected": "64256e94d8ad9cbcbed5fc9ac28a793aef39eece4968c67824de9e1bde1d9366",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K050\\report.json",
+      "expected": "d09aebda79f641012e865d3267e0fbc7188c35a6c99dfef2cf4472594bbf845d",
+      "actual": "9ad9a5ff18383b76324b5390737adc5acacac467021f8e2fe50e559dde984163",
+      "lf_normalized_sha256": "d09aebda79f641012e865d3267e0fbc7188c35a6c99dfef2cf4472594bbf845d",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K050\\reported_identity_records.csv",
+      "expected": "f4485de5b8b24966096d57954baaafe8831b8b4d3bc184557dcde4ebb7e54d8d",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K075\\report.json",
+      "expected": "8609392afe9bcf441581c342bece7d4891a838927a25252a223ac8248d706cf9",
+      "actual": "47a5b091582487c6a84fe91eb3c26f172fa1d8b060925843fa993d87c8ec5e24",
+      "lf_normalized_sha256": "8609392afe9bcf441581c342bece7d4891a838927a25252a223ac8248d706cf9",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K075\\reported_identity_records.csv",
+      "expected": "fb8b9545891069484d97edf39e2e1565005f53b1ab159c796d0930e137c8f30e",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K100\\report.json",
+      "expected": "37d4c2b56baedc949f53d8247265856eab47f7e20b6c37238a04fc0398c0b1d1",
+      "actual": "eddcb000b5f8dc259dd094a2a7a17252815fcc70178cdcbc52f499a0b660f543",
+      "lf_normalized_sha256": "37d4c2b56baedc949f53d8247265856eab47f7e20b6c37238a04fc0398c0b1d1",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K100\\reported_identity_records.csv",
+      "expected": "8e6f99b6cdc54e736ef85b972537b25724901e4af7a1f4491247104bbeb76250",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K125\\report.json",
+      "expected": "fd2f83d42d0039499cea34a677c28759da8b3bff4550757d5cfc5a034c33cd12",
+      "actual": "f0ed3e4a40e5a8457d77493fcbb4c7dfe7432b6d719d1fe0f2be807b5a20604a",
+      "lf_normalized_sha256": "fd2f83d42d0039499cea34a677c28759da8b3bff4550757d5cfc5a034c33cd12",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K125\\reported_identity_records.csv",
+      "expected": "96ced6255cd6930a605105666e8c02550d45e0334a654414754f76dc5885f287",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K150\\report.json",
+      "expected": "adf310bcd58edaa9825aee51295891377392ce9a2f5e22ef58a9c7be95d51bfb",
+      "actual": "5a72cb140c26393cc4939c6254c1ac1e3d11f217143d064b90bb3cd6161a4fcd",
+      "lf_normalized_sha256": "adf310bcd58edaa9825aee51295891377392ce9a2f5e22ef58a9c7be95d51bfb",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K150\\reported_identity_records.csv",
+      "expected": "96bf7c3f585a5c6173300bf80a1b9e65bced52a8256a364089ba243bea1f91d9",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K175\\report.json",
+      "expected": "80189f39372001bf67705315fa098763df67f7978d9a49f87819144196cec6ed",
+      "actual": "875479bfa12792b47a774851cfc3e73e0db517ca2a9a09b8b154c3401822141a",
+      "lf_normalized_sha256": "80189f39372001bf67705315fa098763df67f7978d9a49f87819144196cec6ed",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R4_K175\\reported_identity_records.csv",
+      "expected": "3b41894bd88029901c21343652e758e49fb863f3d6e70e4bfecce6f1d92274bc",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K050\\report.json",
+      "expected": "f392b6e0079c97ccfe550b8809551e02925f5f0c45be42e59620740e46a2320d",
+      "actual": "52fac6d9d8b5442d6f3b3a22c2b990c306f68d2fa62a3d324b8fe7dae793c55e",
+      "lf_normalized_sha256": "f392b6e0079c97ccfe550b8809551e02925f5f0c45be42e59620740e46a2320d",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K050\\reported_identity_records.csv",
+      "expected": "73d6be7c032962ba2f57f4689b0bf8b4450b7e92f7ed5d63f17b230a04ba97bf",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K075\\report.json",
+      "expected": "a3feae9e25f6da16dbd7d50fc8afa773d5a9653479c61c8223703cd682b44023",
+      "actual": "5ddedd22a3012f73fe7b61aabdf1fa7050c41cd01f87b63bf13ff135d7f4a6c9",
+      "lf_normalized_sha256": "a3feae9e25f6da16dbd7d50fc8afa773d5a9653479c61c8223703cd682b44023",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K075\\reported_identity_records.csv",
+      "expected": "ca8f0f2663324e0f7877719b0fbf8c93e9261b8ef9d7162b0514f9858640a534",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K100\\report.json",
+      "expected": "bfb3c3a56eaa01d49a355e25511677e5aecda8860565702fb0b5786d66a15ee0",
+      "actual": "72b8bf25b6ff298ba91d2cd64d0adc8d43b72e88223f70d26f3197210f2dca95",
+      "lf_normalized_sha256": "bfb3c3a56eaa01d49a355e25511677e5aecda8860565702fb0b5786d66a15ee0",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K100\\reported_identity_records.csv",
+      "expected": "24d153e647a74a42003a5c56683d2b511cfc770592bf10759a2446bb05d92004",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K125\\report.json",
+      "expected": "069d6da6cd149333ca342d09b6471f9bc52ad456653044539f37948eac4a4c3c",
+      "actual": "c85bad819ec8bc2c9b408b8f4736b571d2862b3ec9442a6910e92925e3af7603",
+      "lf_normalized_sha256": "069d6da6cd149333ca342d09b6471f9bc52ad456653044539f37948eac4a4c3c",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K125\\reported_identity_records.csv",
+      "expected": "936dfb46e2f80cd1a50dc46be795057eda0feb2c1cb8e16699a2318c3a2fc65f",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K150\\report.json",
+      "expected": "20254afe0fd2b4e8c0370d6805a42b8a7c5f99f07ce2ca7204446f6ed667a29c",
+      "actual": "0e38f30cdc24ccbeec2161d697b61c232c529aee31918db227f03e48b19a4f7c",
+      "lf_normalized_sha256": "20254afe0fd2b4e8c0370d6805a42b8a7c5f99f07ce2ca7204446f6ed667a29c",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K150\\reported_identity_records.csv",
+      "expected": "b7d8d9a7b78549670d6567ddf94e756250f64f4e147d76dae47302e15a2e812a",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K175\\report.json",
+      "expected": "1db89ef2300c9c4a56437409abe5b56bad4830ae8b848971360f1eb22a64803e",
+      "actual": "f4a18e065e2b8328da9cb50cf3f8c54cba3438ff9a3428dc53596d7c3df256fc",
+      "lf_normalized_sha256": "1db89ef2300c9c4a56437409abe5b56bad4830ae8b848971360f1eb22a64803e",
+      "status": "LF_NORMALIZED_MATCH"
+    },
+    {
+      "path": "results\\v57_spectral_spatial_identity_confidence_benchmark\\clean\\CAL_R5_K175\\reported_identity_records.csv",
+      "expected": "82d62d0567740f74b02d1ff84ea6d3da4f57d18ea8f2bc55d9c9bb4738b6933e",
+      "actual": null,
+      "lf_normalized_sha256": null,
+      "status": "NOT_AVAILABLE_LOCALLY"
+    }
+  ],
+  "consistency_checks": [
+    {
+      "score": "rho_zero",
+      "target": "FDR5",
+      "CAL_counts_match": true,
+      "all_retention_flags_match": true
+    },
+    {
+      "score": "rho_zero",
+      "target": "FDR1",
+      "CAL_counts_match": true,
+      "all_retention_flags_match": true
+    },
+    {
+      "score": "X_hat",
+      "target": "FDR5",
+      "CAL_counts_match": true,
+      "all_retention_flags_match": true
+    },
+    {
+      "score": "X_hat",
+      "target": "FDR1",
+      "CAL_counts_match": true,
+      "all_retention_flags_match": true
+    }
+  ],
+  "rows": 22620,
+  "input_hashes": {
+    "design.json": "ebcd3fabe1352bf4571cf57a46698f4bb5e4c5c6e72808d156b843f78ea81135",
+    "global_frozen_thresholds.json": "86bc57ed9172a866c8f2c1fd8b229a3792d3451d8a39c63e826ec7fdfc5ee2d7",
+    "molecular_false_negative_records.csv": "e3b733cd3c82967a5236221c4f865af0792dd288ab541d4109055dd8fde1d448"
+  },
+  "script_sha256": "d7b8e5532fc4019e9279c2a177d4c7d35c5bab1df6c77dc6e4d6415f1fdfbd5c",
+  "limitations": [
+    "Missing per-case source records prevent full source-chain verification.",
+    "Repeated identities, K levels and mappings are not independent biological samples.",
+    "Geometry strata are descriptive; no adjusted enrichment claim or independent-row p-values.",
+    "No threshold selection or training performed."
+  ]
+}

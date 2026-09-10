@@ -1,0 +1,19 @@
+# Missing-library challenge: bounded protocol
+
+Status: PROTOCOL_DEFINED_ASSET_MANIFEST_PENDING. No GPU launch or frozen case manifest yet.
+
+Use V57 CLEAN HOLD_R1_K125, HOLD_R2_K125 and HOLD_R3_K125. These are a fixed intermediate complexity and the first three mapping replicates, chosen without inspecting their recovery for challenge selection. Preserve original observations, truth, maps, abundance and scaling. This is a stress test of frozen CLEAN threshold transfer, not a new calibration dataset.
+
+Three arms per mapping: original complete library, five omitted truths with close surviving nontruth neighbors, and five relatively isolated omitted truths. Thus nine evaluation contexts, with six new learned fits if all three existing complete-library controls pass exact reuse checks. Do not silently retrain or inherit a control whose provenance fails; report the blocker and resulting required work.
+
+Before freezing, verify parent scientific fingerprint, per-case X_true/B hashes, training implementation/configuration, solver-run/checkpoint provenance and availability. Current bounded existence check confirms solver_run.json, learned_arrays.npz and report.json for remote HOLD_R1_K125; this is not full reuse authorization. A guessed training_history.csv filename is absent: resolve actual artifact names from solver_run.json rather than inferring lost history or searching broadly.
+
+Select five high-similarity omitted truth identities by descending maximum fragment cosine to a nontruth identity in the complete parent library, breaking ties by stable molecular identifier. Select five isolated controls, excluding selected hard identities, by ascending corresponding maximum cosine. Match each control to the same frozen abundance multiplier as its paired hard identity; prefer same lipid class when feasible. If the required distinct controls or nontruth neighbors are unavailable, stop before freeze and record the limitation rather than silently relaxing matching. Same omitted identity sets across mappings. Use parent truth/library assets only, never rho or recovered abundance to select. Record full cosine, cone isolation, class and remaining matching imbalances; geometry describes this selection, not a causal mechanism.
+
+Remove all candidate columns belonging to each omitted molecular identity, with explicit original/reduced index maps. Verify predesignated nontruth neighbors remain in the solver library. Do not change B, X_true, reportable-truth membership or total-signal normalization. Preserve missing identities as false negatives in the full truth denominator. Distinguish obligatory omitted-identity FN from additional misses of remaining truths.
+
+Production solver/training/early-stop/rho/reporting definitions stay unchanged; reduced N is input dimensionality only. Normal finite completion is process validity. Reconstruction residual is a scientific outcome and cannot censor omission cases via the clean-library residual threshold. Record crashes/nonfinite runs as process failures; do not adjust omissions based on them without a separately documented design change.
+
+Primary evaluation uses existing frozen V57 CAL FDR5/FDR1 thresholds for rho and X_hat. Report TP/FP/FN, recall, TP retention, filter loss, residual, surviving-truth recovery, and changes in predesignated nontruth neighbor allocation. Neighbor changes are descriptive, not uniquely attributable source decompositions. Full-library controls and omission arms remain paired; three mappings are not biological replication. No noise, additional K, new windows, group-rho or outcome-based retuning.
+
+Next: generate and verify the exact asset/selection manifest without reading learned outcomes, then implement an isolated adapter reusing existing production code. GPU execution waits for a released card; no automatic queue is configured.

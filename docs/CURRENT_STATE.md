@@ -1,5 +1,9 @@
 # Active state update — 2026-09-10
 
+V57 closure accounting completed in results/computational_closure/v57: frozen rho FDR5/FDR1 retain all3253 raw HOLD TP, with112/8 FP and122 solver FN. Zero filter-induced true losses: ambiguity enrichment of that empty group is not estimable. Remote60 CAL source hashes pass; local molecular aggregate is byte-identical. Missing-library protocol is bounded to three K125 mappings and two five-identity omission arms (six new fits if controls verify), with exact asset manifest still pending; see docs/MISSING_LIBRARY_CHALLENGE_PROTOCOL.md. No new GPU job launched.
+
+Computational closure preparation has started; see [COMPUTATIONAL_CLOSURE_PLAN.md](COMPUTATIONAL_CLOSURE_PLAN.md). Latest bounded status read: V58 29/60 complete; V59 supervisor remains at sentinel after all18 oracle checks. Local V57 analysis tables and required headers are present; provenance/statistical review remains pending. No new training launched.
+
 V58 compact (60 datasets) and V59 standardized cross-library (18 datasets) are executing on separate remote instances. Authoritative current task context and runtime paths: [ACTIVE_EXPERIMENTS.md](ACTIVE_EXPERIMENTS.md). Final result review/commit/push remains pending. The V48/V49 notes below are historical context, not instructions to restart those experiments.
 
 \# LD Project — Current State
