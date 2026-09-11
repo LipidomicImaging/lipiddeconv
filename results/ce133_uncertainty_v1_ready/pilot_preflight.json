@@ -1,0 +1,25 @@
+{
+  "status": "PREFLIGHT_PASS",
+  "date": "2026-09-11",
+  "scientific_outputs_unchanged": true,
+  "boundary_output_hashes_verified": 7,
+  "component_count": 480,
+  "candidates_with_variation": 107,
+  "nominal_spectrum_recomposition_max_abs_error": 5.551115123125783e-17,
+  "tiny_analytical_LP_self_test": "PASS",
+  "miss_and_abstention_accounting_test": "PASS",
+  "local_numpy": "2.3.5",
+  "local_scipy": "1.18.1",
+  "explicit_remote_upload_and_CPU_run_authorized": true,
+  "remote_CE_source_sha256": "e98aeb4ebde9a1d57d505d7b0fe64c0558619d5cce550e6ff6052dc602c109ad",
+  "pilot_script_sha256": "5e9ba384092e45476054afc909292f1bea5f28d2181cff9f10a33e71eaf2a4e6",
+  "no_GPU_training": true,
+  "scientific_pilot_not_yet_executed": true,
+  "validation_notes": [
+    "Uncertainty model, thresholds selection rule and cases unchanged; added runtime/seal checks and explicit recall fields.",
+    "Local test reader squeezed the original A_library singleton batch axis; runtime scoring A is already two-dimensional.",
+    "Original upload denied by automatic approval; retried only after explicit user authorization."
+  ],
+  "remote_tiny_analytical_LP_self_test": "PASS",
+  "remote_script_sha256_matches": true
+}

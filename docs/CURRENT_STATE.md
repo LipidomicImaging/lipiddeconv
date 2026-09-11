@@ -1,3 +1,9 @@
+# CE-informed identity pilot ready for execution — 2026-09-11
+
+User explicitly authorized uploading the305KB CE boundary, pilot script and protocol to westc:55786 and running the CPU pilot. The same CE source table already exists there with matching SHA. Both local and remote analytical LP self-tests pass; local nominal-spectrum parity is5.55e-17, miss/abstention accounting tests pass, and all7 boundary output hashes match. Code and frozen development contract: docs/CE_UNCERTAINTY_IDENTITY_PILOT.md; inputs: results/ce133_uncertainty_v1_ready. Runtime/seal checks and explicit reportable-recall fields were completed before any data scoring.
+
+Next execute exactly six cached contexts: R1 developmental calibration/R2 evaluation, each MILD plus close-neighbor and relatively-isolated missing-library arms. Keep FDR<=1% and TP retention>=40% continuation criteria;60% optional strong success. Save calibration seal before R2 scoring, review all numerical proofs and counts, download and push results. Original solver/rho/thresholds unchanged, no GPU training or new cleanup. This is developmental reuse of exposed data, not formal independent HOLD. The broader identity objective remains OPEN.
+
 # Westc missing-library audit and scoped cleanup COMPLETED — 2026-09-11
 
 Six completed omission fits and three cached full-library controls have been reviewed. All127 compact source files and the exact24-file retirement plan were successfully pushed as95591b05366097b2773e349c9098ee693af0f786 before deletion. The24 ordinary intermediate checkpoints were then retired;949983592 bytes (0.885GiB) freed. Data free space rose from3803459584 to4753518592 bytes (4.43GiB; df rounds to4.5G,92% used). GPU remains0%/0MiB. All178 protected remote hashes and127 local source hashes pass after deletion.
@@ -9,6 +15,14 @@ Final learned arrays, result-bound latest_model.pth, epoch3000 models, candidate
 All six reduced-library fits and three reused complete-library controls reviewed in results/missing_library_final_review_20260911. Remote runtime/design, normal completion, finite outputs/history/final models and source hashes pass; all127 downloaded compact source files match, independent local molecular counts match. Original V57 CAL thresholds remain fixed. rho FDR1 transfer yields observed FDR38.24%/39.74% in close-neighbor/relatively-isolated arms versus0/361 false contexts in the complete-library controls. This is CLEAN missing-library stress, not joint mismatch+omission; three mappings are not biological replication.
 
 Westc data disk is93% used (3.6GiB available), GPU0%/0MiB. New six-fit output accounts for about1.77GiB. Pending plan: after successfully pushing this exact six-case snapshot, retire24 intermediate checkpoints (epochs1000/1500/2000/2500),949983592 bytes. Preserve all178 protected dependencies including latest_model.pth, final epoch3000 models, arrays and every parent-control checkpoint. Then verify retained hashes and push deletion receipt. No broad scan, source-result changes, training or rho rerun. CE uncertainty pilot remains separate pending work; no new job started.
+
+# CE error boundary complete; direct identity pilot next — 2026-09-11
+
+User endpoint: independently validated FDR<=1% AND TP retention>=40%;60% is optional strong success. Do not expand audits or seek an impossibility conclusion. CE133 boundary completed in results/ce133_uncertainty_v1_ready:120 usable identities/244 CE pairs,17 supported rule-channel strata,480 coupled physical fragment components in107 production candidates; unsupported parts fixed. This is a limited CE-informed envelope, not complete MSI error coverage. Partial serialization-preflight export retained separately.
+
+Next execute the implemented CPU LP pilot under docs/CE_UNCERTAINTY_IDENTITY_PILOT.md: six cached contexts, R1 development calibration/R2 development evaluation, each MILD plus two missing-library arms. All candidates compete; full feasible residual bound and deleted global lower bound define selection. Seal the calibrated tolerance before R2 scoring. Fixed1%/40% targets, no new training/rho or outcome-driven changes. After scoring, independently review preserved proofs/counts/source hashes, download and push. Formal independent validation only after a reviewed favorable pilot.
+
+Remote bounded status check confirmed all six existing missing-library computations complete (supervisor ALL_COMPUTE_COMPLETE_AWAITING_REVIEW); their final standalone scientific audit remains pending. No remote job terminated or data deleted. No new V59/V60 expansion or quantification work.
 
 # Identity-first priority and utility targets recorded — 2026-09-11
 
