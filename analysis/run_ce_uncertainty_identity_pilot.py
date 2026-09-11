@@ -82,11 +82,18 @@ class Problem:
         upper[list(removed)] = 0
         upper[self.n + np.flatnonzero(np.isin(self.owner, removed))] = 0
         started = time.monotonic()
-        result = linprog(self.objective, A_ub=self.constraint, b_ub=self.rhs,
-                         bounds=list(zip(np.zeros(len(upper)), upper)), method="highs",
-                         options=dict(primal_feasibility_tolerance=1e-9, dual_feasibility_tolerance=1e-9,
-                                      ipm_optimality_tolerance=1e-10, time_limit=60))
-        assert result.success, result.message
+        attempts = []
+        for method in ("highs", "highs-ipm"):
+            remaining = 60 - (time.monotonic()-started)
+            assert remaining > 0, "LP_TIME_BUDGET_EXHAUSTED"
+            result = linprog(self.objective, A_ub=self.constraint, b_ub=self.rhs,
+                             bounds=list(zip(np.zeros(len(upper)), upper)), method=method,
+                             options=dict(primal_feasibility_tolerance=1e-9, dual_feasibility_tolerance=1e-9,
+                                          ipm_optimality_tolerance=1e-10, time_limit=remaining))
+            attempts.append(dict(method=method, status=int(result.status), message=str(result.message)))
+            if result.success:
+                break
+        assert result.success, attempts
         x = np.clip(result.x[:self.n], 0, upper[:self.n])
         w = np.clip(result.x[self.n:self.n+self.g], self.low*x[self.owner], self.high*x[self.owner])
         residual = self.fixed @ x + self.D @ w - self.b
@@ -95,7 +102,8 @@ class Problem:
         lb, ub = self.check_bounds(primal, dual, upper)
         assert ub - lb <= 1e-6, (lb, ub, result.fun)
         return dict(lower=lb, upper=ub, seconds=time.monotonic()-started,
-                    objective=float(result.fun), proof="GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"), primal, dual
+                    objective=float(result.fun), backend_attempts=attempts,
+                    proof="GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"), primal, dual
 
     def check_bounds(self, primal, dual, upper):
         import numpy as np
@@ -294,22 +302,40 @@ def score_case(item, args, fractions, components):
     if full["seconds"] > 30:
         raise RuntimeError("STOP_COST: full LP >30s")
     output = []
+    dest = args.output/"scores"/item["dataset"]
+    dest.mkdir(parents=True)
+    def save_progress(failed_identity=None):
+        temporary = dest/"partial_proofs.tmp.npz"
+        np.savez_compressed(temporary, **proofs)
+        temporary.replace(dest/"partial_proofs.npz")
+        write(dest/"partial_scores.json",dict(dataset=item["dataset"],full=full,records=output,
+            completed_identity_count=len(output),failed_identity=failed_identity,
+            proofs_sha256=sha(dest/"partial_proofs.npz")))
+    save_progress()
     for i, row in enumerate(sorted(item["records"], key=lambda r: item["names"].index(r["lipid_name"]))):
         removed = [j for j, n in enumerate(item["names"]) if n == row["lipid_name"]]
         if np.all(full_x[removed] == 0):
             deleted = dict(full, seconds=0., proof="FULL_ZERO_IDENTITY_FEASIBLE_WITNESS")
         else:
-            deleted, px, dy = problem.solve(removed)
+            try:
+                deleted, px, dy = problem.solve(removed)
+            except BaseException:
+                save_progress(dict(lipid_name=row["lipid_name"],removed=removed,proof_index=i,error=traceback.format_exc()))
+                raise
             proofs[f"primal_{i}"] = px; proofs[f"dual_{i}"] = dy
         assert deleted["upper"] >= full["lower"] - 1e-8
         output.append(dict(**row, deleted=deleted, removed=removed, proof_index=i))
+        if (i+1) % 25 == 0:
+            save_progress()
         if i == 7 and np.median([r["deleted"]["seconds"] for r in output]) > 10:
             raise RuntimeError("STOP_COST: first8 median LP >10s")
         if (i+1) % 50 == 0:
             print(item["dataset"], i+1, "/", len(item["records"]), flush=True)
-    dest = args.output/"scores"/item["dataset"]
-    dest.mkdir(parents=True)
-    np.savez_compressed(dest/"proofs.npz", **proofs)
+    save_progress()
+    (dest/"partial_proofs.npz").replace(dest/"proofs.npz")
+    progress = read(dest/"partial_scores.json")
+    progress.update(status="CASE_COMPLETE",proof_file="proofs.npz")
+    write(dest/"partial_scores.json",progress)
     result = {k:v for k,v in item.items() if k != "records"}
     result.update(full=full, records=output, proofs_sha256=sha(dest/"proofs.npz"))
     write(dest/"scores.json", result)
