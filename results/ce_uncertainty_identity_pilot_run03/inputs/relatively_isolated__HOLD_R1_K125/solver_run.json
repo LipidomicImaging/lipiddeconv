@@ -1,0 +1,33 @@
+{
+  "stopped_epoch": 3000,
+  "stop_reason": "max_epochs",
+  "wall_time_seconds_this_invocation": 543.4478793144226,
+  "final_physical_loss": 0.0012410684721544385,
+  "final_raw_losses": [
+    0.00011303606152068824,
+    0.0008856058120727539,
+    0.00022388881188817322,
+    1.853782669059001e-05
+  ],
+  "channel_weighting": {
+    "mode": "auto",
+    "reference_A_path": "solver_A",
+    "reference_A_shape": [
+      1084,
+      386
+    ],
+    "reference_meta_path": "solver_metadata",
+    "parent_weight_multiplier_before_renormalization": 1.0,
+    "parent_mz_range": [
+      748.0,
+      803.0
+    ],
+    "parent_channel_count": 238,
+    "fragment_channel_count": 846,
+    "mean_parent_channel_weight": 0.5271697044372559,
+    "mean_fragment_channel_weight": 1.1716594696044922,
+    "mean_all_channel_weight": 1.0301570892333984
+  },
+  "resumed_from_runtime_checkpoint": false,
+  "scheduler_T_max": 5000
+}

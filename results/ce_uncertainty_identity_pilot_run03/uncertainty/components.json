@@ -1,0 +1,7062 @@
+[
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      381,
+      385,
+      399
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      327,
+      330,
+      333,
+      337,
+      340
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      160,
+      163,
+      165,
+      167,
+      169
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 82,
+    "candidate_id": "PS-H__0036",
+    "lipid_name": "PS 14:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      372,
+      376,
+      380,
+      385,
+      389
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      322,
+      324,
+      326,
+      333
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 83,
+    "candidate_id": "PS-H__0037",
+    "lipid_name": "PS 14:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      500,
+      504,
+      508,
+      517
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      420,
+      424,
+      429,
+      434,
+      438
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 84,
+    "candidate_id": "PS-H__0042",
+    "lipid_name": "PS 14:0_22:0",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      491,
+      495,
+      499,
+      504,
+      508
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      413,
+      416,
+      419,
+      429
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      188,
+      189
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 85,
+    "candidate_id": "PS-H__0043",
+    "lipid_name": "PS 14:0_22:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      483,
+      486,
+      495,
+      499
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      409,
+      411,
+      416,
+      419
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 86,
+    "candidate_id": "PS-H__0044",
+    "lipid_name": "PS 14:0_22:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      473,
+      477,
+      490
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      397,
+      402
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 87,
+    "candidate_id": "PS-H__0045",
+    "lipid_name": "PS 14:0_22:3",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      465,
+      468,
+      482
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      388,
+      392,
+      396,
+      401
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      221,
+      222,
+      223,
+      224,
+      225
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 88,
+    "candidate_id": "PS-H__0046",
+    "lipid_name": "PS 14:0_22:4",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      205,
+      208,
+      209,
+      211,
+      213
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      293,
+      297,
+      300,
+      304
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268,
+      271
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 89,
+    "candidate_id": "PS-H__0058",
+    "lipid_name": "PS 16:0_18:0",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288,
+      297,
+      300
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      256,
+      257
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 90,
+    "candidate_id": "PS-H__0059",
+    "lipid_name": "PS 16:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      281,
+      283,
+      292
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      253,
+      254,
+      259
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 91,
+    "candidate_id": "PS-H__0060",
+    "lipid_name": "PS 16:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      381,
+      385,
+      399
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      327,
+      330,
+      333,
+      337,
+      340
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      160,
+      163,
+      165,
+      167,
+      169
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 92,
+    "candidate_id": "PS-H__0062",
+    "lipid_name": "PS 16:0_20:0",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      372,
+      376,
+      380,
+      385,
+      389
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      322,
+      324,
+      326,
+      333
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 93,
+    "candidate_id": "PS-H__0063",
+    "lipid_name": "PS 16:0_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      365,
+      367,
+      376,
+      380
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      317,
+      319,
+      326
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 94,
+    "candidate_id": "PS-H__0064",
+    "lipid_name": "PS 16:0_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      360,
+      362,
+      371
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      308,
+      312,
+      321
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 95,
+    "candidate_id": "PS-H__0065",
+    "lipid_name": "PS 16:0_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      355,
+      357,
+      364
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      299,
+      302,
+      316
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 96,
+    "candidate_id": "PS-H__0066",
+    "lipid_name": "PS 16:0_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      349,
+      352,
+      359
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      290,
+      295,
+      307
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      142,
+      143,
+      145,
+      147
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      243,
+      246,
+      247,
+      248,
+      250
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 97,
+    "candidate_id": "PS-H__0067",
+    "lipid_name": "PS 16:0_20:5",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      229,
+      230,
+      231,
+      232,
+      233
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      293,
+      297,
+      300,
+      304
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 98,
+    "candidate_id": "PS-H__0083",
+    "lipid_name": "PS 18:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268,
+      271
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288,
+      297,
+      300
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      256,
+      257
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 99,
+    "candidate_id": "PS-H__0084",
+    "lipid_name": "PS 16:1_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      160,
+      163,
+      165,
+      167,
+      169
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      381,
+      385,
+      399
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 100,
+    "candidate_id": "PS-H__0087",
+    "lipid_name": "PS 20:0_16:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      327,
+      330,
+      333,
+      337,
+      340
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      372,
+      376,
+      380,
+      385,
+      389
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      322,
+      324,
+      326,
+      333
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 101,
+    "candidate_id": "PS-H__0088",
+    "lipid_name": "PS 16:1_20:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      365,
+      367,
+      376,
+      380
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      317,
+      319,
+      326
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 102,
+    "candidate_id": "PS-H__0089",
+    "lipid_name": "PS 16:1_20:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      360,
+      362,
+      371
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      308,
+      312,
+      321
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 103,
+    "candidate_id": "PS-H__0090",
+    "lipid_name": "PS 16:1_20:3",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      355,
+      357,
+      364
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      299,
+      302,
+      316
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      239,
+      241
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 104,
+    "candidate_id": "PS-H__0091",
+    "lipid_name": "PS 16:1_20:4",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      227,
+      228
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 105,
+    "candidate_id": "PS-H__0107",
+    "lipid_name": "PS 18:0_18:0",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      256,
+      257
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      293,
+      304
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 106,
+    "candidate_id": "PS-H__0108",
+    "lipid_name": "PS 18:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268,
+      271
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      281,
+      283,
+      292
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      253,
+      254,
+      259
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      293,
+      297,
+      300,
+      304
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 107,
+    "candidate_id": "PS-H__0109",
+    "lipid_name": "PS 18:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268,
+      271
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      278,
+      279,
+      285
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      249,
+      252,
+      255
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      113,
+      114,
+      115,
+      117,
+      119
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      293,
+      297,
+      300,
+      304
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 108,
+    "candidate_id": "PS-H__0110",
+    "lipid_name": "PS 18:0_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268,
+      271
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 109,
+    "candidate_id": "PS-H__0131",
+    "lipid_name": "PS 18:1_18:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      281,
+      283,
+      292
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      253,
+      254,
+      259
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288,
+      297,
+      300
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 110,
+    "candidate_id": "PS-H__0132",
+    "lipid_name": "PS 18:1_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      256,
+      257
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      278,
+      279,
+      285
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      249,
+      252,
+      255
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      113,
+      114,
+      115,
+      117,
+      119
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288,
+      297,
+      300
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 111,
+    "candidate_id": "PS-H__0133",
+    "lipid_name": "PS 18:1_18:3",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      256,
+      257
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 112,
+    "candidate_id": "PS-H__0154",
+    "lipid_name": "PS 18:2_18:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      101,
+      104,
+      107,
+      110,
+      112
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      286,
+      288,
+      297,
+      300
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      256,
+      257,
+      265
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      270
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 113,
+    "candidate_id": "PS-H__0456",
+    "lipid_name": "PS 17:0_18:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      237,
+      238,
+      240,
+      242,
+      244
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      101,
+      104,
+      107,
+      110,
+      112
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      281,
+      283,
+      292
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      253,
+      254,
+      259
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      270
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 114,
+    "candidate_id": "PS-H__0457",
+    "lipid_name": "PS 17:0_18:2",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      237,
+      238,
+      240,
+      242,
+      244
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "p_glycerol",
+    "source_stick_indices": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "lower": 0.08710841183669675,
+    "upper": 11.479947560916537
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.1634817695142569,
+    "upper": 6.11688999312423
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      264,
+      267,
+      273,
+      275
+    ],
+    "lower": 0.15983347351269367,
+    "upper": 6.256511718245189
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      235,
+      236
+    ],
+    "lower": 0.17324397750273465,
+    "upper": 5.772206424804666
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      95,
+      98,
+      100,
+      103,
+      106
+    ],
+    "lower": 0.14001195868355862,
+    "upper": 7.142247058053824
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      293,
+      305
+    ],
+    "lower": 0.29062671920742694,
+    "upper": 3.4408398605851414
+  },
+  {
+    "candidate_index": 115,
+    "candidate_id": "PS-H__0477",
+    "lipid_name": "PS 18:0_17:1",
+    "rule": "PS-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      260,
+      262,
+      265,
+      268
+    ],
+    "lower": 0.15816572700565382,
+    "upper": 6.322482240190087
+  },
+  {
+    "candidate_index": 208,
+    "candidate_id": "PEO-H__0072",
+    "lipid_name": "PE O-16:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      188,
+      189
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 208,
+    "candidate_id": "PEO-H__0072",
+    "lipid_name": "PE O-16:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 208,
+    "candidate_id": "PEO-H__0072",
+    "lipid_name": "PE O-16:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 209,
+    "candidate_id": "PEO-H__0073",
+    "lipid_name": "PE O-16:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 209,
+    "candidate_id": "PEO-H__0073",
+    "lipid_name": "PE O-16:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 209,
+    "candidate_id": "PEO-H__0073",
+    "lipid_name": "PE O-16:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 210,
+    "candidate_id": "PEO-H__0074",
+    "lipid_name": "PE O-16:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 210,
+    "candidate_id": "PEO-H__0074",
+    "lipid_name": "PE O-16:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 210,
+    "candidate_id": "PEO-H__0074",
+    "lipid_name": "PE O-16:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 211,
+    "candidate_id": "PEO-H__0075",
+    "lipid_name": "PE O-16:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 211,
+    "candidate_id": "PEO-H__0075",
+    "lipid_name": "PE O-16:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 211,
+    "candidate_id": "PEO-H__0075",
+    "lipid_name": "PE O-16:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 211,
+    "candidate_id": "PEO-H__0075",
+    "lipid_name": "PE O-16:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 212,
+    "candidate_id": "PEO-H__0076",
+    "lipid_name": "PE O-16:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 212,
+    "candidate_id": "PEO-H__0076",
+    "lipid_name": "PE O-16:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 212,
+    "candidate_id": "PEO-H__0076",
+    "lipid_name": "PE O-16:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 212,
+    "candidate_id": "PEO-H__0076",
+    "lipid_name": "PE O-16:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 213,
+    "candidate_id": "PEO-H__0077",
+    "lipid_name": "PE O-16:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      174,
+      175,
+      178
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 213,
+    "candidate_id": "PEO-H__0077",
+    "lipid_name": "PE O-16:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      124,
+      127,
+      135
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 213,
+    "candidate_id": "PEO-H__0077",
+    "lipid_name": "PE O-16:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      298,
+      301,
+      306,
+      311,
+      314
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 213,
+    "candidate_id": "PEO-H__0077",
+    "lipid_name": "PE O-16:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      263,
+      266,
+      269,
+      272,
+      274
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 214,
+    "candidate_id": "PEO-H__0099",
+    "lipid_name": "PE O-16:1_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 214,
+    "candidate_id": "PEO-H__0099",
+    "lipid_name": "PE O-16:1_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 214,
+    "candidate_id": "PEO-H__0099",
+    "lipid_name": "PE O-16:1_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 215,
+    "candidate_id": "PEO-H__0100",
+    "lipid_name": "PE O-16:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      188,
+      189
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 215,
+    "candidate_id": "PEO-H__0100",
+    "lipid_name": "PE O-16:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 215,
+    "candidate_id": "PEO-H__0100",
+    "lipid_name": "PE O-16:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 216,
+    "candidate_id": "PEO-H__0101",
+    "lipid_name": "PE O-16:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 216,
+    "candidate_id": "PEO-H__0101",
+    "lipid_name": "PE O-16:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 216,
+    "candidate_id": "PEO-H__0101",
+    "lipid_name": "PE O-16:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 217,
+    "candidate_id": "PEO-H__0102",
+    "lipid_name": "PE O-16:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 217,
+    "candidate_id": "PEO-H__0102",
+    "lipid_name": "PE O-16:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 217,
+    "candidate_id": "PEO-H__0102",
+    "lipid_name": "PE O-16:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 218,
+    "candidate_id": "PEO-H__0103",
+    "lipid_name": "PE O-16:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 218,
+    "candidate_id": "PEO-H__0103",
+    "lipid_name": "PE O-16:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 218,
+    "candidate_id": "PEO-H__0103",
+    "lipid_name": "PE O-16:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 218,
+    "candidate_id": "PEO-H__0103",
+    "lipid_name": "PE O-16:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 219,
+    "candidate_id": "PEO-H__0104",
+    "lipid_name": "PE O-16:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 219,
+    "candidate_id": "PEO-H__0104",
+    "lipid_name": "PE O-16:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 219,
+    "candidate_id": "PEO-H__0104",
+    "lipid_name": "PE O-16:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 219,
+    "candidate_id": "PEO-H__0104",
+    "lipid_name": "PE O-16:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 220,
+    "candidate_id": "PEO-H__0106",
+    "lipid_name": "PE O-16:1_24:0",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      215,
+      216,
+      217,
+      218,
+      219
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 220,
+    "candidate_id": "PEO-H__0106",
+    "lipid_name": "PE O-16:1_24:0",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 220,
+    "candidate_id": "PEO-H__0106",
+    "lipid_name": "PE O-16:1_24:0",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 221,
+    "candidate_id": "PEO-H__0107",
+    "lipid_name": "PE O-16:1_24:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      210,
+      212
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 221,
+    "candidate_id": "PEO-H__0107",
+    "lipid_name": "PE O-16:1_24:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 221,
+    "candidate_id": "PEO-H__0107",
+    "lipid_name": "PE O-16:1_24:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 222,
+    "candidate_id": "PEO-H__0110",
+    "lipid_name": "PE O-16:1_24:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      201,
+      202,
+      203,
+      204,
+      206
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 222,
+    "candidate_id": "PEO-H__0110",
+    "lipid_name": "PE O-16:1_24:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      169,
+      170,
+      171,
+      172,
+      173
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 222,
+    "candidate_id": "PEO-H__0110",
+    "lipid_name": "PE O-16:1_24:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 222,
+    "candidate_id": "PEO-H__0110",
+    "lipid_name": "PE O-16:1_24:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 223,
+    "candidate_id": "PEO-H__0111",
+    "lipid_name": "PE O-16:1_24:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      198,
+      199
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 223,
+    "candidate_id": "PEO-H__0111",
+    "lipid_name": "PE O-16:1_24:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      164,
+      166
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 223,
+    "candidate_id": "PEO-H__0111",
+    "lipid_name": "PE O-16:1_24:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 223,
+    "candidate_id": "PEO-H__0111",
+    "lipid_name": "PE O-16:1_24:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 224,
+    "candidate_id": "PEO-H__0112",
+    "lipid_name": "PE O-16:1_24:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      196,
+      197,
+      200
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 224,
+    "candidate_id": "PEO-H__0112",
+    "lipid_name": "PE O-16:1_24:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      159,
+      161,
+      168
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 224,
+    "candidate_id": "PEO-H__0112",
+    "lipid_name": "PE O-16:1_24:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      289,
+      294
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 224,
+    "candidate_id": "PEO-H__0112",
+    "lipid_name": "PE O-16:1_24:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      258,
+      261
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 225,
+    "candidate_id": "PEO-H__0122",
+    "lipid_name": "PE O-18:0_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 225,
+    "candidate_id": "PEO-H__0122",
+    "lipid_name": "PE O-18:0_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 225,
+    "candidate_id": "PEO-H__0122",
+    "lipid_name": "PE O-18:0_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 226,
+    "candidate_id": "PEO-H__0123",
+    "lipid_name": "PE O-18:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 226,
+    "candidate_id": "PEO-H__0123",
+    "lipid_name": "PE O-18:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 226,
+    "candidate_id": "PEO-H__0123",
+    "lipid_name": "PE O-18:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 227,
+    "candidate_id": "PEO-H__0124",
+    "lipid_name": "PE O-18:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 227,
+    "candidate_id": "PEO-H__0124",
+    "lipid_name": "PE O-18:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 227,
+    "candidate_id": "PEO-H__0124",
+    "lipid_name": "PE O-18:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 228,
+    "candidate_id": "PEO-H__0125",
+    "lipid_name": "PE O-18:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 228,
+    "candidate_id": "PEO-H__0125",
+    "lipid_name": "PE O-18:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 228,
+    "candidate_id": "PEO-H__0125",
+    "lipid_name": "PE O-18:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 228,
+    "candidate_id": "PEO-H__0125",
+    "lipid_name": "PE O-18:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 229,
+    "candidate_id": "PEO-H__0126",
+    "lipid_name": "PE O-18:0_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      142,
+      143,
+      145,
+      147
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 229,
+    "candidate_id": "PEO-H__0126",
+    "lipid_name": "PE O-18:0_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      74,
+      76,
+      79,
+      81,
+      83
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 229,
+    "candidate_id": "PEO-H__0126",
+    "lipid_name": "PE O-18:0_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 229,
+    "candidate_id": "PEO-H__0126",
+    "lipid_name": "PE O-18:0_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 230,
+    "candidate_id": "PEO-H__0128",
+    "lipid_name": "PE O-18:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      188,
+      189
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 230,
+    "candidate_id": "PEO-H__0128",
+    "lipid_name": "PE O-18:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 230,
+    "candidate_id": "PEO-H__0128",
+    "lipid_name": "PE O-18:0_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 231,
+    "candidate_id": "PEO-H__0129",
+    "lipid_name": "PE O-18:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 231,
+    "candidate_id": "PEO-H__0129",
+    "lipid_name": "PE O-18:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 231,
+    "candidate_id": "PEO-H__0129",
+    "lipid_name": "PE O-18:0_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 232,
+    "candidate_id": "PEO-H__0130",
+    "lipid_name": "PE O-18:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 232,
+    "candidate_id": "PEO-H__0130",
+    "lipid_name": "PE O-18:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 232,
+    "candidate_id": "PEO-H__0130",
+    "lipid_name": "PE O-18:0_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 233,
+    "candidate_id": "PEO-H__0131",
+    "lipid_name": "PE O-18:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 233,
+    "candidate_id": "PEO-H__0131",
+    "lipid_name": "PE O-18:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 233,
+    "candidate_id": "PEO-H__0131",
+    "lipid_name": "PE O-18:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 233,
+    "candidate_id": "PEO-H__0131",
+    "lipid_name": "PE O-18:0_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 234,
+    "candidate_id": "PEO-H__0132",
+    "lipid_name": "PE O-18:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 234,
+    "candidate_id": "PEO-H__0132",
+    "lipid_name": "PE O-18:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 234,
+    "candidate_id": "PEO-H__0132",
+    "lipid_name": "PE O-18:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 234,
+    "candidate_id": "PEO-H__0132",
+    "lipid_name": "PE O-18:0_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 235,
+    "candidate_id": "PEO-H__0133",
+    "lipid_name": "PE O-18:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      174,
+      175,
+      178
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 235,
+    "candidate_id": "PEO-H__0133",
+    "lipid_name": "PE O-18:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      124,
+      127,
+      135
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 235,
+    "candidate_id": "PEO-H__0133",
+    "lipid_name": "PE O-18:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      386,
+      391,
+      395,
+      400,
+      406
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 235,
+    "candidate_id": "PEO-H__0133",
+    "lipid_name": "PE O-18:0_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      331,
+      334,
+      338,
+      341,
+      345
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 236,
+    "candidate_id": "PEO-H__0150",
+    "lipid_name": "PE O-18:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 236,
+    "candidate_id": "PEO-H__0150",
+    "lipid_name": "PE O-18:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 236,
+    "candidate_id": "PEO-H__0150",
+    "lipid_name": "PE O-18:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 237,
+    "candidate_id": "PEO-H__0151",
+    "lipid_name": "PE O-18:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 237,
+    "candidate_id": "PEO-H__0151",
+    "lipid_name": "PE O-18:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 237,
+    "candidate_id": "PEO-H__0151",
+    "lipid_name": "PE O-18:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 238,
+    "candidate_id": "PEO-H__0152",
+    "lipid_name": "PE O-18:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 238,
+    "candidate_id": "PEO-H__0152",
+    "lipid_name": "PE O-18:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 238,
+    "candidate_id": "PEO-H__0152",
+    "lipid_name": "PE O-18:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 239,
+    "candidate_id": "PEO-H__0153",
+    "lipid_name": "PE O-18:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 239,
+    "candidate_id": "PEO-H__0153",
+    "lipid_name": "PE O-18:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 239,
+    "candidate_id": "PEO-H__0153",
+    "lipid_name": "PE O-18:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 239,
+    "candidate_id": "PEO-H__0153",
+    "lipid_name": "PE O-18:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 240,
+    "candidate_id": "PEO-H__0154",
+    "lipid_name": "PE O-18:1_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      142,
+      143,
+      145,
+      147
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 240,
+    "candidate_id": "PEO-H__0154",
+    "lipid_name": "PE O-18:1_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      74,
+      76,
+      79,
+      81,
+      83
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 240,
+    "candidate_id": "PEO-H__0154",
+    "lipid_name": "PE O-18:1_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 240,
+    "candidate_id": "PEO-H__0154",
+    "lipid_name": "PE O-18:1_20:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 241,
+    "candidate_id": "PEO-H__0156",
+    "lipid_name": "PE O-18:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      188,
+      189
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 241,
+    "candidate_id": "PEO-H__0156",
+    "lipid_name": "PE O-18:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 241,
+    "candidate_id": "PEO-H__0156",
+    "lipid_name": "PE O-18:1_22:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 242,
+    "candidate_id": "PEO-H__0157",
+    "lipid_name": "PE O-18:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 242,
+    "candidate_id": "PEO-H__0157",
+    "lipid_name": "PE O-18:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 242,
+    "candidate_id": "PEO-H__0157",
+    "lipid_name": "PE O-18:1_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 243,
+    "candidate_id": "PEO-H__0158",
+    "lipid_name": "PE O-18:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 243,
+    "candidate_id": "PEO-H__0158",
+    "lipid_name": "PE O-18:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 243,
+    "candidate_id": "PEO-H__0158",
+    "lipid_name": "PE O-18:1_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 244,
+    "candidate_id": "PEO-H__0159",
+    "lipid_name": "PE O-18:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 244,
+    "candidate_id": "PEO-H__0159",
+    "lipid_name": "PE O-18:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 244,
+    "candidate_id": "PEO-H__0159",
+    "lipid_name": "PE O-18:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 244,
+    "candidate_id": "PEO-H__0159",
+    "lipid_name": "PE O-18:1_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 245,
+    "candidate_id": "PEO-H__0160",
+    "lipid_name": "PE O-18:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 245,
+    "candidate_id": "PEO-H__0160",
+    "lipid_name": "PE O-18:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 245,
+    "candidate_id": "PEO-H__0160",
+    "lipid_name": "PE O-18:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 245,
+    "candidate_id": "PEO-H__0160",
+    "lipid_name": "PE O-18:1_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 246,
+    "candidate_id": "PEO-H__0161",
+    "lipid_name": "PE O-18:1_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      174,
+      175,
+      178
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 246,
+    "candidate_id": "PEO-H__0161",
+    "lipid_name": "PE O-18:1_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      124,
+      127,
+      135
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 246,
+    "candidate_id": "PEO-H__0161",
+    "lipid_name": "PE O-18:1_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      377,
+      382
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 246,
+    "candidate_id": "PEO-H__0161",
+    "lipid_name": "PE O-18:1_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      325,
+      328
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 247,
+    "candidate_id": "PEO-H__0231",
+    "lipid_name": "PE O-20:0_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 247,
+    "candidate_id": "PEO-H__0231",
+    "lipid_name": "PE O-20:0_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      505,
+      509,
+      513,
+      518,
+      524
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 247,
+    "candidate_id": "PEO-H__0231",
+    "lipid_name": "PE O-20:0_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      425,
+      430,
+      435,
+      439,
+      445
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 248,
+    "candidate_id": "PEO-H__0259",
+    "lipid_name": "PE O-20:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 248,
+    "candidate_id": "PEO-H__0259",
+    "lipid_name": "PE O-20:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      496,
+      501
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 248,
+    "candidate_id": "PEO-H__0259",
+    "lipid_name": "PE O-20:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      417,
+      421
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 249,
+    "candidate_id": "PEO-H__0179",
+    "lipid_name": "PE O-18:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 249,
+    "candidate_id": "PEO-H__0179",
+    "lipid_name": "PE O-18:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 249,
+    "candidate_id": "PEO-H__0179",
+    "lipid_name": "PE O-18:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 250,
+    "candidate_id": "PEO-H__0180",
+    "lipid_name": "PE O-18:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 250,
+    "candidate_id": "PEO-H__0180",
+    "lipid_name": "PE O-18:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 250,
+    "candidate_id": "PEO-H__0180",
+    "lipid_name": "PE O-18:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 251,
+    "candidate_id": "PEO-H__0181",
+    "lipid_name": "PE O-18:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 251,
+    "candidate_id": "PEO-H__0181",
+    "lipid_name": "PE O-18:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 251,
+    "candidate_id": "PEO-H__0181",
+    "lipid_name": "PE O-18:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 251,
+    "candidate_id": "PEO-H__0181",
+    "lipid_name": "PE O-18:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 252,
+    "candidate_id": "PEO-H__0183",
+    "lipid_name": "PE O-18:2_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 252,
+    "candidate_id": "PEO-H__0183",
+    "lipid_name": "PE O-18:2_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 252,
+    "candidate_id": "PEO-H__0183",
+    "lipid_name": "PE O-18:2_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 253,
+    "candidate_id": "PEO-H__0427",
+    "lipid_name": "PE O-22:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      116,
+      118,
+      120,
+      122,
+      124
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 253,
+    "candidate_id": "PEO-H__0427",
+    "lipid_name": "PE O-22:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      606,
+      610,
+      613,
+      616,
+      620
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 253,
+    "candidate_id": "PEO-H__0427",
+    "lipid_name": "PE O-22:1_18:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      538,
+      541,
+      545,
+      549,
+      554
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 254,
+    "candidate_id": "PEO-H__0185",
+    "lipid_name": "PE O-18:2_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      185,
+      186,
+      190
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 254,
+    "candidate_id": "PEO-H__0185",
+    "lipid_name": "PE O-18:2_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 254,
+    "candidate_id": "PEO-H__0185",
+    "lipid_name": "PE O-18:2_22:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 255,
+    "candidate_id": "PEO-H__0186",
+    "lipid_name": "PE O-18:2_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 255,
+    "candidate_id": "PEO-H__0186",
+    "lipid_name": "PE O-18:2_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 255,
+    "candidate_id": "PEO-H__0186",
+    "lipid_name": "PE O-18:2_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 256,
+    "candidate_id": "PEO-H__0187",
+    "lipid_name": "PE O-18:2_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 256,
+    "candidate_id": "PEO-H__0187",
+    "lipid_name": "PE O-18:2_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 256,
+    "candidate_id": "PEO-H__0187",
+    "lipid_name": "PE O-18:2_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 256,
+    "candidate_id": "PEO-H__0187",
+    "lipid_name": "PE O-18:2_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 257,
+    "candidate_id": "PEO-H__0188",
+    "lipid_name": "PE O-18:2_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 257,
+    "candidate_id": "PEO-H__0188",
+    "lipid_name": "PE O-18:2_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 257,
+    "candidate_id": "PEO-H__0188",
+    "lipid_name": "PE O-18:2_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 257,
+    "candidate_id": "PEO-H__0188",
+    "lipid_name": "PE O-18:2_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 258,
+    "candidate_id": "PEO-H__0189",
+    "lipid_name": "PE O-18:2_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      174,
+      175,
+      178
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 258,
+    "candidate_id": "PEO-H__0189",
+    "lipid_name": "PE O-18:2_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      124,
+      127,
+      135
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 258,
+    "candidate_id": "PEO-H__0189",
+    "lipid_name": "PE O-18:2_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      368,
+      373
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 258,
+    "candidate_id": "PEO-H__0189",
+    "lipid_name": "PE O-18:2_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      320,
+      323
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 259,
+    "candidate_id": "PEO-H__0208",
+    "lipid_name": "PE O-18:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 259,
+    "candidate_id": "PEO-H__0208",
+    "lipid_name": "PE O-18:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 259,
+    "candidate_id": "PEO-H__0208",
+    "lipid_name": "PE O-18:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 260,
+    "candidate_id": "PEO-H__0211",
+    "lipid_name": "PE O-18:3_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      191,
+      192,
+      193,
+      194,
+      195
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 260,
+    "candidate_id": "PEO-H__0211",
+    "lipid_name": "PE O-18:3_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 260,
+    "candidate_id": "PEO-H__0211",
+    "lipid_name": "PE O-18:3_22:0",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 261,
+    "candidate_id": "PEO-H__0214",
+    "lipid_name": "PE O-18:3_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      182,
+      183,
+      187
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 261,
+    "candidate_id": "PEO-H__0214",
+    "lipid_name": "PE O-18:3_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 261,
+    "candidate_id": "PEO-H__0214",
+    "lipid_name": "PE O-18:3_22:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 262,
+    "candidate_id": "PEO-H__0215",
+    "lipid_name": "PE O-18:3_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      179,
+      180,
+      184
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 262,
+    "candidate_id": "PEO-H__0215",
+    "lipid_name": "PE O-18:3_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 262,
+    "candidate_id": "PEO-H__0215",
+    "lipid_name": "PE O-18:3_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 262,
+    "candidate_id": "PEO-H__0215",
+    "lipid_name": "PE O-18:3_22:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 263,
+    "candidate_id": "PEO-H__0216",
+    "lipid_name": "PE O-18:3_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      176,
+      177,
+      181
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 263,
+    "candidate_id": "PEO-H__0216",
+    "lipid_name": "PE O-18:3_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      130,
+      132
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 263,
+    "candidate_id": "PEO-H__0216",
+    "lipid_name": "PE O-18:3_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 263,
+    "candidate_id": "PEO-H__0216",
+    "lipid_name": "PE O-18:3_22:5",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 264,
+    "candidate_id": "PEO-H__0217",
+    "lipid_name": "PE O-18:3_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      174,
+      175,
+      178
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 264,
+    "candidate_id": "PEO-H__0217",
+    "lipid_name": "PE O-18:3_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      124,
+      127,
+      135
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 264,
+    "candidate_id": "PEO-H__0217",
+    "lipid_name": "PE O-18:3_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      363,
+      366
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 264,
+    "candidate_id": "PEO-H__0217",
+    "lipid_name": "PE O-18:3_22:6",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      313,
+      318
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 265,
+    "candidate_id": "PEO-H__0235",
+    "lipid_name": "PE O-20:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 265,
+    "candidate_id": "PEO-H__0235",
+    "lipid_name": "PE O-20:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      505,
+      509,
+      513,
+      518,
+      524
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 265,
+    "candidate_id": "PEO-H__0235",
+    "lipid_name": "PE O-20:0_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      425,
+      430,
+      435,
+      439,
+      445
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 266,
+    "candidate_id": "PEO-H__0236",
+    "lipid_name": "PE O-20:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 266,
+    "candidate_id": "PEO-H__0236",
+    "lipid_name": "PE O-20:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      505,
+      509,
+      513,
+      518,
+      524
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 266,
+    "candidate_id": "PEO-H__0236",
+    "lipid_name": "PE O-20:0_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      425,
+      430,
+      435,
+      439,
+      445
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 267,
+    "candidate_id": "PEO-H__0237",
+    "lipid_name": "PE O-20:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 267,
+    "candidate_id": "PEO-H__0237",
+    "lipid_name": "PE O-20:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 267,
+    "candidate_id": "PEO-H__0237",
+    "lipid_name": "PE O-20:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      505,
+      509,
+      513,
+      518,
+      524
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 267,
+    "candidate_id": "PEO-H__0237",
+    "lipid_name": "PE O-20:0_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      425,
+      430,
+      435,
+      439,
+      445
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 268,
+    "candidate_id": "PEO-H__0262",
+    "lipid_name": "PE O-20:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      156,
+      158,
+      162,
+      164
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 268,
+    "candidate_id": "PEO-H__0262",
+    "lipid_name": "PE O-20:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      496,
+      501
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 268,
+    "candidate_id": "PEO-H__0262",
+    "lipid_name": "PE O-20:1_20:1",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      417,
+      421
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 269,
+    "candidate_id": "PEO-H__0263",
+    "lipid_name": "PE O-20:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 269,
+    "candidate_id": "PEO-H__0263",
+    "lipid_name": "PE O-20:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      496,
+      501
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 269,
+    "candidate_id": "PEO-H__0263",
+    "lipid_name": "PE O-20:1_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      417,
+      421
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 270,
+    "candidate_id": "PEO-H__0264",
+    "lipid_name": "PE O-20:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 270,
+    "candidate_id": "PEO-H__0264",
+    "lipid_name": "PE O-20:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      496,
+      501
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 270,
+    "candidate_id": "PEO-H__0264",
+    "lipid_name": "PE O-20:1_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      417,
+      421
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 271,
+    "candidate_id": "PEO-H__0265",
+    "lipid_name": "PE O-20:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 271,
+    "candidate_id": "PEO-H__0265",
+    "lipid_name": "PE O-20:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 271,
+    "candidate_id": "PEO-H__0265",
+    "lipid_name": "PE O-20:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      496,
+      501
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 271,
+    "candidate_id": "PEO-H__0265",
+    "lipid_name": "PE O-20:1_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      417,
+      421
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 272,
+    "candidate_id": "PEO-H__0291",
+    "lipid_name": "PE O-20:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      152,
+      154,
+      157,
+      159
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 272,
+    "candidate_id": "PEO-H__0291",
+    "lipid_name": "PE O-20:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      487,
+      492
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 272,
+    "candidate_id": "PEO-H__0291",
+    "lipid_name": "PE O-20:2_20:2",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      412,
+      414
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 273,
+    "candidate_id": "PEO-H__0292",
+    "lipid_name": "PE O-20:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 273,
+    "candidate_id": "PEO-H__0292",
+    "lipid_name": "PE O-20:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      487,
+      492
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 273,
+    "candidate_id": "PEO-H__0292",
+    "lipid_name": "PE O-20:2_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      412,
+      414
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 274,
+    "candidate_id": "PEO-H__0293",
+    "lipid_name": "PE O-20:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 274,
+    "candidate_id": "PEO-H__0293",
+    "lipid_name": "PE O-20:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 274,
+    "candidate_id": "PEO-H__0293",
+    "lipid_name": "PE O-20:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      487,
+      492
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 274,
+    "candidate_id": "PEO-H__0293",
+    "lipid_name": "PE O-20:2_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      412,
+      414
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 275,
+    "candidate_id": "PEO-H__0320",
+    "lipid_name": "PE O-20:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      148,
+      150,
+      153,
+      155
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 275,
+    "candidate_id": "PEO-H__0320",
+    "lipid_name": "PE O-20:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      478,
+      484
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 275,
+    "candidate_id": "PEO-H__0320",
+    "lipid_name": "PE O-20:3_20:3",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      404,
+      410
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 276,
+    "candidate_id": "PEO-H__0321",
+    "lipid_name": "PE O-20:3_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      144,
+      146,
+      149,
+      151
+    ],
+    "lower": 0.35676009005829296,
+    "upper": 2.8030041135952306
+  },
+  {
+    "candidate_index": 276,
+    "candidate_id": "PEO-H__0321",
+    "lipid_name": "PE O-20:3_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_fragment_co2",
+    "source_stick_indices": [
+      80,
+      82,
+      84,
+      86,
+      88
+    ],
+    "lower": 0.48189766246034993,
+    "upper": 2.0751293851363704
+  },
+  {
+    "candidate_index": 276,
+    "candidate_id": "PEO-H__0321",
+    "lipid_name": "PE O-20:3_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      478,
+      484
+    ],
+    "lower": 0.48779124885737357,
+    "upper": 2.0500572782772335
+  },
+  {
+    "candidate_index": 276,
+    "candidate_id": "PEO-H__0321",
+    "lipid_name": "PE O-20:3_20:4",
+    "rule": "PEO-H",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      404,
+      410
+    ],
+    "lower": 0.34326835329957456,
+    "upper": 2.9131727127996783
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.28474835976212953,
+    "upper": 3.511872731542232
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      626,
+      628,
+      631,
+      634,
+      638
+    ],
+    "lower": 0.3989911223030811,
+    "upper": 2.5063214294787777
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      561,
+      564,
+      567,
+      571,
+      575
+    ],
+    "lower": 0.22576010128310056,
+    "upper": 4.429480649222475
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      126,
+      129,
+      131,
+      133,
+      136
+    ],
+    "lower": 0.38676424256594527,
+    "upper": 2.5855544281074407
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      403,
+      409,
+      411,
+      413,
+      416
+    ],
+    "lower": 0.34832786939255994,
+    "upper": 2.870858429283521
+  },
+  {
+    "candidate_index": 355,
+    "candidate_id": "PC+CH3COO__0032",
+    "lipid_name": "PC 14:0_18:0",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      342,
+      346,
+      348,
+      351,
+      354
+    ],
+    "lower": 0.2809395157070329,
+    "upper": 3.5594850282393597
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.28474835976212953,
+    "upper": 3.511872731542232
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      618,
+      623
+    ],
+    "lower": 0.3989911223030811,
+    "upper": 2.5063214294787777
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      552,
+      557
+    ],
+    "lower": 0.22576010128310056,
+    "upper": 4.429480649222475
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      121,
+      123,
+      125,
+      128,
+      130
+    ],
+    "lower": 0.38676424256594527,
+    "upper": 2.5855544281074407
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      403,
+      409,
+      411,
+      413,
+      416
+    ],
+    "lower": 0.34832786939255994,
+    "upper": 2.870858429283521
+  },
+  {
+    "candidate_index": 356,
+    "candidate_id": "PC+CH3COO__0033",
+    "lipid_name": "PC 14:0_18:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      342,
+      346,
+      348,
+      351,
+      354
+    ],
+    "lower": 0.2809395157070329,
+    "upper": 3.5594850282393597
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      71,
+      73,
+      75,
+      77,
+      80
+    ],
+    "lower": 0.28474835976212953,
+    "upper": 3.511872731542232
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      515
+    ],
+    "lower": 0.3989911223030811,
+    "upper": 2.5063214294787777
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      432,
+      437,
+      454
+    ],
+    "lower": 0.22576010128310056,
+    "upper": 4.429480649222475
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      68,
+      69,
+      70,
+      72,
+      74
+    ],
+    "lower": 0.38676424256594527,
+    "upper": 2.5855544281074407
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      521,
+      534,
+      537
+    ],
+    "lower": 0.34832786939255994,
+    "upper": 2.870858429283521
+  },
+  {
+    "candidate_index": 358,
+    "candidate_id": "PC+CH3COO__0057",
+    "lipid_name": "PC 16:0_16:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      442,
+      450,
+      462
+    ],
+    "lower": 0.2809395157070329,
+    "upper": 3.5594850282393597
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_fragment",
+    "source_stick_indices": [
+      39,
+      43,
+      46,
+      49,
+      51
+    ],
+    "lower": 0.28474835976212953,
+    "upper": 3.511872731542232
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_ketene_loss",
+    "source_stick_indices": [
+      495,
+      499
+    ],
+    "lower": 0.3989911223030811,
+    "upper": 2.5063214294787777
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn1_loss",
+    "source_stick_indices": [
+      416,
+      419,
+      423,
+      428,
+      433
+    ],
+    "lower": 0.22576010128310056,
+    "upper": 4.429480649222475
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_fragment",
+    "source_stick_indices": [
+      95,
+      98,
+      100,
+      103,
+      106
+    ],
+    "lower": 0.38676424256594527,
+    "upper": 2.5855544281074407
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_ketene_loss",
+    "source_stick_indices": [
+      342,
+      346,
+      348,
+      351,
+      354
+    ],
+    "lower": 0.34832786939255994,
+    "upper": 2.870858429283521
+  },
+  {
+    "candidate_index": 359,
+    "candidate_id": "PC+CH3COO__0474",
+    "lipid_name": "PC 14:0_17:1",
+    "rule": "PC+CH3COO",
+    "channel": "sn2_loss",
+    "source_stick_indices": [
+      284,
+      287
+    ],
+    "lower": 0.2809395157070329,
+    "upper": 3.5594850282393597
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "PARTIAL_CASE_PROVENANCE_AND_NUMERICAL_PASS",
+  "case_id": "close_neighbor__HOLD_R1_K125",
+  "transfer_source_hashes_verified": 92,
+  "proofs_checked": 245,
+  "zero_coefficient_witnesses": 88,
+  "case_proofs": {
+    "close_neighbor__HOLD_R1_K125": {
+      "status": "PASS",
+      "identities": 244,
+      "max_primal_dual_gap": 6.3785858120456e-07,
+      "full_upper": 0.001731828470899462,
+      "full_seconds": 12.835482999682426
+    }
+  },
+  "raw_accounting": {
+    "TP": 116,
+    "FP": 128,
+    "FN": 9,
+    "raw_solver_TP": 116,
+    "raw_solver_FP": 128,
+    "raw_solver_FN": 9,
+    "filter_induced_true_loss": 0,
+    "TP_retention": 1.0,
+    "all_truth_recall": 0.928,
+    "reportable_truth_recall": 0.928,
+    "FDR": 0.5245901639344263,
+    "retained_count": 244,
+    "distinct_identities": 244,
+    "case_count": 1,
+    "abstained_cases": 0,
+    "abstention_fraction": 0.0
+  },
+  "deferred": "Final selection, calibration and evaluation accounting waits for the completed sealed pilot."
+}

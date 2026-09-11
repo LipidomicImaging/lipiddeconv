@@ -1,0 +1,338 @@
+[
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_fragment",
+    "second": "sn1_ketene_loss",
+    "n": 18,
+    "correlation": -0.07707059714696726,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_fragment",
+    "second": "sn1_loss",
+    "n": 12,
+    "correlation": -0.15175652475302556,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_fragment",
+    "second": "sn2_fragment",
+    "n": 26,
+    "correlation": 0.2050239247275489,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_fragment",
+    "second": "sn2_ketene_loss",
+    "n": 23,
+    "correlation": -0.02993371043306321,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_fragment",
+    "second": "sn2_loss",
+    "n": 15,
+    "correlation": -0.20484592593770592,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_ketene_loss",
+    "second": "sn1_loss",
+    "n": 14,
+    "correlation": 0.05836540577675616,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_fragment",
+    "n": 21,
+    "correlation": -0.18016953722226212,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_ketene_loss",
+    "n": 15,
+    "correlation": 0.6549678400817478,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_loss",
+    "n": 13,
+    "correlation": -0.24867959386698174,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_loss",
+    "second": "sn2_fragment",
+    "n": 15,
+    "correlation": 0.6706765000079923,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_loss",
+    "second": "sn2_ketene_loss",
+    "n": 12,
+    "correlation": -0.25231733476642254,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn1_loss",
+    "second": "sn2_loss",
+    "n": 12,
+    "correlation": -0.4282352688697075,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn2_fragment",
+    "second": "sn2_ketene_loss",
+    "n": 22,
+    "correlation": 0.12149746612767838,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn2_fragment",
+    "second": "sn2_loss",
+    "n": 15,
+    "correlation": -0.3040321471582165,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PC+CH3COO",
+    "first": "sn2_ketene_loss",
+    "second": "sn2_loss",
+    "n": 16,
+    "correlation": -0.22238291091732562,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_fragment",
+    "second": "sn2_fragment_co2",
+    "n": 15,
+    "correlation": 0.7744870951027697,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_fragment",
+    "second": "sn2_ketene_loss",
+    "n": 41,
+    "correlation": -0.34720764673207427,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_fragment",
+    "second": "sn2_loss",
+    "n": 41,
+    "correlation": -0.674432891776213,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_fragment_co2",
+    "second": "sn2_ketene_loss",
+    "n": 15,
+    "correlation": -0.8069110943471691,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_fragment_co2",
+    "second": "sn2_loss",
+    "n": 15,
+    "correlation": -0.8751668461541172,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PEO-H",
+    "first": "sn2_ketene_loss",
+    "second": "sn2_loss",
+    "n": 41,
+    "correlation": -0.3966949575228575,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn1_fragment",
+    "n": 10,
+    "correlation": 0.4032592731819342,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn1_ketene_loss",
+    "n": 10,
+    "correlation": -0.41307405476828424,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn1_loss",
+    "n": 11,
+    "correlation": -0.12231318736014614,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn2_fragment",
+    "n": 12,
+    "correlation": 0.6462452477641024,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn2_ketene_loss",
+    "n": 10,
+    "correlation": 0.2376516438829965,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "p_glycerol",
+    "second": "sn2_loss",
+    "n": 11,
+    "correlation": 0.3166382264957754,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_fragment",
+    "second": "sn1_ketene_loss",
+    "n": 19,
+    "correlation": -0.04352105669773289,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_fragment",
+    "second": "sn1_loss",
+    "n": 22,
+    "correlation": -0.2520652404483073,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_fragment",
+    "second": "sn2_fragment",
+    "n": 25,
+    "correlation": -0.08797513574850746,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_fragment",
+    "second": "sn2_ketene_loss",
+    "n": 18,
+    "correlation": -0.36110361655107964,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_fragment",
+    "second": "sn2_loss",
+    "n": 24,
+    "correlation": -0.2728408180972309,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_ketene_loss",
+    "second": "sn1_loss",
+    "n": 20,
+    "correlation": -0.07751894159953954,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_fragment",
+    "n": 20,
+    "correlation": -0.5406845393726997,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_ketene_loss",
+    "n": 16,
+    "correlation": -0.2266741497173286,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_ketene_loss",
+    "second": "sn2_loss",
+    "n": 19,
+    "correlation": -0.029940813914390706,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_loss",
+    "second": "sn2_fragment",
+    "n": 23,
+    "correlation": -0.39850017141086935,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_loss",
+    "second": "sn2_ketene_loss",
+    "n": 18,
+    "correlation": 0.274556633750645,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn1_loss",
+    "second": "sn2_loss",
+    "n": 24,
+    "correlation": 0.0458604202394935,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn2_fragment",
+    "second": "sn2_ketene_loss",
+    "n": 19,
+    "correlation": -0.2995366136345501,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn2_fragment",
+    "second": "sn2_loss",
+    "n": 25,
+    "correlation": -0.4224565046281946,
+    "centered_compositional_correlation": true
+  },
+  {
+    "rule": "PS-H",
+    "first": "sn2_ketene_loss",
+    "second": "sn2_loss",
+    "n": 19,
+    "correlation": 0.41161744810578277,
+    "centered_compositional_correlation": true
+  }
+]

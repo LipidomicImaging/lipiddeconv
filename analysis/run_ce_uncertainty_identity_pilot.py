@@ -93,19 +93,23 @@ class Problem:
                              options=dict(primal_feasibility_tolerance=1e-9, dual_feasibility_tolerance=1e-9,
                                           ipm_optimality_tolerance=1e-10, time_limit=remaining))
             attempts.append(dict(method=method, status=int(result.status), message=str(result.message)))
-            if result.success:
-                break
-        assert result.success, attempts
-        x = np.clip(result.x[:self.n], 0, upper[:self.n])
-        w = np.clip(result.x[self.n:self.n+self.g], self.low*x[self.owner], self.high*x[self.owner])
-        residual = self.fixed @ x + self.D @ w - self.b
-        primal = np.r_[x, w, abs(residual)]
-        dual = np.minimum(result.ineqlin.marginals, 0.)
-        lb, ub = self.check_bounds(primal, dual, upper)
-        assert ub - lb <= 1e-6, (lb, ub, result.fun)
-        return dict(lower=lb, upper=ub, seconds=time.monotonic()-started,
-                    objective=float(result.fun), backend_attempts=attempts,
-                    proof="GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"), primal, dual
+            if not result.success:
+                continue
+            x = np.clip(result.x[:self.n], 0, upper[:self.n])
+            w = np.clip(result.x[self.n:self.n+self.g], self.low*x[self.owner], self.high*x[self.owner])
+            residual = self.fixed @ x + self.D @ w - self.b
+            primal = np.r_[x, w, abs(residual)]
+            dual = np.minimum(result.ineqlin.marginals, 0.)
+            try:
+                lb, ub = self.check_bounds(primal, dual, upper)
+                assert ub - lb <= 1e-6, (lb, ub, result.fun)
+            except AssertionError as exc:
+                attempts[-1]["numerical_validation_error"] = repr(exc)
+                continue
+            return dict(lower=lb, upper=ub, seconds=time.monotonic()-started,
+                        objective=float(result.fun), backend_attempts=attempts,
+                        proof="GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"), primal, dual
+        raise RuntimeError("LP_NUMERICAL_FAILURE: " + json.dumps(attempts))
 
     def check_bounds(self, primal, dual, upper):
         import numpy as np

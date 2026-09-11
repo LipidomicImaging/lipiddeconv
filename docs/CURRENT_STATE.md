@@ -1,3 +1,9 @@
+# CE pilot: two calibration cases reviewed; strict numerical recovery — 2026-09-11
+
+MILD CAL_R1 and close-neighbor omission R1 completed and independently passed232/245 full-plus-deletion proof checks. The recovered snapshot is results/ce_uncertainty_identity_pilot_run03; the earlier first-case snapshot remains separate. Four independent CPU workers preserve the original LP, tolerances,60s per-problem budget and CAL-before-EVAL ordering.365 saved identity results were revalidated, not silently rebound.
+
+Relatively-isolated R1 full-model LP was rejected because its bound gap1.52e-6 exceeded the unchanged1e-6 limit, before any calibration or evaluation result. Retry of the identical problem now also covers failed numerical certification, using HiGHS IPM within the same budget. Preserve all run00-run03 records; reuse only independently valid completed evidence in a new run04 directory. No U/threshold/target change and no GPU training. Main endpoint remains independently validated FDR<=1% and retention>=40%; no pilot performance conclusion yet.
+
 # CE identity pilot RUNNING; first case independently reviewed — 2026-09-11
 
 Remote CPU run:/root/v58_jobs/ce_uncertainty_identity_pilot_run02, PID81846, code frozen as79b01682fe08ca3c501af9b4d09d3e99278fa0c0. Two earlier execution stops are preserved (parser mode, then invalid HiGHS status before first case completion). Same LP now retries HiGHS IPM only after non-success, sharing the original60s cap and unchanged tolerances; partial evidence saved every25 identities. No scientific model/target changes.

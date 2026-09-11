@@ -3,6 +3,8 @@ import argparse
 import hashlib
 import json
 import os
+import re
+import subprocess
 from pathlib import Path
 
 for key in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS'):
@@ -108,7 +110,16 @@ def review(root, partial_case=None, transfer_manifest=None):
         assert sha(root/'calibration_seal.json') == summary['calibration_seal_sha256']
     protocol = read(root/'protocol.json')
     assert protocol['continue_target'] == {'FDR':.01,'TP_retention':.4}
-    assert protocol['script_sha256'] == sha(Path('analysis/run_ce_uncertainty_identity_pilot.py'))
+    launches = [read(p) for p in (root/'execution_records').glob('*launch.json')]
+    launches = [r for r in launches if r['script_sha256']==protocol['script_sha256']]
+    assert launches, 'Missing exact historical implementation binding'
+    repository = Path(__file__).resolve().parents[1]
+    for launch in launches:
+        commit = launch['git_prefreeze_commit']
+        assert re.fullmatch('[0-9a-f]{40}',commit)
+        content = subprocess.check_output(['git','-c','safe.directory='+repository.as_posix(),
+                    'show',commit+':analysis/run_ce_uncertainty_identity_pilot.py'],cwd=repository)
+        assert hashlib.sha256(content).hexdigest()==protocol['script_sha256']
     assert read(root/'self_test.json')['status'] == 'PASS'
     with np.load(uncertainty/'component_fractions.npz') as data:
         fractions = data['fractions']
