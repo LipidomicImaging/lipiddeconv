@@ -1,3 +1,9 @@
+# Westc missing-library audit and scoped cleanup COMPLETED — 2026-09-11
+
+Six completed omission fits and three cached full-library controls have been reviewed. All127 compact source files and the exact24-file retirement plan were successfully pushed as95591b05366097b2773e349c9098ee693af0f786 before deletion. The24 ordinary intermediate checkpoints were then retired;949983592 bytes (0.885GiB) freed. Data free space rose from3803459584 to4753518592 bytes (4.43GiB; df rounds to4.5G,92% used). GPU remains0%/0MiB. All178 protected remote hashes and127 local source hashes pass after deletion.
+
+Final learned arrays, result-bound latest_model.pth, epoch3000 models, candidate/molecular records, histories/diagnostics, CAL sources/seals and all full-library parent checkpoints remain. The cleanup never touched V58/V59 or production assets. Receipt, exact removed paths/hashes and independent miss accounting are in results/missing_library_final_review_20260911. py_compile and diff-check pass. No training, synthetic reconstruction, rho or threshold recalibration was executed. The requested cleanup task is COMPLETE; push the receipt and stop. The separate CE uncertainty pilot remains unfinished and was not launched during this task.
+
 # Missing-library final audit complete; scoped retirement pending push — 2026-09-11
 
 All six reduced-library fits and three reused complete-library controls reviewed in results/missing_library_final_review_20260911. Remote runtime/design, normal completion, finite outputs/history/final models and source hashes pass; all127 downloaded compact source files match, independent local molecular counts match. Original V57 CAL thresholds remain fixed. rho FDR1 transfer yields observed FDR38.24%/39.74% in close-neighbor/relatively-isolated arms versus0/361 false contexts in the complete-library controls. This is CLEAN missing-library stress, not joint mismatch+omission; three mappings are not biological replication.

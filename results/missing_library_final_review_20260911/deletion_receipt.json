@@ -1,0 +1,231 @@
+{
+  "status": "COMPLETE",
+  "started_utc": "2026-09-11T13:39:50.434904+00:00",
+  "git_snapshot_commit": "95591b05366097b2773e349c9098ee693af0f786",
+  "plan_sha256": "6517053130367312728f61a14e93300d9be1b28ce729be4976d0cb459f13e66d",
+  "free_bytes_before": 3803459584,
+  "removed_files": [
+    {
+      "case_id": "close_neighbor__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "676ec109c9cad16b662f9b4b2d87a2b07c4df4b40436dedef54b7e7dfe165ba4",
+      "bytes": 39564335,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "fbda00a53a4b18b63c745234d602054463a5db6512cf0df9d44d21418af67d22",
+      "bytes": 39576623,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "4a6961e8dcc0880eb314efbb396fc0be72fe6bf236cbb5c8c7d8a1f9360dcd63",
+      "bytes": 39588847,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "9ce8922d002b549d6ee5d2de00ceb1571717d2f7c94f1caaa704025f0a98838c",
+      "bytes": 39600879,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "84ee26b65529c9ea7168146a50f4c3f42ebafc11c30f2d2d4e795e5f05101f54",
+      "bytes": 39564399,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "8f5f328541e4a3058d303edc2c28b8ac793fdacb89ddb359bd98bd9eebaa0831",
+      "bytes": 39576751,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "ee03dcccd7c70a5435900e862f91f79e6e12dcca074107ee80952a402b73d4f4",
+      "bytes": 39588975,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "e6b414168db3fbbb6e3fb00c27f4bdfb16faa16154ec3aa986377432043835c4",
+      "bytes": 39601007,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "c969321a2af2b91d3beb77c74bc7c54942b4841f60999c59bd7ed9f643e34072",
+      "bytes": 39564271,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "f1c20bf14c31ed384d08c50c6c11e3f49c03ef733989370e4cfd4eba4122a3f0",
+      "bytes": 39576495,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "a3e634361d586c0f2c5f3fd0ed27cc88c9c9d70b6a6bafaca7530fad4cb71a12",
+      "bytes": 39588655,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "close_neighbor__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/close_neighbor__HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "d748abd2518ebc57e6d451a6a74edb8b540e02ae22b4b39729aa882221c3b69d",
+      "bytes": 39600815,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "fa2a65c2cf9716bb5a2641a3cd85882947b202e3cb3a568e04f7334b88b6b3f6",
+      "bytes": 39564271,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "eacc620a4f677c625a901ae3eca98a378e3c3aea8cf2d569c7da4cc489db9b9a",
+      "bytes": 39576559,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "682a1cca0797bec7613a4de502b9177141d57f3f33bb053212694e3645ccc3c6",
+      "bytes": 39588783,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "80ff2ea80486ec45f737fcf50b57c7975279838f5f41c6fc4cae1eb04b02b8c0",
+      "bytes": 39600943,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "e6741ff77e9eb6aa16a444f818a619e01324c27af562684f0bd6e9471cdebcb2",
+      "bytes": 39564463,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "efaccc2462bf4cc26f806a32a800d11f164a90cd9b71708e09728f4a442aedd2",
+      "bytes": 39576751,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "e1bd497d0c1346e6bb2744a16a313e11d18ed51d35182e8ecbe9739f6ed8866c",
+      "bytes": 39588847,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "ff41578b43cee90b2422004657063c6c01b8e7d4e81e9688dee901f34738cfd4",
+      "bytes": 39600879,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "symlink": false,
+      "sha256": "c0dbc59feb5159886ccb7cfc4fa39888033ae4e49f20b8b63d2ad24de1cc7efc",
+      "bytes": 39564207,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "symlink": false,
+      "sha256": "a6729e3b8a83dde083ada9daee44bae30e192aead9992bf49dd5896409468807",
+      "bytes": 39576495,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "symlink": false,
+      "sha256": "5a0b7d6098b23508b29ec8cb219ab4ca52d735d699dd4ede27344fe0d79cc53a",
+      "bytes": 39588655,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    },
+    {
+      "case_id": "relatively_isolated__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "symlink": false,
+      "sha256": "8b52af9506a7c6c6d3275bc62ea6592c02122a10ba4b112222957665ea9c6db4",
+      "bytes": 39600687,
+      "reason": "Completed reduced-library fit; intermediate reload is not required by result verifier, final aggregation, cached pilot, or resume. Diagnostics and terminal models remain."
+    }
+  ],
+  "finished_utc": "2026-09-11T13:39:51.881029+00:00",
+  "freed_bytes": 949983592,
+  "free_bytes_after": 4753518592,
+  "all_preserved_hashes_valid": true,
+  "protected_file_count": 178,
+  "result_verifier_dependencies_unchanged": true
+}

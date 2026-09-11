@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "receipt_sha256": "6390169b75d2c0571ed91ee65968453e859f3324537b67351b08b1b1f2b1c016",
+  "snapshot_commit": "95591b05366097b2773e349c9098ee693af0f786",
+  "exact_plan_membership": true,
+  "deleted_file_count": 24,
+  "freed_bytes": 949983592,
+  "free_bytes_after": 4753518592,
+  "retained_remote_hashes_verified": 178,
+  "retained_local_source_hashes_verified": 127,
+  "result_artifacts_latest_and_terminal_models_preserved": true,
+  "no_training_or_rho_reexecuted": true
+}
