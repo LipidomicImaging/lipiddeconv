@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_files_verified": 412,
+  "source_snapshot_commit": "4f6eda6308698eb4949d0b0ec052b5cc606e4c49",
+  "source_cleanup_plan_sha256": "258dc06b43221fa586d204439146387ee87c0cb37381bdeeee022b916fe6baef",
+  "limitations": [
+    "HOLD envelope uses labels retrospectively; it is not a deployable cutoff or independent validation.",
+    "MODERATE incomplete and K/replicate-unbalanced; no severity effect estimate.",
+    "Identity summaries are descriptive, not adjusted causal effects or enrichment p-values.",
+    "No training, rho recomputation, threshold modification or extra asset scan."
+  ]
+}

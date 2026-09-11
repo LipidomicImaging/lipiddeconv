@@ -1,0 +1,9 @@
+{
+  "status": "RESEARCH_PROTOCOL_FROZEN_NOT_EXECUTION_READY",
+  "protocol_path": "docs\\MISMATCH_CONFIDENCE_PILOT.md",
+  "protocol_sha256": "3446c630b3f9836dff1b9b9120a665ad7917ccd40194dc5d40c04788221044ec",
+  "planned_new_learned_runs": 6,
+  "new_learned_runs_started": 0,
+  "implementation_status": "PENDING_CPU_IMPLEMENTATION_AND_PARITY",
+  "test_scope": "new perturbation draws on previously exposed identity pool; not unseen-identity validation"
+}
