@@ -9,6 +9,8 @@ import shutil
 import sys
 import time
 import traceback
+from concurrent.futures import ProcessPoolExecutor
+from multiprocessing import get_context
 
 for key in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
     os.environ[key] = "1"
@@ -122,7 +124,7 @@ class Problem:
         return lb, ub
 
 
-def self_test():
+def self_test(workers=1):
     import numpy as np
     A = np.array([[1., 0.], [1., 1.]])
     fixed = np.array([[1., 0.], [0., 1.]])
@@ -136,8 +138,52 @@ def self_test():
     fixed_problem = Problem(A, np.zeros((2, 0)), np.array([], dtype=int), np.array([]), np.array([]), np.array([1., 1.2]))
     old, _, _ = fixed_problem.solve([1])
     assert abs(old["upper"] - 1e-8 - 1/11) < 1e-7
+    if workers > 1:
+        with ProcessPoolExecutor(max_workers=workers,mp_context=get_context("spawn"),
+                                 initializer=init_deletion_worker,initargs=(problem,)) as executor:
+            parallel = list(executor.map(deletion_worker,([0],[1])))
+        for value,expected in zip(parallel,(true_deleted,false_deleted)):
+            assert abs(value[0]["lower"]-expected["lower"])<1e-9
+            assert abs(value[0]["upper"]-expected["upper"])<1e-9
     return dict(status="PASS", exact_tiny_case=True, all_same_identity_components_removed=True,
-                false_necessity_removed_by_allowed_true_variation=True, known_global_values_and_dual_bounds=True)
+                false_necessity_removed_by_allowed_true_variation=True, known_global_values_and_dual_bounds=True,
+                parallel_workers_checked=workers)
+
+
+def init_deletion_worker(problem):
+    global WORKER_PROBLEM
+    WORKER_PROBLEM = problem
+
+
+def deletion_worker(removed):
+    return WORKER_PROBLEM.solve(removed)
+
+
+def reuse_inputs(args):
+    """Reuse only byte-verified prepared inputs from this exact pilot contract."""
+    previous = read(args.resume_from/"protocol.json")
+    assert previous["version"] == "CE_UNCERTAINTY_IDENTITY_LP_V1"
+    assert previous["uncertainty_manifest_sha256"] == sha(args.uncertainty/"provenance.json")
+    assert previous["continue_target"] == dict(FDR=.01, TP_retention=.4)
+    expected = {f"{k}__{s}_R{r}_K125" for k,s in
+                (("MILD","CAL"),("close_neighbor","HOLD"),("relatively_isolated","HOLD")) for r in (1,2)}
+    sources = args.resume_from/"inputs"
+    assert {p.name for p in sources.iterdir() if p.is_dir()} == expected
+    items = []
+    for key in sorted(expected):
+        source = sources/key
+        item = read(source/"pilot_input.json")
+        assert item["dataset"] == key and item["normal_completion"] and item["runtime_binding_verified"]
+        assert sha(source/"scoring_inputs.npz") == item["scoring_inputs_sha256"]
+        for name, expected_hash in item["original_artifacts"].items():
+            assert sha(source/name) == expected_hash == sha(Path(item["source_dir"])/name)
+        dest = args.output/"inputs"/key
+        shutil.copytree(source,dest)
+        item["input_dir"] = str(dest)
+        write(dest/"pilot_input.json",item)
+        items.append(item)
+    # Preserve the original declared kind order within R1 and then R2.
+    return sorted(items,key=lambda i:(i["role"]!="DEVELOPMENT_CAL", ("MILD","close_neighbor","relatively_isolated").index(i["kind"])))
 
 
 def counts(cases, eps=None, score=None, threshold=None):
@@ -297,12 +343,43 @@ def score_case(item, args, fractions, components):
     data = np.load(source/"scoring_inputs.npz")
     model_args = model(data["A"], fractions, components, data["kept"].tolist())
     problem = Problem(*model_args, data["b"])
-    full, full_x, full_y = problem.solve()
-    proofs = {"full_primal":full_x, "full_dual":full_y}
+    dest = args.output/"scores"/item["dataset"]
+    old = args.resume_from/"scores"/item["dataset"] if args.resume_from else None
+    old_item = read(args.resume_from/"inputs"/item["dataset"]/"pilot_input.json") if args.resume_from else None
+    if old_item:
+        assert {k:v for k,v in old_item.items() if k!="input_dir"} == {k:v for k,v in item.items() if k!="input_dir"}
+    cached = read(old/"scores.json") if old and (old/"scores.json").exists() else None
+    partial = read(old/"partial_scores.json") if old and (old/"partial_scores.json").exists() else None
+    output = []
+    if cached or partial:
+        saved = cached or partial
+        proof_file = old/("proofs.npz" if cached else "partial_proofs.npz")
+        assert sha(proof_file) == saved["proofs_sha256"]
+        with np.load(proof_file) as z:
+            proofs = {name:z[name].copy() for name in z.files}
+        full = saved["full"]
+        full_x,full_y = proofs["full_primal"],proofs["full_dual"]
+        lo,hi = problem.check_bounds(full_x,full_y,problem.upper)
+        assert abs(lo-full["lower"])<=1e-9 and abs(hi-full["upper"])<=1e-9
+        ordered = sorted(item["records"],key=lambda r:item["names"].index(r["lipid_name"]))
+        for i,row in enumerate(saved["records"]):
+            assert {k:v for k,v in row.items() if k not in ("deleted","removed","proof_index")} == ordered[i]
+            removed = [j for j,n in enumerate(item["names"]) if n==row["lipid_name"]]
+            assert row["removed"] == removed and row["proof_index"] == i
+            if row["deleted"]["proof"] == "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS":
+                assert np.all(full_x[removed]==0) and row["deleted"]["lower"]==full["lower"] and row["deleted"]["upper"]==full["upper"]
+            else:
+                upper=problem.upper.copy();upper[removed]=0
+                upper[problem.n+np.flatnonzero(np.isin(problem.owner,removed))]=0
+                lo,hi=problem.check_bounds(proofs[f"primal_{i}"],proofs[f"dual_{i}"],upper)
+                assert abs(lo-row["deleted"]["lower"])<=1e-9 and abs(hi-row["deleted"]["upper"])<=1e-9 and hi-lo<=1e-6
+            output.append(row)
+        print("VERIFIED_SAVED_IDENTITIES",item["dataset"],len(output),flush=True)
+    else:
+        full, full_x, full_y = problem.solve()
+        proofs = {"full_primal":full_x, "full_dual":full_y}
     if full["seconds"] > 30:
         raise RuntimeError("STOP_COST: full LP >30s")
-    output = []
-    dest = args.output/"scores"/item["dataset"]
     dest.mkdir(parents=True)
     def save_progress(failed_identity=None):
         temporary = dest/"partial_proofs.tmp.npz"
@@ -312,15 +389,30 @@ def score_case(item, args, fractions, components):
             completed_identity_count=len(output),failed_identity=failed_identity,
             proofs_sha256=sha(dest/"partial_proofs.npz")))
     save_progress()
-    for i, row in enumerate(sorted(item["records"], key=lambda r: item["names"].index(r["lipid_name"]))):
+    start = len(output)
+    ordered = sorted(item["records"], key=lambda r: item["names"].index(r["lipid_name"]))
+    executor = None
+    futures = {}
+    for i, row in enumerate(ordered):
+        if i < start:
+            continue
+        if args.workers > 1 and i >= 8 and executor is None:
+            executor = ProcessPoolExecutor(max_workers=args.workers,mp_context=get_context("spawn"),
+                                           initializer=init_deletion_worker,initargs=(problem,))
+            for index in range(i,len(ordered)):
+                removal = [j for j,n in enumerate(item["names"]) if n==ordered[index]["lipid_name"]]
+                if not np.all(full_x[removal]==0):
+                    futures[index] = executor.submit(deletion_worker,removal)
         removed = [j for j, n in enumerate(item["names"]) if n == row["lipid_name"]]
         if np.all(full_x[removed] == 0):
             deleted = dict(full, seconds=0., proof="FULL_ZERO_IDENTITY_FEASIBLE_WITNESS")
         else:
             try:
-                deleted, px, dy = problem.solve(removed)
+                deleted, px, dy = futures[i].result() if i in futures else problem.solve(removed)
             except BaseException:
                 save_progress(dict(lipid_name=row["lipid_name"],removed=removed,proof_index=i,error=traceback.format_exc()))
+                if executor:
+                    executor.shutdown(wait=True,cancel_futures=True)
                 raise
             proofs[f"primal_{i}"] = px; proofs[f"dual_{i}"] = dy
         assert deleted["upper"] >= full["lower"] - 1e-8
@@ -331,13 +423,16 @@ def score_case(item, args, fractions, components):
             raise RuntimeError("STOP_COST: first8 median LP >10s")
         if (i+1) % 50 == 0:
             print(item["dataset"], i+1, "/", len(item["records"]), flush=True)
+    if executor:
+        executor.shutdown(wait=True)
     save_progress()
     (dest/"partial_proofs.npz").replace(dest/"proofs.npz")
     progress = read(dest/"partial_scores.json")
     progress.update(status="CASE_COMPLETE",proof_file="proofs.npz")
     write(dest/"partial_scores.json",progress)
     result = {k:v for k,v in item.items() if k != "records"}
-    result.update(full=full, records=output, proofs_sha256=sha(dest/"proofs.npz"))
+    result.update(full=full, records=output, proofs_sha256=sha(dest/"proofs.npz"),
+                  cached_identity_count=start,cached_source_dir=str(old) if start else None)
     write(dest/"scores.json", result)
     return result
 
@@ -345,7 +440,7 @@ def score_case(item, args, fractions, components):
 def main(args):
     import numpy as np
     if args.action == "self-test":
-        print(json.dumps(self_test())); return
+        print(json.dumps(self_test(args.workers))); return
     args.output.mkdir(parents=True, exist_ok=False)
     write(args.output/"self_test.json", self_test())
     uncertainty = read(args.uncertainty/"provenance.json")
@@ -361,7 +456,12 @@ def main(args):
         strong_retention=.6, all_truth_denominators_preserved=True, no_GPU_training=True,
         bounds="finite redundant optimizer bounds, global LP weak duality and feasible witnesses, 1e-8 guards",
         formal_completion="independent CAL/HOLD FDR<=1% and TP retention>=40%;60% not required"))
-    items = prepare(args)
+    if args.resume_from:
+        write(args.output/"resume_provenance.json",dict(source=str(args.resume_from),
+            previous_protocol_sha256=sha(args.resume_from/"protocol.json"),
+            completed_and_partial_scores_require_revalidation=True,workers=args.workers,
+            scientific_inputs_objective_tolerances_and_targets_unchanged=True))
+    items = reuse_inputs(args) if args.resume_from else prepare(args)
     fractions = np.load(args.uncertainty/"component_fractions.npz")["fractions"]
     components = read(args.uncertainty/"components.json")
     calibrated = [score_case(i,args,fractions,components) for i in items if i["role"] == "DEVELOPMENT_CAL"]
@@ -400,6 +500,8 @@ if __name__ == "__main__":
     p.add_argument("--asset-root",type=Path,default=Path("/root/autodl-tmp/decon-lipid"))
     p.add_argument("--uncertainty",type=Path,default=Path("/root/v58_jobs/ce133_uncertainty_v1_ready"))
     p.add_argument("--output",type=Path,default=Path("/root/v58_jobs/ce_uncertainty_identity_pilot"))
+    p.add_argument("--resume-from",type=Path)
+    p.add_argument("--workers",type=int,choices=(1,4),default=1)
     a=p.parse_args()
     try:
         main(a)
