@@ -1,3 +1,11 @@
+# Identity-first priority and utility targets recorded — 2026-09-11
+
+Primary route: docs/IDENTITY_FIRST_UNCERTAINTY_ROUTE.md. User targets fixed for the NEW route: FDR<=1%, TP retention>=40% minimum continuation,>=60% strong utility; quantification deferred. Exact U, epsilon_valid, pilot membership/aggregation and independent risk assessment are NOT yet frozen. Abstention keeps its original denominators; safe missing-library rejection can still fail utility. Numerical optimizer failure is not proof of identity or model incompatibility. Do not apply new targets retrospectively to completed frozen pilots.
+
+NEXT: bounded CE133 capability audit using results/rho_mismatch_mechanism_ce_audit, its directly referenced target CSV and required direct source/OOF lineage. Assess valid channel alignment, peak absence versus masks/censoring, ambiguous/shared peak assignments and supported co-variation; no new score, arbitrary perturbations, raw processing or training. Output a supported U proposal or explicit data insufficiency. Prior133/66 counts establish availability only, not completion of this deeper capability audit.
+
+New V59/V60 expansion and large quantification experiments deferred. Existing job audits/Git preservation and the missing-library challenge remain relevant; no remote job stopped or artifact removed by this planning turn. Known-support/full-library/group quantification is future work and needs separate coefficient/ion-signal/molar estimands. Planning record complete; broader identity objective remains OPEN.
+
 # rho mismatch explanation and matched CE asset audit COMPLETED — 2026-09-11
 
 User-confirmed CE30/35/40 data located through the known production report's direct target_csv reference. results/rho_mismatch_mechanism_ce_audit contains the source hashes, exact identity/adduct/rule keys and record manifest:389 selected DDA annotated rows,133 identities at >=2 energies,66 at all3; pair counts30/35=107,30/40=81,35/40=77. These rows already trained the final production CE adapter. They are developmental evidence, not independent final validation or verified pure standard spectra; same-CE repeats and full upstream independence remain unverified. This supersedes the earlier limited inventory's uncertainty about asset availability, while preserving that historical record.
