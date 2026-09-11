@@ -1,3 +1,7 @@
+# V58 storage cleanup completed — 2026-09-11
+
+Completed requested50-case analysis/Git/cleanup handoff. Snapshot pushed as4f6eda6308698eb4949d0b0ec052b5cc606e4c49 BEFORE deletion.230 intermediate/redundant checkpoints retired with per-file hashes;8.588GiB freed (root5.974GiB, data2.614GiB). Final epoch3000 models, learned arrays, all result/provenance tables and all sentinel-related cases remain. Remote deletion receipt and all retained source hashes verified; see results/v58_completed_snapshot_20260911/deletion_receipt.json. At04:32UTC V58 still50/60, active MODERATE__HOLD_R2_K175, no restart; data free6.2GiB/root8.1GiB. Final60-case aggregation and missing-library handoff remain pending. Keep existing storage guards; no further files authorized for automatic deletion beyond this exact completed plan.
+
 # V58 storage review — 2026-09-11
 
 50/60 completed-case snapshot audited under results/v58_completed_snapshot_20260911. Both severity CAL freezes use the original runner and full15 CAL cases before HOLD review. MILD HOLD15/15: CLEAN_FIXED rho FDR37.16%, recall80.69%; local FDR5 rho FDR3.90%, recall21.14%, filter loss1310. MODERATE HOLD5/15 is interim. No outcome-driven changes. Planned retirement of230 intermediate/redundant checkpoints frees8.588GiB across root/data, retains final models/arrays/all records and all sentinel cases; deletion occurs only after snapshot Git push, then hash-verified receipt.
