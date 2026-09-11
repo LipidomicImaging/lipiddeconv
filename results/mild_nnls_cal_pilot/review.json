@@ -1,0 +1,344 @@
+{
+  "status": "REVIEWED_CAL_ONLY",
+  "source_and_output_hashes_valid": true,
+  "arrays": "Retained and rehashed remotely; not placed in lightweight Git.",
+  "arms": {
+    "MILD_NNLS": {
+      "raw_TP": 125,
+      "raw_FP": 86,
+      "raw_FN": 0,
+      "raw_FDR": 0.4075829383886256,
+      "raw_recall": 1.0,
+      "scores": {
+        "rho_zero": {
+          "usable": 211,
+          "usable_TP": 125,
+          "usable_FP": 86,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 1.0,
+          "AUROC": 0.6445581395348837,
+          "AP": 0.7694289446491313,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 2.329625636972671e-05,
+              "TP": 28,
+              "FP": 1,
+              "FDR": 0.034482758620689655,
+              "precision": 0.9655172413793104,
+              "all_truth_recall": 0.224,
+              "TP_retention": 0.224,
+              "reportable_truth_recall": 0.224,
+              "coverage": 0.13744075829383887,
+              "solver_FN": 0,
+              "post_solver_true_loss": 97
+            },
+            "0.01": {
+              "threshold": 3.9999303122907696e-05,
+              "TP": 20,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.16,
+              "TP_retention": 0.16,
+              "reportable_truth_recall": 0.16,
+              "coverage": 0.0947867298578199,
+              "solver_FN": 0,
+              "post_solver_true_loss": 105
+            }
+          }
+        },
+        "X_hat": {
+          "usable": 211,
+          "usable_TP": 125,
+          "usable_FP": 86,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 1.0,
+          "AUROC": 0.8412093023255814,
+          "AP": 0.8933558108076798,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 0.017419135065479863,
+              "TP": 47,
+              "FP": 1,
+              "FDR": 0.020833333333333332,
+              "precision": 0.9791666666666666,
+              "all_truth_recall": 0.376,
+              "TP_retention": 0.376,
+              "reportable_truth_recall": 0.376,
+              "coverage": 0.22748815165876776,
+              "solver_FN": 0,
+              "post_solver_true_loss": 78
+            },
+            "0.01": {
+              "threshold": 0.018412355570183926,
+              "TP": 45,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.36,
+              "TP_retention": 0.36,
+              "reportable_truth_recall": 0.36,
+              "coverage": 0.2132701421800948,
+              "solver_FN": 0,
+              "post_solver_true_loss": 80
+            }
+          }
+        }
+      }
+    },
+    "CLEAN_NNLS": {
+      "raw_TP": 125,
+      "raw_FP": 0,
+      "raw_FN": 0,
+      "raw_FDR": 0.0,
+      "raw_recall": 1.0,
+      "scores": {
+        "rho_zero": {
+          "usable": 125,
+          "usable_TP": 125,
+          "usable_FP": 0,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 1.0,
+          "AUROC": null,
+          "AP": 1.0,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 3.0491092908005636e-09,
+              "TP": 125,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 1.0,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 1.0,
+              "coverage": 1.0,
+              "solver_FN": 0,
+              "post_solver_true_loss": 0
+            },
+            "0.01": {
+              "threshold": 3.0491092908005636e-09,
+              "TP": 125,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 1.0,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 1.0,
+              "coverage": 1.0,
+              "solver_FN": 0,
+              "post_solver_true_loss": 0
+            }
+          }
+        },
+        "X_hat": {
+          "usable": 125,
+          "usable_TP": 125,
+          "usable_FP": 0,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 1.0,
+          "AUROC": null,
+          "AP": 1.0,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 0.007352493175171309,
+              "TP": 125,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 1.0,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 1.0,
+              "coverage": 1.0,
+              "solver_FN": 0,
+              "post_solver_true_loss": 0
+            },
+            "0.01": {
+              "threshold": 0.007352493175171309,
+              "TP": 125,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 1.0,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 1.0,
+              "coverage": 1.0,
+              "solver_FN": 0,
+              "post_solver_true_loss": 0
+            }
+          }
+        }
+      }
+    },
+    "CLEAN_ISTA": {
+      "raw_TP": 123,
+      "raw_FP": 102,
+      "raw_FN": 2,
+      "raw_FDR": 0.4533333333333333,
+      "raw_recall": 0.984,
+      "scores": {
+        "rho_zero": {
+          "usable": 225,
+          "usable_TP": 123,
+          "usable_FP": 102,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 0.984,
+          "AUROC": 1.0,
+          "AP": 1.0,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 3.0491092908005636e-09,
+              "TP": 123,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.984,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 0.984,
+              "coverage": 0.5466666666666666,
+              "solver_FN": 2,
+              "post_solver_true_loss": 0
+            },
+            "0.01": {
+              "threshold": 3.0491092908005636e-09,
+              "TP": 123,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.984,
+              "TP_retention": 1.0,
+              "reportable_truth_recall": 0.984,
+              "coverage": 0.5466666666666666,
+              "solver_FN": 2,
+              "post_solver_true_loss": 0
+            }
+          }
+        },
+        "X_hat": {
+          "usable": 225,
+          "usable_TP": 123,
+          "usable_FP": 102,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 0.984,
+          "AUROC": 0.8738243264785589,
+          "AP": 0.8969159383092995,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 0.014206224233064956,
+              "TP": 51,
+              "FP": 2,
+              "FDR": 0.03773584905660377,
+              "precision": 0.9622641509433962,
+              "all_truth_recall": 0.408,
+              "TP_retention": 0.4146341463414634,
+              "reportable_truth_recall": 0.408,
+              "coverage": 0.23555555555555555,
+              "solver_FN": 2,
+              "post_solver_true_loss": 72
+            },
+            "0.01": {
+              "threshold": 0.018876060766355677,
+              "TP": 36,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.288,
+              "TP_retention": 0.2926829268292683,
+              "reportable_truth_recall": 0.288,
+              "coverage": 0.16,
+              "solver_FN": 2,
+              "post_solver_true_loss": 87
+            }
+          }
+        }
+      }
+    },
+    "MILD_ISTA": {
+      "raw_TP": 122,
+      "raw_FP": 109,
+      "raw_FN": 3,
+      "raw_FDR": 0.47186147186147187,
+      "raw_recall": 0.976,
+      "scores": {
+        "rho_zero": {
+          "usable": 231,
+          "usable_TP": 122,
+          "usable_FP": 109,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 0.976,
+          "AUROC": 0.7339825537674838,
+          "AP": 0.782225022611081,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 1.9372376049906116e-05,
+              "TP": 32,
+              "FP": 1,
+              "FDR": 0.030303030303030304,
+              "precision": 0.9696969696969697,
+              "all_truth_recall": 0.256,
+              "TP_retention": 0.26229508196721313,
+              "reportable_truth_recall": 0.256,
+              "coverage": 0.14285714285714285,
+              "solver_FN": 3,
+              "post_solver_true_loss": 90
+            },
+            "0.01": {
+              "threshold": 2.329625636972671e-05,
+              "TP": 28,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.224,
+              "TP_retention": 0.22950819672131148,
+              "reportable_truth_recall": 0.224,
+              "coverage": 0.12121212121212122,
+              "solver_FN": 3,
+              "post_solver_true_loss": 94
+            }
+          }
+        },
+        "X_hat": {
+          "usable": 231,
+          "usable_TP": 122,
+          "usable_FP": 109,
+          "excluded_reported_TP": 0,
+          "all_truth_recall_ceiling": 0.976,
+          "AUROC": 0.8828395247405625,
+          "AP": 0.8884072144793397,
+          "retrospective_best": {
+            "0.05": {
+              "threshold": 0.015527406170321294,
+              "TP": 45,
+              "FP": 2,
+              "FDR": 0.0425531914893617,
+              "precision": 0.9574468085106383,
+              "all_truth_recall": 0.36,
+              "TP_retention": 0.36885245901639346,
+              "reportable_truth_recall": 0.36,
+              "coverage": 0.20346320346320346,
+              "solver_FN": 3,
+              "post_solver_true_loss": 77
+            },
+            "0.01": {
+              "threshold": 0.025861129613767853,
+              "TP": 13,
+              "FP": 0,
+              "FDR": 0.0,
+              "precision": 1.0,
+              "all_truth_recall": 0.104,
+              "TP_retention": 0.10655737704918032,
+              "reportable_truth_recall": 0.104,
+              "coverage": 0.05627705627705628,
+              "solver_FN": 3,
+              "post_solver_true_loss": 109
+            }
+          }
+        }
+      }
+    }
+  },
+  "shared_rho_max_difference": {
+    "CLEAN": 0.0,
+    "MILD": 0.0
+  },
+  "interpretation_limit": "Single CAL pair, no independent FDR guarantee; different fitting objectives. Rho depends on A/B and reported identity, not fitted abundance except candidate selection."
+}

@@ -1,0 +1,1901 @@
+[
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 16:0_24:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.85505181597886e-05,
+    "X_hat": 0.02535342981688917
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.1824595780249055e-06,
+    "X_hat": 0.007636022096418485
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.7148736016660327e-05,
+    "X_hat": 0.012416798774639977
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.005985217518769151
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0039040613639351406
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0032849154779331148
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_24:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.7165958667292124e-05,
+    "X_hat": 0.007080112540724202
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:0_24:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0014215719583696345
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.2658698082906799e-06,
+    "X_hat": 0.006391544618330325
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.090330298137343e-06,
+    "X_hat": 0.019913218053464552
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 8.474893859679513e-06,
+    "X_hat": 0.012693685155800164
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.004122898832879408
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:1_24:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.001197749942603702
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:2_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.917752800400272e-07,
+    "X_hat": 0.012080289049489096
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:2_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.76889556343824e-07,
+    "X_hat": 0.006150476306564225
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 18:2_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.1008056375859036e-06,
+    "X_hat": 0.0012835390718043515
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.009742517436075583
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.183856999576672e-07,
+    "X_hat": 0.025849087462555518
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0014924352621383502
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.001169655877589869
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.7247970376157353e-05,
+    "X_hat": 0.004230138074507786
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 9.806839998786968e-06,
+    "X_hat": 0.018794659972922064
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 8.718766390187077e-07,
+    "X_hat": 0.012016046082271014
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.02418200292120068
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.329625636972671e-05,
+    "X_hat": 0.026541957027560768
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 8.030162348064791e-07,
+    "X_hat": 0.0013112580145542897
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.420718097728402e-05,
+    "X_hat": 0.0230270582064779
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.3358524096542611e-05,
+    "X_hat": 0.009842100594524776
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.7457523371189477e-06,
+    "X_hat": 0.012054262243989438
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.7543740552697457e-05,
+    "X_hat": 0.007580298817941742
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.4007984944727786e-07,
+    "X_hat": 0.0012834653509958749
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:2_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9465127661081986e-06,
+    "X_hat": 0.01916143413892891
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.419002040045556e-08,
+    "X_hat": 0.012961993441570384
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.5317974788045981e-07,
+    "X_hat": 0.0014209247123874585
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:3_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.9999303122907696e-05,
+    "X_hat": 0.03255149535557404
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:3_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0026476156328466235
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:3_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0032622598558264835
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0069522578173945105
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.3218154647409334e-05,
+    "X_hat": 0.014304456635737827
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.8004979343681166e-05,
+    "X_hat": 0.023534764043289986
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:4_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 9.019135255059453e-06,
+    "X_hat": 0.0016333960785192682
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 20:4_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.1057144497455745e-06,
+    "X_hat": 0.0013105982216793314
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:4_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.563320381585912e-06,
+    "X_hat": 0.00898066658350029
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PA 22:4_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.001746945040168693
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 14:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0002909273496917899,
+    "X_hat": 0.02844641825184943
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:0_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.00024190180645163907,
+    "X_hat": 0.027235603044293767
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.928902441520948e-06,
+    "X_hat": 0.005477753681742413
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0019899545017635794
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0012762551571327979
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 9.208863266961002e-06,
+    "X_hat": 0.007014768708820236
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9950862623763457e-05,
+    "X_hat": 0.010337375746300309
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 16:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.446793528805293e-05,
+    "X_hat": 0.02787592014993979
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.2951148872229625e-05,
+    "X_hat": 0.008637453311961247
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.640653914036409e-06,
+    "X_hat": 0.008176234513289167
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.312731853660888e-08,
+    "X_hat": 0.0026912211546036863
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.5061982021607466e-05,
+    "X_hat": 0.026152491965963316
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.4543012328957631e-05,
+    "X_hat": 0.008008462583445945
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 18:2_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9372376049906116e-05,
+    "X_hat": 0.008251439904865055
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PS 17:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.002070645182677436,
+    "X_hat": 0.02952672701928366
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.002472570364014822
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 5.334277806883081e-07,
+    "X_hat": 0.00744667935783274
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0023288172817605706
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.6863483420901576e-07,
+    "X_hat": 0.0016352857667092414
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:0_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.001246261329217017
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 16:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.3287116193309758e-06,
+    "X_hat": 0.02646438341332247
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.00018184137379182008,
+    "X_hat": 0.02560287834673864
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.882100253894233e-06,
+    "X_hat": 0.025300986550638463
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.010460263134482903
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.006089240186749077
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.4110935277019974e-06,
+    "X_hat": 0.015066095061970083
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.6388739389102532e-05,
+    "X_hat": 0.03286604268208233
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0014154562480794977
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.2745442857327864e-07,
+    "X_hat": 0.0020925367164831288
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 9.172086170267859e-08,
+    "X_hat": 0.0059753991446226725
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0016716085572121941
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0012105083374233155
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.149296007707211e-07,
+    "X_hat": 0.008052630580618609
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 22:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.942505155796931e-05,
+    "X_hat": 0.037443577055160784
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.4730254983860087e-07,
+    "X_hat": 0.0021045853957213662
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9632249799889205e-06,
+    "X_hat": 0.019582244996079
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.007068732449646641
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.005662543028641783
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 18:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.470147931174512e-05,
+    "X_hat": 0.02836819250693464
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.003217690309649213
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0043240158833631704
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.7512146450466613e-05,
+    "X_hat": 0.029429344631606996
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0010410208971420602
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.409885003223168e-07,
+    "X_hat": 0.004693774201093551
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0026957404822109277
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.0194499964437213e-07,
+    "X_hat": 0.0048398833735400024
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 9.049997496953484e-08,
+    "X_hat": 0.009316927506681482
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.794001730614727e-07,
+    "X_hat": 0.004417699608239912
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:2_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 8.254303120015247e-05,
+    "X_hat": 0.02955153571530705
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:3_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.784430086076244e-07,
+    "X_hat": 0.006393965938175638
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:3_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.933346921735912e-06,
+    "X_hat": 0.011328789785131908
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:4_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.001770172789624573
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.919677675568251e-08,
+    "X_hat": 0.0018002649686401772
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.003047018946746146
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0032588833801337528
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.909797534784071e-07,
+    "X_hat": 0.007135581797406578
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.090299659591962e-06,
+    "X_hat": 0.007121952949931712
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.264267975691159e-05,
+    "X_hat": 0.025525239849439867
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.9739720590925727e-06,
+    "X_hat": 0.012586186526031138
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0017191894673436443
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 20:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.767565484545883e-05,
+    "X_hat": 0.02940918811361412
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.0874742489116952e-06,
+    "X_hat": 0.001963328900192817
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.001470716933528238
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.2887134164824975e-08,
+    "X_hat": 0.007281994613320668
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE 17:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.0706220360063319e-05,
+    "X_hat": 0.019902743609298817
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.849512970555647e-07,
+    "X_hat": 0.006459003468055472
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9880644236884497e-07,
+    "X_hat": 0.010723414035108805
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.3451901312723516e-07,
+    "X_hat": 0.015259561448278336
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 5.091829618753391e-08,
+    "X_hat": 0.003008717983882098
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.277114508113899e-07,
+    "X_hat": 0.005610092185783702
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0012603569861926026
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 9.265220323001758e-08,
+    "X_hat": 0.01139053012683264
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.3405515272793722e-06,
+    "X_hat": 0.013662682868544792
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.3008224439347147e-06,
+    "X_hat": 0.018414296059840927
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 8.989085445777163e-08,
+    "X_hat": 0.01966722872960898
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_24:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 7.142282267242483e-07,
+    "X_hat": 0.0011610161838235358
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_24:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.9014858644664996e-05,
+    "X_hat": 0.007315523188842367
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.002227791558320973
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-16:1_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.325654413587819e-08,
+    "X_hat": 0.001030874916769711
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.776652699052412e-08,
+    "X_hat": 0.002860039789958389
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 4.6317622135604945e-07,
+    "X_hat": 0.004819914677160951
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.901584895451474e-08,
+    "X_hat": 0.001810338682989176
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.365642657630528e-05,
+    "X_hat": 0.02367867958789995
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.132819448251793e-07,
+    "X_hat": 0.022226461012062253
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.1821317937721498e-06,
+    "X_hat": 0.002157681582561206
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.711634532459841e-06,
+    "X_hat": 0.009199362120159546
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.004240831409744414
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0035718869375212362
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.7406337881408617e-06,
+    "X_hat": 0.01282613310691568
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0055570081857406
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.6078165220098575e-06,
+    "X_hat": 0.03128646223649208
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.007239848789760694
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.008239094186584134
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9403014256663548e-05,
+    "X_hat": 0.017795285756527876
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:1_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0031504944136138695
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.157507811758715e-06,
+    "X_hat": 0.026111304602496697
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.117458540529789e-07,
+    "X_hat": 0.001262048995619498
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.004719718654974258
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 9.072898632226733e-07,
+    "X_hat": 0.018012962977881606
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 7.658890297915767e-06,
+    "X_hat": 0.024866732518987193
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.849226620613857e-07,
+    "X_hat": 0.011270374281856638
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.004631008013107067
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.008631042798501706
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.006673077758406503
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.8564222906953895e-05,
+    "X_hat": 0.006987192014184729
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.131550505600969e-05,
+    "X_hat": 0.017419135065479863
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:3_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.5896968670285708e-06,
+    "X_hat": 0.006451662881689921
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:3_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.0330772482951994e-05,
+    "X_hat": 0.005163764932529731
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-18:3_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.004497366322694889
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.596508867838587e-06,
+    "X_hat": 0.004433185690467462
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.6037455516333895e-19,
+    "X_hat": 0.0010059464122224152
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.2826099457679038e-07,
+    "X_hat": 0.00397716440430996
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.9087060114047604e-08,
+    "X_hat": 0.005682998939934169
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PE O-20:3_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.675518035817457e-08,
+    "X_hat": 0.0026389135880558936
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.9547166903403568e-06,
+    "X_hat": 0.007169176683362369
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:2_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.3196221071727676e-07,
+    "X_hat": 0.0023679807601370904
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 14:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.6037455516333895e-19,
+    "X_hat": 0.001586319195640057
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 6.700814181229838e-07,
+    "X_hat": 0.0012244218458323207
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0015272930835966258
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:2_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0074463295359074285
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 14:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.5799702338861383e-07,
+    "X_hat": 0.007852920228573038
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.9056792623825783e-08,
+    "X_hat": 0.025606316071882962
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.001681008946562484
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.0335288192311915e-06,
+    "X_hat": 0.018412355570183926
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.1454457500220701e-07,
+    "X_hat": 0.003479531099039532
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.719741916069899e-06,
+    "X_hat": 0.02543793024712611
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 14:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.2613109430716862e-18,
+    "X_hat": 0.007309647531704064
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.3379837142782399e-06,
+    "X_hat": 0.008603717423622207
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 20:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0017041254233068192
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.001642892365974681
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.8554337605092954e-05,
+    "X_hat": 0.005076038922415049
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.6037455516333895e-19,
+    "X_hat": 0.014831852937702466
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.01059487996038351
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.001776189885130278
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.0396547484229727e-06,
+    "X_hat": 0.014484504494967314
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.826494926257116e-07,
+    "X_hat": 0.0014189333457614545
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:2_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.076341856791245e-06,
+    "X_hat": 0.01923545945221576
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 20:2_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0016557646557956078
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 14:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 4.1895751319354195e-08,
+    "X_hat": 0.0015094901667017234
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.7244209733859825e-07,
+    "X_hat": 0.005936801173512182
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 16:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0013765638814763137
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.013349541200931087
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.6037455516333895e-19,
+    "X_hat": 0.0022690852799708613
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 2.2176691945372614e-06,
+    "X_hat": 0.01614339497327384
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 20:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 9.566292098304336e-08,
+    "X_hat": 0.001387582497368775
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.726494760920503e-06,
+    "X_hat": 0.0250817136380844
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.7096233826733347e-06,
+    "X_hat": 0.015455969715431912
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 5.135593729843997e-07,
+    "X_hat": 0.005340467723781604
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.0012056681416663408
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 18:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.011864886821913e-06,
+    "X_hat": 0.015252090876572106
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0015808966277790588,
+    "X_hat": 0.028792406023874267
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 20:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.213903556225154e-05,
+    "X_hat": 0.026031090440489537
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 8.810932391348591e-09,
+    "X_hat": 0.0041561617304416605
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 6.84269940094514e-08,
+    "X_hat": 0.014674515294907455
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.0,
+    "X_hat": 0.002603351723519023
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 3.213895515078806e-06,
+    "X_hat": 0.00896173687965862
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PG 17:0_17:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.884089101010703e-05,
+    "X_hat": 0.028255828360882744
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 14:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 0.0,
+    "X_hat": 0.0012074806883153749
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC O-16:1_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.00010917467612850081,
+    "X_hat": 0.011156757090457336
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC O-16:1_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.00012921013642358583,
+    "X_hat": 0.011790539851074438
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 14:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 5.8091438612578425e-06,
+    "X_hat": 0.008362775389193926
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 14:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 1.3458915464334212e-05,
+    "X_hat": 0.0106228807445151
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 14:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 2.5763920432146425e-08,
+    "X_hat": 0.003960933869430738
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 14:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 3.828690575080547e-05,
+    "X_hat": 0.0255588255771708
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 18:0_14:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 0.00035541208069585814,
+    "X_hat": 0.027274173546308008
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 20:0_14:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "rho_zero": 1.1606919626331856e-05,
+    "X_hat": 0.0035580120146551223
+  },
+  {
+    "dataset_id": "CAL_R1_K125",
+    "complexity_condition": "K125",
+    "lipid_name": "PC 17:0_17:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "rho_zero": 4.7214704469435585e-05,
+    "X_hat": 0.02928457318352041
+  }
+]

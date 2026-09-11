@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "seconds": 1082.2784367837012,
+  "normal_completion": true,
+  "all_outputs_finite": true,
+  "sampled_KKT_max_dual": 3.429858114720196e-16,
+  "sampled_KKT_max_complementarity": 5.052104162234863e-17,
+  "source_hashes_unchanged": true,
+  "files": {
+    "contract.json": "261ff4116415835b2ef64a319efc908d7adc7d025df496cea457739afe559e7a",
+    "learned_arrays.npz": "55adcdbef818996446d83d7aa32d13fe0ea62b3ca36690714abbf49eeaca8aa3",
+    "molecular_units.json": "68ba4863ca56befaee950c589d1cc77870b899f2bab59d7881fc1a192199db72",
+    "reported_candidate_records.json": "3fd27663abddcd841967add69a0143fff06773686b9001d0873a68dcdb55f7f0",
+    "result.json": "d0fc5215a08074733511bd46f0ee7f2100be521c500e74f11c36d12370942814",
+    "comparison_units.json": "3ad63bf49ad55d6787e11278f8095abe09142837f2ebe51109484c26da1c2af1",
+    "all_candidate_abundances.json": "6673f85ebe67b568ecf10eb6d4353a259dc976450ed8ca0001e39549a3023a36"
+  },
+  "retained_arrays_path": "/root/v58_jobs/mild_nnls_cal_pilot/learned_arrays.npz"
+}

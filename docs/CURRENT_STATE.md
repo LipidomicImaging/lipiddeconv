@@ -1,3 +1,11 @@
+# Paired MILD NNLS CAL screen COMPLETED — 2026-09-11
+
+One new CAL_R1_K125 MILD pixelwise full391 NNLS run completed and independently reviewed in results/mild_nnls_cal_pilot (1082s CPU, no GPU/HOLD). Raw MILD NNLS TP125/FP86/FN0 versus ISTA122/109/3; cached CLEAN NNLS125/0/0. False identities overlap65, with21 NNLS-only and44 ISTA-only. Thus changing solver improves raw recovery but does not resolve mismatch false allocation. At retrospective CAL empirical5% FDR, NNLS rho recall22.4%, abundance37.6%; ISTA25.6%/36%. Shared identity rho values are exactly equal. No independent FDR guarantee or outcome-driven parameter change.
+
+All source/output/script hashes, finite solutions, molecular/gate/truth membership and independent miss accounting pass. Full arrays remain remotely with export hash/size; compact data and analysis are preserved in Git. No cleanup. Pilot task COMPLETE; do not automatically expand. Prior channel-prediction route stopped and alternative-reference six-GPU proposal remains paused.
+
+Existing experiment update06:30:57UTC: V58 has60/60 and reached MISSING_LIBRARY_PREFLIGHT, but supervisor is WAITING_FOR_DATA_DISK_EXPANSION. Missing-library has NOT started. Next existing-job action is final V58 audit/download/Git and narrowly dependency-checked checkpoint retirement if safe, to restore the required4GiB headroom; never bypass the guard or start a duplicate job. V59 status was not freshly checked in this CPU task. Earlier status below is historical.
+
 # MILD NNLS CAL pilot RUNNING — 2026-09-11
 
 User authorized one paired CAL_R1_K125 MILD pixelwise NNLS run, reusing existing CLEAN NNLS and both original ISTA records. Protocol: docs/MILD_NNLS_CAL_PILOT.md. Running on westc at /root/v58_jobs/mild_nnls_cal_pilot with four nice10 CPU workers; exact frozen input audit and CLEAN cached file checks pass, first foreground pixels completed. No GPU or HOLD outcomes. Next finish run, download/hash/review raw TP/FP/FN plus original rho/abundance CAL curves, preserve arrays remotely and compact evidence in Git. Do not retune or automatically expand. Earlier channel-prediction route remains stopped, six-fit alternative-reference GPU proposal paused.
