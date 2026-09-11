@@ -1,3 +1,11 @@
+# Finite reference-flexibility CPU development RUNNING — 2026-09-11
+
+User requested an implemented response to mismatch. Bounded new CAL-only test under docs/REFERENCE_FLEXIBILITY_CAL_PILOT.md: original plus2 independently generated reference variants per candidate; full1173-column competition and deletion of every same-identity variant. No inter-identity group rescue or A_target in scoring. Uses MILD CAL_R1_K125 NNLS reporting universe211/125truths. Original production pipelines remain frozen. Six-GPU prior protocol stays paused. New score must beat both same-universe rho/X_hat by10pp recall at empirical5% FDR before further validation; do not tune after outcome.
+
+Remote /root/v58_jobs/reference_flexibility_cal_pilot running after input/parity/tiny/deletion checks; next complete cost/numerical gates, download and independently review, commit/push. Scoring uses a known synthetic perturbation family, not measured real uncertainty. Sources motivating explicit library adjustment are linked in protocol; this finite dictionary is not a DANSER/PLMM reproduction.
+
+At06:51UTC the existing frozen missing-library supervisor is RUNNING/MISSING_LIBRARY after V58 cleanup restored space. No duplicate GPU job. No further deletion authorized by this new scoring experiment.
+
 # Final V58 audit and scoped retirement COMPLETED — 2026-09-11
 
 Final60-case snapshot independently audited and successfully pushed as09971606550e904e0dca8aec75bf3fec5a79a84b BEFORE deletion. Exactly50 remaining ordinary intermediate/redundant checkpoints retired from ten completed MODERATE HOLD cases;2004697600 bytes (1.867GiB) freed on data disk. Receipt data free5675184128 bytes (~5.29GiB). Final models/arrays, all candidate/molecular records, CAL inputs/seals, reports/history/diagnostics and all oracle/sentinel/adoption/parent evidence remain. No V57/V59/missing-library files removed. All814 source hashes and retained model/array checks pass; original oracle/sentinel/CAL/result verification passes again after deletion. Receipts under results/v58_final_snapshot_20260911.
