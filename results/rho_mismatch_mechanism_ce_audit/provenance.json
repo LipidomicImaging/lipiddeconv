@@ -1,0 +1,78 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_standardized_cross_library_inventory\\full_library_provenance.json",
+      "bytes": 4083,
+      "sha256": "d42c4b7410d45249bd654a9b8d9250ec6ddfab4442952406094c87ddfeb65cd8"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\training_report.json",
+      "bytes": 12657,
+      "sha256": "45f8874e71a66ed44bef5900596af2dc1aff05f9a6227dd4f1ee43058afb8270"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\msi_local_adapter_ready_effective29_v35_parent_gradient_fixed\\target_existing_plus_msi_adapter_ready.csv",
+      "bytes": 2195724,
+      "sha256": "e98aeb4ebde9a1d57d505d7b0fe64c0558619d5cce550e6ff6052dc602c109ad"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\train_ce_response_adapter_v25.py",
+      "bytes": 37158,
+      "sha256": "4973b772b0250fce8369b34f5dd4545426757a952b5d15c85e34c09721999014"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\cal_rho_numerical_diagnostic\\channel_loss_decomposition.csv",
+      "bytes": 2152715,
+      "sha256": "96a0770f9ab287590beabf35c163010924075e58e7d3832369bb7e92b937b905"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\cal_rho_numerical_diagnostic\\fit_diagnostics.csv",
+      "bytes": 28643,
+      "sha256": "af15913becdc0ec26cf7ec41719b6af21ef3afb394a19e62463a6cd04113f364"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\src\\rho_zero.py",
+      "bytes": 3480,
+      "sha256": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\run_cal_rho_numerical_diagnostic.py",
+      "bytes": 10047,
+      "sha256": "a7ef6e95a31211d26a42cfbca7e28d690a1da92ec58458c51db3031e2bd846b0"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v58_clean_mild_paired_review\\analysis_record.md",
+      "bytes": 4093,
+      "sha256": "dca786b9dc1e1a401e4afc7f18461f00fe4bb3ad22d372d836a65e2b2ecbf52e"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\cal_rho_numerical_diagnostic\\analysis_record.md",
+      "bytes": 5410,
+      "sha256": "903cfc8c71ca3811be3c5681e1f3d6436ee3f9b8873753d224b174e772640a2a"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\audit_rho_mismatch_mechanism_ce.py",
+      "bytes": 9791,
+      "sha256": "d548baa8c1bc0f7627f9727c16ddffb77884a760cc4dc57163bb8c25bb247b3d"
+    }
+  ],
+  "scope": "Known production provenance -> training report -> one directly referenced 2.2 MB CSV and trainer; two cached diagnostic tables. No recursive scan, model import, fit, rho or simulation.",
+  "output_hashes": {
+    "ce_asset_audit.json": {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\rho_mismatch_mechanism_ce_audit\\ce_asset_audit.json",
+      "bytes": 2189,
+      "sha256": "2fcdf4a79aecdeb3b49397c6599eaee5add798de02a884002af546bc551c930c"
+    },
+    "ce_identity_records.json": {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\rho_mismatch_mechanism_ce_audit\\ce_identity_records.json",
+      "bytes": 241705,
+      "sha256": "2cf73498363a284f378d97eba99c715fc2fca3c7ab5f9b48662840acff709704"
+    },
+    "cached_mechanism_scales.json": {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\rho_mismatch_mechanism_ce_audit\\cached_mechanism_scales.json",
+      "bytes": 1576,
+      "sha256": "554da1e60c7bb57380d9771cbaaa870e42ab73fa5862c654b35b8705ea4a677b"
+    }
+  },
+  "serialization_note": "JSON exported with explicit LF; Windows newline translation corrected before commit. Parsed scientific values unchanged."
+}

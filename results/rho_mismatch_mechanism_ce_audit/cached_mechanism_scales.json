@@ -1,0 +1,50 @@
+{
+  "status": "CACHED_DIAGNOSTIC_SCALE_COMPARISON_NOT_CAUSAL_ATTRIBUTION",
+  "dataset": "CAL_R1_K125",
+  "domain": "1084-channel foreground-mean spectrum; same domain as rho",
+  "clean_signal_norm2": 0.31326032723034264,
+  "cached_mild_minus_clean_norm2": 0.0010096187609263726,
+  "relative_mean_spectrum_change": 0.056770929829780194,
+  "selected_true_deletion_margins": [
+    {
+      "candidate_index": 8,
+      "lipid_name": "PA 18:0_22:3",
+      "clean_rho": 7.648183435343335e-08,
+      "clean_q_full": 8.243086792017075e-19,
+      "normalized_deleted_distance": 0.0002765534927573848,
+      "sqrt_rho": 0.0002765534927521859
+    },
+    {
+      "candidate_index": 10,
+      "lipid_name": "PA 18:0_22:5",
+      "clean_rho": 2.737093658639987e-08,
+      "clean_q_full": 8.243086792017075e-19,
+      "normalized_deleted_distance": 0.00016544164103731148,
+      "sqrt_rho": 0.00016544164102909483
+    }
+  ],
+  "interpretation": "q_full is almost zero, so sqrt(rho) approximates normalized deletion distance. Total perturbation exceeds these two margins, but its direction matters; this is not a robustness radius, a causal proof, or population-level prevalence.",
+  "toy_example": {
+    "database_true": [
+      1,
+      1
+    ],
+    "database_absent": [
+      0,
+      1
+    ],
+    "observed_clean": [
+      1,
+      1
+    ],
+    "observed_shifted_true": [
+      1,
+      1.2
+    ],
+    "shifted_false_coefficient": 0.2,
+    "full_sse": 0,
+    "delete_false_sse": 0.02,
+    "false_rho": 0.00819672131147205,
+    "status": "ANALYTIC_ILLUSTRATION_NOT_EXPERIMENTAL_DATA"
+  }
+}

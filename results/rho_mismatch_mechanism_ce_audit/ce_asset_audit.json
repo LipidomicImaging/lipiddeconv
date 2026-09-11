@@ -1,0 +1,62 @@
+{
+  "status": "MATCHED_MULTI_CE_ANNOTATED_RECORDS_VERIFIED_NOT_INDEPENDENT_VALIDATION",
+  "identity_key": [
+    "structure_text",
+    "adduct",
+    "rule_sheet"
+  ],
+  "exact_key_no_new_canonicalization": true,
+  "total_rows": 423,
+  "total_annotated_identities": 198,
+  "ce_row_counts": {
+    "30.0": 143,
+    "35.0": 140,
+    "40.0": 106,
+    "29.0": 34
+  },
+  "selected_ce_rows": 389,
+  "selected_ce_union_identities": 190,
+  "per_ce_identity_counts": {
+    "30": 143,
+    "35": 140,
+    "40": 106
+  },
+  "pairwise_identity_overlap": {
+    "30_35": 107,
+    "30_40": 81,
+    "35_40": 77
+  },
+  "identities_at_all_three": 66,
+  "identities_at_least_two": 133,
+  "same_identity_ce_cells_with_multiple_rows": 0,
+  "source_family_counts": {
+    "dda_txt_rebuilt_rule_engine": 389
+  },
+  "adduct_row_counts": {
+    "[M-H]-": 274,
+    "[M+CH3COO]-": 100,
+    "[M+HCOO]-": 15
+  },
+  "source_file_candidate_count_histogram": {
+    "1": 226,
+    "3": 11,
+    "2": 51,
+    "4": 7
+  },
+  "instrument_or_standard_metadata_columns": [],
+  "production_adapter_training_exposure": "YES: final models use all_rows; cached OOF predictions also exist",
+  "not_verified": [
+    "Raw spectrum files, acquisition provenance and CE units beyond this table's eV labels",
+    "Independent identity/adduct confirmation or authentic-standard ground truth",
+    "Independent same-CE repeatability; this retained table has one row per identity/CE",
+    "Full base-predictor and preprocessing train/test independence of cached OOF predictions",
+    "Channel alignment, ambiguous peak allocation and unbiased library prediction-error coverage"
+  ],
+  "limitations": [
+    "These are selected rule-annotated DDA channel records, not 389 verified pure reference spectra.",
+    "Multiple candidate records may share a source spectrum; shared peaks are not independent observations.",
+    "Cross-energy records characterize condition dependence, not same-condition measurement noise.",
+    "The production adapter has already trained on these rows: they cannot be called unseen final validation.",
+    "Earlier EMPIRICAL_VARIABILITY_NOT_VERIFIED inventory was a limited search result, not proof of absent assets."
+  ]
+}
