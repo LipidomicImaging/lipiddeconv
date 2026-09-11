@@ -1,3 +1,9 @@
+# CAL channel-prediction pilot RUNNING — 2026-09-11
+
+User-directed bounded CPU pilot is now executing on V58 host, PID67733, /root/v58_jobs/cal_channel_prediction_pilot. Only CAL_R1_K125 CLEAN/MILD, original reported identities, three blocked/buffered channel folds. Scoring uses database A and observed B; no target spectra or truth enters fitting. Review protocol: docs/CAL_CHANNEL_PREDICTION_PILOT.md. Existing six-fit alternative-reference GPU pilot is PAUSED, superseding older next-action notes below; its original frozen artifact is preserved.
+
+Next: finish this CPU run, verify/download outputs, compare rho/X_hat/predictive score with all-truth denominators and support exclusions, record a stop/continue decision and push. No threshold/fold tuning after results. Existing production jobs retain priority. At05:46UTC V58 completed57/60, active MODERATE__HOLD_R5_K050; final aggregate/missing-library execution remain pending. No cleanup in this pilot.
+
 # CAL numerical/mechanism diagnostic completed — 2026-09-11
 
 COMPLETED:8 prespecified CAL identities,48 CPU deletion comparisons using original/reversed NNLS and independent BVLS. results/cal_rho_numerical_diagnostic includes raw channel decomposition, source hashes, failures and review. All16 original-order stored scores reproduce exactly. Two near-zero true-score cases cross the original1.27e-20 cutoff across methods; three substantial false MILD scores (~8.5e-6 to2.3e-5) are stable to~1.8e-18. Thus numerical sensitivity exists but does not explain all high false scores. Channel-overlap evidence is not false-specific and does not prove mismatch absorption. No HOLD outcomes parsed, no GPU training, no original runner/threshold edits. Thread-reduction roundoff and tiny BVLS feasibility projection are explicitly documented; all scientific arrays match frozen hashes.

@@ -1,0 +1,9 @@
+# CAL channel-prediction feasibility pilot
+
+2026-09-11. One fixed CAL_R1_K125 pair, CLEAN and MILD. This supersedes the next-action recommendation to implement the six-fit alternative-reference GPU pilot; that pilot remains PAUSED and its original frozen protocol remains unchanged.
+
+The executed runner writes its full scoring contract before computation. Only database A and observed foreground-mean B enter scoring. Three deterministic blocked/buffered channel folds; all library competitors are refitted on training channels after removing the tested molecular identity. No truth or perturbed reference spectrum enters these fits. The original full-data reporting gate still defines the candidate universe, so this is conditional post-hoc prediction, not an independent statistical test.
+
+Review specification recorded while CLEAN computation is running, before reading score outputs: compare predictive gain, original rho_zero and X_hat using tied-score curves, AUROC/AP, and retrospective maximum recall at empirical 5% and 1% FDR. Report both each method's usable universe and the common evaluable subset. Keep all 125 truths as the primary recall denominator; separate original solver misses, unsupported truths and threshold-induced losses. Do not tune folds, support rules, numerical settings or thresholds after observing outcomes.
+
+Continuation requires evidence that MILD predictive scoring improves recall at 5% empirical FDR against both baselines in the original reporting universe, with the common-subset analysis identifying whether apparent improvement merely comes from the support gate. Otherwise stop this standalone scoring route. This small CAL screen cannot establish FDR control or independent generalization. Any positive result needs a separately frozen validation design; it does not authorize automatic GPU expansion.
