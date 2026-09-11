@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "calibration_seal_sha256": "323c81cc51f337321973083d0cc01ca77c99f642a9718926e76073bf54fd25ea",
+  "metrics": {
+    "TP": 44,
+    "FP": 1,
+    "FN": 81,
+    "raw_solver_TP": 124,
+    "raw_solver_FP": 107,
+    "raw_solver_FN": 1,
+    "filter_induced_true_loss": 80,
+    "TP_retention": 0.3548387096774194,
+    "all_truth_recall": 0.352,
+    "reportable_truth_recall": 0.352,
+    "FDR": 0.022222222222222223,
+    "retained_count": 45,
+    "distinct_identities": 45,
+    "case_count": 1,
+    "abstained_cases": 0,
+    "abstention_fraction": 0.0
+  },
+  "not_final_aggregate": true
+}
