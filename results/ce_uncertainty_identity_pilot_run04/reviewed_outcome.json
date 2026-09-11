@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_REVIEWED_STOP_CURRENT_VERSION",
+  "main_scientific_endpoint": "OPEN",
+  "fixed_targets": {
+    "FDR": 0.01,
+    "TP_retention": 0.4
+  },
+  "evaluation": {
+    "TP": 44,
+    "FP": 1,
+    "FN": 331,
+    "filtered_TP": 44,
+    "filtered_FP": 1,
+    "filtered_FN": 331,
+    "raw_solver_TP": 354,
+    "raw_solver_FP": 338,
+    "raw_solver_FN": 21,
+    "filter_induced_true_loss": 310,
+    "filter_induced_true_loss_fraction": 0.8757062146892656,
+    "true_positive_retention": 0.12429378531073447,
+    "TP_retention": 0.12429378531073447,
+    "all_truth_recall": 0.11733333333333333,
+    "reportable_truth_recall": 0.11733333333333333,
+    "FDR": 0.022222222222222223,
+    "distinct_identities": 45,
+    "retained_count": 45,
+    "case_count": 3,
+    "abstained_cases": 0,
+    "abstention_fraction": 0.0
+  },
+  "independent_proofs_checked": 1415,
+  "uncertainty_and_threshold_unchanged": true,
+  "formal_validation_launched": false,
+  "impossibility_claim": false
+}

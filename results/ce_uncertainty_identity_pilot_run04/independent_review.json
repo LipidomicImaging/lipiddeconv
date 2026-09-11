@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "output_hash_count": 115,
+  "cases": 6,
+  "proofs_checked": 1415,
+  "zero_coefficient_witnesses": 499,
+  "case_proofs": {
+    "MILD__CAL_R1_K125": {
+      "status": "PASS",
+      "identities": 231,
+      "max_primal_dual_gap": 2.03508906403832e-07,
+      "full_upper": 0.019619778516291524,
+      "full_seconds": 2.405266188085079
+    },
+    "MILD__CAL_R2_K125": {
+      "status": "PASS",
+      "identities": 231,
+      "max_primal_dual_gap": 1.9386867846499234e-07,
+      "full_upper": 0.01961977848799212,
+      "full_seconds": 2.442499555647373
+    },
+    "close_neighbor__HOLD_R1_K125": {
+      "status": "PASS",
+      "identities": 244,
+      "max_primal_dual_gap": 6.3785858120456e-07,
+      "full_upper": 0.001731828470899462,
+      "full_seconds": 12.835482999682426
+    },
+    "close_neighbor__HOLD_R2_K125": {
+      "status": "PASS",
+      "identities": 229,
+      "max_primal_dual_gap": 5.678370599449412e-07,
+      "full_upper": 0.0017318301452286325,
+      "full_seconds": 8.058460976928473
+    },
+    "relatively_isolated__HOLD_R1_K125": {
+      "status": "PASS",
+      "identities": 242,
+      "max_primal_dual_gap": 5.850373913035903e-07,
+      "full_upper": 0.003546228281170109,
+      "full_seconds": 6.195951744914055
+    },
+    "relatively_isolated__HOLD_R2_K125": {
+      "status": "PASS",
+      "identities": 232,
+      "max_primal_dual_gap": 5.834800228666885e-07,
+      "full_upper": 0.0035462280341567783,
+      "full_seconds": 4.722238548099995
+    }
+  },
+  "all_counts_and_abstention_denominators_verified": true,
+  "calibration_recomputed_from_R1_only": true,
+  "baseline_calibration_recomputed_from_R1_only": true,
+  "inference": "Numerically checked global LP bounds for this specified uncertainty model; not an exact-arithmetic or population FDR guarantee.",
+  "go": false
+}

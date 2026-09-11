@@ -1,0 +1,6239 @@
+{
+  "dataset": "relatively_isolated__HOLD_R2_K125",
+  "kind": "relatively_isolated",
+  "role": "DEVELOPMENT_EVAL",
+  "truth_count": 125,
+  "reportable_truth_count": 125,
+  "names": [
+    "PA 16:0_24:0",
+    "PA 16:0_24:1",
+    "PA 16:0_24:4",
+    "PA 16:0_24:5",
+    "PA 24:0_16:1",
+    "PA 18:0_22:0",
+    "PA 18:0_22:1",
+    "PA 18:0_22:2",
+    "PA 18:0_22:3",
+    "PA 18:0_22:4",
+    "PA 18:0_22:5",
+    "PA 18:0_24:0",
+    "PA 18:0_24:1",
+    "PA 18:0_24:4",
+    "PA 18:0_24:5",
+    "PA 18:0_24:6",
+    "PA 22:0_18:1",
+    "PA 18:1_22:1",
+    "PA 18:1_22:2",
+    "PA 18:1_22:3",
+    "PA 18:1_22:4",
+    "PA 24:0_18:1",
+    "PA 18:1_24:1",
+    "PA 18:1_24:4",
+    "PA 18:1_24:5",
+    "PA 18:1_24:6",
+    "PA 22:0_18:2",
+    "PA 22:1_18:2",
+    "PA 18:2_22:2",
+    "PA 18:2_22:3",
+    "PA 24:0_18:2",
+    "PA 24:1_18:2",
+    "PA 18:2_24:4",
+    "PA 18:2_24:5",
+    "PA 18:2_24:6",
+    "PA 20:0_20:0",
+    "PA 20:0_20:1",
+    "PA 20:0_20:2",
+    "PA 20:0_20:3",
+    "PA 20:0_20:4",
+    "PA 20:0_20:5",
+    "PA 20:0_22:1",
+    "PA 20:0_22:2",
+    "PA 20:0_22:3",
+    "PA 20:0_22:4",
+    "PA 20:0_22:5",
+    "PA 20:0_22:6",
+    "PA 20:1_20:1",
+    "PA 20:1_20:2",
+    "PA 20:1_20:3",
+    "PA 20:1_20:4",
+    "PA 22:0_20:1",
+    "PA 20:1_22:1",
+    "PA 20:1_22:2",
+    "PA 20:1_22:3",
+    "PA 20:1_22:4",
+    "PA 20:1_22:5",
+    "PA 20:1_22:6",
+    "PA 20:2_20:2",
+    "PA 20:2_20:3",
+    "PA 22:1_20:2",
+    "PA 20:2_22:4",
+    "PA 20:2_22:6",
+    "PA 22:0_20:3",
+    "PA 22:1_20:3",
+    "PA 20:3_22:3",
+    "PA 20:3_22:4",
+    "PA 20:3_22:6",
+    "PA 22:0_20:4",
+    "PA 22:1_20:4",
+    "PA 22:2_20:4",
+    "PA 22:3_20:4",
+    "PA 20:4_22:4",
+    "PA 20:4_22:5",
+    "PA 20:4_22:6",
+    "PA 22:1_20:5",
+    "PA 22:3_22:6",
+    "PA 22:4_22:5",
+    "PA 22:4_22:6",
+    "PA 22:5_22:5",
+    "PA 22:5_22:6",
+    "PA 22:6_22:6",
+    "PS 14:0_20:0",
+    "PS 14:0_20:1",
+    "PS 14:0_22:0",
+    "PS 14:0_22:1",
+    "PS 14:0_22:2",
+    "PS 14:0_22:3",
+    "PS 14:0_22:4",
+    "PS 16:0_18:0",
+    "PS 16:0_18:1",
+    "PS 16:0_18:2",
+    "PS 16:0_20:0",
+    "PS 16:0_20:1",
+    "PS 16:0_20:2",
+    "PS 16:0_20:3",
+    "PS 16:0_20:4",
+    "PS 16:0_20:5",
+    "PS 18:0_16:1",
+    "PS 16:1_18:1",
+    "PS 20:0_16:1",
+    "PS 16:1_20:1",
+    "PS 16:1_20:2",
+    "PS 16:1_20:3",
+    "PS 16:1_20:4",
+    "PS 18:0_18:0",
+    "PS 18:0_18:1",
+    "PS 18:0_18:2",
+    "PS 18:0_18:3",
+    "PS 18:1_18:1",
+    "PS 18:1_18:2",
+    "PS 18:1_18:3",
+    "PS 18:2_18:2",
+    "PS 17:0_18:1",
+    "PS 17:0_18:2",
+    "PS 18:0_17:1",
+    "PE 16:0_22:1",
+    "PE 16:0_22:2",
+    "PE 16:0_22:3",
+    "PE 16:0_22:4",
+    "PE 16:0_22:5",
+    "PE 16:0_22:6",
+    "PE 16:0_24:4",
+    "PE 16:0_24:6",
+    "PE 22:0_16:1",
+    "PE 16:1_22:1",
+    "PE 16:1_22:2",
+    "PE 16:1_22:3",
+    "PE 16:1_22:4",
+    "PE 16:1_22:5",
+    "PE 16:1_22:6",
+    "PE 18:0_20:0",
+    "PE 18:0_20:1",
+    "PE 18:0_20:2",
+    "PE 18:0_20:3",
+    "PE 18:0_20:4",
+    "PE 18:0_22:3",
+    "PE 18:0_22:4",
+    "PE 18:0_22:5",
+    "PE 18:0_22:6",
+    "PE 20:0_18:1",
+    "PE 18:1_20:1",
+    "PE 18:1_20:2",
+    "PE 18:1_20:3",
+    "PE 18:1_20:4",
+    "PE 18:1_20:5",
+    "PE 18:1_22:2",
+    "PE 18:1_22:3",
+    "PE 18:1_22:4",
+    "PE 18:1_22:5",
+    "PE 18:1_22:6",
+    "PE 20:0_18:2",
+    "PE 20:1_18:2",
+    "PE 18:2_20:2",
+    "PE 18:2_20:3",
+    "PE 18:2_20:4",
+    "PE 18:2_20:5",
+    "PE 22:1_18:2",
+    "PE 18:2_22:2",
+    "PE 18:2_22:3",
+    "PE 18:2_22:4",
+    "PE 18:2_22:5",
+    "PE 18:2_22:6",
+    "PE 20:0_18:3",
+    "PE 20:1_18:3",
+    "PE 18:3_20:4",
+    "PE 18:3_22:4",
+    "PE 18:3_22:5",
+    "PE 20:0_20:3",
+    "PE 20:0_20:4",
+    "PE 20:0_20:5",
+    "PE 20:1_20:2",
+    "PE 20:1_20:3",
+    "PE 20:1_20:4",
+    "PE 20:1_20:5",
+    "PE 20:2_20:2",
+    "PE 20:2_20:3",
+    "PE 20:2_20:4",
+    "PE 20:2_20:5",
+    "PE 20:3_20:3",
+    "PE 20:3_20:4",
+    "PE 20:3_20:5",
+    "PE 20:4_20:4",
+    "PE 17:0_20:0",
+    "PE 17:0_20:1",
+    "PE 17:0_20:2",
+    "PE 17:0_20:3",
+    "PE 17:0_20:4",
+    "PE 17:0_20:5",
+    "PE 17:0_22:1",
+    "PE 17:0_22:2",
+    "PE 17:0_22:3",
+    "PE 17:0_22:4",
+    "PE 17:0_22:5",
+    "PE 17:0_22:6",
+    "PE 20:0_17:1",
+    "PE 17:1_20:1",
+    "PE 17:1_20:2",
+    "PE 17:1_20:3",
+    "PE 17:1_20:4",
+    "PE 17:1_22:1",
+    "PE 17:1_22:3",
+    "PE 17:1_22:4",
+    "PE 17:1_22:5",
+    "PE 17:1_22:6",
+    "PE O-16:0_22:1",
+    "PE O-16:0_22:2",
+    "PE O-16:0_22:3",
+    "PE O-16:0_22:4",
+    "PE O-16:0_22:5",
+    "PE O-16:0_22:6",
+    "PE O-16:1_22:0",
+    "PE O-16:1_22:1",
+    "PE O-16:1_22:2",
+    "PE O-16:1_22:3",
+    "PE O-16:1_22:4",
+    "PE O-16:1_22:5",
+    "PE O-16:1_24:0",
+    "PE O-16:1_24:1",
+    "PE O-16:1_24:4",
+    "PE O-16:1_24:5",
+    "PE O-16:1_24:6",
+    "PE O-18:0_20:1",
+    "PE O-18:0_20:2",
+    "PE O-18:0_20:3",
+    "PE O-18:0_20:4",
+    "PE O-18:0_20:5",
+    "PE O-18:0_22:1",
+    "PE O-18:0_22:2",
+    "PE O-18:0_22:3",
+    "PE O-18:0_22:4",
+    "PE O-18:0_22:5",
+    "PE O-18:0_22:6",
+    "PE O-18:1_20:1",
+    "PE O-18:1_20:2",
+    "PE O-18:1_20:3",
+    "PE O-18:1_20:4",
+    "PE O-18:1_20:5",
+    "PE O-18:1_22:1",
+    "PE O-18:1_22:2",
+    "PE O-18:1_22:3",
+    "PE O-18:1_22:4",
+    "PE O-18:1_22:5",
+    "PE O-18:1_22:6",
+    "PE O-20:0_18:2",
+    "PE O-20:1_18:2",
+    "PE O-18:2_20:2",
+    "PE O-18:2_20:3",
+    "PE O-18:2_20:4",
+    "PE O-18:2_22:0",
+    "PE O-22:1_18:2",
+    "PE O-18:2_22:2",
+    "PE O-18:2_22:3",
+    "PE O-18:2_22:4",
+    "PE O-18:2_22:5",
+    "PE O-18:2_22:6",
+    "PE O-18:3_20:3",
+    "PE O-18:3_22:0",
+    "PE O-18:3_22:3",
+    "PE O-18:3_22:4",
+    "PE O-18:3_22:5",
+    "PE O-18:3_22:6",
+    "PE O-20:0_20:2",
+    "PE O-20:0_20:3",
+    "PE O-20:0_20:4",
+    "PE O-20:1_20:1",
+    "PE O-20:1_20:2",
+    "PE O-20:1_20:3",
+    "PE O-20:1_20:4",
+    "PE O-20:2_20:2",
+    "PE O-20:2_20:3",
+    "PE O-20:2_20:4",
+    "PE O-20:3_20:3",
+    "PE O-20:3_20:4",
+    "PG 14:0_20:0",
+    "PG 16:0_18:0",
+    "PG 14:0_22:5",
+    "PG 16:1_20:4",
+    "PG 18:2_18:3",
+    "PG 14:0_22:4",
+    "PG 16:0_20:4",
+    "PG 16:1_20:3",
+    "PG 18:1_18:3",
+    "PG 18:2_18:2",
+    "PG 14:0_22:3",
+    "PG 16:0_20:3",
+    "PG 16:1_20:2",
+    "PG 18:0_18:3",
+    "PG 18:1_18:2",
+    "PG 14:0_22:2",
+    "PG 16:0_20:2",
+    "PG 16:1_20:1",
+    "PG 18:0_18:2",
+    "PG 18:1_18:1",
+    "PG 14:0_22:1",
+    "PG 16:0_20:1",
+    "PG 20:0_16:1",
+    "PG 18:0_18:1",
+    "PG 14:0_22:0",
+    "PG 16:0_20:0",
+    "PG 18:0_18:0",
+    "PG 16:1_22:6",
+    "PG 18:2_20:5",
+    "PG 18:3_20:4",
+    "PG 16:0_22:6",
+    "PG 16:1_22:5",
+    "PG 18:1_20:5",
+    "PG 18:2_20:4",
+    "PG 16:0_22:5",
+    "PG 16:1_22:4",
+    "PG 18:0_20:5",
+    "PG 18:1_20:4",
+    "PG 18:2_20:3",
+    "PG 20:2_18:3",
+    "PG 14:0_24:4",
+    "PG 16:0_22:4",
+    "PG 16:1_22:3",
+    "PG 18:0_20:4",
+    "PG 18:1_20:3",
+    "PG 18:2_20:2",
+    "PG 17:0_18:0",
+    "PG 17:0_18:1",
+    "PG 17:0_18:2",
+    "PG 17:0_20:0",
+    "PG 17:0_20:1",
+    "PG 17:0_20:2",
+    "PG 17:0_20:3",
+    "PG 17:0_20:4",
+    "PG 17:0_20:5",
+    "PG 18:0_17:1",
+    "PG 17:1_18:1",
+    "PG 17:1_18:2",
+    "PG 20:0_17:1",
+    "PG 17:1_20:1",
+    "PG 17:1_20:2",
+    "PG 17:1_20:3",
+    "PG 17:1_20:4",
+    "PG 17:0_17:0",
+    "PC 14:0_18:0",
+    "PC 14:0_18:1",
+    "PC 16:0_16:0",
+    "PC 16:0_16:1",
+    "PC 14:0_17:1",
+    "PC O-16:0_16:1",
+    "PC O-16:1_16:1",
+    "PC O-16:1_18:0",
+    "PC O-16:1_18:1",
+    "PC O-16:1_18:2",
+    "PC O-16:1_17:0",
+    "PC O-16:0_17:1",
+    "PC 14:0_18:0",
+    "PC 14:0_18:1",
+    "PC 16:0_16:0",
+    "PC 16:0_16:1",
+    "PC 14:0_17:1",
+    "PC O-16:0_16:1",
+    "PC O-16:1_16:1",
+    "PC O-16:0_17:0",
+    "PC O-16:1_17:0",
+    "PC O-16:0_17:1",
+    "PC O-16:1_17:1",
+    "PC 14:0_17:1",
+    "PC 14:0_18:0",
+    "PC 14:0_18:1",
+    "PC 14:0_18:2",
+    "PC 14:0_20:0",
+    "PC 14:0_20:1",
+    "PC 14:0_20:2",
+    "PC 14:0_20:3",
+    "PC 14:0_20:4",
+    "PC 14:1_17:1",
+    "PC 18:0_14:1",
+    "PC 20:0_14:1",
+    "PC 14:1_20:1",
+    "PC 16:0_16:0",
+    "PC 16:0_16:1",
+    "PC 16:0_18:0",
+    "PC 16:0_18:1",
+    "PC 16:0_18:2",
+    "PC 16:1_16:1",
+    "PC 18:0_16:1",
+    "PC 16:1_18:1",
+    "PC 16:1_18:2",
+    "PC 17:0_17:0",
+    "PC 17:0_17:1",
+    "PC 17:1_17:1"
+  ],
+  "source_dir": "/root/autodl-tmp/lipiddeconv/results/missing_library_challenge_k125/runs/relatively_isolated__HOLD_R2_K125",
+  "input_dir": "/root/v58_jobs/ce_uncertainty_identity_pilot_run04/inputs/relatively_isolated__HOLD_R2_K125",
+  "B_cube_sha256": "c28f22336a6546f68889e60ee9a74eecfb8107d6c126295be65f7e7baaec19db",
+  "A_sha256": "35b4a5d24094a6cc39aa5fe2980a560131e498de58773f6d530ab583f5e2add4",
+  "original_artifacts": {
+    "runtime_contract.json": "fdb0348532c1e6adb00061f278ad64f016102ded603ac1b52c86084cb8bf4286",
+    "training_history.json": "da76ff9a194e5e44ceab5f83d44852a7bc1a487a5b26a3b38dde6cc9cc1f87f7",
+    "checkpoint_diagnostics.csv": "1d3a4d77996741e9bb5c9d7cf36fff790d2e60168c8c046ffc0330102fc8f577",
+    "candidate_records.json": "f2b9ebbdbd8bf3cb6e41446766f923b14e63c61c61a6a1d864ab4f82b41f3e95",
+    "molecular_units.json": "91bb7c8f782237fb85a211d74494c515632d5ed243e5b33985b46878d73ed0c1",
+    "solver_run.json": "3b4e324b6f9985de924c5904d9652501cecb194e8f08857568be4da1732b76bf",
+    "result.json": "aff84837b2a5e6c21d7133707a776c0edfb6e16b8d87e0c142d5e0befb74476b"
+  },
+  "scoring_inputs_sha256": "53e9562ad258d2b626bb1fd495bcd39bce40b8ceec4110528e5042c823ecfd6c",
+  "normal_completion": true,
+  "finite_arrays": true,
+  "runtime_binding_verified": true,
+  "full": {
+    "lower": 0.0035460933677697102,
+    "upper": 0.0035462280341567783,
+    "seconds": 4.722238548099995,
+    "objective": 0.003546207933587695,
+    "backend_attempts": [
+      {
+        "method": "highs",
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+      }
+    ],
+    "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+  },
+  "records": [
+    {
+      "lipid_name": "PA 16:0_24:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0019284173206080939,
+      "rho_zero": 7.307117610875845e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        0
+      ],
+      "proof_index": 0
+    },
+    {
+      "lipid_name": "PA 16:0_24:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.018612069967784348,
+      "rho_zero": 9.660494834269213e-06,
+      "deleted": {
+        "lower": 0.003636146332699626,
+        "upper": 0.0036362950630619267,
+        "seconds": 3.2167146988213062,
+        "objective": 0.003636271379896266,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        1
+      ],
+      "proof_index": 1
+    },
+    {
+      "lipid_name": "PA 16:0_24:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0010578333060882004,
+      "rho_zero": 1.6480316629473347e-19,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        2
+      ],
+      "proof_index": 2
+    },
+    {
+      "lipid_name": "PA 16:0_24:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0013751609765658803,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        3
+      ],
+      "proof_index": 3
+    },
+    {
+      "lipid_name": "PA 18:0_22:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.016792039711955368,
+      "rho_zero": 5.436279104340854e-06,
+      "deleted": {
+        "lower": 0.0036134500248571513,
+        "upper": 0.0036138861390824215,
+        "seconds": 3.38959126919508,
+        "objective": 0.0036138654101344346,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        5
+      ],
+      "proof_index": 4
+    },
+    {
+      "lipid_name": "PA 18:0_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.015308956576159159,
+      "rho_zero": 7.441972876944744e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        6
+      ],
+      "proof_index": 5
+    },
+    {
+      "lipid_name": "PA 18:0_22:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.004603284124855731,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        7
+      ],
+      "proof_index": 6
+    },
+    {
+      "lipid_name": "PA 18:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004153276426625234,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035461317009565204,
+        "upper": 0.0035465951821498564,
+        "seconds": 3.4107942692935467,
+        "objective": 0.003546569348367775,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        8
+      ],
+      "proof_index": 7
+    },
+    {
+      "lipid_name": "PA 18:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.010130262847183392,
+      "rho_zero": 2.127411770188952e-06,
+      "deleted": {
+        "lower": 0.003574919444111349,
+        "upper": 0.003575058177569727,
+        "seconds": 4.355454120784998,
+        "objective": 0.0035750355928938155,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        9
+      ],
+      "proof_index": 8
+    },
+    {
+      "lipid_name": "PA 18:0_24:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.010537284206136407,
+      "rho_zero": 3.079396346127605e-07,
+      "deleted": {
+        "lower": 0.003614227685101222,
+        "upper": 0.0036147281666808954,
+        "seconds": 3.2290597818791866,
+        "objective": 0.003614703866269936,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        12
+      ],
+      "proof_index": 9
+    },
+    {
+      "lipid_name": "PA 18:0_24:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.002753047198327972,
+      "rho_zero": 1.6480316629473347e-19,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        13
+      ],
+      "proof_index": 10
+    },
+    {
+      "lipid_name": "PA 18:0_24:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011419736587925918,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546426567636461,
+        "upper": 0.00354653528721818,
+        "seconds": 3.787211935967207,
+        "objective": 0.0035465125624756697,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        14
+      ],
+      "proof_index": 11
+    },
+    {
+      "lipid_name": "PA 18:1_22:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01065379237938681,
+      "rho_zero": 1.8003987781820993e-06,
+      "deleted": {
+        "lower": 0.003546289388396444,
+        "upper": 0.0035464070588868218,
+        "seconds": 3.533496383577585,
+        "objective": 0.0035463825919200983,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        17
+      ],
+      "proof_index": 12
+    },
+    {
+      "lipid_name": "PA 18:1_22:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02462858592488854,
+      "rho_zero": 2.5830888334037025e-05,
+      "deleted": {
+        "lower": 0.0035745663187935635,
+        "upper": 0.0035746938764587106,
+        "seconds": 2.7089314348995686,
+        "objective": 0.003574671960802174,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        19
+      ],
+      "proof_index": 13
+    },
+    {
+      "lipid_name": "PA 18:1_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02292983621286161,
+      "rho_zero": 3.905325379104312e-06,
+      "deleted": {
+        "lower": 0.003551639131606491,
+        "upper": 0.003552066336004029,
+        "seconds": 2.7542595714330673,
+        "objective": 0.003552038452208803,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        20
+      ],
+      "proof_index": 14
+    },
+    {
+      "lipid_name": "PA 18:1_24:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003325462956080163,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        22
+      ],
+      "proof_index": 15
+    },
+    {
+      "lipid_name": "PA 18:1_24:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0074319467112317706,
+      "rho_zero": 4.673684903175132e-07,
+      "deleted": {
+        "lower": 0.003551326622731289,
+        "upper": 0.003551768927451855,
+        "seconds": 3.9288911558687687,
+        "objective": 0.0035517410803262085,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        23
+      ],
+      "proof_index": 16
+    },
+    {
+      "lipid_name": "PA 18:1_24:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012223666250551657,
+      "rho_zero": 7.914349862219217e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        25
+      ],
+      "proof_index": 17
+    },
+    {
+      "lipid_name": "PA 22:0_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004356748955891267,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546436720737873,
+        "upper": 0.0035465573573945095,
+        "seconds": 3.333731062710285,
+        "objective": 0.0035465276664320288,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        26
+      ],
+      "proof_index": 18
+    },
+    {
+      "lipid_name": "PA 22:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.021667640778188956,
+      "rho_zero": 6.13460294336747e-06,
+      "deleted": {
+        "lower": 0.0037695357592857177,
+        "upper": 0.003770019590674625,
+        "seconds": 2.917595475912094,
+        "objective": 0.0037700018256039895,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        27
+      ],
+      "proof_index": 19
+    },
+    {
+      "lipid_name": "PA 24:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.013557474764757688,
+      "rho_zero": 3.898927311432442e-06,
+      "deleted": {
+        "lower": 0.0035837693765101565,
+        "upper": 0.003583901529358915,
+        "seconds": 3.662022117525339,
+        "objective": 0.0035838693605381553,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        31
+      ],
+      "proof_index": 20
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.012147450627526866,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003547795464055942,
+        "upper": 0.0035482407230641062,
+        "seconds": 3.240216352045536,
+        "objective": 0.0035482154921920774,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        35
+      ],
+      "proof_index": 21
+    },
+    {
+      "lipid_name": "PA 20:0_20:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001153684910215544,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        36
+      ],
+      "proof_index": 22
+    },
+    {
+      "lipid_name": "PA 20:0_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01614852746321265,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035461226594173164,
+        "upper": 0.0035465515563191186,
+        "seconds": 3.894897408783436,
+        "objective": 0.003546527540493779,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        38
+      ],
+      "proof_index": 23
+    },
+    {
+      "lipid_name": "PA 20:0_22:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.012320798040401034,
+      "rho_zero": 2.2645405966504497e-06,
+      "deleted": {
+        "lower": 0.0035463534071893477,
+        "upper": 0.0035464761090166635,
+        "seconds": 4.523563452064991,
+        "objective": 0.003546454291171912,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        41
+      ],
+      "proof_index": 24
+    },
+    {
+      "lipid_name": "PA 20:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003400911601466137,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003545782596888205,
+        "upper": 0.003546300587171491,
+        "seconds": 3.5340150222182274,
+        "objective": 0.0035462752695204157,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        43
+      ],
+      "proof_index": 25
+    },
+    {
+      "lipid_name": "PA 20:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006963627051326904,
+      "rho_zero": 2.601320914014878e-06,
+      "deleted": {
+        "lower": 0.0035518510222525943,
+        "upper": 0.003551975970450705,
+        "seconds": 2.850330676883459,
+        "objective": 0.0035519507742026615,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        44
+      ],
+      "proof_index": 26
+    },
+    {
+      "lipid_name": "PA 20:0_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004570850385148758,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035461272871074386,
+        "upper": 0.003546266116528106,
+        "seconds": 3.7713576667010784,
+        "objective": 0.003546244779586147,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        46
+      ],
+      "proof_index": 27
+    },
+    {
+      "lipid_name": "PA 20:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.00989690624792594,
+      "rho_zero": 2.4515754590040147e-08,
+      "deleted": {
+        "lower": 0.003549573402475023,
+        "upper": 0.0035500743147209362,
+        "seconds": 4.521412096917629,
+        "objective": 0.0035500489449984333,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        47
+      ],
+      "proof_index": 28
+    },
+    {
+      "lipid_name": "PA 20:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.006347331078516353,
+      "rho_zero": 1.9519857104360963e-06,
+      "deleted": {
+        "lower": 0.003546131689480666,
+        "upper": 0.0035462571323432402,
+        "seconds": 5.004318993538618,
+        "objective": 0.0035462313857728255,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        48
+      ],
+      "proof_index": 29
+    },
+    {
+      "lipid_name": "PA 22:0_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.012426035779490493,
+      "rho_zero": 2.528708924901655e-06,
+      "deleted": {
+        "lower": 0.003566637158470283,
+        "upper": 0.003566803781310636,
+        "seconds": 3.168057397007942,
+        "objective": 0.0035667786666686045,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        51
+      ],
+      "proof_index": 30
+    },
+    {
+      "lipid_name": "PA 20:1_22:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008085753243238398,
+      "rho_zero": 7.476750881370568e-06,
+      "deleted": {
+        "lower": 0.00379753706355874,
+        "upper": 0.0037976694757315037,
+        "seconds": 4.3039525821805,
+        "objective": 0.0037976476199296717,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        52
+      ],
+      "proof_index": 31
+    },
+    {
+      "lipid_name": "PA 20:1_22:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02810073452857328,
+      "rho_zero": 3.702168465324257e-06,
+      "deleted": {
+        "lower": 0.0035464341677848943,
+        "upper": 0.0035469270522985145,
+        "seconds": 4.531287994235754,
+        "objective": 0.003546904781220754,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        54
+      ],
+      "proof_index": 32
+    },
+    {
+      "lipid_name": "PA 20:1_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.017961681932411374,
+      "rho_zero": 7.0747620527538504e-06,
+      "deleted": {
+        "lower": 0.0035574014469825638,
+        "upper": 0.003557523452475165,
+        "seconds": 5.125578377395868,
+        "objective": 0.00355750341683682,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+            "numerical_validation_error": "AssertionError((0.0035198920940985386, 0.0035575500319823387, 0.003557508161799112))"
+          },
+          {
+            "method": "highs-ipm",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        57
+      ],
+      "proof_index": 33
+    },
+    {
+      "lipid_name": "PA 20:2_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001907175405899231,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        58
+      ],
+      "proof_index": 34
+    },
+    {
+      "lipid_name": "PA 22:1_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.024343538390035904,
+      "rho_zero": 4.206599869811276e-06,
+      "deleted": {
+        "lower": 0.003666878527657577,
+        "upper": 0.0036673484457664237,
+        "seconds": 3.5807594135403633,
+        "objective": 0.0036673263260935765,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        60
+      ],
+      "proof_index": 35
+    },
+    {
+      "lipid_name": "PA 22:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011645946451595245,
+      "rho_zero": 7.497523880425387e-06,
+      "deleted": {
+        "lower": 0.0035538052026899466,
+        "upper": 0.003554267840099214,
+        "seconds": 2.918456792831421,
+        "objective": 0.003554243463410575,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        64
+      ],
+      "proof_index": 36
+    },
+    {
+      "lipid_name": "PA 22:0_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.027521484374245436,
+      "rho_zero": 1.2172124486491016e-05,
+      "deleted": {
+        "lower": 0.003879977954051544,
+        "upper": 0.003880126103868039,
+        "seconds": 3.8440184108912945,
+        "objective": 0.0038801050356668835,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        68
+      ],
+      "proof_index": 37
+    },
+    {
+      "lipid_name": "PA 22:2_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0022341147430690743,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        70
+      ],
+      "proof_index": 38
+    },
+    {
+      "lipid_name": "PA 20:4_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.005508720124739949,
+      "rho_zero": 1.578069180150483e-05,
+      "deleted": {
+        "lower": 0.003978311719354188,
+        "upper": 0.003978421489171857,
+        "seconds": 3.6459577567875385,
+        "objective": 0.003978399919373769,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        72
+      ],
+      "proof_index": 39
+    },
+    {
+      "lipid_name": "PA 20:4_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.00157957194721643,
+      "rho_zero": 8.039669831475034e-07,
+      "deleted": {
+        "lower": 0.003546085339523935,
+        "upper": 0.003546231138658637,
+        "seconds": 4.125139124691486,
+        "objective": 0.0035462070943048456,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        74
+      ],
+      "proof_index": 40
+    },
+    {
+      "lipid_name": "PA 22:1_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.004551296528313761,
+      "rho_zero": 3.141006762443114e-06,
+      "deleted": {
+        "lower": 0.0035519628692066716,
+        "upper": 0.0035520951582564686,
+        "seconds": 3.001092914491892,
+        "objective": 0.0035520679391212655,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        75
+      ],
+      "proof_index": 41
+    },
+    {
+      "lipid_name": "PA 22:3_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0031120142151666165,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        76
+      ],
+      "proof_index": 42
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003706097611416019,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035465497987196065,
+        "upper": 0.003546671794396359,
+        "seconds": 3.415789023041725,
+        "objective": 0.0035466474404006725,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        78
+      ],
+      "proof_index": 43
+    },
+    {
+      "lipid_name": "PA 22:5_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.010649109742282113,
+      "rho_zero": 7.92863999028389e-06,
+      "deleted": {
+        "lower": 0.0039267299643399745,
+        "upper": 0.003926906986144726,
+        "seconds": 2.9793630242347717,
+        "objective": 0.003926882463464348,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        79
+      ],
+      "proof_index": 44
+    },
+    {
+      "lipid_name": "PA 22:5_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005860671394624266,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        80
+      ],
+      "proof_index": 45
+    },
+    {
+      "lipid_name": "PA 22:6_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.028281726753854503,
+      "rho_zero": 0.00016704380811525114,
+      "deleted": {
+        "lower": 0.006616953771954798,
+        "upper": 0.006617145388222091,
+        "seconds": 6.02824591845274,
+        "objective": 0.006617127399116055,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        81
+      ],
+      "proof_index": 46
+    },
+    {
+      "lipid_name": "PS 14:0_20:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.026558549409578174,
+      "rho_zero": 0.00016313085834293857,
+      "deleted": {
+        "lower": 0.004381379380719197,
+        "upper": 0.004381834965049219,
+        "seconds": 3.23053690046072,
+        "objective": 0.004381814171074682,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        82
+      ],
+      "proof_index": 47
+    },
+    {
+      "lipid_name": "PS 14:0_22:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.004652592729292861,
+      "rho_zero": 6.448392419152675e-06,
+      "deleted": {
+        "lower": 0.0038750855168775146,
+        "upper": 0.0038752200199712455,
+        "seconds": 3.5314343869686127,
+        "objective": 0.003875198502268273,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        86
+      ],
+      "proof_index": 48
+    },
+    {
+      "lipid_name": "PS 14:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001387917046915638,
+      "rho_zero": 2.5274991478489336e-06,
+      "deleted": {
+        "lower": 0.003546929805910752,
+        "upper": 0.0035474400783646618,
+        "seconds": 3.8426141925156116,
+        "objective": 0.003547413858808863,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        87
+      ],
+      "proof_index": 49
+    },
+    {
+      "lipid_name": "PS 16:0_18:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001776050675153912,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        90
+      ],
+      "proof_index": 50
+    },
+    {
+      "lipid_name": "PS 16:0_20:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004606451964120419,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        92
+      ],
+      "proof_index": 51
+    },
+    {
+      "lipid_name": "PS 16:0_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.007171440406668152,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035502123416919114,
+        "upper": 0.0035507237200215823,
+        "seconds": 3.8042798563838005,
+        "objective": 0.0035506992472739314,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        95
+      ],
+      "proof_index": 52
+    },
+    {
+      "lipid_name": "PS 16:0_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008033740950957177,
+      "rho_zero": 2.3880012508087704e-05,
+      "deleted": {
+        "lower": 0.003972333778508794,
+        "upper": 0.003972791409069757,
+        "seconds": 2.9692226462066174,
+        "objective": 0.003972762303823234,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        97
+      ],
+      "proof_index": 53
+    },
+    {
+      "lipid_name": "PS 18:0_16:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011151947477620666,
+      "rho_zero": 1.7727261298448893e-05,
+      "deleted": {
+        "lower": 0.00354979181247494,
+        "upper": 0.003549914349382793,
+        "seconds": 3.417889341711998,
+        "objective": 0.003549887244117739,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        98
+      ],
+      "proof_index": 54
+    },
+    {
+      "lipid_name": "PS 20:0_16:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006986646912944265,
+      "rho_zero": 6.039956556475588e-06,
+      "deleted": {
+        "lower": 0.0035459756109084196,
+        "upper": 0.0035464736842534235,
+        "seconds": 3.0465648397803307,
+        "objective": 0.0035464483652035347,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        100
+      ],
+      "proof_index": 55
+    },
+    {
+      "lipid_name": "PS 16:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.027299437921475527,
+      "rho_zero": 0.00016537710877267083,
+      "deleted": {
+        "lower": 0.00387614703919204,
+        "upper": 0.0038762548287351066,
+        "seconds": 3.714861750602722,
+        "objective": 0.003876233604540405,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        101
+      ],
+      "proof_index": 56
+    },
+    {
+      "lipid_name": "PS 16:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012052393876124461,
+      "rho_zero": 3.7158047691327725e-07,
+      "deleted": {
+        "lower": 0.003546110598449577,
+        "upper": 0.003546269698556974,
+        "seconds": 3.998699549585581,
+        "objective": 0.0035462455070628127,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        102
+      ],
+      "proof_index": 57
+    },
+    {
+      "lipid_name": "PS 16:1_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.031661111079945806,
+      "rho_zero": 0.00036474163109912063,
+      "deleted": {
+        "lower": 0.0049392889265214195,
+        "upper": 0.00493946313507419,
+        "seconds": 3.403425458818674,
+        "objective": 0.004939437450873363,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        104
+      ],
+      "proof_index": 58
+    },
+    {
+      "lipid_name": "PS 18:0_18:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02111151776229013,
+      "rho_zero": 4.1872086319213836e-05,
+      "deleted": {
+        "lower": 0.0036380598560559396,
+        "upper": 0.0036381864794987947,
+        "seconds": 3.7556999064981937,
+        "objective": 0.0036381623206521232,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        105
+      ],
+      "proof_index": 59
+    },
+    {
+      "lipid_name": "PS 18:0_18:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012436879120129394,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003552937580414219,
+        "upper": 0.003553367447821856,
+        "seconds": 3.888719491660595,
+        "objective": 0.0035533455113979096,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        106
+      ],
+      "proof_index": 60
+    },
+    {
+      "lipid_name": "PS 18:0_18:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.023310793097941145,
+      "rho_zero": 0.0002602449653904574,
+      "deleted": {
+        "lower": 0.0035746465839907463,
+        "upper": 0.0035751392107131416,
+        "seconds": 2.720208939164877,
+        "objective": 0.0035751144238695444,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        108
+      ],
+      "proof_index": 61
+    },
+    {
+      "lipid_name": "PS 18:1_18:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004911148659598737,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        109
+      ],
+      "proof_index": 62
+    },
+    {
+      "lipid_name": "PS 18:1_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0032674973011465325,
+      "rho_zero": 5.987406993046083e-07,
+      "deleted": {
+        "lower": 0.003546456700193024,
+        "upper": 0.0035468685641029014,
+        "seconds": 3.5327883064746857,
+        "objective": 0.0035468439879192512,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        110
+      ],
+      "proof_index": 63
+    },
+    {
+      "lipid_name": "PS 18:1_18:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008985784083507949,
+      "rho_zero": 2.9215523727501777e-05,
+      "deleted": {
+        "lower": 0.004213548692101977,
+        "upper": 0.0042141006774861905,
+        "seconds": 3.054863940924406,
+        "objective": 0.004214076381114097,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        111
+      ],
+      "proof_index": 64
+    },
+    {
+      "lipid_name": "PS 17:0_18:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.007074124969480646,
+      "rho_zero": 3.884396931913863e-05,
+      "deleted": {
+        "lower": 0.003959697337705431,
+        "upper": 0.003960172602114884,
+        "seconds": 3.8838714957237244,
+        "objective": 0.0039601481467724615,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        113
+      ],
+      "proof_index": 65
+    },
+    {
+      "lipid_name": "PE 16:0_22:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.013115105931543771,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003642853857341204,
+        "upper": 0.003643325994016686,
+        "seconds": 3.662928905338049,
+        "objective": 0.003643302507259049,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        116
+      ],
+      "proof_index": 66
+    },
+    {
+      "lipid_name": "PE 16:0_22:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.009274054282838553,
+      "rho_zero": 8.240158314736673e-20,
+      "deleted": {
+        "lower": 0.003552670900696761,
+        "upper": 0.003552807762878216,
+        "seconds": 3.1705509535968304,
+        "objective": 0.0035527806058859752,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        117
+      ],
+      "proof_index": 67
+    },
+    {
+      "lipid_name": "PE 16:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010766300335080744,
+      "rho_zero": 3.490108864166145e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        118
+      ],
+      "proof_index": 68
+    },
+    {
+      "lipid_name": "PE 16:0_22:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0065551073234303816,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        119
+      ],
+      "proof_index": 69
+    },
+    {
+      "lipid_name": "PE 16:0_22:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.01930237528277714,
+      "rho_zero": 2.6845968662664835e-05,
+      "deleted": {
+        "lower": 0.0042849692035588065,
+        "upper": 0.004285080737663005,
+        "seconds": 3.5512346401810646,
+        "objective": 0.004285060969338067,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        120
+      ],
+      "proof_index": 70
+    },
+    {
+      "lipid_name": "PE 16:0_24:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004526549514871507,
+      "rho_zero": 2.545689800369409e-07,
+      "deleted": {
+        "lower": 0.003547248782520716,
+        "upper": 0.0035473824366535913,
+        "seconds": 5.6224389635026455,
+        "objective": 0.003547360099904273,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        122
+      ],
+      "proof_index": 71
+    },
+    {
+      "lipid_name": "PE 16:0_24:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.025756404483550602,
+      "rho_zero": 7.918451151711434e-05,
+      "deleted": {
+        "lower": 0.003554658486390819,
+        "upper": 0.003555179830611501,
+        "seconds": 3.333799634128809,
+        "objective": 0.003555157536212735,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        123
+      ],
+      "proof_index": 72
+    },
+    {
+      "lipid_name": "PE 22:0_16:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02434800671221728,
+      "rho_zero": 4.277660537983604e-05,
+      "deleted": {
+        "lower": 0.004009359340119746,
+        "upper": 0.004009499747232994,
+        "seconds": 3.70067248493433,
+        "objective": 0.004009476818861004,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        124
+      ],
+      "proof_index": 73
+    },
+    {
+      "lipid_name": "PE 16:1_22:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.009587572445807985,
+      "rho_zero": 2.862297600832138e-06,
+      "deleted": {
+        "lower": 0.003645033681553111,
+        "upper": 0.003645190324642325,
+        "seconds": 3.107484705746174,
+        "objective": 0.0036451694229999794,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        125
+      ],
+      "proof_index": 74
+    },
+    {
+      "lipid_name": "PE 16:1_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0021914271458073373,
+      "rho_zero": 3.2458535547674144e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        126
+      ],
+      "proof_index": 75
+    },
+    {
+      "lipid_name": "PE 16:1_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.006675222289667377,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035474909629333,
+        "upper": 0.003547630733071412,
+        "seconds": 4.385991118848324,
+        "objective": 0.00354760760893859,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        127
+      ],
+      "proof_index": 76
+    },
+    {
+      "lipid_name": "PE 16:1_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0023711585993494272,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003560675693284327,
+        "upper": 0.0035611907518341103,
+        "seconds": 4.326667193323374,
+        "objective": 0.003561162096631014,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        128
+      ],
+      "proof_index": 77
+    },
+    {
+      "lipid_name": "PE 16:1_22:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005940722195553809,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        129
+      ],
+      "proof_index": 78
+    },
+    {
+      "lipid_name": "PE 16:1_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012365522488628955,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        130
+      ],
+      "proof_index": 79
+    },
+    {
+      "lipid_name": "PE 18:0_20:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.015522538234194966,
+      "rho_zero": 2.472047494421002e-19,
+      "deleted": {
+        "lower": 0.0035469669188947076,
+        "upper": 0.0035471034835981366,
+        "seconds": 3.9291236251592636,
+        "objective": 0.003547081871801371,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        132
+      ],
+      "proof_index": 80
+    },
+    {
+      "lipid_name": "PE 18:0_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005164312993597783,
+      "rho_zero": 1.250451102114374e-07,
+      "deleted": {
+        "lower": 0.0035510386458646606,
+        "upper": 0.003551175757309488,
+        "seconds": 3.7146974466741085,
+        "objective": 0.0035511509374362947,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        133
+      ],
+      "proof_index": 81
+    },
+    {
+      "lipid_name": "PE 18:0_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0067368523230805066,
+      "rho_zero": 1.5091984441531702e-06,
+      "deleted": {
+        "lower": 0.003639084653880925,
+        "upper": 0.003639523513298255,
+        "seconds": 3.710838619619608,
+        "objective": 0.003639501670616588,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        134
+      ],
+      "proof_index": 82
+    },
+    {
+      "lipid_name": "PE 18:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004959134289836206,
+      "rho_zero": 2.4536211010855658e-09,
+      "deleted": {
+        "lower": 0.003579828414811978,
+        "upper": 0.0035802857580671324,
+        "seconds": 3.004367172718048,
+        "objective": 0.0035802600390206045,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        136
+      ],
+      "proof_index": 83
+    },
+    {
+      "lipid_name": "PE 18:0_22:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0019549539957115936,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        138
+      ],
+      "proof_index": 84
+    },
+    {
+      "lipid_name": "PE 18:0_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005220984552213274,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        139
+      ],
+      "proof_index": 85
+    },
+    {
+      "lipid_name": "PE 20:0_18:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0026276766400213304,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        140
+      ],
+      "proof_index": 86
+    },
+    {
+      "lipid_name": "PE 18:1_20:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0022281710020773467,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        141
+      ],
+      "proof_index": 87
+    },
+    {
+      "lipid_name": "PE 18:1_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.005375721036223332,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        142
+      ],
+      "proof_index": 88
+    },
+    {
+      "lipid_name": "PE 18:1_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.021228906223302844,
+      "rho_zero": 3.3007289039999376e-06,
+      "deleted": {
+        "lower": 0.003680340082459647,
+        "upper": 0.003680824021043163,
+        "seconds": 2.789930310100317,
+        "objective": 0.0036808016587412,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        144
+      ],
+      "proof_index": 89
+    },
+    {
+      "lipid_name": "PE 18:1_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001634426912556334,
+      "rho_zero": 1.8463583577512658e-06,
+      "deleted": {
+        "lower": 0.0035461078745630567,
+        "upper": 0.003546231359992286,
+        "seconds": 3.471191491931677,
+        "objective": 0.00354620485646646,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        145
+      ],
+      "proof_index": 90
+    },
+    {
+      "lipid_name": "PE 18:1_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.00433804165821378,
+      "rho_zero": 2.001017080678991e-07,
+      "deleted": {
+        "lower": 0.003553076336825629,
+        "upper": 0.003553203206994358,
+        "seconds": 3.8001893274486065,
+        "objective": 0.0035531794615391533,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        146
+      ],
+      "proof_index": 91
+    },
+    {
+      "lipid_name": "PE 18:1_22:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0013638458053793546,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        149
+      ],
+      "proof_index": 92
+    },
+    {
+      "lipid_name": "PE 20:0_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003584148431564982,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        151
+      ],
+      "proof_index": 93
+    },
+    {
+      "lipid_name": "PE 20:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0061801104156237185,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035502077802829005,
+        "upper": 0.003550350625510636,
+        "seconds": 3.4563964270055294,
+        "objective": 0.003550329599117922,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        152
+      ],
+      "proof_index": 94
+    },
+    {
+      "lipid_name": "PE 18:2_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01627998574794664,
+      "rho_zero": 2.6205940550896088e-08,
+      "deleted": {
+        "lower": 0.00360821070240041,
+        "upper": 0.003608753227258535,
+        "seconds": 3.802780222147703,
+        "objective": 0.0036087331030073095,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        153
+      ],
+      "proof_index": 95
+    },
+    {
+      "lipid_name": "PE 18:2_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.016814307004228084,
+      "rho_zero": 2.4242305492616673e-06,
+      "deleted": {
+        "lower": 0.003551461368027944,
+        "upper": 0.003551596459215058,
+        "seconds": 3.787008572369814,
+        "objective": 0.003551568387854492,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        154
+      ],
+      "proof_index": 96
+    },
+    {
+      "lipid_name": "PE 18:2_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.002662094524186165,
+      "rho_zero": 6.362920410300538e-06,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        156
+      ],
+      "proof_index": 97
+    },
+    {
+      "lipid_name": "PE 22:1_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0036360345284700713,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035533046784070725,
+        "upper": 0.0035537858178798336,
+        "seconds": 3.1606735475361347,
+        "objective": 0.0035537635087329535,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        157
+      ],
+      "proof_index": 98
+    },
+    {
+      "lipid_name": "PE 20:0_18:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001908781713441432,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        163
+      ],
+      "proof_index": 99
+    },
+    {
+      "lipid_name": "PE 20:1_18:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0029871792319947897,
+      "rho_zero": 6.064495132319425e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        164
+      ],
+      "proof_index": 100
+    },
+    {
+      "lipid_name": "PE 18:3_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008410432439496837,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003664968767550672,
+        "upper": 0.0036655299775267556,
+        "seconds": 4.019336309283972,
+        "objective": 0.003665506016444312,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        165
+      ],
+      "proof_index": 101
+    },
+    {
+      "lipid_name": "PE 20:0_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010910732658130064,
+      "rho_zero": 2.3911837451049166e-05,
+      "deleted": {
+        "lower": 0.0035873576193414286,
+        "upper": 0.0035877940546809334,
+        "seconds": 3.533312052488327,
+        "objective": 0.0035877695760059233,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        170
+      ],
+      "proof_index": 102
+    },
+    {
+      "lipid_name": "PE 20:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.007383607401005329,
+      "rho_zero": 2.0710333114221057e-06,
+      "deleted": {
+        "lower": 0.00354722368362645,
+        "upper": 0.0035473381790432188,
+        "seconds": 3.222705263644457,
+        "objective": 0.0035473124795476546,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        171
+      ],
+      "proof_index": 103
+    },
+    {
+      "lipid_name": "PE 20:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.010961198079083545,
+      "rho_zero": 3.1262809191640486e-06,
+      "deleted": {
+        "lower": 0.0035734507813004264,
+        "upper": 0.0035739617626909773,
+        "seconds": 3.3421044908463955,
+        "objective": 0.00357393683899921,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        172
+      ],
+      "proof_index": 104
+    },
+    {
+      "lipid_name": "PE 20:1_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.03103907510407034,
+      "rho_zero": 0.0001356114120963797,
+      "deleted": {
+        "lower": 0.005498634411043666,
+        "upper": 0.0054991292694221774,
+        "seconds": 4.035659767687321,
+        "objective": 0.005499106161236803,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        174
+      ],
+      "proof_index": 105
+    },
+    {
+      "lipid_name": "PE 20:2_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0037814845718454446,
+      "rho_zero": 3.519720577782086e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        175
+      ],
+      "proof_index": 106
+    },
+    {
+      "lipid_name": "PE 20:2_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0037224649145803737,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        177
+      ],
+      "proof_index": 107
+    },
+    {
+      "lipid_name": "PE 20:2_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012230235138177628,
+      "rho_zero": 1.9022859779754127e-06,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        178
+      ],
+      "proof_index": 108
+    },
+    {
+      "lipid_name": "PE 20:3_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008040043168337506,
+      "rho_zero": 1.8617773370093668e-08,
+      "deleted": {
+        "lower": 0.0036942847462411096,
+        "upper": 0.0036948682262639763,
+        "seconds": 3.2561978958547115,
+        "objective": 0.00369484696029865,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        179
+      ],
+      "proof_index": 109
+    },
+    {
+      "lipid_name": "PE 20:3_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003923088483994937,
+      "rho_zero": 2.205533531365937e-06,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        181
+      ],
+      "proof_index": 110
+    },
+    {
+      "lipid_name": "PE 20:4_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.017984420993872492,
+      "rho_zero": 6.425596884961087e-06,
+      "deleted": {
+        "lower": 0.003731655987320874,
+        "upper": 0.0037317712883464266,
+        "seconds": 4.435234494507313,
+        "objective": 0.0037317488634529988,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        182
+      ],
+      "proof_index": 111
+    },
+    {
+      "lipid_name": "PE 17:0_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010034161331146112,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        185
+      ],
+      "proof_index": 112
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.006029947971848708,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        187
+      ],
+      "proof_index": 113
+    },
+    {
+      "lipid_name": "PE 17:0_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010213295208096397,
+      "rho_zero": 6.077059879064322e-06,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        188
+      ],
+      "proof_index": 114
+    },
+    {
+      "lipid_name": "PE 17:0_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003187253422342952,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        189
+      ],
+      "proof_index": 115
+    },
+    {
+      "lipid_name": "PE 17:0_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001414039056314061,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        190
+      ],
+      "proof_index": 116
+    },
+    {
+      "lipid_name": "PE 17:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.009775054710991021,
+      "rho_zero": 7.54900013215734e-06,
+      "deleted": {
+        "lower": 0.003926467196966281,
+        "upper": 0.0039269380598844755,
+        "seconds": 4.082246080040932,
+        "objective": 0.003926916647410272,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        192
+      ],
+      "proof_index": 117
+    },
+    {
+      "lipid_name": "PE 17:0_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.024548833007241932,
+      "rho_zero": 4.6368927271293706e-05,
+      "deleted": {
+        "lower": 0.004508767756346368,
+        "upper": 0.004509185855650784,
+        "seconds": 4.843209866434336,
+        "objective": 0.004509165145468705,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        193
+      ],
+      "proof_index": 118
+    },
+    {
+      "lipid_name": "PE 17:0_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02532024142824942,
+      "rho_zero": 9.711787490617797e-05,
+      "deleted": {
+        "lower": 0.005543850941047991,
+        "upper": 0.005544005429373048,
+        "seconds": 3.535639528185129,
+        "objective": 0.005543979009788341,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        194
+      ],
+      "proof_index": 119
+    },
+    {
+      "lipid_name": "PE 17:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.005548916778330824,
+      "rho_zero": 4.190328736562527e-06,
+      "deleted": {
+        "lower": 0.0038169340405578883,
+        "upper": 0.003817065528098234,
+        "seconds": 3.671233184635639,
+        "objective": 0.0038170439636119368,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        196
+      ],
+      "proof_index": 120
+    },
+    {
+      "lipid_name": "PE 17:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012128240699414068,
+      "rho_zero": 2.6895310239252172e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        197
+      ],
+      "proof_index": 121
+    },
+    {
+      "lipid_name": "PE 17:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011329874062120016,
+      "rho_zero": 2.626766673746247e-06,
+      "deleted": {
+        "lower": 0.0037171425061673373,
+        "upper": 0.0037176177544909063,
+        "seconds": 4.797946587204933,
+        "objective": 0.003717595998995893,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        198
+      ],
+      "proof_index": 122
+    },
+    {
+      "lipid_name": "PE 17:1_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0015379484064916634,
+      "rho_zero": 1.5208583682396832e-10,
+      "deleted": {
+        "lower": 0.0035460996906937835,
+        "upper": 0.003546229852992061,
+        "seconds": 3.3315682150423527,
+        "objective": 0.0035462069802948185,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        200
+      ],
+      "proof_index": 123
+    },
+    {
+      "lipid_name": "PE 17:1_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.008243481001982916,
+      "rho_zero": 4.429231224940752e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        201
+      ],
+      "proof_index": 124
+    },
+    {
+      "lipid_name": "PE 17:1_22:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.008513292198749587,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        202
+      ],
+      "proof_index": 125
+    },
+    {
+      "lipid_name": "PE 17:1_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011879845997331296,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003577812874796624,
+        "upper": 0.0035782912705560345,
+        "seconds": 3.9085089936852455,
+        "objective": 0.00357826495919656,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        203
+      ],
+      "proof_index": 126
+    },
+    {
+      "lipid_name": "PE 17:1_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.013706844258376233,
+      "rho_zero": 2.410133539603768e-05,
+      "deleted": {
+        "lower": 0.004070165550852255,
+        "upper": 0.004070286393979704,
+        "seconds": 3.302556522190571,
+        "objective": 0.004070260760180224,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        204
+      ],
+      "proof_index": 127
+    },
+    {
+      "lipid_name": "PE O-16:0_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.01037235228114691,
+      "rho_zero": 2.819534410708439e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        205
+      ],
+      "proof_index": 128
+    },
+    {
+      "lipid_name": "PE O-16:0_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0021312818594690693,
+      "rho_zero": 3.6616459922520834e-08,
+      "deleted": {
+        "lower": 0.003546245074898972,
+        "upper": 0.0035463609459908873,
+        "seconds": 3.8030501417815685,
+        "objective": 0.0035463341041563406,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        206
+      ],
+      "proof_index": 129
+    },
+    {
+      "lipid_name": "PE O-16:0_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.011646216897627983,
+      "rho_zero": 3.478469330611565e-07,
+      "deleted": {
+        "lower": 0.0035473548355893997,
+        "upper": 0.0035478112359480273,
+        "seconds": 3.5490593425929546,
+        "objective": 0.0035477878589742426,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        207
+      ],
+      "proof_index": 130
+    },
+    {
+      "lipid_name": "PE O-16:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008736385523321531,
+      "rho_zero": 8.324993908951472e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        208
+      ],
+      "proof_index": 131
+    },
+    {
+      "lipid_name": "PE O-16:0_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.012824579642124877,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        209
+      ],
+      "proof_index": 132
+    },
+    {
+      "lipid_name": "PE O-16:0_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001376308017147518,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        210
+      ],
+      "proof_index": 133
+    },
+    {
+      "lipid_name": "PE O-16:1_22:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0014236778642500926,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        211
+      ],
+      "proof_index": 134
+    },
+    {
+      "lipid_name": "PE O-16:1_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0026487795967048925,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        213
+      ],
+      "proof_index": 135
+    },
+    {
+      "lipid_name": "PE O-16:1_24:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006073364027332307,
+      "rho_zero": 1.036705658876596e-05,
+      "deleted": {
+        "lower": 0.004144810147446971,
+        "upper": 0.004145327135839106,
+        "seconds": 3.711642526090145,
+        "objective": 0.004145306182805152,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        217
+      ],
+      "proof_index": 136
+    },
+    {
+      "lipid_name": "PE O-16:1_24:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0010625297703176766,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035485972902672197,
+        "upper": 0.003548715606402847,
+        "seconds": 4.251427799463272,
+        "objective": 0.00354868932547759,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        219
+      ],
+      "proof_index": 137
+    },
+    {
+      "lipid_name": "PE O-16:1_24:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.017242739013324366,
+      "rho_zero": 8.216521181740729e-05,
+      "deleted": {
+        "lower": 0.005170754595187222,
+        "upper": 0.005170884771030979,
+        "seconds": 2.997557058930397,
+        "objective": 0.005170862698017708,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        220
+      ],
+      "proof_index": 138
+    },
+    {
+      "lipid_name": "PE O-18:0_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.007341983919455192,
+      "rho_zero": 4.893430164404451e-06,
+      "deleted": {
+        "lower": 0.0035558771621260546,
+        "upper": 0.0035564168812998683,
+        "seconds": 3.953794736415148,
+        "objective": 0.0035563916206151945,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        222
+      ],
+      "proof_index": 139
+    },
+    {
+      "lipid_name": "PE O-18:0_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008608916178798507,
+      "rho_zero": 2.147152895097772e-07,
+      "deleted": {
+        "lower": 0.0035460964590718256,
+        "upper": 0.0035462369892760495,
+        "seconds": 6.101389456540346,
+        "objective": 0.0035462152309211938,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        223
+      ],
+      "proof_index": 140
+    },
+    {
+      "lipid_name": "PE O-18:0_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.008689425502423164,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        224
+      ],
+      "proof_index": 141
+    },
+    {
+      "lipid_name": "PE O-18:0_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.006836169509684588,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        225
+      ],
+      "proof_index": 142
+    },
+    {
+      "lipid_name": "PE O-18:0_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.019306715768854274,
+      "rho_zero": 2.3953436506194264e-05,
+      "deleted": {
+        "lower": 0.004442136061357754,
+        "upper": 0.004442312696701112,
+        "seconds": 4.0203195959329605,
+        "objective": 0.004442291546668948,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        226
+      ],
+      "proof_index": 143
+    },
+    {
+      "lipid_name": "PE O-18:0_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005370886743460339,
+      "rho_zero": 5.287755591779745e-07,
+      "deleted": {
+        "lower": 0.003549330588446533,
+        "upper": 0.003549824628755317,
+        "seconds": 2.785575542598963,
+        "objective": 0.003549801339796719,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        227
+      ],
+      "proof_index": 144
+    },
+    {
+      "lipid_name": "PE O-18:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.015280868374232067,
+      "rho_zero": 4.666862747292499e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        230
+      ],
+      "proof_index": 145
+    },
+    {
+      "lipid_name": "PE O-18:0_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.024141703812409612,
+      "rho_zero": 0.00017981493826887512,
+      "deleted": {
+        "lower": 0.004625948853039144,
+        "upper": 0.004626070985018722,
+        "seconds": 3.707413572818041,
+        "objective": 0.004626049828319794,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        232
+      ],
+      "proof_index": 146
+    },
+    {
+      "lipid_name": "PE O-18:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0023382876971426935,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        234
+      ],
+      "proof_index": 147
+    },
+    {
+      "lipid_name": "PE O-18:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006404312925561485,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        235
+      ],
+      "proof_index": 148
+    },
+    {
+      "lipid_name": "PE O-18:1_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.00830344865414884,
+      "rho_zero": 6.357212623152235e-06,
+      "deleted": {
+        "lower": 0.003736716365610501,
+        "upper": 0.0037368679894555176,
+        "seconds": 3.6974010951817036,
+        "objective": 0.0037368438060375207,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        237
+      ],
+      "proof_index": 149
+    },
+    {
+      "lipid_name": "PE O-18:1_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.002039434642470899,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        239
+      ],
+      "proof_index": 150
+    },
+    {
+      "lipid_name": "PE O-18:1_22:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.00229549445992253,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        240
+      ],
+      "proof_index": 151
+    },
+    {
+      "lipid_name": "PE O-18:1_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0018024502457538124,
+      "rho_zero": 2.472047494421002e-19,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        243
+      ],
+      "proof_index": 152
+    },
+    {
+      "lipid_name": "PE O-20:0_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012681432017231863,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035461529662552263,
+        "upper": 0.00354628306153363,
+        "seconds": 3.2393822260200977,
+        "objective": 0.0035462557535055187,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        244
+      ],
+      "proof_index": 153
+    },
+    {
+      "lipid_name": "PE O-20:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.018878782117184446,
+      "rho_zero": 1.0275624919361236e-05,
+      "deleted": {
+        "lower": 0.0035613790975837652,
+        "upper": 0.0035618241998081742,
+        "seconds": 3.2145688012242317,
+        "objective": 0.0035617983124389893,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        245
+      ],
+      "proof_index": 154
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005769237980524391,
+      "rho_zero": 7.68891174995779e-08,
+      "deleted": {
+        "lower": 0.0035503845704432917,
+        "upper": 0.0035508403646594133,
+        "seconds": 2.842438604682684,
+        "objective": 0.003550814700998992,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        246
+      ],
+      "proof_index": 155
+    },
+    {
+      "lipid_name": "PE O-18:2_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.012141889315188005,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035466151795433276,
+        "upper": 0.0035467342944500344,
+        "seconds": 3.6720898002386093,
+        "objective": 0.0035467072709727864,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        247
+      ],
+      "proof_index": 156
+    },
+    {
+      "lipid_name": "PE O-22:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.027009772902126583,
+      "rho_zero": 5.031908976640757e-05,
+      "deleted": {
+        "lower": 0.004736082149113328,
+        "upper": 0.00473659217904029,
+        "seconds": 4.515315946191549,
+        "objective": 0.004736568591745068,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        250
+      ],
+      "proof_index": 157
+    },
+    {
+      "lipid_name": "PE O-18:2_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0040820938404505696,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        251
+      ],
+      "proof_index": 158
+    },
+    {
+      "lipid_name": "PE O-18:2_22:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.004598194417998497,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546123840678286,
+        "upper": 0.0035462333868037546,
+        "seconds": 3.5360411442816257,
+        "objective": 0.003546206979904845,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        252
+      ],
+      "proof_index": 159
+    },
+    {
+      "lipid_name": "PE O-18:2_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0018054518670398713,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        253
+      ],
+      "proof_index": 160
+    },
+    {
+      "lipid_name": "PE O-18:2_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.02580733722947605,
+      "rho_zero": 7.387440740065508e-06,
+      "deleted": {
+        "lower": 0.0035478129652032325,
+        "upper": 0.0035482757472126408,
+        "seconds": 4.148576635867357,
+        "objective": 0.003548254310041746,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        254
+      ],
+      "proof_index": 161
+    },
+    {
+      "lipid_name": "PE O-18:2_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0013098645698035713,
+      "rho_zero": 6.01037434230035e-07,
+      "deleted": {
+        "lower": 0.0035462445487757775,
+        "upper": 0.0035463662690730633,
+        "seconds": 3.544027764350176,
+        "objective": 0.003546343666610964,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        255
+      ],
+      "proof_index": 162
+    },
+    {
+      "lipid_name": "PE O-18:3_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.015542669215776374,
+      "rho_zero": 9.914898458405367e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        256
+      ],
+      "proof_index": 163
+    },
+    {
+      "lipid_name": "PE O-18:3_22:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004207313336192187,
+      "rho_zero": 3.66721121109272e-10,
+      "deleted": {
+        "lower": 0.0035463155431142207,
+        "upper": 0.0035468141204580174,
+        "seconds": 4.743273608386517,
+        "objective": 0.003546791589744529,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        257
+      ],
+      "proof_index": 164
+    },
+    {
+      "lipid_name": "PE O-18:3_22:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.017096827715604872,
+      "rho_zero": 5.187590481069447e-07,
+      "deleted": {
+        "lower": 0.003548056113102885,
+        "upper": 0.0035484882634892003,
+        "seconds": 3.567671101540327,
+        "objective": 0.0035484659881214295,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        258
+      ],
+      "proof_index": 165
+    },
+    {
+      "lipid_name": "PE O-18:3_22:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010228568343948276,
+      "rho_zero": 3.073611220043702e-08,
+      "deleted": {
+        "lower": 0.003546719708948314,
+        "upper": 0.0035468663107353473,
+        "seconds": 3.9927542321383953,
+        "objective": 0.0035468470239645115,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        259
+      ],
+      "proof_index": 166
+    },
+    {
+      "lipid_name": "PE O-18:3_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.025315703573775727,
+      "rho_zero": 2.292129792439641e-06,
+      "deleted": {
+        "lower": 0.0035510393677565424,
+        "upper": 0.003551522950019711,
+        "seconds": 3.8795280829072,
+        "objective": 0.003551500895624837,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        260
+      ],
+      "proof_index": 167
+    },
+    {
+      "lipid_name": "PE O-18:3_22:6",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.002197280964380103,
+      "rho_zero": 4.50854906020508e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        261
+      ],
+      "proof_index": 168
+    },
+    {
+      "lipid_name": "PE O-20:0_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.005082638192439299,
+      "rho_zero": 4.719860475708586e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        262
+      ],
+      "proof_index": 169
+    },
+    {
+      "lipid_name": "PE O-20:0_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.00430737111077135,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546112602740064,
+        "upper": 0.0035462433689185027,
+        "seconds": 3.5469343699514866,
+        "objective": 0.0035462180723336975,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        263
+      ],
+      "proof_index": 170
+    },
+    {
+      "lipid_name": "PE O-20:0_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01316912090071719,
+      "rho_zero": 1.2871222756840002e-06,
+      "deleted": {
+        "lower": 0.00354877556126252,
+        "upper": 0.0035492807165008874,
+        "seconds": 3.450069610029459,
+        "objective": 0.0035492581953019166,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        264
+      ],
+      "proof_index": 171
+    },
+    {
+      "lipid_name": "PE O-20:1_20:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0060536287732918465,
+      "rho_zero": 1.9586055720679803e-07,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        265
+      ],
+      "proof_index": 172
+    },
+    {
+      "lipid_name": "PE O-20:1_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.015770591639300724,
+      "rho_zero": 1.0741463859361864e-06,
+      "deleted": {
+        "lower": 0.003545963435105227,
+        "upper": 0.003546484085371346,
+        "seconds": 4.008464355021715,
+        "objective": 0.003546462122005485,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        266
+      ],
+      "proof_index": 173
+    },
+    {
+      "lipid_name": "PE O-20:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.030772632915945876,
+      "rho_zero": 8.257723886006245e-07,
+      "deleted": {
+        "lower": 0.00355159443209396,
+        "upper": 0.003552058661922436,
+        "seconds": 3.41352192312479,
+        "objective": 0.003552035453069419,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        267
+      ],
+      "proof_index": 174
+    },
+    {
+      "lipid_name": "PE O-20:1_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004789740895358686,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035461072187249125,
+        "upper": 0.0035462332122669087,
+        "seconds": 3.8467494919896126,
+        "objective": 0.0035462042656442187,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        268
+      ],
+      "proof_index": 175
+    },
+    {
+      "lipid_name": "PE O-20:3_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.040420882908785795,
+      "rho_zero": 7.231463600738273e-06,
+      "deleted": {
+        "lower": 0.0035546421914503874,
+        "upper": 0.003555166850511924,
+        "seconds": 3.724868070334196,
+        "objective": 0.0035551458203136144,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        272
+      ],
+      "proof_index": 176
+    },
+    {
+      "lipid_name": "PE O-20:3_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.007456589168186676,
+      "rho_zero": 3.0929552648368463e-07,
+      "deleted": {
+        "lower": 0.0035516856025201824,
+        "upper": 0.003551792994785573,
+        "seconds": 3.085805654525757,
+        "objective": 0.0035517696603686475,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        273
+      ],
+      "proof_index": 177
+    },
+    {
+      "lipid_name": "PG 14:0_20:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.008641237544075971,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035897754853056354,
+        "upper": 0.003590246523076261,
+        "seconds": 3.230617869645357,
+        "objective": 0.003590224273476485,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        274
+      ],
+      "proof_index": 178
+    },
+    {
+      "lipid_name": "PG 16:0_18:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006815490054632812,
+      "rho_zero": 7.080379180507429e-06,
+      "deleted": {
+        "lower": 0.003609216095295114,
+        "upper": 0.0036097321115989315,
+        "seconds": 2.751184716820717,
+        "objective": 0.0036097073890040045,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        275
+      ],
+      "proof_index": 179
+    },
+    {
+      "lipid_name": "PG 14:0_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01656729329356201,
+      "rho_zero": 3.3770308859039956e-06,
+      "deleted": {
+        "lower": 0.003890850582915613,
+        "upper": 0.003891383528299289,
+        "seconds": 3.096688162535429,
+        "objective": 0.003891360170905655,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        276
+      ],
+      "proof_index": 180
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.01041881113762756,
+      "rho_zero": 1.946464878995554e-06,
+      "deleted": {
+        "lower": 0.00378031330137882,
+        "upper": 0.0037808544563927623,
+        "seconds": 4.554518558084965,
+        "objective": 0.0037808290864084124,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        277
+      ],
+      "proof_index": 181
+    },
+    {
+      "lipid_name": "PG 18:2_18:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.008240304782296625,
+      "rho_zero": 4.209830822654974e-06,
+      "deleted": {
+        "lower": 0.0036364574396641563,
+        "upper": 0.0036369320795043097,
+        "seconds": 3.3129062801599503,
+        "objective": 0.0036369071175801544,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        278
+      ],
+      "proof_index": 182
+    },
+    {
+      "lipid_name": "PG 14:0_22:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.008878440320505292,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        289
+      ],
+      "proof_index": 183
+    },
+    {
+      "lipid_name": "PG 16:0_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.03364201922568975,
+      "rho_zero": 2.661856682391295e-06,
+      "deleted": {
+        "lower": 0.0035840182517082606,
+        "upper": 0.0035844353432292475,
+        "seconds": 5.413906276226044,
+        "objective": 0.0035844143773059076,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        290
+      ],
+      "proof_index": 184
+    },
+    {
+      "lipid_name": "PG 16:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0010165621098279926,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        291
+      ],
+      "proof_index": 185
+    },
+    {
+      "lipid_name": "PG 18:0_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.004357100578489812,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        292
+      ],
+      "proof_index": 186
+    },
+    {
+      "lipid_name": "PG 18:1_18:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.016874138336070526,
+      "rho_zero": 1.995936806638744e-06,
+      "deleted": {
+        "lower": 0.0036212901090533706,
+        "upper": 0.003621764449543547,
+        "seconds": 3.481940198689699,
+        "objective": 0.0036217413980980024,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        293
+      ],
+      "proof_index": 187
+    },
+    {
+      "lipid_name": "PG 14:0_22:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0016102850825174975,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        294
+      ],
+      "proof_index": 188
+    },
+    {
+      "lipid_name": "PG 16:0_20:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005567506780401994,
+      "rho_zero": 6.940998711015324e-07,
+      "deleted": {
+        "lower": 0.0035559850437629817,
+        "upper": 0.0035560986805916114,
+        "seconds": 3.2421609722077847,
+        "objective": 0.003556071389570465,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        295
+      ],
+      "proof_index": 189
+    },
+    {
+      "lipid_name": "PG 20:0_16:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001881337250793646,
+      "rho_zero": 3.1235439872296436e-07,
+      "deleted": {
+        "lower": 0.003546591806888505,
+        "upper": 0.003546727955004779,
+        "seconds": 5.089134402573109,
+        "objective": 0.003546708210065691,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        296
+      ],
+      "proof_index": 190
+    },
+    {
+      "lipid_name": "PG 18:0_18:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.011992553874631807,
+      "rho_zero": 2.0126907653649385e-08,
+      "deleted": {
+        "lower": 0.0035591054605822615,
+        "upper": 0.0035595644581259108,
+        "seconds": 2.943454511463642,
+        "objective": 0.003559535403910549,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        297
+      ],
+      "proof_index": 191
+    },
+    {
+      "lipid_name": "PG 14:0_22:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.00511851085874468,
+      "rho_zero": 1.2594794243577802e-06,
+      "deleted": {
+        "lower": 0.0035703323644031746,
+        "upper": 0.0035708115903155826,
+        "seconds": 3.3510796166956425,
+        "objective": 0.003570789369408979,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        298
+      ],
+      "proof_index": 192
+    },
+    {
+      "lipid_name": "PG 16:0_20:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0048538793223056355,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003549455445505409,
+        "upper": 0.003549587412997557,
+        "seconds": 4.279735624790192,
+        "objective": 0.003549561142444337,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        299
+      ],
+      "proof_index": 193
+    },
+    {
+      "lipid_name": "PG 18:0_18:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001103637414608695,
+      "rho_zero": 4.234041866357696e-09,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        300
+      ],
+      "proof_index": 194
+    },
+    {
+      "lipid_name": "PG 16:0_22:6",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.003712978583297751,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0036345832763013167,
+        "upper": 0.0036350599354888612,
+        "seconds": 3.3942068368196487,
+        "objective": 0.0036350347242582732,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        304
+      ],
+      "proof_index": 195
+    },
+    {
+      "lipid_name": "PG 16:1_22:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006401883380562187,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0037273381225307405,
+        "upper": 0.0037275026303178788,
+        "seconds": 3.391056101769209,
+        "objective": 0.0037274774823182603,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        305
+      ],
+      "proof_index": 196
+    },
+    {
+      "lipid_name": "PG 18:1_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.014357723807547216,
+      "rho_zero": 2.475790682671059e-05,
+      "deleted": {
+        "lower": 0.0035596178155280246,
+        "upper": 0.0035601442663527856,
+        "seconds": 3.2359496131539345,
+        "objective": 0.0035601189328943635,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        306
+      ],
+      "proof_index": 197
+    },
+    {
+      "lipid_name": "PG 16:0_22:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.003943884392489465,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        308
+      ],
+      "proof_index": 198
+    },
+    {
+      "lipid_name": "PG 18:0_20:5",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006184666281577824,
+      "rho_zero": 1.0506295891124552e-05,
+      "deleted": {
+        "lower": 0.0035682660426509635,
+        "upper": 0.0035687552411293334,
+        "seconds": 3.789232276380062,
+        "objective": 0.0035687337145014057,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        310
+      ],
+      "proof_index": 199
+    },
+    {
+      "lipid_name": "PG 20:2_18:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0020958191081741546,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546159060175454,
+        "upper": 0.0035462843332425753,
+        "seconds": 3.63039406016469,
+        "objective": 0.003546258186205201,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        313
+      ],
+      "proof_index": 200
+    },
+    {
+      "lipid_name": "PG 14:0_24:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006829957186848871,
+      "rho_zero": 3.2293005853678494e-07,
+      "deleted": {
+        "lower": 0.0036649468825385853,
+        "upper": 0.0036654228618002334,
+        "seconds": 3.475127775222063,
+        "objective": 0.00366539962496375,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        314
+      ],
+      "proof_index": 201
+    },
+    {
+      "lipid_name": "PG 16:0_22:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.04736361702610143,
+      "rho_zero": 1.3385455817542636e-05,
+      "deleted": {
+        "lower": 0.003930583972554535,
+        "upper": 0.003931138945014209,
+        "seconds": 3.0655133202672005,
+        "objective": 0.003931107824725727,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        315
+      ],
+      "proof_index": 202
+    },
+    {
+      "lipid_name": "PG 16:1_22:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.04077334151539904,
+      "rho_zero": 5.284600654979492e-06,
+      "deleted": {
+        "lower": 0.003775834752966642,
+        "upper": 0.0037760294666254225,
+        "seconds": 3.9755308851599693,
+        "objective": 0.003776003835464623,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        316
+      ],
+      "proof_index": 203
+    },
+    {
+      "lipid_name": "PG 18:0_20:4",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005259003244190365,
+      "rho_zero": 9.78888203829635e-07,
+      "deleted": {
+        "lower": 0.003557240280152811,
+        "upper": 0.003557386186576631,
+        "seconds": 4.239704318344593,
+        "objective": 0.0035573639916099396,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        317
+      ],
+      "proof_index": 204
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.01092358043324109,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        318
+      ],
+      "proof_index": 205
+    },
+    {
+      "lipid_name": "PG 18:2_20:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0021833376102214958,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035658536318330662,
+        "upper": 0.0035659737563922605,
+        "seconds": 3.4050960019230843,
+        "objective": 0.003565948526344186,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        319
+      ],
+      "proof_index": 206
+    },
+    {
+      "lipid_name": "PG 17:0_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01861611900389167,
+      "rho_zero": 1.3897038842779652e-06,
+      "deleted": {
+        "lower": 0.0035582241062526833,
+        "upper": 0.003558647465947951,
+        "seconds": 3.392264448106289,
+        "objective": 0.0035586264168558047,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        322
+      ],
+      "proof_index": 207
+    },
+    {
+      "lipid_name": "PG 17:0_20:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0280234738437569,
+      "rho_zero": 0.0018935819038859638,
+      "deleted": {
+        "lower": 0.011134210871285691,
+        "upper": 0.011134324321281227,
+        "seconds": 6.577456410974264,
+        "objective": 0.011134300547586103,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        323
+      ],
+      "proof_index": 208
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.01377330760994542,
+      "rho_zero": 4.3330225614755695e-08,
+      "deleted": {
+        "lower": 0.0035562299878842438,
+        "upper": 0.0035563528773446037,
+        "seconds": 2.8572957143187523,
+        "objective": 0.0035563277611339998,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        325
+      ],
+      "proof_index": 209
+    },
+    {
+      "lipid_name": "PG 17:0_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.034528292550492924,
+      "rho_zero": 2.0798566429552913e-07,
+      "deleted": {
+        "lower": 0.0036391267998260564,
+        "upper": 0.0036396446402836994,
+        "seconds": 3.153765257447958,
+        "objective": 0.0036396166703416676,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        326
+      ],
+      "proof_index": 210
+    },
+    {
+      "lipid_name": "PG 17:0_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006188322060388144,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035599365620290436,
+        "upper": 0.0035600704086782703,
+        "seconds": 3.4260209687054157,
+        "objective": 0.0035600445427239062,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        327
+      ],
+      "proof_index": 211
+    },
+    {
+      "lipid_name": "PG 17:0_20:5",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.014454424086687786,
+      "rho_zero": 2.9735762547097337e-05,
+      "deleted": {
+        "lower": 0.003627627445281718,
+        "upper": 0.0036281140395577525,
+        "seconds": 3.3954804725944996,
+        "objective": 0.003628088643727624,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        328
+      ],
+      "proof_index": 212
+    },
+    {
+      "lipid_name": "PG 17:1_18:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.005330441369795304,
+      "rho_zero": 8.751402414641665e-08,
+      "deleted": {
+        "lower": 0.003594344222519646,
+        "upper": 0.003594463544597383,
+        "seconds": 3.0163163915276527,
+        "objective": 0.0035944353064210574,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        330
+      ],
+      "proof_index": 213
+    },
+    {
+      "lipid_name": "PG 17:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.01991716317661729,
+      "rho_zero": 4.417852526227627e-07,
+      "deleted": {
+        "lower": 0.0036051480578139995,
+        "upper": 0.003605265928316364,
+        "seconds": 3.2086597494781017,
+        "objective": 0.003605243368943649,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        333
+      ],
+      "proof_index": 214
+    },
+    {
+      "lipid_name": "PG 17:1_20:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0025161540461405554,
+      "rho_zero": 9.338041379803906e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        334
+      ],
+      "proof_index": 215
+    },
+    {
+      "lipid_name": "PG 17:1_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0032687145202824467,
+      "rho_zero": 6.46965145033064e-07,
+      "deleted": {
+        "lower": 0.0035519084629155218,
+        "upper": 0.0035523798798703134,
+        "seconds": 3.1240860261023045,
+        "objective": 0.0035523557418172683,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        335
+      ],
+      "proof_index": 216
+    },
+    {
+      "lipid_name": "PG 17:1_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.00467898384650372,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        336
+      ],
+      "proof_index": 217
+    },
+    {
+      "lipid_name": "PC 14:0_18:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.001490910158754191,
+      "rho_zero": 4.156514370559863e-08,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        338,
+        350,
+        362
+      ],
+      "proof_index": 218
+    },
+    {
+      "lipid_name": "PC 14:0_20:0",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0018523088878832097,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.003546136805295192,
+        "upper": 0.0035462733524560886,
+        "seconds": 3.5522955022752285,
+        "objective": 0.0035462497055717785,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        365
+      ],
+      "proof_index": 219
+    },
+    {
+      "lipid_name": "PC 14:0_20:3",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0038831534405270166,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        368
+      ],
+      "proof_index": 220
+    },
+    {
+      "lipid_name": "PC 14:0_20:4",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.012847782516610467,
+      "rho_zero": 0.00015634678455532112,
+      "deleted": {
+        "lower": 0.005404077697795429,
+        "upper": 0.005404193549606404,
+        "seconds": 10.954249944537878,
+        "objective": 0.005404175748060739,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        369
+      ],
+      "proof_index": 221
+    },
+    {
+      "lipid_name": "PC 20:0_14:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.006909352427806462,
+      "rho_zero": 5.923509546580407e-08,
+      "deleted": {
+        "lower": 0.0036301076725571953,
+        "upper": 0.0036306644488958047,
+        "seconds": 3.9601336754858494,
+        "objective": 0.0036306412926872715,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        372
+      ],
+      "proof_index": 222
+    },
+    {
+      "lipid_name": "PC 14:1_20:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.028309486309884484,
+      "rho_zero": 5.8978184589359616e-05,
+      "deleted": {
+        "lower": 0.005255191885776103,
+        "upper": 0.005255313585299584,
+        "seconds": 3.6931786127388477,
+        "objective": 0.005255292877127881,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        373
+      ],
+      "proof_index": 223
+    },
+    {
+      "lipid_name": "PC 16:0_18:0",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.00921288168261403,
+      "rho_zero": 1.263637873144019e-05,
+      "deleted": {
+        "lower": 0.0038719570958715053,
+        "upper": 0.0038724781658763035,
+        "seconds": 3.8689033649861813,
+        "objective": 0.003872455569318277,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        376
+      ],
+      "proof_index": 224
+    },
+    {
+      "lipid_name": "PC 16:0_18:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.0020490749181785784,
+      "rho_zero": 2.3784681951572797e-06,
+      "deleted": {
+        "lower": 0.003559910331654594,
+        "upper": 0.003560016239636886,
+        "seconds": 3.319110706448555,
+        "objective": 0.003559991640671697,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        377
+      ],
+      "proof_index": 225
+    },
+    {
+      "lipid_name": "PC 16:0_18:2",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.03519874899691445,
+      "rho_zero": 2.094790851685842e-06,
+      "deleted": {
+        "lower": 0.0035703449933682657,
+        "upper": 0.0035708516140576397,
+        "seconds": 3.3783087097108364,
+        "objective": 0.003570824847508843,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        378
+      ],
+      "proof_index": 226
+    },
+    {
+      "lipid_name": "PC 18:0_16:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.010519153261419448,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        380
+      ],
+      "proof_index": 227
+    },
+    {
+      "lipid_name": "PC 16:1_18:1",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.010215921596139581,
+      "rho_zero": 4.3195798430072476e-08,
+      "deleted": {
+        "lower": 0.0035669217043618226,
+        "upper": 0.0035670967059809127,
+        "seconds": 3.766412727534771,
+        "objective": 0.003567072031187344,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        381
+      ],
+      "proof_index": 228
+    },
+    {
+      "lipid_name": "PC 16:1_18:2",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "X_hat": 0.023382407754164128,
+      "rho_zero": 7.097470901705159e-05,
+      "deleted": {
+        "lower": 0.005268324286298462,
+        "upper": 0.005268857672588072,
+        "seconds": 3.5036800131201744,
+        "objective": 0.005268833818306973,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        382
+      ],
+      "proof_index": 229
+    },
+    {
+      "lipid_name": "PC 17:0_17:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0012207299534800447,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035460933677697102,
+        "upper": 0.0035462280341567783,
+        "seconds": 0.0,
+        "objective": 0.003546207933587695,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "FULL_ZERO_IDENTITY_FEASIBLE_WITNESS"
+      },
+      "removed": [
+        384
+      ],
+      "proof_index": 230
+    },
+    {
+      "lipid_name": "PC 17:1_17:1",
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "X_hat": 0.0015326180538297314,
+      "rho_zero": 0.0,
+      "deleted": {
+        "lower": 0.0035466552178235536,
+        "upper": 0.0035467882950471373,
+        "seconds": 3.340828813612461,
+        "objective": 0.003546764197379092,
+        "backend_attempts": [
+          {
+            "method": "highs",
+            "status": 0,
+            "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+          }
+        ],
+        "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+      },
+      "removed": [
+        385
+      ],
+      "proof_index": 231
+    }
+  ],
+  "proofs_sha256": "1812c8b1dcb6f5d527f8df130acb0c5191923885a9b5cefe4be3953e325cbfbc",
+  "cached_identity_count": 0,
+  "cached_source_dir": null
+}

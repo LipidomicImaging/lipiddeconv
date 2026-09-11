@@ -1,3 +1,9 @@
+# COMPLETED — CE boundary and six-context identity pilot — 2026-09-11
+
+All six contexts finished; all numerical proofs, original source/output hashes, fixed calibration and accounting independently PASS. Results and analysis: results/ce_uncertainty_identity_pilot_run04/findings.md. R2 FDR2.22%, TP retention12.43%: STOP_CURRENT_VERSION under the frozen1%/40% rule. MILD alone35.48% retention; omission arms retain none. No result-driven threshold/U changes or automatic formal validation.
+
+The main high-confidence identity endpoint remains OPEN. This pilot does not prove impossibility. Its normalized R1/R2 mean spectra are nearly identical, and the single false selection is within5.08e-12 of the threshold; neither is evidence of independent population-risk validation. Preserve the exact negative result and limitations. Finish the final Git push, then STOP this bounded task; no further audit, GPU run, benchmark expansion or cleanup is queued by this file.
+
 # CE pilot: calibration complete; finish frozen evaluation — 2026-09-11
 
 Run04 has three reviewed R1 calibration cases and sealed epsilon0.019717481319156117. Calibration44 TP/0 FP,12.36% retention: do not tune or change the model. Finish the three R2 development evaluation cases, independently validate all proofs/counts/seal, preserve each completed case in Git, and record this version's continue/stop outcome. Formal main endpoint remains OPEN. No GPU, cleanup, new benchmark or automatic independent validation.

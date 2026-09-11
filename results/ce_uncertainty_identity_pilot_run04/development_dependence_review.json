@@ -1,0 +1,29 @@
+{
+  "paired_context_input_differences": {
+    "MILD": {
+      "mean_b_relative_l2_difference": 0.0637119884089732,
+      "normalized_mean_b_relative_l2_difference": 3.913988421688423e-09,
+      "A_exactly_equal": true
+    },
+    "close_neighbor": {
+      "mean_b_relative_l2_difference": 0.03409013935614334,
+      "normalized_mean_b_relative_l2_difference": 3.405608323268369e-09,
+      "A_exactly_equal": true
+    },
+    "relatively_isolated": {
+      "mean_b_relative_l2_difference": 0.03409013935614334,
+      "normalized_mean_b_relative_l2_difference": 3.405608323268369e-09,
+      "A_exactly_equal": true
+    }
+  },
+  "evaluation_retained_false_identities": [
+    {
+      "lipid_name": "PA 22:1_20:2",
+      "reported_in_CAL": true,
+      "deleted_lower": 0.019717481324234412,
+      "cal_deleted_lower": 0.019717481319156117,
+      "threshold_margin": 5.078295423066592e-12
+    }
+  ],
+  "interpretation": "R1/R2 normalized mean-spectrum inputs have relative L2 differences below4e-9; they do not establish independent spectral-error generalization. The single retained false identity lies5.08e-12 above the frozen decision boundary. Counts and threshold are unchanged."
+}
