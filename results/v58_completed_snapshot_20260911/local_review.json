@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_files_verified": 412,
+  "completed": 50,
+  "independent_HOLD_counts_verified": true,
+  "cleanup_plan_sha256": "258dc06b43221fa586d204439146387ee87c0cb37381bdeeee022b916fe6baef",
+  "planned_freed_bytes_by_filesystem": {
+    "root cache": 6415061888,
+    "data disk": 2806588928
+  }
+}

@@ -1,0 +1,2257 @@
+{
+  "status": "DESIGN_FROZEN_BEFORE_TRAINING",
+  "scientific": {
+    "version": "v58_spectral_library_mismatch_fdr_recalibration",
+    "result_variant": "v58_spectral_library_mismatch_fdr_recalibration_compact",
+    "contract": {
+      "design_seed": 5800,
+      "K_levels": [
+        50,
+        125,
+        175
+      ],
+      "replicates": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "splits": [
+        "CAL",
+        "HOLD"
+      ],
+      "severity_parameters": {
+        "MILD": {
+          "fragment_log_sigma": 0.1,
+          "fragment_dropout_rate": 0.05,
+          "parent_deviation": 0.1
+        },
+        "MODERATE": {
+          "fragment_log_sigma": 0.2,
+          "fragment_dropout_rate": 0.1,
+          "parent_deviation": 0.2
+        }
+      },
+      "measurement_noise": false,
+      "mismatch_runs": 60,
+      "clean_runs": 0,
+      "result_variant": "v58_spectral_library_mismatch_fdr_recalibration_compact",
+      "perturbation_namespace": "v58_spectral_library_mismatch_fdr_recalibration",
+      "parent_K_levels": [
+        50,
+        75,
+        100,
+        125,
+        150,
+        175
+      ],
+      "compact_rationale": "V58 primary question is mismatch-domain identity-confidence calibration, not reconstruction-complexity mapping. V57 has already established the six-point K complexity curve. Because V57 K levels are nested, repeating six K levels in both mismatch severities produces strongly correlated repeated identity observations. K50/K125/K175 retain the low endpoint, intermediate state and high endpoint, while K175 preserves the full 175-identity CAL/HOLD molecular-identity coverage. Five spatial replicates are retained because they provide meaningful variation in spatial realization and solver behavior.",
+      "expected_draft_library_hashes": {
+        "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+        "A_target_MILD_sha256": "b835ef8e531e12803c1a949b0e89fa35c32f0f82ea2dbfefa2fefbcc9dcfa24b",
+        "A_target_MODERATE_sha256": "838af17725b3bdf28fd83668d86ce3856c4e8d6650b2e9785bf7c03cd5206ecd"
+      },
+      "superseded_draft_fingerprint": "d9df4ea9d9395573f47104572816b607e0728065f8171d5745dc5748337f1b9a",
+      "superseded_draft_status": "FROZEN_AND_TARGET_ORACLE_PASS_BEFORE_LEARNED_TRAINING",
+      "superseded_draft_disposition": "SUPERSEDED_BEFORE_LEARNED_TRAINING",
+      "superseded_draft_mismatch_runs": 120,
+      "superseded_draft_reason": "compute-efficiency redesign: six-point nested K ladder was redundant for the primary mismatch/FDR recalibration question; no learned-solver mismatch training had begun.",
+      "parent_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+      "parent_commit": "705c52c128dbd73496ba970f6b9a61874c3f292c",
+      "X_true": "unmodified V57 frozen construction, including its original single source-domain global scalar",
+      "nested_perturbation": "SHA256(V58|5800|candidate_index|kind), shared z/u/v; severity absent from seed",
+      "protected_fragment": "strongest originally nonzero fragment; lowest channel index breaks ties; never dropped",
+      "normalization": "V52 normalize_like_get_A_matrix: float32 column/(L2 norm+1e-8)",
+      "target_domain": "all 391 candidates; one fixed full library per severity across all K/R/CAL/HOLD",
+      "post_mismatch_rescaling": false,
+      "A_target_used_by_solver_or_rho": false,
+      "hard_epoch_cap": 3000,
+      "checkpoint_epochs": [
+        1000,
+        1500,
+        2000,
+        2500,
+        3000
+      ],
+      "production_early_stop_unchanged": true,
+      "sentinel_requires_epoch_3000": false,
+      "sentinels": [
+        "MILD__CAL_R1_K050",
+        "MILD__CAL_R1_K175",
+        "MODERATE__CAL_R1_K050",
+        "MODERATE__CAL_R1_K175"
+      ],
+      "sentinel_gate": "min(0.50, max(0.10, 2.0 * forward_mismatch_residual + 0.05))",
+      "solver_validity": "stop_reason in {converged,max_epochs}; all outputs/losses finite; sentinel full-cube residual<=gate",
+      "sentinel_identity_outcomes_used": false,
+      "oracle_max_relative_residual": 1e-05,
+      "report_gate": 0.001,
+      "rho_zero_weighting": "W=I",
+      "identity_unit": "lipid_name",
+      "molecular_score": "max reported-candidate rho; sum reported-candidate X_hat; no group-rho",
+      "threshold_protocols": {
+        "CLEAN_FIXED": "verified V57 thresholds, no adjustment",
+        "LOCAL_CAL_RECALIBRATION": "maximum retained molecular units with empirical CAL FDR<=alpha; lower threshold breaks ties; pooled K/R"
+      },
+      "target_FDR": {
+        "FDR1": 0.01,
+        "FDR5": 0.05
+      },
+      "HOLD_read_guard": "both severity CAL threshold files and SHA seals written before any HOLD record read",
+      "scientific_outcomes_affect_process_validity": false
+    },
+    "V57_parent_file_hashes": {
+      "design.json": "ad20c6ec8aae7fa6a3b2e352b509cac1901421536d5d53adf030694b4d2f7da3",
+      "design_audit.json": "64cb98e73df26abe5195a2dfa3f8f46435754007c923ca44426fb9a62b132270",
+      "global_frozen_thresholds.json": "3dbbdfaa19fc40568683993fae30ff4a9a8209645c5a1eb3a4cffbdc4c634d46",
+      "report.json": "6e88a9449d407270515b16fc4f0c09c12ff1e4e2ddb96899421b7a17f965c1e1",
+      "calibration_records.csv": "de75a24f1d1668fc40c99244858829f706334d8ff26768b70b4c7611af83bfe3",
+      "heldout_records.csv": "efa2eb599cb45078173535f83dad82baece940d4bd9740363476ffe3be96b0c5"
+    },
+    "production_asset_hashes": {
+      "A_library": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69",
+      "B_cube": "e716031ee95953a071f34beb386381eeb05cb4198096951b504a46ea6cab99e4",
+      "candidate_metadata": "c6567b2e852c0e97255efbffe501f0527f2c8ea4daedbb181bb0d25308f230b3",
+      "channel_axis": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf",
+      "production_X_hat": "698bd3ed72b57ffe7a6f2bd16cee580388a442a0dbf1bdaaa6e819b0a5c419a4",
+      "foreground_mask": "a93f3adb97afe0295690d6f943917b6f0771aeeb9fff7d21582024c8ffbb4293",
+      "production_checkpoint": "32bcf603195883b18e4237d430ece1e99e98d184daf83b97c277d088f614d3ef"
+    },
+    "stage0_hashes": {
+      "stage0_design": "8dba62dcb52b17f2d1a23e6912e05f6e8e307fccd9c43519af59080d20f4f569",
+      "stage0_domain_summary": "bb7d3769648b11f98c7ecb1b87acf6d326807cad9f1fa0e46d7ac8d857081861",
+      "v51_candidate_geometry": "6703ec816cf9a23fd9f48485e94b0e9449450b8a05983baa1b13d77666cfe559",
+      "v51_summary": "08eab929c2bdcd342fd76347e89bb69831e1d3f1446414a7f582540a7631fe31"
+    },
+    "source_implementation_hashes": {
+      "run_v57_spectral_spatial_identity_confidence_benchmark.py": "630b9aaea1f34840c0962fdf177fd17b2817f39b7eae46ce8725e3cc4c556596",
+      "run_v56_paper_identity_fdr_benchmark.py": "090585df0170eff67fe22b5d6484f93e52d317a9dee5c281ad1b851db1994a8b",
+      "run_v54_complexity_calibration.py": "3eb731f1572bf709a5ff3f96e40d74c5ecaa6da36833e4c7e7e294499d0f7505",
+      "run_v55_spectral_noise_robustness.py": "20e8c2e5b23861f7bcdc282b6c9f55e630144994d655e9f85c67185a7e776fa8",
+      "run_v50_reoptimized_sanity.py": "f35ee105a55458254cff67c7f033fbb320a9825f46e3242f93c0fecbc2bb0633",
+      "rho_zero.py": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+      "config_758.py": "ee4c1665bc4e67c80adbb31df79d947ce73fb89a30ce2a157be148d397c06d05",
+      "lipid_ista.py": "0af7105baf95c63df3c710ecc6703a13c1d0dd82811784ca2c9bfead036726c9",
+      "run_758_ista.py": "ec87f8cbd87b99c347c1168258dfa3f33aa99eceabfea3e7e35f4910805b1dc7",
+      "run_v58_spectral_library_mismatch_fdr_recalibration.py": "30a641cf9402735adf4896290093d9da07dcd257113e09a49ed776c54af9c3d2",
+      "run_v52_mechanism_leakage.py": "704438c1a175de4fd8f82f7bd0e59fdcaf4c8210b211c820f57082e99f51a7de",
+      "run_v53_template_truth_pilot.py": "c9754140d6a0c5d6d7a85ee028acb7e398f0791abbc66d1df730c90669d4d723",
+      "run_v53_stage0_empirical_domain.py": "30d493716a2dba7a19beead8698d0f005a8ba218eb2ab87e6a2a6f0c2ef6dfe9"
+    },
+    "target_library_hashes": {
+      "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+      "A_target_MILD_sha256": "b835ef8e531e12803c1a949b0e89fa35c32f0f82ea2dbfefa2fefbcc9dcfa24b",
+      "A_target_MODERATE_sha256": "838af17725b3bdf28fd83668d86ce3856c4e8d6650b2e9785bf7c03cd5206ecd"
+    },
+    "candidate_order": [
+      {
+        "candidate_index": 0,
+        "candidate_id": "PA-H__0075",
+        "lipid_name": "PA 16:0_24:0"
+      },
+      {
+        "candidate_index": 1,
+        "candidate_id": "PA-H__0076",
+        "lipid_name": "PA 16:0_24:1"
+      },
+      {
+        "candidate_index": 2,
+        "candidate_id": "PA-H__0079",
+        "lipid_name": "PA 16:0_24:4"
+      },
+      {
+        "candidate_index": 3,
+        "candidate_id": "PA-H__0080",
+        "lipid_name": "PA 16:0_24:5"
+      },
+      {
+        "candidate_index": 4,
+        "candidate_id": "PA-H__0100",
+        "lipid_name": "PA 24:0_16:1"
+      },
+      {
+        "candidate_index": 5,
+        "candidate_id": "PA-H__0117",
+        "lipid_name": "PA 18:0_22:0"
+      },
+      {
+        "candidate_index": 6,
+        "candidate_id": "PA-H__0118",
+        "lipid_name": "PA 18:0_22:1"
+      },
+      {
+        "candidate_index": 7,
+        "candidate_id": "PA-H__0119",
+        "lipid_name": "PA 18:0_22:2"
+      },
+      {
+        "candidate_index": 8,
+        "candidate_id": "PA-H__0120",
+        "lipid_name": "PA 18:0_22:3"
+      },
+      {
+        "candidate_index": 9,
+        "candidate_id": "PA-H__0121",
+        "lipid_name": "PA 18:0_22:4"
+      },
+      {
+        "candidate_index": 10,
+        "candidate_id": "PA-H__0122",
+        "lipid_name": "PA 18:0_22:5"
+      },
+      {
+        "candidate_index": 11,
+        "candidate_id": "PA-H__0124",
+        "lipid_name": "PA 18:0_24:0"
+      },
+      {
+        "candidate_index": 12,
+        "candidate_id": "PA-H__0125",
+        "lipid_name": "PA 18:0_24:1"
+      },
+      {
+        "candidate_index": 13,
+        "candidate_id": "PA-H__0128",
+        "lipid_name": "PA 18:0_24:4"
+      },
+      {
+        "candidate_index": 14,
+        "candidate_id": "PA-H__0129",
+        "lipid_name": "PA 18:0_24:5"
+      },
+      {
+        "candidate_index": 15,
+        "candidate_id": "PA-H__0130",
+        "lipid_name": "PA 18:0_24:6"
+      },
+      {
+        "candidate_index": 16,
+        "candidate_id": "PA-H__0140",
+        "lipid_name": "PA 22:0_18:1"
+      },
+      {
+        "candidate_index": 17,
+        "candidate_id": "PA-H__0141",
+        "lipid_name": "PA 18:1_22:1"
+      },
+      {
+        "candidate_index": 18,
+        "candidate_id": "PA-H__0142",
+        "lipid_name": "PA 18:1_22:2"
+      },
+      {
+        "candidate_index": 19,
+        "candidate_id": "PA-H__0143",
+        "lipid_name": "PA 18:1_22:3"
+      },
+      {
+        "candidate_index": 20,
+        "candidate_id": "PA-H__0144",
+        "lipid_name": "PA 18:1_22:4"
+      },
+      {
+        "candidate_index": 21,
+        "candidate_id": "PA-H__0147",
+        "lipid_name": "PA 24:0_18:1"
+      },
+      {
+        "candidate_index": 22,
+        "candidate_id": "PA-H__0148",
+        "lipid_name": "PA 18:1_24:1"
+      },
+      {
+        "candidate_index": 23,
+        "candidate_id": "PA-H__0151",
+        "lipid_name": "PA 18:1_24:4"
+      },
+      {
+        "candidate_index": 24,
+        "candidate_id": "PA-H__0152",
+        "lipid_name": "PA 18:1_24:5"
+      },
+      {
+        "candidate_index": 25,
+        "candidate_id": "PA-H__0153",
+        "lipid_name": "PA 18:1_24:6"
+      },
+      {
+        "candidate_index": 26,
+        "candidate_id": "PA-H__0162",
+        "lipid_name": "PA 22:0_18:2"
+      },
+      {
+        "candidate_index": 27,
+        "candidate_id": "PA-H__0163",
+        "lipid_name": "PA 22:1_18:2"
+      },
+      {
+        "candidate_index": 28,
+        "candidate_id": "PA-H__0164",
+        "lipid_name": "PA 18:2_22:2"
+      },
+      {
+        "candidate_index": 29,
+        "candidate_id": "PA-H__0165",
+        "lipid_name": "PA 18:2_22:3"
+      },
+      {
+        "candidate_index": 30,
+        "candidate_id": "PA-H__0169",
+        "lipid_name": "PA 24:0_18:2"
+      },
+      {
+        "candidate_index": 31,
+        "candidate_id": "PA-H__0170",
+        "lipid_name": "PA 24:1_18:2"
+      },
+      {
+        "candidate_index": 32,
+        "candidate_id": "PA-H__0173",
+        "lipid_name": "PA 18:2_24:4"
+      },
+      {
+        "candidate_index": 33,
+        "candidate_id": "PA-H__0174",
+        "lipid_name": "PA 18:2_24:5"
+      },
+      {
+        "candidate_index": 34,
+        "candidate_id": "PA-H__0175",
+        "lipid_name": "PA 18:2_24:6"
+      },
+      {
+        "candidate_index": 35,
+        "candidate_id": "PA-H__0197",
+        "lipid_name": "PA 20:0_20:0"
+      },
+      {
+        "candidate_index": 36,
+        "candidate_id": "PA-H__0198",
+        "lipid_name": "PA 20:0_20:1"
+      },
+      {
+        "candidate_index": 37,
+        "candidate_id": "PA-H__0199",
+        "lipid_name": "PA 20:0_20:2"
+      },
+      {
+        "candidate_index": 38,
+        "candidate_id": "PA-H__0200",
+        "lipid_name": "PA 20:0_20:3"
+      },
+      {
+        "candidate_index": 39,
+        "candidate_id": "PA-H__0201",
+        "lipid_name": "PA 20:0_20:4"
+      },
+      {
+        "candidate_index": 40,
+        "candidate_id": "PA-H__0202",
+        "lipid_name": "PA 20:0_20:5"
+      },
+      {
+        "candidate_index": 41,
+        "candidate_id": "PA-H__0204",
+        "lipid_name": "PA 20:0_22:1"
+      },
+      {
+        "candidate_index": 42,
+        "candidate_id": "PA-H__0205",
+        "lipid_name": "PA 20:0_22:2"
+      },
+      {
+        "candidate_index": 43,
+        "candidate_id": "PA-H__0206",
+        "lipid_name": "PA 20:0_22:3"
+      },
+      {
+        "candidate_index": 44,
+        "candidate_id": "PA-H__0207",
+        "lipid_name": "PA 20:0_22:4"
+      },
+      {
+        "candidate_index": 45,
+        "candidate_id": "PA-H__0208",
+        "lipid_name": "PA 20:0_22:5"
+      },
+      {
+        "candidate_index": 46,
+        "candidate_id": "PA-H__0209",
+        "lipid_name": "PA 20:0_22:6"
+      },
+      {
+        "candidate_index": 47,
+        "candidate_id": "PA-H__0217",
+        "lipid_name": "PA 20:1_20:1"
+      },
+      {
+        "candidate_index": 48,
+        "candidate_id": "PA-H__0218",
+        "lipid_name": "PA 20:1_20:2"
+      },
+      {
+        "candidate_index": 49,
+        "candidate_id": "PA-H__0219",
+        "lipid_name": "PA 20:1_20:3"
+      },
+      {
+        "candidate_index": 50,
+        "candidate_id": "PA-H__0220",
+        "lipid_name": "PA 20:1_20:4"
+      },
+      {
+        "candidate_index": 51,
+        "candidate_id": "PA-H__0222",
+        "lipid_name": "PA 22:0_20:1"
+      },
+      {
+        "candidate_index": 52,
+        "candidate_id": "PA-H__0223",
+        "lipid_name": "PA 20:1_22:1"
+      },
+      {
+        "candidate_index": 53,
+        "candidate_id": "PA-H__0224",
+        "lipid_name": "PA 20:1_22:2"
+      },
+      {
+        "candidate_index": 54,
+        "candidate_id": "PA-H__0225",
+        "lipid_name": "PA 20:1_22:3"
+      },
+      {
+        "candidate_index": 55,
+        "candidate_id": "PA-H__0226",
+        "lipid_name": "PA 20:1_22:4"
+      },
+      {
+        "candidate_index": 56,
+        "candidate_id": "PA-H__0227",
+        "lipid_name": "PA 20:1_22:5"
+      },
+      {
+        "candidate_index": 57,
+        "candidate_id": "PA-H__0228",
+        "lipid_name": "PA 20:1_22:6"
+      },
+      {
+        "candidate_index": 58,
+        "candidate_id": "PA-H__0236",
+        "lipid_name": "PA 20:2_20:2"
+      },
+      {
+        "candidate_index": 59,
+        "candidate_id": "PA-H__0237",
+        "lipid_name": "PA 20:2_20:3"
+      },
+      {
+        "candidate_index": 60,
+        "candidate_id": "PA-H__0241",
+        "lipid_name": "PA 22:1_20:2"
+      },
+      {
+        "candidate_index": 61,
+        "candidate_id": "PA-H__0244",
+        "lipid_name": "PA 20:2_22:4"
+      },
+      {
+        "candidate_index": 62,
+        "candidate_id": "PA-H__0246",
+        "lipid_name": "PA 20:2_22:6"
+      },
+      {
+        "candidate_index": 63,
+        "candidate_id": "PA-H__0257",
+        "lipid_name": "PA 22:0_20:3"
+      },
+      {
+        "candidate_index": 64,
+        "candidate_id": "PA-H__0258",
+        "lipid_name": "PA 22:1_20:3"
+      },
+      {
+        "candidate_index": 65,
+        "candidate_id": "PA-H__0260",
+        "lipid_name": "PA 20:3_22:3"
+      },
+      {
+        "candidate_index": 66,
+        "candidate_id": "PA-H__0261",
+        "lipid_name": "PA 20:3_22:4"
+      },
+      {
+        "candidate_index": 67,
+        "candidate_id": "PA-H__0263",
+        "lipid_name": "PA 20:3_22:6"
+      },
+      {
+        "candidate_index": 68,
+        "candidate_id": "PA-H__0273",
+        "lipid_name": "PA 22:0_20:4"
+      },
+      {
+        "candidate_index": 69,
+        "candidate_id": "PA-H__0274",
+        "lipid_name": "PA 22:1_20:4"
+      },
+      {
+        "candidate_index": 70,
+        "candidate_id": "PA-H__0275",
+        "lipid_name": "PA 22:2_20:4"
+      },
+      {
+        "candidate_index": 71,
+        "candidate_id": "PA-H__0276",
+        "lipid_name": "PA 22:3_20:4"
+      },
+      {
+        "candidate_index": 72,
+        "candidate_id": "PA-H__0277",
+        "lipid_name": "PA 20:4_22:4"
+      },
+      {
+        "candidate_index": 73,
+        "candidate_id": "PA-H__0278",
+        "lipid_name": "PA 20:4_22:5"
+      },
+      {
+        "candidate_index": 74,
+        "candidate_id": "PA-H__0279",
+        "lipid_name": "PA 20:4_22:6"
+      },
+      {
+        "candidate_index": 75,
+        "candidate_id": "PA-H__0289",
+        "lipid_name": "PA 22:1_20:5"
+      },
+      {
+        "candidate_index": 76,
+        "candidate_id": "PA-H__0344",
+        "lipid_name": "PA 22:3_22:6"
+      },
+      {
+        "candidate_index": 77,
+        "candidate_id": "PA-H__0353",
+        "lipid_name": "PA 22:4_22:5"
+      },
+      {
+        "candidate_index": 78,
+        "candidate_id": "PA-H__0354",
+        "lipid_name": "PA 22:4_22:6"
+      },
+      {
+        "candidate_index": 79,
+        "candidate_id": "PA-H__0362",
+        "lipid_name": "PA 22:5_22:5"
+      },
+      {
+        "candidate_index": 80,
+        "candidate_id": "PA-H__0363",
+        "lipid_name": "PA 22:5_22:6"
+      },
+      {
+        "candidate_index": 81,
+        "candidate_id": "PA-H__0371",
+        "lipid_name": "PA 22:6_22:6"
+      },
+      {
+        "candidate_index": 82,
+        "candidate_id": "PS-H__0036",
+        "lipid_name": "PS 14:0_20:0"
+      },
+      {
+        "candidate_index": 83,
+        "candidate_id": "PS-H__0037",
+        "lipid_name": "PS 14:0_20:1"
+      },
+      {
+        "candidate_index": 84,
+        "candidate_id": "PS-H__0042",
+        "lipid_name": "PS 14:0_22:0"
+      },
+      {
+        "candidate_index": 85,
+        "candidate_id": "PS-H__0043",
+        "lipid_name": "PS 14:0_22:1"
+      },
+      {
+        "candidate_index": 86,
+        "candidate_id": "PS-H__0044",
+        "lipid_name": "PS 14:0_22:2"
+      },
+      {
+        "candidate_index": 87,
+        "candidate_id": "PS-H__0045",
+        "lipid_name": "PS 14:0_22:3"
+      },
+      {
+        "candidate_index": 88,
+        "candidate_id": "PS-H__0046",
+        "lipid_name": "PS 14:0_22:4"
+      },
+      {
+        "candidate_index": 89,
+        "candidate_id": "PS-H__0058",
+        "lipid_name": "PS 16:0_18:0"
+      },
+      {
+        "candidate_index": 90,
+        "candidate_id": "PS-H__0059",
+        "lipid_name": "PS 16:0_18:1"
+      },
+      {
+        "candidate_index": 91,
+        "candidate_id": "PS-H__0060",
+        "lipid_name": "PS 16:0_18:2"
+      },
+      {
+        "candidate_index": 92,
+        "candidate_id": "PS-H__0062",
+        "lipid_name": "PS 16:0_20:0"
+      },
+      {
+        "candidate_index": 93,
+        "candidate_id": "PS-H__0063",
+        "lipid_name": "PS 16:0_20:1"
+      },
+      {
+        "candidate_index": 94,
+        "candidate_id": "PS-H__0064",
+        "lipid_name": "PS 16:0_20:2"
+      },
+      {
+        "candidate_index": 95,
+        "candidate_id": "PS-H__0065",
+        "lipid_name": "PS 16:0_20:3"
+      },
+      {
+        "candidate_index": 96,
+        "candidate_id": "PS-H__0066",
+        "lipid_name": "PS 16:0_20:4"
+      },
+      {
+        "candidate_index": 97,
+        "candidate_id": "PS-H__0067",
+        "lipid_name": "PS 16:0_20:5"
+      },
+      {
+        "candidate_index": 98,
+        "candidate_id": "PS-H__0083",
+        "lipid_name": "PS 18:0_16:1"
+      },
+      {
+        "candidate_index": 99,
+        "candidate_id": "PS-H__0084",
+        "lipid_name": "PS 16:1_18:1"
+      },
+      {
+        "candidate_index": 100,
+        "candidate_id": "PS-H__0087",
+        "lipid_name": "PS 20:0_16:1"
+      },
+      {
+        "candidate_index": 101,
+        "candidate_id": "PS-H__0088",
+        "lipid_name": "PS 16:1_20:1"
+      },
+      {
+        "candidate_index": 102,
+        "candidate_id": "PS-H__0089",
+        "lipid_name": "PS 16:1_20:2"
+      },
+      {
+        "candidate_index": 103,
+        "candidate_id": "PS-H__0090",
+        "lipid_name": "PS 16:1_20:3"
+      },
+      {
+        "candidate_index": 104,
+        "candidate_id": "PS-H__0091",
+        "lipid_name": "PS 16:1_20:4"
+      },
+      {
+        "candidate_index": 105,
+        "candidate_id": "PS-H__0107",
+        "lipid_name": "PS 18:0_18:0"
+      },
+      {
+        "candidate_index": 106,
+        "candidate_id": "PS-H__0108",
+        "lipid_name": "PS 18:0_18:1"
+      },
+      {
+        "candidate_index": 107,
+        "candidate_id": "PS-H__0109",
+        "lipid_name": "PS 18:0_18:2"
+      },
+      {
+        "candidate_index": 108,
+        "candidate_id": "PS-H__0110",
+        "lipid_name": "PS 18:0_18:3"
+      },
+      {
+        "candidate_index": 109,
+        "candidate_id": "PS-H__0131",
+        "lipid_name": "PS 18:1_18:1"
+      },
+      {
+        "candidate_index": 110,
+        "candidate_id": "PS-H__0132",
+        "lipid_name": "PS 18:1_18:2"
+      },
+      {
+        "candidate_index": 111,
+        "candidate_id": "PS-H__0133",
+        "lipid_name": "PS 18:1_18:3"
+      },
+      {
+        "candidate_index": 112,
+        "candidate_id": "PS-H__0154",
+        "lipid_name": "PS 18:2_18:2"
+      },
+      {
+        "candidate_index": 113,
+        "candidate_id": "PS-H__0456",
+        "lipid_name": "PS 17:0_18:1"
+      },
+      {
+        "candidate_index": 114,
+        "candidate_id": "PS-H__0457",
+        "lipid_name": "PS 17:0_18:2"
+      },
+      {
+        "candidate_index": 115,
+        "candidate_id": "PS-H__0477",
+        "lipid_name": "PS 18:0_17:1"
+      },
+      {
+        "candidate_index": 116,
+        "candidate_id": "PE-H__0069",
+        "lipid_name": "PE 16:0_22:1"
+      },
+      {
+        "candidate_index": 117,
+        "candidate_id": "PE-H__0070",
+        "lipid_name": "PE 16:0_22:2"
+      },
+      {
+        "candidate_index": 118,
+        "candidate_id": "PE-H__0071",
+        "lipid_name": "PE 16:0_22:3"
+      },
+      {
+        "candidate_index": 119,
+        "candidate_id": "PE-H__0072",
+        "lipid_name": "PE 16:0_22:4"
+      },
+      {
+        "candidate_index": 120,
+        "candidate_id": "PE-H__0073",
+        "lipid_name": "PE 16:0_22:5"
+      },
+      {
+        "candidate_index": 121,
+        "candidate_id": "PE-H__0074",
+        "lipid_name": "PE 16:0_22:6"
+      },
+      {
+        "candidate_index": 122,
+        "candidate_id": "PE-H__0079",
+        "lipid_name": "PE 16:0_24:4"
+      },
+      {
+        "candidate_index": 123,
+        "candidate_id": "PE-H__0080",
+        "lipid_name": "PE 16:0_24:5"
+      },
+      {
+        "candidate_index": 124,
+        "candidate_id": "PE-H__0081",
+        "lipid_name": "PE 16:0_24:6"
+      },
+      {
+        "candidate_index": 125,
+        "candidate_id": "PE-H__0093",
+        "lipid_name": "PE 22:0_16:1"
+      },
+      {
+        "candidate_index": 126,
+        "candidate_id": "PE-H__0094",
+        "lipid_name": "PE 16:1_22:1"
+      },
+      {
+        "candidate_index": 127,
+        "candidate_id": "PE-H__0095",
+        "lipid_name": "PE 16:1_22:2"
+      },
+      {
+        "candidate_index": 128,
+        "candidate_id": "PE-H__0096",
+        "lipid_name": "PE 16:1_22:3"
+      },
+      {
+        "candidate_index": 129,
+        "candidate_id": "PE-H__0097",
+        "lipid_name": "PE 16:1_22:4"
+      },
+      {
+        "candidate_index": 130,
+        "candidate_id": "PE-H__0098",
+        "lipid_name": "PE 16:1_22:5"
+      },
+      {
+        "candidate_index": 131,
+        "candidate_id": "PE-H__0099",
+        "lipid_name": "PE 16:1_22:6"
+      },
+      {
+        "candidate_index": 132,
+        "candidate_id": "PE-H__0111",
+        "lipid_name": "PE 18:0_20:0"
+      },
+      {
+        "candidate_index": 133,
+        "candidate_id": "PE-H__0112",
+        "lipid_name": "PE 18:0_20:1"
+      },
+      {
+        "candidate_index": 134,
+        "candidate_id": "PE-H__0113",
+        "lipid_name": "PE 18:0_20:2"
+      },
+      {
+        "candidate_index": 135,
+        "candidate_id": "PE-H__0114",
+        "lipid_name": "PE 18:0_20:3"
+      },
+      {
+        "candidate_index": 136,
+        "candidate_id": "PE-H__0115",
+        "lipid_name": "PE 18:0_20:4"
+      },
+      {
+        "candidate_index": 137,
+        "candidate_id": "PE-H__0116",
+        "lipid_name": "PE 18:0_20:5"
+      },
+      {
+        "candidate_index": 138,
+        "candidate_id": "PE-H__0120",
+        "lipid_name": "PE 18:0_22:3"
+      },
+      {
+        "candidate_index": 139,
+        "candidate_id": "PE-H__0121",
+        "lipid_name": "PE 18:0_22:4"
+      },
+      {
+        "candidate_index": 140,
+        "candidate_id": "PE-H__0122",
+        "lipid_name": "PE 18:0_22:5"
+      },
+      {
+        "candidate_index": 141,
+        "candidate_id": "PE-H__0123",
+        "lipid_name": "PE 18:0_22:6"
+      },
+      {
+        "candidate_index": 142,
+        "candidate_id": "PE-H__0134",
+        "lipid_name": "PE 20:0_18:1"
+      },
+      {
+        "candidate_index": 143,
+        "candidate_id": "PE-H__0135",
+        "lipid_name": "PE 18:1_20:1"
+      },
+      {
+        "candidate_index": 144,
+        "candidate_id": "PE-H__0136",
+        "lipid_name": "PE 18:1_20:2"
+      },
+      {
+        "candidate_index": 145,
+        "candidate_id": "PE-H__0137",
+        "lipid_name": "PE 18:1_20:3"
+      },
+      {
+        "candidate_index": 146,
+        "candidate_id": "PE-H__0138",
+        "lipid_name": "PE 18:1_20:4"
+      },
+      {
+        "candidate_index": 147,
+        "candidate_id": "PE-H__0139",
+        "lipid_name": "PE 18:1_20:5"
+      },
+      {
+        "candidate_index": 148,
+        "candidate_id": "PE-H__0142",
+        "lipid_name": "PE 18:1_22:2"
+      },
+      {
+        "candidate_index": 149,
+        "candidate_id": "PE-H__0143",
+        "lipid_name": "PE 18:1_22:3"
+      },
+      {
+        "candidate_index": 150,
+        "candidate_id": "PE-H__0144",
+        "lipid_name": "PE 18:1_22:4"
+      },
+      {
+        "candidate_index": 151,
+        "candidate_id": "PE-H__0145",
+        "lipid_name": "PE 18:1_22:5"
+      },
+      {
+        "candidate_index": 152,
+        "candidate_id": "PE-H__0146",
+        "lipid_name": "PE 18:1_22:6"
+      },
+      {
+        "candidate_index": 153,
+        "candidate_id": "PE-H__0156",
+        "lipid_name": "PE 20:0_18:2"
+      },
+      {
+        "candidate_index": 154,
+        "candidate_id": "PE-H__0157",
+        "lipid_name": "PE 20:1_18:2"
+      },
+      {
+        "candidate_index": 155,
+        "candidate_id": "PE-H__0158",
+        "lipid_name": "PE 18:2_20:2"
+      },
+      {
+        "candidate_index": 156,
+        "candidate_id": "PE-H__0159",
+        "lipid_name": "PE 18:2_20:3"
+      },
+      {
+        "candidate_index": 157,
+        "candidate_id": "PE-H__0160",
+        "lipid_name": "PE 18:2_20:4"
+      },
+      {
+        "candidate_index": 158,
+        "candidate_id": "PE-H__0161",
+        "lipid_name": "PE 18:2_20:5"
+      },
+      {
+        "candidate_index": 159,
+        "candidate_id": "PE-H__0163",
+        "lipid_name": "PE 22:1_18:2"
+      },
+      {
+        "candidate_index": 160,
+        "candidate_id": "PE-H__0164",
+        "lipid_name": "PE 18:2_22:2"
+      },
+      {
+        "candidate_index": 161,
+        "candidate_id": "PE-H__0165",
+        "lipid_name": "PE 18:2_22:3"
+      },
+      {
+        "candidate_index": 162,
+        "candidate_id": "PE-H__0166",
+        "lipid_name": "PE 18:2_22:4"
+      },
+      {
+        "candidate_index": 163,
+        "candidate_id": "PE-H__0167",
+        "lipid_name": "PE 18:2_22:5"
+      },
+      {
+        "candidate_index": 164,
+        "candidate_id": "PE-H__0168",
+        "lipid_name": "PE 18:2_22:6"
+      },
+      {
+        "candidate_index": 165,
+        "candidate_id": "PE-H__0177",
+        "lipid_name": "PE 20:0_18:3"
+      },
+      {
+        "candidate_index": 166,
+        "candidate_id": "PE-H__0178",
+        "lipid_name": "PE 20:1_18:3"
+      },
+      {
+        "candidate_index": 167,
+        "candidate_id": "PE-H__0181",
+        "lipid_name": "PE 18:3_20:4"
+      },
+      {
+        "candidate_index": 168,
+        "candidate_id": "PE-H__0187",
+        "lipid_name": "PE 18:3_22:4"
+      },
+      {
+        "candidate_index": 169,
+        "candidate_id": "PE-H__0188",
+        "lipid_name": "PE 18:3_22:5"
+      },
+      {
+        "candidate_index": 170,
+        "candidate_id": "PE-H__0200",
+        "lipid_name": "PE 20:0_20:3"
+      },
+      {
+        "candidate_index": 171,
+        "candidate_id": "PE-H__0201",
+        "lipid_name": "PE 20:0_20:4"
+      },
+      {
+        "candidate_index": 172,
+        "candidate_id": "PE-H__0202",
+        "lipid_name": "PE 20:0_20:5"
+      },
+      {
+        "candidate_index": 173,
+        "candidate_id": "PE-H__0218",
+        "lipid_name": "PE 20:1_20:2"
+      },
+      {
+        "candidate_index": 174,
+        "candidate_id": "PE-H__0219",
+        "lipid_name": "PE 20:1_20:3"
+      },
+      {
+        "candidate_index": 175,
+        "candidate_id": "PE-H__0220",
+        "lipid_name": "PE 20:1_20:4"
+      },
+      {
+        "candidate_index": 176,
+        "candidate_id": "PE-H__0221",
+        "lipid_name": "PE 20:1_20:5"
+      },
+      {
+        "candidate_index": 177,
+        "candidate_id": "PE-H__0236",
+        "lipid_name": "PE 20:2_20:2"
+      },
+      {
+        "candidate_index": 178,
+        "candidate_id": "PE-H__0237",
+        "lipid_name": "PE 20:2_20:3"
+      },
+      {
+        "candidate_index": 179,
+        "candidate_id": "PE-H__0238",
+        "lipid_name": "PE 20:2_20:4"
+      },
+      {
+        "candidate_index": 180,
+        "candidate_id": "PE-H__0239",
+        "lipid_name": "PE 20:2_20:5"
+      },
+      {
+        "candidate_index": 181,
+        "candidate_id": "PE-H__0254",
+        "lipid_name": "PE 20:3_20:3"
+      },
+      {
+        "candidate_index": 182,
+        "candidate_id": "PE-H__0255",
+        "lipid_name": "PE 20:3_20:4"
+      },
+      {
+        "candidate_index": 183,
+        "candidate_id": "PE-H__0256",
+        "lipid_name": "PE 20:3_20:5"
+      },
+      {
+        "candidate_index": 184,
+        "candidate_id": "PE-H__0271",
+        "lipid_name": "PE 20:4_20:4"
+      },
+      {
+        "candidate_index": 185,
+        "candidate_id": "PE-H__0272",
+        "lipid_name": "PE 20:4_20:5"
+      },
+      {
+        "candidate_index": 186,
+        "candidate_id": "PE-H__0459",
+        "lipid_name": "PE 17:0_20:0"
+      },
+      {
+        "candidate_index": 187,
+        "candidate_id": "PE-H__0460",
+        "lipid_name": "PE 17:0_20:1"
+      },
+      {
+        "candidate_index": 188,
+        "candidate_id": "PE-H__0461",
+        "lipid_name": "PE 17:0_20:2"
+      },
+      {
+        "candidate_index": 189,
+        "candidate_id": "PE-H__0462",
+        "lipid_name": "PE 17:0_20:3"
+      },
+      {
+        "candidate_index": 190,
+        "candidate_id": "PE-H__0463",
+        "lipid_name": "PE 17:0_20:4"
+      },
+      {
+        "candidate_index": 191,
+        "candidate_id": "PE-H__0464",
+        "lipid_name": "PE 17:0_20:5"
+      },
+      {
+        "candidate_index": 192,
+        "candidate_id": "PE-H__0466",
+        "lipid_name": "PE 17:0_22:1"
+      },
+      {
+        "candidate_index": 193,
+        "candidate_id": "PE-H__0467",
+        "lipid_name": "PE 17:0_22:2"
+      },
+      {
+        "candidate_index": 194,
+        "candidate_id": "PE-H__0468",
+        "lipid_name": "PE 17:0_22:3"
+      },
+      {
+        "candidate_index": 195,
+        "candidate_id": "PE-H__0469",
+        "lipid_name": "PE 17:0_22:4"
+      },
+      {
+        "candidate_index": 196,
+        "candidate_id": "PE-H__0470",
+        "lipid_name": "PE 17:0_22:5"
+      },
+      {
+        "candidate_index": 197,
+        "candidate_id": "PE-H__0471",
+        "lipid_name": "PE 17:0_22:6"
+      },
+      {
+        "candidate_index": 198,
+        "candidate_id": "PE-H__0481",
+        "lipid_name": "PE 20:0_17:1"
+      },
+      {
+        "candidate_index": 199,
+        "candidate_id": "PE-H__0482",
+        "lipid_name": "PE 17:1_20:1"
+      },
+      {
+        "candidate_index": 200,
+        "candidate_id": "PE-H__0483",
+        "lipid_name": "PE 17:1_20:2"
+      },
+      {
+        "candidate_index": 201,
+        "candidate_id": "PE-H__0484",
+        "lipid_name": "PE 17:1_20:3"
+      },
+      {
+        "candidate_index": 202,
+        "candidate_id": "PE-H__0485",
+        "lipid_name": "PE 17:1_20:4"
+      },
+      {
+        "candidate_index": 203,
+        "candidate_id": "PE-H__0488",
+        "lipid_name": "PE 17:1_22:1"
+      },
+      {
+        "candidate_index": 204,
+        "candidate_id": "PE-H__0490",
+        "lipid_name": "PE 17:1_22:3"
+      },
+      {
+        "candidate_index": 205,
+        "candidate_id": "PE-H__0491",
+        "lipid_name": "PE 17:1_22:4"
+      },
+      {
+        "candidate_index": 206,
+        "candidate_id": "PE-H__0492",
+        "lipid_name": "PE 17:1_22:5"
+      },
+      {
+        "candidate_index": 207,
+        "candidate_id": "PE-H__0493",
+        "lipid_name": "PE 17:1_22:6"
+      },
+      {
+        "candidate_index": 208,
+        "candidate_id": "PEO-H__0072",
+        "lipid_name": "PE O-16:0_22:1"
+      },
+      {
+        "candidate_index": 209,
+        "candidate_id": "PEO-H__0073",
+        "lipid_name": "PE O-16:0_22:2"
+      },
+      {
+        "candidate_index": 210,
+        "candidate_id": "PEO-H__0074",
+        "lipid_name": "PE O-16:0_22:3"
+      },
+      {
+        "candidate_index": 211,
+        "candidate_id": "PEO-H__0075",
+        "lipid_name": "PE O-16:0_22:4"
+      },
+      {
+        "candidate_index": 212,
+        "candidate_id": "PEO-H__0076",
+        "lipid_name": "PE O-16:0_22:5"
+      },
+      {
+        "candidate_index": 213,
+        "candidate_id": "PEO-H__0077",
+        "lipid_name": "PE O-16:0_22:6"
+      },
+      {
+        "candidate_index": 214,
+        "candidate_id": "PEO-H__0099",
+        "lipid_name": "PE O-16:1_22:0"
+      },
+      {
+        "candidate_index": 215,
+        "candidate_id": "PEO-H__0100",
+        "lipid_name": "PE O-16:1_22:1"
+      },
+      {
+        "candidate_index": 216,
+        "candidate_id": "PEO-H__0101",
+        "lipid_name": "PE O-16:1_22:2"
+      },
+      {
+        "candidate_index": 217,
+        "candidate_id": "PEO-H__0102",
+        "lipid_name": "PE O-16:1_22:3"
+      },
+      {
+        "candidate_index": 218,
+        "candidate_id": "PEO-H__0103",
+        "lipid_name": "PE O-16:1_22:4"
+      },
+      {
+        "candidate_index": 219,
+        "candidate_id": "PEO-H__0104",
+        "lipid_name": "PE O-16:1_22:5"
+      },
+      {
+        "candidate_index": 220,
+        "candidate_id": "PEO-H__0106",
+        "lipid_name": "PE O-16:1_24:0"
+      },
+      {
+        "candidate_index": 221,
+        "candidate_id": "PEO-H__0107",
+        "lipid_name": "PE O-16:1_24:1"
+      },
+      {
+        "candidate_index": 222,
+        "candidate_id": "PEO-H__0110",
+        "lipid_name": "PE O-16:1_24:4"
+      },
+      {
+        "candidate_index": 223,
+        "candidate_id": "PEO-H__0111",
+        "lipid_name": "PE O-16:1_24:5"
+      },
+      {
+        "candidate_index": 224,
+        "candidate_id": "PEO-H__0112",
+        "lipid_name": "PE O-16:1_24:6"
+      },
+      {
+        "candidate_index": 225,
+        "candidate_id": "PEO-H__0122",
+        "lipid_name": "PE O-18:0_20:1"
+      },
+      {
+        "candidate_index": 226,
+        "candidate_id": "PEO-H__0123",
+        "lipid_name": "PE O-18:0_20:2"
+      },
+      {
+        "candidate_index": 227,
+        "candidate_id": "PEO-H__0124",
+        "lipid_name": "PE O-18:0_20:3"
+      },
+      {
+        "candidate_index": 228,
+        "candidate_id": "PEO-H__0125",
+        "lipid_name": "PE O-18:0_20:4"
+      },
+      {
+        "candidate_index": 229,
+        "candidate_id": "PEO-H__0126",
+        "lipid_name": "PE O-18:0_20:5"
+      },
+      {
+        "candidate_index": 230,
+        "candidate_id": "PEO-H__0128",
+        "lipid_name": "PE O-18:0_22:1"
+      },
+      {
+        "candidate_index": 231,
+        "candidate_id": "PEO-H__0129",
+        "lipid_name": "PE O-18:0_22:2"
+      },
+      {
+        "candidate_index": 232,
+        "candidate_id": "PEO-H__0130",
+        "lipid_name": "PE O-18:0_22:3"
+      },
+      {
+        "candidate_index": 233,
+        "candidate_id": "PEO-H__0131",
+        "lipid_name": "PE O-18:0_22:4"
+      },
+      {
+        "candidate_index": 234,
+        "candidate_id": "PEO-H__0132",
+        "lipid_name": "PE O-18:0_22:5"
+      },
+      {
+        "candidate_index": 235,
+        "candidate_id": "PEO-H__0133",
+        "lipid_name": "PE O-18:0_22:6"
+      },
+      {
+        "candidate_index": 236,
+        "candidate_id": "PEO-H__0150",
+        "lipid_name": "PE O-18:1_20:1"
+      },
+      {
+        "candidate_index": 237,
+        "candidate_id": "PEO-H__0151",
+        "lipid_name": "PE O-18:1_20:2"
+      },
+      {
+        "candidate_index": 238,
+        "candidate_id": "PEO-H__0152",
+        "lipid_name": "PE O-18:1_20:3"
+      },
+      {
+        "candidate_index": 239,
+        "candidate_id": "PEO-H__0153",
+        "lipid_name": "PE O-18:1_20:4"
+      },
+      {
+        "candidate_index": 240,
+        "candidate_id": "PEO-H__0154",
+        "lipid_name": "PE O-18:1_20:5"
+      },
+      {
+        "candidate_index": 241,
+        "candidate_id": "PEO-H__0156",
+        "lipid_name": "PE O-18:1_22:1"
+      },
+      {
+        "candidate_index": 242,
+        "candidate_id": "PEO-H__0157",
+        "lipid_name": "PE O-18:1_22:2"
+      },
+      {
+        "candidate_index": 243,
+        "candidate_id": "PEO-H__0158",
+        "lipid_name": "PE O-18:1_22:3"
+      },
+      {
+        "candidate_index": 244,
+        "candidate_id": "PEO-H__0159",
+        "lipid_name": "PE O-18:1_22:4"
+      },
+      {
+        "candidate_index": 245,
+        "candidate_id": "PEO-H__0160",
+        "lipid_name": "PE O-18:1_22:5"
+      },
+      {
+        "candidate_index": 246,
+        "candidate_id": "PEO-H__0161",
+        "lipid_name": "PE O-18:1_22:6"
+      },
+      {
+        "candidate_index": 247,
+        "candidate_id": "PEO-H__0231",
+        "lipid_name": "PE O-20:0_18:2"
+      },
+      {
+        "candidate_index": 248,
+        "candidate_id": "PEO-H__0259",
+        "lipid_name": "PE O-20:1_18:2"
+      },
+      {
+        "candidate_index": 249,
+        "candidate_id": "PEO-H__0179",
+        "lipid_name": "PE O-18:2_20:2"
+      },
+      {
+        "candidate_index": 250,
+        "candidate_id": "PEO-H__0180",
+        "lipid_name": "PE O-18:2_20:3"
+      },
+      {
+        "candidate_index": 251,
+        "candidate_id": "PEO-H__0181",
+        "lipid_name": "PE O-18:2_20:4"
+      },
+      {
+        "candidate_index": 252,
+        "candidate_id": "PEO-H__0183",
+        "lipid_name": "PE O-18:2_22:0"
+      },
+      {
+        "candidate_index": 253,
+        "candidate_id": "PEO-H__0427",
+        "lipid_name": "PE O-22:1_18:2"
+      },
+      {
+        "candidate_index": 254,
+        "candidate_id": "PEO-H__0185",
+        "lipid_name": "PE O-18:2_22:2"
+      },
+      {
+        "candidate_index": 255,
+        "candidate_id": "PEO-H__0186",
+        "lipid_name": "PE O-18:2_22:3"
+      },
+      {
+        "candidate_index": 256,
+        "candidate_id": "PEO-H__0187",
+        "lipid_name": "PE O-18:2_22:4"
+      },
+      {
+        "candidate_index": 257,
+        "candidate_id": "PEO-H__0188",
+        "lipid_name": "PE O-18:2_22:5"
+      },
+      {
+        "candidate_index": 258,
+        "candidate_id": "PEO-H__0189",
+        "lipid_name": "PE O-18:2_22:6"
+      },
+      {
+        "candidate_index": 259,
+        "candidate_id": "PEO-H__0208",
+        "lipid_name": "PE O-18:3_20:3"
+      },
+      {
+        "candidate_index": 260,
+        "candidate_id": "PEO-H__0211",
+        "lipid_name": "PE O-18:3_22:0"
+      },
+      {
+        "candidate_index": 261,
+        "candidate_id": "PEO-H__0214",
+        "lipid_name": "PE O-18:3_22:3"
+      },
+      {
+        "candidate_index": 262,
+        "candidate_id": "PEO-H__0215",
+        "lipid_name": "PE O-18:3_22:4"
+      },
+      {
+        "candidate_index": 263,
+        "candidate_id": "PEO-H__0216",
+        "lipid_name": "PE O-18:3_22:5"
+      },
+      {
+        "candidate_index": 264,
+        "candidate_id": "PEO-H__0217",
+        "lipid_name": "PE O-18:3_22:6"
+      },
+      {
+        "candidate_index": 265,
+        "candidate_id": "PEO-H__0235",
+        "lipid_name": "PE O-20:0_20:2"
+      },
+      {
+        "candidate_index": 266,
+        "candidate_id": "PEO-H__0236",
+        "lipid_name": "PE O-20:0_20:3"
+      },
+      {
+        "candidate_index": 267,
+        "candidate_id": "PEO-H__0237",
+        "lipid_name": "PE O-20:0_20:4"
+      },
+      {
+        "candidate_index": 268,
+        "candidate_id": "PEO-H__0262",
+        "lipid_name": "PE O-20:1_20:1"
+      },
+      {
+        "candidate_index": 269,
+        "candidate_id": "PEO-H__0263",
+        "lipid_name": "PE O-20:1_20:2"
+      },
+      {
+        "candidate_index": 270,
+        "candidate_id": "PEO-H__0264",
+        "lipid_name": "PE O-20:1_20:3"
+      },
+      {
+        "candidate_index": 271,
+        "candidate_id": "PEO-H__0265",
+        "lipid_name": "PE O-20:1_20:4"
+      },
+      {
+        "candidate_index": 272,
+        "candidate_id": "PEO-H__0291",
+        "lipid_name": "PE O-20:2_20:2"
+      },
+      {
+        "candidate_index": 273,
+        "candidate_id": "PEO-H__0292",
+        "lipid_name": "PE O-20:2_20:3"
+      },
+      {
+        "candidate_index": 274,
+        "candidate_id": "PEO-H__0293",
+        "lipid_name": "PE O-20:2_20:4"
+      },
+      {
+        "candidate_index": 275,
+        "candidate_id": "PEO-H__0320",
+        "lipid_name": "PE O-20:3_20:3"
+      },
+      {
+        "candidate_index": 276,
+        "candidate_id": "PEO-H__0321",
+        "lipid_name": "PE O-20:3_20:4"
+      },
+      {
+        "candidate_index": 277,
+        "candidate_id": "PG-H__0044",
+        "lipid_name": "PG 14:0_20:0"
+      },
+      {
+        "candidate_index": 278,
+        "candidate_id": "PG-H__0045",
+        "lipid_name": "PG 16:0_18:0"
+      },
+      {
+        "candidate_index": 279,
+        "candidate_id": "PG-H__0051",
+        "lipid_name": "PG 14:0_22:5"
+      },
+      {
+        "candidate_index": 280,
+        "candidate_id": "PG-H__0052",
+        "lipid_name": "PG 16:0_20:5"
+      },
+      {
+        "candidate_index": 281,
+        "candidate_id": "PG-H__0053",
+        "lipid_name": "PG 16:1_20:4"
+      },
+      {
+        "candidate_index": 282,
+        "candidate_id": "PG-H__0054",
+        "lipid_name": "PG 18:2_18:3"
+      },
+      {
+        "candidate_index": 283,
+        "candidate_id": "PG-H__0056",
+        "lipid_name": "PG 14:0_22:4"
+      },
+      {
+        "candidate_index": 284,
+        "candidate_id": "PG-H__0057",
+        "lipid_name": "PG 16:0_20:4"
+      },
+      {
+        "candidate_index": 285,
+        "candidate_id": "PG-H__0058",
+        "lipid_name": "PG 16:1_20:3"
+      },
+      {
+        "candidate_index": 286,
+        "candidate_id": "PG-H__0059",
+        "lipid_name": "PG 18:1_18:3"
+      },
+      {
+        "candidate_index": 287,
+        "candidate_id": "PG-H__0060",
+        "lipid_name": "PG 18:2_18:2"
+      },
+      {
+        "candidate_index": 288,
+        "candidate_id": "PG-H__0062",
+        "lipid_name": "PG 14:0_22:3"
+      },
+      {
+        "candidate_index": 289,
+        "candidate_id": "PG-H__0063",
+        "lipid_name": "PG 16:0_20:3"
+      },
+      {
+        "candidate_index": 290,
+        "candidate_id": "PG-H__0064",
+        "lipid_name": "PG 16:1_20:2"
+      },
+      {
+        "candidate_index": 291,
+        "candidate_id": "PG-H__0065",
+        "lipid_name": "PG 18:0_18:3"
+      },
+      {
+        "candidate_index": 292,
+        "candidate_id": "PG-H__0066",
+        "lipid_name": "PG 18:1_18:2"
+      },
+      {
+        "candidate_index": 293,
+        "candidate_id": "PG-H__0068",
+        "lipid_name": "PG 14:0_22:2"
+      },
+      {
+        "candidate_index": 294,
+        "candidate_id": "PG-H__0069",
+        "lipid_name": "PG 16:0_20:2"
+      },
+      {
+        "candidate_index": 295,
+        "candidate_id": "PG-H__0070",
+        "lipid_name": "PG 16:1_20:1"
+      },
+      {
+        "candidate_index": 296,
+        "candidate_id": "PG-H__0071",
+        "lipid_name": "PG 18:0_18:2"
+      },
+      {
+        "candidate_index": 297,
+        "candidate_id": "PG-H__0072",
+        "lipid_name": "PG 18:1_18:1"
+      },
+      {
+        "candidate_index": 298,
+        "candidate_id": "PG-H__0074",
+        "lipid_name": "PG 14:0_22:1"
+      },
+      {
+        "candidate_index": 299,
+        "candidate_id": "PG-H__0075",
+        "lipid_name": "PG 16:0_20:1"
+      },
+      {
+        "candidate_index": 300,
+        "candidate_id": "PG-H__0076",
+        "lipid_name": "PG 20:0_16:1"
+      },
+      {
+        "candidate_index": 301,
+        "candidate_id": "PG-H__0077",
+        "lipid_name": "PG 18:0_18:1"
+      },
+      {
+        "candidate_index": 302,
+        "candidate_id": "PG-H__0079",
+        "lipid_name": "PG 14:0_22:0"
+      },
+      {
+        "candidate_index": 303,
+        "candidate_id": "PG-H__0080",
+        "lipid_name": "PG 16:0_20:0"
+      },
+      {
+        "candidate_index": 304,
+        "candidate_id": "PG-H__0081",
+        "lipid_name": "PG 18:0_18:0"
+      },
+      {
+        "candidate_index": 305,
+        "candidate_id": "PG-H__0083",
+        "lipid_name": "PG 16:1_22:6"
+      },
+      {
+        "candidate_index": 306,
+        "candidate_id": "PG-H__0084",
+        "lipid_name": "PG 18:2_20:5"
+      },
+      {
+        "candidate_index": 307,
+        "candidate_id": "PG-H__0085",
+        "lipid_name": "PG 18:3_20:4"
+      },
+      {
+        "candidate_index": 308,
+        "candidate_id": "PG-H__0087",
+        "lipid_name": "PG 16:0_22:6"
+      },
+      {
+        "candidate_index": 309,
+        "candidate_id": "PG-H__0088",
+        "lipid_name": "PG 16:1_22:5"
+      },
+      {
+        "candidate_index": 310,
+        "candidate_id": "PG-H__0089",
+        "lipid_name": "PG 18:1_20:5"
+      },
+      {
+        "candidate_index": 311,
+        "candidate_id": "PG-H__0090",
+        "lipid_name": "PG 18:2_20:4"
+      },
+      {
+        "candidate_index": 312,
+        "candidate_id": "PG-H__0093",
+        "lipid_name": "PG 16:0_22:5"
+      },
+      {
+        "candidate_index": 313,
+        "candidate_id": "PG-H__0094",
+        "lipid_name": "PG 16:1_22:4"
+      },
+      {
+        "candidate_index": 314,
+        "candidate_id": "PG-H__0095",
+        "lipid_name": "PG 18:0_20:5"
+      },
+      {
+        "candidate_index": 315,
+        "candidate_id": "PG-H__0096",
+        "lipid_name": "PG 18:1_20:4"
+      },
+      {
+        "candidate_index": 316,
+        "candidate_id": "PG-H__0097",
+        "lipid_name": "PG 18:2_20:3"
+      },
+      {
+        "candidate_index": 317,
+        "candidate_id": "PG-H__0098",
+        "lipid_name": "PG 20:2_18:3"
+      },
+      {
+        "candidate_index": 318,
+        "candidate_id": "PG-H__0099",
+        "lipid_name": "PG 14:0_24:4"
+      },
+      {
+        "candidate_index": 319,
+        "candidate_id": "PG-H__0100",
+        "lipid_name": "PG 16:0_22:4"
+      },
+      {
+        "candidate_index": 320,
+        "candidate_id": "PG-H__0101",
+        "lipid_name": "PG 16:1_22:3"
+      },
+      {
+        "candidate_index": 321,
+        "candidate_id": "PG-H__0102",
+        "lipid_name": "PG 18:0_20:4"
+      },
+      {
+        "candidate_index": 322,
+        "candidate_id": "PG-H__0103",
+        "lipid_name": "PG 18:1_20:3"
+      },
+      {
+        "candidate_index": 323,
+        "candidate_id": "PG-H__0104",
+        "lipid_name": "PG 18:2_20:2"
+      },
+      {
+        "candidate_index": 324,
+        "candidate_id": "PG-H__0105",
+        "lipid_name": "PG 20:1_18:3"
+      },
+      {
+        "candidate_index": 325,
+        "candidate_id": "PG-H__0455",
+        "lipid_name": "PG 17:0_18:0"
+      },
+      {
+        "candidate_index": 326,
+        "candidate_id": "PG-H__0456",
+        "lipid_name": "PG 17:0_18:1"
+      },
+      {
+        "candidate_index": 327,
+        "candidate_id": "PG-H__0457",
+        "lipid_name": "PG 17:0_18:2"
+      },
+      {
+        "candidate_index": 328,
+        "candidate_id": "PG-H__0459",
+        "lipid_name": "PG 17:0_20:0"
+      },
+      {
+        "candidate_index": 329,
+        "candidate_id": "PG-H__0460",
+        "lipid_name": "PG 17:0_20:1"
+      },
+      {
+        "candidate_index": 330,
+        "candidate_id": "PG-H__0461",
+        "lipid_name": "PG 17:0_20:2"
+      },
+      {
+        "candidate_index": 331,
+        "candidate_id": "PG-H__0462",
+        "lipid_name": "PG 17:0_20:3"
+      },
+      {
+        "candidate_index": 332,
+        "candidate_id": "PG-H__0463",
+        "lipid_name": "PG 17:0_20:4"
+      },
+      {
+        "candidate_index": 333,
+        "candidate_id": "PG-H__0464",
+        "lipid_name": "PG 17:0_20:5"
+      },
+      {
+        "candidate_index": 334,
+        "candidate_id": "PG-H__0477",
+        "lipid_name": "PG 18:0_17:1"
+      },
+      {
+        "candidate_index": 335,
+        "candidate_id": "PG-H__0478",
+        "lipid_name": "PG 17:1_18:1"
+      },
+      {
+        "candidate_index": 336,
+        "candidate_id": "PG-H__0479",
+        "lipid_name": "PG 17:1_18:2"
+      },
+      {
+        "candidate_index": 337,
+        "candidate_id": "PG-H__0481",
+        "lipid_name": "PG 20:0_17:1"
+      },
+      {
+        "candidate_index": 338,
+        "candidate_id": "PG-H__0482",
+        "lipid_name": "PG 17:1_20:1"
+      },
+      {
+        "candidate_index": 339,
+        "candidate_id": "PG-H__0483",
+        "lipid_name": "PG 17:1_20:2"
+      },
+      {
+        "candidate_index": 340,
+        "candidate_id": "PG-H__0484",
+        "lipid_name": "PG 17:1_20:3"
+      },
+      {
+        "candidate_index": 341,
+        "candidate_id": "PG-H__0485",
+        "lipid_name": "PG 17:1_20:4"
+      },
+      {
+        "candidate_index": 342,
+        "candidate_id": "PG-H__0502",
+        "lipid_name": "PG 17:0_17:0"
+      },
+      {
+        "candidate_index": 343,
+        "candidate_id": "PC+HCOO__0032",
+        "lipid_name": "PC 14:0_18:0"
+      },
+      {
+        "candidate_index": 344,
+        "candidate_id": "PC+HCOO__0033",
+        "lipid_name": "PC 14:0_18:1"
+      },
+      {
+        "candidate_index": 345,
+        "candidate_id": "PC+HCOO__0056",
+        "lipid_name": "PC 16:0_16:0"
+      },
+      {
+        "candidate_index": 346,
+        "candidate_id": "PC+HCOO__0057",
+        "lipid_name": "PC 16:0_16:1"
+      },
+      {
+        "candidate_index": 347,
+        "candidate_id": "PC+HCOO__0474",
+        "lipid_name": "PC 14:0_17:1"
+      },
+      {
+        "candidate_index": 348,
+        "candidate_id": "PCO+HCOO__0057",
+        "lipid_name": "PC O-16:0_16:1"
+      },
+      {
+        "candidate_index": 349,
+        "candidate_id": "PCO+HCOO__0082",
+        "lipid_name": "PC O-16:1_16:1"
+      },
+      {
+        "candidate_index": 350,
+        "candidate_id": "PCO+HCOO__0083",
+        "lipid_name": "PC O-16:1_18:0"
+      },
+      {
+        "candidate_index": 351,
+        "candidate_id": "PCO+HCOO__0084",
+        "lipid_name": "PC O-16:1_18:1"
+      },
+      {
+        "candidate_index": 352,
+        "candidate_id": "PCO+HCOO__0085",
+        "lipid_name": "PC O-16:1_18:2"
+      },
+      {
+        "candidate_index": 353,
+        "candidate_id": "PCO+HCOO__0454",
+        "lipid_name": "PC O-16:1_17:0"
+      },
+      {
+        "candidate_index": 354,
+        "candidate_id": "PCO+HCOO__0475",
+        "lipid_name": "PC O-16:0_17:1"
+      },
+      {
+        "candidate_index": 355,
+        "candidate_id": "PC+CH3COO__0032",
+        "lipid_name": "PC 14:0_18:0"
+      },
+      {
+        "candidate_index": 356,
+        "candidate_id": "PC+CH3COO__0033",
+        "lipid_name": "PC 14:0_18:1"
+      },
+      {
+        "candidate_index": 357,
+        "candidate_id": "PC+CH3COO__0056",
+        "lipid_name": "PC 16:0_16:0"
+      },
+      {
+        "candidate_index": 358,
+        "candidate_id": "PC+CH3COO__0057",
+        "lipid_name": "PC 16:0_16:1"
+      },
+      {
+        "candidate_index": 359,
+        "candidate_id": "PC+CH3COO__0474",
+        "lipid_name": "PC 14:0_17:1"
+      },
+      {
+        "candidate_index": 360,
+        "candidate_id": "PCO+CH3COO__0057",
+        "lipid_name": "PC O-16:0_16:1"
+      },
+      {
+        "candidate_index": 361,
+        "candidate_id": "PCO+CH3COO__0082",
+        "lipid_name": "PC O-16:1_16:1"
+      },
+      {
+        "candidate_index": 362,
+        "candidate_id": "PCO+CH3COO__0453",
+        "lipid_name": "PC O-16:0_17:0"
+      },
+      {
+        "candidate_index": 363,
+        "candidate_id": "PCO+CH3COO__0454",
+        "lipid_name": "PC O-16:1_17:0"
+      },
+      {
+        "candidate_index": 364,
+        "candidate_id": "PCO+CH3COO__0475",
+        "lipid_name": "PC O-16:0_17:1"
+      },
+      {
+        "candidate_index": 365,
+        "candidate_id": "PCO+CH3COO__0476",
+        "lipid_name": "PC O-16:1_17:1"
+      },
+      {
+        "candidate_index": 366,
+        "candidate_id": "PC+Cl__0165",
+        "lipid_name": "PC 14:0_17:1"
+      },
+      {
+        "candidate_index": 367,
+        "candidate_id": "PC+Cl__0167",
+        "lipid_name": "PC 14:0_18:0"
+      },
+      {
+        "candidate_index": 368,
+        "candidate_id": "PC+Cl__0168",
+        "lipid_name": "PC 14:0_18:1"
+      },
+      {
+        "candidate_index": 369,
+        "candidate_id": "PC+Cl__0169",
+        "lipid_name": "PC 14:0_18:2"
+      },
+      {
+        "candidate_index": 370,
+        "candidate_id": "PC+Cl__0176",
+        "lipid_name": "PC 14:0_20:0"
+      },
+      {
+        "candidate_index": 371,
+        "candidate_id": "PC+Cl__0177",
+        "lipid_name": "PC 14:0_20:1"
+      },
+      {
+        "candidate_index": 372,
+        "candidate_id": "PC+Cl__0178",
+        "lipid_name": "PC 14:0_20:2"
+      },
+      {
+        "candidate_index": 373,
+        "candidate_id": "PC+Cl__0179",
+        "lipid_name": "PC 14:0_20:3"
+      },
+      {
+        "candidate_index": 374,
+        "candidate_id": "PC+Cl__0180",
+        "lipid_name": "PC 14:0_20:4"
+      },
+      {
+        "candidate_index": 375,
+        "candidate_id": "PC+Cl__0219",
+        "lipid_name": "PC 14:1_17:1"
+      },
+      {
+        "candidate_index": 376,
+        "candidate_id": "PC+Cl__0793",
+        "lipid_name": "PC 18:0_14:1"
+      },
+      {
+        "candidate_index": 377,
+        "candidate_id": "PC+Cl__1186",
+        "lipid_name": "PC 20:0_14:1"
+      },
+      {
+        "candidate_index": 378,
+        "candidate_id": "PC+Cl__0231",
+        "lipid_name": "PC 14:1_20:1"
+      },
+      {
+        "candidate_index": 379,
+        "candidate_id": "PC+Cl__0382",
+        "lipid_name": "PC 16:0_16:0"
+      },
+      {
+        "candidate_index": 380,
+        "candidate_id": "PC+Cl__0383",
+        "lipid_name": "PC 16:0_16:1"
+      },
+      {
+        "candidate_index": 381,
+        "candidate_id": "PC+Cl__0390",
+        "lipid_name": "PC 16:0_18:0"
+      },
+      {
+        "candidate_index": 382,
+        "candidate_id": "PC+Cl__0391",
+        "lipid_name": "PC 16:0_18:1"
+      },
+      {
+        "candidate_index": 383,
+        "candidate_id": "PC+Cl__0392",
+        "lipid_name": "PC 16:0_18:2"
+      },
+      {
+        "candidate_index": 384,
+        "candidate_id": "PC+Cl__0435",
+        "lipid_name": "PC 16:1_16:1"
+      },
+      {
+        "candidate_index": 385,
+        "candidate_id": "PC+Cl__0797",
+        "lipid_name": "PC 18:0_16:1"
+      },
+      {
+        "candidate_index": 386,
+        "candidate_id": "PC+Cl__0443",
+        "lipid_name": "PC 16:1_18:1"
+      },
+      {
+        "candidate_index": 387,
+        "candidate_id": "PC+Cl__0444",
+        "lipid_name": "PC 16:1_18:2"
+      },
+      {
+        "candidate_index": 388,
+        "candidate_id": "PC+Cl__0657",
+        "lipid_name": "PC 17:0_17:0"
+      },
+      {
+        "candidate_index": 389,
+        "candidate_id": "PC+Cl__0658",
+        "lipid_name": "PC 17:0_17:1"
+      },
+      {
+        "candidate_index": 390,
+        "candidate_id": "PC+Cl__0706",
+        "lipid_name": "PC 17:1_17:1"
+      }
+    ],
+    "dataset_ids": [
+      "MILD__CAL_R1_K050",
+      "MILD__CAL_R1_K125",
+      "MILD__CAL_R1_K175",
+      "MILD__CAL_R2_K050",
+      "MILD__CAL_R2_K125",
+      "MILD__CAL_R2_K175",
+      "MILD__CAL_R3_K050",
+      "MILD__CAL_R3_K125",
+      "MILD__CAL_R3_K175",
+      "MILD__CAL_R4_K050",
+      "MILD__CAL_R4_K125",
+      "MILD__CAL_R4_K175",
+      "MILD__CAL_R5_K050",
+      "MILD__CAL_R5_K125",
+      "MILD__CAL_R5_K175",
+      "MILD__HOLD_R1_K050",
+      "MILD__HOLD_R1_K125",
+      "MILD__HOLD_R1_K175",
+      "MILD__HOLD_R2_K050",
+      "MILD__HOLD_R2_K125",
+      "MILD__HOLD_R2_K175",
+      "MILD__HOLD_R3_K050",
+      "MILD__HOLD_R3_K125",
+      "MILD__HOLD_R3_K175",
+      "MILD__HOLD_R4_K050",
+      "MILD__HOLD_R4_K125",
+      "MILD__HOLD_R4_K175",
+      "MILD__HOLD_R5_K050",
+      "MILD__HOLD_R5_K125",
+      "MILD__HOLD_R5_K175",
+      "MODERATE__CAL_R1_K050",
+      "MODERATE__CAL_R1_K125",
+      "MODERATE__CAL_R1_K175",
+      "MODERATE__CAL_R2_K050",
+      "MODERATE__CAL_R2_K125",
+      "MODERATE__CAL_R2_K175",
+      "MODERATE__CAL_R3_K050",
+      "MODERATE__CAL_R3_K125",
+      "MODERATE__CAL_R3_K175",
+      "MODERATE__CAL_R4_K050",
+      "MODERATE__CAL_R4_K125",
+      "MODERATE__CAL_R4_K175",
+      "MODERATE__CAL_R5_K050",
+      "MODERATE__CAL_R5_K125",
+      "MODERATE__CAL_R5_K175",
+      "MODERATE__HOLD_R1_K050",
+      "MODERATE__HOLD_R1_K125",
+      "MODERATE__HOLD_R1_K175",
+      "MODERATE__HOLD_R2_K050",
+      "MODERATE__HOLD_R2_K125",
+      "MODERATE__HOLD_R2_K175",
+      "MODERATE__HOLD_R3_K050",
+      "MODERATE__HOLD_R3_K125",
+      "MODERATE__HOLD_R3_K175",
+      "MODERATE__HOLD_R4_K050",
+      "MODERATE__HOLD_R4_K125",
+      "MODERATE__HOLD_R4_K175",
+      "MODERATE__HOLD_R5_K050",
+      "MODERATE__HOLD_R5_K125",
+      "MODERATE__HOLD_R5_K175"
+    ],
+    "source_provenance": {
+      "production_X_hash_role": "reference_X",
+      "production_X_path_resolution": "canonical checkpoint parent plus X_abundance.npy, exactly as src/run_758_ista.py export_results",
+      "foreground_runtime_path": "/root/autodl-tmp/decon-lipid/adapter_pipeline/outputs/v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready/foreground_pixel_mask.npy",
+      "foreground_construction_source_from_lock": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v35_ce29effective_v36adapter_pccl_mechanistic_m0m4_dynamic_r50000_centroid_ista_ready\\foreground_pixel_mask.npy"
+    }
+  },
+  "superseded_draft_fingerprint": "d9df4ea9d9395573f47104572816b607e0728065f8171d5745dc5748337f1b9a",
+  "superseded_draft_status": "FROZEN_AND_TARGET_ORACLE_PASS_BEFORE_LEARNED_TRAINING",
+  "superseded_draft_disposition": "SUPERSEDED_BEFORE_LEARNED_TRAINING",
+  "superseded_draft_mismatch_runs": 120,
+  "superseded_draft_reason": "compute-efficiency redesign: six-point nested K ladder was redundant for the primary mismatch/FDR recalibration question; no learned-solver mismatch training had begun.",
+  "design_fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "frozen_audit_sha256": "e6f6dc1b32433eefc3884b48b5759e4e11a614337b256281d56957a3e160bc56",
+  "recovery_provenance": {
+    "created_utc": "2026-09-10T06:27:04.267944+00:00",
+    "source_directory": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact",
+    "source_status": "INVALID_PROCESS",
+    "source_failure_reason": "SENTINEL_FAILED: MILD__CAL_R1_K050: ",
+    "authorization": "User authorized new-directory recovery while preserving interruption evidence",
+    "scientific_fingerprint_unchanged": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+    "source_file_sha256": {
+      "design.json": "414bd4621585884957337524b703c3f91ba26f146f64313df7424795fced8357",
+      "sentinel_solver_validity.json": "841e73921753d66bcb380bbdbaf32c561aff016a68667282b8c55ca740700b0d",
+      "design_audit.json": "e6f6dc1b32433eefc3884b48b5759e4e11a614337b256281d56957a3e160bc56",
+      "spectral_perturbation_manifest.csv": "f7b616337b69f9479dfefb1c5201fa46eda1a382ed1f555f4a21bb94bc385dc3",
+      "target_library_hashes.json": "3bf809e00b9ec244d8e864b9734a58405d5826e6855ab2d1e8e5361f492474e5",
+      "oracle_summary.json": "fecc5004001b80ad29592c63a096f94c78844c21ae92ef0a46769450cee614d7",
+      "oracle/MILD__CAL_R1_K050.json": "3435f70aec1948bb332df2f9c700d8d9595d271e08b6efa397123e743fe4a788",
+      "oracle/MILD__CAL_R1_K125.json": "7382793ca832c61dcaf6981f96a41c01e136dbf6d2456dae289abf741d385f3e",
+      "oracle/MILD__CAL_R1_K175.json": "ff6ee226f086d257c2263586f78f669d1363469a8f0032c4a1c1b0f9f2de886c",
+      "oracle/MILD__CAL_R2_K050.json": "7bc358e138509e3121b9510a5fb2d9359b3e741f420c4a828376e724ce2606d9",
+      "oracle/MILD__CAL_R2_K125.json": "fa866209ed5f41ef8e00bf4b37b554d81e013aa7b78ef65968e7efc324d05de3",
+      "oracle/MILD__CAL_R2_K175.json": "026fb5f65193327420913aa1fd88f3b7a23b0023f539d6f2ea5538727016a018",
+      "oracle/MILD__CAL_R3_K050.json": "55c4fa7859961b030da49b77845c4e41c88950add624b3d98349e523a0f42d40",
+      "oracle/MILD__CAL_R3_K125.json": "f3e0cd5a5a4d0fdc2da9fecf23ca6e8614b26bbd91c34f775884db77130ca4da",
+      "oracle/MILD__CAL_R3_K175.json": "b97cbfbb36842d8a68cdcb92cfdbcbcc582dc8590a864d7568c75e8364cbd4ee",
+      "oracle/MILD__CAL_R4_K050.json": "72bd5e2425197d7d9bff10396417fff2efce9c184c9480b2ba61b878165b532f",
+      "oracle/MILD__CAL_R4_K125.json": "fcd0d9fec54383df4c0869690314329577d89afe79971499c07faf177862df4a",
+      "oracle/MILD__CAL_R4_K175.json": "e03342c02f4f362d7ee2a052bf8a32b5bfc1b8a2cd7b3375b1aad835c80d73f7",
+      "oracle/MILD__CAL_R5_K050.json": "4b37f55e7a68dfeeb01a721118ceb0f65e2f2f1f444e5f7bd4666551883f5281",
+      "oracle/MILD__CAL_R5_K125.json": "1c51cdb54a7ca22b836b1fa1a3453fd9e40d2d01e60e2720bf9d330ef3c10be7",
+      "oracle/MILD__CAL_R5_K175.json": "f5a76a9188090d4fb98e883ffd13389f6561bc971862eea487d6e70ed89d1446",
+      "oracle/MILD__HOLD_R1_K050.json": "e61f5fcedfaf8157385e6fc4fd85fa44e8ddf8af0bc9c33258f84f98dd8dbe19",
+      "oracle/MILD__HOLD_R1_K125.json": "905203522bba0924b4aef65da03cc171bace20feec60344ec1f57181f9df356f",
+      "oracle/MILD__HOLD_R1_K175.json": "1e8ccc8f0c442cee444531d1a2b3a6a27170971bc1b4e595aa0b28a0816e4c90",
+      "oracle/MILD__HOLD_R2_K050.json": "3b7c9818fc4df5dab270f7aba4565979eb6f77faff0d526e60270cd0371569d1",
+      "oracle/MILD__HOLD_R2_K125.json": "afd6c82c46c115f6ba2a01c4a8328f5521c2291153f60539cec609aa02acf188",
+      "oracle/MILD__HOLD_R2_K175.json": "ca041c9638b5b6fb56a729ad194624f1bf25d1bbd038e89d2957a76eace1bd74",
+      "oracle/MILD__HOLD_R3_K050.json": "0481fedd3b29f6cbbadba2f7c6c7980cb549c53d9c9230290772e8186ff95632",
+      "oracle/MILD__HOLD_R3_K125.json": "1bcc478441e7f39b90d31f1a77ab7f8183f29be60ded705818dc6a5481af2a79",
+      "oracle/MILD__HOLD_R3_K175.json": "321e236417080196f9d7c83b2acabfdc096d253627fef1f8316358c43820cd9c",
+      "oracle/MILD__HOLD_R4_K050.json": "33a0c372f509734698aea06fe5f5b1fe2d80a8bbcc37ca560b5cf53d21fd26e4",
+      "oracle/MILD__HOLD_R4_K125.json": "9f171f82d15c76820ca1733cd7d8c1d39f86b7b1e97a593abe07460da1240172",
+      "oracle/MILD__HOLD_R4_K175.json": "42809a1ee3f94f4015d043bafddcf2f5ce7eefd71196f81eba57df3e815d3bb4",
+      "oracle/MILD__HOLD_R5_K050.json": "d805e2f8611a4722551ff2c3778d3901e090af2e432627781b38a45b86d279d7",
+      "oracle/MILD__HOLD_R5_K125.json": "18446267d3614c8ed776baa202a1dd39d3166041a0f29b1db38f693cf361f9d3",
+      "oracle/MILD__HOLD_R5_K175.json": "49cd99b4bb8be9662bb8797b99bd50d28e1bf23a8997e898b5860ca47a316019",
+      "oracle/MODERATE__CAL_R1_K050.json": "92afc96f2e3c28fa17fb6ecb227600afd99324d618d4b399b59a481ccfa82d80",
+      "oracle/MODERATE__CAL_R1_K125.json": "7789f32ba437031994b4faee05970f8a329e799584725ac353158e3208380c63",
+      "oracle/MODERATE__CAL_R1_K175.json": "5649f984fbad0abb10f914a39c9dd6a23646e9d7b9c971e8b4b0fffcb3b0ff74",
+      "oracle/MODERATE__CAL_R2_K050.json": "80eba644c3bb74d77859ccc91f4d624effa018869b0140a27ccb632f8e63a70d",
+      "oracle/MODERATE__CAL_R2_K125.json": "3913ac7db41140bde011b89118f874402fd7f77961e21b5419e1c7154b98b138",
+      "oracle/MODERATE__CAL_R2_K175.json": "736b12fa0fe486a337898552d4b6104b66237cc7c8c1b7142cb49e0f3e230dcf",
+      "oracle/MODERATE__CAL_R3_K050.json": "2f5effb4b54b69bcb22f943c6f00d6d13af4b1f8117e9229634351eb8e8f2362",
+      "oracle/MODERATE__CAL_R3_K125.json": "cc089668510d1caa63f90d9830f03cf467aa18f76400191301e1daa71703d572",
+      "oracle/MODERATE__CAL_R3_K175.json": "e210d0f76d34876fd501c65fe868c11ce62b1c4a6d34d79a79473c1cdd6da0b0",
+      "oracle/MODERATE__CAL_R4_K050.json": "53148a83bb0094717d2da5595512fb4624a8be828084c3911fdc34d40181ea00",
+      "oracle/MODERATE__CAL_R4_K125.json": "853fe6f1cb852256880c34908ba383a215660c0baa38e83db477d4fa92fa9947",
+      "oracle/MODERATE__CAL_R4_K175.json": "3c05b5dcbddb512067bfa992b98cf3fca29bbf696c4f429b3584ecb239133e2f",
+      "oracle/MODERATE__CAL_R5_K050.json": "e05f48d108d5d01e0b8bf1630e583a456d22838da2c0c70490d6b49a329f14a2",
+      "oracle/MODERATE__CAL_R5_K125.json": "fa87c51139cad0cbcf671db9383e638dd6d0f2a77afab1cdbcaf7bda3372195e",
+      "oracle/MODERATE__CAL_R5_K175.json": "9cfa61f9068dae2190f5a44bf1aa7f8491fa98447e5dd4223eb2c3574057ac3c",
+      "oracle/MODERATE__HOLD_R1_K050.json": "c7fce37f3e6aa2bacb97f5a757585314ab6926879b97943849d156b6e248758e",
+      "oracle/MODERATE__HOLD_R1_K125.json": "f2c74c79105282cbc1e392e08a0289852473a69918df00523469703717b4a104",
+      "oracle/MODERATE__HOLD_R1_K175.json": "401e31e4bf4d8383d47c6f2c7ce06a882287f37e079ba73be113d70c3219d765",
+      "oracle/MODERATE__HOLD_R2_K050.json": "330438e2abc8ebd0cc7e4594430e88c285f957840aab452859f9987d1ab43c10",
+      "oracle/MODERATE__HOLD_R2_K125.json": "4320cf25f075fc04b6a6f0b0577d6567e935609ba9c07198f7e54d7b835c2f89",
+      "oracle/MODERATE__HOLD_R2_K175.json": "b4c59eec6ce7dc4dcee806947b562ffe133aac3e8cd23f8af90c98e6ecae4599",
+      "oracle/MODERATE__HOLD_R3_K050.json": "075d28a413e9acbbf85b9d892b251a85cdc41234bc744d26acf4172cf5ae2e7c",
+      "oracle/MODERATE__HOLD_R3_K125.json": "6382f1a8fed5fde65ee680a28b6ae30dce0839bd3a5498723a8270f6b279a5ea",
+      "oracle/MODERATE__HOLD_R3_K175.json": "a056983ebfe540d6aec3292bac75505e5d5bef4d76ba1b34af741f2982694c13",
+      "oracle/MODERATE__HOLD_R4_K050.json": "63bd83b1f6045f2b9914e6575385cd2988f483f2506bdb1ae267f03fdfdff86a",
+      "oracle/MODERATE__HOLD_R4_K125.json": "2b7be6bca6a6033347d23f9983ed04ffe3ff6206c3ba00c96d7839800c8fa38f",
+      "oracle/MODERATE__HOLD_R4_K175.json": "9d9ca8534f588ba01d2559fee501d2acde1176bbc250407f0b37f349e03f31c4",
+      "oracle/MODERATE__HOLD_R5_K050.json": "4dece44942186db35d434ee45897c98d9619f2c75ae3df461e81cfed905ee2ee",
+      "oracle/MODERATE__HOLD_R5_K125.json": "b37b61c0307ae4daffbc76820eaa39dc05baca7bd37dcb6b4fd4929302e914e7",
+      "oracle/MODERATE__HOLD_R5_K175.json": "703f6d4492eed6d0877806d2dffd9ddaf8cde8200954016478908e838d4274ea"
+    },
+    "partial_solver_artifacts_reused": false
+  }
+}

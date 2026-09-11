@@ -1,0 +1,52 @@
+{
+  "runtime_binding": {
+    "severity": "MILD",
+    "dataset_id": "MILD__CAL_R4_K050",
+    "design_fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+    "V57_parent_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+    "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+    "A_target_sha256": "b835ef8e531e12803c1a949b0e89fa35c32f0f82ea2dbfefa2fefbcc9dcfa24b",
+    "B_target_sha256": "f9cf773898af97f92e076b064e2761ca6f8d768201f41e17d4d85a9cca3489db",
+    "X_true_sha256": "c87d565eafade2e9924f45f86a93fd8a6ebd02320baf6071043d9bad66b28e7e"
+  },
+  "training": {
+    "stopped_epoch": 3000,
+    "stop_reason": "max_epochs",
+    "wall_time_seconds_this_invocation": 546.0331337451935,
+    "final_physical_loss": 0.0012920553563162684,
+    "final_raw_losses": [
+      8.511944179190323e-05,
+      0.0008234977722167969,
+      0.00036939745768904686,
+      1.4040676433069166e-05
+    ],
+    "channel_weighting": {
+      "mode": "auto",
+      "reference_A_path": "solver_A",
+      "reference_A_shape": [
+        1084,
+        391
+      ],
+      "reference_meta_path": "solver_metadata",
+      "parent_weight_multiplier_before_renormalization": 1.0,
+      "parent_mz_range": [
+        748.0,
+        803.0
+      ],
+      "parent_channel_count": 238,
+      "fragment_channel_count": 846,
+      "mean_parent_channel_weight": 0.529440701007843,
+      "mean_fragment_channel_weight": 1.1709932088851929,
+      "mean_all_channel_weight": 1.0301358699798584
+    },
+    "resumed_from_runtime_checkpoint": false,
+    "scheduler_T_max": 5000
+  },
+  "arrays_sha256": "90159f98c0445f10a72fe303fc6e5d467ae73f2ea110dae82e709639c3715084",
+  "training_artifact_hashes": {
+    "training_history.json": "6f2f1a13b4529b95d6b6759757ddd18e9f7a349846b64cd71d6b2e01a8ac2a10",
+    "checkpoint_diagnostics.csv": "af22f3f89cbf4cfda51460e70e3c43fdd582df187cdecf9ec63458bd85226f80"
+  },
+  "X_true_used_in_training_or_stopping": false,
+  "A_target_used_by_solver": false
+}

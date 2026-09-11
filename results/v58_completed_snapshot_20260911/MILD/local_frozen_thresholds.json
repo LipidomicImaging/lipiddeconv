@@ -1,0 +1,143 @@
+{
+  "status": "FROZEN_FROM_CAL_ONLY",
+  "severity": "MILD",
+  "design_fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "CAL_source_hashes": {
+    "MILD__CAL_R1_K050": {
+      "report.json": "1ec932a86c76ae664138eda2649c7f5364c37b36fdad12c6e4f7c2fd9bc7c028",
+      "reported_identity_records.csv": "106c439c087311e7e171a0347771e8fd6418a44b24e7e6e615bb66d59e27aad9",
+      "candidate_false_negative_records.csv": "c562fc078477af7a196a4359ee7670f38f86542b6c8720642edf32bf9e6cebb7",
+      "molecular_false_negative_records.csv": "86434c66459d7a2725ef03b617f523b18ee4acbb357e8a0a466051fae1788242"
+    },
+    "MILD__CAL_R1_K125": {
+      "report.json": "71c6c0a66462f8975c744d9201922abbb9638d7c0b69cd4a1231d0ed7adca4a2",
+      "reported_identity_records.csv": "57c42bdae412b1cede5c647db7450efbcac5e65ed6d023fa38a148dd69dc8e0a",
+      "candidate_false_negative_records.csv": "5fe4ee799cd9ca8c1ed0c34062c6114c267d375b24882e239f069e9897996a12",
+      "molecular_false_negative_records.csv": "2f84e9bcc5a94e02fda7ea654aaf309d6587b42fcd6aae92aac783e62fed0eea"
+    },
+    "MILD__CAL_R1_K175": {
+      "report.json": "7dc52720b7f702fd1c6fd464c30e07e757ff37c20a986c209ddf557db8c4152f",
+      "reported_identity_records.csv": "1a66452c1080a7959c8da3ebd15ea824e500a1c947eb034296ce1bdf594911d8",
+      "candidate_false_negative_records.csv": "45734db7ec85101a8d04d568c82766db67c40b9d46907e88db6619151f499d5f",
+      "molecular_false_negative_records.csv": "2c9a5cc67253c9ca21d701650b36e2d50285acf752691ba55712ec852cd29c5d"
+    },
+    "MILD__CAL_R2_K050": {
+      "report.json": "e5f7398bb48bd30b222aede09dac48d99f897f348117a4dc5b1b54b4d70a848a",
+      "reported_identity_records.csv": "865d7c0af28f29c0155cc274f8f67aec05ab107359f4eb95d699f6e15a2f0ddf",
+      "candidate_false_negative_records.csv": "f42a79ef397d432a20cc0ae266fb864e4bb0ebe2c550b599e84ddb7896dc02ab",
+      "molecular_false_negative_records.csv": "39756d4e5a3ea8db00f6ddfba8989b506f1255b83ba16a312414ad97cf057d30"
+    },
+    "MILD__CAL_R2_K125": {
+      "report.json": "df28d53aa7f5a06041f7a7221c0d4aad89eecc04d6d0f078b5f94f34087e08b3",
+      "reported_identity_records.csv": "46060904bb89908b4bdbb3c11e593454819017862efe70ee710f9689e0ec78b5",
+      "candidate_false_negative_records.csv": "ea6cae499bc4bcb8fd8daf86057cbb30107c4aea59ceb569db6982084ef944ab",
+      "molecular_false_negative_records.csv": "1d148bc912195a1cacece41064f911023096782dac20ac422ba508e11ac3f506"
+    },
+    "MILD__CAL_R2_K175": {
+      "report.json": "8c82305b2b95686b46dc168fa84b5eb63e3989e3b3b292605dee871b5b63fcf0",
+      "reported_identity_records.csv": "010170e06ee3222ce295227be2790fdd7dc2b92aab313cd57c8beccc564feb57",
+      "candidate_false_negative_records.csv": "5896839648a5d618e3fa64d45eeb57cf503dfac3e6237e54988d9a32221f0b87",
+      "molecular_false_negative_records.csv": "619ac612a711abda8a2381ac7266531530dee8ed0e90a63946d60a9d44cc5996"
+    },
+    "MILD__CAL_R3_K050": {
+      "report.json": "321e67c1121db533add8b9e34089493bd9e7f8b38d344c5c6731896de173ebf1",
+      "reported_identity_records.csv": "f937c73722716f860bf11da0d0a8b12b7c334331c16f3bfcbfef916a3de4c328",
+      "candidate_false_negative_records.csv": "4ceb747b8f8c4a6e0271810223e230d0ce2f5b8ded5697de6d7630e691267d01",
+      "molecular_false_negative_records.csv": "f56ee9eddcf70f50d6999e0b5508885bdde0039beb1862e264b883e49f1b9f21"
+    },
+    "MILD__CAL_R3_K125": {
+      "report.json": "5c6ea2e3e3b7d6e4dd1e37c9aaf2824a0e2bb9c2db62feaa8fcbdfd764b321b9",
+      "reported_identity_records.csv": "11539cffc5552cb5c285f448ede822e36911ee94d92fb87bd93dfdbb51dce4d6",
+      "candidate_false_negative_records.csv": "28c7a0933750e23932aec9f612b4f9b8c56158d7099b6019cc405365a2e3b983",
+      "molecular_false_negative_records.csv": "4177a215594772646db0f581076b78dcb5c9f63886886e37f2de61655e363b54"
+    },
+    "MILD__CAL_R3_K175": {
+      "report.json": "4be4edf39993777c4321a759cc1c5efc961247e2817395ae2c6a05a4970ba25d",
+      "reported_identity_records.csv": "00d652af13724dfd6fb4fef3b29fe2bf1ec8f2373cf505dcdf42747d9620cab9",
+      "candidate_false_negative_records.csv": "371b4c827d4f9f40b6204745b7e91f658137679a6f07d3ee85d9a68f18140fb0",
+      "molecular_false_negative_records.csv": "12251f72904604d377913e68b6667a7e8d0884e13c945502cfeecd93ae0563e3"
+    },
+    "MILD__CAL_R4_K050": {
+      "report.json": "5ae8fe6946a21189cb99f31aad6a73f62cd04eb8cc92dc97dc64ad65b155271b",
+      "reported_identity_records.csv": "2cf35f8106b7637b3f9491ec5e3a39f30bc9eb2b834710db30b760de4ff51d6f",
+      "candidate_false_negative_records.csv": "24812f1cb70487e22f20246208128791f7a157b3108d8a5c051141ece193135f",
+      "molecular_false_negative_records.csv": "c3f7fc1e70f72cc7107759f8e51b8ee62c446665716c203e5fe897b1743af92d"
+    },
+    "MILD__CAL_R4_K125": {
+      "report.json": "08863d908a38b1f5cbb0b09d86e8a8f3e6ff4a2295865b770681405103b79d22",
+      "reported_identity_records.csv": "92aa2fe2872a4ae8b8e4da813b471c4833d1ea706db1535246840e8b553a8759",
+      "candidate_false_negative_records.csv": "01c4527080751395719e3a666cbabb3a7666c530fe457d1c83eab3a34d5a6f7c",
+      "molecular_false_negative_records.csv": "ed78b577ae2ac471367774b1a4dcbfa2099ad235af598e51fc1a81853af4c752"
+    },
+    "MILD__CAL_R4_K175": {
+      "report.json": "b86d41556efe81d560d1ac17ca3da82dfc4840e3316d6ccc8d5313d03465ac60",
+      "reported_identity_records.csv": "997b7097b6a9629c827e109738aff6f253c6923bf6f188f9ea41958eb0c4c102",
+      "candidate_false_negative_records.csv": "8b0f91c5ad89a1c8343e70e63768fe90421385bdb0ee8622b7659d6d528d6ad1",
+      "molecular_false_negative_records.csv": "af9d89853ceba0b3ef57d12de3965f6dda9fd28624713b655cebe3b6b713d58e"
+    },
+    "MILD__CAL_R5_K050": {
+      "report.json": "b37bfeb90d8a03a04762031adad419628468d9db4e40c58228cdd2b98706c8d3",
+      "reported_identity_records.csv": "ac364c1b92370686eec2b3ad84914beb4501ac73677d6cc0cc96d2dd5af4a2c2",
+      "candidate_false_negative_records.csv": "9c291f073c359cbb22d6dc5cfb59895cf540aa243514bd32b9a135982cc1edf3",
+      "molecular_false_negative_records.csv": "30a31225cf30dee8b3714a7788629604d4ee758e7def1947386bd8a40bcd4279"
+    },
+    "MILD__CAL_R5_K125": {
+      "report.json": "8a8af5eb9b3c77d0a81b5d9b240c5c834ad4d68b18a273e6da89cd75a1e3457d",
+      "reported_identity_records.csv": "100134e282269839bcc752e45a20aaf9c135b8fcad8c705a85eda084e5eef5d0",
+      "candidate_false_negative_records.csv": "dac745a20d473d7403e268eff52183217302115168dbbc4279250b2d06137831",
+      "molecular_false_negative_records.csv": "5cb8feab84e4983aaeba2da178955856c6a0cafa2a67c899a2d07e89cfc4e57e"
+    },
+    "MILD__CAL_R5_K175": {
+      "report.json": "ea0a9f6217f5a4ff8ac6ccc6da2ca72d1fc9a43c90a1e2a502895c51a7176332",
+      "reported_identity_records.csv": "b5703dc8a19286376412f04581932e419e7aaae4723db2059e67155f161bb842",
+      "candidate_false_negative_records.csv": "3e06435bbb80a143a7c2f9d49554a6ffac0c4ba747482a2041157406b6a5f22d",
+      "molecular_false_negative_records.csv": "7808693fa85b7a0187fe532e10df0f121c090ccf6c45bd1d6ca9e95981ed4645"
+    }
+  },
+  "target_FDR": {
+    "FDR1": 0.01,
+    "FDR5": 0.05
+  },
+  "global_thresholds": {
+    "rho_zero": {
+      "FDR5": {
+        "threshold": 1.7543740552697457e-05,
+        "N_retained": 436,
+        "TP": 415,
+        "FP": 21,
+        "FDR": 0.0481651376146789,
+        "precision": 0.9518348623853211
+      },
+      "FDR1": {
+        "threshold": 3.855433800025021e-05,
+        "N_retained": 277,
+        "TP": 275,
+        "FP": 2,
+        "FDR": 0.007220216606498195,
+        "precision": 0.9927797833935018
+      }
+    },
+    "X_hat": {
+      "FDR5": {
+        "threshold": 0.017037398650412646,
+        "N_retained": 551,
+        "TP": 524,
+        "FP": 27,
+        "FDR": 0.04900181488203267,
+        "precision": 0.9509981851179673
+      },
+      "FDR1": {
+        "threshold": 0.041894897668548994,
+        "N_retained": 68,
+        "TP": 68,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      }
+    }
+  },
+  "selection": "maximum retained molecular units with empirical CAL FDR<=alpha; lower threshold breaks ties; pooled K/R",
+  "no_eligible_threshold": "None; explicitly reject all, report FDR undefined, scientific calibration failure only",
+  "HOLD_read_before_freeze": false,
+  "per_K_or_replicate_calibration": false
+}

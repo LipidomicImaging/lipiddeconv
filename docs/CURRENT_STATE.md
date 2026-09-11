@@ -1,3 +1,7 @@
+# V58 storage review — 2026-09-11
+
+50/60 completed-case snapshot audited under results/v58_completed_snapshot_20260911. Both severity CAL freezes use the original runner and full15 CAL cases before HOLD review. MILD HOLD15/15: CLEAN_FIXED rho FDR37.16%, recall80.69%; local FDR5 rho FDR3.90%, recall21.14%, filter loss1310. MODERATE HOLD5/15 is interim. No outcome-driven changes. Planned retirement of230 intermediate/redundant checkpoints frees8.588GiB across root/data, retains final models/arrays/all records and all sentinel cases; deletion occurs only after snapshot Git push, then hash-verified receipt.
+
 # Active state update — 2026-09-11
 
 NNLS six-case baseline and independent result review COMPLETE. See results/nnls_solver_baseline_k125_cpu4/analysis_record.md and local_review.json: raw NNLS HOLD TP375/FP0/FN0; rho FDR5/FDR1 TP372/FP0/FN3 (one identity repeated across three mappings). Same-subset ISTA raw TP361/FP354/FN14; rho FDR5 FP3, FDR1 FP0, no extra true loss. All30 source downloads, CAL seals and independent HOLD accounting pass. No universal filter-benefit claim.

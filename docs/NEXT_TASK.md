@@ -1,3 +1,7 @@
+# V58 storage handoff — 2026-09-11
+
+Completed:50-case snapshot download, source-hash validation and independent interim HOLD accounting. Next push snapshot, execute exactly cleanup_plan.json for ordinary completed-case intermediate checkpoints, verify retained source hashes, and commit deletion receipt. Continue existing V58 supervisor; do not delete final models, learned arrays, parent controls, sentinel evidence or active cases. Final60-case review remains pending.
+
 # Active next task — 2026-09-11 handoff
 
 COMPLETED: six-case NNLS result retrieval, independent provenance/CAL/HOLD audit and scientific analysis. V57 stratified review also complete.

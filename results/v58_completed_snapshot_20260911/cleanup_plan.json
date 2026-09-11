@@ -1,0 +1,2506 @@
+{
+  "created_utc": "2026-09-11T04:27:53.711315+00:00",
+  "fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "completed": [
+    "MILD__CAL_R1_K050",
+    "MILD__CAL_R1_K125",
+    "MILD__CAL_R1_K175",
+    "MILD__CAL_R2_K050",
+    "MILD__CAL_R2_K125",
+    "MILD__CAL_R2_K175",
+    "MILD__CAL_R3_K050",
+    "MILD__CAL_R3_K125",
+    "MILD__CAL_R3_K175",
+    "MILD__CAL_R4_K050",
+    "MILD__CAL_R4_K125",
+    "MILD__CAL_R4_K175",
+    "MILD__CAL_R5_K050",
+    "MILD__CAL_R5_K125",
+    "MILD__CAL_R5_K175",
+    "MILD__HOLD_R1_K050",
+    "MILD__HOLD_R1_K125",
+    "MILD__HOLD_R1_K175",
+    "MILD__HOLD_R2_K050",
+    "MILD__HOLD_R2_K125",
+    "MILD__HOLD_R2_K175",
+    "MILD__HOLD_R3_K050",
+    "MILD__HOLD_R3_K125",
+    "MILD__HOLD_R3_K175",
+    "MILD__HOLD_R4_K050",
+    "MILD__HOLD_R4_K125",
+    "MILD__HOLD_R4_K175",
+    "MILD__HOLD_R5_K050",
+    "MILD__HOLD_R5_K125",
+    "MILD__HOLD_R5_K175",
+    "MODERATE__CAL_R1_K050",
+    "MODERATE__CAL_R1_K125",
+    "MODERATE__CAL_R1_K175",
+    "MODERATE__CAL_R2_K050",
+    "MODERATE__CAL_R2_K125",
+    "MODERATE__CAL_R2_K175",
+    "MODERATE__CAL_R3_K050",
+    "MODERATE__CAL_R3_K125",
+    "MODERATE__CAL_R3_K175",
+    "MODERATE__CAL_R4_K050",
+    "MODERATE__CAL_R4_K125",
+    "MODERATE__CAL_R4_K175",
+    "MODERATE__CAL_R5_K050",
+    "MODERATE__CAL_R5_K125",
+    "MODERATE__CAL_R5_K175",
+    "MODERATE__HOLD_R1_K050",
+    "MODERATE__HOLD_R1_K125",
+    "MODERATE__HOLD_R1_K175",
+    "MODERATE__HOLD_R2_K050",
+    "MODERATE__HOLD_R2_K125"
+  ],
+  "logical_completed_bytes_by_suffix": {
+    ".json": 4294702,
+    ".csv": 18907185,
+    ".pth": 12029479214,
+    ".npz": 3578096387
+  },
+  "deletions": [
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R1_K125/latest_model.pth",
+      "bytes": 40116132,
+      "sha256": "1da276b4fa896423b77a7517cb954f1b7ef70d76f789956b7682fbbf34ae91e2",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R1_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "e40b88f434336507c8fbef543a7d4ec988155d9bb4ea66c0759f40304edc1b8e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R1_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "baf6b44771e67bb3ecd1eaa402c0c68ee2810b88664064ba68b33f3dcde220cd",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R1_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096239,
+      "sha256": "9ad10aee61fc586d8dbbac073f0ac6119922d2bc46022c7c66d5b50ecb769220",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R1_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108399,
+      "sha256": "1e72583ce905777a6e05f73d71e2872e9db8cd440377a9d9bca49488d0caf245",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K050/latest_model.pth",
+      "bytes": 40108964,
+      "sha256": "12609bb290da540e37a50244a88a513949665641282fa7fa54978c95e6243321",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40069999,
+      "sha256": "c3b3a95d1ada754b09bcdc22b4472bd04c96cb656ef6458a76591993642bc3f2",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081391,
+      "sha256": "cc07c51760b006eb32ed0316fd698981e99ae8ad09a53abfb425b320168764bc",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092271,
+      "sha256": "03989cad27b6deafe1c92b84ef0edb8fd9c47efd736607821ec5ab09e8616424",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40102895,
+      "sha256": "9129f6fbf9541176dc6ae0b5122b3264750a5e010d22412513489cd68238373c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K125/latest_model.pth",
+      "bytes": 40115940,
+      "sha256": "f6fe6baf369b96f969e0ab86e53e67c07bd01174079b70a20bd5b31f21b8775f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071343,
+      "sha256": "ade31efde027b115a53950bac1a1ed60bfc2f3e80a7e03d07d317947996ee954",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083887,
+      "sha256": "e87d6964ba5f4ca72ef95194ae73b64d2407caf408316b62a7b5323ee09a0369",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "74964bfd44f121b2f06c18e419f33213961a5e6e2f56c95fc26c92230cd8c228",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108335,
+      "sha256": "527d8492cc828ce759b588f20bbf988d2cf0ac1b097079cc156e1f1bdada589e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K175/latest_model.pth",
+      "bytes": 40117668,
+      "sha256": "ccd7216c349e4086568ec7113130713862f175b7aacc0d2b185e2d36463d10e4",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071535,
+      "sha256": "514ef44ec83925ee04366719c817048e5e718ccd80de15ec5b45f1b752229112",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084271,
+      "sha256": "25b38ede5bda663051e85de44019f51709a8cb7119a69d7a59740f1cea238262",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40097007,
+      "sha256": "147e977a0959a9798eae5d715e6a5e3159d31f99a168445f779bd1115180f291",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R2_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109551,
+      "sha256": "99601a5cbe507cc8c719cee95cca8cfd86e0c6e5d5ab9df34421fa2c5f958bc9",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K050/latest_model.pth",
+      "bytes": 40111140,
+      "sha256": "3d08bdcd9bfa57f51343385237dc821203b0016b8549dc700cccd1b0ea0ee691",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070447,
+      "sha256": "a573ec0c4e37ea170daa0ec0892041e82eefc1b0f75566a330e8fb2b05c67ac1",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081839,
+      "sha256": "0fb76227cbe1fe9409eea1e2a6a69f0dfef7d9adf5be15678bbb4b5907e62e7a",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093231,
+      "sha256": "6849ca9d46d32bbde895d304642e9596b2e997d7f4e85d66d06db90815f3663f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40104623,
+      "sha256": "acaac9cd7e00ccdbd549236fe24938d9feb75df0bd867a29ffc3795e02885114",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K125/latest_model.pth",
+      "bytes": 40116132,
+      "sha256": "c3592425ed56bec77ae17410af62bf87f13a0a770c3b243dbb9cc4e4d0d67f7b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071343,
+      "sha256": "2bd71f8382fad2fda29c0f34b0a87a404e0f8f4014c9669f386ee7cc0ff5aaca",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "a064d2ee7edfa89576136730fc8b40b813b77453dc5447940f2e12e69683f81b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "5660b3ad1f302a871475ad8d07f90dc84893be42cbc48786f063102870f3359f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108399,
+      "sha256": "79ab0f03d58889388d21f1ce752aab43bcb3b80b6a914ef618db9208c2e5ab31",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K175/latest_model.pth",
+      "bytes": 40117668,
+      "sha256": "dfcccc0afc73358dad31f9e685792110e5d582c659f43f855f8e295a4a6ce803",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071407,
+      "sha256": "be8237cca10fd3278f28e101e0ada66aaee90c2646977bc231ad22643604bbdc",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084207,
+      "sha256": "6eea4f3adb305e697e13a2b32ad5c25d60bbf747acfa2cdb826d40ae96ba66e4",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096879,
+      "sha256": "06cdb85e5ab02a785fe01fe80dec4428f6ce383efc1e34660d6afaa1e5f561dc",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R3_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109615,
+      "sha256": "cee584d35781143e53a8766eabea61c917ee4292ef4373318127691285275d4c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K050/latest_model.pth",
+      "bytes": 40111204,
+      "sha256": "c77eb5c80c0f0dfea00dccfdfb5d258018f7dfc8909591cffc40f2c2db248270",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070511,
+      "sha256": "b3d39ce6034d7a722087211b0e837861dca83208975e32e61201d11733753ce9",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40082095,
+      "sha256": "4e6f18e5a7a1fac180df19f8a574ace09cd1ddf6746ad3702067326a9721dd15",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093487,
+      "sha256": "0519a4f2b8a0c7632a1bf32b27018eb7fdf03423fc78fd3db102515eeea52900",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40104751,
+      "sha256": "52c0d8e459e7c01c822a33771c580967efc2e37c14a9ae235178a67fddfbd552",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K125/latest_model.pth",
+      "bytes": 40116772,
+      "sha256": "04d654c09dc984c3cefa8058c7269e2c8d88ed7ac9b97847359a92e25f844bfe",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "4b364351c33880598324f95bfc5593755ea7c32211e810b616d9513d235a3b1f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083823,
+      "sha256": "7d17c5f41a955c0028c89f79e2a26c9be08a67ab64b0dc65624dffec965757ea",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096303,
+      "sha256": "59bb1e6a547e1f3179121b5671fc3022c9a2a1eaad81bc21cc5045d34e81a3eb",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108783,
+      "sha256": "1fe7bdb2f4a52783191687ec9582bceced20fa92f16b120a0c6022e96dfe8d88",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K175/latest_model.pth",
+      "bytes": 40118052,
+      "sha256": "10f49d3bf6ba2915ca59db29f0cf27da1024257a78566723f6fe959744dc4d8f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071535,
+      "sha256": "36efa6748ce3ea6bb5f3b3acd0c1073aae85c5c91e4903a6a1a7b0bc9e8c837b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084335,
+      "sha256": "623eb67153a50786597247887500aeddabe5076e86b576004436a2e093cd8789",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40097071,
+      "sha256": "4f62460d38172ec5bc31d96fd139801b225812568a0c9ab3295d442bea8c6434",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R4_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109807,
+      "sha256": "df7dac877d284e5f75ac732f11962822c08994a315c7650f5737d11a6df460d8",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K050/latest_model.pth",
+      "bytes": 40109988,
+      "sha256": "2720ee87f6fc3accb88cee248777b225837bcd002f2f5aaacee93c7c437fac39",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070191,
+      "sha256": "a13c5d394fb7172f787deefba4804572b340033ca959baa381ceb25bdebaf9fe",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081711,
+      "sha256": "530332f58abbb4860591402aba4113ab575689243665c15ecfa32f2e0652cf4a",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092975,
+      "sha256": "0444f36103239fc6b8e6557754bdb7aae76793ad30aa2154b34dd3d2c6e02df2",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103791,
+      "sha256": "74dd2c88aafb2062bb13b602fe51c0f4a7f9b9e37fb008bcbab9dc2fb1dab471",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K125/latest_model.pth",
+      "bytes": 40116644,
+      "sha256": "8f425d12233917a4f05217e5e021bdcc3095f1067fc430d4d56af3006ca9f01f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "184d33ed096a1d4b86779645e40e96f2c0be6a91b18d57613a239087211260e1",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083887,
+      "sha256": "5e6e597fda18c236694ca2f04872b27d0cb789e62d8561bb7e88c6fb802647b3",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096431,
+      "sha256": "fe81538e0481efa939e9f7970f9def7e46d9b4c5524c43c1cc628febf56bfe95",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108783,
+      "sha256": "d02726085f01aec38d1ad01b4cf2239c7767cc81eb5923d8d8d5928521e05f5d",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K175/latest_model.pth",
+      "bytes": 40117732,
+      "sha256": "bfa3938d48df01d7154bc41fe0a291085d359447f548f6cc04f488bf45aa7fc2",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071343,
+      "sha256": "a371cd0e68ad44c8b3e60131047f8775bc49aacdd792cad21601dddc37ee5cc3",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084207,
+      "sha256": "c964071b769b0a5fb841b4b84eae707577c38cd25b0307a143d1ba72ae31c7be",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096943,
+      "sha256": "26848355703882c4c47a35fd401eb87ecaa47198bd1562d4ff4b2c2a95a5f452",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/CAL_R5_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109551,
+      "sha256": "e8de920ffd6cf1b60be9d999efe552fbeb6f509f062624388d28d5e631cea000",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K050/latest_model.pth",
+      "bytes": 40108964,
+      "sha256": "edeb3123765d01267e975235a1077e202286b6f5aca462f2b9c2b8568f89e01a",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070063,
+      "sha256": "9e6f6c89b06ae3b064ae8a2650c83bb7fd2d1778525680b09e0391b72060b650",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081199,
+      "sha256": "a6eafdf3794435a46ada392d9d1c9f839b2d9a626952d9cb331a6217d33f5d9a",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092143,
+      "sha256": "93392bcff1a0e35c55c555003b1f660c9c1ee87c0bae84cca442a4dee6c02dfe",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40102831,
+      "sha256": "3ffa6b95ac3e3858777b81a95e6d3b2e3e78d7bae35ac2cc1eab9217be06913d",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K125/latest_model.pth",
+      "bytes": 40115812,
+      "sha256": "70c773334d8fcefe6b72ac6105ea37a5b967ed854a8295af053aaf4badc97d1c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "10508e6ea118ef16c791dac2ce953820d4073efe35da211f1deb4ff6f26b5a6e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083823,
+      "sha256": "51c379373d2b7dd6b16eee51046437ee34702d4dab5f8195af5bc1e5a5d85f4c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096111,
+      "sha256": "a67c51c7a8adca3886917db4fca3f0a1cd8a5a0843e4d07d7b7ad2b2529e694e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108271,
+      "sha256": "5509249629302b58a346551f0d36f701ece2fc626baaa7c5e4002fb525c43536",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K175/latest_model.pth",
+      "bytes": 40116324,
+      "sha256": "3c9e6bc704557b522ef40b4c393c856c7fc0f4a2a120406646403c8aff61eaa4",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "139a0d74339d479ab69884a538680b6cbb7fe93109a2d446de8d74e32c5bc089",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "5f6a9109fa93ce26b3cf8462bdbb6d1fe1b1dc3186d6b4185ad493099fb37cd7",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "3f5eee67ada2839302639ff91426c0e1f5d512833cf5481dc0fcbb31bc0f49ab",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R1_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108463,
+      "sha256": "4508bb65d97dfa8009ac68f5286abad098a2a952d51a05eee11fd12ffdd7cfab",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K050/latest_model.pth",
+      "bytes": 40109732,
+      "sha256": "b27dbdb8812cdc00a57b65e60a157ee2c2f24a28af14f7d5d90a9a39f69f5ad2",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070383,
+      "sha256": "84b0a16397905a7b599d5056d0067ba40bdcbecf63a6dc65333fbc9f710bc501",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081519,
+      "sha256": "023c78ce9daae91af7f90018208de20c438a67cc928d6c6efbe2ba231e56316c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092591,
+      "sha256": "4e702a882bdcc3b0816d93b2ac9bbf94f167b9037dc54a2587001b59c630e3ac",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103535,
+      "sha256": "0e87982ed850a1a92e176098332f3626073e21419bef6ea0526ae3ebb71061b8",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K125/latest_model.pth",
+      "bytes": 40115748,
+      "sha256": "7e7f102ffb123f21d526d1186eb47d3b83937b02aad91906f2c5a9daa15550fd",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071343,
+      "sha256": "839b76b7c8f020a5a02cdb77c602d066fe03f51e22448eca61b00abbd26671f6",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083887,
+      "sha256": "d0439b3b0f3950311147ce704d574d261652454ca283cc477cf2782c35e19592",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096111,
+      "sha256": "4f509bb1a49e1b70fe73c155045271ef8c5424e56dc0bd764280e8228e077fff",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108207,
+      "sha256": "14223dca1ecc71a56d25464c56a38fb6ac9ab87c708a88c2d7682ccc646bb285",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K175/latest_model.pth",
+      "bytes": 40116644,
+      "sha256": "0a77a74b6dca33327f5db120bd3dd642df78dd41f558867adf97d0a6e81ae4f1",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071151,
+      "sha256": "0cd670a56203f787783141530f19ce03901bdacf70319e28f74a2d4443b21e20",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "c0a0ac1249db533c1b6cd67b09aeb2cca5eebb4a4e2774a3e4e1e1ad511c748d",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096367,
+      "sha256": "3e0665237bcf82c9c222722d05c03ca69c1cbbb8ad443b8e8ba049ae1e63a064",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R2_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108783,
+      "sha256": "9483283e1b8f5bd6cea88bb994436ca8b962b56e6ea926a4f3a7cc1c2c11f68e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K050/latest_model.pth",
+      "bytes": 40109412,
+      "sha256": "1ee5e4c4c8ab63a1724be736152ff9ad50afd5623036d01f7d76eafc0b27cb94",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070127,
+      "sha256": "5dbc3d787027b6a6436b937b4d33ab409e5414c8cab9a486374005f521d9e150",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081519,
+      "sha256": "c740c60a929391c592bcdb330ccc7dd32a675b78bfb8d74392cad1a56777e7ad",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092527,
+      "sha256": "119991382c509b90b63dc04ebb3d146cd5822f81098917096c19e39843e8b84f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103279,
+      "sha256": "0d8868669d506364c9dcf1ae630843d66b85b73b1ad3ce293fdf5364fc3c1bce",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K125/latest_model.pth",
+      "bytes": 40115620,
+      "sha256": "159499cb942109589c34a98605303fbb783454063db2af8e72870787788e68e1",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "18291b2e9367d0d520cc085188b27c4d7c5a9b67e2738be95ff2920e3fd89bf4",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083567,
+      "sha256": "56f8f4866be3b6a261bae7ae4f8fad2d04f99f55e244fab0847492c47466e097",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095855,
+      "sha256": "7d691297fe2f5e18e8b5d5a8cbca463ede94a225dd25b6cb088d79b816ef97da",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108015,
+      "sha256": "b65709fea488260b8a109ee8a8d8545049bbceba3bb209b3e947e9c1608abefb",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K175/latest_model.pth",
+      "bytes": 40116516,
+      "sha256": "3a2344a9911f38f133a24e1e1cc498072907be46a5c188cdbcd05499c5ea129b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "0afa11d5950e96148ffe737a9c779887142ea5dc223af62dc71430876029022c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "e3225d0acf37014095ea9165f876f1efcc04ae251a8dd2495db7999f3c343826",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "13006818ba9e9bb93878212bef067c7c7e90eb183be7e9baa181f0775fd7b547",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R3_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108655,
+      "sha256": "7694ee2f40c7e0db047356df6e206dbb07dd3402d013a52ebc4fd175c291186c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K050/latest_model.pth",
+      "bytes": 40110436,
+      "sha256": "cb3835870e760a36e426a7a8ee60ded5c5d21a8aaefce1a271f5bf8486163401",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070319,
+      "sha256": "a99aee10020a58a3d69ac6e7f53c12f96ee04b89d2f3dcb5e98281df7093dec7",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081775,
+      "sha256": "8c272d2fdafb5a9a2e87aadd79240b0074ce8ab1089c4443908cb1331732d08e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093039,
+      "sha256": "e9b32055d20121d11bebfc8683b25405f538825ddb5cdc792dcad7a75cde24dd",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40104111,
+      "sha256": "689201f282e02e6cfb516851a07c784a4868fffa3e8f1586c5ddefc5f781436c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K125/latest_model.pth",
+      "bytes": 40116004,
+      "sha256": "bc41c05c00ba55f22bd8579a9f7e7e82bb0a49db6be442ba6dfb619fe42bc13e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071087,
+      "sha256": "f8ad2859fdb253d4a2bcffb6a033091d9fa2cd9042626b2b3b9b19bc33dbd007",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083567,
+      "sha256": "b608c465acb291f98e284242838a9d0ec224119da4e6acb8e018acdc9a8ab23e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095919,
+      "sha256": "6b03cf414b39ce4e002d245e0e1cbeb6fa2e1ab9c41aee6420c7308a28c71d15",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108271,
+      "sha256": "69f96d75b4b77b4ec88ddbce5c091db61a8cb35e509c8d54af38033427ef726b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K175/latest_model.pth",
+      "bytes": 40116004,
+      "sha256": "891f86199d9b1e250220dcc286bce7277feb0ba6605abd0cad454eb0018f2477",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071087,
+      "sha256": "f36b0d8f3bd6d1188ccb9ee5f03b9de841541c3883b1d0fcc3d8677a48c4c001",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083567,
+      "sha256": "8b528d301bc864d5074d04eb779994a149d8458db4161cd988c26b362dbb0e18",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40095855,
+      "sha256": "28fa763b1a15cd8d2da423d63f132a8c6cf2eacb57304897cef1871d739f677c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R4_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108207,
+      "sha256": "179698b17acb3e22bdddf128887b36146cacb96960b56237641db1c0ecf4c5d5",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K050/latest_model.pth",
+      "bytes": 40109476,
+      "sha256": "3addaac6d7961bd6cc2e49c8ccfaae296955feceb3f57c9e009fbada272b1409",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070319,
+      "sha256": "cf472166e873db4b56fb5105f0325eb69b89685d4c62c2450803f9c18659ec2d",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081647,
+      "sha256": "9f1f91259a013c4b61939e30e6102e254cf1032d24be2a7894ef4b4ec0a54255",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092591,
+      "sha256": "970ae414c4a40c630032238251820853487d03bc57fc65fa2145db8edc8fd39a",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103343,
+      "sha256": "8ca7898bc4cffb9be715ff824ec62651cfb035fdb9613283873b90de98708c64",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K125/latest_model.pth",
+      "bytes": 40115492,
+      "sha256": "816219962b61b9bd433ac7627bc49389b0ebc972ef37d03631736e0fbf6e28be",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071151,
+      "sha256": "061f9f9d70d15a09f95959cd7ef23d481411b94f9b82cfb08448060d5a793994",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083439,
+      "sha256": "e2ddb399934162e8b9ab75b7ffd746e6224836b195852719381dcc0c4dd3411e",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095599,
+      "sha256": "851ddaf21917e9ae46c814eae663121e1fa4294bd662ecfbe543cc427774a848",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40107823,
+      "sha256": "3f7275035d87250e01d744c2ae2c76e3f389bd37095acbff3cab4488c36e7df3",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K175/latest_model.pth",
+      "bytes": 40115940,
+      "sha256": "262a658648511d4c8b74b9c2a7d5c03e74681916ba7a591aa468e5357be7e793",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "04fce44bdde60604e65efa87d911574246765a32c6c804458054284bc6e89a9b",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083631,
+      "sha256": "9cb6cc2fe8da4e52f3bd5474f30ba1d529b195fbcd5e38affcdac66ba9f0577f",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40095983,
+      "sha256": "8c09fbd61b912d53fb4da1568e4dc9cdab722d523e2ca8fc6074da39c53eb09c",
+      "symlink": true
+    },
+    {
+      "dataset": "MILD__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MILD/HOLD_R5_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108335,
+      "sha256": "a3164cd85e58ccdbcd5eef14b25fcc9235f26b3f00cb98813eb16b138b875556",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R1_K125/latest_model.pth",
+      "bytes": 40115236,
+      "sha256": "670f3d63d6b4770b753b6007022292d740980023c04eb2c0bbfaa78aa63b1ed7",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R1_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071023,
+      "sha256": "b5448bfb36f99e8ff2d077eb37372bb0456ed610d4e18b8f63a8c6f55a62b656",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R1_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083311,
+      "sha256": "341e2b9060cd97e28b8d5ee17897ff359c55d3e3a774c992d0ee8f610c868e67",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R1_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095599,
+      "sha256": "23d5f976048cdc4ad97c5fbfdac46122adf0306f7a49d1375a038985e8d3f22f",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R1_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40107695,
+      "sha256": "83d0b53a433390cdcd799339121d1b12e9bb0782b745580e072ce122700a82bf",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K050/latest_model.pth",
+      "bytes": 40109604,
+      "sha256": "9b55336a6af759f37572e0d39cf435be6b1138520b9c6792746f1faf998e84fb",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070127,
+      "sha256": "c4516f86031a9e55ded52bc641998900ed69f7f0e3dba542d038c8a3cbb0d9ac",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081583,
+      "sha256": "ddfee8034cb7fa1054f0eb341b2efc834b1c6048c2a7920e7184a09546d2c22c",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092591,
+      "sha256": "a8b100573d10187bfb764817bc50ea2823e25d61fa0edb451487555bf4d08822",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103471,
+      "sha256": "9bfe5bef545e12df54dd5c9a75d230682092df95d03d01af7c41857e7d14a02a",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K125/latest_model.pth",
+      "bytes": 40115620,
+      "sha256": "bce1879bba3ef4d0e817e837aedb16188198df5c7dc6c9cf8a4fd9eeb2e7d176",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "337060001b1f15d3e0e9805a1544220dc851e16fd7fd5eaf9decaf8a1bf3d203",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "3754645787a88c01a2e4a96e74283a097a661772d67e2ca3a7c423ecb0591163",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095919,
+      "sha256": "dd8e8d7e19db385b031bec337c9f4ba1af0108b5aa8bccc5a4cc0223f7436c5c",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108079,
+      "sha256": "1a4e054a2cf1a6bc925ab74fe7198306af97bed704c10b279c6a9e34b0a4af54",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/latest_model.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K175/latest_model.pth",
+      "bytes": 40117412,
+      "sha256": "b5c0482c1d1a55ddbd9f4c5f9758c63a3f7970013fa2a63e10e698b4187fe7d1",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071471,
+      "sha256": "4b24ea27f89ad0066e08a53e8576735a098a641bf1817ad16687f69f74066b62",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084207,
+      "sha256": "264a4fe0210d13b975fb721eda03e7ae635072f02a6124d5da220352fa24b157",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096815,
+      "sha256": "38dfeddf66a20b0adfe4105d842795402b411c00405119774397e45fc0160477",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/v58_compact_runtime_cache/MODERATE/CAL_R2_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109359,
+      "sha256": "372b3ab4c917c06640d719552bd882fb7b43c0957399c450b37eb0d41232fbda",
+      "symlink": true
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/latest_model.pth",
+      "bytes": 40110820,
+      "sha256": "43e15a9c310f37734a8fd62616329f39ae1517333cdc1483dcf2e14aab7e3330",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070319,
+      "sha256": "f7f46bb38dcaba3e579835a6e6778d4a690d9389bfa60344c6ad5ff59597a785",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081967,
+      "sha256": "26e54ac3fda0d3ad819ac310bd87fcee95934f0d8511b00616eb4a259166cacc",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093231,
+      "sha256": "af7d0deaa4afb6370d648cc5d607d12dcd6da7182953d237c66f079963eb78bf",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40104431,
+      "sha256": "e69f68fc1e80e246e5704580af07afa53444fbdeb40de5ef30c2905414671b9c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/latest_model.pth",
+      "bytes": 40116068,
+      "sha256": "f9a269e208f76b2e52c82090c6390eed599f630b8b920baf278a010a718867ec",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "6e443dfae89eab3570ccaf87db4b6023e4ab7e69cc048c3ac1aff9828f2e89ed",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "8d4d784074a152c0cfc90f8d584d895cd134a3656eb8a93d51bae266d1bd6ba1",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096111,
+      "sha256": "2c441a2a9f913d9c58b01f8154b554ba993ec2b1d87c4ae6ac1e28b594ecb1c3",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108399,
+      "sha256": "54d1d40d4fe53e58f470123d9fb458e7330d715c6104582211eba51db981b75f",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/latest_model.pth",
+      "bytes": 40117604,
+      "sha256": "3d9fda4492c905df2362eb56ff4914cc0b96b6a430adb9912bf3297b04f39c94",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071407,
+      "sha256": "0e3f08e088061979e2c99de4c7c667e424868a156e0690dfd8aa196058a2a6d4",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084143,
+      "sha256": "c6e95256d63fb33ff3168f36805ad512d1b51bd9d7bbdaf0a8fbffcab266e520",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096815,
+      "sha256": "ce409ef37b03eee89820e248535f1f5af7fa4614eadaf304a6829017727202db",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109423,
+      "sha256": "193ffbfb5977928d1186b400097e7e5cf34c779743dad70624eb9938edd750c3",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/latest_model.pth",
+      "bytes": 40111524,
+      "sha256": "5418ff1133a32c72088afdc1fca0d8dc8d61704a21f5ad9281cfbbb945de9969",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070383,
+      "sha256": "5e7ed7daf6bce26ad900d626c8af04f6384f9f1b9e15b3e78880c48752cfc3d5",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081967,
+      "sha256": "c67a4ea3cda5bc1c95c163cdb50e22b1d81a743f7aeb5a749fdf938fbffcceb6",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093487,
+      "sha256": "51bc5ef7dca1b3263e03a838d79359a0c3dd3e3539a09d7e938a17ebfae3f337",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40104815,
+      "sha256": "59d72369753437f2b3b31d29a5a514455687f8d5d2b2ef924534f8bdd271042e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/latest_model.pth",
+      "bytes": 40116324,
+      "sha256": "ea8f5cdebea7534ee8e161168324c6460e783f22e971c24eac546757ece1e19f",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "32069f9e4f9d07376752a2cfb92fc24fe6ae7784ffc5592c4781afe018f2a3f0",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "c441e0bac84c8ee6f3283a7b9be4b127fdbba0556b0396f47e46609198c14695",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "212b6950222988d6f441fea931ebc68b0a49630502612c5ac087a2d6ea0fca75",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108527,
+      "sha256": "73054edecb1842185cbfc284cdb766e4b3d554858a24fae84993157872262a6b",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/latest_model.pth",
+      "bytes": 40117732,
+      "sha256": "036d9f443d3aaf143289e29e752da1ebe984043d2bb5f1faeafd83802948f7d8",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071471,
+      "sha256": "92ea0bbfdf1bb00b279e18a03e6e17d4fd85a8c79ac32aaa7228605e0f1cd482",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084207,
+      "sha256": "f844160595774a0591c20796a3911a9f07adaeb6e9f11e23f2e85513ee41ff90",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096943,
+      "sha256": "c66881ae4fedce25d3156e0672cdda53c3cdfcb103077b31f794105a78ccd1b4",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109615,
+      "sha256": "53bf03b2582b47552dc66572ac885464de0e2b4ed6d40c70ae093c14dc633357",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/latest_model.pth",
+      "bytes": 40109796,
+      "sha256": "84dd41ec27abf5d438ad5343e508c3b6ff0c7d561d3a8da7843d078bacce639c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070319,
+      "sha256": "87bf1de2fc9f0109cc5cc692c7c7c8f30a3a34914628ee99e381062c60ed5863",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081647,
+      "sha256": "c4f223f0d3361dcad670311fbc49bcd3d99c7c20c86e2b1ed3bdce74f0ae1c9d",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092847,
+      "sha256": "1bb4c51d7d57ef617298f30cb48bd74d76aaf1b82f8f5c77e6a42a81beaefb10",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103663,
+      "sha256": "7c79f9dd218479ec0a05d8a82b8eb1480a87ddc1c8cc9d4ae365ea1be924533a",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/latest_model.pth",
+      "bytes": 40116004,
+      "sha256": "22c93d02c690bfa21d3c71553d8b2b29deea2436ea0eef4630f98fcc4d7b2b1a",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "d14238b2e4b1b606d85864b3a19f832d00639df787d0a301b739636c0c846a48",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "d9f760b47139d22a738d2abdf22f35b2a1ed7bd32948daec7c6f4bd480db6d81",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096047,
+      "sha256": "1df5b550b81f29bc5c8292e3913d0ee03f6ba5b6ee76c57e0a23b0ac13ebc4cb",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108399,
+      "sha256": "58cf902e57cf08f80fa7c676d13744aea875bcf1a6a9a3752a22c9b54a8c481f",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/latest_model.pth",
+      "bytes": 40117540,
+      "sha256": "ba8c5a821203f94afbe8e5aea775405d77b55c18eb42342c49cd014f359662c1",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071407,
+      "sha256": "a6a9fb00f28aca11c6fcdd6fab4ab5fccda7240fd305fd1d0fbdf0427b07bac6",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40084207,
+      "sha256": "78dfbd04f530bf1b8e291ef4868c2d2da3b7904f5e52addc6dc4456ad86f9235",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096943,
+      "sha256": "f843251b8a34782bc7878bb1cd5aed04ed4800fa39596586364d4b228991b0bc",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__CAL_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40109551,
+      "sha256": "1be2a47f2f7236d9dbc1eea6dfbb9f63f34fe5ea2a95033661f5278ca65cd323",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/latest_model.pth",
+      "bytes": 40109540,
+      "sha256": "9e15129a4ce013a0a714c2a567d2964f003905e3f5b2a4adf511abdc0941c14c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070511,
+      "sha256": "df6e3c70698eb6525cb4249beb274d377a5ee66f0401cf97ac8962f857c9f76c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081903,
+      "sha256": "5091790184f5bfb2680055c6742c79851d38a7ba03eed43014a956158fda1a53",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092783,
+      "sha256": "81669498e2159755c5bf197dc66e8a6a6f3e336337fd4ab7843289c36a4e83a9",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103471,
+      "sha256": "3432f21cf600ca66856b52be48f07159d41e4b8fe2d21a4e2706ecd720efba9e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/latest_model.pth",
+      "bytes": 40115236,
+      "sha256": "2806fb787f237379eed31fd95c6b4d0a3ab20dad895b4ff89a42eb15106d1e2c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "da44732e7dc4e3fc891122ef3a7ff5fb92b3a142f14a754f9474b421459ec870",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083631,
+      "sha256": "db3169a6ab66fc154a66301a91c461da97128266ecd2e536c868092c8bc519cb",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095727,
+      "sha256": "9856af947b0832a128fe706037120cb07a46454dc0be6c862c71db1e4e424469",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40107823,
+      "sha256": "b92331d6f1a3ab3d282adf9afc2113f79203c4427968062c89c05854e027dd63",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/latest_model.pth",
+      "bytes": 40116196,
+      "sha256": "18923503971075b849ddc52adce8957f1f7eb891def1787d3024e8884c88a363",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "236ebb487370e3507bfe4841c8833a406b3eab5c113c61871486d88391dead02",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "dde529ea76ce57fbbeb9d05626d9dbffb09976a2a3083aba1c66027def411e23",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "c729f0e3a29897e26698c3d64d4bdaec2826c1a4072e4072ba6b30b33168412e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R1_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108463,
+      "sha256": "6b60f4a70757395f746abcdc7594efeb9fe2ae4ec809d7c8d4ae49535b466af8",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/latest_model.pth",
+      "bytes": 40110116,
+      "sha256": "330708312aaa7f731aa6e2d226d8d4c28b22a87e165f8cac781ac6e3ea4818cd",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070319,
+      "sha256": "40a7b968810d768d58d6a654b646f4203a3727370ff7bdd29efb1b9bb4cc76fe",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081711,
+      "sha256": "2333cb1865d5b266f29126ee9b21d8eae0c79d6e50edfe8a078da133c61ff6e8",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092719,
+      "sha256": "ab97d4c0b6b84e1468bc4872720b741f09df3dd60b79e25a7f151b79e55d30bb",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103727,
+      "sha256": "cc5839e76e1c412acb676537630eff2e600c1b3b03fdde3e3ff38064cfaa6fe3",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/latest_model.pth",
+      "bytes": 40115940,
+      "sha256": "198b41f9144fd5123b1da376bb912e357689d7ce01a1535a1608369f40b490c7",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071343,
+      "sha256": "b7a732c5de1d1c2e1595446b0edda95e9c4d44276b725ec04e5379efe1d6d4b0",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083823,
+      "sha256": "60e0c1ffaf1d0daa53b979623beb5fbac6a7db14fe683b27feb9940e23e339aa",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40096047,
+      "sha256": "ca44c272718f739e1e195f38015bf2b727ae8034c84608d7055bfca090a12873",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108271,
+      "sha256": "82da1297c05e1f1021ede35bce66aea39dd0696e5f2d30a592adb7cde2b5a923",
+      "symlink": false
+    }
+  ],
+  "retained": {
+    "MILD__CAL_R1_K125": {
+      "final_checkpoint_sha256": "36b25e34670aa07e9e9463f94a77957c99ddeb8811ccc67539eb55cbb5b2a12e",
+      "arrays_sha256": "2d9422a690aac92975e23e140a3019edf2475d47667bbd336a1a84301d9d13fb"
+    },
+    "MILD__CAL_R2_K050": {
+      "final_checkpoint_sha256": "51bbb286aa8c0284848e861eaec94c294a3d01fad46316c6e0e660af6628246c",
+      "arrays_sha256": "0c492590554883ca950810f2f509506917e250d63ba0c8dde40f884bddca6836"
+    },
+    "MILD__CAL_R2_K125": {
+      "final_checkpoint_sha256": "47308cde1225240857234bbc1d275277cfd4fbde4b736e39a50054a8ef283d66",
+      "arrays_sha256": "35e5927831d64710538dd3f540009c240e7150728ed72cade638f5cc0911ff29"
+    },
+    "MILD__CAL_R2_K175": {
+      "final_checkpoint_sha256": "e26a9876f0b59080dfafc4723e4fbac312cfdcf7b89fc4e43792e202c78729d7",
+      "arrays_sha256": "ca51e7a8d8604391cec50157e124f71a62d59348bf0d8c67cbbb226b7815417c"
+    },
+    "MILD__CAL_R3_K050": {
+      "final_checkpoint_sha256": "859add256352b5e2fab9b93e353087def8234b5edcd1ee13854717fe883be0a0",
+      "arrays_sha256": "960ee70429c029b08c6040cd66def134d3d2f5328c82fe4ef9e7cca947bfdd07"
+    },
+    "MILD__CAL_R3_K125": {
+      "final_checkpoint_sha256": "d2e097eb8d630b4cdf4da7558cfc7967c2fc5e355e66b373b057dc55230f8b86",
+      "arrays_sha256": "6e7438f6342749fd3d282cfc9d37fac04cd2164d55fd28639b19d828ee25d525"
+    },
+    "MILD__CAL_R3_K175": {
+      "final_checkpoint_sha256": "98a0ff143ba6d7f690aafa930979e2bd88eb5c287bbc767ed75d4c2d6d1a03de",
+      "arrays_sha256": "2638b4ae7662e73fa51b30f92fac5e49046bf605e0bd783af2d077951c52165a"
+    },
+    "MILD__CAL_R4_K050": {
+      "final_checkpoint_sha256": "1f70beafe7e08fb589a2a89ed54bd404bfbd024008643d8c1a5c76eca72a271f",
+      "arrays_sha256": "90159f98c0445f10a72fe303fc6e5d467ae73f2ea110dae82e709639c3715084"
+    },
+    "MILD__CAL_R4_K125": {
+      "final_checkpoint_sha256": "01274bdc639ca091411447f24354da14a0e02f99973fd9dade1b05f8085a9364",
+      "arrays_sha256": "35571ad031348c95b1668310d817ce6ef0dc69f604be3e6cb28e3a87dca9df5f"
+    },
+    "MILD__CAL_R4_K175": {
+      "final_checkpoint_sha256": "a022238c4c28587885cd90835d4ae85414dd187de4192d84c638176f50f6db8f",
+      "arrays_sha256": "409cc00e63faf0e7331cb7ad884c3e3bdb573653b6d005063d38115d5e4df404"
+    },
+    "MILD__CAL_R5_K050": {
+      "final_checkpoint_sha256": "20f481baa23caf51caac103c70a1c6d5104b52fe5806cb847603695114f89877",
+      "arrays_sha256": "926708e34402f266e20862b8bac0ae99460c78d9cc618644ee81734808ff2366"
+    },
+    "MILD__CAL_R5_K125": {
+      "final_checkpoint_sha256": "5cfbf2e6d958d98ac1edf832c1c4d92d2c52600532ee17d030f13dadd3c676df",
+      "arrays_sha256": "9ef693b131a22e63590cbd08d37e3f250a808d1b84f0ef5fae00251da2bbab94"
+    },
+    "MILD__CAL_R5_K175": {
+      "final_checkpoint_sha256": "1826f5fbe0858bc8e2f6c977aa67816d4941194d112fbba23e54b372f80cb5a3",
+      "arrays_sha256": "bceea412afa84a19f8d83b8850f41507a6fb7e9aa3d5e738ebc558377c75e20c"
+    },
+    "MILD__HOLD_R1_K050": {
+      "final_checkpoint_sha256": "40ae33dcbb8658e4f3d26845cc2981d777baf75e92864ba6dc7efcdd85917342",
+      "arrays_sha256": "f332ac1e6bafd1c62699c6e6fcecab846364289d7cce047e48e79caa80beb2fa"
+    },
+    "MILD__HOLD_R1_K125": {
+      "final_checkpoint_sha256": "8f1a1cc363c359c23d55fb99dd0bfd6467632c11ff4effc8a0a57fba20d66c39",
+      "arrays_sha256": "9713fbf52c6ed08ef969ce0a324751c5787d463590f06a2019a5fd4f7f3b7b78"
+    },
+    "MILD__HOLD_R1_K175": {
+      "final_checkpoint_sha256": "5305977b668bb84fddcc0301bb21657954600983eefc163b903fa5daaeedd469",
+      "arrays_sha256": "e0daa378ec5f22a8c9a3cccec1d4f3289c10b136669ea9b6c1ed6e9e0c5b0cb1"
+    },
+    "MILD__HOLD_R2_K050": {
+      "final_checkpoint_sha256": "3ff703e8b2b96100666a0bee77c40404193cb18b89e843cca2a91c26bdd745da",
+      "arrays_sha256": "4812527506bdef3c634039ed05d331241dc2ef5da91d3294d21963210ac7d2b3"
+    },
+    "MILD__HOLD_R2_K125": {
+      "final_checkpoint_sha256": "05471bb90c4a4601fd31fed76eea506abe319ec80f9b5958737b03d0b8c531b3",
+      "arrays_sha256": "4f7e59c5c1b7097c6fbb1662aba6278438c89754f381c44e04499acbff64a6aa"
+    },
+    "MILD__HOLD_R2_K175": {
+      "final_checkpoint_sha256": "a8aa7a44972b801c7269a0a0706ee486f7bc5075d4dfc4fe41b563610f7fd7f5",
+      "arrays_sha256": "0f2ba04e2e310f965f8031e945f1951221cf96d380ae078a4b8688de1fa77534"
+    },
+    "MILD__HOLD_R3_K050": {
+      "final_checkpoint_sha256": "39333b4327ec4dba0566a811b3effd18584ce97eabcd4dff2ac3ade5c4da56dd",
+      "arrays_sha256": "63f05d4a9ce0567069ff0a8e24c1ce8a1103309a87ccc744e6ad7c1895262de6"
+    },
+    "MILD__HOLD_R3_K125": {
+      "final_checkpoint_sha256": "f9886e02a6421e6ed8218e5ce8576d4a44376ae13767a29d62d34a61d738c821",
+      "arrays_sha256": "5048282e34e43301effd9fad4819a169bc77a5acb92b71e96bd963fdf0d8a56c"
+    },
+    "MILD__HOLD_R3_K175": {
+      "final_checkpoint_sha256": "097fa524b2594c40d92de408ebe2dc6701bd76285d82af250963b190b31a47eb",
+      "arrays_sha256": "c10edceeeb69007482e1f829cb1871e6efe1dbf18319835515b66b4aafd7cb3f"
+    },
+    "MILD__HOLD_R4_K050": {
+      "final_checkpoint_sha256": "143f202127502e59e9c99c32bce90cceebbac2e409181e3b8e6eb44a08376239",
+      "arrays_sha256": "8ab77da27aa8a3ee9f9cd1bb4015c090f35c63ef490c7cb97a27f7fd5a2cd710"
+    },
+    "MILD__HOLD_R4_K125": {
+      "final_checkpoint_sha256": "8ba2d1be0f8fcc0311976e16bd481627f73288e15018e613085756ee2ebf40d2",
+      "arrays_sha256": "227d57851ad14d5b0215febd8960a7052e2e2c5b5085b8ed9952c87d248b01d8"
+    },
+    "MILD__HOLD_R4_K175": {
+      "final_checkpoint_sha256": "ef7b363a04a90cdf17221530bdf8dcd3fcd4b122fe4745e047785ee463c5658d",
+      "arrays_sha256": "13117d266505b1d5c330d839f40b89968b3205aa2f69b2b8ffed27bcd859372f"
+    },
+    "MILD__HOLD_R5_K050": {
+      "final_checkpoint_sha256": "4d1ebb6b456f452e7d7b50c9e9d83611d767539a09390cfe5e357af94e3ee63c",
+      "arrays_sha256": "cf4fdb425bfd0ac27c253f1103575c45fce4a48bd02830a1c70418d5d5ffb437"
+    },
+    "MILD__HOLD_R5_K125": {
+      "final_checkpoint_sha256": "d21c57214466bb64d23a7f775543b3b05ae4895aa792fab064977f0f8b3e43c5",
+      "arrays_sha256": "341d8bd93b92d3ce05eadc6034c155dfb9bdd42e4cdb0537d1d221197e2dd77d"
+    },
+    "MILD__HOLD_R5_K175": {
+      "final_checkpoint_sha256": "baca38c6a208736377b1a5055fc68333392a5e280d4370ef42b713383a285b84",
+      "arrays_sha256": "8c7217cd03626112bf8bde9f95c174ae3439e6467e31721d5bf5b5c594212ee4"
+    },
+    "MODERATE__CAL_R1_K125": {
+      "final_checkpoint_sha256": "e7343404af32144c7a380569fb4ff02b2aaac49c9ae5ace87bf93febd829b33c",
+      "arrays_sha256": "5cc9505648a17225f14354b6f7a766c6ce82c2b1be37fe678a34bb1e4415bc55"
+    },
+    "MODERATE__CAL_R2_K050": {
+      "final_checkpoint_sha256": "934937954a6c19c82e88162c02bc7133121e1dc0a31d6ada0b87e8208e09ba64",
+      "arrays_sha256": "fbc82dc633c225785daad51271c4e8e21b0fbcb4e351020c839f79ed9aea8f7c"
+    },
+    "MODERATE__CAL_R2_K125": {
+      "final_checkpoint_sha256": "5d02a5da2e4f7284dc69169a3152bc85d898d905da653ee2faee61dc4b980d84",
+      "arrays_sha256": "16632c5f0acd4481d3b7f549cbda8262ddaca619db5d9af593d644b6a3f81e42"
+    },
+    "MODERATE__CAL_R2_K175": {
+      "final_checkpoint_sha256": "8cb0eae485b3a53c326be92af58d60daf8f8f88080359da93e5652a54990491a",
+      "arrays_sha256": "c55bde838ed752e110ec0676c22630e0ebfffccfaadb8525b04cb529f7deadd8"
+    },
+    "MODERATE__CAL_R3_K050": {
+      "final_checkpoint_sha256": "387428afaa8c4b07f6bc2a72beaef34452a944f7e0ebeed0e0950de91be184b4",
+      "arrays_sha256": "1017b5894d4372139fd45dced2d74ba8573ded02627540b02aedf57893309620"
+    },
+    "MODERATE__CAL_R3_K125": {
+      "final_checkpoint_sha256": "b35a4f2fa57462218a2b25e1b82c9e385871efedb24aff8c02ea72406d377009",
+      "arrays_sha256": "c4c026a486a34894f11c31f1ca273628dad477ec21d5d848d410dfacae7b6055"
+    },
+    "MODERATE__CAL_R3_K175": {
+      "final_checkpoint_sha256": "7757f97ffd76230b7d1aa7cb6e404a78c6e3fa5eddf0712bd7c92bba89507b21",
+      "arrays_sha256": "2f4384bca48169672da3ebcb8809cbb60508d80c92d97af304f25cbf86b807ee"
+    },
+    "MODERATE__CAL_R4_K050": {
+      "final_checkpoint_sha256": "1fc95ad6e233e7ea1986dda00f860b9a4c1ca3a8ee5241659b8bbad51c1dba17",
+      "arrays_sha256": "63fb8b8d48fd03669e15fa4a4234cf03a558c8a2a93381db0858ae78e22a254c"
+    },
+    "MODERATE__CAL_R4_K125": {
+      "final_checkpoint_sha256": "3fe62dbf4250d511f7f9a7e767f052cea7a399e0dbd929084fad12423cac840d",
+      "arrays_sha256": "65e8cb689251c25fc2efd89564d7ece70812fe5c9ff950d370e2e1161dc0dafd"
+    },
+    "MODERATE__CAL_R4_K175": {
+      "final_checkpoint_sha256": "8bfdae710bbf2462589a15d21128d1ad7436ff5d727917957eb977dfd601ceca",
+      "arrays_sha256": "099fbbb69b5370ec3c8666a6720f4d6e2e8722fd02a600898fdadbcb873956c6"
+    },
+    "MODERATE__CAL_R5_K050": {
+      "final_checkpoint_sha256": "a8bffb9f86003986e363dfa416235412c02d5cd36f45dc9998cf242b36c8d80f",
+      "arrays_sha256": "1da97dd99a2754c58f34902f63ea0538029a1e6adfc1adb67144ecf4a58a1674"
+    },
+    "MODERATE__CAL_R5_K125": {
+      "final_checkpoint_sha256": "2dab7868d3ad2ff558ee74848278e215af1a4565358202f9578b9b9d42553b5c",
+      "arrays_sha256": "54121daddb22ac02b5708ce94fd4058a24e384636e79a24b420e915be1552123"
+    },
+    "MODERATE__CAL_R5_K175": {
+      "final_checkpoint_sha256": "aa0b9b351170f16da78ae09e7cdf9e69fffe520ff1b30edec38046624469446b",
+      "arrays_sha256": "cbc1451c028de9e79a3b1403136b128063c0e3c1441f480c86c55e3777f804d4"
+    },
+    "MODERATE__HOLD_R1_K050": {
+      "final_checkpoint_sha256": "5341b9f34f5c95f79f0e9ab72b53f8db10d62f506fb68f43ad4714a5e19a4e1c",
+      "arrays_sha256": "2724147e82dfe2a57bb4bd4023b54a74ac04f331ebcea2ac29d3228bd2df1e26"
+    },
+    "MODERATE__HOLD_R1_K125": {
+      "final_checkpoint_sha256": "b091bbacd5cde78a653086807076a31d26ca2eeb90a478f186d489638db0c0e9",
+      "arrays_sha256": "fa4b9553c8d247cfa0befc3f1f57a3c608ffdb5dc70fc02f1104a4d27d7ff159"
+    },
+    "MODERATE__HOLD_R1_K175": {
+      "final_checkpoint_sha256": "1d337494c72f55f1bf9a225ad2a6265b255e49aae59a8ef8a99f97f755919e4c",
+      "arrays_sha256": "73c7ce40ff776308c8228e9eec5ddf87626c1ecfdc97069f0785673aea893e76"
+    },
+    "MODERATE__HOLD_R2_K050": {
+      "final_checkpoint_sha256": "a1d8795a8d97d4126090a4d0ea35d217e51482ad0994a0949d91cc44ceefb62c",
+      "arrays_sha256": "7f3f4d37bc43ecbd5cc8f4a7317f47ec2ff98508c5db924bc5dcdb33abc33570"
+    },
+    "MODERATE__HOLD_R2_K125": {
+      "final_checkpoint_sha256": "2ab5cf203ae2a8a4fde949edf9e7a923f402682ff36feb5a7e45d284cb494119",
+      "arrays_sha256": "61ff2148f85384471cde6096f5adefb86cb74d581775904156b8d3be8bfc45aa"
+    }
+  },
+  "source_files": {
+    "MILD/CAL_R1_K050/candidate_false_negative_records.csv": "c562fc078477af7a196a4359ee7670f38f86542b6c8720642edf32bf9e6cebb7",
+    "MILD/CAL_R1_K050/checkpoint_diagnostics.csv": "25ec86aa2e24767c30d18528e76497a113d80ca43da5ddb2b1db0f2dc2da5e0b",
+    "MILD/CAL_R1_K050/molecular_false_negative_records.csv": "86434c66459d7a2725ef03b617f523b18ee4acbb357e8a0a466051fae1788242",
+    "MILD/CAL_R1_K050/report.json": "1ec932a86c76ae664138eda2649c7f5364c37b36fdad12c6e4f7c2fd9bc7c028",
+    "MILD/CAL_R1_K050/reported_identity_records.csv": "106c439c087311e7e171a0347771e8fd6418a44b24e7e6e615bb66d59e27aad9",
+    "MILD/CAL_R1_K050/runtime_contract.json": "5ea09a121fd72e5bd8099f7391effcd1c109f61718b2f6fdd33bc15ef4232aa7",
+    "MILD/CAL_R1_K050/solver_run.json": "58f194b3cf24b27b00be458c88e0db964ef30c7fde4f269759e2285ef0a9d4b2",
+    "MILD/CAL_R1_K050/training_history.json": "181df5d2c5908a6df71e3e5edd11f19c3a0d015fedc26b422dba8f09ace1a235",
+    "MILD/CAL_R1_K125/candidate_false_negative_records.csv": "5fe4ee799cd9ca8c1ed0c34062c6114c267d375b24882e239f069e9897996a12",
+    "MILD/CAL_R1_K125/checkpoint_diagnostics.csv": "15373aff7c86a404c90d2709509e6d3c52a765d4572c75ea35096a72bc4a534b",
+    "MILD/CAL_R1_K125/molecular_false_negative_records.csv": "2f84e9bcc5a94e02fda7ea654aaf309d6587b42fcd6aae92aac783e62fed0eea",
+    "MILD/CAL_R1_K125/report.json": "71c6c0a66462f8975c744d9201922abbb9638d7c0b69cd4a1231d0ed7adca4a2",
+    "MILD/CAL_R1_K125/reported_identity_records.csv": "57c42bdae412b1cede5c647db7450efbcac5e65ed6d023fa38a148dd69dc8e0a",
+    "MILD/CAL_R1_K125/runtime_contract.json": "bfd339b0eac60c621e1691d0c210381ca75d496271215e91966493871c4301a7",
+    "MILD/CAL_R1_K125/solver_run.json": "e6bdee4491fb40402f420039342ea5f33762127360428217887aa0542cfdc86a",
+    "MILD/CAL_R1_K125/training_history.json": "2ba34a45c8eb71303680952325ecf3f70f94c737084c326726cc173897f99255",
+    "MILD/CAL_R1_K175/candidate_false_negative_records.csv": "45734db7ec85101a8d04d568c82766db67c40b9d46907e88db6619151f499d5f",
+    "MILD/CAL_R1_K175/checkpoint_diagnostics.csv": "45af1a80ca0025311c8557df55decb252e4a6c14c701c8abc0aa8e81d3bdcdca",
+    "MILD/CAL_R1_K175/molecular_false_negative_records.csv": "2c9a5cc67253c9ca21d701650b36e2d50285acf752691ba55712ec852cd29c5d",
+    "MILD/CAL_R1_K175/report.json": "7dc52720b7f702fd1c6fd464c30e07e757ff37c20a986c209ddf557db8c4152f",
+    "MILD/CAL_R1_K175/reported_identity_records.csv": "1a66452c1080a7959c8da3ebd15ea824e500a1c947eb034296ce1bdf594911d8",
+    "MILD/CAL_R1_K175/runtime_contract.json": "1956e3945c6749f5f13d8770b9d3e33a68c7c1ce45c3635c4bea6b8af02438ac",
+    "MILD/CAL_R1_K175/solver_run.json": "ddf8b213a9eb63928b69f0aff6607172477e722106d5bf8c1136a05cbff4a0f6",
+    "MILD/CAL_R1_K175/training_history.json": "1186ae7ae8119cc876c74071d2377bd6d589d23d8a5c0983abd4d1cc8bb14a3b",
+    "MILD/CAL_R2_K050/candidate_false_negative_records.csv": "f42a79ef397d432a20cc0ae266fb864e4bb0ebe2c550b599e84ddb7896dc02ab",
+    "MILD/CAL_R2_K050/checkpoint_diagnostics.csv": "bdfb431a5c98410575eab45051d94c5b80d7318e3359d3b755d83a5e34a9eef6",
+    "MILD/CAL_R2_K050/molecular_false_negative_records.csv": "39756d4e5a3ea8db00f6ddfba8989b506f1255b83ba16a312414ad97cf057d30",
+    "MILD/CAL_R2_K050/report.json": "e5f7398bb48bd30b222aede09dac48d99f897f348117a4dc5b1b54b4d70a848a",
+    "MILD/CAL_R2_K050/reported_identity_records.csv": "865d7c0af28f29c0155cc274f8f67aec05ab107359f4eb95d699f6e15a2f0ddf",
+    "MILD/CAL_R2_K050/runtime_contract.json": "bf9aa940ab47a96f76809ce8e8c875563d0d462adb9b9e7eb3b57db731f8fea3",
+    "MILD/CAL_R2_K050/solver_run.json": "b1140ca0652692aea6d55106f6430a457924defe1ed8f9ca71688145d5950a60",
+    "MILD/CAL_R2_K050/training_history.json": "97e331d6b2b08eaa96397860a1d2e4e826e1c6994b5d676460ee24ff051af908",
+    "MILD/CAL_R2_K125/candidate_false_negative_records.csv": "ea6cae499bc4bcb8fd8daf86057cbb30107c4aea59ceb569db6982084ef944ab",
+    "MILD/CAL_R2_K125/checkpoint_diagnostics.csv": "8919f20718887ca9e1b1f83039b582f37e3927b9ea2bc9dce1d734caa1db7e04",
+    "MILD/CAL_R2_K125/molecular_false_negative_records.csv": "1d148bc912195a1cacece41064f911023096782dac20ac422ba508e11ac3f506",
+    "MILD/CAL_R2_K125/report.json": "df28d53aa7f5a06041f7a7221c0d4aad89eecc04d6d0f078b5f94f34087e08b3",
+    "MILD/CAL_R2_K125/reported_identity_records.csv": "46060904bb89908b4bdbb3c11e593454819017862efe70ee710f9689e0ec78b5",
+    "MILD/CAL_R2_K125/runtime_contract.json": "f06497cc6ba385c45841f5bcbde35a2a4aa4709b9e9d32a498538c2f8f46ea0d",
+    "MILD/CAL_R2_K125/solver_run.json": "4919592cc19e27ba18a03a492b48d595bc2a62243644d4fa9a4da4ed17723c3a",
+    "MILD/CAL_R2_K125/training_history.json": "dd853f15b1f26dc1f477f7470df939e6c0fbb5545789809e7edb9726714f02a9",
+    "MILD/CAL_R2_K175/candidate_false_negative_records.csv": "5896839648a5d618e3fa64d45eeb57cf503dfac3e6237e54988d9a32221f0b87",
+    "MILD/CAL_R2_K175/checkpoint_diagnostics.csv": "e31599798bbf42aefa451fb2136783493183f5251cafe5590d18b18aa25af472",
+    "MILD/CAL_R2_K175/molecular_false_negative_records.csv": "619ac612a711abda8a2381ac7266531530dee8ed0e90a63946d60a9d44cc5996",
+    "MILD/CAL_R2_K175/report.json": "8c82305b2b95686b46dc168fa84b5eb63e3989e3b3b292605dee871b5b63fcf0",
+    "MILD/CAL_R2_K175/reported_identity_records.csv": "010170e06ee3222ce295227be2790fdd7dc2b92aab313cd57c8beccc564feb57",
+    "MILD/CAL_R2_K175/runtime_contract.json": "24a29e229346801fc031d9eb2eae3b474d22d927568e3c3a860fe3de9bca9355",
+    "MILD/CAL_R2_K175/solver_run.json": "569e108edebc815685e147a30feafea2e47ecc3b7ca8bbbb84b9af8d4b0eb2f1",
+    "MILD/CAL_R2_K175/training_history.json": "275dea03f84507f58380e7649a67313eb35c691d712c6697915a3ac24d64ca10",
+    "MILD/CAL_R3_K050/candidate_false_negative_records.csv": "4ceb747b8f8c4a6e0271810223e230d0ce2f5b8ded5697de6d7630e691267d01",
+    "MILD/CAL_R3_K050/checkpoint_diagnostics.csv": "ea909d14780215470ce95d7c6f22353cfe40d220b2d199d888ec595f96af74b6",
+    "MILD/CAL_R3_K050/molecular_false_negative_records.csv": "f56ee9eddcf70f50d6999e0b5508885bdde0039beb1862e264b883e49f1b9f21",
+    "MILD/CAL_R3_K050/report.json": "321e67c1121db533add8b9e34089493bd9e7f8b38d344c5c6731896de173ebf1",
+    "MILD/CAL_R3_K050/reported_identity_records.csv": "f937c73722716f860bf11da0d0a8b12b7c334331c16f3bfcbfef916a3de4c328",
+    "MILD/CAL_R3_K050/runtime_contract.json": "f9714846d8e71f11df9e8cf2f935e25aef0fc23a9b5c10968c1969fb24816fde",
+    "MILD/CAL_R3_K050/solver_run.json": "77ec07de86221c3ef005235dd1e5324183535f1211710356377b02a687f555c0",
+    "MILD/CAL_R3_K050/training_history.json": "272ea9899b7e79caed03b459222e8b34b6ea709589bfc47ee7fd05de3e9d8c81",
+    "MILD/CAL_R3_K125/candidate_false_negative_records.csv": "28c7a0933750e23932aec9f612b4f9b8c56158d7099b6019cc405365a2e3b983",
+    "MILD/CAL_R3_K125/checkpoint_diagnostics.csv": "2f40ee0ee00de1f05c144a1ca18c9e6237e49fcef878b5e79d06572bf012dbd0",
+    "MILD/CAL_R3_K125/molecular_false_negative_records.csv": "4177a215594772646db0f581076b78dcb5c9f63886886e37f2de61655e363b54",
+    "MILD/CAL_R3_K125/report.json": "5c6ea2e3e3b7d6e4dd1e37c9aaf2824a0e2bb9c2db62feaa8fcbdfd764b321b9",
+    "MILD/CAL_R3_K125/reported_identity_records.csv": "11539cffc5552cb5c285f448ede822e36911ee94d92fb87bd93dfdbb51dce4d6",
+    "MILD/CAL_R3_K125/runtime_contract.json": "06e194f185344e2040dda762313534b8c63a69f997cdfbc4cc2d1f26fd1701ba",
+    "MILD/CAL_R3_K125/solver_run.json": "e60663725174003ddb9679c7ea378c2604dadc3af57b9c1facbb654e11223e87",
+    "MILD/CAL_R3_K125/training_history.json": "74f0aeaed3711e5ccdb1d0896b4639a23af0ef0b1e7f357f467c029a33e76b28",
+    "MILD/CAL_R3_K175/candidate_false_negative_records.csv": "371b4c827d4f9f40b6204745b7e91f658137679a6f07d3ee85d9a68f18140fb0",
+    "MILD/CAL_R3_K175/checkpoint_diagnostics.csv": "05d43592b60e36e3779677d6106c3d489c18be4b32bb367edfa7860166360f13",
+    "MILD/CAL_R3_K175/molecular_false_negative_records.csv": "12251f72904604d377913e68b6667a7e8d0884e13c945502cfeecd93ae0563e3",
+    "MILD/CAL_R3_K175/report.json": "4be4edf39993777c4321a759cc1c5efc961247e2817395ae2c6a05a4970ba25d",
+    "MILD/CAL_R3_K175/reported_identity_records.csv": "00d652af13724dfd6fb4fef3b29fe2bf1ec8f2373cf505dcdf42747d9620cab9",
+    "MILD/CAL_R3_K175/runtime_contract.json": "36a2ddd330fe23118bd5def180f169f38664b676ec438db61fa4ba5cafe90657",
+    "MILD/CAL_R3_K175/solver_run.json": "4c42e758ba06372b74deb911faebc2620fa49850f854128f1ff8c2b594abf736",
+    "MILD/CAL_R3_K175/training_history.json": "11f7add9fb1e21e64c2c053d9af930234b5ea14540eb7b97722467936b639f94",
+    "MILD/CAL_R4_K050/candidate_false_negative_records.csv": "24812f1cb70487e22f20246208128791f7a157b3108d8a5c051141ece193135f",
+    "MILD/CAL_R4_K050/checkpoint_diagnostics.csv": "af22f3f89cbf4cfda51460e70e3c43fdd582df187cdecf9ec63458bd85226f80",
+    "MILD/CAL_R4_K050/molecular_false_negative_records.csv": "c3f7fc1e70f72cc7107759f8e51b8ee62c446665716c203e5fe897b1743af92d",
+    "MILD/CAL_R4_K050/report.json": "5ae8fe6946a21189cb99f31aad6a73f62cd04eb8cc92dc97dc64ad65b155271b",
+    "MILD/CAL_R4_K050/reported_identity_records.csv": "2cf35f8106b7637b3f9491ec5e3a39f30bc9eb2b834710db30b760de4ff51d6f",
+    "MILD/CAL_R4_K050/runtime_contract.json": "e59628135f784a8639a121ce19d74adcbede4042fc93b8b683b5b468b915359d",
+    "MILD/CAL_R4_K050/solver_run.json": "012c94e244ea4f5eefbf1fd73d303d8a2ed44b4a65aad3235ee3b2848a423df9",
+    "MILD/CAL_R4_K050/training_history.json": "6f2f1a13b4529b95d6b6759757ddd18e9f7a349846b64cd71d6b2e01a8ac2a10",
+    "MILD/CAL_R4_K125/candidate_false_negative_records.csv": "01c4527080751395719e3a666cbabb3a7666c530fe457d1c83eab3a34d5a6f7c",
+    "MILD/CAL_R4_K125/checkpoint_diagnostics.csv": "18277a05dc2c5cc37d46ebc02d59b9b80beced0dda81c6a26113c594b130454b",
+    "MILD/CAL_R4_K125/molecular_false_negative_records.csv": "ed78b577ae2ac471367774b1a4dcbfa2099ad235af598e51fc1a81853af4c752",
+    "MILD/CAL_R4_K125/report.json": "08863d908a38b1f5cbb0b09d86e8a8f3e6ff4a2295865b770681405103b79d22",
+    "MILD/CAL_R4_K125/reported_identity_records.csv": "92aa2fe2872a4ae8b8e4da813b471c4833d1ea706db1535246840e8b553a8759",
+    "MILD/CAL_R4_K125/runtime_contract.json": "bfa43c8ba19c754f10bb451446d915d25359253a29c68f3a83b536ff588a4ffe",
+    "MILD/CAL_R4_K125/solver_run.json": "ff7a4bd669f951a782d883bd120e6f9265f24a14fef3e311fdb61258184f1f2a",
+    "MILD/CAL_R4_K125/training_history.json": "9efcdb576a300d2317e3052abb751c2bc1f6b17859eace97891faa862f990ac8",
+    "MILD/CAL_R4_K175/candidate_false_negative_records.csv": "8b0f91c5ad89a1c8343e70e63768fe90421385bdb0ee8622b7659d6d528d6ad1",
+    "MILD/CAL_R4_K175/checkpoint_diagnostics.csv": "60e7944ea6fc62afcdc3cbbd634245deab95c03f77abee36d5fd5f4c1a403c0a",
+    "MILD/CAL_R4_K175/molecular_false_negative_records.csv": "af9d89853ceba0b3ef57d12de3965f6dda9fd28624713b655cebe3b6b713d58e",
+    "MILD/CAL_R4_K175/report.json": "b86d41556efe81d560d1ac17ca3da82dfc4840e3316d6ccc8d5313d03465ac60",
+    "MILD/CAL_R4_K175/reported_identity_records.csv": "997b7097b6a9629c827e109738aff6f253c6923bf6f188f9ea41958eb0c4c102",
+    "MILD/CAL_R4_K175/runtime_contract.json": "8330da05f0a27f02e0638fa80e4ee4125a32f8f2e3bc7400018ffae3422e6ec2",
+    "MILD/CAL_R4_K175/solver_run.json": "907ccc8040fb2821c834a796f2f2b024914e260620ccde05a13f4a3bae60ffc4",
+    "MILD/CAL_R4_K175/training_history.json": "133a20101112770738c867fe48266772e3c8ac69753355ebf0a73238c76b5c25",
+    "MILD/CAL_R5_K050/candidate_false_negative_records.csv": "9c291f073c359cbb22d6dc5cfb59895cf540aa243514bd32b9a135982cc1edf3",
+    "MILD/CAL_R5_K050/checkpoint_diagnostics.csv": "c7321fa32d6634e9dd3b43d1ab6c42ef626b6949fb0ecfcdb9bf6b310af49240",
+    "MILD/CAL_R5_K050/molecular_false_negative_records.csv": "30a31225cf30dee8b3714a7788629604d4ee758e7def1947386bd8a40bcd4279",
+    "MILD/CAL_R5_K050/report.json": "b37bfeb90d8a03a04762031adad419628468d9db4e40c58228cdd2b98706c8d3",
+    "MILD/CAL_R5_K050/reported_identity_records.csv": "ac364c1b92370686eec2b3ad84914beb4501ac73677d6cc0cc96d2dd5af4a2c2",
+    "MILD/CAL_R5_K050/runtime_contract.json": "8d897037462954e7d3978d28340c8c5daf65fea8f495b0a9c1658cc8c572cd0e",
+    "MILD/CAL_R5_K050/solver_run.json": "87f6ad244827a17124ca1eba8c1be4a42e5d1a421cd3eba14f550157f84b5e63",
+    "MILD/CAL_R5_K050/training_history.json": "f3e9cf898e21b7b00346a3c4460be68133761fc8a38c90a56c7fc06e51e7949a",
+    "MILD/CAL_R5_K125/candidate_false_negative_records.csv": "dac745a20d473d7403e268eff52183217302115168dbbc4279250b2d06137831",
+    "MILD/CAL_R5_K125/checkpoint_diagnostics.csv": "fb1e2414271a08548a6d1e276d73fd14ff7c47151119cc3f59517bbd96317759",
+    "MILD/CAL_R5_K125/molecular_false_negative_records.csv": "5cb8feab84e4983aaeba2da178955856c6a0cafa2a67c899a2d07e89cfc4e57e",
+    "MILD/CAL_R5_K125/report.json": "8a8af5eb9b3c77d0a81b5d9b240c5c834ad4d68b18a273e6da89cd75a1e3457d",
+    "MILD/CAL_R5_K125/reported_identity_records.csv": "100134e282269839bcc752e45a20aaf9c135b8fcad8c705a85eda084e5eef5d0",
+    "MILD/CAL_R5_K125/runtime_contract.json": "c7b5e1410227a7c630a099731b6c168b9569995dabd0e2ab38a0d2a94f3107bf",
+    "MILD/CAL_R5_K125/solver_run.json": "81e32f199297e171ab20efed08bac978a7c681a2c84bb69e5eebef4134a3e46d",
+    "MILD/CAL_R5_K125/training_history.json": "3073a16d7bf8eeffd9918f8ce591f94b65f08decdc3f7951384ab8d9ad7e3647",
+    "MILD/CAL_R5_K175/candidate_false_negative_records.csv": "3e06435bbb80a143a7c2f9d49554a6ffac0c4ba747482a2041157406b6a5f22d",
+    "MILD/CAL_R5_K175/checkpoint_diagnostics.csv": "25fa91a22eff3cde07ca524197b9fde1a4593fd8a09e53fe64b2e46a589a803e",
+    "MILD/CAL_R5_K175/molecular_false_negative_records.csv": "7808693fa85b7a0187fe532e10df0f121c090ccf6c45bd1d6ca9e95981ed4645",
+    "MILD/CAL_R5_K175/report.json": "ea0a9f6217f5a4ff8ac6ccc6da2ca72d1fc9a43c90a1e2a502895c51a7176332",
+    "MILD/CAL_R5_K175/reported_identity_records.csv": "b5703dc8a19286376412f04581932e419e7aaae4723db2059e67155f161bb842",
+    "MILD/CAL_R5_K175/runtime_contract.json": "2192c0a70baebfd045c3f19b7e22fd5cee7ef49ca5b5b4c834fb3b4ba92dc7ce",
+    "MILD/CAL_R5_K175/solver_run.json": "19360ba3b0bf9e0415bb0ea62e400409c8d3ee94a14a5e3d30b276aee7bd4af2",
+    "MILD/CAL_R5_K175/training_history.json": "d3aa01c2e58a7dc14a86755053759d1639ab79c7db9b5f3006baf363f4885313",
+    "MILD/HOLD_R1_K050/candidate_false_negative_records.csv": "6282a324c07ae16a7bb656dbb491082a4acd55e3f477175bc65e9140673f22a3",
+    "MILD/HOLD_R1_K050/checkpoint_diagnostics.csv": "33bdc5efd5ebb076d9fdcad220661048222b2fbfc62795a9086e5e19982ed6b8",
+    "MILD/HOLD_R1_K050/molecular_false_negative_records.csv": "cbb5fff45905c7d37bbaade0e4a1ab7987389493b91714c6a3521e0e6189c3df",
+    "MILD/HOLD_R1_K050/report.json": "750396b75b9974c781ff87995a903a391249fe7330ad322a1cd26d04a89fa7f0",
+    "MILD/HOLD_R1_K050/reported_identity_records.csv": "c0817108a0d0574d6f8ce4e41fa8fc5e81d15c185c79ed572f33caa2d7f06a0c",
+    "MILD/HOLD_R1_K050/runtime_contract.json": "49c2f9d330c54a5a3ede39aa1c6d7b5d7cb51d819fe561025c1b17ec1fd83bab",
+    "MILD/HOLD_R1_K050/solver_run.json": "027b3d55b0a551c06b0d3ac73ed224524ded5e1e6682b5129f4af9d65f929347",
+    "MILD/HOLD_R1_K050/training_history.json": "fcf6f348af8aa3a8871ec348d507bd5ca36ed7f0a84cf1d2885c9fc48f0410e8",
+    "MILD/HOLD_R1_K125/candidate_false_negative_records.csv": "1200d39a9d04b505378d93cec99cb3f52dea0f72bf06a03fc5f5c67a36e20720",
+    "MILD/HOLD_R1_K125/checkpoint_diagnostics.csv": "1370009078d98601158ccbc19226cf22c63b0f3f698c29986fefb30764a7a711",
+    "MILD/HOLD_R1_K125/molecular_false_negative_records.csv": "bcfc1b939e641bb1207f3f35dbf3a962c62778e4c216da24eaa1f957bad6a304",
+    "MILD/HOLD_R1_K125/report.json": "666bd28eb5e8139039297f473506bdfc55de251ffbdb890b90a588d0c4a0c5fe",
+    "MILD/HOLD_R1_K125/reported_identity_records.csv": "71dd37908617519a070c52d25eb7cce31f215d81750dd320976ac2a2b7454e81",
+    "MILD/HOLD_R1_K125/runtime_contract.json": "8729a4e5efe125605e6c8fdfdbc2f53e6efb5f009e1af270184fa4d9911ebdc7",
+    "MILD/HOLD_R1_K125/solver_run.json": "562b3a08ce8051d9b8a9aabfddc39c699752589d24000aac9f0ff0cfcfcf562a",
+    "MILD/HOLD_R1_K125/training_history.json": "f5514e4327db3408b08fbcab889e745e96588a30d0c3db34bac6419d7a7901a1",
+    "MILD/HOLD_R1_K175/candidate_false_negative_records.csv": "3d8bfa40751b0aa80ecbf5c35966af73e828bcea1663e3b8f5fdb33d41599ae1",
+    "MILD/HOLD_R1_K175/checkpoint_diagnostics.csv": "56cad1eb52d5219c6c6182e0b778ac47fbe035ac97d57b48402e4699e8749e6f",
+    "MILD/HOLD_R1_K175/molecular_false_negative_records.csv": "e609a5906a55c0026c14bb901a9b8ee99e98fbf68c0b1736e0debf2fe113e7e0",
+    "MILD/HOLD_R1_K175/report.json": "2f4e6a4ea19075a5c29f1d3b25c23d01c1af5675a74293dba346efaaafaee992",
+    "MILD/HOLD_R1_K175/reported_identity_records.csv": "7e6b06c0d0f90f0cbac49997c58136bd5c8a2c81ede41cd95844bf526f813154",
+    "MILD/HOLD_R1_K175/runtime_contract.json": "7167ccd9fba282e7a6038508918a078fee1287394695dd4c179ee58bf276424d",
+    "MILD/HOLD_R1_K175/solver_run.json": "9c9395edc14fe83bccb55151d8e2a5c2970e6a63b4f0406aa8d821e41c755118",
+    "MILD/HOLD_R1_K175/training_history.json": "1b7b19b44044a206aba05e5597c83238f003ede360735320b80f4658e195cba0",
+    "MILD/HOLD_R2_K050/candidate_false_negative_records.csv": "7937646ef3d2b5d097a75c078a83bf14f71529515137ff48d25a0d4c94ce3a37",
+    "MILD/HOLD_R2_K050/checkpoint_diagnostics.csv": "37fc602c117dfa16a727c316586b8b397aa1b03bba07e567bb58adca3d3118ec",
+    "MILD/HOLD_R2_K050/molecular_false_negative_records.csv": "896c3c2ebdd54819240fa7c63e7b5fc94c6120f909d2413ca276149e540095bd",
+    "MILD/HOLD_R2_K050/report.json": "562c7d76d31004415c8cefd96b56329fbc2a1d3aa01a89f1cc9f20385225dc0d",
+    "MILD/HOLD_R2_K050/reported_identity_records.csv": "e232e1e622f97f7de973a4b93ccca3243219179746e543f0b65278caed75c873",
+    "MILD/HOLD_R2_K050/runtime_contract.json": "1c3174ca7f4543a64449ad3165c65db85653103845131add39b69dd76ddcd91c",
+    "MILD/HOLD_R2_K050/solver_run.json": "531bf9f0df6ca7c06bb3b82ca01e00bc2dc726546a6350e1f146b72778a0be94",
+    "MILD/HOLD_R2_K050/training_history.json": "b5277676a9c54d5777c171b56d701c800418ac2c9c268db4d57abafdc4002578",
+    "MILD/HOLD_R2_K125/candidate_false_negative_records.csv": "72ee428e1bca40a8590c704e1be47406a0bd59b22b40fc8d8b25dd806c879bc8",
+    "MILD/HOLD_R2_K125/checkpoint_diagnostics.csv": "8f5f579f52b9ccda11e221447738c9321d0019107c3e3c8e18d65dfa8e7fc032",
+    "MILD/HOLD_R2_K125/molecular_false_negative_records.csv": "900e0c6bb078622fe054cb4e9bb4a4ea5eced0bbc33607a44e66f4a6639f82a4",
+    "MILD/HOLD_R2_K125/report.json": "51e61d7aeb1eb4f25ff87d8bf8074ab9596c4735599ee16dc5533d56f968144d",
+    "MILD/HOLD_R2_K125/reported_identity_records.csv": "ce6d4e3115b37ee252286cb0ed91863deac6eb9f97486a81831574bd4d9b3973",
+    "MILD/HOLD_R2_K125/runtime_contract.json": "497507a4f68a8fa975688b2bfe2341063f11b1bb98d0f83e3ed036630f6217a3",
+    "MILD/HOLD_R2_K125/solver_run.json": "480b4ec4eec915eeb0eadd8cffd5e92a32f9be616f721d87350f3a160a6f3243",
+    "MILD/HOLD_R2_K125/training_history.json": "401a49135cbf84e3bb25ac548ca0e79901c741b694b74a3f2c1fd5fe7e7a92f7",
+    "MILD/HOLD_R2_K175/candidate_false_negative_records.csv": "985d1b1b2b0f6ca8a7fd3d8c98eeb0a9af6be354e3594177ea489d9d559250db",
+    "MILD/HOLD_R2_K175/checkpoint_diagnostics.csv": "e4a7262dda4c26a02717657322b814c5b96d7c3bda6faa2a3dc51262716caa6d",
+    "MILD/HOLD_R2_K175/molecular_false_negative_records.csv": "f30ee60d4ecbb67e971d5aba1bb125c69d6d169e5a057bc43b7a10fb484ad7c3",
+    "MILD/HOLD_R2_K175/report.json": "c89d667e28768d39bba5b66b9641c686540c15406f4458d5ab93315ad7dfa342",
+    "MILD/HOLD_R2_K175/reported_identity_records.csv": "58882d2ee59295f76a3dee5b648e29b4c04bcfbad3e27f59b4c937843d674a54",
+    "MILD/HOLD_R2_K175/runtime_contract.json": "1ee303f7aa89a25a0206bf0f39dc74552dc65d24d9a8513a3dbe087ccf4adf3a",
+    "MILD/HOLD_R2_K175/solver_run.json": "1e32b9b176f1879689e315ff4985e2f9b5d65640a4b58535db5c8a682f929e41",
+    "MILD/HOLD_R2_K175/training_history.json": "849cd0912e1ded45b170733d3b6358869d855694cc7c07ed2ab05f189228ca49",
+    "MILD/HOLD_R3_K050/candidate_false_negative_records.csv": "0b0467063093beae11468ba380720cba4d3c736eb00d5e34a50bd67545a23981",
+    "MILD/HOLD_R3_K050/checkpoint_diagnostics.csv": "69ce8c41f08dd3273fd074f7af37ceb2995e5d9464356fab01a08c9864a7f47a",
+    "MILD/HOLD_R3_K050/molecular_false_negative_records.csv": "88cf2f9caa58edc459e0ae6a452df120118961bb3efd38b41a587cc0b188c1dd",
+    "MILD/HOLD_R3_K050/report.json": "7076358960af26a287f39c04aedae81207c661bea15a3f62a2fdd2b8512450aa",
+    "MILD/HOLD_R3_K050/reported_identity_records.csv": "0c13f8adfcf9303405c3902b51dc0b93ced7baaf2d1dfceb97069327c46f4998",
+    "MILD/HOLD_R3_K050/runtime_contract.json": "9829113908a9def1ff2a369deba876d8074683bbd389de1c555344d8cfd85da9",
+    "MILD/HOLD_R3_K050/solver_run.json": "d88e4fc39a408229e8889cfb9b0b12b181202d61ac28375bf234289c489d537b",
+    "MILD/HOLD_R3_K050/training_history.json": "6e89885798b7c1116c00088d7464e742e47194cdd8c5d842d0ba4bbd6e0fe149",
+    "MILD/HOLD_R3_K125/candidate_false_negative_records.csv": "89d26f6eaaf197442ea952079e8bf47f6efbaee9cf38a40520c31febf41bed09",
+    "MILD/HOLD_R3_K125/checkpoint_diagnostics.csv": "8d6b17f7d98c05bd926cefbbe4ab511edbd0afc71b51f050dfa4babf8d805484",
+    "MILD/HOLD_R3_K125/molecular_false_negative_records.csv": "ef6aa898a4e5f5d55e6e9e2bf29a226acebc6c31aad85813a594c0c5f2c801cb",
+    "MILD/HOLD_R3_K125/report.json": "dbb7b411fad553d7bf149e0020f7a5201b183523072a4b3a082da6ce0e733eb9",
+    "MILD/HOLD_R3_K125/reported_identity_records.csv": "f32eb0c330209e7c2f957eae389de94a4139c0f35bfbbbc6b00b028610349cd2",
+    "MILD/HOLD_R3_K125/runtime_contract.json": "1026d0d1211db06c5792612d853220e2c48e6a997f2c46dde760546266521529",
+    "MILD/HOLD_R3_K125/solver_run.json": "356ef6511970a4a0a5bca1dc0d716aad20e97df216987f20c807c9d285fa7df6",
+    "MILD/HOLD_R3_K125/training_history.json": "5649bcccafc1c4803732367181b3c5e2d36879eda3d14ac9bb49c58a514eb028",
+    "MILD/HOLD_R3_K175/candidate_false_negative_records.csv": "1535716c6cb59f5812d37114297e5b547a917fe1e08aa90f202b9d5bc4648e1f",
+    "MILD/HOLD_R3_K175/checkpoint_diagnostics.csv": "bad46a080a1f912c2fe85774527c521243269ca941887bcd7a3b9667a0a2f154",
+    "MILD/HOLD_R3_K175/molecular_false_negative_records.csv": "3dd56378879aac3df6bfa6f170b881a1a1e945ba922bf7a8d660828f2439956d",
+    "MILD/HOLD_R3_K175/report.json": "aa24a58d84b725d181c5d6449c75d16d5cc18c7d00c04255f49c58a99a31e803",
+    "MILD/HOLD_R3_K175/reported_identity_records.csv": "a1e4c954786f39ad9690161aa4377532ce720a2968f3b2fce5d68f916c63e95b",
+    "MILD/HOLD_R3_K175/runtime_contract.json": "5a571cddccda62e343c7e10b00da8c2c141d3d4ceb6322ee2fa1cbf18f2977bd",
+    "MILD/HOLD_R3_K175/solver_run.json": "2c6dacf42134b518b8dc2413219627bb4f6306fa87fdeb79b6fd1cb794ecc5fc",
+    "MILD/HOLD_R3_K175/training_history.json": "bea710af43019842a23240c0551754a2a7ef77a4136c3f7f032840593d3087c8",
+    "MILD/HOLD_R4_K050/candidate_false_negative_records.csv": "064ef14eb33c6adde87e1456d69a0dffba6c63ed4cde36a2f177321a1f766f3b",
+    "MILD/HOLD_R4_K050/checkpoint_diagnostics.csv": "bdb51359bbef105f87dddd9a36f5d3c2af0d369641205ebbcc8de40ab822bd7b",
+    "MILD/HOLD_R4_K050/molecular_false_negative_records.csv": "8a4dd2365d24b5a1da92d2f04c9f62eef0b13ec33024619907f2e14b13cf9dec",
+    "MILD/HOLD_R4_K050/report.json": "4503e6a7c63994aa8adb4c0ece7d785164db850f724ca9e3f064ab63c8685c7b",
+    "MILD/HOLD_R4_K050/reported_identity_records.csv": "be51f1ffb9c24718fbf05e55049251faf176a1ae25726e09d3f5babbc14ff2af",
+    "MILD/HOLD_R4_K050/runtime_contract.json": "1c95300294d6048cff5ccc12c34a9fb66baf36bb563820fc4254ca047dafc12e",
+    "MILD/HOLD_R4_K050/solver_run.json": "4b302e67539803861ee9267ab070a0308199fce91cbf303b43ef11775bac3f7c",
+    "MILD/HOLD_R4_K050/training_history.json": "ccf91285372dba8036c85d9e4a766fdac0e10b564ae72f0b47ef30bb0bcb5fc5",
+    "MILD/HOLD_R4_K125/candidate_false_negative_records.csv": "142f7bdfc6e6d593eb728c22612c580be6abfe91bbbc04bc90e8e758714a3eeb",
+    "MILD/HOLD_R4_K125/checkpoint_diagnostics.csv": "924afc206d9d18b7a52097c54b94f2eae29e90304a65e947bb9e2d1acf57e76c",
+    "MILD/HOLD_R4_K125/molecular_false_negative_records.csv": "96dcd1d398a246a34340a3641c5b7a45e37b3b9c90a7ef7f99738e3a95c9b449",
+    "MILD/HOLD_R4_K125/report.json": "a17d3abb356720ab31bfc3db89b7061c9d5030a70a1ba15b6099e56a37d1e48c",
+    "MILD/HOLD_R4_K125/reported_identity_records.csv": "06967ace7e08ade856c451503c3c4672c7b9627e4f983d64be6e5dd4c9288782",
+    "MILD/HOLD_R4_K125/runtime_contract.json": "8ab440c7631203f44b1382cd14836f382de0ed8545cf2742388cf7f068dde8f4",
+    "MILD/HOLD_R4_K125/solver_run.json": "9d294721249a250b16085e366585282ef39704db8cf25f116366a25db8e88708",
+    "MILD/HOLD_R4_K125/training_history.json": "78212bd82ba7bb7f13767ef6e6401851f946b96a98456d78bf2535d5e811fef8",
+    "MILD/HOLD_R4_K175/candidate_false_negative_records.csv": "6aac7d889d7372f3d9e6d161f79872734ae83f606d7c192392185dcf5f0b7a42",
+    "MILD/HOLD_R4_K175/checkpoint_diagnostics.csv": "d5b61b028bc23d645336fdae8a4e10e7891b73a2b9e1b811796e6184f34dc5be",
+    "MILD/HOLD_R4_K175/molecular_false_negative_records.csv": "f0bdff0767e30675b236a20cb80560cdadbc4fea4f548e6e22d596c1ed7ce3b5",
+    "MILD/HOLD_R4_K175/report.json": "f1fc86fccab819f5cd2286fa580f55389d5ff9876f098cd397d081664a831ccb",
+    "MILD/HOLD_R4_K175/reported_identity_records.csv": "526f1c94060d97b509185fdbaf8604fcaf38ac6d41fea803dc9997978f417cf4",
+    "MILD/HOLD_R4_K175/runtime_contract.json": "e326f3ab663ee656ba17a1c79a3076ed34184484a8512a51d08faaafcf3ace5e",
+    "MILD/HOLD_R4_K175/solver_run.json": "8d215b717c3b8f27f02cf14c764a9417a7ce0428728928ba7c66e7627f6d23e8",
+    "MILD/HOLD_R4_K175/training_history.json": "c98a1bfc77470c573898a90e9dc6bb2e4b2e3180e32d293d1abee1b6d6504cb1",
+    "MILD/HOLD_R5_K050/candidate_false_negative_records.csv": "ec7d8db8e8b108d3773da451ebaa52398d1be6cf5fc0454502db941d9927fa98",
+    "MILD/HOLD_R5_K050/checkpoint_diagnostics.csv": "4b537931f15ec0ebd3b470d391815d4dc0bd85a47fa45d4421a7778b40f0e67e",
+    "MILD/HOLD_R5_K050/molecular_false_negative_records.csv": "df4911e1dd25c30194894c5322b34269996b60aba158a3a8e1498a3686896fde",
+    "MILD/HOLD_R5_K050/report.json": "dd5c576b83951e3e3ca868143b4ece13c8566869c8f28f481b9f8cb382434050",
+    "MILD/HOLD_R5_K050/reported_identity_records.csv": "9866d1853ad20bf103e11e2762b2acc618c7d8b1661486b1cc519b015549b1cb",
+    "MILD/HOLD_R5_K050/runtime_contract.json": "27478ba4c31c9db4fb7e46dde05202a755f56b0b6fa5aa5641ebdd9f83a26cf2",
+    "MILD/HOLD_R5_K050/solver_run.json": "8c5b63c6b35d220ebb3403e865f08230e73387e8d601362c5e3899dd8bd9c23b",
+    "MILD/HOLD_R5_K050/training_history.json": "1c6ef797213b1718e6f127d79eaf1b14b8a1f484e45f110476dface441a90c9b",
+    "MILD/HOLD_R5_K125/candidate_false_negative_records.csv": "3c7b22468138552c6a3a1b4c2e894498a486d0c8e4f9bf04d06d9f2045630544",
+    "MILD/HOLD_R5_K125/checkpoint_diagnostics.csv": "23ee20c270e6fa17767b56c39db5dc69bacf93fea9f300616a769ac36abe1fb6",
+    "MILD/HOLD_R5_K125/molecular_false_negative_records.csv": "588a7c7deeb5baf4395faf9e5a8b0b989aa09563508f78292d24425a427c4513",
+    "MILD/HOLD_R5_K125/report.json": "33bf820caedb9774c978082a7896e746ee46a2374e66079fd56f541e984346e9",
+    "MILD/HOLD_R5_K125/reported_identity_records.csv": "f662da299265f0f8969e81e77d5856a486980e5d5b3f23710913cf57475cb76b",
+    "MILD/HOLD_R5_K125/runtime_contract.json": "45ded926227969a148a420da6d12e01aefdf1746adadb36a954b55ee23297dc0",
+    "MILD/HOLD_R5_K125/solver_run.json": "16a0149f10698ad7dec763e856cf6c8a858d793408e47031cd59e7d579b98305",
+    "MILD/HOLD_R5_K125/training_history.json": "28faaff829474eaebb399faad678cb051bd0ddca9f37d7c4ad4790dc80f25bbc",
+    "MILD/HOLD_R5_K175/candidate_false_negative_records.csv": "d8164b0b37e3becfb81c18c89b2350006957eb2815d8baaabad3797432198e03",
+    "MILD/HOLD_R5_K175/checkpoint_diagnostics.csv": "bd8a32b3639895fd0bf54bfa2c2d422706de9d2e4f521cda272fb2548937e8b3",
+    "MILD/HOLD_R5_K175/molecular_false_negative_records.csv": "823ffd260e09db508f740539332c14bd924318bb74edea54ada4c1c86e3ccf7a",
+    "MILD/HOLD_R5_K175/report.json": "f534f3a3ac808005e950f42970d6bb9a8d7f1f19e4df4ed9509d5f5fa6d897d4",
+    "MILD/HOLD_R5_K175/reported_identity_records.csv": "8d3e57feff4c25163d621daac8f7e81ddd59a1ccd2cb17634cbf308ef041a022",
+    "MILD/HOLD_R5_K175/runtime_contract.json": "59e46aa3cd1a1af8f2fc5df1dfcc6ccb4d248ea8e0c8554e22c9bc32e04be825",
+    "MILD/HOLD_R5_K175/solver_run.json": "6a945646f1481f5421c80d5a0faf35e56f067429ec71090d008c0e8bcccbe4be",
+    "MILD/HOLD_R5_K175/training_history.json": "538b24ceb5069ce454766bcfbdabd24ff7a2def7d9e0ec8aa3c695e9093e4128",
+    "MILD/local_frozen_thresholds.json": "a00208a399403e9387edcbab8d36554ef3b571aa2dc25822b1f51573a1cde20c",
+    "MILD/local_threshold_freeze.json": "8bdf48047a4271d750ad62f7c8b1809f35bb74043547d08f65af866cfe49ca24",
+    "MODERATE/CAL_R1_K050/candidate_false_negative_records.csv": "bcf9452af0fe6c316d1d46a0f4d5ca2125d574a89ad7d25c7782e48b99ab8f7c",
+    "MODERATE/CAL_R1_K050/checkpoint_diagnostics.csv": "182807fbbb0679527412d16d463c3d34bbe99623f3fd845c86c40afbe06afe56",
+    "MODERATE/CAL_R1_K050/molecular_false_negative_records.csv": "f07fe0698ded1dd823ac4b1606e5f723476c1fd3baff1e302d551639feb62c49",
+    "MODERATE/CAL_R1_K050/report.json": "6ddf01284a9930adabd7bbb3a2bc1b818d548352b7451f08aed060a934cceff8",
+    "MODERATE/CAL_R1_K050/reported_identity_records.csv": "c6ee82c102ff22286a8ddf59302b89c249fd7dd48bbf5bbb0b8429d716d11a05",
+    "MODERATE/CAL_R1_K050/runtime_contract.json": "edcd33df8c2eb07d36723b80f9798958bdeb078f87e7232b785d69e1a6711048",
+    "MODERATE/CAL_R1_K050/solver_run.json": "ec17e95adb7c705cc2c7f7eac5a24227b189dc60d3ae812ceca66ec29765ae4e",
+    "MODERATE/CAL_R1_K050/training_history.json": "27eae64a7ac8c5061b1ffefd2fac7b8e6e7be2f702990cd93cc978619c59cfa6",
+    "MODERATE/CAL_R1_K125/candidate_false_negative_records.csv": "be0a8cd9798a88ede10335b570529f685a027827e50696bb670e3f3b40d18d8c",
+    "MODERATE/CAL_R1_K125/checkpoint_diagnostics.csv": "05d129102c84e738bd8d36ff0ef982fd0ea79b35566c5205792d208cd65258f3",
+    "MODERATE/CAL_R1_K125/molecular_false_negative_records.csv": "1a1e6c6ac598c69af0c3e59c15bba2b02cee2b56cd9ad0e9b6214fd795658131",
+    "MODERATE/CAL_R1_K125/report.json": "abc672b53ead3389b3ed1626a8afd53050339581212eee0d773cc5aa65ae6f0b",
+    "MODERATE/CAL_R1_K125/reported_identity_records.csv": "5eff9d7986f603b49b9d604a015cb512c1a93f05df38460b11689a8bbfcf9f6f",
+    "MODERATE/CAL_R1_K125/runtime_contract.json": "d5c92ac4014e820a0670c3fd57ee3a252fd8c5e86276755f34b66cc297abe7a0",
+    "MODERATE/CAL_R1_K125/solver_run.json": "65a461a33944505668fa3ff7950ca3baae581c1a8433e7504744d203300ff893",
+    "MODERATE/CAL_R1_K125/training_history.json": "eeb809c022379f22d5457e35bad3cdd4ec41b8b9988352fa55640ff70d3f91d3",
+    "MODERATE/CAL_R1_K175/candidate_false_negative_records.csv": "480bd2f7a13e14be5c899d8f2317449ee1ba4a70359559148eeb5ef6b7f7d149",
+    "MODERATE/CAL_R1_K175/checkpoint_diagnostics.csv": "cfdf00387a47d288e052a7b54ae13c8e9789a20c2065f3a6baf274615fdf9118",
+    "MODERATE/CAL_R1_K175/molecular_false_negative_records.csv": "0e1c0a63ea36d654f2f1cac72f127ec93fd7cc3a0c51e87aaf5484e7c3138317",
+    "MODERATE/CAL_R1_K175/report.json": "7cf0f2d91a5e46a54af0ddcd541a2d6e03e2485e7d5c69ce294fd94a2ba35a8a",
+    "MODERATE/CAL_R1_K175/reported_identity_records.csv": "b3f97857811c6c8cc0f53bc2140ebd13c186be4210f0aa81afd0c8d0d51da53a",
+    "MODERATE/CAL_R1_K175/runtime_contract.json": "a60541e408b4cc6bf68bb0dfc1d79b936b536a9545cc811f23c24e9b94c8423c",
+    "MODERATE/CAL_R1_K175/solver_run.json": "2a711a0da7d138d2ed64c04c10605d6756e898e217d68205fc7010c96c9611b2",
+    "MODERATE/CAL_R1_K175/training_history.json": "f1d4826e67b7d1404cf963f4296f2edd124e6ba1c46e870f73be8c2cb2ffad6c",
+    "MODERATE/CAL_R2_K050/candidate_false_negative_records.csv": "a9fc4cf190f693f2cbf2ccc6a9e93d43a04105386ecf76a08a1b2e66c8d8b44c",
+    "MODERATE/CAL_R2_K050/checkpoint_diagnostics.csv": "7efef1452e1f74c6739fabd617f40633321cd0242a8d6b9ac48260e26098b021",
+    "MODERATE/CAL_R2_K050/molecular_false_negative_records.csv": "d144a15d52641ac99ab51206a358482d04003d2ef288d803010cac3b56d380bf",
+    "MODERATE/CAL_R2_K050/report.json": "625b623c910290a7baead8b5bb1f02b83a545fd895eb2d2abc92f5e3cb20b32d",
+    "MODERATE/CAL_R2_K050/reported_identity_records.csv": "5fb1d6fe26c691123a75e44f0780f10fc50a331d74173f7b0f9953a71a484e44",
+    "MODERATE/CAL_R2_K050/runtime_contract.json": "755cd18bde83c6ccb33116bf556968ce9c9bc88ae182486217f3ff26adc0a5da",
+    "MODERATE/CAL_R2_K050/solver_run.json": "ce4f1901f90661a3454e53374b41cac8b69b622258fb64af6f7391de00e74a6b",
+    "MODERATE/CAL_R2_K050/training_history.json": "cc6084da28a294fa06f6330f3af4d5f5b827004393e2d2f0af45f8a208d0213f",
+    "MODERATE/CAL_R2_K125/candidate_false_negative_records.csv": "d708ad43ee1551c177af4cf215033da55feade5aa30d96e01b3988309b475d54",
+    "MODERATE/CAL_R2_K125/checkpoint_diagnostics.csv": "b2fb012f68e7fa6b4d96a10372399bac5f3ddd971d97742abfc9a6a591b9c367",
+    "MODERATE/CAL_R2_K125/molecular_false_negative_records.csv": "92528836b59770ccb44dbfddf808ded275c041cce60087a0e9493a21964e1c9f",
+    "MODERATE/CAL_R2_K125/report.json": "fd13ec908b383b2003442560bfd0612f7ef66f0db01caaef325567335bed90c7",
+    "MODERATE/CAL_R2_K125/reported_identity_records.csv": "7ec613e42364a446a4476df4cdee6a6edd3ba992c53af0a25e2c47587fa1863d",
+    "MODERATE/CAL_R2_K125/runtime_contract.json": "9728361b353d671b6b119037ddd265313fa10d890baca38974c3420bf0895426",
+    "MODERATE/CAL_R2_K125/solver_run.json": "7e35c52f4bc6bc996fde4a5beaf83ff27d27fc12019bccddf93541327adc9159",
+    "MODERATE/CAL_R2_K125/training_history.json": "43329131a23a7ed84894955a99fb487e3c30f5ebe0628853bf273a002393e9f1",
+    "MODERATE/CAL_R2_K175/candidate_false_negative_records.csv": "cf218e98a3daed7329c50305e17b3aafa53c458f62ea451f6c4dbf73f302bbfa",
+    "MODERATE/CAL_R2_K175/checkpoint_diagnostics.csv": "28ada7072c05f17aa0c6c5ae266da8bea953871ae1b937b01064154118118d0e",
+    "MODERATE/CAL_R2_K175/molecular_false_negative_records.csv": "7357f7c020011c1b6874fa39692c23ad94a7f7ed3898495310002daf7d008af3",
+    "MODERATE/CAL_R2_K175/report.json": "d3552344c0a5ef5e476aad7d14263f92e2b04363da9c71f825e8bd7fe3b5461a",
+    "MODERATE/CAL_R2_K175/reported_identity_records.csv": "546aad0013716a058ce30dbc319debd06ebce82a65ba55d4df776e4b74619a3c",
+    "MODERATE/CAL_R2_K175/runtime_contract.json": "8eaf75b5fe12f72098adfe78474cd7216a56101c09ccecca51f579301c57e3a5",
+    "MODERATE/CAL_R2_K175/solver_run.json": "d1c37f6a78ac242b1be81bfc21673497834be37b810db79b8aa0d47691c1af13",
+    "MODERATE/CAL_R2_K175/training_history.json": "985fb5541b899ca9d7242850775cd982b700978c47db6c49fad220af3af8185e",
+    "MODERATE/CAL_R3_K050/candidate_false_negative_records.csv": "ccf0f2eacd0c70b82fc2ee2f42e411c0b6366d05833a69556e34d64ecaa35865",
+    "MODERATE/CAL_R3_K050/checkpoint_diagnostics.csv": "e6e742c8efa7927be12d22920aac1990cf1954e836b24e20d3070b21d57af574",
+    "MODERATE/CAL_R3_K050/molecular_false_negative_records.csv": "3944c8639a90821bde16d6cc7bc9dabee264a040f037eef8a99bd0c587ca3cc0",
+    "MODERATE/CAL_R3_K050/report.json": "83fa722dda4838b8b4fc1268beff18c6907a06bf928d7d19464e1a506d74e112",
+    "MODERATE/CAL_R3_K050/reported_identity_records.csv": "8712c7d45879a36e21651b143876e3a779bfced7690079178df5d1d2918e295f",
+    "MODERATE/CAL_R3_K050/runtime_contract.json": "3e52159eb5e82458569ef586cd5ab6c20551ae75fdfbac3605c363c40d663e4c",
+    "MODERATE/CAL_R3_K050/solver_run.json": "8af7b617bc1e466d78fe590b27d01df2d5560d7f68e853554cf84d8664a40b0b",
+    "MODERATE/CAL_R3_K050/training_history.json": "aaf9ae91f58fe7cc041d808d80e8799c276c9e89414d17ec3aa67a46309234c2",
+    "MODERATE/CAL_R3_K125/candidate_false_negative_records.csv": "30fa3b3274762033259f5d3562406bf886506398915c182b9fd326b93ed46118",
+    "MODERATE/CAL_R3_K125/checkpoint_diagnostics.csv": "2f60f6ff3c7fe6db3f5d9ccccb651c049c2109a4ca07da17c5b67fa7e1e7aea2",
+    "MODERATE/CAL_R3_K125/molecular_false_negative_records.csv": "a6bb6d0bcd9f83003311430ec3d7fad414695f7759e224e4f9c545740d75deaa",
+    "MODERATE/CAL_R3_K125/report.json": "df65f563d7a4a5f7e68278942ea591bf2b8af8718dca1e5904acfe5f251b1061",
+    "MODERATE/CAL_R3_K125/reported_identity_records.csv": "76b16443339359f291249114e21227a02dac42aab3889500ae0c470394cb265b",
+    "MODERATE/CAL_R3_K125/runtime_contract.json": "2adf0d1e0bc00b2fd11249105142e61e7692e8a9ed6c71a7c6130866f0e13997",
+    "MODERATE/CAL_R3_K125/solver_run.json": "6d797d87f86b45d53c4fc764343cde6db56e5c78586e99d8c581b660589df04e",
+    "MODERATE/CAL_R3_K125/training_history.json": "fb9bc7ed17592419aed99ebd78531da075dd585e221c2c83140b11c913d6bcd0",
+    "MODERATE/CAL_R3_K175/candidate_false_negative_records.csv": "645a5d4b3a89a233ea63519d05c433fd64054f666fda77e55dfae68b3966a7ec",
+    "MODERATE/CAL_R3_K175/checkpoint_diagnostics.csv": "299597b1efb65d4ceaf4debb30ac2e5331c63cc72ef58b5c5b4a0ae4b3875e23",
+    "MODERATE/CAL_R3_K175/molecular_false_negative_records.csv": "c05296454838aaa79cc9a79475dfe46d98dde986b7a566611a181773b39b1b01",
+    "MODERATE/CAL_R3_K175/report.json": "b1c14085e829da603ddc8424811e4eda62aeef68e442b7cb31b1916bb9ca5738",
+    "MODERATE/CAL_R3_K175/reported_identity_records.csv": "9d5c8353385ffa90cbbcfbef5c03e02ad4d782f4910da579bc6658c4d4a767cd",
+    "MODERATE/CAL_R3_K175/runtime_contract.json": "d52b3d6f55236ac82d2591d12efd49c45cf1264d132637c7166ecd707d37fe75",
+    "MODERATE/CAL_R3_K175/solver_run.json": "d1c30bc15d46c6301d1a329cc1c6f029dab94abf34a891e335a4b394c1ff932f",
+    "MODERATE/CAL_R3_K175/training_history.json": "99b72727402d253b9efeb1edc14c3c929bf4e7b870c137681b3dee4a22574349",
+    "MODERATE/CAL_R4_K050/candidate_false_negative_records.csv": "3c8d8e3ff176ea59b44ff62feb2a53fb49b8fe93dffaf3ae867c7982632ef131",
+    "MODERATE/CAL_R4_K050/checkpoint_diagnostics.csv": "5cf6bf211c9b24f1035bb95223a7eca477d195705f148fca4564fcf731fbcef5",
+    "MODERATE/CAL_R4_K050/molecular_false_negative_records.csv": "8e30568286c45e0628154970046ac79c9d13dc94e5ee05bff62f17a05f1ea5fc",
+    "MODERATE/CAL_R4_K050/report.json": "d0dc96a1cf7ffe0c02abb2d43dc8f8cfa1f9714c367ea5c43297c1501d904e00",
+    "MODERATE/CAL_R4_K050/reported_identity_records.csv": "a620662bdd3b1df9d1fd60b521d5a5874a3d5a678ed459f4ef8ecaf4461a9015",
+    "MODERATE/CAL_R4_K050/runtime_contract.json": "2a17d63dcddfd8f0999bbbeaedc076b89ddee55204975c41d1b59b98c46e787e",
+    "MODERATE/CAL_R4_K050/solver_run.json": "e6101d1fd0cfae3f03965acd2fe5543c703b3e43a6c5cb1ecf70fcd52c81c77d",
+    "MODERATE/CAL_R4_K050/training_history.json": "c1cc0bc4c8294a81575033cb73576c49e2bc0200566a83b3ce5ac7c6426422ea",
+    "MODERATE/CAL_R4_K125/candidate_false_negative_records.csv": "e9cbb5960585d2811968d1a55f90746481de2d289cd8fb48d11a45d9108f37dc",
+    "MODERATE/CAL_R4_K125/checkpoint_diagnostics.csv": "d6950d1332c48b2afcd029f737a2c1c652627292ee2efc88c25e3ae255d72c55",
+    "MODERATE/CAL_R4_K125/molecular_false_negative_records.csv": "6294af3486fbe75e8d0e7e7a3fd50bf67d49dd77846f49c0168dcfec4fcd7806",
+    "MODERATE/CAL_R4_K125/report.json": "5ab8ef1dd065a441507050bd0ecb472afa1d4d49a15663db496a76c2af476844",
+    "MODERATE/CAL_R4_K125/reported_identity_records.csv": "96206a7936f653b8c0de99e3a7c68d8b19e0376f916b4125a02e8f69066a23b6",
+    "MODERATE/CAL_R4_K125/runtime_contract.json": "f60f9a9ecbea539d05cadf7ec7fd3c2ea7d93d3ad84fd782e124ad262f04f52b",
+    "MODERATE/CAL_R4_K125/solver_run.json": "ade3356cde39128a0e1959a054120e4e12678ef51707a8e231f1da0d5aea6ed3",
+    "MODERATE/CAL_R4_K125/training_history.json": "62cd1f54ccab34657f87d32022353840357eaec626222352f95a506cd3a6d088",
+    "MODERATE/CAL_R4_K175/candidate_false_negative_records.csv": "1bca9cce4daac680ef61471981ace885e5789317718d59af6314501520c3e89f",
+    "MODERATE/CAL_R4_K175/checkpoint_diagnostics.csv": "46f648da0f17d1188667df8b3c4674de539061ab987f95747f1e3168addfc17a",
+    "MODERATE/CAL_R4_K175/molecular_false_negative_records.csv": "fa8de861ea039a6d9b4c3fc8fedace5e9188c489aff5950e887a4b191917ad78",
+    "MODERATE/CAL_R4_K175/report.json": "bff6806e621405b1fe75829d7baf4863c610274357b2bec45b528d5b2349d7e0",
+    "MODERATE/CAL_R4_K175/reported_identity_records.csv": "cab57624c72976ba244aed56e53514708b03481552c59a382fa8c04d1cde3901",
+    "MODERATE/CAL_R4_K175/runtime_contract.json": "81a6626d9e92f769053ad2af7b1c4790485c53fc9b813fbd960e99e2256d78fb",
+    "MODERATE/CAL_R4_K175/solver_run.json": "a852127de2150da62a91dbbcc74b12ee0c81d70fad56d75799f7f6ac51f5f9a3",
+    "MODERATE/CAL_R4_K175/training_history.json": "d345fc37916b4fd70a94e0c197f9f62b5048b9882068731516aba66236ee1205",
+    "MODERATE/CAL_R5_K050/candidate_false_negative_records.csv": "6a4768aebf605f5de2a181c4687fd8b2e108cfe8a4fc4b26de34c696094c81a7",
+    "MODERATE/CAL_R5_K050/checkpoint_diagnostics.csv": "ff9201a95da4b27bfadd077cca6971b08fb0bacb1d3adacad528cfb9c669ab3a",
+    "MODERATE/CAL_R5_K050/molecular_false_negative_records.csv": "f713a937633d2182145fd2c9a38bcf53802c292411ac863428d7e1d7d9c83b46",
+    "MODERATE/CAL_R5_K050/report.json": "8d3230d8548fe1992c66bf608d0494ad310c7fe3fb47aba7974c90c5691ae2ef",
+    "MODERATE/CAL_R5_K050/reported_identity_records.csv": "9afebb9de4a9ca1d819ab214099001c69246aa66795326fa15cc6ec0e9b46183",
+    "MODERATE/CAL_R5_K050/runtime_contract.json": "4a7413d427a11d21e50711a6524f9c6ce5134c9ff3f67e84d519b5a43f5a6fac",
+    "MODERATE/CAL_R5_K050/solver_run.json": "b3555c77ceef58ea914e414ce6aadc781b02223e6cac934a97988be0c3f5283a",
+    "MODERATE/CAL_R5_K050/training_history.json": "85d028522098e1d3f524a89c21040deb086e8479c7d98a0455287c2afbd69404",
+    "MODERATE/CAL_R5_K125/candidate_false_negative_records.csv": "dc7cd4005fddcefb51057a59bdcc08167030a24918b2d5a5c7150c3f447154f9",
+    "MODERATE/CAL_R5_K125/checkpoint_diagnostics.csv": "a5028c2ab7a1ccb93793d763583d04877731ac3f2ad95e6ac50884181c8b2866",
+    "MODERATE/CAL_R5_K125/molecular_false_negative_records.csv": "f83f4b0b3df143c8966f315e47778ef05d35b9b189bbaedbc771a92580630fe3",
+    "MODERATE/CAL_R5_K125/report.json": "7cf12e61fe7d94e168130c652e3cbb782abe0666a9e2f127fa076a24ef252581",
+    "MODERATE/CAL_R5_K125/reported_identity_records.csv": "3edef959adb2dbb593ed90cfbe97e94a78e6b43583bd3e23f0eea85b64bef828",
+    "MODERATE/CAL_R5_K125/runtime_contract.json": "ad386eec35d454454c2e6f0770407ef75e9d0ba2f98e472c45411bab3c0c4a6b",
+    "MODERATE/CAL_R5_K125/solver_run.json": "f5f873f7f4f61a2ed95ef026422eaf0c39a10a654416293b5fc748b92ac82a28",
+    "MODERATE/CAL_R5_K125/training_history.json": "387c454ca005329f7152f75493c88f470e0571f8d95298e233d81338532fe34e",
+    "MODERATE/CAL_R5_K175/candidate_false_negative_records.csv": "0234def31f1bd38def67c65aa7ff52fef98cf7ff2b4a11c0b271602fe5e2ad01",
+    "MODERATE/CAL_R5_K175/checkpoint_diagnostics.csv": "ecfd2e31593ebb74293757e7a994532b74f428c877d94b1dfaff225f7c8edc54",
+    "MODERATE/CAL_R5_K175/molecular_false_negative_records.csv": "edb965ad90e1aa6e7bc05b4840b7ad352ea280209600595838e6fdbec04eba2c",
+    "MODERATE/CAL_R5_K175/report.json": "e83be1ffc053d92015d71dd301beda84c6281c7a50eef46c919cf89e32be8186",
+    "MODERATE/CAL_R5_K175/reported_identity_records.csv": "b94cc0a5a4bd3cae97d3b65f689a8d404593eb777ee41970427b6c1348c46ccc",
+    "MODERATE/CAL_R5_K175/runtime_contract.json": "4e6b2db531cb2c64e77ef557051bc978352b03e484b8138797364e10d6ce7020",
+    "MODERATE/CAL_R5_K175/solver_run.json": "e277ee98c548b9cbbd6c0f2c181c0023e60913036996b25792736cce907002c2",
+    "MODERATE/CAL_R5_K175/training_history.json": "1299e4a9cb489d320335b5fdcd59c205101599e5f18275bc797cf7326beda282",
+    "MODERATE/HOLD_R1_K050/candidate_false_negative_records.csv": "897230ada07d2b5b8a89ad83744927ad40d31f28ef7f33d0d56df63f672ba429",
+    "MODERATE/HOLD_R1_K050/checkpoint_diagnostics.csv": "8cc79b2d3c1bc7a590eccc78ed750d68b4e9cf1a1d3b2c104211dceb9d1f883d",
+    "MODERATE/HOLD_R1_K050/molecular_false_negative_records.csv": "579c2c5c4881558907f9ea585062cd5bdb5fa969a9e8d4cd209c7d824ed76fb1",
+    "MODERATE/HOLD_R1_K050/report.json": "815975afa068a753f96715b9909a50352e6854833d14e5fd336a7d2dee4e2f92",
+    "MODERATE/HOLD_R1_K050/reported_identity_records.csv": "e2b137af17cbf4e0189826b72179b34ed92172819431a5a501e7b6f024a261e3",
+    "MODERATE/HOLD_R1_K050/runtime_contract.json": "9627f9fe9ae7218d371a4c1ddba2e8b08a5fca10b8b92601193a66a152d21bf2",
+    "MODERATE/HOLD_R1_K050/solver_run.json": "0e60cfeedbd630ccca7378a5739857623b55df27678b42083dcbff25dcdf3ea6",
+    "MODERATE/HOLD_R1_K050/training_history.json": "efa9d2d3ca0b148ad2f279e41a02c9746a3ca85f7fe78b37b1735b1a494bc4c0",
+    "MODERATE/HOLD_R1_K125/candidate_false_negative_records.csv": "9c807b0b9fdfdfdd45e7684087895dbeec686b40cef9a494b9ba31d24f97070f",
+    "MODERATE/HOLD_R1_K125/checkpoint_diagnostics.csv": "e034577fc2cfd54ac57e6f2d6cf0cc984cfedb610648c0cf0379b73b4acdb040",
+    "MODERATE/HOLD_R1_K125/molecular_false_negative_records.csv": "4d9ee9e45852cfc1853577a0f3bae7d2afe7a9b7e1b4d6c84a882772fbe0dde6",
+    "MODERATE/HOLD_R1_K125/report.json": "83705fbec634e7c8ea9940a19c1807fc74d644009509204e049c24041604f6dc",
+    "MODERATE/HOLD_R1_K125/reported_identity_records.csv": "2abf34ccc27d52da79eea0a47a8f27327993afd962240eb496e0d9341e8f4df9",
+    "MODERATE/HOLD_R1_K125/runtime_contract.json": "8bf973cf7178d4e0ff0b4710c195432de5c4f5bae5376cea0877d9a83c7ae488",
+    "MODERATE/HOLD_R1_K125/solver_run.json": "9669a58c61480f862887c49250ab4cd628eedc5e26fab249878ce2105b4d376c",
+    "MODERATE/HOLD_R1_K125/training_history.json": "6faaef0456405bdbcf9142034412ea4e060b3ea182095dca92a47f1924451067",
+    "MODERATE/HOLD_R1_K175/candidate_false_negative_records.csv": "99df528e0913732d03fe4331bfb8187f67b9da4aa0dfcf44187b1b5c3b0b25a7",
+    "MODERATE/HOLD_R1_K175/checkpoint_diagnostics.csv": "de018424de38802e4f60a5fe71a7c546fe4873b439a06bab33e5eeccaaf42a40",
+    "MODERATE/HOLD_R1_K175/molecular_false_negative_records.csv": "76ff9f9045e69f99e89bc83e3acaef0f862c9291632afbf5f47b28332e055507",
+    "MODERATE/HOLD_R1_K175/report.json": "8bb94d0d9037e077d3834b4a4087710d7dbb0fb914535598650f46fd8ddcd311",
+    "MODERATE/HOLD_R1_K175/reported_identity_records.csv": "1337a88235929e81ebe19ea6e217654ee19b1bf345bb7f14393c1ba84ba8eaf9",
+    "MODERATE/HOLD_R1_K175/runtime_contract.json": "90d4a80799a4c7ec0e37e7e9b081dcf270d5f5ba86a4e6ec52b831a7545282a0",
+    "MODERATE/HOLD_R1_K175/solver_run.json": "0519cf6f9357c8e99df21c7b648e7932a1d1c7170e80a98e5120c1a5cced1240",
+    "MODERATE/HOLD_R1_K175/training_history.json": "684cd335bb0f46ae87aa6f6c7feb83e8d9207fdc6e62f3fb310bb4a3ee351bed",
+    "MODERATE/HOLD_R2_K050/candidate_false_negative_records.csv": "354d5917714837b36e3f7ddd4515b34fcfca271bf11426db7d84eba6d6b23fe9",
+    "MODERATE/HOLD_R2_K050/checkpoint_diagnostics.csv": "60d23aed3885a22ad423aaf29188bb934a44e48a4a0718982aa4853ec56d5ded",
+    "MODERATE/HOLD_R2_K050/molecular_false_negative_records.csv": "5ac177e01d047f4e1ba5b8d16f69e6c83f4051b7581e7aeb5284e891c7e465ed",
+    "MODERATE/HOLD_R2_K050/report.json": "136a29dbafc7b5edc45b0af51b5055e6ee2238da2f869187ac7f6eb35b27f1c5",
+    "MODERATE/HOLD_R2_K050/reported_identity_records.csv": "cfbe808ec48f7a9b6da3ebc7bbb035449b4cbf70d3577c8192770d754f0b23c7",
+    "MODERATE/HOLD_R2_K050/runtime_contract.json": "099a3b80541d08e0d203ef1b9632398490e5978555ad98e003a505b5f1d87ef1",
+    "MODERATE/HOLD_R2_K050/solver_run.json": "c9bb7ddd6042a51add4f7ee4a8df3f77c0c99b40607c32efa4edd8482b902ad3",
+    "MODERATE/HOLD_R2_K050/training_history.json": "9061d5c83ebbf004166bfbd682e2f9d893c7ffa5dcde7328179ae0f786c81ef6",
+    "MODERATE/HOLD_R2_K125/candidate_false_negative_records.csv": "559472ab0ff5a355166b0065c9f84e922ec9a7f75983a6c816cb5d3ca293f4f5",
+    "MODERATE/HOLD_R2_K125/checkpoint_diagnostics.csv": "ba2f8484a25341f294ebbca5a0a7384f374795eae0a2a08d1a6d5997f7f98a42",
+    "MODERATE/HOLD_R2_K125/molecular_false_negative_records.csv": "18d5f254989c26a44666a613547904253b06c507a3efadc3365c4ab69e88c8e9",
+    "MODERATE/HOLD_R2_K125/report.json": "230e4402d3503cbef1f3fd1837f4d8da88e1cd7b0ccc04c8f6f2fd006ec18d6e",
+    "MODERATE/HOLD_R2_K125/reported_identity_records.csv": "5cacac54111c5785a19b556d067751ff655187ccdbbf18c130af1746d68f8ff2",
+    "MODERATE/HOLD_R2_K125/runtime_contract.json": "b7359a3f88fd249e4637d03b25d82dee698b12f861cdfd31a615cbfe7eac9b6f",
+    "MODERATE/HOLD_R2_K125/solver_run.json": "e58d6c12b42f039c30f6faea3059c43d42d71155ab4d469a5fb6a18a450b1974",
+    "MODERATE/HOLD_R2_K125/training_history.json": "7ffd4a78877df790b4e13971683fb522428bcf8f28c5143b19944ccb386ff36f",
+    "MODERATE/local_frozen_thresholds.json": "c5f5d95197d23a00f67e361fafe9492e3d440e92147e0c15d6906e6e1a5355b1",
+    "MODERATE/local_threshold_freeze.json": "e6bd50c870f0c9c077082184d9fb834b747d3ef616590eb76a2570d1d58e331b",
+    "design.json": "2b2ca8a0e86ea66e6ae189ec7f503adc275877717a545b93d852a56c878dba33",
+    "design_audit.json": "e6f6dc1b32433eefc3884b48b5759e4e11a614337b256281d56957a3e160bc56",
+    "oracle_summary.json": "fecc5004001b80ad29592c63a096f94c78844c21ae92ef0a46769450cee614d7",
+    "recovery_manifest.json": "2744a19d54f0e9ab9a21309117e8e2815b6cecf61552476ccc138c9b97e99933",
+    "runtime_storage_manifest.json": "be8819ad86d7e25c3f2ef73c77d0da8f3e7c7279d8a7afc28c965509dc07a94c",
+    "sentinel_solver_validity.json": "4fe208337e70abd7063b7c570c5127a26a2098854b9e8d097345f7ad82afe4b3",
+    "spectral_perturbation_manifest.csv": "f7b616337b69f9479dfefb1c5201fa46eda1a382ed1f555f4a21bb94bc385dc3",
+    "target_library_hashes.json": "3bf809e00b9ec244d8e864b9734a58405d5826e6855ab2d1e8e5361f492474e5"
+  },
+  "reason": "Retire intermediate/redundant ordinary completed-case checkpoints after Git snapshot. Keep final epoch3000, learned arrays, all reports and all sentinel evidence.",
+  "limitation": "Retired intermediate checkpoints cannot be reloaded; their recorded hashes and diagnostics remain. Final learned model and outputs remain remote."
+}
