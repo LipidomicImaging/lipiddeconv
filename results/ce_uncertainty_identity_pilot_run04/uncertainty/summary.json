@@ -1,0 +1,19 @@
+{
+  "status": "CE_BOUNDARY_READY_FOR_PILOT",
+  "matched_identities": 133,
+  "eligible_pairs": 244,
+  "identities_with_eligible_pair": 120,
+  "enabled_rule_channels": 17,
+  "components": 480,
+  "production_candidates_with_variation": 107,
+  "observation_status_counts": {
+    "masked_or_inapplicable": 3766,
+    "both_active": 1269,
+    "pair_insufficient_shared_trusted_channels": 21,
+    "production_candidate_outside_known_prediction_source_kept_fixed": 25
+  },
+  "stick_response_max_abs_difference": 2.3013389649495508e-07,
+  "physical_mapping": "Candidate entry ID -> predicted fragment mass -> unambiguous source stick -> original response",
+  "restriction": "No peak appearance/disappearance, m/z shifts, precursor variability or empirical measurement noise",
+  "limitation": "Shared-fragment CE variation only; coverage of independent prediction error not established"
+}

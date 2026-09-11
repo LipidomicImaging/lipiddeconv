@@ -1,3 +1,7 @@
+# CE pilot: calibration sealed; evaluation running — 2026-09-11
+
+Three R1 calibration cases complete in ce_uncertainty_identity_pilot_run04. Third case passes243 independent numerical proof checks; all99 compact source hashes pass. Identical LP algorithm recovery passed the original bounds without relaxing tolerances;475 prior identity results reused with exact vector equality. Calibration independently recomputed: epsilon0.019717481319156117,44 TP/0 FP, retention12.36%, below40% utility target. Seal fixed before R2; finish the three frozen evaluation cases and report without tuning. Code committed before execution as74f502fb305ef00a1cf7cf3e84cac54532d0084d. No GPU, cleanup or formal success claim.
+
 # CE pilot: two calibration cases reviewed; strict numerical recovery — 2026-09-11
 
 MILD CAL_R1 and close-neighbor omission R1 completed and independently passed232/245 full-plus-deletion proof checks. The recovered snapshot is results/ce_uncertainty_identity_pilot_run03; the earlier first-case snapshot remains separate. Four independent CPU workers preserve the original LP, tolerances,60s per-problem budget and CAL-before-EVAL ordering.365 saved identity results were revalidated, not silently rebound.
@@ -525,4 +529,3 @@ No new simulation required.
 No new certificate calculation required.
 
 No v49 calibration yet.
-

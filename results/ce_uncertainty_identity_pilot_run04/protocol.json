@@ -1,0 +1,19 @@
+{
+  "version": "CE_UNCERTAINTY_IDENTITY_LP_V1",
+  "script_sha256": "63768f2d37a7cb90da4cb2dcdd0dbd51f5cc71f25d12f3ede5f0b5f3f67a35d9",
+  "uncertainty_manifest_sha256": "4cf91ed0e8d5ababcd555591f605944dfefed619449f71a058ab683ff53fa10e",
+  "metric": "minimum relative L1 mean-spectrum residual",
+  "CAL": "MILD CAL_R1_K125 and both original missing-library HOLD_R1_K125 arms; developmental reuse",
+  "EVAL": "same three contexts at R2; developmental reuse, not independent final HOLD",
+  "calibration": "max CAL TP at observed FDP<=1%; ties fewer FP, then larger epsilon; empty ->epsilon1",
+  "decision": "full upper<=epsilon and deleted lower>epsilon",
+  "continue_target": {
+    "FDR": 0.01,
+    "TP_retention": 0.4
+  },
+  "strong_retention": 0.6,
+  "all_truth_denominators_preserved": true,
+  "no_GPU_training": true,
+  "bounds": "finite redundant optimizer bounds, global LP weak duality and feasible witnesses, 1e-8 guards",
+  "formal_completion": "independent CAL/HOLD FDR<=1% and TP retention>=40%;60% not required"
+}

@@ -1,0 +1,22 @@
+{
+  "pid": 84164,
+  "command": [
+    "python",
+    "-u",
+    "/root/v58_jobs/run_ce_uncertainty_identity_pilot_run04.py",
+    "run",
+    "--output",
+    "/root/v58_jobs/ce_uncertainty_identity_pilot_run04",
+    "--resume-from",
+    "/root/v58_jobs/ce_uncertainty_identity_pilot_run03",
+    "--workers",
+    "4"
+  ],
+  "created_utc": "2026-09-11T14:47:19.962651+00:00",
+  "script_sha256": "63768f2d37a7cb90da4cb2dcdd0dbd51f5cc71f25d12f3ede5f0b5f3f67a35d9",
+  "git_commit": "74f502fb305ef00a1cf7cf3e84cac54532d0084d",
+  "numerical_validation_retry_self_test": "PASS",
+  "parallel_exact_problem_self_test": "PASS",
+  "scientific_contract_unchanged": true,
+  "git_prefreeze_commit": "74f502fb305ef00a1cf7cf3e84cac54532d0084d"
+}

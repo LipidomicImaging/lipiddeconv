@@ -1,0 +1,15 @@
+{
+  "version": "CE133_SHARED_FRAGMENT_BOX_V1",
+  "minimum_distinct_identities": 10,
+  "radius": "95th percentile of per-identity maximum absolute centered log ratio over available CE pairs",
+  "centering": "subtract mean log ratio over >=2 trusted channels shared by both observations",
+  "trusted": "positive active label; every assigned peak wholly owned and assigned to this one channel",
+  "directions": "both CE directions included via a symmetric log envelope",
+  "allowed": "existing fragment intensity only",
+  "fixed": "precursor, zeros, unassigned/ambiguous components, and rule/channel strata with <10 identities",
+  "transfer": "CE-conditioned annotated DDA variation transferred to predicted MSI library; developmental assumption",
+  "joint_model": "independent component box outer envelope; observed co-variation reported, not falsely guaranteed",
+  "mapping": "unambiguous predicted channel + nominal isotope0..4 inside existing profile bin; coupled peak response",
+  "no_measurement_noise_model": true,
+  "no_new_score_in_builder": true
+}

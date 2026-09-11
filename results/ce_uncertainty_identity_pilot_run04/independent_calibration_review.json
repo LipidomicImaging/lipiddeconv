@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "calibration_only": true,
+  "event_count": 464,
+  "epsilon": 0.019717481319156117,
+  "seal_sha256": "323c81cc51f337321973083d0cc01ca77c99f642a9718926e76073bf54fd25ea",
+  "calibration": {
+    "epsilon": 0.019717481319156117,
+    "TP": 44,
+    "FP": 0,
+    "FN": 331,
+    "raw_solver_TP": 356,
+    "raw_solver_FP": 361,
+    "raw_solver_FN": 19,
+    "filter_induced_true_loss": 312,
+    "TP_retention": 0.12359550561797752,
+    "all_truth_recall": 0.11733333333333333,
+    "reportable_truth_recall": 0.11733333333333333,
+    "FDR": 0.0,
+    "retained_count": 44,
+    "distinct_identities": 44,
+    "case_count": 3,
+    "abstained_cases": 0,
+    "abstention_fraction": 0.0
+  },
+  "evaluation_outcomes_not_used": true
+}

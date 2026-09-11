@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exact_tiny_case": true,
+  "all_same_identity_components_removed": true,
+  "false_necessity_removed_by_allowed_true_variation": true,
+  "known_global_values_and_dual_bounds": true,
+  "parallel_workers_checked": 1
+}

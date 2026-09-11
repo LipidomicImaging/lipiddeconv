@@ -1,3 +1,7 @@
+# CE pilot: calibration complete; finish frozen evaluation — 2026-09-11
+
+Run04 has three reviewed R1 calibration cases and sealed epsilon0.019717481319156117. Calibration44 TP/0 FP,12.36% retention: do not tune or change the model. Finish the three R2 development evaluation cases, independently validate all proofs/counts/seal, preserve each completed case in Git, and record this version's continue/stop outcome. Formal main endpoint remains OPEN. No GPU, cleanup, new benchmark or automatic independent validation.
+
 # CE pilot: two calibration cases reviewed; strict numerical recovery — 2026-09-11
 
 MILD CAL_R1 and close-neighbor omission R1 completed and independently passed232/245 full-plus-deletion proof checks. The recovered snapshot is results/ce_uncertainty_identity_pilot_run03; the earlier first-case snapshot remains separate. Four independent CPU workers preserve the original LP, tolerances,60s per-problem budget and CAL-before-EVAL ordering.365 saved identity results were revalidated, not silently rebound.
@@ -533,4 +537,3 @@ When complete:
 
 
 Do not start v49.
-

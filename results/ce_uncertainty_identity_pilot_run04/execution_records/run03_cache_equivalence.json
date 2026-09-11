@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "reused_identity_count": 231,
+      "source_scores": "/root/v58_jobs/ce_uncertainty_identity_pilot_run02/scores/MILD__CAL_R1_K125/scores.json",
+      "source_scores_sha256": "d4a69c818a1d46cb385f300201ec564222d555f927fda9d815ba0aa1c3a15e6c",
+      "source_proofs": "/root/v58_jobs/ce_uncertainty_identity_pilot_run02/scores/MILD__CAL_R1_K125/proofs.npz",
+      "source_proofs_sha256": "7213da0e6e67380dc3d4516a41f8e0278a5ffb2dc15f3b4fe9dadd0b80ec0163",
+      "all_reused_records_and_vectors_identical": true
+    },
+    {
+      "dataset": "close_neighbor__HOLD_R1_K125",
+      "reused_identity_count": 134,
+      "source_scores": "/root/v58_jobs/ce_uncertainty_identity_pilot_run02/scores/close_neighbor__HOLD_R1_K125/partial_scores.json",
+      "source_scores_sha256": "226e69c01fbdd616290313a07568b9c14c36f0efb2fa79e87fa53a051d05712e",
+      "source_proofs": "/root/v58_jobs/ce_uncertainty_identity_pilot_run02/scores/close_neighbor__HOLD_R1_K125/partial_proofs.npz",
+      "source_proofs_sha256": "d2f0a69e01a0d38561ea4fa55dc98cab5b6d779a59e409824310530b72c11490",
+      "all_reused_records_and_vectors_identical": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "dataset": "MILD__CAL_R1_K125",
+      "reused_identities": 231,
+      "source_scores": "/root/v58_jobs/ce_uncertainty_identity_pilot_run03/scores/MILD__CAL_R1_K125/scores.json",
+      "source_scores_sha256": "886e67c3d34572a1503d7e60f166de2fabe230801f501e4a0b4ef4a589054130",
+      "source_proofs_sha256": "7213da0e6e67380dc3d4516a41f8e0278a5ffb2dc15f3b4fe9dadd0b80ec0163",
+      "all_records_and_vectors_identical": true
+    },
+    {
+      "dataset": "close_neighbor__HOLD_R1_K125",
+      "reused_identities": 244,
+      "source_scores": "/root/v58_jobs/ce_uncertainty_identity_pilot_run03/scores/close_neighbor__HOLD_R1_K125/scores.json",
+      "source_scores_sha256": "cb0057068c83f9f37368fae032a1ef1ade1df38d6b86a978eaa9e65c61ea5a0b",
+      "source_proofs_sha256": "0cd734747ddc45f496073bde0b148ba9684c90579aa4527c41349c1b3f65e950",
+      "all_records_and_vectors_identical": true
+    }
+  ]
+}
