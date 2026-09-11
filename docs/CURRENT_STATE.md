@@ -1,3 +1,9 @@
+# Reference-flexibility screen completed; joint-evidence CAL screen next — 2026-09-11
+
+Finite3-reference/full1173-column individual-deletion CAL screen completed in results/reference_flexibility_cal_pilot. At5% empirical CAL FDR new recall20.8%, original rho22.4%, abundance37.6%; full SSE fell77.32% without identification gain. Stop this version; no parameter/variant tuning, no GPU expansion. Full dictionary, scores, checks and analysis retained.
+
+User's broader confidence-method request continues with one fixed cached-data joint rho/abundance classifier screen under docs/JOINT_CONFIDENCE_CAL_PILOT.md. Five identity groups separate TRAIN/CALIBRATION/EVALUATION within each rotation; no geometry/identity/severity features, no original HOLD records, no new solver/rho/GPU. Fixed logistic quadratic model, no hyperparameter search; criteria frozen before execution. Existing missing-library GPU job is running independently.
+
 # Finite reference-flexibility CPU development RUNNING — 2026-09-11
 
 User requested an implemented response to mismatch. Bounded new CAL-only test under docs/REFERENCE_FLEXIBILITY_CAL_PILOT.md: original plus2 independently generated reference variants per candidate; full1173-column competition and deletion of every same-identity variant. No inter-identity group rescue or A_target in scoring. Uses MILD CAL_R1_K125 NNLS reporting universe211/125truths. Original production pipelines remain frozen. Six-GPU prior protocol stays paused. New score must beat both same-universe rho/X_hat by10pp recall at empirical5% FDR before further validation; do not tune after outcome.

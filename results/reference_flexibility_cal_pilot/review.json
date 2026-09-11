@@ -1,0 +1,123 @@
+{
+  "status": "REVIEWED_CAL_ONLY",
+  "raw_TP": 125,
+  "raw_FP": 86,
+  "raw_FN": 0,
+  "methods": {
+    "rho_zero": {
+      "usable": 211,
+      "usable_TP": 125,
+      "usable_FP": 86,
+      "excluded_reported_TP": 0,
+      "all_truth_recall_ceiling": 1.0,
+      "AUROC": 0.6445581395348837,
+      "AP": 0.7694289446491313,
+      "retrospective_best": {
+        "0.05": {
+          "threshold": 2.329625636972671e-05,
+          "TP": 28,
+          "FP": 1,
+          "FDR": 0.034482758620689655,
+          "precision": 0.9655172413793104,
+          "all_truth_recall": 0.224,
+          "TP_retention": 0.224,
+          "reportable_truth_recall": 0.224,
+          "coverage": 0.13744075829383887,
+          "solver_FN": 0,
+          "post_solver_true_loss": 97
+        },
+        "0.01": {
+          "threshold": 3.9999303122907696e-05,
+          "TP": 20,
+          "FP": 0,
+          "FDR": 0.0,
+          "precision": 1.0,
+          "all_truth_recall": 0.16,
+          "TP_retention": 0.16,
+          "reportable_truth_recall": 0.16,
+          "coverage": 0.0947867298578199,
+          "solver_FN": 0,
+          "post_solver_true_loss": 105
+        }
+      }
+    },
+    "X_hat": {
+      "usable": 211,
+      "usable_TP": 125,
+      "usable_FP": 86,
+      "excluded_reported_TP": 0,
+      "all_truth_recall_ceiling": 1.0,
+      "AUROC": 0.8412093023255814,
+      "AP": 0.8933558108076798,
+      "retrospective_best": {
+        "0.05": {
+          "threshold": 0.017419135065479863,
+          "TP": 47,
+          "FP": 1,
+          "FDR": 0.020833333333333332,
+          "precision": 0.9791666666666666,
+          "all_truth_recall": 0.376,
+          "TP_retention": 0.376,
+          "reportable_truth_recall": 0.376,
+          "coverage": 0.22748815165876776,
+          "solver_FN": 0,
+          "post_solver_true_loss": 78
+        },
+        "0.01": {
+          "threshold": 0.018412355570183926,
+          "TP": 45,
+          "FP": 0,
+          "FDR": 0.0,
+          "precision": 1.0,
+          "all_truth_recall": 0.36,
+          "TP_retention": 0.36,
+          "reportable_truth_recall": 0.36,
+          "coverage": 0.2132701421800948,
+          "solver_FN": 0,
+          "post_solver_true_loss": 80
+        }
+      }
+    },
+    "flexible_identity_score": {
+      "usable": 211,
+      "usable_TP": 125,
+      "usable_FP": 86,
+      "excluded_reported_TP": 0,
+      "all_truth_recall_ceiling": 1.0,
+      "AUROC": 0.6557209302325582,
+      "AP": 0.7652577733045843,
+      "retrospective_best": {
+        "0.05": {
+          "threshold": 1.820058568242917e-05,
+          "TP": 26,
+          "FP": 1,
+          "FDR": 0.037037037037037035,
+          "precision": 0.9629629629629629,
+          "all_truth_recall": 0.208,
+          "TP_retention": 0.208,
+          "reportable_truth_recall": 0.208,
+          "coverage": 0.12796208530805686,
+          "solver_FN": 0,
+          "post_solver_true_loss": 99
+        },
+        "0.01": {
+          "threshold": 0.00017001227912403266,
+          "TP": 6,
+          "FP": 0,
+          "FDR": 0.0,
+          "precision": 1.0,
+          "all_truth_recall": 0.048,
+          "TP_retention": 0.048,
+          "reportable_truth_recall": 0.048,
+          "coverage": 0.02843601895734597,
+          "solver_FN": 0,
+          "post_solver_true_loss": 119
+        }
+      }
+    }
+  },
+  "sources_and_outputs_verified": true,
+  "limitation": "Single exposed CAL case; model-family-matched references, no independent FDR guarantee.",
+  "decision": "STOP_THIS_VERSION_NO_PRESPECIFIED_RECALL_GAIN",
+  "full_loss_ratio_to_fixed_library": 0.22683573052924313
+}

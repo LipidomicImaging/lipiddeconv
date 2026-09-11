@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "seconds": 364.72366977483034,
+  "source": "/root/v58_jobs/mild_nnls_cal_pilot/molecular_units.json",
+  "source_sha256": "68ba4863ca56befaee950c589d1cc77870b899f2bab59d7881fc1a192199db72",
+  "script_sha256": "d874f4a577003579b56ec9d4f7621ac1836f6fd5ad0facab08b7a2da9aaabffc",
+  "scipy": "1.15.3",
+  "numpy": "2.1.3",
+  "full_fit": {
+    "seconds": 2.11749217659235,
+    "dual": 1.7009375518663479e-16,
+    "complementarity": 1.2556585463219696e-17
+  },
+  "full_SSE": 7.938628951010968e-05,
+  "base_SSE": 0.0003499725961376944,
+  "truth_count": 125,
+  "files": {
+    "contract.json": "1a9e39c4ddadc62a84f7dbc523e89631a72dfbdbfd0d308e4d9ef5925164afe1",
+    "reference_dictionary.npz": "41fa195b284a24358b1a92ea71c620d708fa707bb7995bdb476bae8047d76cd2",
+    "reference_manifest.json": "fbbaef3a139da77d0b194021bc6dc767f7f4dc756e8ba14b06d98b9ca36e26f9",
+    "self_test.json": "6ccd7faad2744041ca88e7154f800aa7227d2fe92dbd62fd127dda3d9344cf34",
+    "scores.json": "b9f0b81be6ff3820cd3f8f482c832e77bc2a3bac38c5b3883673a96d86490e4b"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "reference_flexibility_CAL_v1",
+  "dataset": "CAL_R1_K125",
+  "domain": "MILD",
+  "primary_universe": "previously completed MILD pixelwise NNLS reported molecular identities",
+  "references_per_candidate": 3,
+  "reference_parameters": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0.1,
+      0.05,
+      0.1
+    ],
+    [
+      0.2,
+      0.1,
+      0.2
+    ]
+  ],
+  "reference_source": "A_solver only, new independent seed namespace; no target spectra/latents/truth",
+  "deletion": "all three variants of every column belonging to the individual molecular identity",
+  "fit": "float64 scipy NNLS maxiter11730, shared full fit, no learned GPU training",
+  "score": "max(0, deleted SSE-full SSE)/observed energy; values <=1e-12 set to zero for this NEW score only",
+  "numerical_checks": "finite, nonnegative, normalized KKT <=1e-9, normalized negative gain no less than -1e-10",
+  "cost_gate": "full fit <=60s and first8 index-ordered deletions median <=10s; otherwise STOP_COST",
+  "comparison": "same-universe original rho and X_hat; CAL retrospective tied-score curves only",
+  "continuation": "at empirical5% FDR improve all-truth recall by >=10pp over BOTH baselines; otherwise stop this version",
+  "limitations": [
+    "Known synthetic perturbation family, new reference draws; not measured real spectral uncertainty.",
+    "Single already examined CAL case; no independent FDR/generalization guarantee.",
+    "No inter-identity group rescue, no original scientific definition change."
+  ]
+}
