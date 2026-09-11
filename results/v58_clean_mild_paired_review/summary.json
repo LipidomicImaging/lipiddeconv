@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "clean_threshold": 1.272651000158792e-20,
+  "mild_threshold": 1.7543740552697457e-05,
+  "truth_contexts": 1750,
+  "raw_truth_transitions": {
+    "(True, True)": 1650,
+    "(False, True)": 30,
+    "(True, False)": 26,
+    "(False, False)": 44
+  },
+  "previously_clean_retained_categories": {
+    "lost_at_original_threshold": 260,
+    "retained": 370,
+    "lost_only_at_recalibrated_threshold": 1020,
+    "new_solver_miss": 26
+  },
+  "metrics": [
+    {
+      "condition": "clean_raw",
+      "TP": 1676,
+      "FP": 1528,
+      "FN": 74,
+      "FDR": 0.4769038701622971,
+      "recall": 0.9577142857142857
+    },
+    {
+      "condition": "clean_at_clean",
+      "TP": 1676,
+      "FP": 60,
+      "FN": 74,
+      "FDR": 0.03456221198156682,
+      "recall": 0.9577142857142857
+    },
+    {
+      "condition": "clean_at_mild",
+      "TP": 350,
+      "FP": 0,
+      "FN": 1400,
+      "FDR": 0.0,
+      "recall": 0.2
+    },
+    {
+      "condition": "mild_raw",
+      "TP": 1680,
+      "FP": 1514,
+      "FN": 70,
+      "FDR": 0.47401377582968063,
+      "recall": 0.96
+    },
+    {
+      "condition": "mild_at_clean",
+      "TP": 1412,
+      "FP": 835,
+      "FN": 338,
+      "FDR": 0.37160658655985757,
+      "recall": 0.8068571428571428
+    },
+    {
+      "condition": "mild_at_mild",
+      "TP": 370,
+      "FP": 15,
+      "FN": 1380,
+      "FDR": 0.03896103896103896,
+      "recall": 0.21142857142857144
+    }
+  ],
+  "joint_score_changes": [
+    {
+      "truth": true,
+      "jointly_reported": 1650,
+      "up": 921,
+      "median_clean_rho": 4.914352072489754e-07,
+      "median_mild_rho": 1.2483156652840118e-06,
+      "down": 729,
+      "equal": 0,
+      "clean_positive_to_mild_zero": 260,
+      "clean_zero_to_mild_positive": 0,
+      "both_positive_count": 1390,
+      "median_mild_over_clean_if_both_positive": 1.4506169326051181
+    },
+    {
+      "truth": false,
+      "jointly_reported": 1283,
+      "up": 721,
+      "median_clean_rho": 7.212811958221695e-28,
+      "median_mild_rho": 6.315951529327254e-19,
+      "down": 238,
+      "equal": 324,
+      "clean_positive_to_mild_zero": 238,
+      "clean_zero_to_mild_positive": 248,
+      "both_positive_count": 473,
+      "median_mild_over_clean_if_both_positive": 377908842483465.4
+    }
+  ],
+  "clean_parent_hash_checks": {
+    "global_frozen_thresholds.json": {
+      "expected": "3dbbdfaa19fc40568683993fae30ff4a9a8209645c5a1eb3a4cffbdc4c634d46",
+      "actual": "86bc57ed9172a866c8f2c1fd8b229a3792d3451d8a39c63e826ec7fdfc5ee2d7",
+      "LF_normalized": "3dbbdfaa19fc40568683993fae30ff4a9a8209645c5a1eb3a4cffbdc4c634d46",
+      "match": "LF_NORMALIZED_ONLY"
+    },
+    "heldout_records.csv": {
+      "expected": "efa2eb599cb45078173535f83dad82baece940d4bd9740363476ffe3be96b0c5",
+      "actual": "efa2eb599cb45078173535f83dad82baece940d4bd9740363476ffe3be96b0c5",
+      "LF_normalized": "a993e17e72d77d48f20c8d3f50a516accc046c2a0bfd6ff1a8f55b8627ade827",
+      "match": "BYTE_EXACT"
+    }
+  },
+  "limitations": [
+    "Crossed thresholds are descriptive accounting, not new calibrated operating points.",
+    "Score changes conditional on joint reporting omit newly reported/disappearing candidates.",
+    "Same identities/K/maps are matched; changing B also changes fitted solver output. This does not isolate a direct spectral effect on rho.",
+    "Nested K and mappings repeat identities; no independent-sample or causal interaction claim."
+  ]
+}

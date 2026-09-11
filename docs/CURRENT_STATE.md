@@ -1,3 +1,7 @@
+# Paired CLEAN/MILD review completed — 2026-09-11
+
+User-requested matched identity/K/replicate review COMPLETE in results/v58_clean_mild_paired_review. Correction: true rho does not generally decline;921/1650 jointly reported true contexts increase,729 decrease. Raw TP1676 ->1680; original cutoff FP60 ->835. Of1676 CLEAN-retained truths,26 become solver misses,260 fail the original cutoff (rho becomes zero),1020 fail only the higher MILD CAL cutoff,370 remain. This is sequential accounting, not a causal interaction test. Original threshold1.27e-20 versus MILD1.75e-5; near-zero score ratios are not meaningful biological effect sizes. Parent CSV exact-hash and threshold JSON LF-normalized checks recorded. No frozen method/threshold/pilot change, new GPU execution or cleanup. Next remains bounded CPU implementation/numerical checks under the existing pilot protocol; current benchmark completion has priority.
+
 # Mismatch-confidence diagnosis — 2026-09-11
 
 COMPLETED: cached V58 ranking and true-loss diagnosis, results/v58_mismatch_ranking_diagnosis. MILD rho AUROC0.7635; retrospective global-threshold max recall at empirical5% FDR28.86%, abundance31.54%. This is HOLD-label-dependent diagnosis, not new calibration. Thus threshold migration alone does not explain poor recall. Identity-level descriptive losses align with lower cone isolation/higher nearest-fragment cosine, not larger median perturbation; no causal/enrichment claim. All412 source hashes pass; tied-score ranking checks pass.

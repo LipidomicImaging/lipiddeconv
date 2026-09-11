@@ -1,0 +1,13 @@
+K,category,count,clean_retained_truth
+50,lost_at_original_threshold,12,250
+50,retained,135,250
+50,lost_only_at_recalibrated_threshold,100,250
+50,new_solver_miss,3,250
+125,lost_only_at_recalibrated_threshold,394,597
+125,lost_at_original_threshold,72,597
+125,retained,125,597
+125,new_solver_miss,6,597
+175,lost_only_at_recalibrated_threshold,526,829
+175,new_solver_miss,17,829
+175,lost_at_original_threshold,176,829
+175,retained,110,829
