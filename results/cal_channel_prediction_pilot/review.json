@@ -1,0 +1,450 @@
+{
+  "status": "REVIEWED",
+  "source_files_verified": true,
+  "limitation": "One CAL pair; retrospective empirical FDR envelopes are not calibrated operating thresholds.",
+  "domains": {
+    "CLEAN": {
+      "counts": {
+        "all_truth_count": 125,
+        "reportable_truth_count": 125,
+        "raw_reported": 225,
+        "raw_TP": 123
+      },
+      "solver_FN": 2,
+      "methods": {
+        "original_reported": {
+          "rho_zero": {
+            "usable": 225,
+            "usable_TP": 123,
+            "usable_FP": 102,
+            "excluded_reported_TP": 0,
+            "all_truth_recall_ceiling": 0.984,
+            "AUROC": 1.0,
+            "AP": 1.0,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 3.0491092908005636e-09,
+                "TP": 123,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.984,
+                "TP_retention": 1.0,
+                "reportable_truth_recall": 0.984,
+                "coverage": 0.5466666666666666,
+                "solver_FN": 2,
+                "post_solver_true_loss": 0
+              },
+              "0.01": {
+                "threshold": 3.0491092908005636e-09,
+                "TP": 123,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.984,
+                "TP_retention": 1.0,
+                "reportable_truth_recall": 0.984,
+                "coverage": 0.5466666666666666,
+                "solver_FN": 2,
+                "post_solver_true_loss": 0
+              }
+            }
+          },
+          "X_hat": {
+            "usable": 225,
+            "usable_TP": 123,
+            "usable_FP": 102,
+            "excluded_reported_TP": 0,
+            "all_truth_recall_ceiling": 0.984,
+            "AUROC": 0.8738243264785589,
+            "AP": 0.8969159383092995,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.014206224233064956,
+                "TP": 51,
+                "FP": 2,
+                "FDR": 0.03773584905660377,
+                "precision": 0.9622641509433962,
+                "all_truth_recall": 0.408,
+                "TP_retention": 0.4146341463414634,
+                "reportable_truth_recall": 0.408,
+                "coverage": 0.23555555555555555,
+                "solver_FN": 2,
+                "post_solver_true_loss": 72
+              },
+              "0.01": {
+                "threshold": 0.018876060766355677,
+                "TP": 36,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.288,
+                "TP_retention": 0.2926829268292683,
+                "reportable_truth_recall": 0.288,
+                "coverage": 0.16,
+                "solver_FN": 2,
+                "post_solver_true_loss": 87
+              }
+            }
+          },
+          "predictive_gain": {
+            "usable": 190,
+            "usable_TP": 103,
+            "usable_FP": 87,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.824,
+            "AUROC": 1.0,
+            "AP": 1.0,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.014002495915848241,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              },
+              "0.01": {
+                "threshold": 0.014002495915848241,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              }
+            }
+          }
+        },
+        "common_evaluable": {
+          "rho_zero": {
+            "usable": 190,
+            "usable_TP": 103,
+            "usable_FP": 87,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.824,
+            "AUROC": 1.0,
+            "AP": 1.0,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 3.1000289649937915e-09,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              },
+              "0.01": {
+                "threshold": 3.1000289649937915e-09,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              }
+            }
+          },
+          "X_hat": {
+            "usable": 190,
+            "usable_TP": 103,
+            "usable_FP": 87,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.824,
+            "AUROC": 0.8635196964624484,
+            "AP": 0.8900849169671187,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.01407610037221033,
+                "TP": 45,
+                "FP": 2,
+                "FDR": 0.0425531914893617,
+                "precision": 0.9574468085106383,
+                "all_truth_recall": 0.36,
+                "TP_retention": 0.36585365853658536,
+                "reportable_truth_recall": 0.36,
+                "coverage": 0.2088888888888889,
+                "solver_FN": 2,
+                "post_solver_true_loss": 78
+              },
+              "0.01": {
+                "threshold": 0.018876060766355677,
+                "TP": 32,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.256,
+                "TP_retention": 0.2601626016260163,
+                "reportable_truth_recall": 0.256,
+                "coverage": 0.14222222222222222,
+                "solver_FN": 2,
+                "post_solver_true_loss": 91
+              }
+            }
+          },
+          "predictive_gain": {
+            "usable": 190,
+            "usable_TP": 103,
+            "usable_FP": 87,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.824,
+            "AUROC": 1.0,
+            "AP": 1.0,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.014002495915848241,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              },
+              "0.01": {
+                "threshold": 0.014002495915848241,
+                "TP": 103,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.824,
+                "TP_retention": 0.8373983739837398,
+                "reportable_truth_recall": 0.824,
+                "coverage": 0.4577777777777778,
+                "solver_FN": 2,
+                "post_solver_true_loss": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "MILD": {
+      "counts": {
+        "all_truth_count": 125,
+        "reportable_truth_count": 125,
+        "raw_reported": 231,
+        "raw_TP": 122
+      },
+      "solver_FN": 3,
+      "methods": {
+        "original_reported": {
+          "rho_zero": {
+            "usable": 231,
+            "usable_TP": 122,
+            "usable_FP": 109,
+            "excluded_reported_TP": 0,
+            "all_truth_recall_ceiling": 0.976,
+            "AUROC": 0.7339825537674838,
+            "AP": 0.782225022611081,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 1.9372376049906116e-05,
+                "TP": 32,
+                "FP": 1,
+                "FDR": 0.030303030303030304,
+                "precision": 0.9696969696969697,
+                "all_truth_recall": 0.256,
+                "TP_retention": 0.26229508196721313,
+                "reportable_truth_recall": 0.256,
+                "coverage": 0.14285714285714285,
+                "solver_FN": 3,
+                "post_solver_true_loss": 90
+              },
+              "0.01": {
+                "threshold": 2.329625636972671e-05,
+                "TP": 28,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.224,
+                "TP_retention": 0.22950819672131148,
+                "reportable_truth_recall": 0.224,
+                "coverage": 0.12121212121212122,
+                "solver_FN": 3,
+                "post_solver_true_loss": 94
+              }
+            }
+          },
+          "X_hat": {
+            "usable": 231,
+            "usable_TP": 122,
+            "usable_FP": 109,
+            "excluded_reported_TP": 0,
+            "all_truth_recall_ceiling": 0.976,
+            "AUROC": 0.8828395247405625,
+            "AP": 0.8884072144793397,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.015527406170321294,
+                "TP": 45,
+                "FP": 2,
+                "FDR": 0.0425531914893617,
+                "precision": 0.9574468085106383,
+                "all_truth_recall": 0.36,
+                "TP_retention": 0.36885245901639346,
+                "reportable_truth_recall": 0.36,
+                "coverage": 0.20346320346320346,
+                "solver_FN": 3,
+                "post_solver_true_loss": 77
+              },
+              "0.01": {
+                "threshold": 0.025861129613767853,
+                "TP": 13,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.104,
+                "TP_retention": 0.10655737704918032,
+                "reportable_truth_recall": 0.104,
+                "coverage": 0.05627705627705628,
+                "solver_FN": 3,
+                "post_solver_true_loss": 109
+              }
+            }
+          },
+          "predictive_gain": {
+            "usable": 196,
+            "usable_TP": 102,
+            "usable_FP": 94,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.816,
+            "AUROC": 0.45807259073842305,
+            "AP": 0.5574515304015683,
+            "retrospective_best": {
+              "0.05": {
+                "TP": 0,
+                "FP": 0,
+                "all_truth_recall": 0.0
+              },
+              "0.01": {
+                "TP": 0,
+                "FP": 0,
+                "all_truth_recall": 0.0
+              }
+            }
+          }
+        },
+        "common_evaluable": {
+          "rho_zero": {
+            "usable": 196,
+            "usable_TP": 102,
+            "usable_FP": 94,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.816,
+            "AUROC": 0.7270546516478932,
+            "AP": 0.7697692243787841,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 1.9403014256663548e-05,
+                "TP": 27,
+                "FP": 1,
+                "FDR": 0.03571428571428571,
+                "precision": 0.9642857142857143,
+                "all_truth_recall": 0.216,
+                "TP_retention": 0.22131147540983606,
+                "reportable_truth_recall": 0.216,
+                "coverage": 0.12121212121212122,
+                "solver_FN": 3,
+                "post_solver_true_loss": 95
+              },
+              "0.01": {
+                "threshold": 2.329625636972671e-05,
+                "TP": 24,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.192,
+                "TP_retention": 0.19672131147540983,
+                "reportable_truth_recall": 0.192,
+                "coverage": 0.1038961038961039,
+                "solver_FN": 3,
+                "post_solver_true_loss": 98
+              }
+            }
+          },
+          "X_hat": {
+            "usable": 196,
+            "usable_TP": 102,
+            "usable_FP": 94,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.816,
+            "AUROC": 0.875886524822695,
+            "AP": 0.8768351557459386,
+            "retrospective_best": {
+              "0.05": {
+                "threshold": 0.015527406170321294,
+                "TP": 39,
+                "FP": 2,
+                "FDR": 0.04878048780487805,
+                "precision": 0.9512195121951219,
+                "all_truth_recall": 0.312,
+                "TP_retention": 0.319672131147541,
+                "reportable_truth_recall": 0.312,
+                "coverage": 0.1774891774891775,
+                "solver_FN": 3,
+                "post_solver_true_loss": 83
+              },
+              "0.01": {
+                "threshold": 0.027251430017189174,
+                "TP": 10,
+                "FP": 0,
+                "FDR": 0.0,
+                "precision": 1.0,
+                "all_truth_recall": 0.08,
+                "TP_retention": 0.08196721311475409,
+                "reportable_truth_recall": 0.08,
+                "coverage": 0.04329004329004329,
+                "solver_FN": 3,
+                "post_solver_true_loss": 112
+              }
+            }
+          },
+          "predictive_gain": {
+            "usable": 196,
+            "usable_TP": 102,
+            "usable_FP": 94,
+            "excluded_reported_TP": 20,
+            "all_truth_recall_ceiling": 0.816,
+            "AUROC": 0.45807259073842305,
+            "AP": 0.5574515304015683,
+            "retrospective_best": {
+              "0.05": {
+                "TP": 0,
+                "FP": 0,
+                "all_truth_recall": 0.0
+              },
+              "0.01": {
+                "TP": 0,
+                "FP": 0,
+                "all_truth_recall": 0.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "screen_decision": "STOP_STANDALONE_ROUTE_NO_5_PERCENT_RECALL_GAIN"
+}

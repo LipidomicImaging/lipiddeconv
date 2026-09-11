@@ -1,0 +1,22 @@
+{
+  "version": "cal_channel_prediction_v1",
+  "dataset": "CAL_R1_K125",
+  "domains": [
+    "CLEAN",
+    "MILD"
+  ],
+  "folds": 3,
+  "mz_block_width": 10.0,
+  "training_buffer_Da": 2.0,
+  "parent_group": "all production parent channels together",
+  "support_peak_fraction_of_fragment_max": 0.01,
+  "min_train_fragment_peaks": 2,
+  "min_test_fragment_peaks": 2,
+  "min_supported_folds": 2,
+  "score": "sum held-out deletion loss minus full loss / sum held-out observed energy plus 1e-12; signed, no clipping",
+  "fit": "float64 unweighted NNLS, all original391 columns; maxiter3910; remove all columns of one molecular identity",
+  "candidates": "all original reported molecular identities; original gate unchanged",
+  "calibration": "NONE: retrospective CAL curves and ranking only; no operational cutoff",
+  "no_new_GPU_runs": true,
+  "alternative_reference_GPU_pilot": "PAUSED"
+}

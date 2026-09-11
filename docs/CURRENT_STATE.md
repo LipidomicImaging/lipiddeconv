@@ -1,3 +1,11 @@
+# CAL channel-prediction pilot COMPLETED — 2026-09-11
+
+Bounded CAL_R1_K125 CLEAN/MILD CPU pilot and review complete in results/cal_channel_prediction_pilot. 456 reported identity contexts, 1368 deletion fits, 585 seconds, no GPU/HOLD outcomes. Original frozen A/B/X_truth bindings, output/source/script hashes, finite losses, membership and fold tests pass. At retrospective empirical5% FDR on MILD: rho32 TP/1 FP (25.6% all-truth recall), X_hat45/2 (36%), predictive gain no nonempty admissible set (0% recall); predictive AUROC0.458. Twenty raw true identities lack prescribed fragment support; the common-evaluable comparison also fails. CLEAN rho retains123 truths versus prediction103 after support exclusion.
+
+Decision: STOP this standalone channel-prediction route; no outcome-driven retuning. The previous six-fit alternative-reference GPU pilot remains PAUSED, original protocol preserved. This selected CAL screen does not establish independent FDR control or impossibility of other strategies. See analysis_record.md for separate solver/support/score misses and limitations.
+
+Next active work is existing V58/V59 completion and frozen missing-library handoff, with per-case provenance/download/Git before any safe checkpoint retirement. At05:52:55UTC V58 still57/60, active MODERATE__HOLD_R5_K050, data free4.26GiB. Do not duplicate queued jobs; storage guard remains active. No deletion during this pilot. Earlier task status paragraphs below are historical.
+
 # CAL channel-prediction pilot RUNNING — 2026-09-11
 
 User-directed bounded CPU pilot is now executing on V58 host, PID67733, /root/v58_jobs/cal_channel_prediction_pilot. Only CAL_R1_K125 CLEAN/MILD, original reported identities, three blocked/buffered channel folds. Scoring uses database A and observed B; no target spectra or truth enters fitting. Review protocol: docs/CAL_CHANNEL_PREDICTION_PILOT.md. Existing six-fit alternative-reference GPU pilot is PAUSED, superseding older next-action notes below; its original frozen artifact is preserved.

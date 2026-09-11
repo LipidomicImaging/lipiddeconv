@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "domains": {
+    "CLEAN": {
+      "all_truth_count": 125,
+      "reportable_truth_count": 125,
+      "raw_reported": 225,
+      "raw_TP": 123
+    },
+    "MILD": {
+      "all_truth_count": 125,
+      "reportable_truth_count": 125,
+      "raw_reported": 231,
+      "raw_TP": 122
+    }
+  }
+}

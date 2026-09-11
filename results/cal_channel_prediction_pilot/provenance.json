@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "contract_sha256": "a6d13dd8e687676740833e505e3b2c4613c2f4bc4ac6ac16421509ae407b3952",
+  "script_sha256": "ce01540513cd568a807652cf00d1f48d5d0f8747309d388016c20ec19e9072b5",
+  "sources": {
+    "/root/autodl-tmp/lipiddeconv/results/v57_spectral_spatial_identity_confidence_benchmark/calibration_records.csv": "de75a24f1d1668fc40c99244858829f706334d8ff26768b70b4c7611af83bfe3",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/molecular_false_negative_records.csv": "2f84e9bcc5a94e02fda7ea654aaf309d6587b42fcd6aae92aac783e62fed0eea"
+  },
+  "domains": {
+    "CLEAN": {
+      "all_truth_count": 125,
+      "reportable_truth_count": 125,
+      "raw_reported": 225,
+      "raw_TP": 123
+    },
+    "MILD": {
+      "all_truth_count": 125,
+      "reportable_truth_count": 125,
+      "raw_reported": 231,
+      "raw_TP": 122
+    }
+  },
+  "seconds": 585.1443940959871,
+  "numpy": "2.1.3",
+  "scipy": "1.15.3",
+  "B_clean_sha256": "279b274ddab29d50ae48e2d6e0bd1b40ac65d40e153f89f5977c316928ae1cfe",
+  "B_mild_sha256": "62c735beda9bf9b03a3602630ea2fc1fe8a6ac0ff56990104d05c11614fba37d",
+  "no_HOLD_outcomes_parsed": true,
+  "no_training": true,
+  "truth_and_A_target_not_used_in_scoring": true,
+  "limitation": "Candidate reporting gate was computed using all channels. This is conditional post-hoc scoring, not fully independent validation; no calibrated risk guarantee.",
+  "files": {
+    "scores.csv": "2c79bc6baeb984df5d409b12da50cc301a177a84f2688dadf4552c18c490dd9c",
+    "fold_predictions.csv": "4d9a3abafb5eb74e75dc8302430bce319b8be7c3098244664f056562e775ea44",
+    "folds.json": "0fe9a3fd9d5a0c83cb9521da3874742e2787d493b4c0c7cc8a52a255d9625c1e",
+    "self_test.json": "96cfb7f6a55b81b6a1879f52c504df0d21d9e9533a8e1a0273bc2ebafef22785"
+  }
+}
