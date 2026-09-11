@@ -1,0 +1,9 @@
+{
+  "pid": 81427,
+  "started_utc": "2026-09-11T14:01:59.037868+00:00",
+  "git_prefreeze_commit": "e2d117cdd9dd81ec6087be18ea2278aacd422337",
+  "script_sha256": "38ffdd20febeeb3f970490f1b8caab860acd53cfc28f31e8e9a03d7df4848367",
+  "output": "/root/v58_jobs/ce_uncertainty_identity_pilot_run01",
+  "GPU_training": false,
+  "prior_failure_preserved": "/root/v58_jobs/ce_uncertainty_identity_pilot/failure.json"
+}

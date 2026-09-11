@@ -91,9 +91,9 @@ def proof_bounds(A, fractions, components, kept, b, primal, dual, removed):
     return lower,upper_value
 
 
-def review(root):
+def review(root, partial_case=None, transfer_manifest=None):
     import numpy as np
-    manifest = read(root/'output_manifest.json')
+    manifest = read(root/transfer_manifest)['files'] if transfer_manifest else read(root/'output_manifest.json')
     for name, expected in manifest.items():
         assert sha(root/name) == expected, name
     uncertainty = root/'uncertainty'
@@ -102,9 +102,10 @@ def review(root):
     assert source == frozen_source
     for name,expected in source['outputs'].items():
         assert sha(uncertainty/name) == expected
-    summary = read(root/'summary.json')
-    seal = read(root/'calibration_seal.json')
-    assert sha(root/'calibration_seal.json') == summary['calibration_seal_sha256']
+    summary = read(root/'summary.json') if not partial_case else None
+    seal = read(root/'calibration_seal.json') if not partial_case else None
+    if summary:
+        assert sha(root/'calibration_seal.json') == summary['calibration_seal_sha256']
     protocol = read(root/'protocol.json')
     assert protocol['continue_target'] == {'FDR':.01,'TP_retention':.4}
     assert protocol['script_sha256'] == sha(Path('analysis/run_ce_uncertainty_identity_pilot.py'))
@@ -114,7 +115,12 @@ def review(root):
     components = read(uncertainty/'components.json')
     expected = {f'{kind}__{split}_R{r}_K125' for kind,split in
                 [('MILD','CAL'),('close_neighbor','HOLD'),('relatively_isolated','HOLD')] for r in (1,2)}
-    assert {p.name for p in (root/'scores').iterdir() if p.is_dir()} == expected
+    available = {p.name for p in (root/'scores').iterdir() if p.is_dir()}
+    if partial_case:
+        assert partial_case in available and available <= expected
+        expected = {partial_case}
+    else:
+        assert available == expected
     cases, proof_count, shortcuts = [],0,0
     proof_review = {}
     for key in sorted(expected):
@@ -161,15 +167,25 @@ def review(root):
         for row in case['records']:
             for field in ('X_hat','rho_zero','molecular_truth','reportable_truth'):
                 assert row[field] == original[row['lipid_name']][field]
-        values = metrics([case],seal['epsilon'])
-        for name,value in values.items():
-            assert summary['by_case'][key][name] == value,(key,name)
-        retained = read(root/'scores'/key/'retained_records.json')
-        assert len(retained) == len(case['records'])
-        assert all(r['retained'] == (case['full']['upper'] <= seal['epsilon'] and r['deleted']['lower'] > seal['epsilon']) for r in retained)
+        if summary:
+            values = metrics([case],seal['epsilon'])
+            for name,value in values.items():
+                assert summary['by_case'][key][name] == value,(key,name)
+            retained = read(root/'scores'/key/'retained_records.json')
+            assert len(retained) == len(case['records'])
+            assert all(r['retained'] == (case['full']['upper'] <= seal['epsilon'] and r['deleted']['lower'] > seal['epsilon']) for r in retained)
         proof_review[key] = dict(status='PASS',identities=len(case['records']),max_primal_dual_gap=max(proof_gaps),full_upper=case['full']['upper'],full_seconds=case['full']['seconds'])
         cases.append(case)
         print('PROOFS_AND_COUNTS_PASS',key,flush=True)
+    if partial_case:
+        result = dict(status='PARTIAL_CASE_PROVENANCE_AND_NUMERICAL_PASS',case_id=partial_case,
+                      transfer_source_hashes_verified=len(manifest),proofs_checked=proof_count,
+                      zero_coefficient_witnesses=shortcuts,case_proofs=proof_review,
+                      raw_accounting=metrics(cases),
+                      deferred='Final selection, calibration and evaluation accounting waits for the completed sealed pilot.')
+        (root/('independent_review_'+partial_case+'.json')).write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
+        print(json.dumps({k:v for k,v in result.items() if k not in ('case_proofs','raw_accounting')}))
+        return
     cal = [c for c in cases if c['role']=='DEVELOPMENT_CAL']
     evaluation = [c for c in cases if c['role']=='DEVELOPMENT_EVAL']
     events = sorted({0.,1.,*(c['full']['upper'] for c in cal),*(r['deleted']['lower'] for c in cal for r in c['records'])})
@@ -206,4 +222,7 @@ def review(root):
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('output',type=Path)
-    review(parser.parse_args().output)
+    parser.add_argument('--case')
+    parser.add_argument('--transfer-manifest')
+    args=parser.parse_args()
+    review(args.output,args.case,args.transfer_manifest)

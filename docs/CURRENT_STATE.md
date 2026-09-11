@@ -1,3 +1,9 @@
+# CE identity pilot RUNNING; first case independently reviewed — 2026-09-11
+
+Remote CPU run:/root/v58_jobs/ce_uncertainty_identity_pilot_run02, PID81846, code frozen as79b01682fe08ca3c501af9b4d09d3e99278fa0c0. Two earlier execution stops are preserved (parser mode, then invalid HiGHS status before first case completion). Same LP now retries HiGHS IPM only after non-success, sharing the original60s cap and unchanged tolerances; partial evidence saved every25 identities. No scientific model/target changes.
+
+MILD__CAL_R1_K125 complete:84 compact source hashes and232 full/deleted numerical proofs independently verified, including89 zero-coefficient witnesses; one backend non-success recovered. Snapshot in results/ce_uncertainty_identity_pilot. Final selection/calibration/evaluation accounting deferred until sealed pilot completes. Continue remaining five contexts, preserve each completed case, then audit all counts and bounds and push. No GPU, original rho rerun, additional benchmark or cleanup. Formal independent FDR<=1%/retention>=40% endpoint remains OPEN.
+
 # CE-informed identity pilot ready for execution — 2026-09-11
 
 User explicitly authorized uploading the305KB CE boundary, pilot script and protocol to westc:55786 and running the CPU pilot. The same CE source table already exists there with matching SHA. Both local and remote analytical LP self-tests pass; local nominal-spectrum parity is5.55e-17, miss/abstention accounting tests pass, and all7 boundary output hashes match. Code and frozen development contract: docs/CE_UNCERTAINTY_IDENTITY_PILOT.md; inputs: results/ce133_uncertainty_v1_ready. Runtime/seal checks and explicit reportable-recall fields were completed before any data scoring.
