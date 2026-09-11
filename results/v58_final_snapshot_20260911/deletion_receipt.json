@@ -1,0 +1,465 @@
+{
+  "git_snapshot_commit": "09971606550e904e0dca8aec75bf3fec5a79a84b",
+  "plan_sha256": "903b4b19076cd1a1389a5e16f3bd66cceeb345a20c4d397bdcb5b0fb2d0df423",
+  "deleted": [
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/latest_model.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1500.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2000.pth",
+    "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2500.pth"
+  ],
+  "started_utc": "2026-09-11T06:45:11.643449+00:00",
+  "removed_files": [
+    {
+      "dataset": "MODERATE__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/latest_model.pth",
+      "bytes": 40116644,
+      "sha256": "91ec6e4b30c380ca66cc656d4ff55c96ba56242c0b75b69ed8e09b7bccd6fe6e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "6894b8b09b34e98303b4b6cdd7f4259a616899da47224399c751a256e33a0292",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083887,
+      "sha256": "77dcdef6d341c07a08dded303539e1e5ec9b8e8be7937f7d59932d41f846454d",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096367,
+      "sha256": "5b70533b24cef855d90f066bc45c0283528c23515165035b9d7e1614bc032fe4",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R2_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108783,
+      "sha256": "f3bf794fcae971e4bc7be9b7fd0dcbacddddf36f993b3eef37a1ce83b6d7f193",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/latest_model.pth",
+      "bytes": 40108964,
+      "sha256": "0c525cf39f80dd2247a3ffd9308e2b14bd9360a0760fdc4aff2dd16d9cbe8dcb",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070255,
+      "sha256": "945e00f5786edd7b8e8136361c471ad911ca92b2e6ddc943500f7893e983c4e6",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081519,
+      "sha256": "3035151d928b5edbc7523e7c491244189547233e0b9fc003974e45539dd010df",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092463,
+      "sha256": "e018c76dbbfc8956fa05570bbbd54f3c9b03f88fddda79762c45d2c92f54ccba",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103023,
+      "sha256": "c80f93c3fe8d64f62f6b1b00f9be9dffea302efc4a52d76e3907fef8be780031",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/latest_model.pth",
+      "bytes": 40115172,
+      "sha256": "c406fe4870951bc8b4b0eb9f62e15400d82e00e63f91b7d989c784d87709366b",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071023,
+      "sha256": "4ecdccc58b2e64d8781bc9cc6c20667cc9a4c357012be121cc3cbf852d712a92",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083375,
+      "sha256": "d6b27b0e03ac83d992b4e5878667f36548e99084607f68818449518c321b9b79",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095663,
+      "sha256": "d8ca9e1e27111319ed0af7b2aaa0603d19eab310ae6a5e3ae135cf3c40029ac4",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40107759,
+      "sha256": "48d4a0a3bbd5ff2325e32dd1877c679757166943ea3c4566c748772bc881d432",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/latest_model.pth",
+      "bytes": 40116004,
+      "sha256": "d139ec13ef7c3b4b423c47fff58aee8fa3677587a96bdfc96a77d88f5ed4e9bc",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071215,
+      "sha256": "a8fdfc8893deb3e3d74b9f42cf24b52d8a6e3b930278836b04816eb5de1c2651",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "0c7c15edc5afe022bf37af80e35e87c68d04a1304979e32a4cf1dc5b42efd952",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096047,
+      "sha256": "27215c9fc385d8111bdaa0a5ae22b35b2c1ed57d3e134ea3aa11bcf5696dc8a4",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R3_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108271,
+      "sha256": "3ab03665375f97b589b323fdf938bfcdcfd22fa6788cdd78cfe1376a4adf3884",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/latest_model.pth",
+      "bytes": 40110052,
+      "sha256": "f107b35708a8bb858eac369fe814ab41e1cc96546ab54070f1101b6ca8470412",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070383,
+      "sha256": "cd1ed79a955002683ff083ec9f66e6b5c50b5e8f557d4166f3adde0ceeab3ab7",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081967,
+      "sha256": "78b89b7e1566176f02e0123ebfd80683cb21736220bd7a723653ff9ae2dc1579",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40093103,
+      "sha256": "9bde7296c6cfbee729e544cf4247f91ece006ebf4dda45d48f7d47a79f700d9b",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103919,
+      "sha256": "a5f030852bd7f6c953f3c28ae1aa6e448e457400d08653063fc1ebe2fedddd96",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/latest_model.pth",
+      "bytes": 40115236,
+      "sha256": "833f1744a8bb1dca33b8dba0ca849e89966241b645f41fc6f679adccddd20c47",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071279,
+      "sha256": "c5332ff14e190bc1b9c7b175dd5b5cbbd36c9ad8f70a859b3056dcb6b0ae8d1c",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "b3add41d880ef53586209555e5898acfed7acdcb0e032e9aec216201c6a2db81",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095919,
+      "sha256": "80c4aadaffe4b27f96a63ba98d3df080294a3743bd455803c87ad13a1e1db19f",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40107887,
+      "sha256": "fcb441fb0d1e9b338f0384bd974dd8a51ba9f2506eb6c68cef92cebfda546366",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/latest_model.pth",
+      "bytes": 40116324,
+      "sha256": "af1a42d6e925ec8936b0d7a76dcc3ec3116ebcba8e6810328441f55b97e60099",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071151,
+      "sha256": "d37fdcdc0d2df9a5d8ad55d87e8e37ac2835068091c17eeb72ba88dcce39205e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083759,
+      "sha256": "78f713f0a631a8ff3aeb3c7cbabc7699763fb8af85b611a2dedd8c32abe842a9",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096175,
+      "sha256": "92361f27ee99bb4887f32a15640d88bbc17174102077272c9cf0e8ddf2c13c06",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R4_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108527,
+      "sha256": "171e6ab84fa7cb4fb08be4179e15a015bee71df03f6bcb64f989c4749d416449",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/latest_model.pth",
+      "bytes": 40109220,
+      "sha256": "2b61ecd89e93644092f28df27eac6aadabd71e85ca94a8dca2298baa63778ca1",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1000.pth",
+      "bytes": 40070383,
+      "sha256": "b0c3680a392f0ed466f72a4235b7448a5c65473dd5288d0c6f748a428cdac429",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_1500.pth",
+      "bytes": 40081711,
+      "sha256": "455859e6aa63323930dcf08c5d1410e47c0ba35d893668289d58314a1333ae0b",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2000.pth",
+      "bytes": 40092591,
+      "sha256": "cba6cb85d7dd87d4faa410630862ad5bd8d34c841916a917c52400aeffa2aa6f",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K050",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_2500.pth",
+      "bytes": 40103215,
+      "sha256": "62a41aa393f9dc5594492c40aa3774e9e7b72c8c77d462f2beef9fb1a2494c69",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/latest_model.pth",
+      "bytes": 40115556,
+      "sha256": "9f3abed11e9c2b50e3424ad91a28763975342840d832a0d3379c0cfb6fb92cfc",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1000.pth",
+      "bytes": 40071023,
+      "sha256": "4f5e5ed9627b32e5c03760d28e25b7faea5428458fedea83585458bd933107d1",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_1500.pth",
+      "bytes": 40083567,
+      "sha256": "68e76816ebfc8880c040f6c834218d909310bb7b7562a85dab2351bf5082364e",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2000.pth",
+      "bytes": 40095727,
+      "sha256": "34cb0a70bd375bd6ae62aeb07f1c1666b4c1cade8ebd837f56f08202ab65ea51",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K125",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_2500.pth",
+      "bytes": 40108015,
+      "sha256": "aafdc377230af7b99dc93fd88c9b48db52472c3da01b5879d9c4565aa69f9467",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/latest_model.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/latest_model.pth",
+      "bytes": 40116324,
+      "sha256": "50e7fad21140b837f2dc9fc3f5b8884c59120b69c2fc13cf341693ea7ca63163",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1000.pth",
+      "bytes": 40071151,
+      "sha256": "f187f0b8a983d42b9406566e914c34d8723b64544be7672fd38f9458084d4c59",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_1500.pth",
+      "bytes": 40083695,
+      "sha256": "69140618b79757f726727071d5e218ea214b51a3cd49ea7c2b68a73fab111667",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2000.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2000.pth",
+      "bytes": 40096111,
+      "sha256": "4e4ab83bbfd234db338899596a03cce0755f7035d167669b593d497af33b30b3",
+      "symlink": false
+    },
+    {
+      "dataset": "MODERATE__HOLD_R5_K175",
+      "path": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2500.pth",
+      "resolved": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_2500.pth",
+      "bytes": 40108527,
+      "sha256": "11798aaa637de801d8c29a15d74d0055235b6e8e78dfeb8e3074dfa3656aa8d1",
+      "symlink": false
+    }
+  ],
+  "status": "COMPLETE",
+  "freed_bytes": 2004697600,
+  "data_disk_free": 5675184128,
+  "root_disk_free": 8599511040,
+  "finished_utc": "2026-09-11T06:45:17.534230+00:00",
+  "all_preserved_source_hashes_valid": true
+}

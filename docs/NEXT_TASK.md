@@ -1,3 +1,11 @@
+# Final V58 audit and scoped retirement COMPLETED — 2026-09-11
+
+Final60-case snapshot independently audited and successfully pushed as09971606550e904e0dca8aec75bf3fec5a79a84b BEFORE deletion. Exactly50 remaining ordinary intermediate/redundant checkpoints retired from ten completed MODERATE HOLD cases;2004697600 bytes (1.867GiB) freed on data disk. Receipt data free5675184128 bytes (~5.29GiB). Final models/arrays, all candidate/molecular records, CAL inputs/seals, reports/history/diagnostics and all oracle/sentinel/adoption/parent evidence remain. No V57/V59/missing-library files removed. All814 source hashes and retained model/array checks pass; original oracle/sentinel/CAL/result verification passes again after deletion. Receipts under results/v58_final_snapshot_20260911.
+
+Final scientific limitation: MILD local rho FDR5 yields HOLD FDR3.896%/recall21.14%; MODERATE FDR11.765%/recall15.43%, failing nominal5%. No outcome-driven changes. This requested final audit/cleanup task is COMPLETE.
+
+Next existing-job action: the frozen missing-library supervisor should resume at its next30-minute storage poll (about06:50UTC/14:50China) now that4GiB headroom is restored; last observed status still waiting, not yet a training-start claim. Do not create a duplicate job or bypass checks. V59 not changed or freshly audited during this task.
+
 # Final V58 audit COMPLETE; cleanup pending pushed snapshot — 2026-09-11
 
 All60 cases and final aggregate audited in results/v58_final_snapshot_20260911. All814 downloaded source hashes, candidate reporting gates, raw molecular counts, per-K/per-replicate outcomes, original CAL seals/threshold recomputation and exact final aggregate comparison pass. Remote finite arrays/completion, training/runtime binding and oracle/adopted sentinel checks pass. No training/rho rerun or scientific edits.

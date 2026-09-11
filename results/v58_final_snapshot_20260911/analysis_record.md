@@ -33,3 +33,5 @@ Deleting intermediate checkpoints prevents future reloading of those intermediat
 No active/incomplete case is eligible. Actual deletion is a separate step after Git push and a second complete hash verification. Refer to deletion_receipt.json for whether it has occurred.
 
 Interpretation: compare empirical FDR jointly with recall and TP loss. Repeated mappings and nested K share identities and are not independent biological replicates. Partial severity results cannot establish final performance. No scientific definition, training setting, rho calculation or target library was changed.
+
+Cleanup COMPLETED after successful snapshot push0997160. Exact50 planned files retired,2004697600 bytes freed; data free5675184128 bytes at receipt. All retained source/model/array checks and original post-retirement oracle/adopted-sentinel/CAL/result verification PASS for60 cases. See deletion_receipt.json and post_retirement_verification.json. Full scientific records and final models/arrays remain; no training/rho rerun.
