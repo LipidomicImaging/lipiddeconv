@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "selection_sha256": "db84f31aa60f00cbbcafe4467d572853f59fe12ec35da1c27ffb2fcfc38c9fb5",
+  "script_sha256": "a7ef6e95a31211d26a42cfbca7e28d690a1da92ec58458c51db3031e2bd846b0",
+  "numpy": "2.1.3",
+  "scipy": "1.15.3",
+  "A_solver_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+  "B_clean_sha256": "279b274ddab29d50ae48e2d6e0bd1b40ac65d40e153f89f5977c316928ae1cfe",
+  "B_mild_sha256": "62c735beda9bf9b03a3602630ea2fc1fe8a6ac0ff56990104d05c11614fba37d",
+  "clean_mean_sha256": "e43a68056c30138eec4346454e9daabd3d3257383f6dd1225ef155815655d039",
+  "mild_mean_sha256": "ce81248267a6cb0aa1de03c967ae8f0835e38302d408adf0b06f07a6d8b55848",
+  "fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "seconds": 41.68252905085683,
+  "files": {
+    "fit_diagnostics.csv": "af15913becdc0ec26cf7ec41719b6af21ef3afb394a19e62463a6cd04113f364",
+    "channel_loss_decomposition.csv": "96a0770f9ab287590beabf35c163010924075e58e7d3832369bb7e92b937b905"
+  },
+  "no_HOLD_outcomes_parsed": true,
+  "no_GPU_training": true,
+  "known_mismatch_is_not_measurement_noise": true,
+  "derived_reduction_checks": {
+    "forward_mismatch_residual": {
+      "frozen": 0.07249859914445561,
+      "recomputed": 0.072498599144457,
+      "abs_difference": 1.3877787807814457e-15
+    },
+    "sentinel_gate_residual": {
+      "frozen": 0.1949971982889112,
+      "recomputed": 0.194997198288914,
+      "abs_difference": 2.7755575615628914e-15
+    }
+  },
+  "all_scientific_array_hashes_exact": true,
+  "longdouble_is_residual_accumulation_only_not_high_precision_optimization": true
+}

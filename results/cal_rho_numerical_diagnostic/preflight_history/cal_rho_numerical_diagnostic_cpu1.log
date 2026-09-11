@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/root/v58_jobs/run_cal_rho_numerical_diagnostic_cpu1.py", line 143, in <module>
+    main(p.parse_args())
+  File "/root/v58_jobs/run_cal_rho_numerical_diagnostic_cpu1.py", line 91, in main
+    for method in methods:full[domain,method]=fit(A,b,method)
+                                              ^^^^^^^^^^^^^^^
+  File "/root/v58_jobs/run_cal_rho_numerical_diagnostic_cpu1.py", line 79, in fit
+    assert np.isfinite(x).all() and np.min(x)>=0 and np.isfinite(residual)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/root/v58_jobs/run_cal_rho_numerical_diagnostic.py", line 128, in <module>
+    main(p.parse_args())
+  File "/root/v58_jobs/run_cal_rho_numerical_diagnostic.py", line 43, in main
+    case,bound=v.checked_case(va,context,parent,targets,design,'MILD__CAL_R1_K125')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/lipiddeconv/analysis/run_v58_spectral_library_mismatch_fdr_recalibration.py", line 498, in checked_case
+    require(v57.canonical(row) == audit["datasets"][dataset], f"DATASET_RECONSTRUCTION_CHANGED: {dataset}")
+  File "/root/autodl-tmp/lipiddeconv/analysis/run_v58_spectral_library_mismatch_fdr_recalibration.py", line 108, in require
+    raise RuntimeError(message)
+RuntimeError: DATASET_RECONSTRUCTION_CHANGED: MILD__CAL_R1_K125

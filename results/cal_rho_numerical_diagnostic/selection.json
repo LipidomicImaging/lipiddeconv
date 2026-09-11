@@ -1,0 +1,100 @@
+{
+  "status": "FROZEN_CAL_DIAGNOSTIC_SELECTION",
+  "dataset": "CAL_R1_K125",
+  "severity": "MILD",
+  "selected": [
+    {
+      "candidate_index": 8,
+      "lipid_name": "PA 18:0_22:3",
+      "truth": true,
+      "clean_rho": 7.648183435343335e-08,
+      "mild_rho": 0.0,
+      "stratum": "true_positive_to_zero"
+    },
+    {
+      "candidate_index": 10,
+      "lipid_name": "PA 18:0_22:5",
+      "truth": true,
+      "clean_rho": 2.737093658639987e-08,
+      "mild_rho": 0.0,
+      "stratum": "true_positive_to_zero"
+    },
+    {
+      "candidate_index": 19,
+      "lipid_name": "PA 18:1_22:3",
+      "truth": false,
+      "clean_rho": 0.0,
+      "mild_rho": 8.474893859679513e-06,
+      "stratum": "false_gains_original_cutoff"
+    },
+    {
+      "candidate_index": 56,
+      "lipid_name": "PA 20:1_22:5",
+      "truth": false,
+      "clean_rho": 3.0330398519472785e-27,
+      "mild_rho": 9.009363879083474e-19,
+      "stratum": "false_gains_original_cutoff"
+    },
+    {
+      "candidate_index": 0,
+      "lipid_name": "PA 16:0_24:0",
+      "truth": true,
+      "clean_rho": 1.7916298684924645e-05,
+      "mild_rho": 4.85505181597886e-05,
+      "stratum": "true_survives_mild_cutoff"
+    },
+    {
+      "candidate_index": 6,
+      "lipid_name": "PA 18:0_22:1",
+      "truth": true,
+      "clean_rho": 6.849826663802598e-07,
+      "mild_rho": 2.7148736016660327e-05,
+      "stratum": "true_survives_mild_cutoff"
+    },
+    {
+      "candidate_index": 59,
+      "lipid_name": "PA 20:2_20:3",
+      "truth": false,
+      "clean_rho": 6.368610567775e-20,
+      "mild_rho": 1.7543740552697457e-05,
+      "stratum": "false_passes_mild_cutoff"
+    },
+    {
+      "candidate_index": 105,
+      "lipid_name": "PS 18:0_18:0",
+      "truth": false,
+      "clean_rho": 1.2375094643005208e-20,
+      "mild_rho": 2.2951148872229625e-05,
+      "stratum": "false_passes_mild_cutoff"
+    }
+  ],
+  "eligible_counts": {
+    "true_positive_to_zero": 31,
+    "false_gains_original_cutoff": 39,
+    "true_survives_mild_cutoff": 32,
+    "false_passes_mild_cutoff": 3
+  },
+  "selection_rule": "At most two lowest unused candidate indices per listed stratum, in listed order; jointly reported singleton identities only.",
+  "clean_threshold": 1.272651000158792e-20,
+  "mild_threshold": 1.7543740552697457e-05,
+  "methods": [
+    "scipy_nnls_original_order",
+    "scipy_nnls_reverse_order",
+    "scipy_lsq_linear_bvls_tol_1e-12"
+  ],
+  "maxiter": 3910,
+  "top_mismatch_channel_fraction": 0.1,
+  "threads": 1,
+  "device": "CPU_ONLY",
+  "sources": {
+    "results\\v57_spectral_spatial_identity_confidence_benchmark\\calibration_records.csv": "de75a24f1d1668fc40c99244858829f706334d8ff26768b70b4c7611af83bfe3",
+    "results\\v57_spectral_spatial_identity_confidence_benchmark\\global_frozen_thresholds.json": "86bc57ed9172a866c8f2c1fd8b229a3792d3451d8a39c63e826ec7fdfc5ee2d7",
+    "results\\v58_completed_snapshot_20260911\\MILD\\CAL_R1_K125\\molecular_false_negative_records.csv": "2f84e9bcc5a94e02fda7ea654aaf309d6587b42fcd6aae92aac783e62fed0eea",
+    "results\\v58_completed_snapshot_20260911\\MILD\\local_frozen_thresholds.json": "a00208a399403e9387edcbab8d36554ef3b571aa2dc25822b1f51573a1cde20c"
+  },
+  "limitations": [
+    "Purposive CAL examples, not prevalence estimates or HOLD validation.",
+    "Independent finite-precision solves assess sensitivity, not a rigorous arithmetic error bound.",
+    "Known CLEAN/MILD signal difference is diagnostic-only, not a noise estimate or an input to a deployed score."
+  ]
+}
