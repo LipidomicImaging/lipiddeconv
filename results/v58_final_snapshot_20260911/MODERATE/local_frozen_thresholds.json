@@ -1,0 +1,143 @@
+{
+  "status": "FROZEN_FROM_CAL_ONLY",
+  "severity": "MODERATE",
+  "design_fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "CAL_source_hashes": {
+    "MODERATE__CAL_R1_K050": {
+      "report.json": "6ddf01284a9930adabd7bbb3a2bc1b818d548352b7451f08aed060a934cceff8",
+      "reported_identity_records.csv": "c6ee82c102ff22286a8ddf59302b89c249fd7dd48bbf5bbb0b8429d716d11a05",
+      "candidate_false_negative_records.csv": "bcf9452af0fe6c316d1d46a0f4d5ca2125d574a89ad7d25c7782e48b99ab8f7c",
+      "molecular_false_negative_records.csv": "f07fe0698ded1dd823ac4b1606e5f723476c1fd3baff1e302d551639feb62c49"
+    },
+    "MODERATE__CAL_R1_K125": {
+      "report.json": "abc672b53ead3389b3ed1626a8afd53050339581212eee0d773cc5aa65ae6f0b",
+      "reported_identity_records.csv": "5eff9d7986f603b49b9d604a015cb512c1a93f05df38460b11689a8bbfcf9f6f",
+      "candidate_false_negative_records.csv": "be0a8cd9798a88ede10335b570529f685a027827e50696bb670e3f3b40d18d8c",
+      "molecular_false_negative_records.csv": "1a1e6c6ac598c69af0c3e59c15bba2b02cee2b56cd9ad0e9b6214fd795658131"
+    },
+    "MODERATE__CAL_R1_K175": {
+      "report.json": "7cf0f2d91a5e46a54af0ddcd541a2d6e03e2485e7d5c69ce294fd94a2ba35a8a",
+      "reported_identity_records.csv": "b3f97857811c6c8cc0f53bc2140ebd13c186be4210f0aa81afd0c8d0d51da53a",
+      "candidate_false_negative_records.csv": "480bd2f7a13e14be5c899d8f2317449ee1ba4a70359559148eeb5ef6b7f7d149",
+      "molecular_false_negative_records.csv": "0e1c0a63ea36d654f2f1cac72f127ec93fd7cc3a0c51e87aaf5484e7c3138317"
+    },
+    "MODERATE__CAL_R2_K050": {
+      "report.json": "625b623c910290a7baead8b5bb1f02b83a545fd895eb2d2abc92f5e3cb20b32d",
+      "reported_identity_records.csv": "5fb1d6fe26c691123a75e44f0780f10fc50a331d74173f7b0f9953a71a484e44",
+      "candidate_false_negative_records.csv": "a9fc4cf190f693f2cbf2ccc6a9e93d43a04105386ecf76a08a1b2e66c8d8b44c",
+      "molecular_false_negative_records.csv": "d144a15d52641ac99ab51206a358482d04003d2ef288d803010cac3b56d380bf"
+    },
+    "MODERATE__CAL_R2_K125": {
+      "report.json": "fd13ec908b383b2003442560bfd0612f7ef66f0db01caaef325567335bed90c7",
+      "reported_identity_records.csv": "7ec613e42364a446a4476df4cdee6a6edd3ba992c53af0a25e2c47587fa1863d",
+      "candidate_false_negative_records.csv": "d708ad43ee1551c177af4cf215033da55feade5aa30d96e01b3988309b475d54",
+      "molecular_false_negative_records.csv": "92528836b59770ccb44dbfddf808ded275c041cce60087a0e9493a21964e1c9f"
+    },
+    "MODERATE__CAL_R2_K175": {
+      "report.json": "d3552344c0a5ef5e476aad7d14263f92e2b04363da9c71f825e8bd7fe3b5461a",
+      "reported_identity_records.csv": "546aad0013716a058ce30dbc319debd06ebce82a65ba55d4df776e4b74619a3c",
+      "candidate_false_negative_records.csv": "cf218e98a3daed7329c50305e17b3aafa53c458f62ea451f6c4dbf73f302bbfa",
+      "molecular_false_negative_records.csv": "7357f7c020011c1b6874fa39692c23ad94a7f7ed3898495310002daf7d008af3"
+    },
+    "MODERATE__CAL_R3_K050": {
+      "report.json": "83fa722dda4838b8b4fc1268beff18c6907a06bf928d7d19464e1a506d74e112",
+      "reported_identity_records.csv": "8712c7d45879a36e21651b143876e3a779bfced7690079178df5d1d2918e295f",
+      "candidate_false_negative_records.csv": "ccf0f2eacd0c70b82fc2ee2f42e411c0b6366d05833a69556e34d64ecaa35865",
+      "molecular_false_negative_records.csv": "3944c8639a90821bde16d6cc7bc9dabee264a040f037eef8a99bd0c587ca3cc0"
+    },
+    "MODERATE__CAL_R3_K125": {
+      "report.json": "df65f563d7a4a5f7e68278942ea591bf2b8af8718dca1e5904acfe5f251b1061",
+      "reported_identity_records.csv": "76b16443339359f291249114e21227a02dac42aab3889500ae0c470394cb265b",
+      "candidate_false_negative_records.csv": "30fa3b3274762033259f5d3562406bf886506398915c182b9fd326b93ed46118",
+      "molecular_false_negative_records.csv": "a6bb6d0bcd9f83003311430ec3d7fad414695f7759e224e4f9c545740d75deaa"
+    },
+    "MODERATE__CAL_R3_K175": {
+      "report.json": "b1c14085e829da603ddc8424811e4eda62aeef68e442b7cb31b1916bb9ca5738",
+      "reported_identity_records.csv": "9d5c8353385ffa90cbbcfbef5c03e02ad4d782f4910da579bc6658c4d4a767cd",
+      "candidate_false_negative_records.csv": "645a5d4b3a89a233ea63519d05c433fd64054f666fda77e55dfae68b3966a7ec",
+      "molecular_false_negative_records.csv": "c05296454838aaa79cc9a79475dfe46d98dde986b7a566611a181773b39b1b01"
+    },
+    "MODERATE__CAL_R4_K050": {
+      "report.json": "d0dc96a1cf7ffe0c02abb2d43dc8f8cfa1f9714c367ea5c43297c1501d904e00",
+      "reported_identity_records.csv": "a620662bdd3b1df9d1fd60b521d5a5874a3d5a678ed459f4ef8ecaf4461a9015",
+      "candidate_false_negative_records.csv": "3c8d8e3ff176ea59b44ff62feb2a53fb49b8fe93dffaf3ae867c7982632ef131",
+      "molecular_false_negative_records.csv": "8e30568286c45e0628154970046ac79c9d13dc94e5ee05bff62f17a05f1ea5fc"
+    },
+    "MODERATE__CAL_R4_K125": {
+      "report.json": "5ab8ef1dd065a441507050bd0ecb472afa1d4d49a15663db496a76c2af476844",
+      "reported_identity_records.csv": "96206a7936f653b8c0de99e3a7c68d8b19e0376f916b4125a02e8f69066a23b6",
+      "candidate_false_negative_records.csv": "e9cbb5960585d2811968d1a55f90746481de2d289cd8fb48d11a45d9108f37dc",
+      "molecular_false_negative_records.csv": "6294af3486fbe75e8d0e7e7a3fd50bf67d49dd77846f49c0168dcfec4fcd7806"
+    },
+    "MODERATE__CAL_R4_K175": {
+      "report.json": "bff6806e621405b1fe75829d7baf4863c610274357b2bec45b528d5b2349d7e0",
+      "reported_identity_records.csv": "cab57624c72976ba244aed56e53514708b03481552c59a382fa8c04d1cde3901",
+      "candidate_false_negative_records.csv": "1bca9cce4daac680ef61471981ace885e5789317718d59af6314501520c3e89f",
+      "molecular_false_negative_records.csv": "fa8de861ea039a6d9b4c3fc8fedace5e9188c489aff5950e887a4b191917ad78"
+    },
+    "MODERATE__CAL_R5_K050": {
+      "report.json": "8d3230d8548fe1992c66bf608d0494ad310c7fe3fb47aba7974c90c5691ae2ef",
+      "reported_identity_records.csv": "9afebb9de4a9ca1d819ab214099001c69246aa66795326fa15cc6ec0e9b46183",
+      "candidate_false_negative_records.csv": "6a4768aebf605f5de2a181c4687fd8b2e108cfe8a4fc4b26de34c696094c81a7",
+      "molecular_false_negative_records.csv": "f713a937633d2182145fd2c9a38bcf53802c292411ac863428d7e1d7d9c83b46"
+    },
+    "MODERATE__CAL_R5_K125": {
+      "report.json": "7cf12e61fe7d94e168130c652e3cbb782abe0666a9e2f127fa076a24ef252581",
+      "reported_identity_records.csv": "3edef959adb2dbb593ed90cfbe97e94a78e6b43583bd3e23f0eea85b64bef828",
+      "candidate_false_negative_records.csv": "dc7cd4005fddcefb51057a59bdcc08167030a24918b2d5a5c7150c3f447154f9",
+      "molecular_false_negative_records.csv": "f83f4b0b3df143c8966f315e47778ef05d35b9b189bbaedbc771a92580630fe3"
+    },
+    "MODERATE__CAL_R5_K175": {
+      "report.json": "e83be1ffc053d92015d71dd301beda84c6281c7a50eef46c919cf89e32be8186",
+      "reported_identity_records.csv": "b94cc0a5a4bd3cae97d3b65f689a8d404593eb777ee41970427b6c1348c46ccc",
+      "candidate_false_negative_records.csv": "0234def31f1bd38def67c65aa7ff52fef98cf7ff2b4a11c0b271602fe5e2ad01",
+      "molecular_false_negative_records.csv": "edb965ad90e1aa6e7bc05b4840b7ad352ea280209600595838e6fdbec04eba2c"
+    }
+  },
+  "target_FDR": {
+    "FDR1": 0.01,
+    "FDR5": 0.05
+  },
+  "global_thresholds": {
+    "rho_zero": {
+      "FDR5": {
+        "threshold": 4.478954306205769e-05,
+        "N_retained": 321,
+        "TP": 305,
+        "FP": 16,
+        "FDR": 0.04984423676012461,
+        "precision": 0.9501557632398754
+      },
+      "FDR1": {
+        "threshold": 0.0001306209674573362,
+        "N_retained": 156,
+        "TP": 155,
+        "FP": 1,
+        "FDR": 0.00641025641025641,
+        "precision": 0.9935897435897436
+      }
+    },
+    "X_hat": {
+      "FDR5": {
+        "threshold": 0.020781507786842852,
+        "N_retained": 325,
+        "TP": 309,
+        "FP": 16,
+        "FDR": 0.04923076923076923,
+        "precision": 0.9507692307692308
+      },
+      "FDR1": {
+        "threshold": 0.04340107645825854,
+        "N_retained": 55,
+        "TP": 55,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      }
+    }
+  },
+  "selection": "maximum retained molecular units with empirical CAL FDR<=alpha; lower threshold breaks ties; pooled K/R",
+  "no_eligible_threshold": "None; explicitly reject all, report FDR undefined, scientific calibration failure only",
+  "HOLD_read_before_freeze": false,
+  "per_K_or_replicate_calibration": false
+}

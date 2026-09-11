@@ -1,0 +1,427 @@
+{
+  "status": "PASS",
+  "cases": {
+    "MILD__CAL_R1_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "c53f3d90e6181206ce6e4cc0f17875ef020d7ddaa6bd4498daa53f9977afe0ac"
+    },
+    "MILD__CAL_R1_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "36b25e34670aa07e9e9463f94a77957c99ddeb8811ccc67539eb55cbb5b2a12e"
+    },
+    "MILD__CAL_R1_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R1_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "d6b1071626c6644fe036f05ab3454fdae0cd2dc530278804710682d46a9a6141"
+    },
+    "MILD__CAL_R2_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "51bbb286aa8c0284848e861eaec94c294a3d01fad46316c6e0e660af6628246c"
+    },
+    "MILD__CAL_R2_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "47308cde1225240857234bbc1d275277cfd4fbde4b736e39a50054a8ef283d66"
+    },
+    "MILD__CAL_R2_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R2_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "e26a9876f0b59080dfafc4723e4fbac312cfdcf7b89fc4e43792e202c78729d7"
+    },
+    "MILD__CAL_R3_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "859add256352b5e2fab9b93e353087def8234b5edcd1ee13854717fe883be0a0"
+    },
+    "MILD__CAL_R3_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "d2e097eb8d630b4cdf4da7558cfc7967c2fc5e355e66b373b057dc55230f8b86"
+    },
+    "MILD__CAL_R3_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R3_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "98a0ff143ba6d7f690aafa930979e2bd88eb5c287bbc767ed75d4c2d6d1a03de"
+    },
+    "MILD__CAL_R4_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "1f70beafe7e08fb589a2a89ed54bd404bfbd024008643d8c1a5c76eca72a271f"
+    },
+    "MILD__CAL_R4_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "01274bdc639ca091411447f24354da14a0e02f99973fd9dade1b05f8085a9364"
+    },
+    "MILD__CAL_R4_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R4_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "a022238c4c28587885cd90835d4ae85414dd187de4192d84c638176f50f6db8f"
+    },
+    "MILD__CAL_R5_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "20f481baa23caf51caac103c70a1c6d5104b52fe5806cb847603695114f89877"
+    },
+    "MILD__CAL_R5_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "5cfbf2e6d958d98ac1edf832c1c4d92d2c52600532ee17d030f13dadd3c676df"
+    },
+    "MILD__CAL_R5_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/CAL_R5_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "1826f5fbe0858bc8e2f6c977aa67816d4941194d112fbba23e54b372f80cb5a3"
+    },
+    "MILD__HOLD_R1_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "40ae33dcbb8658e4f3d26845cc2981d777baf75e92864ba6dc7efcdd85917342"
+    },
+    "MILD__HOLD_R1_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "8f1a1cc363c359c23d55fb99dd0bfd6467632c11ff4effc8a0a57fba20d66c39"
+    },
+    "MILD__HOLD_R1_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R1_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "5305977b668bb84fddcc0301bb21657954600983eefc163b903fa5daaeedd469"
+    },
+    "MILD__HOLD_R2_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "3ff703e8b2b96100666a0bee77c40404193cb18b89e843cca2a91c26bdd745da"
+    },
+    "MILD__HOLD_R2_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "05471bb90c4a4601fd31fed76eea506abe319ec80f9b5958737b03d0b8c531b3"
+    },
+    "MILD__HOLD_R2_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R2_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "a8aa7a44972b801c7269a0a0706ee486f7bc5075d4dfc4fe41b563610f7fd7f5"
+    },
+    "MILD__HOLD_R3_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "39333b4327ec4dba0566a811b3effd18584ce97eabcd4dff2ac3ade5c4da56dd"
+    },
+    "MILD__HOLD_R3_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "f9886e02a6421e6ed8218e5ce8576d4a44376ae13767a29d62d34a61d738c821"
+    },
+    "MILD__HOLD_R3_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R3_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "097fa524b2594c40d92de408ebe2dc6701bd76285d82af250963b190b31a47eb"
+    },
+    "MILD__HOLD_R4_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "143f202127502e59e9c99c32bce90cceebbac2e409181e3b8e6eb44a08376239"
+    },
+    "MILD__HOLD_R4_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "8ba2d1be0f8fcc0311976e16bd481627f73288e15018e613085756ee2ebf40d2"
+    },
+    "MILD__HOLD_R4_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R4_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "ef7b363a04a90cdf17221530bdf8dcd3fcd4b122fe4745e047785ee463c5658d"
+    },
+    "MILD__HOLD_R5_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "4d1ebb6b456f452e7d7b50c9e9d83611d767539a09390cfe5e357af94e3ee63c"
+    },
+    "MILD__HOLD_R5_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "d21c57214466bb64d23a7f775543b3b05ae4895aa792fab064977f0f8b3e43c5"
+    },
+    "MILD__HOLD_R5_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MILD/HOLD_R5_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "baca38c6a208736377b1a5055fc68333392a5e280d4370ef42b713383a285b84"
+    },
+    "MODERATE__CAL_R1_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "a86cb4828aebf074af66024356660d0d86edfea7353969c1ce88beec2517848a"
+    },
+    "MODERATE__CAL_R1_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "e7343404af32144c7a380569fb4ff02b2aaac49c9ae5ace87bf93febd829b33c"
+    },
+    "MODERATE__CAL_R1_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R1_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "b21d30cbb37e3fd5e138aee577a1fbe1101d6cec14dfe4de772fd4049663c046"
+    },
+    "MODERATE__CAL_R2_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "934937954a6c19c82e88162c02bc7133121e1dc0a31d6ada0b87e8208e09ba64"
+    },
+    "MODERATE__CAL_R2_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "5d02a5da2e4f7284dc69169a3152bc85d898d905da653ee2faee61dc4b980d84"
+    },
+    "MODERATE__CAL_R2_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R2_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "8cb0eae485b3a53c326be92af58d60daf8f8f88080359da93e5652a54990491a"
+    },
+    "MODERATE__CAL_R3_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "387428afaa8c4b07f6bc2a72beaef34452a944f7e0ebeed0e0950de91be184b4"
+    },
+    "MODERATE__CAL_R3_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "b35a4f2fa57462218a2b25e1b82c9e385871efedb24aff8c02ea72406d377009"
+    },
+    "MODERATE__CAL_R3_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R3_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "7757f97ffd76230b7d1aa7cb6e404a78c6e3fa5eddf0712bd7c92bba89507b21"
+    },
+    "MODERATE__CAL_R4_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "1fc95ad6e233e7ea1986dda00f860b9a4c1ca3a8ee5241659b8bbad51c1dba17"
+    },
+    "MODERATE__CAL_R4_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "3fe62dbf4250d511f7f9a7e767f052cea7a399e0dbd929084fad12423cac840d"
+    },
+    "MODERATE__CAL_R4_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R4_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "8bfdae710bbf2462589a15d21128d1ad7436ff5d727917957eb977dfd601ceca"
+    },
+    "MODERATE__CAL_R5_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "a8bffb9f86003986e363dfa416235412c02d5cd36f45dc9998cf242b36c8d80f"
+    },
+    "MODERATE__CAL_R5_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "2dab7868d3ad2ff558ee74848278e215af1a4565358202f9578b9b9d42553b5c"
+    },
+    "MODERATE__CAL_R5_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/CAL_R5_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "aa0b9b351170f16da78ae09e7cdf9e69fffe520ff1b30edec38046624469446b"
+    },
+    "MODERATE__HOLD_R1_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "5341b9f34f5c95f79f0e9ab72b53f8db10d62f506fb68f43ad4714a5e19a4e1c"
+    },
+    "MODERATE__HOLD_R1_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "b091bbacd5cde78a653086807076a31d26ca2eeb90a478f186d489638db0c0e9"
+    },
+    "MODERATE__HOLD_R1_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R1_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "1d337494c72f55f1bf9a225ad2a6265b255e49aae59a8ef8a99f97f755919e4c"
+    },
+    "MODERATE__HOLD_R2_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "a1d8795a8d97d4126090a4d0ea35d217e51482ad0994a0949d91cc44ceefb62c"
+    },
+    "MODERATE__HOLD_R2_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "2ab5cf203ae2a8a4fde949edf9e7a923f402682ff36feb5a7e45d284cb494119"
+    },
+    "MODERATE__HOLD_R2_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R2_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "4526e3d08db0a252ea4aaf6d9c0f7b4c5a438be405c6d33735d23acab1b1c567"
+    },
+    "MODERATE__HOLD_R3_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "1ad71b977639c5049e8f23e780997a14f9d43ec8d42dd18877833b9e36a85334"
+    },
+    "MODERATE__HOLD_R3_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "457eaba078d3e1b16a7cedb76c02303159487475f5c3448b61dab983d3d0490e"
+    },
+    "MODERATE__HOLD_R3_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R3_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "690b11c87ae63f9dedada514c49f80a7b00abc7400c7fbd95e396e6ebe4fcef4"
+    },
+    "MODERATE__HOLD_R4_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "00a176e20354fe14644dcd1b63e464ecbb81c4c4c2049e1a8059cd691e9627cb"
+    },
+    "MODERATE__HOLD_R4_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "f168aed1223df95fa14c6a206903551324e866a4cbf1d61e0e9761bbe4a4ad68"
+    },
+    "MODERATE__HOLD_R4_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R4_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "379525be93f9b1d1691e87732e8a3dc8df301529636397ec7b0e5e2a405a6e53"
+    },
+    "MODERATE__HOLD_R5_K050": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K050/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "e7b6c05a2f550513eaa2870ecfe2d681f7cc009966c5216ef1d4a702e1f81008"
+    },
+    "MODERATE__HOLD_R5_K125": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K125/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "5eac646beb8e465f3c831e87f9e20cc39151789fcefe8a6056691acb00f57e93"
+    },
+    "MODERATE__HOLD_R5_K175": {
+      "normal_completion": true,
+      "finite": true,
+      "stopped_epoch": 3000,
+      "final_model": "/root/autodl-tmp/lipiddeconv/results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery/MODERATE/HOLD_R5_K175/checkpoint_epoch_3000.pth",
+      "final_model_sha256": "839ac1c01648c70f9a18ffcc3f0efb7791ed1677bad54b14d98250ecc8948ef7"
+    }
+  },
+  "oracle_and_sentinel_revalidated": true,
+  "CAL_thresholds_recomputed_and_matched_without_rewriting": true
+}

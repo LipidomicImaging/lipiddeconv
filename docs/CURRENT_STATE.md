@@ -1,3 +1,9 @@
+# Final V58 audit COMPLETE; cleanup pending pushed snapshot — 2026-09-11
+
+All60 cases and final aggregate audited in results/v58_final_snapshot_20260911. All814 downloaded source hashes, candidate reporting gates, raw molecular counts, per-K/per-replicate outcomes, original CAL seals/threshold recomputation and exact final aggregate comparison pass. Remote finite arrays/completion, training/runtime binding and oracle/adopted sentinel checks pass. No training/rho rerun or scientific edits.
+
+Complete HOLD rho local FDR5: MILD FDR3.896%/recall21.14%; MODERATE FDR11.765%/recall15.43%. MODERATE does not meet nominal5% FDR. See final_findings.md for raw, fixed-threshold and abundance results. Next successfully push this snapshot, then apply only its50-file/1.867GiB checkpoint retirement plan and reverify/push receipt. Final arrays/models and all scientific/provenance evidence remain. Missing-library supervisor currently waits for4GiB free space; do not bypass it or launch a duplicate.
+
 # Paired MILD NNLS CAL screen COMPLETED — 2026-09-11
 
 One new CAL_R1_K125 MILD pixelwise full391 NNLS run completed and independently reviewed in results/mild_nnls_cal_pilot (1082s CPU, no GPU/HOLD). Raw MILD NNLS TP125/FP86/FN0 versus ISTA122/109/3; cached CLEAN NNLS125/0/0. False identities overlap65, with21 NNLS-only and44 ISTA-only. Thus changing solver improves raw recovery but does not resolve mismatch false allocation. At retrospective CAL empirical5% FDR, NNLS rho recall22.4%, abundance37.6%; ISTA25.6%/36%. Shared identity rho values are exactly equal. No independent FDR guarantee or outcome-driven parameter change.

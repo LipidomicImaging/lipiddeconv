@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_files_verified": 814,
+  "completed": 60,
+  "independent_HOLD_counts_verified": true,
+  "final_aggregate_matches": true,
+  "candidate_gate_and_per_K_replicate_checks": true,
+  "cleanup_plan_sha256": "903b4b19076cd1a1389a5e16f3bd66cceeb345a20c4d397bdcb5b0fb2d0df423",
+  "planned_freed_bytes_by_filesystem": {
+    "data disk": 2004697600
+  }
+}
