@@ -1,3 +1,7 @@
+# MILD NNLS CAL pilot RUNNING — 2026-09-11
+
+User authorized one paired CAL_R1_K125 MILD pixelwise NNLS run, reusing existing CLEAN NNLS and both original ISTA records. Protocol: docs/MILD_NNLS_CAL_PILOT.md. Running on westc at /root/v58_jobs/mild_nnls_cal_pilot with four nice10 CPU workers; exact frozen input audit and CLEAN cached file checks pass, first foreground pixels completed. No GPU or HOLD outcomes. Next finish run, download/hash/review raw TP/FP/FN plus original rho/abundance CAL curves, preserve arrays remotely and compact evidence in Git. Do not retune or automatically expand. Earlier channel-prediction route remains stopped, six-fit alternative-reference GPU proposal paused.
+
 # CAL channel-prediction pilot COMPLETED — 2026-09-11
 
 Bounded CAL_R1_K125 CLEAN/MILD CPU pilot and review complete in results/cal_channel_prediction_pilot. 456 reported identity contexts, 1368 deletion fits, 585 seconds, no GPU/HOLD outcomes. Original frozen A/B/X_truth bindings, output/source/script hashes, finite losses, membership and fold tests pass. At retrospective empirical5% FDR on MILD: rho32 TP/1 FP (25.6% all-truth recall), X_hat45/2 (36%), predictive gain no nonempty admissible set (0% recall); predictive AUROC0.458. Twenty raw true identities lack prescribed fragment support; the common-evaluable comparison also fails. CLEAN rho retains123 truths versus prediction103 after support exclusion.
