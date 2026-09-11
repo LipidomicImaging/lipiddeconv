@@ -188,7 +188,7 @@ def prepare(args):
     v.dependencies()
     va = v.parse_args(["--output-dir", str(args.root/"results/v58_spectral_library_mismatch_fdr_recalibration_compact_recovery"),
                       "--v57-output", str(args.root/"results/v57_spectral_spatial_identity_confidence_benchmark"),
-                      "--asset-root", str(args.asset_root)])
+                      "--asset-root", str(args.asset_root), "--audit-design"])
     parent, _, _ = v.parent_provenance(va)
     context = v.load_context(va, parent)
     targets, _, _ = v.build_targets(context)
