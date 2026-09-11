@@ -1,3 +1,11 @@
+# Two bounded confidence-method development screens COMPLETED — 2026-09-11
+
+No validated solution has yet achieved the requested low-FDR/high-recall goal. Finite3-reference identity-deletion test: MILD CAL recall20.8% at empirical5% FDR versus rho22.4%/abundance37.6%, despite77.32% SSE reduction; stop that version. Grouped joint rho/abundance model: identity-disjoint internal CAL evaluation gives MILD FDR6.27%/recall30.74%, MODERATE FDR7.05%/recall29.37%, no gain over abundance and fails5% target; stop that version. Results in results/reference_flexibility_cal_pilot and results/joint_confidence_cal_pilot. Both code/protocols were pushed before outcomes; all source/model/seal/accounting checks pass. No original method/threshold edits, no GPU method expansion, no deletions.
+
+The broader scientific objective remains OPEN. Do not keep modifying features/reference counts on these exposed CAL outcomes until something passes. Next prerequisite is evidence-based spectral-variation calibration and a new independent validation design. Existing full-library provenance identifies CE29 predicted spectra, not verified matched experimental multi-condition spectra; see upstream_uncertainty_inventory.json. Do not infer missing assets globally or scan archives: only known paths/direct references may be audited after a scoped task. The six-GPU alternative-reference protocol remains paused.
+
+Existing missing-library GPU job was verified RUNNING/MISSING_LIBRARY at06:51UTC; V59 unchanged. Their audits remain separate pending tasks.
+
 # Reference-flexibility screen completed; joint-evidence CAL screen next — 2026-09-11
 
 Finite3-reference/full1173-column individual-deletion CAL screen completed in results/reference_flexibility_cal_pilot. At5% empirical CAL FDR new recall20.8%, original rho22.4%, abundance37.6%; full SSE fell77.32% without identification gain. Stop this version; no parameter/variant tuning, no GPU expansion. Full dictionary, scores, checks and analysis retained.

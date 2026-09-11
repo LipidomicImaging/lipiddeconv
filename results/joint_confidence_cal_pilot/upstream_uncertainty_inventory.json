@@ -1,0 +1,18 @@
+{
+  "status": "EMPIRICAL_VARIABILITY_NOT_VERIFIED",
+  "evidence_file": "results\\v59_standardized_cross_library_inventory\\full_library_provenance.json",
+  "evidence_sha256": "d42c4b7410d45249bd654a9b8d9250ec6ddfab4442952406094c87ddfeb65cd8",
+  "known_production_prediction_assets": [
+    "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\metadata_ce29_full.jsonl",
+    "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_predictions_ce29.npy",
+    "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_target_mz.npy",
+    "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_masks.npy",
+    "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channels.json"
+  ],
+  "known_prediction_shape": [
+    5418,
+    20
+  ],
+  "scope": "Existing provenance document only. No recursive asset scan or new large-file hashes.",
+  "missing_evidence": "Matched experimental MS/MS spectra across collision energies/repeats/instruments with identity/adduct/CE labels, or a validated prediction-error calibration set. CE29 prediction provenance alone does not supply this."
+}
