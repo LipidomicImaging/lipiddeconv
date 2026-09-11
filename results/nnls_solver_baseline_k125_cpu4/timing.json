@@ -1,0 +1,12 @@
+{
+  "dataset": "CAL_R1_K125",
+  "sampled_pixels": 32,
+  "total_pixels": 15837,
+  "sample_seconds": 3.8849509693682194,
+  "estimated_seconds_per_case": 1922.6865156838903,
+  "estimate_excludes_rho": true,
+  "includes_pool_startup": true,
+  "cpu_workers": 4,
+  "selection": "evenly spaced flattened foreground indices",
+  "B_sha256": "279b274ddab29d50ae48e2d6e0bd1b40ac65d40e153f89f5977c316928ae1cfe"
+}

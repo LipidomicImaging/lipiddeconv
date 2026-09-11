@@ -1,3 +1,11 @@
+# Active next task — 2026-09-11 handoff
+
+COMPLETED: six-case NNLS result retrieval, independent provenance/CAL/HOLD audit and scientific analysis. V57 stratified review also complete.
+
+RUNNING: V58 storage recovery (37/60 at01:49UTC), with frozen missing-library six-fit handoff automatically queued in remote supervisor /root/v58_jobs/storage_recovery_20260911/status.json. Do NOT start a duplicate missing-library job. User expanded data disk20GB, not yet visible in guest snapshot; supervisor waits if capacity becomes insufficient. Preserve original failure and all archives.
+
+RUNNING: V59 formal serial CPU rho, three D0 CAL reports complete; not18/18. Next review V58/18-case V59 and six missing-library outputs as each actually completes; retrieve compact records with source hashes and commit/push. Use docs/ACTIVE_EXPERIMENTS.md for paths. Full task remains IN_PROGRESS; NNLS review is not completion of either GPU benchmark. Earlier instructions below describe prior states.
+
 # Active next task — V58/V59 result handoff
 
 Scheduled continuation authorized: first2026-09-11 02:00 Asia/Shanghai, then every30min, see docs/EXPERIMENT_MONITOR_HANDOFF.md. V57 stratified miss review complete. Next scheduled run checks NNLS numerical outputs and GPU experiment completion, launches frozen missing-library only on a genuinely released GPU, then reviews complete outputs and pushes Git. V59 GPU idle during serial rho is not a completion signal.

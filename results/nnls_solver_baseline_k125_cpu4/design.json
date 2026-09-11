@@ -1,0 +1,31 @@
+{
+  "fingerprint": "92d505e18616071dc317b5a621425e9c02248d69d7283ea2092af6531f3a9a2b",
+  "contract": {
+    "parent_fingerprint": "805c310f2c3778206e2ba4680c00fd6b15266806f3720d3dfaeeb4ad246071e9",
+    "datasets": [
+      "CAL_R1_K125",
+      "CAL_R2_K125",
+      "CAL_R3_K125",
+      "HOLD_R1_K125",
+      "HOLD_R2_K125",
+      "HOLD_R3_K125"
+    ],
+    "method": "scipy.optimize.nnls per foreground pixel; all391 columns; unweighted L2; no spatial penalty or learned spectral calibration",
+    "maxiter": 3910,
+    "precision": "float64 solve, float32 stored X_hat; float64 foreground mean for reporting",
+    "cpu_workers": 4,
+    "blas_threads_per_worker": 1,
+    "reporting_gate": 0.001,
+    "background": "require exactly zero input, return zero solution",
+    "rho": "unchanged v54.rho_values, W=I, mean observed foreground spectrum",
+    "calibration": "per solver CAL R1-R3 K125 maximum retention at empirical FDR5/FDR1, then HOLD R1-R3 K125",
+    "scipy_version": "1.15.3",
+    "numpy_version": "2.1.3",
+    "script_sha256": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+    "limitations": [
+      "Matched inputs and reporting, different optimization objectives from production ISTA.",
+      "CLEAN exact-library performance may saturate; no outcome-driven harder-condition expansion.",
+      "Three mappings and repeated identities are not independent biological samples."
+    ]
+  }
+}

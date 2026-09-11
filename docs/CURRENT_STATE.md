@@ -1,3 +1,11 @@
+# Active state update — 2026-09-11
+
+NNLS six-case baseline and independent result review COMPLETE. See results/nnls_solver_baseline_k125_cpu4/analysis_record.md and local_review.json: raw NNLS HOLD TP375/FP0/FN0; rho FDR5/FDR1 TP372/FP0/FN3 (one identity repeated across three mappings). Same-subset ISTA raw TP361/FP354/FN14; rho FDR5 FP3, FDR1 FP0, no extra true loss. All30 source downloads, CAL seals and independent HOLD accounting pass. No universal filter-benefit claim.
+
+V58 old supervisor stopped on storage archive failure after36 complete reports (old state counted35). Preserved original failure; replacement operational supervisor PID60098 now running unchanged scientific fingerprint. At01:49UTC completed37/60, active MODERATE__CAL_R3_K125. New status: /root/v58_jobs/storage_recovery_20260911/status.json. Remaining outputs stay on data disk; no old assets deleted. User reports adding20GB, but observed data capacity remains50GiB, free~7.67GiB; expansion visibility NOT_VERIFIED. Supervisor waits safely for space and automatically runs the frozen six missing-library fits after60 V58 plus aggregate and GPU release.
+
+V59 formal PID4983 remains active in CPU postprocessing; three D0 CAL reports complete. All sentinels passed, but18 formal results are NOT complete. Do not launch a conflicting GPU job from zero instantaneous utilization. Snapshot files under results/active_experiments. No active desktop heartbeat is established by this update; remote recovery handoff runs independently of desktop sleep. Earlier dated progress below is historical.
+
 # Active state update — 2026-09-10
 
 Monitoring schedule corrected per user: first check2026-09-11 02:00 China time, then every30min; automation id automation. V59 all sentinels PASS; formal serial CPU postprocessing leaves GPU temporarily idle, not released (13:35UTC snapshot). Earlier V59 completion estimate omitted rho and is withdrawn. NNLS first case10501/15837 pixels at13:32UTC, no reported failure. V57 stratified review complete:122 miss contexts across30 identities; top5 account for48; no rho filter-induced true loss. See docs/EXPERIMENT_MONITOR_HANDOFF.md and results/computational_closure/v57/stratified_review.

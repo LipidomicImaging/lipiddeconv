@@ -1,3 +1,11 @@
+# Latest operational snapshot — 2026-09-11
+
+V58 recovered from archive storage failure with original evidence preserved. Active supervisor: /root/v58_jobs/resume_v58_storage_handoff.py (PID60098); active status: /root/v58_jobs/storage_recovery_20260911/status.json. Code: analysis/resume_v58_storage_handoff.py. At01:49UTC37/60 complete, active MODERATE__CAL_R3_K125. Old /root/v58_jobs/compact_recovery_status.json remains FAILED and must not be mistaken for active state. Same output and scientific fingerprint. New results stay on data disk; no additional root-cache archiving. User reports20GB expansion; guest still reports50GiB total at snapshot. Space guards wait rather than delete. After60 results and aggregate, the supervisor validates the frozen missing-library fingerprint/code and GPU release before six omission fits.
+
+V59: all18 oracles and all3 sentinels PASS; formal PID4983 is active, three D0 CAL reports complete. D0 HOLD_R1 training completed, CPU rho pending. GPU idle during this step is not release. Current snapshot: results/active_experiments/v59_formal_status_20260911.json.
+
+NNLS: all6 complete and reviewed; results/nnls_solver_baseline_k125_cpu4/analysis_record.md. Original source status is preserved; local_review.json records review PASS. The dated snapshot text below remains historical.
+
 # Active experiments: V58 and V59
 
 Updated 2026-09-10. Status below is an observed snapshot, not a completion claim. No credentials are stored here. Read the named remote status files for later progress; do not restart training just to obtain a status update.

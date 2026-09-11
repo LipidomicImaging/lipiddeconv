@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-09-11T01:49:13.333983+00:00",
+  "host": "connect.westc.seetacloud.com",
+  "supervisor_pid": 60098,
+  "status": "RUNNING",
+  "completed_count": 37,
+  "active_dataset": "MODERATE__CAL_R3_K125",
+  "fingerprint": "74032334eb538114e76459a1bb82ef0187d38f48ab20e60124021cd638afd8f0",
+  "original_failure_sha256": "d0d03deb39aec5cd898c32ad3bc6be5ab6694d0e059171b759c4ce0a5f1f7c1e",
+  "data_disk": {
+    "total": 53687091200,
+    "used": 45452689408,
+    "free": 8234401792
+  }
+}

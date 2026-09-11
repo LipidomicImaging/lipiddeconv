@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "planned_cases": 6,
+  "actual_cases": 6,
+  "threshold_seal_valid": true,
+  "CAL_source_hashes_valid": true,
+  "HOLD_results_after_threshold_seal": true,
+  "cases": [
+    {
+      "dataset_id": "CAL_R1_K125",
+      "elapsed_seconds": 1827.8752047158778,
+      "sampled_KKT_max_dual_violation": 2.7953957286384403e-16,
+      "sampled_KKT_max_complementarity": 6.501093048272542e-17
+    },
+    {
+      "dataset_id": "CAL_R2_K125",
+      "elapsed_seconds": 1883.201404094696,
+      "sampled_KKT_max_dual_violation": 4.302016796659705e-16,
+      "sampled_KKT_max_complementarity": 9.185566265986449e-17
+    },
+    {
+      "dataset_id": "CAL_R3_K125",
+      "elapsed_seconds": 1772.6826664730906,
+      "sampled_KKT_max_dual_violation": 2.7157591389274587e-16,
+      "sampled_KKT_max_complementarity": 7.603774552036962e-17
+    },
+    {
+      "dataset_id": "HOLD_R1_K125",
+      "elapsed_seconds": 1904.2563020065427,
+      "sampled_KKT_max_dual_violation": 7.523611884964969e-16,
+      "sampled_KKT_max_complementarity": 2.671480405029057e-16
+    },
+    {
+      "dataset_id": "HOLD_R2_K125",
+      "elapsed_seconds": 1929.0894107297063,
+      "sampled_KKT_max_dual_violation": 3.9338279444949774e-16,
+      "sampled_KKT_max_complementarity": 2.3107552823731493e-16
+    },
+    {
+      "dataset_id": "HOLD_R3_K125",
+      "elapsed_seconds": 1782.885387223214,
+      "sampled_KKT_max_dual_violation": 4.573784141006905e-16,
+      "sampled_KKT_max_complementarity": 7.398261728532555e-17
+    }
+  ],
+  "rho_FDR5_filtered_truths": [
+    {
+      "dataset": "HOLD_R1_K125",
+      "dataset_id": "HOLD_R1_K125",
+      "complexity_condition": "K125",
+      "lipid_name": "PE O-18:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "rho_zero": 5.982895822984287e-10,
+      "X_hat": 0.007663677652842519,
+      "threshold": 3.0491092908005636e-09
+    },
+    {
+      "dataset": "HOLD_R2_K125",
+      "dataset_id": "HOLD_R2_K125",
+      "complexity_condition": "K125",
+      "lipid_name": "PE O-18:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "rho_zero": 5.982892345135942e-10,
+      "X_hat": 0.007924993934077149,
+      "threshold": 3.0491092908005636e-09
+    },
+    {
+      "dataset": "HOLD_R3_K125",
+      "dataset_id": "HOLD_R3_K125",
+      "complexity_condition": "K125",
+      "lipid_name": "PE O-18:1_20:3",
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "rho_zero": 5.982938452117654e-10,
+      "X_hat": 0.007910397799186161,
+      "threshold": 3.0491092908005636e-09
+    }
+  ],
+  "limitation": "KKT sampled every500 pixels, not exhaustive; no biological independence claim"
+}

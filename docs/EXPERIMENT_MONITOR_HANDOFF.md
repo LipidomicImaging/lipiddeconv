@@ -1,3 +1,11 @@
+# Current handoff override — 2026-09-11
+
+The earlier desktop heartbeat was deleted; replacement schedules were suggestions, and no active heartbeat is verified. Do not treat the historical schedule below as live monitoring.
+
+Remote V58 recovery now has its own operational supervisor (PID60098), independent of desktop uptime or LLM calls: /root/v58_jobs/storage_recovery_20260911/status.json. It resumes the unchanged60-case design, aggregates, waits for sufficient data storage and GPU release, then runs the already-frozen six missing-library fits. Do not launch duplicates. At01:49UTC37/60 complete. Original storage failure stays preserved; no old files deleted. User-reported20GB expansion is not yet visible in guest capacity.
+
+NNLS six-case review is COMPLETE and preserved in results/nnls_solver_baseline_k125_cpu4. V59 remains active in CPU rho (three D0 CAL reports complete). After actual completion, audit and Git handoff remain authorized. No periodic LLM calls are needed merely for the remote storage/GPU waiting loops. Historical schedule follows.
+
 # Scheduled experiment handoff
 
 User authorized monitoring, starting the frozen missing-library experiment after an existing GPU task completes, reviewing complete outputs, and committing/pushing compact results.

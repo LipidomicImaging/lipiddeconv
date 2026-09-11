@@ -1,0 +1,85 @@
+{
+  "fingerprint": "92d505e18616071dc317b5a621425e9c02248d69d7283ea2092af6531f3a9a2b",
+  "NNLS": {
+    "rho_zero": {
+      "FDR5": {
+        "threshold": 3.0491092908005636e-09,
+        "N_retained": 375,
+        "TP": 375,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      },
+      "FDR1": {
+        "threshold": 3.0491092908005636e-09,
+        "N_retained": 375,
+        "TP": 375,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      }
+    },
+    "X_hat": {
+      "FDR5": {
+        "threshold": 0.007352493175171309,
+        "N_retained": 375,
+        "TP": 375,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      },
+      "FDR1": {
+        "threshold": 0.007352493175171309,
+        "N_retained": 375,
+        "TP": 375,
+        "FP": 0,
+        "FDR": 0.0,
+        "precision": 1.0
+      }
+    }
+  },
+  "ISTA": {
+    "rho_zero": {
+      "FDR5": {
+        "threshold": 2.653960515080079e-20,
+        "N_retained": 391,
+        "TP": 372,
+        "FP": 19,
+        "FDR": 0.04859335038363171,
+        "precision": 0.9514066496163683
+      },
+      "FDR1": {
+        "threshold": 1.0217008212087865e-19,
+        "N_retained": 375,
+        "TP": 372,
+        "FP": 3,
+        "FDR": 0.008,
+        "precision": 0.992
+      }
+    },
+    "X_hat": {
+      "FDR5": {
+        "threshold": 0.014206224233064956,
+        "N_retained": 171,
+        "TP": 163,
+        "FP": 8,
+        "FDR": 0.04678362573099415,
+        "precision": 0.9532163742690059
+      },
+      "FDR1": {
+        "threshold": 0.02005509904786493,
+        "N_retained": 101,
+        "TP": 100,
+        "FP": 1,
+        "FDR": 0.009900990099009901,
+        "precision": 0.9900990099009901
+      }
+    }
+  },
+  "CAL_result_hashes": {
+    "CAL_R1_K125": "c0bf8348a8e3179c4f88cfc8c0afe6bf1100f037dc223fc87e7a56b5857d5f3e",
+    "CAL_R2_K125": "685dbe7b2aaa0327dbd053bdafa9ff5731473ca2b0733c95bcf8ef017742bcdb",
+    "CAL_R3_K125": "0dc6de900304e75f3429612b04a8ba6796649e0274ab6f127109e3e3dc18261d"
+  },
+  "ISTA_CAL_records_sha256": "de75a24f1d1668fc40c99244858829f706334d8ff26768b70b4c7611af83bfe3"
+}
