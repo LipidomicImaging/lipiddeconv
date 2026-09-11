@@ -1,3 +1,9 @@
+# Missing-library final audit complete; scoped retirement pending push — 2026-09-11
+
+All six reduced-library fits and three reused complete-library controls reviewed in results/missing_library_final_review_20260911. Remote runtime/design, normal completion, finite outputs/history/final models and source hashes pass; all127 downloaded compact source files match, independent local molecular counts match. Original V57 CAL thresholds remain fixed. rho FDR1 transfer yields observed FDR38.24%/39.74% in close-neighbor/relatively-isolated arms versus0/361 false contexts in the complete-library controls. This is CLEAN missing-library stress, not joint mismatch+omission; three mappings are not biological replication.
+
+Westc data disk is93% used (3.6GiB available), GPU0%/0MiB. New six-fit output accounts for about1.77GiB. Pending plan: after successfully pushing this exact six-case snapshot, retire24 intermediate checkpoints (epochs1000/1500/2000/2500),949983592 bytes. Preserve all178 protected dependencies including latest_model.pth, final epoch3000 models, arrays and every parent-control checkpoint. Then verify retained hashes and push deletion receipt. No broad scan, source-result changes, training or rho rerun. CE uncertainty pilot remains separate pending work; no new job started.
+
 # Identity-first priority and utility targets recorded — 2026-09-11
 
 Primary route: docs/IDENTITY_FIRST_UNCERTAINTY_ROUTE.md. User targets fixed for the NEW route: FDR<=1%, TP retention>=40% minimum continuation,>=60% strong utility; quantification deferred. Exact U, epsilon_valid, pilot membership/aggregation and independent risk assessment are NOT yet frozen. Abstention keeps its original denominators; safe missing-library rejection can still fail utility. Numerical optimizer failure is not proof of identity or model incompatibility. Do not apply new targets retrospectively to completed frozen pilots.

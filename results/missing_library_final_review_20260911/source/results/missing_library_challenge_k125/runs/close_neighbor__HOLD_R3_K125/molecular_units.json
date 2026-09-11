@@ -1,0 +1,1668 @@
+[
+  {
+    "lipid_name": "PA 16:0_24:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0022311126153415992,
+    "rho_zero": 5.176657043468607e-06
+  },
+  {
+    "lipid_name": "PA 16:0_24:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.022643565255766537,
+    "rho_zero": 4.760860770607154e-06
+  },
+  {
+    "lipid_name": "PA 18:0_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.015855673456881582,
+    "rho_zero": 2.3949214864848704e-07
+  },
+  {
+    "lipid_name": "PA 18:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003871084452592125,
+    "rho_zero": 5.656887572931772e-07
+  },
+  {
+    "lipid_name": "PA 18:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005527992312056755,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 18:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003941220383154046,
+    "rho_zero": 7.236722396486444e-20
+  },
+  {
+    "lipid_name": "PA 18:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.00961523067942739,
+    "rho_zero": 8.674738172066737e-08
+  },
+  {
+    "lipid_name": "PA 18:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00846658193096833,
+    "rho_zero": 2.3544557855451718e-08
+  },
+  {
+    "lipid_name": "PA 18:0_24:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.014219486745367842,
+    "rho_zero": 1.1633441468498923e-06
+  },
+  {
+    "lipid_name": "PA 18:0_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0011760184743254936,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 22:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0016594043836090516,
+    "rho_zero": 1.3109211663614249e-07
+  },
+  {
+    "lipid_name": "PA 18:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012997904578615688,
+    "rho_zero": 1.2190734093888305e-07
+  },
+  {
+    "lipid_name": "PA 18:1_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010594724931252365,
+    "rho_zero": 3.813740346842411e-08
+  },
+  {
+    "lipid_name": "PA 18:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.023144794004106028,
+    "rho_zero": 1.2693260195572398e-05
+  },
+  {
+    "lipid_name": "PA 18:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.022313480317446528,
+    "rho_zero": 7.4507288108308705e-06
+  },
+  {
+    "lipid_name": "PA 18:1_24:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005919438128793673,
+    "rho_zero": 4.135269940849397e-20
+  },
+  {
+    "lipid_name": "PA 18:1_24:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005830903160577048,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 18:1_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00690068961203515,
+    "rho_zero": 1.609018080451371e-07
+  },
+  {
+    "lipid_name": "PA 22:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001988741945241452,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 22:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.035708125999782854,
+    "rho_zero": 7.406708421911496e-06
+  },
+  {
+    "lipid_name": "PA 18:2_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0013209171558184038,
+    "rho_zero": 2.0676349704246984e-20
+  },
+  {
+    "lipid_name": "PA 24:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.009259600236098705,
+    "rho_zero": 1.189607285762934e-06
+  },
+  {
+    "lipid_name": "PA 18:2_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0017738258113490996,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 20:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0037047523439821743,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 20:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010926574629567655,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 20:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007297459193845991,
+    "rho_zero": 9.162532851372065e-10
+  },
+  {
+    "lipid_name": "PA 20:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005812426759647287,
+    "rho_zero": 1.3135545441191877e-07
+  },
+  {
+    "lipid_name": "PA 20:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0068989021480463765,
+    "rho_zero": 3.1255492085855104e-07
+  },
+  {
+    "lipid_name": "PA 20:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.015701599275897093,
+    "rho_zero": 3.8927336035123063e-07
+  },
+  {
+    "lipid_name": "PA 20:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005921903355107816,
+    "rho_zero": 1.5421208407763993e-07
+  },
+  {
+    "lipid_name": "PA 20:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004308782147822198,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 20:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008273245347710071,
+    "rho_zero": 6.40751543812685e-07
+  },
+  {
+    "lipid_name": "PA 20:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0025246778976066907,
+    "rho_zero": 5.420038088607822e-08
+  },
+  {
+    "lipid_name": "PA 20:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.006482520420713386,
+    "rho_zero": 6.61045176195714e-08
+  },
+  {
+    "lipid_name": "PA 22:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013780528660048915,
+    "rho_zero": 1.1025124946980778e-06
+  },
+  {
+    "lipid_name": "PA 20:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007272492883533317,
+    "rho_zero": 5.980907704303259e-06
+  },
+  {
+    "lipid_name": "PA 20:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.029768764247901786,
+    "rho_zero": 4.6262039236711153e-07
+  },
+  {
+    "lipid_name": "PA 20:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0012749761583429418,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 20:1_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013482900437161058,
+    "rho_zero": 2.032004541383427e-06
+  },
+  {
+    "lipid_name": "PA 22:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.021546630715352,
+    "rho_zero": 3.294368460683386e-06
+  },
+  {
+    "lipid_name": "PA 22:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004008129643154308,
+    "rho_zero": 1.6285409888835464e-08
+  },
+  {
+    "lipid_name": "PA 22:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.015366500962278984,
+    "rho_zero": 1.5810022467393853e-06
+  },
+  {
+    "lipid_name": "PA 22:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02810713346919982,
+    "rho_zero": 1.2284543298343273e-05
+  },
+  {
+    "lipid_name": "PA 22:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001860844326950059,
+    "rho_zero": 2.6468229585876087e-10
+  },
+  {
+    "lipid_name": "PA 20:4_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007202840611713967,
+    "rho_zero": 7.69322680264042e-06
+  },
+  {
+    "lipid_name": "PA 22:1_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.006726571456719217,
+    "rho_zero": 4.866717508703271e-07
+  },
+  {
+    "lipid_name": "PA 22:3_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0033484626767923335,
+    "rho_zero": 4.135269940849397e-20
+  },
+  {
+    "lipid_name": "PA 22:4_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004087852389831497,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PA 22:5_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.011536533949777786,
+    "rho_zero": 3.737015447500949e-06
+  },
+  {
+    "lipid_name": "PA 22:6_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02894088974692345,
+    "rho_zero": 0.00014204791645581696
+  },
+  {
+    "lipid_name": "PS 14:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.03402991977295693,
+    "rho_zero": 0.00013032730587584875
+  },
+  {
+    "lipid_name": "PS 14:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008100109729559086,
+    "rho_zero": 8.825232106985971e-06
+  },
+  {
+    "lipid_name": "PS 14:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002367389581115931,
+    "rho_zero": 2.0676349704246984e-20
+  },
+  {
+    "lipid_name": "PS 16:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002588471091629324,
+    "rho_zero": 4.186079261328259e-08
+  },
+  {
+    "lipid_name": "PS 16:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0013162454476053859,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PS 16:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002563332045776078,
+    "rho_zero": 2.047717904141138e-08
+  },
+  {
+    "lipid_name": "PS 16:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005031771086466471,
+    "rho_zero": 1.1823600808652987e-06
+  },
+  {
+    "lipid_name": "PS 16:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007961156284591205,
+    "rho_zero": 7.218644608110921e-06
+  },
+  {
+    "lipid_name": "PS 18:0_16:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.009775550572549866,
+    "rho_zero": 6.965730354660544e-06
+  },
+  {
+    "lipid_name": "PS 20:0_16:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.004954526999442639,
+    "rho_zero": 2.60835268757485e-06
+  },
+  {
+    "lipid_name": "PS 16:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.03030768043458129,
+    "rho_zero": 0.0001153268163297495
+  },
+  {
+    "lipid_name": "PS 16:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0011361404587626877,
+    "rho_zero": 2.165658439901331e-09
+  },
+  {
+    "lipid_name": "PS 16:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.031379088677823956,
+    "rho_zero": 0.0003860886318166274
+  },
+  {
+    "lipid_name": "PS 18:0_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02353728023377327,
+    "rho_zero": 1.4059641004401673e-05
+  },
+  {
+    "lipid_name": "PS 18:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003328456282535401,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PS 18:0_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.028692551955191485,
+    "rho_zero": 0.0002678097906365337
+  },
+  {
+    "lipid_name": "PS 18:1_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007946812150040646,
+    "rho_zero": 3.087597113135658e-05
+  },
+  {
+    "lipid_name": "PS 17:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.00894979059588179,
+    "rho_zero": 3.553510929309094e-05
+  },
+  {
+    "lipid_name": "PE 16:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.014056774155855975,
+    "rho_zero": 1.92708487270848e-07
+  },
+  {
+    "lipid_name": "PE 16:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008433769416245379,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 16:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.008493760389932636,
+    "rho_zero": 2.8146717521480725e-07
+  },
+  {
+    "lipid_name": "PE 16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.008016201147605555,
+    "rho_zero": 3.323419441177476e-07
+  },
+  {
+    "lipid_name": "PE 16:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.014335684191554425,
+    "rho_zero": 1.6490899844912704e-08
+  },
+  {
+    "lipid_name": "PE 16:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0034944812711962445,
+    "rho_zero": 2.0676349704246984e-20
+  },
+  {
+    "lipid_name": "PE 16:0_24:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.010629793572797731,
+    "rho_zero": 1.7884668172154258e-06
+  },
+  {
+    "lipid_name": "PE 16:0_24:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02646488127734066,
+    "rho_zero": 3.629517424112622e-05
+  },
+  {
+    "lipid_name": "PE 22:0_16:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02268931045018393,
+    "rho_zero": 1.4027806986322751e-05
+  },
+  {
+    "lipid_name": "PE 16:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.011737130435743351,
+    "rho_zero": 1.724771493216474e-06
+  },
+  {
+    "lipid_name": "PE 16:1_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005020308026101836,
+    "rho_zero": 7.586226176593846e-08
+  },
+  {
+    "lipid_name": "PE 16:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0026846873702088226,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 16:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.007395670961709727,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 16:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005147739108054467,
+    "rho_zero": 4.780271834641989e-08
+  },
+  {
+    "lipid_name": "PE 18:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.013873253679700178,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 18:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0019280212944419904,
+    "rho_zero": 7.236722396486444e-20
+  },
+  {
+    "lipid_name": "PE 18:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.020395266926802078,
+    "rho_zero": 8.542906034840565e-06
+  },
+  {
+    "lipid_name": "PE 18:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00560269673649721,
+    "rho_zero": 4.135269940849397e-20
+  },
+  {
+    "lipid_name": "PE 18:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002041809843598071,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004752823710768024,
+    "rho_zero": 1.0373293081548336e-06
+  },
+  {
+    "lipid_name": "PE 18:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0012451116892628026,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 18:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0049164224880925015,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 18:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003096383654228527,
+    "rho_zero": 8.274827933095438e-09
+  },
+  {
+    "lipid_name": "PE 18:1_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003367985954414238,
+    "rho_zero": 7.382841111689825e-08
+  },
+  {
+    "lipid_name": "PE 18:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007283553334926182,
+    "rho_zero": 1.2701657404184679e-08
+  },
+  {
+    "lipid_name": "PE 18:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0019947788282869677,
+    "rho_zero": 1.26588002722854e-07
+  },
+  {
+    "lipid_name": "PE 18:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001164336362030665,
+    "rho_zero": 1.0023577216206802e-10
+  },
+  {
+    "lipid_name": "PE 20:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0048581696658188765,
+    "rho_zero": 1.5497251880459948e-08
+  },
+  {
+    "lipid_name": "PE 20:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012284621228610133,
+    "rho_zero": 1.6454233674605019e-06
+  },
+  {
+    "lipid_name": "PE 18:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013324042742602885,
+    "rho_zero": 1.6120484942986396e-06
+  },
+  {
+    "lipid_name": "PE 18:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.012649784994100754,
+    "rho_zero": 2.202342083098252e-07
+  },
+  {
+    "lipid_name": "PE 18:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0011499842598101718,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 22:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002243669118758483,
+    "rho_zero": 3.805264904537151e-07
+  },
+  {
+    "lipid_name": "PE 18:2_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002160325592485684,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 18:2_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0026034728792437376,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:0_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0018748050918158004,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0039126036200483535,
+    "rho_zero": 4.135269940849397e-20
+  },
+  {
+    "lipid_name": "PE 18:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.002821971850166126,
+    "rho_zero": 7.550896848054186e-07
+  },
+  {
+    "lipid_name": "PE 20:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0021287313024601273,
+    "rho_zero": 7.240478202880921e-08
+  },
+  {
+    "lipid_name": "PE 20:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0033103082109743787,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001367247025642311,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.009067800326998216,
+    "rho_zero": 1.2795365113143046e-07
+  },
+  {
+    "lipid_name": "PE 20:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.001054402558858983,
+    "rho_zero": 2.3541060401550794e-06
+  },
+  {
+    "lipid_name": "PE 20:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005542443094858317,
+    "rho_zero": 2.5693600858808745e-07
+  },
+  {
+    "lipid_name": "PE 20:1_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02505203403767233,
+    "rho_zero": 3.315184070869306e-05
+  },
+  {
+    "lipid_name": "PE 20:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.007452295074811735,
+    "rho_zero": 4.135269940849397e-20
+  },
+  {
+    "lipid_name": "PE 20:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0034445126120469178,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:3_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.01594879969479347,
+    "rho_zero": 1.8896378327044592e-06
+  },
+  {
+    "lipid_name": "PE 20:3_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010815366896989949,
+    "rho_zero": 8.121327181613618e-09
+  },
+  {
+    "lipid_name": "PE 20:4_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0037127307384943924,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 20:4_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02284760130103733,
+    "rho_zero": 0.00012053333270375445
+  },
+  {
+    "lipid_name": "PE 17:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.004056483498699548,
+    "rho_zero": 4.009539604700738e-06
+  },
+  {
+    "lipid_name": "PE 17:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00958986745418445,
+    "rho_zero": 1.1371992337335842e-19
+  },
+  {
+    "lipid_name": "PE 17:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0018116072430985218,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005037539803808443,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.006432548633915402,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0030223399505674192,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002032718342819589,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.014822432918513049,
+    "rho_zero": 8.966629356798466e-06
+  },
+  {
+    "lipid_name": "PE 17:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02328626980993827,
+    "rho_zero": 4.5068203285548655e-05
+  },
+  {
+    "lipid_name": "PE 17:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.023124345050066046,
+    "rho_zero": 6.979041482337978e-05
+  },
+  {
+    "lipid_name": "PE 17:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008903525455128056,
+    "rho_zero": 2.215384410934062e-06
+  },
+  {
+    "lipid_name": "PE 17:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003637154297884532,
+    "rho_zero": 9.76061990025541e-10
+  },
+  {
+    "lipid_name": "PE 17:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0033617261929348775,
+    "rho_zero": 2.4950020174296145e-08
+  },
+  {
+    "lipid_name": "PE 17:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00260225121548857,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00801457370600833,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE 17:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012417776658667256,
+    "rho_zero": 8.985955665333162e-07
+  },
+  {
+    "lipid_name": "PE 17:1_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013858852411694166,
+    "rho_zero": 1.1083496270072615e-05
+  },
+  {
+    "lipid_name": "PE O-16:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00574935659642628,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-16:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003735629742472392,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-16:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.008368759373618124,
+    "rho_zero": 8.257494989902929e-07
+  },
+  {
+    "lipid_name": "PE O-16:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012178543832733691,
+    "rho_zero": 8.390505777403531e-08
+  },
+  {
+    "lipid_name": "PE O-16:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.018311340301494224,
+    "rho_zero": 1.4161403991691235e-06
+  },
+  {
+    "lipid_name": "PE O-16:1_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0015506490763344026,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-16:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.006758727881178772,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-16:1_24:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.006763673674014283,
+    "rho_zero": 9.461512231425709e-06
+  },
+  {
+    "lipid_name": "PE O-16:1_24:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013973656276424449,
+    "rho_zero": 2.651135658363807e-07
+  },
+  {
+    "lipid_name": "PE O-18:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008619360429158337,
+    "rho_zero": 1.3392174718368518e-06
+  },
+  {
+    "lipid_name": "PE O-18:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.003030246662597613,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.026589123075417595,
+    "rho_zero": 3.89353082081089e-06
+  },
+  {
+    "lipid_name": "PE O-18:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005456236322210064,
+    "rho_zero": 1.1371992337335842e-19
+  },
+  {
+    "lipid_name": "PE O-18:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.010823916281973267,
+    "rho_zero": 2.1141267696952127e-06
+  },
+  {
+    "lipid_name": "PE O-18:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010614950736714457,
+    "rho_zero": 6.251611822481608e-07
+  },
+  {
+    "lipid_name": "PE O-18:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.011514094296417622,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.009776348965588695,
+    "rho_zero": 2.481161964509638e-19
+  },
+  {
+    "lipid_name": "PE O-18:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.027099225611958308,
+    "rho_zero": 0.00016345980408074813
+  },
+  {
+    "lipid_name": "PE O-18:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0012823392115719732,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.011313696388266594,
+    "rho_zero": 1.1004793117969203e-06
+  },
+  {
+    "lipid_name": "PE O-18:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.001804016492300715,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:1_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.006666344734646451,
+    "rho_zero": 1.2928853080301237e-06
+  },
+  {
+    "lipid_name": "PE O-18:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0020310608438049026,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002525342060402469,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0013169399729365673,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-20:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003636087025819766,
+    "rho_zero": 2.366265383362004e-06
+  },
+  {
+    "lipid_name": "PE O-18:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005172897017719791,
+    "rho_zero": 8.75211957268335e-07
+  },
+  {
+    "lipid_name": "PE O-18:2_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012902177814076356,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:2_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004064129339381037,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:2_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.00851935017667947,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:2_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008956611656771328,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:2_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02138140768412178,
+    "rho_zero": 2.351284811236813e-06
+  },
+  {
+    "lipid_name": "PE O-18:2_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0012871442043571907,
+    "rho_zero": 7.236722396486444e-20
+  },
+  {
+    "lipid_name": "PE O-18:3_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.029476303827297365,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-18:3_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.016645788848794658,
+    "rho_zero": 1.3428911697290017e-05
+  },
+  {
+    "lipid_name": "PE O-18:3_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.007032332554810114,
+    "rho_zero": 1.9451053590875464e-07
+  },
+  {
+    "lipid_name": "PE O-18:3_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002461762709562902,
+    "rho_zero": 6.221068837405037e-07
+  },
+  {
+    "lipid_name": "PE O-18:3_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02091172931737715,
+    "rho_zero": 2.7345258772339746e-06
+  },
+  {
+    "lipid_name": "PE O-18:3_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003667989344537865,
+    "rho_zero": 1.550726227818524e-19
+  },
+  {
+    "lipid_name": "PE O-20:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.006389334368117805,
+    "rho_zero": 7.629417219883003e-07
+  },
+  {
+    "lipid_name": "PE O-20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001582212935498733,
+    "rho_zero": 5.146152614737591e-07
+  },
+  {
+    "lipid_name": "PE O-20:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.018119539614833542,
+    "rho_zero": 2.8550167613876094e-07
+  },
+  {
+    "lipid_name": "PE O-20:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003919857046176432,
+    "rho_zero": 2.0676349704246984e-20
+  },
+  {
+    "lipid_name": "PE O-20:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02238963291911244,
+    "rho_zero": 7.657028499654183e-10
+  },
+  {
+    "lipid_name": "PE O-20:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.039424534632879524,
+    "rho_zero": 9.108790149550776e-06
+  },
+  {
+    "lipid_name": "PE O-20:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0020215789443766875,
+    "rho_zero": 3.0872300080934316e-09
+  },
+  {
+    "lipid_name": "PE O-20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001831533307177742,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PE O-20:3_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.023872947535290057,
+    "rho_zero": 2.83689727940151e-06
+  },
+  {
+    "lipid_name": "PE O-20:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.022399948966260397,
+    "rho_zero": 2.291895713595637e-06
+  },
+  {
+    "lipid_name": "PG 14:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.008543299865556743,
+    "rho_zero": 2.308602516231028e-06
+  },
+  {
+    "lipid_name": "PG 16:0_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.004834216580170999,
+    "rho_zero": 1.1576904861491282e-07
+  },
+  {
+    "lipid_name": "PG 14:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.009340444521935396,
+    "rho_zero": 3.29772064338135e-07
+  },
+  {
+    "lipid_name": "PG 16:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.032899814779461654,
+    "rho_zero": 1.964638450288086e-05
+  },
+  {
+    "lipid_name": "PG 16:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0027420560980084604,
+    "rho_zero": 8.641787295109826e-10
+  },
+  {
+    "lipid_name": "PG 18:2_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.003894875361671513,
+    "rho_zero": 9.304357366911143e-20
+  },
+  {
+    "lipid_name": "PG 14:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0012067602600093574,
+    "rho_zero": 1.550726227818524e-19
+  },
+  {
+    "lipid_name": "PG 16:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.021543583942727776,
+    "rho_zero": 1.3394922216818929e-07
+  },
+  {
+    "lipid_name": "PG 16:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.01549235656832432,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PG 18:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.022707943825350237,
+    "rho_zero": 2.865433338080873e-06
+  },
+  {
+    "lipid_name": "PG 18:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.016683388038628472,
+    "rho_zero": 2.9298701189465724e-06
+  },
+  {
+    "lipid_name": "PG 16:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.007242386717352972,
+    "rho_zero": 1.3921712386114734e-08
+  },
+  {
+    "lipid_name": "PG 20:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0038539983271197436,
+    "rho_zero": 3.95397247799221e-08
+  },
+  {
+    "lipid_name": "PG 18:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.006365540868826532,
+    "rho_zero": 7.236722396486444e-20
+  },
+  {
+    "lipid_name": "PG 14:0_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.005552219833434343,
+    "rho_zero": 6.044568330717263e-07
+  },
+  {
+    "lipid_name": "PG 16:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.00344261612440611,
+    "rho_zero": 1.1371992337335842e-19
+  },
+  {
+    "lipid_name": "PG 16:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0073281860620046085,
+    "rho_zero": 1.0432575205305324e-06
+  },
+  {
+    "lipid_name": "PG 16:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.013631895774987031,
+    "rho_zero": 1.1507255159631431e-06
+  },
+  {
+    "lipid_name": "PG 18:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005487144864497887,
+    "rho_zero": 1.1669228620888787e-08
+  },
+  {
+    "lipid_name": "PG 18:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010178127007172404,
+    "rho_zero": 3.776938104743829e-09
+  },
+  {
+    "lipid_name": "PG 16:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0024005176446909604,
+    "rho_zero": 1.7574897248609937e-19
+  },
+  {
+    "lipid_name": "PG 18:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.00441993608270916,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PG 18:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0013542924207436441,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PG 18:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0010749616988688076,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PG 14:0_24:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.01080604179906325,
+    "rho_zero": 2.3131114007513726e-06
+  },
+  {
+    "lipid_name": "PG 16:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.03658943326931256,
+    "rho_zero": 3.594679620076009e-06
+  },
+  {
+    "lipid_name": "PG 18:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0031885286967049927,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PG 18:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.03707758715064391,
+    "rho_zero": 1.318532425071429e-07
+  },
+  {
+    "lipid_name": "PG 18:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.020951902748379877,
+    "rho_zero": 4.5412047979858805e-07
+  },
+  {
+    "lipid_name": "PG 20:1_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.010620469195929025,
+    "rho_zero": 1.9104582141456558e-06
+  },
+  {
+    "lipid_name": "PG 17:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02452765803558632,
+    "rho_zero": 4.892741066310679e-06
+  },
+  {
+    "lipid_name": "PG 17:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.027200558277040807,
+    "rho_zero": 0.0018838604257144758
+  },
+  {
+    "lipid_name": "PG 17:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.011352688136137976,
+    "rho_zero": 8.747870224679318e-07
+  },
+  {
+    "lipid_name": "PG 17:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0016542989750151077,
+    "rho_zero": 7.603449992626211e-08
+  },
+  {
+    "lipid_name": "PG 17:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.005118470819524211,
+    "rho_zero": 3.178174748111586e-08
+  },
+  {
+    "lipid_name": "PG 17:1_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.006861135031332836,
+    "rho_zero": 1.1371992337335842e-19
+  },
+  {
+    "lipid_name": "PG 17:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02083296620687793,
+    "rho_zero": 3.634576681507908e-08
+  },
+  {
+    "lipid_name": "PG 17:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.02531545807329687,
+    "rho_zero": 0.0017815556135364111
+  },
+  {
+    "lipid_name": "PG 17:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.006767779686556519,
+    "rho_zero": 2.4760224603912065e-10
+  },
+  {
+    "lipid_name": "PG 17:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.00773894321829389,
+    "rho_zero": 6.805022298660461e-07
+  },
+  {
+    "lipid_name": "PG 17:0_17:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.008707805091864933,
+    "rho_zero": 1.150208704679483e-09
+  },
+  {
+    "lipid_name": "PC 14:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.001445040210110534,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PC 14:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.012679859556260139,
+    "rho_zero": 0.00016292107763156508
+  },
+  {
+    "lipid_name": "PC 20:0_14:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.009789390099787838,
+    "rho_zero": 4.246208524038445e-06
+  },
+  {
+    "lipid_name": "PC 14:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.024675326881130586,
+    "rho_zero": 5.104646298586266e-05
+  },
+  {
+    "lipid_name": "PC 16:0_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.010597038743416564,
+    "rho_zero": 8.78567521763587e-06
+  },
+  {
+    "lipid_name": "PC 16:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.0031723501599669134,
+    "rho_zero": 9.304357366911143e-20
+  },
+  {
+    "lipid_name": "PC 16:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.01810474425558828,
+    "rho_zero": 2.9487710106018776e-06
+  },
+  {
+    "lipid_name": "PC 18:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.004560424783137533,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PC 16:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.021163339644241923,
+    "rho_zero": 7.753554346780905e-07
+  },
+  {
+    "lipid_name": "PC 16:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "X_hat": 0.02554430598434394,
+    "rho_zero": 6.514954514427764e-05
+  },
+  {
+    "lipid_name": "PC 17:0_17:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.0015102072640962138,
+    "rho_zero": 0.0
+  },
+  {
+    "lipid_name": "PC 17:0_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "X_hat": 0.002358189727673298,
+    "rho_zero": 0.0
+  }
+]
