@@ -1,0 +1,60 @@
+{
+  "content": {
+    "contract_id": "PHYSICAL_PERTURBATION_CONTRACT_V1",
+    "inputs": [
+      {
+        "path": "results/ce133_uncertainty_v1_ready/contract.json",
+        "bytes": 1055,
+        "sha256": "a976f8a8c36061c0c59a26cf707dbe3674ee0b68b3d81e554c37a91e7b3884fb"
+      },
+      {
+        "path": "results/ce133_uncertainty_v1_ready/components.json",
+        "bytes": 143625,
+        "sha256": "e98d629d3d9535a43b55c209073ecf73ff01d408174fdf274b7e92d7ad4daaf0"
+      },
+      {
+        "path": "results/ce133_uncertainty_v1_ready/component_fractions.npz",
+        "bytes": 15250,
+        "sha256": "ecc0b27b649dae606df751eb4e2bc4e7ad0065db278dde5e349bb0444dd6e326"
+      },
+      {
+        "path": "results/ce133_joint_variation_audit/observed_joint_changes.json",
+        "bytes": 325450,
+        "sha256": "f94408220130c48b4ffeb4dc73e0d2dbdad4dbff0aff3cfa36c94f15092cb78b"
+      },
+      {
+        "path": "results/ce133_joint_variation_audit/exact_support_joint_statistics.json",
+        "bytes": 181409,
+        "sha256": "0536db5d8b4391d65fb85775f07dbf9e8b453ab3c6abe7f7e7507f805dfecffe"
+      },
+      {
+        "path": "results/ce133_uncertainty_v1_ready/provenance.json",
+        "bytes": 5478,
+        "sha256": "4cf91ed0e8d5ababcd555591f605944dfefed619449f71a058ab683ff53fa10e"
+      },
+      {
+        "path": "results/ce133_joint_variation_audit/provenance.json",
+        "bytes": 2862,
+        "sha256": "0e1cb7c68b04b0dc2b19876a0ae4c5ceb9ae5180988b7feb6909406886177e07"
+      },
+      {
+        "path": "docs/PHYSICAL_PERTURBATION_CONTRACT_V1.md",
+        "bytes": 7520,
+        "sha256": "d122a7ff8ced8bf956287ff9fb27d572b84c66136d68054f78227ea409a18bcc"
+      },
+      {
+        "path": "analysis/freeze_physical_perturbation_contract_v1.py",
+        "bytes": 8947,
+        "sha256": "eab5e72fdcbee4d0429451cbdc5d820df5c8258dd26534fd2d2738c0842f8805"
+      }
+    ],
+    "outputs": {
+      "candidate_mapping.json": "05f2d01a8c9787f4e788a4496f5d83974362d67d96b13020211930e03ff23296",
+      "contract.json": "d61830e78210d539fb6755cf38aca51e41740468ece60fd071eec8274fec9f60",
+      "joint_patterns.json": "7f74342c42bb7ee86eda195bb36d7de3a731704e5ab4969808bb4ad8f312b4b7"
+    },
+    "no_synthetic_data_generated": true,
+    "no_solver_or_outcomes_read": true
+  },
+  "fingerprint": "3b2e75c563a0d23ac16db2ce87f1815ae0c3574fac59c3d8e89b794768697df7"
+}

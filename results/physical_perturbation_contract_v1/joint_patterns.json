@@ -1,0 +1,2678 @@
+[
+  {
+    "pattern_id": "046753558378f6b30fc1e73b2a76cad140932f755a06ab834f76cf4eeedb2052",
+    "donor_identity": [
+      "PE O-18:2_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_03.txt|PE O-18:2_20:2|PEO-H",
+    "source_high": "40|752_40ev_02.txt|PE O-18:2_20:2|PEO-H",
+    "source_files": [
+      "752_30ev_03.txt",
+      "752_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.024613834054847072,
+      -0.14702755179907018,
+      0.1224137177442231
+    ],
+    "multiplier": [
+      1.0249192551816084,
+      0.863270192441776,
+      1.130221597797865
+    ]
+  },
+  {
+    "pattern_id": "08339ef88719954034e3c77a915e59fed80cf720d96f8330c8420fdf685da30f",
+    "donor_identity": [
+      "PE O-24:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|810_35ev_01.txt|PE O-24:2_18:1|PEO-H",
+    "source_high": "40|810_40ev_01.txt|PE O-24:2_18:1|PEO-H",
+    "source_files": [
+      "810_35ev_01.txt",
+      "810_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.5119202001061205,
+      -0.5770045105425936,
+      0.06508431043647323
+    ],
+    "multiplier": [
+      1.6684919593457332,
+      0.5615780507017513,
+      1.0672490008202478
+    ]
+  },
+  {
+    "pattern_id": "0b3cb64159aa44208cbd0b524d0d82b52e5ddb5214096693cdd79e0ea41bbbae",
+    "donor_identity": [
+      "PE O-20:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|730_30ev_01.txt|PE O-20:1_16:0|PEO-H",
+    "source_high": "40|730_40ev_02.txt|PE O-20:1_16:0|PEO-H",
+    "source_files": [
+      "730_30ev_01.txt",
+      "730_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.3494779713713049,
+      0.048283183920823536,
+      -0.39776115529212797
+    ],
+    "multiplier": [
+      1.418326948031006,
+      1.0494678056563704,
+      0.6718224697424037
+    ]
+  },
+  {
+    "pattern_id": "0da1cabab025c4aa3ccd0335f4c7b4f6ec5fc39bb5d5735156c55e94d0e00fc4",
+    "donor_identity": [
+      "PE O-16:1_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|700_30ev_01.txt|PE O-16:1_18:1|PEO-H",
+    "source_high": "40|700_40ev_02.txt|PE O-16:1_18:1|PEO-H",
+    "source_files": [
+      "700_30ev_01.txt",
+      "700_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.2839035063046032,
+      -0.36841233794495987,
+      0.08450883164035666
+    ],
+    "multiplier": [
+      1.3283047515345623,
+      0.6918318543420501,
+      1.088182454625648
+    ]
+  },
+  {
+    "pattern_id": "0e3473ad2fd137348e8ef07ac06d1180f8c75784350dad629bc8d68de686053b",
+    "donor_identity": [
+      "PE O-18:2_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|754_30ev_01.txt|PE O-18:2_20:1|PEO-H",
+    "source_high": "40|754_40ev_01.txt|PE O-18:2_20:1|PEO-H",
+    "source_files": [
+      "754_30ev_01.txt",
+      "754_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.16798145729897473,
+      -0.2417002992800083,
+      0.07371884198103351
+    ],
+    "multiplier": [
+      1.182914676011272,
+      0.7852914947140758,
+      1.0765040951846867
+    ]
+  },
+  {
+    "pattern_id": "0efcdcf3d8b07cedb0c826144631d0a4aa2680226ea0ae051a2e29678e6efe7c",
+    "donor_identity": [
+      "PE O-16:0_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|748_30ev_01.txt|PE O-16:0_22:6|PEO-H",
+    "source_high": "40|748_40ev_02.txt|PE O-16:0_22:6|PEO-H",
+    "source_files": [
+      "748_30ev_01.txt",
+      "748_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -1.1982306535552993,
+      -0.6457123217785266,
+      0.575206509824795,
+      1.268736465509031
+    ],
+    "multiplier": [
+      0.3017276005557118,
+      0.5242889466273682,
+      1.7774975597244256,
+      3.55635614361403
+    ]
+  },
+  {
+    "pattern_id": "12525d226c679ddf0e74379d310ddfa775c8dc86baa47d5a8d2170decec3d558",
+    "donor_identity": [
+      "PE O-16:1_20:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|730_30ev_01.txt|PE O-16:1_20:0|PEO-H",
+    "source_high": "40|730_40ev_00.txt|PE O-16:1_20:0|PEO-H",
+    "source_files": [
+      "730_30ev_01.txt",
+      "730_40ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.15681253487608537,
+      0.06524413623561442,
+      -0.22205667111169936
+    ],
+    "multiplier": [
+      1.1697763010855684,
+      1.0674195883764697,
+      0.8008699768566768
+    ]
+  },
+  {
+    "pattern_id": "1a2ab18e7a10606dc34a71e7b39b4dd33f92487ebb94cbc9915beeee18791c48",
+    "donor_identity": [
+      "PE O-18:0_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|776_30ev_04.txt|PE O-18:0_22:6|PEO-H",
+    "source_high": "35|776_35ev_03.txt|PE O-18:0_22:6|PEO-H",
+    "source_files": [
+      "776_30ev_04.txt",
+      "776_35ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.5809414281976142,
+      -0.3730638391178988,
+      0.41307394880623916,
+      0.5409313185092739
+    ],
+    "multiplier": [
+      0.5593715104928128,
+      0.6886212704662381,
+      1.511456792226918,
+      1.7176057555615831
+    ]
+  },
+  {
+    "pattern_id": "1b006b7e29fbba5527eeedb94073f110291677ab668145e1baa1ad1bfbba5710",
+    "donor_identity": [
+      "PE O-18:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|702_30ev_02.txt|PE O-18:1_16:0|PEO-H",
+    "source_high": "35|702_35ev_00.txt|PE O-18:1_16:0|PEO-H",
+    "source_files": [
+      "702_30ev_02.txt",
+      "702_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.13821887068815,
+      0.4018652263354241,
+      -0.2636463556472741
+    ],
+    "multiplier": [
+      0.8709080546388878,
+      1.4946098850501106,
+      0.7682451771907576
+    ]
+  },
+  {
+    "pattern_id": "214238d01363eb8444d8ec78dc2a2c7b0fbd3d5e110d3ee18c98042cc366bb92",
+    "donor_identity": [
+      "PE O-18:2_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|700_35ev_01.txt|PE O-18:2_16:0|PEO-H",
+    "source_high": "40|700_40ev_02.txt|PE O-18:2_16:0|PEO-H",
+    "source_files": [
+      "700_35ev_01.txt",
+      "700_40ev_02.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.15433500595866798,
+      -0.21249315662151996,
+      0.05815815066285199
+    ],
+    "multiplier": [
+      1.1668817336406008,
+      0.8085658496246542,
+      1.0598826035925928
+    ]
+  },
+  {
+    "pattern_id": "294b2d7b1aa5f4839130407c167666bb7f6e7d98775f2b09d00dbfcea83b4f24",
+    "donor_identity": [
+      "PE O-20:1_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|802_30ev_04.txt|PE O-20:1_22:6|PEO-H",
+    "source_high": "40|802_40ev_03.txt|PE O-20:1_22:6|PEO-H",
+    "source_files": [
+      "802_30ev_04.txt",
+      "802_40ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.8489241500171009,
+      0.004685164894667193,
+      0.36566455688045296,
+      0.4785744282419806
+    ],
+    "multiplier": [
+      0.42787501374107184,
+      1.004696157440304,
+      1.441471629806509,
+      1.6137722135237293
+    ]
+  },
+  {
+    "pattern_id": "29e06d7a35691cbb2e5c7b99c243f1a7dea16bcd91ce1123758975c6a08341a3",
+    "donor_identity": [
+      "PE O-20:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|730_30ev_01.txt|PE O-20:1_16:0|PEO-H",
+    "source_high": "35|730_35ev_01.txt|PE O-20:1_16:0|PEO-H",
+    "source_files": [
+      "730_30ev_01.txt",
+      "730_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.39157116429056726,
+      0.12761400538219736,
+      -0.5191851696727645
+    ],
+    "multiplier": [
+      1.479303197324774,
+      1.1361143840128434,
+      0.5950051787619642
+    ]
+  },
+  {
+    "pattern_id": "2c0360279bb456c72b312fd625d4fc641645b0e751a8a357bab7ffecf3c39b78",
+    "donor_identity": [
+      "PE O-16:1_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|750_30ev_01.txt|PE O-16:1_22:4|PEO-H",
+    "source_high": "35|750_35ev_04.txt|PE O-16:1_22:4|PEO-H",
+    "source_files": [
+      "750_30ev_01.txt",
+      "750_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.11891849328272364,
+      0.10969791189046596,
+      0.1976374100434677,
+      -0.1884168286512098
+    ],
+    "multiplier": [
+      0.8878801660104494,
+      1.1159409070559436,
+      1.2185204904199616,
+      0.8282693888561886
+    ]
+  },
+  {
+    "pattern_id": "2f108e349a9fded5b77bfd3b171d9a1a1fd296d52ec2a360bbe7126bd55cffbb",
+    "donor_identity": [
+      "PE O-16:1_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|700_35ev_01.txt|PE O-16:1_18:1|PEO-H",
+    "source_high": "40|700_40ev_02.txt|PE O-16:1_18:1|PEO-H",
+    "source_files": [
+      "700_35ev_01.txt",
+      "700_40ev_02.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.22493118556131275,
+      -0.18621780773067084,
+      -0.038713377830641965
+    ],
+    "multiplier": [
+      1.2522365412721677,
+      0.8300927746671198,
+      0.9620264077297794
+    ]
+  },
+  {
+    "pattern_id": "306815f3614a382a1c06328e2ea7619118ab16da412820503a34c50708d818af",
+    "donor_identity": [
+      "PE O-20:1_22:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|812_30ev_04.txt|PE O-20:1_22:1|PEO-H",
+    "source_high": "35|812_35ev_02.txt|PE O-20:1_22:1|PEO-H",
+    "source_files": [
+      "812_30ev_04.txt",
+      "812_35ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.26800483845031586,
+      0.256752648432901,
+      0.011252190017414954
+    ],
+    "multiplier": [
+      0.7649040801435224,
+      1.292725329573718,
+      1.0113157340202557
+    ]
+  },
+  {
+    "pattern_id": "34e15bfb397140bef34efbe4005848cf4d7435312087d715016f398bf73cec7e",
+    "donor_identity": [
+      "PE O-16:1_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|722_30ev_01.txt|PE O-16:1_20:4|PEO-H",
+    "source_high": "35|722_35ev_01.txt|PE O-16:1_20:4|PEO-H",
+    "source_files": [
+      "722_30ev_01.txt",
+      "722_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.21172278153053045,
+      0.04657971366305777,
+      -0.02032594219856805,
+      0.18546901006604072
+    ],
+    "multiplier": [
+      0.8091889886091875,
+      1.0476815902772767,
+      0.9798792372578163,
+      1.2037828940446986
+    ]
+  },
+  {
+    "pattern_id": "3f38cb96a1a458c711efff90035b61a57561d0d2813a38f894d0ba8d1b148617",
+    "donor_identity": [
+      "PE O-16:0_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|724_30ev_01.txt|PE O-16:0_20:4|PEO-H",
+    "source_high": "35|724_35ev_00.txt|PE O-16:0_20:4|PEO-H",
+    "source_files": [
+      "724_30ev_01.txt",
+      "724_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.7307494633804702,
+      -0.03951542669848518,
+      -0.03853743151050859,
+      0.8088023215894639
+    ],
+    "multiplier": [
+      0.48154795225862673,
+      0.9612551248832375,
+      0.9621956876277415,
+      2.2452173274058476
+    ]
+  },
+  {
+    "pattern_id": "3f71a42dcc011c685c54dbb939d73e2bc2ac0fa8026db4ff4fedac07747256de",
+    "donor_identity": [
+      "PE O-18:2_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|752_35ev_03.txt|PE O-18:2_20:2|PEO-H",
+    "source_high": "40|752_40ev_02.txt|PE O-18:2_20:2|PEO-H",
+    "source_files": [
+      "752_35ev_03.txt",
+      "752_40ev_02.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.10642324792348146,
+      0.1954518168872016,
+      -0.0890285689637201
+    ],
+    "multiplier": [
+      0.8990440490108615,
+      1.2158602085811931,
+      0.9148194377577894
+    ]
+  },
+  {
+    "pattern_id": "4026b4b946f222a8df625869e751cd92646518464c7ccc64fe1c658fc35ff623",
+    "donor_identity": [
+      "PE O-18:2_24:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|800_30ev_04.txt|PE O-18:2_24:6|PEO-H",
+    "source_high": "35|800_35ev_04.txt|PE O-18:2_24:6|PEO-H",
+    "source_files": [
+      "800_30ev_04.txt",
+      "800_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.4121857508501902,
+      0.43873898776636133,
+      -0.08165608701578014,
+      0.05510285009960897
+    ],
+    "multiplier": [
+      0.662201260180249,
+      1.5507504697149135,
+      0.9215888505734342,
+      1.056649285571265
+    ]
+  },
+  {
+    "pattern_id": "412f6b2d2c730d43512ca9cd4447ea35348077f83fd6a312cf8405e50209bdfa",
+    "donor_identity": [
+      "PE O-18:1_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|754_30ev_01.txt|PE O-18:1_20:2|PEO-H",
+    "source_high": "40|754_40ev_01.txt|PE O-18:1_20:2|PEO-H",
+    "source_files": [
+      "754_30ev_01.txt",
+      "754_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.13301851236559112,
+      -0.4647063819006119,
+      0.3316878695350208
+    ],
+    "multiplier": [
+      1.14227114427619,
+      0.6283195641042982,
+      1.3933178836742643
+    ]
+  },
+  {
+    "pattern_id": "4351f1d92b6dc9169a0fc028e37f9780117b18dc7ead540924cddfa4811cc3c4",
+    "donor_identity": [
+      "PE O-16:1_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|700_30ev_01.txt|PE O-16:1_18:1|PEO-H",
+    "source_high": "35|700_35ev_01.txt|PE O-16:1_18:1|PEO-H",
+    "source_files": [
+      "700_30ev_01.txt",
+      "700_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.05897232074329056,
+      -0.18219453021428908,
+      0.12322220947099852
+    ],
+    "multiplier": [
+      1.0607458796763076,
+      0.8334391955399026,
+      1.1311357420983643
+    ]
+  },
+  {
+    "pattern_id": "436feb18cc42ccddfce97f9229b996248360e3ecbe370e4ac737781009aad81a",
+    "donor_identity": [
+      "PE O-22:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|782_35ev_04.txt|PE O-22:2_18:1|PEO-H",
+    "source_high": "40|782_40ev_01.txt|PE O-22:2_18:1|PEO-H",
+    "source_files": [
+      "782_35ev_04.txt",
+      "782_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.32666982231390324,
+      1.2273430396847058,
+      -1.554012861998609
+    ],
+    "multiplier": [
+      1.3863436618618517,
+      3.4121515304733054,
+      0.21139795863577457
+    ]
+  },
+  {
+    "pattern_id": "43b147dc5d547fb5c0a1500dd3de0e829b758b7e1c513b3b83a6f1cc10f9971b",
+    "donor_identity": [
+      "PE O-18:1_22:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|782_30ev_03.txt|PE O-18:1_22:2|PEO-H",
+    "source_high": "35|782_35ev_04.txt|PE O-18:1_22:2|PEO-H",
+    "source_files": [
+      "782_30ev_03.txt",
+      "782_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.336248590702958,
+      -0.6610421835849137,
+      0.32479359288195575
+    ],
+    "multiplier": [
+      1.399686930724081,
+      0.5163129611057333,
+      1.3837450016843518
+    ]
+  },
+  {
+    "pattern_id": "4782dfcf5ac234dafd6a0a5baca82518abaf4cb59076f364b592c4ebd823fdf2",
+    "donor_identity": [
+      "PE O-16:1_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|746_30ev_01.txt|PE O-16:1_22:6|PEO-H",
+    "source_high": "40|746_40ev_00.txt|PE O-16:1_22:6|PEO-H",
+    "source_files": [
+      "746_30ev_01.txt",
+      "746_40ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -1.0809350639831696,
+      -0.07457856293400866,
+      0.41825605825874024,
+      0.737257568658438
+    ],
+    "multiplier": [
+      0.33927813051556605,
+      0.9281345542208882,
+      1.519309656384191,
+      2.0901954297412515
+    ]
+  },
+  {
+    "pattern_id": "4e684b76abe87e5f6a499630694e60129872374375a9b4f13e21e909fa7f3aad",
+    "donor_identity": [
+      "PE O-18:2_22:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|782_30ev_02.txt|PE O-18:2_22:1|PEO-H",
+    "source_high": "40|782_40ev_01.txt|PE O-18:2_22:1|PEO-H",
+    "source_files": [
+      "782_30ev_02.txt",
+      "782_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.15407428085582964,
+      -0.39083462772367883,
+      0.23676034686784908
+    ],
+    "multiplier": [
+      1.166577537938048,
+      0.6764920198146805,
+      1.2671374079355526
+    ]
+  },
+  {
+    "pattern_id": "51a0c35c2ed7b7ca0761bf33f0ab4a5bd5627b3a359eb6e93e7a719a775332d3",
+    "donor_identity": [
+      "PE O-18:2_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|772_30ev_01.txt|PE O-18:2_22:6|PEO-H",
+    "source_high": "40|772_40ev_02.txt|PE O-18:2_22:6|PEO-H",
+    "source_files": [
+      "772_30ev_01.txt",
+      "772_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -1.030691739750333,
+      -0.15280680522524387,
+      0.36704105305367385,
+      0.816457491921903
+    ],
+    "multiplier": [
+      0.35676009005829296,
+      0.8582955240052538,
+      1.4434571762237582,
+      2.262470803372419
+    ]
+  },
+  {
+    "pattern_id": "54ca1a74e1d20e8992500db17121d417298d6953f29c3575e688f2706fab9085",
+    "donor_identity": [
+      "PE O-18:2_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|772_30ev_01.txt|PE O-18:2_22:6|PEO-H",
+    "source_high": "35|772_35ev_00.txt|PE O-18:2_22:6|PEO-H",
+    "source_files": [
+      "772_30ev_01.txt",
+      "772_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.561136977954544,
+      -0.031105731410233817,
+      0.19242568589630832,
+      0.3998170234684694
+    ],
+    "multiplier": [
+      0.5705599808022639,
+      0.9693730744752537,
+      1.2121864178130122,
+      1.4915517537043732
+    ]
+  },
+  {
+    "pattern_id": "5572a590e1121eba2f5008c3fb65e3da141cd7a20027567e58dde01ced003360",
+    "donor_identity": [
+      "PE O-18:2_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_03.txt|PE O-18:2_20:2|PEO-H",
+    "source_high": "35|752_35ev_03.txt|PE O-18:2_20:2|PEO-H",
+    "source_files": [
+      "752_30ev_03.txt",
+      "752_35ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.13103708197832853,
+      -0.34247936868627166,
+      0.21144228670794324
+    ],
+    "multiplier": [
+      1.1400100543563314,
+      0.7100077676274479,
+      1.2354586611845757
+    ]
+  },
+  {
+    "pattern_id": "55f5eccbf03692d045d9f00178c4675b89e5743375af7bc21a9ef1f532951a1d",
+    "donor_identity": [
+      "PE O-18:2_24:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|810_35ev_01.txt|PE O-18:2_24:1|PEO-H",
+    "source_high": "40|810_40ev_01.txt|PE O-18:2_24:1|PEO-H",
+    "source_files": [
+      "810_35ev_01.txt",
+      "810_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.0650919332587274,
+      -0.08190972970228694,
+      0.01681779644355952
+    ],
+    "multiplier": [
+      1.0672571363006895,
+      0.9213551259440445,
+      1.0169600117127353
+    ]
+  },
+  {
+    "pattern_id": "58b82d99297b26573aec7244a23308427b43a32dce9c4e9187391a8c4b04ebfd",
+    "donor_identity": [
+      "PE O-16:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|674_30ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_high": "35|674_35ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_files": [
+      "674_30ev_01.txt",
+      "674_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.07906159049575108,
+      -0.14206996875576042,
+      0.06300837826000934
+    ],
+    "multiplier": [
+      1.0822709776236683,
+      0.8675605522298518,
+      1.0650357623404614
+    ]
+  },
+  {
+    "pattern_id": "5ea44f8623aea0cf1670cda9953990ae0a1f041c95b3d2d7b15875dde033ccc2",
+    "donor_identity": [
+      "PE O-16:0_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_01.txt|PE O-16:0_22:4|PEO-H",
+    "source_high": "40|752_40ev_00.txt|PE O-16:0_22:4|PEO-H",
+    "source_files": [
+      "752_30ev_01.txt",
+      "752_40ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.47190603539435494,
+      0.09777042122734256,
+      -0.22849619368788987,
+      0.6026318078549022
+    ],
+    "multiplier": [
+      0.6238121264243676,
+      1.1027095973303975,
+      0.7957293259928903,
+      1.8269205828747779
+    ]
+  },
+  {
+    "pattern_id": "5f7927928427dbd6f6197890a270ee657052a435bc28975139d8f73c1dd1adee",
+    "donor_identity": [
+      "PE O-18:1_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|754_35ev_02.txt|PE O-18:1_20:2|PEO-H",
+    "source_high": "40|754_40ev_01.txt|PE O-18:1_20:2|PEO-H",
+    "source_files": [
+      "754_35ev_02.txt",
+      "754_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.1816101882397232,
+      -0.18303888890710573,
+      0.001428700667382543
+    ],
+    "multiplier": [
+      1.19914666129007,
+      0.8327357709233509,
+      1.0014297217463952
+    ]
+  },
+  {
+    "pattern_id": "61eb52473eb1f60298223217eac911927b056872fa1dea48b663b9a99c01d794",
+    "donor_identity": [
+      "PE O-18:2_16:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|698_30ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_high": "35|698_35ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_files": [
+      "698_30ev_01.txt",
+      "698_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.10328581430840977,
+      -0.1670936504811606,
+      0.06380783617275088
+    ],
+    "multiplier": [
+      1.1088082770620156,
+      0.8461203680470727,
+      1.0658875540484605
+    ]
+  },
+  {
+    "pattern_id": "635ba48ec2a3a503ca293b953708cd4cec8d505aa20929b7b6fb4c9709d120e4",
+    "donor_identity": [
+      "PE O-18:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|702_30ev_02.txt|PE O-18:1_16:0|PEO-H",
+    "source_high": "40|702_40ev_01.txt|PE O-18:1_16:0|PEO-H",
+    "source_files": [
+      "702_30ev_02.txt",
+      "702_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.0556461164732629,
+      0.4145776386337226,
+      -0.3589315221604597
+    ],
+    "multiplier": [
+      0.9458738058280693,
+      1.5137312640515792,
+      0.6984221761557955
+    ]
+  },
+  {
+    "pattern_id": "63b5a06e32be72c0ddd05b20987d097ef8229321bedc2e348213a8551d91ed1d",
+    "donor_identity": [
+      "PE O-18:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|726_35ev_00.txt|PE O-18:2_18:1|PEO-H",
+    "source_high": "40|726_40ev_00.txt|PE O-18:2_18:1|PEO-H",
+    "source_files": [
+      "726_35ev_00.txt",
+      "726_40ev_00.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.21989616046997285,
+      -0.22882994756972685,
+      0.00893378709975401
+    ],
+    "multiplier": [
+      1.2459473452830696,
+      0.7954637925553213,
+      1.0089738124796772
+    ]
+  },
+  {
+    "pattern_id": "63f46ad425f870602da5c3ee4e26dcf5c46bf41ccbc63cc763036dbc07e3635a",
+    "donor_identity": [
+      "PE O-20:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|754_30ev_01.txt|PE O-20:2_18:1|PEO-H",
+    "source_high": "40|754_40ev_01.txt|PE O-20:2_18:1|PEO-H",
+    "source_files": [
+      "754_30ev_01.txt",
+      "754_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.060002909943433436,
+      -0.640350407223479,
+      0.5803474972800458
+    ],
+    "multiplier": [
+      1.0618396364341414,
+      0.527107689336856,
+      1.7866591820952717
+    ]
+  },
+  {
+    "pattern_id": "65513697aff117e3158fea0f69be129db6f25182a0c0dbca2d7a9000b3ad9697",
+    "donor_identity": [
+      "PE O-16:0_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|702_30ev_02.txt|PE O-16:0_18:1|PEO-H",
+    "source_high": "35|702_35ev_00.txt|PE O-16:0_18:1|PEO-H",
+    "source_files": [
+      "702_30ev_02.txt",
+      "702_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.08584368154111553,
+      -0.026871924513663124,
+      -0.058971757027452394
+    ],
+    "multiplier": [
+      1.0896359847736714,
+      0.9734859132222502,
+      0.9427333943744873
+    ]
+  },
+  {
+    "pattern_id": "6ccbae345f5e0e0dfbb3ba0dbe482231ace692e855988136d2b5b7df8ee8b2d7",
+    "donor_identity": [
+      "PE O-16:0_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_01.txt|PE O-16:0_22:4|PEO-H",
+    "source_high": "35|752_35ev_00.txt|PE O-16:0_22:4|PEO-H",
+    "source_files": [
+      "752_30ev_01.txt",
+      "752_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.3283576481329874,
+      0.6550302726541448,
+      -0.007747861860812555,
+      -0.3189247626603451
+    ],
+    "multiplier": [
+      0.7201054292823432,
+      1.9252007974321121,
+      0.9922820754542732,
+      0.7269302395462766
+    ]
+  },
+  {
+    "pattern_id": "6d33de6a0d726cd0f7ee1fded4ff5ea2d8f0b94bc49b7423d8c9dd462fbf18f8",
+    "donor_identity": [
+      "PE O-18:0_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_03.txt|PE O-18:0_20:4|PEO-H",
+    "source_high": "40|752_40ev_02.txt|PE O-18:0_20:4|PEO-H",
+    "source_files": [
+      "752_30ev_03.txt",
+      "752_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.7196347859109533,
+      -0.14917288894399727,
+      0.20704863054817796,
+      0.6617590443067727
+    ],
+    "multiplier": [
+      0.48693005720750754,
+      0.861420172000164,
+      1.230042387961903,
+      1.9381987149514592
+    ]
+  },
+  {
+    "pattern_id": "6e6365a29ff427f65e187bd2a0d91e1b630da4e0272d813771fce7c8714685e5",
+    "donor_identity": [
+      "PE O-18:2_16:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|698_35ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_high": "40|698_40ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_files": [
+      "698_35ev_01.txt",
+      "698_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.03042741134212079,
+      -0.5240138360621627,
+      0.5544412474042839
+    ],
+    "multiplier": [
+      0.9700308427486477,
+      0.5921390226784757,
+      1.7409679425974853
+    ]
+  },
+  {
+    "pattern_id": "7083eb50d0da64f70287627d1dab8b3d83c3087b473b54a4a6f817cb31850428",
+    "donor_identity": [
+      "PE O-18:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|702_35ev_00.txt|PE O-18:1_16:0|PEO-H",
+    "source_high": "40|702_40ev_01.txt|PE O-18:1_16:0|PEO-H",
+    "source_files": [
+      "702_35ev_00.txt",
+      "702_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.08257275421488701,
+      0.012712412298298663,
+      -0.09528516651318567
+    ],
+    "multiplier": [
+      1.0860776872941715,
+      1.012793558501607,
+      0.9091136487308856
+    ]
+  },
+  {
+    "pattern_id": "734da2fbd88795cd979a52213b66c8e2c74894d30a77fcaed1a434142d4413ca",
+    "donor_identity": [
+      "PE O-18:1_22:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|782_30ev_03.txt|PE O-18:1_22:2|PEO-H",
+    "source_high": "40|782_40ev_01.txt|PE O-18:1_22:2|PEO-H",
+    "source_files": [
+      "782_30ev_03.txt",
+      "782_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.2316999131714994,
+      -0.9413443092635904,
+      0.7096443960920908
+    ],
+    "multiplier": [
+      1.2607413401861092,
+      0.3901030635476649,
+      2.033268091994587
+    ]
+  },
+  {
+    "pattern_id": "765018dccf6813d1778d766e5c64fe0ad034be83e37c003bdd20e17a207eba34",
+    "donor_identity": [
+      "PE O-16:1_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|746_30ev_01.txt|PE O-16:1_22:6|PEO-H",
+    "source_high": "35|746_35ev_00.txt|PE O-16:1_22:6|PEO-H",
+    "source_files": [
+      "746_30ev_01.txt",
+      "746_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.5632151717667375,
+      -0.06623963127959417,
+      0.20646137946658538,
+      0.4229934235797463
+    ],
+    "multiplier": [
+      0.5693754778203706,
+      0.9359065649303858,
+      1.2293202562962213,
+      1.5265242568684054
+    ]
+  },
+  {
+    "pattern_id": "7c3386f1eb7cb1881428167ee9bed91b341c630d42cf7ecc5c9735595c3d6ac8",
+    "donor_identity": [
+      "PE O-18:2_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|748_30ev_02.txt|PE O-18:2_20:4|PEO-H",
+    "source_high": "35|748_35ev_01.txt|PE O-18:2_20:4|PEO-H",
+    "source_files": [
+      "748_30ev_02.txt",
+      "748_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.24744324015772196,
+      0.26365039348097474,
+      -0.06939032718564195,
+      0.053183173862389216
+    ],
+    "multiplier": [
+      0.7807945373280049,
+      1.301673043361714,
+      0.9329624483912715,
+      1.054622806760612
+    ]
+  },
+  {
+    "pattern_id": "7d3292240dcd75e94487db0795334abdecf0591ff22f781a6f7a8b4965671399",
+    "donor_identity": [
+      "PE O-22:2_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|810_30ev_04.txt|PE O-22:2_20:1|PEO-H",
+    "source_high": "35|810_35ev_01.txt|PE O-22:2_20:1|PEO-H",
+    "source_files": [
+      "810_30ev_04.txt",
+      "810_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.27321969288695236,
+      0.056895977979425125,
+      0.21632371490752728
+    ],
+    "multiplier": [
+      0.7609255993228947,
+      1.0585456926064463,
+      1.2415042073779308
+    ]
+  },
+  {
+    "pattern_id": "7fec8a60cd463bddf66c4d7f3bd3d8dd9f92603d3197bde2fbf649b090d2726f",
+    "donor_identity": [
+      "PE O-18:2_24:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|810_30ev_04.txt|PE O-18:2_24:1|PEO-H",
+    "source_high": "40|810_40ev_01.txt|PE O-18:2_24:1|PEO-H",
+    "source_files": [
+      "810_30ev_04.txt",
+      "810_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.09423661610674061,
+      -0.15989747725715758,
+      0.06566086115041692
+    ],
+    "multiplier": [
+      1.0988197136023325,
+      0.8522311575633099,
+      1.0678645014102288
+    ]
+  },
+  {
+    "pattern_id": "84df751bd9a6e2665d3fcf35fea9175ed724d47c656138f2f2ba39246ae35b0f",
+    "donor_identity": [
+      "PE O-18:2_24:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|810_30ev_04.txt|PE O-18:2_24:1|PEO-H",
+    "source_high": "35|810_35ev_01.txt|PE O-18:2_24:1|PEO-H",
+    "source_files": [
+      "810_30ev_04.txt",
+      "810_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.02914468284801336,
+      -0.07798774755487065,
+      0.04884306470685734
+    ],
+    "multiplier": [
+      1.0295735453323318,
+      0.9249757596888514,
+      1.0500555470335176
+    ]
+  },
+  {
+    "pattern_id": "85e9cbf648b16204229b560847e7023d4811fc6d6f191eb89d4cdedf23fde31f",
+    "donor_identity": [
+      "PE O-16:0_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|702_35ev_00.txt|PE O-16:0_18:1|PEO-H",
+    "source_high": "40|702_40ev_01.txt|PE O-16:0_18:1|PEO-H",
+    "source_files": [
+      "702_35ev_00.txt",
+      "702_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.03288195405567007,
+      -0.09110840453449828,
+      0.12399035859016844
+    ],
+    "multiplier": [
+      0.9676527803334894,
+      0.9129187410038168,
+      1.1320049568228412
+    ]
+  },
+  {
+    "pattern_id": "86d824d1fb28533e27f1ce10ecedf19431411871648d5175b3348645e60c5c5c",
+    "donor_identity": [
+      "PE O-18:2_22:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|782_35ev_04.txt|PE O-18:2_22:1|PEO-H",
+    "source_high": "40|782_40ev_01.txt|PE O-18:2_22:1|PEO-H",
+    "source_files": [
+      "782_35ev_04.txt",
+      "782_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.1670787337327109,
+      -0.21557601393169462,
+      0.04849728019898371
+    ],
+    "multiplier": [
+      1.18184731289576,
+      0.8060769948476275,
+      1.0496925168616684
+    ]
+  },
+  {
+    "pattern_id": "88dc1a379ffe885dbbb938c7cc7260303233c3076551e2be296463a4a68eaa31",
+    "donor_identity": [
+      "PE O-18:2_22:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|782_30ev_02.txt|PE O-18:2_22:1|PEO-H",
+    "source_high": "35|782_35ev_04.txt|PE O-18:2_22:1|PEO-H",
+    "source_files": [
+      "782_30ev_02.txt",
+      "782_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.013004452876881123,
+      -0.17525861379198426,
+      0.1882630666688654
+    ],
+    "multiplier": [
+      0.987079739665949,
+      0.8392399536753403,
+      1.2071510347849224
+    ]
+  },
+  {
+    "pattern_id": "8b3bf63b41a976822307d4aca650b07f19d5c81f0dad545f6d97e92a7bd73253",
+    "donor_identity": [
+      "PE O-16:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|674_30ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_high": "40|674_40ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_files": [
+      "674_30ev_01.txt",
+      "674_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.6283833328417061,
+      -0.6769519827277093,
+      0.04856864988600329
+    ],
+    "multiplier": [
+      1.8745775602564863,
+      0.5081635254411923,
+      1.0497674357615012
+    ]
+  },
+  {
+    "pattern_id": "8cbeca4efcf308dc80e343edfcab9eaf1e7650bd9f53d1aa7f8d54689eb052f1",
+    "donor_identity": [
+      "PE O-16:0_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|702_30ev_02.txt|PE O-16:0_18:1|PEO-H",
+    "source_high": "40|702_40ev_01.txt|PE O-16:0_18:1|PEO-H",
+    "source_files": [
+      "702_30ev_02.txt",
+      "702_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.05296172748544531,
+      -0.11798032904816136,
+      0.065018601562716
+    ],
+    "multiplier": [
+      1.0543892902176628,
+      0.8887135342838075,
+      1.067178875394342
+    ]
+  },
+  {
+    "pattern_id": "8ff742e1b0b5d345c59be02a2ec8acea3ba0daf5974a91f4b5a5e127656a39a9",
+    "donor_identity": [
+      "PE O-16:1_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|750_30ev_01.txt|PE O-16:1_22:4|PEO-H",
+    "source_high": "40|750_40ev_02.txt|PE O-16:1_22:4|PEO-H",
+    "source_files": [
+      "750_30ev_01.txt",
+      "750_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.2554113698851179,
+      0.06219544271232402,
+      -0.16824255779963038,
+      0.3614584849724245
+    ],
+    "multiplier": [
+      0.7745977862090416,
+      1.064170308736361,
+      0.8451488123844927,
+      1.4354214291871175
+    ]
+  },
+  {
+    "pattern_id": "900d487081f502f9ec4fee0896f7aa2c77faceb0876d3f05ab5184390efd000d",
+    "donor_identity": [
+      "PE O-20:1_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|806_30ev_05.txt|PE O-20:1_22:4|PEO-H",
+    "source_high": "40|806_40ev_00.txt|PE O-20:1_22:4|PEO-H",
+    "source_files": [
+      "806_30ev_05.txt",
+      "806_40ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.14736737847305015,
+      0.5029919765064467,
+      -0.12825389505375445,
+      -0.22737070297964207
+    ],
+    "multiplier": [
+      0.8629768800440435,
+      1.653661592986401,
+      0.8796300170801115,
+      0.796625416131546
+    ]
+  },
+  {
+    "pattern_id": "91ccabf207f830aad24449232ca0a48c75ee5d2fae64181560b19a44423d8510",
+    "donor_identity": [
+      "PE O-20:1_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|806_30ev_05.txt|PE O-20:1_22:4|PEO-H",
+    "source_high": "35|806_35ev_05.txt|PE O-20:1_22:4|PEO-H",
+    "source_files": [
+      "806_30ev_05.txt",
+      "806_35ev_05.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.5814572840052968,
+      0.9050077172113369,
+      -0.25009017359133034,
+      -0.07346025961470966
+    ],
+    "multiplier": [
+      0.559083029864074,
+      2.4719509995521407,
+      0.7787305589740915,
+      0.9291730707536415
+    ]
+  },
+  {
+    "pattern_id": "940c054780969ebbd88f6653a36c2604d3634073ea1c70d7d68cffeb772b40d1",
+    "donor_identity": [
+      "PE O-18:2_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|748_30ev_02.txt|PE O-18:2_20:4|PEO-H",
+    "source_high": "40|748_40ev_03.txt|PE O-18:2_20:4|PEO-H",
+    "source_files": [
+      "748_30ev_02.txt",
+      "748_40ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.37718675945316743,
+      0.1254747581145213,
+      -0.0727611510454155,
+      0.32447315238406166
+    ],
+    "multiplier": [
+      0.6857879845464613,
+      1.133686552213238,
+      0.9298228907306532,
+      1.383301664782396
+    ]
+  },
+  {
+    "pattern_id": "a36b9beba481e4900d04af65ccf4d71908f12f3e2745f91ba05cfda8836ecdc6",
+    "donor_identity": [
+      "PE O-16:1_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|726_35ev_00.txt|PE O-16:1_20:2|PEO-H",
+    "source_high": "40|726_40ev_00.txt|PE O-16:1_20:2|PEO-H",
+    "source_files": [
+      "726_35ev_00.txt",
+      "726_40ev_00.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.37987114236640274,
+      0.04579853342134399,
+      -0.4256696757877466
+    ],
+    "multiplier": [
+      1.4620961750419614,
+      1.0468634817060742,
+      0.6533321178979162
+    ]
+  },
+  {
+    "pattern_id": "a4010aec3beef2fff7623ef69fd7264738fc2668b71d52b86b5e73421d566bd8",
+    "donor_identity": [
+      "PE O-16:0_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|676_35ev_00.txt|PE O-16:0_16:0|PEO-H",
+    "source_high": "40|676_40ev_00.txt|PE O-16:0_16:0|PEO-H",
+    "source_files": [
+      "676_35ev_00.txt",
+      "676_40ev_00.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.03884314247203415,
+      0.05963291633547331,
+      -0.020789773863439193
+    ],
+    "multiplier": [
+      0.9619015788173353,
+      1.0614468352274309,
+      0.9794248436290495
+    ]
+  },
+  {
+    "pattern_id": "a7860e64d8e9e569d64ddce279dc7c4344bf0186a75e4d77c1db80f8226c8f5c",
+    "donor_identity": [
+      "PE O-18:0_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|780_30ev_01.txt|PE O-18:0_22:4|PEO-H",
+    "source_high": "40|780_40ev_03.txt|PE O-18:0_22:4|PEO-H",
+    "source_files": [
+      "780_30ev_01.txt",
+      "780_40ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.5056043414911062,
+      -0.10294958221750405,
+      -0.0913239218505345,
+      0.6998778455591447
+    ],
+    "multiplier": [
+      0.6031409621542578,
+      0.9021724578696505,
+      0.9127220124069675,
+      2.0135067336581773
+    ]
+  },
+  {
+    "pattern_id": "a82cd865c8a8a4f15a6d7d9fb45e4322755e9ba6b9405b75c63f5ca599d4ee91",
+    "donor_identity": [
+      "PE O-18:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|726_30ev_01.txt|PE O-18:2_18:1|PEO-H",
+    "source_high": "40|726_40ev_00.txt|PE O-18:2_18:1|PEO-H",
+    "source_files": [
+      "726_30ev_01.txt",
+      "726_40ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.2205842064521799,
+      -0.29813992449143645,
+      0.07755571803925648
+    ],
+    "multiplier": [
+      1.2468049093359523,
+      0.7421974808766869,
+      1.0806424420591727
+    ]
+  },
+  {
+    "pattern_id": "be9348fc9e850316c6c3df44fcdcec5bfb00c8ced564bd0dafd4b394a501854e",
+    "donor_identity": [
+      "PE O-20:1_22:6",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|802_30ev_04.txt|PE O-20:1_22:6|PEO-H",
+    "source_high": "35|802_35ev_01.txt|PE O-20:1_22:6|PEO-H",
+    "source_files": [
+      "802_30ev_04.txt",
+      "802_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.4558711390682877,
+      -0.13946828970765757,
+      0.5180141577315143,
+      0.07732527104443088
+    ],
+    "multiplier": [
+      0.6338955162026394,
+      0.8698206050327534,
+      1.6786907224975112,
+      1.0803934399479151
+    ]
+  },
+  {
+    "pattern_id": "bff22102e029b85199db340e8a397b3371f39b1ffd6188819cb96c1b92fa2ce7",
+    "donor_identity": [
+      "PE O-18:2_18:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|726_30ev_01.txt|PE O-18:2_18:1|PEO-H",
+    "source_high": "35|726_35ev_00.txt|PE O-18:2_18:1|PEO-H",
+    "source_files": [
+      "726_30ev_01.txt",
+      "726_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.0006880459822070639,
+      -0.06930997692170948,
+      0.06862193093950253
+    ],
+    "multiplier": [
+      1.0006882827401409,
+      0.9330374151819992,
+      1.0710312088312393
+    ]
+  },
+  {
+    "pattern_id": "c43c569e86249cc050e557138fe0b26f96e5ee03fac7e6995b249cdcbbfc28a9",
+    "donor_identity": [
+      "PE O-20:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|730_35ev_01.txt|PE O-20:1_16:0|PEO-H",
+    "source_high": "40|730_40ev_02.txt|PE O-20:1_16:0|PEO-H",
+    "source_files": [
+      "730_35ev_01.txt",
+      "730_40ev_02.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.0420931929192626,
+      -0.07933082146137398,
+      0.12142401438063657
+    ],
+    "multiplier": [
+      0.9587804248621647,
+      0.9237342827661149,
+      1.1291035670315916
+    ]
+  },
+  {
+    "pattern_id": "cb63ceca45f2a419d674d9957b87ebaf9c1b4885a44fba39758d1f0faccb6978",
+    "donor_identity": [
+      "PE O-18:2_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|700_30ev_01.txt|PE O-18:2_16:0|PEO-H",
+    "source_high": "40|700_40ev_02.txt|PE O-18:2_16:0|PEO-H",
+    "source_files": [
+      "700_30ev_01.txt",
+      "700_40ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.23963312856588292,
+      -0.3057629541802673,
+      0.06612982561438437
+    ],
+    "multiplier": [
+      1.2707828508637116,
+      0.7365611975166315,
+      1.068365409358556
+    ]
+  },
+  {
+    "pattern_id": "ce01fe680d92ccdacc09ad327d85f6c8db618e9b6e79790275034c901dcbffeb",
+    "donor_identity": [
+      "PE O-18:2_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|700_30ev_01.txt|PE O-18:2_16:0|PEO-H",
+    "source_high": "35|700_35ev_01.txt|PE O-18:2_16:0|PEO-H",
+    "source_files": [
+      "700_30ev_01.txt",
+      "700_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.08529812260721494,
+      -0.09326979755874741,
+      0.007971674951532472
+    ],
+    "multiplier": [
+      1.0890416862546521,
+      0.9109476956744486,
+      1.0080035333509672
+    ]
+  },
+  {
+    "pattern_id": "d063203dc23bc1254dcfc0b319451b1613a581c6446b52aacc5464326453cadd",
+    "donor_identity": [
+      "PE O-18:1_22:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|782_35ev_04.txt|PE O-18:1_22:2|PEO-H",
+    "source_high": "40|782_40ev_01.txt|PE O-18:1_22:2|PEO-H",
+    "source_files": [
+      "782_35ev_04.txt",
+      "782_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.10454867753145847,
+      -0.2803021256786765,
+      0.3848508032101352
+    ],
+    "multiplier": [
+      0.9007309509805219,
+      0.7555554342703737,
+      1.4693950760578063
+    ]
+  },
+  {
+    "pattern_id": "d6de7d7d8f34289ce23c40672f82a020301d17af761703ed3d1015a0115766ce",
+    "donor_identity": [
+      "PE O-16:1_20:3",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|724_30ev_03.txt|PE O-16:1_20:3|PEO-H",
+    "source_high": "35|724_35ev_01.txt|PE O-16:1_20:3|PEO-H",
+    "source_files": [
+      "724_30ev_03.txt",
+      "724_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.08446518512777354,
+      -0.24482915597396612,
+      0.32929434110173955
+    ],
+    "multiplier": [
+      0.9190036498145313,
+      0.7828382700596922,
+      1.3899869256646924
+    ]
+  },
+  {
+    "pattern_id": "d6faae1d15801d34a7a9c69d429d75902af4c2b3691478d5c748f8c89be84b6f",
+    "donor_identity": [
+      "PE O-18:0_20:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|752_30ev_03.txt|PE O-18:0_20:4|PEO-H",
+    "source_high": "35|752_35ev_03.txt|PE O-18:0_20:4|PEO-H",
+    "source_files": [
+      "752_30ev_03.txt",
+      "752_35ev_03.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.2981166993347153,
+      0.02647997878367292,
+      0.019659860315958344,
+      0.2519768602350839
+    ],
+    "multiplier": [
+      0.7422147187296735,
+      1.0268336885964668,
+      1.0198543880747089,
+      1.2865662660994464
+    ]
+  },
+  {
+    "pattern_id": "d6ff48e5235b265105b948a88f99434778ff595a2e4eb9c6d16f2381022ecb92",
+    "donor_identity": [
+      "PE O-22:1_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|812_30ev_04.txt|PE O-22:1_20:1|PEO-H",
+    "source_high": "40|812_40ev_01.txt|PE O-22:1_20:1|PEO-H",
+    "source_files": [
+      "812_30ev_04.txt",
+      "812_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.5169475929751973,
+      0.16139100889207822,
+      -0.6783386018672756
+    ],
+    "multiplier": [
+      1.676901244602803,
+      1.175144370891364,
+      0.5074593844712807
+    ]
+  },
+  {
+    "pattern_id": "da8ac081949ff3aadc0a69fac1be3584e235b5ca4005bde6f1f4f4275df2a93b",
+    "donor_identity": [
+      "PE O-16:1_16:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|674_35ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_high": "40|674_40ev_01.txt|PE O-16:1_16:0|PEO-H",
+    "source_files": [
+      "674_35ev_01.txt",
+      "674_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.5493217423459549,
+      -0.5348820139719487,
+      -0.014439728374005978
+    ],
+    "multiplier": [
+      1.7320778243286885,
+      0.585738395014714,
+      0.9856640245155642
+    ]
+  },
+  {
+    "pattern_id": "dcc7f76df7ebf9f18185f5388e17cc9035fa700b94858a2a9669b493871a8f37",
+    "donor_identity": [
+      "PE O-18:1_20:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|754_30ev_01.txt|PE O-18:1_20:2|PEO-H",
+    "source_high": "35|754_35ev_02.txt|PE O-18:1_20:2|PEO-H",
+    "source_files": [
+      "754_30ev_01.txt",
+      "754_35ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.048591675874132045,
+      -0.2816674929935062,
+      0.3302591688676383
+    ],
+    "multiplier": [
+      0.9525700076146715,
+      0.7545245275192242,
+      1.391328670817214
+    ]
+  },
+  {
+    "pattern_id": "e0ce7b99b56af576d6ae482e8c4574f44501bc1de28d7fa3fc0121964e839e69",
+    "donor_identity": [
+      "PE O-18:2_16:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|698_30ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_high": "40|698_40ev_01.txt|PE O-18:2_16:1|PEO-H",
+    "source_files": [
+      "698_30ev_01.txt",
+      "698_40ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.07285840296628843,
+      -0.6911074865433231,
+      0.6182490835770347
+    ],
+    "multiplier": [
+      1.0755782274451424,
+      0.5010208878037459,
+      1.8556760620120138
+    ]
+  },
+  {
+    "pattern_id": "e5ba9fd69bdc081b90e2d277992b77be46933fcbf081bdec70b4e50a86ebe119",
+    "donor_identity": [
+      "PE O-18:1_24:2",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|810_30ev_04.txt|PE O-18:1_24:2|PEO-H",
+    "source_high": "35|810_35ev_01.txt|PE O-18:1_24:2|PEO-H",
+    "source_files": [
+      "810_30ev_04.txt",
+      "810_35ev_01.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.29648162561403474,
+      -0.6565859857981678,
+      0.36010436018413317
+    ],
+    "multiplier": [
+      1.3451178440557467,
+      0.518618887797125,
+      1.4334790048874686
+    ]
+  },
+  {
+    "pattern_id": "e75df5a673ce7856060c995b9497f9427d9172da42e3bf8ef29925cf41b71e05",
+    "donor_identity": [
+      "PE O-18:2_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|754_30ev_01.txt|PE O-18:2_20:1|PEO-H",
+    "source_high": "35|754_35ev_02.txt|PE O-18:2_20:1|PEO-H",
+    "source_files": [
+      "754_30ev_01.txt",
+      "754_35ev_02.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.07780819354513135,
+      -0.03313109261054703,
+      -0.0446771009345841
+    ],
+    "multiplier": [
+      1.0809153122514719,
+      0.9674117307467942,
+      0.9563062223698566
+    ]
+  },
+  {
+    "pattern_id": "ebeca0ef03a376a74e96b22c1572b054cbd5d5b8ed029533ae610237a23ef59c",
+    "donor_identity": [
+      "PE O-16:1_20:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|730_35ev_00.txt|PE O-16:1_20:0|PEO-H",
+    "source_high": "40|730_40ev_00.txt|PE O-16:1_20:0|PEO-H",
+    "source_files": [
+      "730_35ev_00.txt",
+      "730_40ev_00.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.35977262387430053,
+      -0.01107336631973549,
+      -0.348699257554565
+    ],
+    "multiplier": [
+      1.4330035467198938,
+      0.9889877177245195,
+      0.705605303828143
+    ]
+  },
+  {
+    "pattern_id": "f1f8f7246a7dbf8bdc68d4faa36bc44be6e9c4d75bebff0636498976e3c7c9e4",
+    "donor_identity": [
+      "PE O-18:2_22:4",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|776_30ev_04.txt|PE O-18:2_22:4|PEO-H",
+    "source_high": "35|776_35ev_04.txt|PE O-18:2_22:4|PEO-H",
+    "source_files": [
+      "776_30ev_04.txt",
+      "776_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.21783827226796437,
+      0.21298379858134356,
+      -0.18580420258971658,
+      0.1906586762763374
+    ],
+    "multiplier": [
+      0.8042555015673755,
+      1.237364604019224,
+      0.8304361763176397,
+      1.2100463640561545
+    ]
+  },
+  {
+    "pattern_id": "f2f891954f4781ece64e3f5dadb8c6d94c09e0158e840d8a10b337b3622d4bdd",
+    "donor_identity": [
+      "PE O-18:2_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "35|754_35ev_02.txt|PE O-18:2_20:1|PEO-H",
+    "source_high": "40|754_40ev_01.txt|PE O-18:2_20:1|PEO-H",
+    "source_files": [
+      "754_35ev_02.txt",
+      "754_40ev_01.txt"
+    ],
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      0.09017326375384349,
+      -0.20856920666946133,
+      0.11839594291561761
+    ],
+    "multiplier": [
+      1.0943638808736484,
+      0.811744854600708,
+      1.1256897320159265
+    ]
+  },
+  {
+    "pattern_id": "f5b1d4998efca64bd8f88b17554ed941065856afc15304040415acdff0cff47e",
+    "donor_identity": [
+      "PE O-16:1_20:0",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|730_30ev_01.txt|PE O-16:1_20:0|PEO-H",
+    "source_high": "35|730_35ev_00.txt|PE O-16:1_20:0|PEO-H",
+    "source_files": [
+      "730_30ev_01.txt",
+      "730_35ev_00.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.20296008899821527,
+      0.07631750255534975,
+      0.12664258644286552
+    ],
+    "multiplier": [
+      0.8163108205580889,
+      1.0793052019214227,
+      1.1350112768593026
+    ]
+  },
+  {
+    "pattern_id": "f70621543e9fb97fa34094bf70fcacaad4fccc6ff6600ecbe53dd3417adbc6da",
+    "donor_identity": [
+      "PE O-20:2_20:1",
+      "[M-H]-",
+      "PEO-H"
+    ],
+    "source_low": "30|782_30ev_02.txt|PE O-20:2_20:1|PEO-H",
+    "source_high": "35|782_35ev_04.txt|PE O-20:2_20:1|PEO-H",
+    "source_files": [
+      "782_30ev_02.txt",
+      "782_35ev_04.txt"
+    ],
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "centered_log_change": [
+      -0.3513750331901452,
+      -0.7178677333830257,
+      1.069242766573171
+    ],
+    "multiplier": [
+      0.7037197860840337,
+      0.48779124885737357,
+      2.9131727127996783
+    ]
+  }
+]
