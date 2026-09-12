@@ -1,0 +1,19 @@
+{
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "pid": 115253,
+  "started_utc": "2026-09-12T06:27:58.953816+00:00",
+  "command": [
+    "python",
+    "/root/physical_identity_mainline_v1/source/analysis/run_physical_identity_mainline_pilot.py",
+    "train-case",
+    "--snapshot",
+    "/root/physical_identity_mainline_v1/source",
+    "--output",
+    "/root/physical_identity_mainline_v1/results",
+    "--case",
+    "SUPPORTED_MISMATCH__CAL_R71_K125"
+  ],
+  "prepared_design_commit": "dbf304f86563442c6be6f064e8cd72fabee2e682",
+  "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "status": "LAUNCHED_NOT_YET_COMPLETE"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "NORMAL_FINITE_COMPLETE",
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "files": {
+    "training/runtime_contract.json": "7285e4d76902aa17d3ac86d7f741ff2bf71f39f2d1e9fde41dc02535692119cb",
+    "training/training_history.json": "46bed4556c74160a695d8fa3959b8d7b631c90349b50159bbd8df8ef4dfa0b67",
+    "training/checkpoint_diagnostics.csv": "12691c1162882fc4cf247b0edbe0f7186b01d1e19b1dc524bc77e4e1f4a4fe7b",
+    "training/latest_model.pth": "abac745f9cac2eaa3cc940b3c2f781926ba93e88a564b223df9b3c968aabc618",
+    "training/checkpoint_epoch_1000.pth": "aa2658a16ac27d80dfc012bb5c837128567bb4cefbacc62b99015ce7d2c12dbe",
+    "training/checkpoint_epoch_1500.pth": "0e2249761f8ae167291441413658a739f19a9e7d5d66d21603ed09d7cf045d56",
+    "training/checkpoint_epoch_2000.pth": "f4a0fca27691e3051c10a4ee82d72906258bb1623e9ee0eaeca9c87e96ebe107",
+    "training/checkpoint_epoch_2500.pth": "089821626d3e84f6c8bb8f7b9e74ca5fcfae7ed08d82e401579d608e903ac8d7",
+    "training/checkpoint_epoch_3000.pth": "93fad6765dbd60116d4af5e1ba3b84114907b47244b5bb9ec0fbdbb51aad075d",
+    "training/learned_arrays.npz": "14fd7defdb705cd52046edbc8b2de553f8f7322b0c63cb9e1b50b2af5767c196",
+    "training/solver_run.json": "525ee3c9572496eab41fccef765023ed40403e12836412df63e13250275966ec",
+    "input.json": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+    "observation_truth.npz": "779d55c59077911bac6b18e42ae854dae271553807321a19e981b8da2ed56fae",
+    "evidence.npz": "6161e0421fd2564a13a7e66362d6e5024327f7ccb9414dd52700ac67e81fdb42",
+    "molecular_records.json": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5",
+    "candidate_records.json": "3d23fd37b3dbffe47ae1fc67d8a5bcfd043a918be88fae0819a45880a4e00dbd",
+    "metadata.json": "bc988c50c64a6ec17857b7f1e9400b79d7e03965966ca76e7cecad122fa213cf"
+  },
+  "stopped_epoch": 3000,
+  "stop_reason": "max_epochs",
+  "training_uses_no_truth_or_target_library": true,
+  "outcomes_NOT_reviewed": true
+}

@@ -1,0 +1,32 @@
+{
+  "status": "VERIFIED_DOWNLOAD_PENDING_CASE_GIT",
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "archive_sha256": "ab962f9ceb098f5b00c987453e933698bc487829e535baa9b1e4eb26e0fbd853",
+  "training_complete_sha256": "a79cf1b31a2510b5f223be20788f2b3a400b3211464bbb6230be73a7b2e6afc4",
+  "verified_files": {
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/training/runtime_contract.json": "7285e4d76902aa17d3ac86d7f741ff2bf71f39f2d1e9fde41dc02535692119cb",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/training/training_history.json": "46bed4556c74160a695d8fa3959b8d7b631c90349b50159bbd8df8ef4dfa0b67",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/training/checkpoint_diagnostics.csv": "12691c1162882fc4cf247b0edbe0f7186b01d1e19b1dc524bc77e4e1f4a4fe7b",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/training/solver_run.json": "525ee3c9572496eab41fccef765023ed40403e12836412df63e13250275966ec",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/input.json": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/evidence.npz": "6161e0421fd2564a13a7e66362d6e5024327f7ccb9414dd52700ac67e81fdb42",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/molecular_records.json": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/candidate_records.json": "3d23fd37b3dbffe47ae1fc67d8a5bcfd043a918be88fae0819a45880a4e00dbd",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/metadata.json": "bc988c50c64a6ec17857b7f1e9400b79d7e03965966ca76e7cecad122fa213cf",
+    "design.json": "079c4eec3d620aca9680d4a4d5639b223832f50a347e99706a1afb2e16b3f413",
+    "design_seal.json": "a18a9ac8781afd770b7cd77499f0a1968a42bc2a0366089ef2defc973410ee0e",
+    "donor_split.json": "097a45510db1db3b49e6170e61f928dd412072c0d341931e8c8a5026831cc4fa",
+    "target_containment.json": "89198f0d86ea10ed270fa2cd2180c256b8c03b82e24fc851091d74108235a41b",
+    "model_patterns.json": "123b1d5a665a522e5ea575b36af4494ed4096b6838369571dd969cad92d8b9a0",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/training_complete.json": "a79cf1b31a2510b5f223be20788f2b3a400b3211464bbb6230be73a7b2e6afc4",
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/case_review.json": "fd0a4cd9d182066a64df2518f568a32283594e411b6b7a6dc3f838dfc7b01ca3"
+  },
+  "exact_membership_verified": true,
+  "source_review_status": "PASS",
+  "evidence_storage": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\physical_identity_mainline_pilot\\cases\\SUPPORTED_MISMATCH__CAL_R71_K125\\evidence.npz",
+  "evidence_sha256": "6161e0421fd2564a13a7e66362d6e5024327f7ccb9414dd52700ac67e81fdb42",
+  "unique_artifacts_retained": true,
+  "outcome_analysis": "DEFERRED_UNTIL_CAL_SEAL",
+  "cleanup_performed": false
+}
