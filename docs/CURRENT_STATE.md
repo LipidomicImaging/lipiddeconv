@@ -1,3 +1,7 @@
+# 持续目标 ACTIVE：先检验小样本校准瓶颈 — 2026-09-12
+
+用户授权持续分析/探索直到1%错误与80%recall/retention目标。当前诊断：既有排序的事后oracle可达107TP/1FP、85.6%，但不能用其阈值；旧每折CAL仅25–41身份。依 docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md 先冻结同一六特征共享模型与四个新5%case，CAL1优先，失败停止该版本后分析；通过才CAL2→seal→HOLD1/2。真值CAL/HOLD各125且不相交；使用既有完整空间图、不改变旧实验、不启GPU。允许的源为当前NNLS/联合结果、原physical mainline四个明确source的X/mask、既有完整components和必要solver/helper代码；新输出 results/identity_confidence_joint_validation。先实现/封存/推送，再CPU执行；逐case审查下载Git后继续。总目标保持active，不能用已曝光数据调参过线冒充完成。
+
 # 辅助指标探索完成：四个量均未改善原联合筛查 — 2026-09-12
 
 固定探索谱库分离/竞争分配、global-mean系数一致性、空间集中度。原baseline93TP/1FP、74.4%召回/1.0638%FDP；谱库竞争91/2、72.8%/2.1505%；一致性与baseline名单完全一致；空间及全部辅助分别92/2、73.6%/2.1277%（总数相同但名单不同）。全部未过1%/80%，不推广扩展、不调参再试。报告 results/small_mismatch_auxiliary_confidence/analysis_record.md。20个固定小CPU模型，baseline未重训；5解析测试、两端缓存独立复核通过，25文件下载hash一致。case已曝光且存在跨轮适应性，非独立FDR验证。无NNLS/rho/GPU/新case/清理，保存到Git后STOP。

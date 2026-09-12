@@ -1,0 +1,122 @@
+{
+  "status": "EXPOSED_CASE_DIAGNOSIS_ONLY",
+  "source_sha256": "76d37113f78573d8fa230505b195f9b3681f2aaff4cbdf84f765ee95457da0b2",
+  "folds": [
+    {
+      "fold": 0,
+      "actual_TP": 27,
+      "actual_FP": 1,
+      "truth_count": 31,
+      "CAL_reported_count": 34,
+      "sealed_cutoff": 0.6256457894334364,
+      "oracle_best_at_FP_budget": {
+        "0": {
+          "TP": 17,
+          "FP": 0,
+          "threshold": 0.9547699963016821
+        },
+        "1": {
+          "TP": 31,
+          "FP": 1,
+          "threshold": 0.3536937450063687
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "actual_TP": 20,
+      "actual_FP": 0,
+      "truth_count": 22,
+      "CAL_reported_count": 25,
+      "sealed_cutoff": 0.8946563295783471,
+      "oracle_best_at_FP_budget": {
+        "0": {
+          "TP": 22,
+          "FP": 0,
+          "threshold": 0.7076521701512469
+        },
+        "1": {
+          "TP": 22,
+          "FP": 0,
+          "threshold": 0.7076521701512469
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "actual_TP": 11,
+      "actual_FP": 0,
+      "truth_count": 16,
+      "CAL_reported_count": 37,
+      "sealed_cutoff": 0.914514905818195,
+      "oracle_best_at_FP_budget": {
+        "0": {
+          "TP": 13,
+          "FP": 0,
+          "threshold": 0.8946817219030754
+        },
+        "1": {
+          "TP": 16,
+          "FP": 1,
+          "threshold": 0.6665980897168541
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "actual_TP": 21,
+      "actual_FP": 0,
+      "truth_count": 27,
+      "CAL_reported_count": 41,
+      "sealed_cutoff": 0.9023743312671587,
+      "oracle_best_at_FP_budget": {
+        "0": {
+          "TP": 21,
+          "FP": 0,
+          "threshold": 0.907693254984396
+        },
+        "1": {
+          "TP": 23,
+          "FP": 1,
+          "threshold": 0.8790152771137011
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "actual_TP": 14,
+      "actual_FP": 0,
+      "truth_count": 29,
+      "CAL_reported_count": 37,
+      "sealed_cutoff": 0.9548815911882648,
+      "oracle_best_at_FP_budget": {
+        "0": {
+          "TP": 20,
+          "FP": 0,
+          "threshold": 0.8451663036844888
+        },
+        "1": {
+          "TP": 24,
+          "FP": 1,
+          "threshold": 0.7477064651591305
+        }
+      }
+    }
+  ],
+  "oracle_rank_capacity": {
+    "TP": 107,
+    "FP": 1,
+    "FDP": 0.009259259259259259,
+    "recall": 0.856,
+    "fold_FP_budgets": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "oracle_not_deployable": true,
+  "no_cutoff_or_model_changed": true,
+  "conclusion": "An exposed-label oracle demonstrates feasible 1%/80% selection within existing rankings. It motivates testing shared-model training and independent case-level calibration; it is not a deployable threshold or a prediction of validation success."
+}

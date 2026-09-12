@@ -1,3 +1,7 @@
+# 当前任务 ACTIVE：共享模型与新CAL/HOLD验证 — 2026-09-12
+
+用户授权持续分析/探索直到1%错误与80%recall/retention目标。当前诊断：既有排序的事后oracle可达107TP/1FP、85.6%，但不能用其阈值；旧每折CAL仅25–41身份。依 docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md 先冻结同一六特征共享模型与四个新5%case，CAL1优先，失败停止该版本后分析；通过才CAL2→seal→HOLD1/2。真值CAL/HOLD各125且不相交；使用既有完整空间图、不改变旧实验、不启GPU。允许的源为当前NNLS/联合结果、原physical mainline四个明确source的X/mask、既有完整components和必要solver/helper代码；新输出 results/identity_confidence_joint_validation。先实现/封存/推送，再CPU执行；逐case审查下载Git后继续。总目标保持active，不能用已曝光数据调参过线冒充完成。
+
 # 当前任务 COMPLETED：有界辅助指标探索
 
 用户授权的四辅助量、三类单加与全加入固定比较完成；没有方案改善既有93TP/1FP、74.4%联合baseline。主扩展92TP/2FP，73.6%recall、2.1277%FDP，未过1%/80%。保留全部特征/模型/名单/分组/审查记录于 results/small_mismatch_auxiliary_confidence；两端核验与25文件hash均PASS。最后推送紧凑结果后STOP；不根据失败增加变体、改正则/阈值/分组，不对已曝光case声称独立FDR。没有新解卷积/rho/GPU/病例/监控/清理。主线仍开放，当前仅表明这四个固定辅助量没有带来增益。
