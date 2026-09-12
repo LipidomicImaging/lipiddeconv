@@ -1,0 +1,105 @@
+{
+  "source_commit": "06914c6123e9b37bcd266f6067bacb0f32401898",
+  "files": {
+    "analysis/freeze_physical_perturbation_contract_v1.py": {
+      "bytes": 8947,
+      "sha256": "eab5e72fdcbee4d0429451cbdc5d820df5c8258dd26534fd2d2738c0842f8805"
+    },
+    "analysis/physical_identity_confidence_core.py": {
+      "bytes": 29076,
+      "sha256": "8643b63b8d2861fdda4bd677f418476456bf3bf7bf7432cc06c3c92e5bd58ff2"
+    },
+    "analysis/physical_identity_pilot_design.py": {
+      "bytes": 13345,
+      "sha256": "468dfd94cedfbb6eba8b01f66e24c2142c9f3a0bfa63a4af5f06cede3c74dba8"
+    },
+    "analysis/review_physical_identity_mainline_pilot.py": {
+      "bytes": 40633,
+      "sha256": "718fccc6d5fe623ea30b660d8aaf3d5ec4f761584561c619d8689fa299e19a22"
+    },
+    "analysis/run_ce_uncertainty_identity_pilot.py": {
+      "bytes": 29481,
+      "sha256": "63768f2d37a7cb90da4cb2dcdd0dbd51f5cc71f25d12f3ede5f0b5f3f67a35d9"
+    },
+    "analysis/run_missing_library_challenge.py": {
+      "bytes": 17176,
+      "sha256": "9891d7e2fca85379f3a380410b7451a703265f5dc64cd28279b835943b47a835"
+    },
+    "analysis/run_physical_identity_mainline_pilot.py": {
+      "bytes": 35446,
+      "sha256": "bff6a327e4da1bf9ab5e442d9e683552bb2278ff1d35d23aa5cbc448fef40504"
+    },
+    "analysis/test_physical_identity_confidence_core.py": {
+      "bytes": 11610,
+      "sha256": "d34570e16215470fd495458aba489359294c41560d901a3477ec44c7c60314ea"
+    },
+    "analysis/test_physical_identity_mainline_pilot.py": {
+      "bytes": 13984,
+      "sha256": "e0a1db94397aedc82c7a2c588e97bf7eb3f2de2a618ca9f4cd1e29b91fc16128"
+    },
+    "docs/PHYSICAL_IDENTITY_MAINLINE_PILOT_V1.md": {
+      "bytes": 7644,
+      "sha256": "b3798f36bd810f394a09f13802959747aaacd0125e3a1ea0270341f11d20204a"
+    },
+    "docs/PHYSICAL_PERTURBATION_CONTRACT_V1.md": {
+      "bytes": 7520,
+      "sha256": "d122a7ff8ced8bf956287ff9fb27d572b84c66136d68054f78227ea409a18bcc"
+    },
+    "results/ce133_joint_variation_audit/exact_support_joint_statistics.json": {
+      "bytes": 181409,
+      "sha256": "0536db5d8b4391d65fb85775f07dbf9e8b453ab3c6abe7f7e7507f805dfecffe"
+    },
+    "results/ce133_joint_variation_audit/observed_joint_changes.json": {
+      "bytes": 325450,
+      "sha256": "f94408220130c48b4ffeb4dc73e0d2dbdad4dbff0aff3cfa36c94f15092cb78b"
+    },
+    "results/ce133_joint_variation_audit/provenance.json": {
+      "bytes": 2862,
+      "sha256": "0e1cb7c68b04b0dc2b19876a0ae4c5ceb9ae5180988b7feb6909406886177e07"
+    },
+    "results/ce133_uncertainty_v1_ready/component_fractions.npz": {
+      "bytes": 15250,
+      "sha256": "ecc0b27b649dae606df751eb4e2bc4e7ad0065db278dde5e349bb0444dd6e326"
+    },
+    "results/ce133_uncertainty_v1_ready/components.json": {
+      "bytes": 143625,
+      "sha256": "e98d629d3d9535a43b55c209073ecf73ff01d408174fdf274b7e92d7ad4daaf0"
+    },
+    "results/ce133_uncertainty_v1_ready/contract.json": {
+      "bytes": 1055,
+      "sha256": "a976f8a8c36061c0c59a26cf707dbe3674ee0b68b3d81e554c37a91e7b3884fb"
+    },
+    "results/ce133_uncertainty_v1_ready/provenance.json": {
+      "bytes": 5478,
+      "sha256": "4cf91ed0e8d5ababcd555591f605944dfefed619449f71a058ab683ff53fa10e"
+    },
+    "results/physical_perturbation_contract_v1/.gitattributes": {
+      "bytes": 72,
+      "sha256": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f"
+    },
+    "results/physical_perturbation_contract_v1/candidate_mapping.json": {
+      "bytes": 238136,
+      "sha256": "05f2d01a8c9787f4e788a4496f5d83974362d67d96b13020211930e03ff23296"
+    },
+    "results/physical_perturbation_contract_v1/contract.json": {
+      "bytes": 8150,
+      "sha256": "d61830e78210d539fb6755cf38aca51e41740468ece60fd071eec8274fec9f60"
+    },
+    "results/physical_perturbation_contract_v1/joint_patterns.json": {
+      "bytes": 59952,
+      "sha256": "7f74342c42bb7ee86eda195bb36d7de3a731704e5ab4969808bb4ad8f312b4b7"
+    },
+    "results/physical_perturbation_contract_v1/seal.json": {
+      "bytes": 2373,
+      "sha256": "ca2cd7b73fefc20a5e18340cde99fc28363ee6d040f52158c005af489f681920"
+    },
+    "results/physical_perturbation_contract_v1/verification.json": {
+      "bytes": 620,
+      "sha256": "336f1c283d14cf292ada4b0232da8bf05a806a3a08f196660e8b4c0ead6f60ac"
+    },
+    "results/rho_mismatch_mechanism_ce_audit/ce_identity_records.json": {
+      "bytes": 241705,
+      "sha256": "2cf73498363a284f378d97eba99c715fc2fca3c7ab5f9b48662840acff709704"
+    }
+  }
+}

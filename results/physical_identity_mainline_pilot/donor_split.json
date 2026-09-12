@@ -1,0 +1,1128 @@
+{
+  "status": "FROZEN_BEFORE_GENERATION_AND_OUTCOMES",
+  "namespace": "physical_contract_v1_donors",
+  "grouping": "All identity CE records and transitive shared files, including non-admitted bridge records",
+  "group_sort": "sha256(namespace + '|' + canonical(sorted admitted pattern_ids))",
+  "role_slots": [
+    "MODEL",
+    "MODEL",
+    "MODEL",
+    "CAL",
+    "EVAL"
+  ],
+  "groups": [
+    {
+      "group_id": "0688587a4af655e128782e87cb960cb357fbc63e7d05cf9a059ba5c0944770df",
+      "pattern_ids": [
+        "a4010aec3beef2fff7623ef69fd7264738fc2668b71d52b86b5e73421d566bd8"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:0_16:0",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "676_35ev_00.txt",
+        "676_40ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "35|676_35ev_00.txt|PE O-16:0_16:0|PEO-H",
+        "40|676_40ev_00.txt|PE O-16:0_16:0|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "080b272da08d5a5d5cf48d8db7f671507d7ffc29fb48ca799101c56b229faee1",
+      "pattern_ids": [
+        "294b2d7b1aa5f4839130407c167666bb7f6e7d98775f2b09d00dbfcea83b4f24",
+        "be9348fc9e850316c6c3df44fcdcec5bfb00c8ced564bd0dafd4b394a501854e"
+      ],
+      "donor_identities": [
+        [
+          "PE O-20:1_22:6",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "802_30ev_04.txt",
+        "802_35ev_01.txt",
+        "802_40ev_03.txt"
+      ],
+      "all_source_row_uids": [
+        "30|802_30ev_04.txt|PE O-20:1_22:6|PEO-H",
+        "35|802_35ev_01.txt|PE O-20:1_22:6|PEO-H",
+        "40|802_40ev_03.txt|PE O-20:1_22:6|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "0ca4c17c4f8db9c6bbf432d62ba639aafb5ebbe1b8857febfd3ab685057f4956",
+      "pattern_ids": [
+        "306815f3614a382a1c06328e2ea7619118ab16da412820503a34c50708d818af",
+        "d6ff48e5235b265105b948a88f99434778ff595a2e4eb9c6d16f2381022ecb92"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:1_24:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_24:0",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:1_22:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-22:1_20:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "812_30ev_04.txt",
+        "812_35ev_02.txt",
+        "812_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|812_30ev_04.txt|PE O-18:2_24:0|PEO-H",
+        "30|812_30ev_04.txt|PE O-20:1_22:1|PEO-H",
+        "30|812_30ev_04.txt|PE O-22:1_20:1|PEO-H",
+        "35|812_35ev_02.txt|PE O-20:1_22:1|PEO-H",
+        "40|812_40ev_01.txt|PE O-18:1_24:1|PEO-H",
+        "40|812_40ev_01.txt|PE O-22:1_20:1|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "14d925d959d3f1dd54d900ed4a02fb13419b972fee9f6c323ef876ded5d3f2ea",
+      "pattern_ids": [
+        "7c3386f1eb7cb1881428167ee9bed91b341c630d42cf7ecc5c9735595c3d6ac8",
+        "940c054780969ebbd88f6653a36c2604d3634073ea1c70d7d68cffeb772b40d1"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:2_20:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "748_30ev_02.txt",
+        "748_35ev_01.txt",
+        "748_40ev_03.txt"
+      ],
+      "all_source_row_uids": [
+        "30|748_30ev_02.txt|PE O-18:2_20:4|PEO-H",
+        "35|748_35ev_01.txt|PE O-18:2_20:4|PEO-H",
+        "40|748_40ev_03.txt|PE O-18:2_20:4|PEO-H"
+      ],
+      "role": "CAL"
+    },
+    {
+      "group_id": "2827fd0a10539b326550aea7d986a55075bdc7453de5b08c02e7cd311d3d2017",
+      "pattern_ids": [
+        "34e15bfb397140bef34efbe4005848cf4d7435312087d715016f398bf73cec7e"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_20:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "722_30ev_01.txt",
+        "722_35ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|722_30ev_01.txt|PE O-16:1_20:4|PEO-H",
+        "35|722_35ev_01.txt|PE O-16:1_20:4|PEO-H"
+      ],
+      "role": "EVAL"
+    },
+    {
+      "group_id": "3778e1c2efae5afa600f93fbf4131eebc793303a2467302d0e514c4deafcd741",
+      "pattern_ids": [
+        "0da1cabab025c4aa3ccd0335f4c7b4f6ec5fc39bb5d5735156c55e94d0e00fc4",
+        "214238d01363eb8444d8ec78dc2a2c7b0fbd3d5e110d3ee18c98042cc366bb92",
+        "2f108e349a9fded5b77bfd3b171d9a1a1fd296d52ec2a360bbe7126bd55cffbb",
+        "4351f1d92b6dc9169a0fc028e37f9780117b18dc7ead540924cddfa4811cc3c4",
+        "cb63ceca45f2a419d674d9957b87ebaf9c1b4885a44fba39758d1f0faccb6978",
+        "ce01fe680d92ccdacc09ad327d85f6c8db618e9b6e79790275034c901dcbffeb"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_16:0",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "700_30ev_01.txt",
+        "700_35ev_01.txt",
+        "700_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|700_30ev_01.txt|PE O-16:1_18:1|PEO-H",
+        "30|700_30ev_01.txt|PE O-18:2_16:0|PEO-H",
+        "35|700_35ev_01.txt|PE O-16:1_18:1|PEO-H",
+        "35|700_35ev_01.txt|PE O-18:2_16:0|PEO-H",
+        "40|700_40ev_02.txt|PE O-16:1_18:1|PEO-H",
+        "40|700_40ev_02.txt|PE O-18:2_16:0|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "37b5eba23e2ff097266ab25e577d9c57a5e4eb7fdf320161d6e3c9cd94cd70d6",
+      "pattern_ids": [
+        "5ea44f8623aea0cf1670cda9953990ae0a1f041c95b3d2d7b15875dde033ccc2",
+        "6ccbae345f5e0e0dfbb3ba0dbe482231ace692e855988136d2b5b7df8ee8b2d7"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:0_22:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "752_30ev_01.txt",
+        "752_35ev_00.txt",
+        "752_40ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "30|752_30ev_01.txt|PE O-16:0_22:4|PEO-H",
+        "35|752_35ev_00.txt|PE O-16:0_22:4|PEO-H",
+        "40|752_40ev_00.txt|PE O-16:0_22:4|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "3b6435f9e4cd437ac69806b96d851eebf375ba8aa5dde0761ad43722a4ab1271",
+      "pattern_ids": [
+        "4782dfcf5ac234dafd6a0a5baca82518abaf4cb59076f364b592c4ebd823fdf2",
+        "765018dccf6813d1778d766e5c64fe0ad034be83e37c003bdd20e17a207eba34"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_22:6",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "746_30ev_01.txt",
+        "746_35ev_00.txt",
+        "746_40ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "30|746_30ev_01.txt|PE O-16:1_22:6|PEO-H",
+        "35|746_35ev_00.txt|PE O-16:1_22:6|PEO-H",
+        "40|746_40ev_00.txt|PE O-16:1_22:6|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "3c81a7a00d2796e4af4a5d897d36a56ee0e84a9d68e63cfb25d0f4396f80ca84",
+      "pattern_ids": [
+        "a7860e64d8e9e569d64ddce279dc7c4344bf0186a75e4d77c1db80f8226c8f5c"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:0_22:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "780_30ev_01.txt",
+        "780_40ev_03.txt"
+      ],
+      "all_source_row_uids": [
+        "30|780_30ev_01.txt|PE O-18:0_22:4|PEO-H",
+        "40|780_40ev_03.txt|PE O-18:0_22:4|PEO-H"
+      ],
+      "role": "CAL"
+    },
+    {
+      "group_id": "4469e8765d358df11b369e860ed58e4c4d11faa553014c68f0fabc878d764e1e",
+      "pattern_ids": [
+        "0b3cb64159aa44208cbd0b524d0d82b52e5ddb5214096693cdd79e0ea41bbbae",
+        "12525d226c679ddf0e74379d310ddfa775c8dc86baa47d5a8d2170decec3d558",
+        "29e06d7a35691cbb2e5c7b99c243f1a7dea16bcd91ce1123758975c6a08341a3",
+        "c43c569e86249cc050e557138fe0b26f96e5ee03fac7e6995b249cdcbbfc28a9",
+        "ebeca0ef03a376a74e96b22c1572b054cbd5d5b8ed029533ae610237a23ef59c",
+        "f5b1d4998efca64bd8f88b17554ed941065856afc15304040415acdff0cff47e"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_20:0",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:0_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_18:0",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:1_16:0",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "730_30ev_01.txt",
+        "730_35ev_00.txt",
+        "730_35ev_01.txt",
+        "730_40ev_00.txt",
+        "730_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|730_30ev_01.txt|PE O-16:1_20:0|PEO-H",
+        "30|730_30ev_01.txt|PE O-20:1_16:0|PEO-H",
+        "35|730_35ev_00.txt|PE O-16:1_20:0|PEO-H",
+        "35|730_35ev_01.txt|PE O-20:1_16:0|PEO-H",
+        "40|730_40ev_00.txt|PE O-16:1_20:0|PEO-H",
+        "40|730_40ev_00.txt|PE O-18:1_18:0|PEO-H",
+        "40|730_40ev_02.txt|PE O-18:0_18:1|PEO-H",
+        "40|730_40ev_02.txt|PE O-20:1_16:0|PEO-H"
+      ],
+      "role": "EVAL"
+    },
+    {
+      "group_id": "50ce480e1fbcefbc8704223bd1cffa0c8ccd679da89bb3fcaa024e47b7131586",
+      "pattern_ids": [
+        "4026b4b946f222a8df625869e751cd92646518464c7ccc64fe1c658fc35ff623"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:2_24:6",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "800_30ev_04.txt",
+        "800_35ev_04.txt"
+      ],
+      "all_source_row_uids": [
+        "30|800_30ev_04.txt|PE O-18:2_24:6|PEO-H",
+        "35|800_35ev_04.txt|PE O-18:2_24:6|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "50d43e7f8a901f9add4fe3f5fef81d32264adf0547d38ec8d0cf0b2c5531a4ef",
+      "pattern_ids": [
+        "1a2ab18e7a10606dc34a71e7b39b4dd33f92487ebb94cbc9915beeee18791c48",
+        "f1f8f7246a7dbf8bdc68d4faa36bc44be6e9c4d75bebff0636498976e3c7c9e4"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:0_22:6",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_22:5",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_22:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "776_30ev_04.txt",
+        "776_35ev_03.txt",
+        "776_35ev_04.txt"
+      ],
+      "all_source_row_uids": [
+        "30|776_30ev_04.txt|PE O-18:0_22:6|PEO-H",
+        "30|776_30ev_04.txt|PE O-18:1_22:5|PEO-H",
+        "30|776_30ev_04.txt|PE O-18:2_22:4|PEO-H",
+        "35|776_35ev_03.txt|PE O-18:0_22:6|PEO-H",
+        "35|776_35ev_04.txt|PE O-18:2_22:4|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "5410ad79af4ff0d112fae9598343cea32f248b91e57ee616df78df109c901d8b",
+      "pattern_ids": [
+        "51a0c35c2ed7b7ca0761bf33f0ab4a5bd5627b3a359eb6e93e7a719a775332d3",
+        "54ca1a74e1d20e8992500db17121d417298d6953f29c3575e688f2706fab9085"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:2_22:6",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "772_30ev_01.txt",
+        "772_35ev_00.txt",
+        "772_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|772_30ev_01.txt|PE O-18:2_22:6|PEO-H",
+        "35|772_35ev_00.txt|PE O-18:2_22:6|PEO-H",
+        "40|772_40ev_02.txt|PE O-18:2_22:6|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "569e8574d431fc8bef59f593e0032895f6a714fd4c1f0e2cceb475a765b900b1",
+      "pattern_ids": [
+        "63b5a06e32be72c0ddd05b20987d097ef8229321bedc2e348213a8551d91ed1d",
+        "a36b9beba481e4900d04af65ccf4d71908f12f3e2745f91ba05cfda8836ecdc6",
+        "a82cd865c8a8a4f15a6d7d9fb45e4322755e9ba6b9405b75c63f5ca599d4ee91",
+        "bff22102e029b85199db340e8a397b3371f39b1ffd6188819cb96c1b92fa2ce7"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_20:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "726_30ev_01.txt",
+        "726_35ev_00.txt",
+        "726_40ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "30|726_30ev_01.txt|PE O-18:2_18:1|PEO-H",
+        "35|726_35ev_00.txt|PE O-16:1_20:2|PEO-H",
+        "35|726_35ev_00.txt|PE O-18:2_18:1|PEO-H",
+        "40|726_40ev_00.txt|PE O-16:1_20:2|PEO-H",
+        "40|726_40ev_00.txt|PE O-18:2_18:1|PEO-H"
+      ],
+      "role": "CAL"
+    },
+    {
+      "group_id": "748a97a02eac1566ab4d81d663864975066d30e3f1a17f8092ff7c4ef38bcd3f",
+      "pattern_ids": [
+        "61eb52473eb1f60298223217eac911927b056872fa1dea48b663b9a99c01d794",
+        "6e6365a29ff427f65e187bd2a0d91e1b630da4e0272d813771fce7c8714685e5",
+        "e0ce7b99b56af576d6ae482e8c4574f44501bc1de28d7fa3fc0121964e839e69"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:2_16:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "698_30ev_01.txt",
+        "698_35ev_01.txt",
+        "698_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|698_30ev_01.txt|PE O-18:2_16:1|PEO-H",
+        "35|698_35ev_01.txt|PE O-18:2_16:1|PEO-H",
+        "40|698_40ev_01.txt|PE O-18:2_16:1|PEO-H"
+      ],
+      "role": "EVAL"
+    },
+    {
+      "group_id": "75b03e5c8065f5ac70946019c23780163374bd3ec6ba51eef31077c0ec9736ce",
+      "pattern_ids": [
+        "0efcdcf3d8b07cedb0c826144631d0a4aa2680226ea0ae051a2e29678e6efe7c"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:0_22:6",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "748_30ev_01.txt",
+        "748_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|748_30ev_01.txt|PE O-16:0_22:6|PEO-H",
+        "40|748_40ev_02.txt|PE O-16:0_22:6|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "80488790f9b761b173dffe05263553f2d7f0a44267233f3b847c3a3175d2e511",
+      "pattern_ids": [
+        "900d487081f502f9ec4fee0896f7aa2c77faceb0876d3f05ab5184390efd000d",
+        "91ccabf207f830aad24449232ca0a48c75ee5d2fae64181560b19a44423d8510"
+      ],
+      "donor_identities": [
+        [
+          "PE O-20:1_22:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "806_30ev_05.txt",
+        "806_35ev_05.txt",
+        "806_40ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "30|806_30ev_05.txt|PE O-20:1_22:4|PEO-H",
+        "35|806_35ev_05.txt|PE O-20:1_22:4|PEO-H",
+        "40|806_40ev_00.txt|PE O-20:1_22:4|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "830ebba733211e7599ae60f2c9dca37ef073914238ce02e4434342c1aa61feaf",
+      "pattern_ids": [
+        "436feb18cc42ccddfce97f9229b996248360e3ecbe370e4ac737781009aad81a",
+        "43b147dc5d547fb5c0a1500dd3de0e829b758b7e1c513b3b83a6f1cc10f9971b",
+        "4e684b76abe87e5f6a499630694e60129872374375a9b4f13e21e909fa7f3aad",
+        "734da2fbd88795cd979a52213b66c8e2c74894d30a77fcaed1a434142d4413ca",
+        "86d824d1fb28533e27f1ce10ecedf19431411871648d5175b3348645e60c5c5c",
+        "88dc1a379ffe885dbbb938c7cc7260303233c3076551e2be296463a4a68eaa31",
+        "d063203dc23bc1254dcfc0b319451b1613a581c6446b52aacc5464326453cadd",
+        "f70621543e9fb97fa34094bf70fcacaad4fccc6ff6600ecbe53dd3417adbc6da"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_24:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_22:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_22:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:2_20:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-22:2_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "782_30ev_02.txt",
+        "782_30ev_03.txt",
+        "782_35ev_04.txt",
+        "782_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|782_30ev_02.txt|PE O-18:2_22:1|PEO-H",
+        "30|782_30ev_02.txt|PE O-20:2_20:1|PEO-H",
+        "30|782_30ev_03.txt|PE O-16:1_24:2|PEO-H",
+        "30|782_30ev_03.txt|PE O-18:1_22:2|PEO-H",
+        "35|782_35ev_04.txt|PE O-18:1_22:2|PEO-H",
+        "35|782_35ev_04.txt|PE O-18:2_22:1|PEO-H",
+        "35|782_35ev_04.txt|PE O-20:2_20:1|PEO-H",
+        "35|782_35ev_04.txt|PE O-22:2_18:1|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:1_22:2|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:2_22:1|PEO-H",
+        "40|782_40ev_01.txt|PE O-22:2_18:1|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "8d75d07089ceba5ec618debb4789cd06c2825d9d91846ed05f81bf8e4a9f1741",
+      "pattern_ids": [
+        "d6de7d7d8f34289ce23c40672f82a020301d17af761703ed3d1015a0115766ce"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_20:3",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:3_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "724_30ev_03.txt",
+        "724_35ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|724_30ev_03.txt|PE O-16:1_20:3|PEO-H",
+        "35|724_35ev_01.txt|PE O-16:1_20:3|PEO-H",
+        "35|724_35ev_01.txt|PE O-18:3_18:1|PEO-H"
+      ],
+      "role": "CAL"
+    },
+    {
+      "group_id": "a3f802b7248110bada0a1f0f480c52dbc3708732364f2574aa534cf4eced3a60",
+      "pattern_ids": [
+        "08339ef88719954034e3c77a915e59fed80cf720d96f8330c8420fdf685da30f",
+        "55f5eccbf03692d045d9f00178c4675b89e5743375af7bc21a9ef1f532951a1d",
+        "7d3292240dcd75e94487db0795334abdecf0591ff22f781a6f7a8b4965671399",
+        "7fec8a60cd463bddf66c4d7f3bd3d8dd9f92603d3197bde2fbf649b090d2726f",
+        "84df751bd9a6e2665d3fcf35fea9175ed724d47c656138f2f2ba39246ae35b0f",
+        "e5ba9fd69bdc081b90e2d277992b77be46933fcbf081bdec70b4e50a86ebe119"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:1_24:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_24:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:2_22:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-22:2_20:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-24:2_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "810_30ev_04.txt",
+        "810_35ev_01.txt",
+        "810_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|810_30ev_04.txt|PE O-18:1_24:2|PEO-H",
+        "30|810_30ev_04.txt|PE O-18:2_24:1|PEO-H",
+        "30|810_30ev_04.txt|PE O-20:2_22:1|PEO-H",
+        "30|810_30ev_04.txt|PE O-22:2_20:1|PEO-H",
+        "35|810_35ev_01.txt|PE O-18:1_24:2|PEO-H",
+        "35|810_35ev_01.txt|PE O-18:2_24:1|PEO-H",
+        "35|810_35ev_01.txt|PE O-22:2_20:1|PEO-H",
+        "35|810_35ev_01.txt|PE O-24:2_18:1|PEO-H",
+        "40|810_40ev_01.txt|PE O-18:2_24:1|PEO-H",
+        "40|810_40ev_01.txt|PE O-24:2_18:1|PEO-H"
+      ],
+      "role": "EVAL"
+    },
+    {
+      "group_id": "c23fef9dfcf7c88b1ef19b05ea1441b6bd01a83a47c50f183dda9d0dcaea5e08",
+      "pattern_ids": [
+        "0e3473ad2fd137348e8ef07ac06d1180f8c75784350dad629bc8d68de686053b",
+        "412f6b2d2c730d43512ca9cd4447ea35348077f83fd6a312cf8405e50209bdfa",
+        "5f7927928427dbd6f6197890a270ee657052a435bc28975139d8f73c1dd1adee",
+        "63f46ad425f870602da5c3ee4e26dcf5c46bf41ccbc63cc763036dbc07e3635a",
+        "dcc7f76df7ebf9f18185f5388e17cc9035fa700b94858a2a9669b493871a8f37",
+        "e75df5a673ce7856060c995b9497f9427d9172da42e3bf8ef29925cf41b71e05",
+        "f2f891954f4781ece64e3f5dadb8c6d94c09e0158e840d8a10b337b3622d4bdd"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_22:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_20:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_20:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:2_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "754_30ev_01.txt",
+        "754_35ev_02.txt",
+        "754_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|754_30ev_01.txt|PE O-18:1_20:2|PEO-H",
+        "30|754_30ev_01.txt|PE O-18:2_20:1|PEO-H",
+        "30|754_30ev_01.txt|PE O-20:2_18:1|PEO-H",
+        "35|754_35ev_02.txt|PE O-18:1_20:2|PEO-H",
+        "35|754_35ev_02.txt|PE O-18:2_20:1|PEO-H",
+        "40|754_40ev_01.txt|PE O-16:1_22:2|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:1_20:2|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:2_20:1|PEO-H",
+        "40|754_40ev_01.txt|PE O-20:2_18:1|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "c6877bb6e8f450e5fb1a9cb5aa7a933577b26ae99af3781753ababd761c5a2d0",
+      "pattern_ids": [
+        "58b82d99297b26573aec7244a23308427b43a32dce9c4e9187391a8c4b04ebfd",
+        "8b3bf63b41a976822307d4aca650b07f19d5c81f0dad545f6d97e92a7bd73253",
+        "da8ac081949ff3aadc0a69fac1be3584e235b5ca4005bde6f1f4f4275df2a93b"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_16:0",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_14:0",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "674_30ev_01.txt",
+        "674_35ev_01.txt",
+        "674_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|674_30ev_01.txt|PE O-16:1_16:0|PEO-H",
+        "30|674_30ev_01.txt|PE O-18:1_14:0|PEO-H",
+        "35|674_35ev_01.txt|PE O-16:1_16:0|PEO-H",
+        "40|674_40ev_01.txt|PE O-16:1_16:0|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "d0805a294b2f1a5772ef98814f4bbc06ae0310663b07df53c23253797ef19566",
+      "pattern_ids": [
+        "3f38cb96a1a458c711efff90035b61a57561d0d2813a38f894d0ba8d1b148617"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:0_20:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "724_30ev_01.txt",
+        "724_35ev_00.txt"
+      ],
+      "all_source_row_uids": [
+        "30|724_30ev_01.txt|PE O-16:0_20:4|PEO-H",
+        "35|724_35ev_00.txt|PE O-16:0_20:4|PEO-H"
+      ],
+      "role": "MODEL"
+    },
+    {
+      "group_id": "d2827b8c730af044bb08ce597bc94655e7f8cd2ed0bfd3a94d9f608b9dbaf63b",
+      "pattern_ids": [
+        "2c0360279bb456c72b312fd625d4fc641645b0e751a8a357bab7ffecf3c39b78",
+        "8ff742e1b0b5d345c59be02a2ec8acea3ba0daf5974a91f4b5a5e127656a39a9"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:1_22:4",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "750_30ev_01.txt",
+        "750_35ev_04.txt",
+        "750_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|750_30ev_01.txt|PE O-16:1_22:4|PEO-H",
+        "35|750_35ev_04.txt|PE O-16:1_22:4|PEO-H",
+        "40|750_40ev_02.txt|PE O-16:1_22:4|PEO-H"
+      ],
+      "role": "CAL"
+    },
+    {
+      "group_id": "dc53ee1fff03c8d41595b9377a8764a9d91bbf9495e8ebf98a0cf5d9bbae8bff",
+      "pattern_ids": [
+        "1b006b7e29fbba5527eeedb94073f110291677ab668145e1baa1ad1bfbba5710",
+        "635ba48ec2a3a503ca293b953708cd4cec8d505aa20929b7b6fb4c9709d120e4",
+        "65513697aff117e3158fea0f69be129db6f25182a0c0dbca2d7a9000b3ad9697",
+        "7083eb50d0da64f70287627d1dab8b3d83c3087b473b54a4a6f817cb31850428",
+        "85e9cbf648b16204229b560847e7023d4811fc6d6f191eb89d4cdedf23fde31f",
+        "8cbeca4efcf308dc80e343edfcab9eaf1e7650bd9f53d1aa7f8d54689eb052f1"
+      ],
+      "donor_identities": [
+        [
+          "PE O-16:0_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:1_16:0",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "702_30ev_02.txt",
+        "702_35ev_00.txt",
+        "702_40ev_01.txt"
+      ],
+      "all_source_row_uids": [
+        "30|702_30ev_02.txt|PE O-16:0_18:1|PEO-H",
+        "30|702_30ev_02.txt|PE O-18:1_16:0|PEO-H",
+        "35|702_35ev_00.txt|PE O-16:0_18:1|PEO-H",
+        "35|702_35ev_00.txt|PE O-18:1_16:0|PEO-H",
+        "40|702_40ev_01.txt|PE O-16:0_18:1|PEO-H",
+        "40|702_40ev_01.txt|PE O-18:1_16:0|PEO-H"
+      ],
+      "role": "EVAL"
+    },
+    {
+      "group_id": "eef62504361b1ab6a906a1fd8025a301d30520d07832760fe208bca2e6aedb19",
+      "pattern_ids": [
+        "046753558378f6b30fc1e73b2a76cad140932f755a06ab834f76cf4eeedb2052",
+        "3f71a42dcc011c685c54dbb939d73e2bc2ac0fa8026db4ff4fedac07747256de",
+        "5572a590e1121eba2f5008c3fb65e3da141cd7a20027567e58dde01ced003360",
+        "6d33de6a0d726cd0f7ee1fded4ff5ea2d8f0b94bc49b7423d8c9dd462fbf18f8",
+        "d6faae1d15801d34a7a9c69d429d75902af4c2b3691478d5c748f8c89be84b6f"
+      ],
+      "donor_identities": [
+        [
+          "PE O-18:0_20:4",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:2_20:2",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-18:3_20:1",
+          "[M-H]-",
+          "PEO-H"
+        ],
+        [
+          "PE O-20:3_18:1",
+          "[M-H]-",
+          "PEO-H"
+        ]
+      ],
+      "source_files": [
+        "752_30ev_03.txt",
+        "752_35ev_03.txt",
+        "752_40ev_02.txt"
+      ],
+      "all_source_row_uids": [
+        "30|752_30ev_03.txt|PE O-18:0_20:4|PEO-H",
+        "30|752_30ev_03.txt|PE O-18:2_20:2|PEO-H",
+        "35|752_35ev_03.txt|PE O-18:0_20:4|PEO-H",
+        "35|752_35ev_03.txt|PE O-18:2_20:2|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:0_20:4|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:2_20:2|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:3_20:1|PEO-H",
+        "40|752_40ev_02.txt|PE O-20:3_18:1|PEO-H"
+      ],
+      "role": "MODEL"
+    }
+  ],
+  "pattern_roles": {
+    "a4010aec3beef2fff7623ef69fd7264738fc2668b71d52b86b5e73421d566bd8": "MODEL",
+    "294b2d7b1aa5f4839130407c167666bb7f6e7d98775f2b09d00dbfcea83b4f24": "MODEL",
+    "be9348fc9e850316c6c3df44fcdcec5bfb00c8ced564bd0dafd4b394a501854e": "MODEL",
+    "306815f3614a382a1c06328e2ea7619118ab16da412820503a34c50708d818af": "MODEL",
+    "d6ff48e5235b265105b948a88f99434778ff595a2e4eb9c6d16f2381022ecb92": "MODEL",
+    "7c3386f1eb7cb1881428167ee9bed91b341c630d42cf7ecc5c9735595c3d6ac8": "CAL",
+    "940c054780969ebbd88f6653a36c2604d3634073ea1c70d7d68cffeb772b40d1": "CAL",
+    "34e15bfb397140bef34efbe4005848cf4d7435312087d715016f398bf73cec7e": "EVAL",
+    "0da1cabab025c4aa3ccd0335f4c7b4f6ec5fc39bb5d5735156c55e94d0e00fc4": "MODEL",
+    "214238d01363eb8444d8ec78dc2a2c7b0fbd3d5e110d3ee18c98042cc366bb92": "MODEL",
+    "2f108e349a9fded5b77bfd3b171d9a1a1fd296d52ec2a360bbe7126bd55cffbb": "MODEL",
+    "4351f1d92b6dc9169a0fc028e37f9780117b18dc7ead540924cddfa4811cc3c4": "MODEL",
+    "cb63ceca45f2a419d674d9957b87ebaf9c1b4885a44fba39758d1f0faccb6978": "MODEL",
+    "ce01fe680d92ccdacc09ad327d85f6c8db618e9b6e79790275034c901dcbffeb": "MODEL",
+    "5ea44f8623aea0cf1670cda9953990ae0a1f041c95b3d2d7b15875dde033ccc2": "MODEL",
+    "6ccbae345f5e0e0dfbb3ba0dbe482231ace692e855988136d2b5b7df8ee8b2d7": "MODEL",
+    "4782dfcf5ac234dafd6a0a5baca82518abaf4cb59076f364b592c4ebd823fdf2": "MODEL",
+    "765018dccf6813d1778d766e5c64fe0ad034be83e37c003bdd20e17a207eba34": "MODEL",
+    "a7860e64d8e9e569d64ddce279dc7c4344bf0186a75e4d77c1db80f8226c8f5c": "CAL",
+    "0b3cb64159aa44208cbd0b524d0d82b52e5ddb5214096693cdd79e0ea41bbbae": "EVAL",
+    "12525d226c679ddf0e74379d310ddfa775c8dc86baa47d5a8d2170decec3d558": "EVAL",
+    "29e06d7a35691cbb2e5c7b99c243f1a7dea16bcd91ce1123758975c6a08341a3": "EVAL",
+    "c43c569e86249cc050e557138fe0b26f96e5ee03fac7e6995b249cdcbbfc28a9": "EVAL",
+    "ebeca0ef03a376a74e96b22c1572b054cbd5d5b8ed029533ae610237a23ef59c": "EVAL",
+    "f5b1d4998efca64bd8f88b17554ed941065856afc15304040415acdff0cff47e": "EVAL",
+    "4026b4b946f222a8df625869e751cd92646518464c7ccc64fe1c658fc35ff623": "MODEL",
+    "1a2ab18e7a10606dc34a71e7b39b4dd33f92487ebb94cbc9915beeee18791c48": "MODEL",
+    "f1f8f7246a7dbf8bdc68d4faa36bc44be6e9c4d75bebff0636498976e3c7c9e4": "MODEL",
+    "51a0c35c2ed7b7ca0761bf33f0ab4a5bd5627b3a359eb6e93e7a719a775332d3": "MODEL",
+    "54ca1a74e1d20e8992500db17121d417298d6953f29c3575e688f2706fab9085": "MODEL",
+    "63b5a06e32be72c0ddd05b20987d097ef8229321bedc2e348213a8551d91ed1d": "CAL",
+    "a36b9beba481e4900d04af65ccf4d71908f12f3e2745f91ba05cfda8836ecdc6": "CAL",
+    "a82cd865c8a8a4f15a6d7d9fb45e4322755e9ba6b9405b75c63f5ca599d4ee91": "CAL",
+    "bff22102e029b85199db340e8a397b3371f39b1ffd6188819cb96c1b92fa2ce7": "CAL",
+    "61eb52473eb1f60298223217eac911927b056872fa1dea48b663b9a99c01d794": "EVAL",
+    "6e6365a29ff427f65e187bd2a0d91e1b630da4e0272d813771fce7c8714685e5": "EVAL",
+    "e0ce7b99b56af576d6ae482e8c4574f44501bc1de28d7fa3fc0121964e839e69": "EVAL",
+    "0efcdcf3d8b07cedb0c826144631d0a4aa2680226ea0ae051a2e29678e6efe7c": "MODEL",
+    "900d487081f502f9ec4fee0896f7aa2c77faceb0876d3f05ab5184390efd000d": "MODEL",
+    "91ccabf207f830aad24449232ca0a48c75ee5d2fae64181560b19a44423d8510": "MODEL",
+    "436feb18cc42ccddfce97f9229b996248360e3ecbe370e4ac737781009aad81a": "MODEL",
+    "43b147dc5d547fb5c0a1500dd3de0e829b758b7e1c513b3b83a6f1cc10f9971b": "MODEL",
+    "4e684b76abe87e5f6a499630694e60129872374375a9b4f13e21e909fa7f3aad": "MODEL",
+    "734da2fbd88795cd979a52213b66c8e2c74894d30a77fcaed1a434142d4413ca": "MODEL",
+    "86d824d1fb28533e27f1ce10ecedf19431411871648d5175b3348645e60c5c5c": "MODEL",
+    "88dc1a379ffe885dbbb938c7cc7260303233c3076551e2be296463a4a68eaa31": "MODEL",
+    "d063203dc23bc1254dcfc0b319451b1613a581c6446b52aacc5464326453cadd": "MODEL",
+    "f70621543e9fb97fa34094bf70fcacaad4fccc6ff6600ecbe53dd3417adbc6da": "MODEL",
+    "d6de7d7d8f34289ce23c40672f82a020301d17af761703ed3d1015a0115766ce": "CAL",
+    "08339ef88719954034e3c77a915e59fed80cf720d96f8330c8420fdf685da30f": "EVAL",
+    "55f5eccbf03692d045d9f00178c4675b89e5743375af7bc21a9ef1f532951a1d": "EVAL",
+    "7d3292240dcd75e94487db0795334abdecf0591ff22f781a6f7a8b4965671399": "EVAL",
+    "7fec8a60cd463bddf66c4d7f3bd3d8dd9f92603d3197bde2fbf649b090d2726f": "EVAL",
+    "84df751bd9a6e2665d3fcf35fea9175ed724d47c656138f2f2ba39246ae35b0f": "EVAL",
+    "e5ba9fd69bdc081b90e2d277992b77be46933fcbf081bdec70b4e50a86ebe119": "EVAL",
+    "0e3473ad2fd137348e8ef07ac06d1180f8c75784350dad629bc8d68de686053b": "MODEL",
+    "412f6b2d2c730d43512ca9cd4447ea35348077f83fd6a312cf8405e50209bdfa": "MODEL",
+    "5f7927928427dbd6f6197890a270ee657052a435bc28975139d8f73c1dd1adee": "MODEL",
+    "63f46ad425f870602da5c3ee4e26dcf5c46bf41ccbc63cc763036dbc07e3635a": "MODEL",
+    "dcc7f76df7ebf9f18185f5388e17cc9035fa700b94858a2a9669b493871a8f37": "MODEL",
+    "e75df5a673ce7856060c995b9497f9427d9172da42e3bf8ef29925cf41b71e05": "MODEL",
+    "f2f891954f4781ece64e3f5dadb8c6d94c09e0158e840d8a10b337b3622d4bdd": "MODEL",
+    "58b82d99297b26573aec7244a23308427b43a32dce9c4e9187391a8c4b04ebfd": "MODEL",
+    "8b3bf63b41a976822307d4aca650b07f19d5c81f0dad545f6d97e92a7bd73253": "MODEL",
+    "da8ac081949ff3aadc0a69fac1be3584e235b5ca4005bde6f1f4f4275df2a93b": "MODEL",
+    "3f38cb96a1a458c711efff90035b61a57561d0d2813a38f894d0ba8d1b148617": "MODEL",
+    "2c0360279bb456c72b312fd625d4fc641645b0e751a8a357bab7ffecf3c39b78": "CAL",
+    "8ff742e1b0b5d345c59be02a2ec8acea3ba0daf5974a91f4b5a5e127656a39a9": "CAL",
+    "1b006b7e29fbba5527eeedb94073f110291677ab668145e1baa1ad1bfbba5710": "EVAL",
+    "635ba48ec2a3a503ca293b953708cd4cec8d505aa20929b7b6fb4c9709d120e4": "EVAL",
+    "65513697aff117e3158fea0f69be129db6f25182a0c0dbca2d7a9000b3ad9697": "EVAL",
+    "7083eb50d0da64f70287627d1dab8b3d83c3087b473b54a4a6f817cb31850428": "EVAL",
+    "85e9cbf648b16204229b560847e7023d4811fc6d6f191eb89d4cdedf23fde31f": "EVAL",
+    "8cbeca4efcf308dc80e343edfcab9eaf1e7650bd9f53d1aa7f8d54689eb052f1": "EVAL",
+    "046753558378f6b30fc1e73b2a76cad140932f755a06ab834f76cf4eeedb2052": "MODEL",
+    "3f71a42dcc011c685c54dbb939d73e2bc2ac0fa8026db4ff4fedac07747256de": "MODEL",
+    "5572a590e1121eba2f5008c3fb65e3da141cd7a20027567e58dde01ced003360": "MODEL",
+    "6d33de6a0d726cd0f7ee1fded4ff5ea2d8f0b94bc49b7423d8c9dd462fbf18f8": "MODEL",
+    "d6faae1d15801d34a7a9c69d429d75902af4c2b3691478d5c748f8c89be84b6f": "MODEL"
+  },
+  "role_group_counts": {
+    "MODEL": 16,
+    "CAL": 5,
+    "EVAL": 5
+  },
+  "role_pattern_counts": {
+    "MODEL": 47,
+    "CAL": 10,
+    "EVAL": 22
+  },
+  "chosen_ce_pair": [
+    30.0,
+    35.0
+  ],
+  "eligible_ce_pairs": [
+    [
+      30.0,
+      35.0
+    ]
+  ],
+  "ce_selection": "Shortest CE span, then numeric low/high; require every support set in all three roles",
+  "counts": [
+    {
+      "ce_pair": [
+        30.0,
+        35.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_fragment_co2",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 10,
+          "distinct_identity_count": 10
+        },
+        "CAL": {
+          "pattern_count": 2,
+          "distinct_identity_count": 2
+        },
+        "EVAL": {
+          "pattern_count": 1,
+          "distinct_identity_count": 1
+        }
+      }
+    },
+    {
+      "ce_pair": [
+        30.0,
+        35.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 10,
+          "distinct_identity_count": 10
+        },
+        "CAL": {
+          "pattern_count": 2,
+          "distinct_identity_count": 2
+        },
+        "EVAL": {
+          "pattern_count": 8,
+          "distinct_identity_count": 8
+        }
+      }
+    },
+    {
+      "ce_pair": [
+        35.0,
+        40.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_fragment_co2",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 0,
+          "distinct_identity_count": 0
+        },
+        "CAL": {
+          "pattern_count": 0,
+          "distinct_identity_count": 0
+        },
+        "EVAL": {
+          "pattern_count": 0,
+          "distinct_identity_count": 0
+        }
+      }
+    },
+    {
+      "ce_pair": [
+        35.0,
+        40.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 10,
+          "distinct_identity_count": 10
+        },
+        "CAL": {
+          "pattern_count": 2,
+          "distinct_identity_count": 2
+        },
+        "EVAL": {
+          "pattern_count": 7,
+          "distinct_identity_count": 7
+        }
+      }
+    },
+    {
+      "ce_pair": [
+        30.0,
+        40.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_fragment_co2",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 7,
+          "distinct_identity_count": 7
+        },
+        "CAL": {
+          "pattern_count": 3,
+          "distinct_identity_count": 3
+        },
+        "EVAL": {
+          "pattern_count": 0,
+          "distinct_identity_count": 0
+        }
+      }
+    },
+    {
+      "ce_pair": [
+        30.0,
+        40.0
+      ],
+      "rule": "PEO-H",
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "roles": {
+        "MODEL": {
+          "pattern_count": 10,
+          "distinct_identity_count": 10
+        },
+        "CAL": {
+          "pattern_count": 1,
+          "distinct_identity_count": 1
+        },
+        "EVAL": {
+          "pattern_count": 6,
+          "distinct_identity_count": 6
+        }
+      }
+    }
+  ],
+  "input_patterns_sha256": "c1948108a90190c06de3bee1f57064cce9e7996eb1893affb9e612259a278b23",
+  "all_identity_records_sha256": "0cfbc7565f7c286706fa14e044dc47159f3e61d92e9d0dfeb7c73d65c6bfad16",
+  "fingerprint": "9748b901a42eaccaa64265889d0987b811701a6070efe462d7704695759d0b66"
+}

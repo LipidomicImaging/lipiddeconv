@@ -1,0 +1,67 @@
+{
+  "status": "READY",
+  "source_root": "/root/physical_identity_mainline_v1/results",
+  "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "files": {
+    "design.json": {
+      "sha256": "079c4eec3d620aca9680d4a4d5639b223832f50a347e99706a1afb2e16b3f413",
+      "bytes": 23608497
+    },
+    "design_seal.json": {
+      "sha256": "a18a9ac8781afd770b7cd77499f0a1968a42bc2a0366089ef2defc973410ee0e",
+      "bytes": 327
+    },
+    "donor_split.json": {
+      "sha256": "097a45510db1db3b49e6170e61f928dd412072c0d341931e8c8a5026831cc4fa",
+      "bytes": 35888
+    },
+    "model_patterns.json": {
+      "sha256": "123b1d5a665a522e5ea575b36af4494ed4096b6838369571dd969cad92d8b9a0",
+      "bytes": 35917
+    },
+    "target_containment.json": {
+      "sha256": "89198f0d86ea10ed270fa2cd2180c256b8c03b82e24fc851091d74108235a41b",
+      "bytes": 30704
+    },
+    "preparation_review.json": {
+      "sha256": "6e2f5672a0a3c1228832ec57ccf37c3bd24785563b59029f59d6bad333f107f8",
+      "bytes": 3317
+    },
+    "A_solver.npy": {
+      "sha256": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293",
+      "bytes": 1695504
+    },
+    "A_target_CAL.npy": {
+      "sha256": "6e733930609e79492b34716e55d59994b5f79de614b62ba2c2929f6e9dab3260",
+      "bytes": 1695504
+    },
+    "A_target_EVAL.npy": {
+      "sha256": "7f98c1ed4e1f441bce34aff0e8d5089fca0b87d27ac3688fb22bc3d08cd0c049",
+      "bytes": 1695504
+    },
+    "cases/SUPPORTED_MISMATCH__CAL_R71_K125/input.json": {
+      "sha256": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+      "bytes": 6625
+    },
+    "cases/close_neighbor__HOLD_R71_K125/input.json": {
+      "sha256": "818dc6724012c14d20f6a82e1778ee27b8c68fe3d2a1067cfe911f8f53f97494",
+      "bytes": 6585
+    },
+    "cases/relatively_isolated__HOLD_R71_K125/input.json": {
+      "sha256": "28e15f10d76569de829fb0f066a5d013ba73525f06d389ea5cfa210c29fbad2e",
+      "bytes": 6595
+    },
+    "cases/SUPPORTED_MISMATCH__CAL_R72_K125/input.json": {
+      "sha256": "98ca0cc63f93f0082789dfe61cf90b9b557e59269a019b072e73e6e29dab0ac3",
+      "bytes": 6627
+    },
+    "cases/close_neighbor__HOLD_R72_K125/input.json": {
+      "sha256": "23114e8596aeb2e9462ee2063a58e63e2a4a0468a8bfa71848c632c4fa967b6a",
+      "bytes": 6585
+    },
+    "cases/relatively_isolated__HOLD_R72_K125/input.json": {
+      "sha256": "db96a47deba4f47b081dc1e10804484056c40807029175f47edf6906d46fdfde",
+      "bytes": 6595
+    }
+  }
+}

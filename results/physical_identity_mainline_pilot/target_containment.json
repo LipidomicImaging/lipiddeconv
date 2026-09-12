@@ -1,0 +1,973 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-07,
+  "reason": "input-only same-candidate endpoint exclusion, not an identity-performance result",
+  "rows": [
+    {
+      "candidate_index": 208,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009560567932805861,
+      "actual_relative_change": 0.051882161819934554,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 208,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.01124598480960257,
+      "actual_relative_change": 0.023210811227644373,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 209,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.007996066841474782,
+      "actual_relative_change": 0.04486708232548555,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 209,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0014069831991094736,
+      "actual_relative_change": 0.024602281288751564,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 210,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.012513487458820778,
+      "actual_relative_change": 0.01251348745882078,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 210,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.014977135351398715,
+      "actual_relative_change": 0.05793026106423023,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 211,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0504910153256248,
+      "actual_relative_change": 0.05909009833602071,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 211,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0280004674717114,
+      "actual_relative_change": 0.05510139898407274,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 212,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.07463083927784923,
+      "actual_relative_change": 0.07573781665978657,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 212,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04067094843630394,
+      "actual_relative_change": 0.08588049225031347,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 213,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.08726866706433874,
+      "actual_relative_change": 0.11104858748831352,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 213,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04446907857162188,
+      "actual_relative_change": 0.11645015013470465,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 214,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.014696475773550216,
+      "actual_relative_change": 0.06806338397650472,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 214,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.013019965833878482,
+      "actual_relative_change": 0.018787491440817216,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 215,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.012088492815854062,
+      "actual_relative_change": 0.05639567341170042,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 215,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0028312195940191245,
+      "actual_relative_change": 0.031237748303043808,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 216,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008854973710382665,
+      "actual_relative_change": 0.043353228407928796,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 216,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.01020179934918163,
+      "actual_relative_change": 0.01557202656847202,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 217,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.006611949615028025,
+      "actual_relative_change": 0.035985161117157646,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 217,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.020236647500914758,
+      "actual_relative_change": 0.0547097237865884,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 218,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.030822866951049705,
+      "actual_relative_change": 0.04782895546123602,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 218,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02290829765272206,
+      "actual_relative_change": 0.03410985603230868,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 219,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.05245313637596266,
+      "actual_relative_change": 0.0799886982582331,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 219,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03647996830140443,
+      "actual_relative_change": 0.06229139089803769,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 220,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.019454033508689003,
+      "actual_relative_change": 0.019454033508689003,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 220,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.010503376145708091,
+      "actual_relative_change": 0.05495144835643848,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 221,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.017041368460629695,
+      "actual_relative_change": 0.09007344523716296,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 221,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0032347924395037062,
+      "actual_relative_change": 0.03470979096165425,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 222,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02758799155946583,
+      "actual_relative_change": 0.04966012761721547,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 222,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.024105260470133866,
+      "actual_relative_change": 0.0395269080254295,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 223,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04286815837778588,
+      "actual_relative_change": 0.058013120121889444,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 223,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.028100265616399136,
+      "actual_relative_change": 0.04536666322556448,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 224,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04320809824337641,
+      "actual_relative_change": 0.13532198692715067,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 224,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.043988029188057116,
+      "actual_relative_change": 0.08640072356881381,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 225,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008814226284230302,
+      "actual_relative_change": 0.008814226284230302,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 225,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0021896454777234143,
+      "actual_relative_change": 0.026226485214766858,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 226,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.006966828788557496,
+      "actual_relative_change": 0.03375040484119878,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 226,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04103224106028025,
+      "actual_relative_change": 0.0925882469816664,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 227,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0066933838148474515,
+      "actual_relative_change": 0.0331522960979546,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 227,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0019460025253005562,
+      "actual_relative_change": 0.024635988959517255,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 228,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.026155747232345313,
+      "actual_relative_change": 0.11802949903666614,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 228,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.029275963170039436,
+      "actual_relative_change": 0.09810766012725476,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 229,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.07936004166903962,
+      "actual_relative_change": 0.07936004166903962,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 229,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.038198215896129054,
+      "actual_relative_change": 0.10085545189321533,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 230,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009867209402767496,
+      "actual_relative_change": 0.009867209402767496,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 230,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.00803422026265031,
+      "actual_relative_change": 0.014864511800268262,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 231,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009303420357236001,
+      "actual_relative_change": 0.009303420357236001,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 231,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.031232372461876372,
+      "actual_relative_change": 0.09704302990934409,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 232,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008493497093995583,
+      "actual_relative_change": 0.008493497093995583,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 232,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.022171537506170926,
+      "actual_relative_change": 0.087249452090228,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 233,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.059631173899229055,
+      "actual_relative_change": 0.062204391712085756,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 233,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02724287924942501,
+      "actual_relative_change": 0.07506045876717546,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 234,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03696398866292518,
+      "actual_relative_change": 0.14720528606750377,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 234,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04590663154118143,
+      "actual_relative_change": 0.1030565362202043,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 235,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.08608947650054743,
+      "actual_relative_change": 0.09747140923046338,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 235,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.039670352048562375,
+      "actual_relative_change": 0.10581413863469363,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 236,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009159678508243735,
+      "actual_relative_change": 0.04062853366440971,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 236,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04271506174867379,
+      "actual_relative_change": 0.08826916617879836,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 237,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.006601286183909054,
+      "actual_relative_change": 0.033023863340575624,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 237,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.020407940946192568,
+      "actual_relative_change": 0.08065528020904326,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 238,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.005273045403807863,
+      "actual_relative_change": 0.030745075682745638,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 238,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.013821012646405185,
+      "actual_relative_change": 0.053521611659077165,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 239,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03102943977630827,
+      "actual_relative_change": 0.08918334040160178,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 239,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03599528073721673,
+      "actual_relative_change": 0.07299996963729723,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 240,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.042775262785256674,
+      "actual_relative_change": 0.18187856249713064,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 240,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04591174185767253,
+      "actual_relative_change": 0.11416362424635061,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 241,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008118830669054854,
+      "actual_relative_change": 0.008118830669054855,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 241,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0035319786776355404,
+      "actual_relative_change": 0.027345015171734925,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 242,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.00773717804602842,
+      "actual_relative_change": 0.009367202157602676,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 242,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009935167773435208,
+      "actual_relative_change": 0.03731660910775532,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 243,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008366139576511614,
+      "actual_relative_change": 0.009367404252011569,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 243,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.010033642026136354,
+      "actual_relative_change": 0.03858296759668242,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 244,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02506351449608741,
+      "actual_relative_change": 0.045251677172105556,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 244,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.027166898216538102,
+      "actual_relative_change": 0.04301559715840416,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 245,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.040176404231978026,
+      "actual_relative_change": 0.12896796164723678,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 245,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04394456772747696,
+      "actual_relative_change": 0.08810374251442052,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 246,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.045828683811478796,
+      "actual_relative_change": 0.19972100701516143,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 246,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04528007801361265,
+      "actual_relative_change": 0.11515448563901821,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 247,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.007618358752867128,
+      "actual_relative_change": 0.007618358752867128,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 247,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03705499130044168,
+      "actual_relative_change": 0.14216471485731336,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 248,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008413946186409844,
+      "actual_relative_change": 0.008413946186409844,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 248,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0030644894241608307,
+      "actual_relative_change": 0.03362446840486195,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 249,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008399064130115026,
+      "actual_relative_change": 0.008399064130115028,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 249,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.00525443324026486,
+      "actual_relative_change": 0.08214424552502668,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 250,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009741869200120079,
+      "actual_relative_change": 0.010927994994525991,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 250,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.004199351580722928,
+      "actual_relative_change": 0.09729242419161202,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 251,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04810135660925636,
+      "actual_relative_change": 0.06922295442603357,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 251,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03311847540004602,
+      "actual_relative_change": 0.0568648142876355,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 252,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.011204742846178903,
+      "actual_relative_change": 0.049107184832290936,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 252,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02269822672379609,
+      "actual_relative_change": 0.1377968649764044,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 253,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.011514747990011304,
+      "actual_relative_change": 0.05138531980699076,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 253,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.045897672320015084,
+      "actual_relative_change": 0.16831215775943678,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 254,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.007169645141955981,
+      "actual_relative_change": 0.0071696451419559805,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 254,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.004975178279737565,
+      "actual_relative_change": 0.01018044351299266,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 255,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.004123339882106762,
+      "actual_relative_change": 0.023375349149925416,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 255,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.00457515276506231,
+      "actual_relative_change": 0.011291015633827822,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 256,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03722089267048802,
+      "actual_relative_change": 0.05462809534972932,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 256,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.026183784324819215,
+      "actual_relative_change": 0.039471581006982,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 257,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.06274328882350244,
+      "actual_relative_change": 0.08844443619371561,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 257,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04112702094990372,
+      "actual_relative_change": 0.07357179797040608,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 258,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0898991768246983,
+      "actual_relative_change": 0.12253974855225266,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 258,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04953406406933314,
+      "actual_relative_change": 0.11723677535312614,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 259,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.004565369425989035,
+      "actual_relative_change": 0.027311606839898254,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 259,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.014015276567924869,
+      "actual_relative_change": 0.04653864549877973,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 260,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.002671991285987609,
+      "actual_relative_change": 0.002671991285987609,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 260,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009756993022680058,
+      "actual_relative_change": 0.1095085449840107,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 261,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.007421705611132854,
+      "actual_relative_change": 0.008185023893124158,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 261,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0006541816693969456,
+      "actual_relative_change": 0.013348997207138228,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 262,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.022777775730546932,
+      "actual_relative_change": 0.03526225736686053,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 262,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02337557598168162,
+      "actual_relative_change": 0.03376587109964604,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 263,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.053430544674480766,
+      "actual_relative_change": 0.08689936249911678,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 263,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03913961732094637,
+      "actual_relative_change": 0.06748201664029954,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 264,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0536491330164167,
+      "actual_relative_change": 0.2028580631274739,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 264,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.05045960577703198,
+      "actual_relative_change": 0.11406372973873458,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 265,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.007169836851617834,
+      "actual_relative_change": 0.007169836851617835,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 265,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.006010190237692938,
+      "actual_relative_change": 0.047114707844189495,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 266,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009992041872384692,
+      "actual_relative_change": 0.0440595913249183,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 266,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04250461765501341,
+      "actual_relative_change": 0.15734570812932563,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 267,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02483386351383682,
+      "actual_relative_change": 0.12336216202319032,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 267,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.02674959494842209,
+      "actual_relative_change": 0.10327500516491601,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 268,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.008512996752729542,
+      "actual_relative_change": 0.03883684513309361,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 268,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04007793362012615,
+      "actual_relative_change": 0.08798390831985414,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 269,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.009434580418105477,
+      "actual_relative_change": 0.009434580418105475,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 269,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.028746444908638168,
+      "actual_relative_change": 0.09488490067658645,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 270,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.010346947700488716,
+      "actual_relative_change": 0.010346947700488716,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 270,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.004925334700473171,
+      "actual_relative_change": 0.03729729701148333,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 271,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0748552049406823,
+      "actual_relative_change": 0.0748552049406823,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 271,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03676800116927346,
+      "actual_relative_change": 0.08628440795777693,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 272,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0057988137692903275,
+      "actual_relative_change": 0.03166994455845166,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 272,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.029896983359457483,
+      "actual_relative_change": 0.06351850445954783,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 273,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.010341158204153923,
+      "actual_relative_change": 0.010341158204153923,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 273,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.0049469250519063495,
+      "actual_relative_change": 0.09209512607500701,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 274,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03091237203427541,
+      "actual_relative_change": 0.08916291939928347,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 274,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.035902462247383964,
+      "actual_relative_change": 0.07254372956470531,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 275,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.00495926444389274,
+      "actual_relative_change": 0.029913476370896808,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 275,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.025301644620126577,
+      "actual_relative_change": 0.06500339507963775,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 276,
+      "role": "CAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.04847799193461279,
+      "actual_relative_change": 0.06672509516682962,
+      "same_endpoint": false
+    },
+    {
+      "candidate_index": 276,
+      "role": "EVAL",
+      "minimum_relative_distance_to_MODEL_endpoint": 0.03263623080806806,
+      "actual_relative_change": 0.05864022467214476,
+      "same_endpoint": false
+    }
+  ]
+}

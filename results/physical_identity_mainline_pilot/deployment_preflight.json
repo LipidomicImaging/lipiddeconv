@@ -1,0 +1,18 @@
+{
+  "status": "SOURCE_UPLOAD_VERIFIED_REMOTE_TESTS_PASS",
+  "host": "connect.westc.seetacloud.com",
+  "port": 55786,
+  "source_directory": "/root/physical_identity_mainline_v1/source",
+  "result_directory": "/root/physical_identity_mainline_v1/results",
+  "export_directory": "/root/physical_identity_mainline_v1/exports",
+  "source_commit": "06914c6123e9b37bcd266f6067bacb0f32401898",
+  "uploaded_source_file_count": 25,
+  "archive_bytes": 182138,
+  "archive_sha256": "6981a478530f5905a6a3dbffc5b8363aea6ed8086d4f2821271b572faac385ff",
+  "remote_core_tests": 11,
+  "remote_integration_tests": 11,
+  "all_remote_tests": "PASS",
+  "prepared_design": "IN_PROGRESS",
+  "GPU_training_started": false,
+  "authorization": "User explicitly authorized this exact25-file package and six experiments after upload scope clarification"
+}

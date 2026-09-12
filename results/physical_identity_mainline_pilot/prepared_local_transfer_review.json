@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "source_host": "westc:55786",
+  "archive_sha256": "5c2706538221e472ebda62146e2b01acebf748bf605692cb8f322e9ee40c2d94",
+  "verified_files": 15,
+  "exact_membership_verified": true,
+  "design_fingerprint_recomputed_after_JSON_roundtrip": true,
+  "locally_retained_outside_git": [
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\physical_identity_mainline_pilot\\A_solver.npy",
+      "sha256": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293",
+      "bytes": 1695504
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\physical_identity_mainline_pilot\\A_target_CAL.npy",
+      "sha256": "6e733930609e79492b34716e55d59994b5f79de614b62ba2c2929f6e9dab3260",
+      "bytes": 1695504
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\physical_identity_mainline_pilot\\A_target_EVAL.npy",
+      "sha256": "7f98c1ed4e1f441bce34aff0e8d5089fca0b87d27ac3688fb22bc3d08cd0c049",
+      "bytes": 1695504
+    }
+  ],
+  "large_observations": "Retained at exact remote paths and hashes in preparation_review.json; not downloaded for this prepared-design handoff.",
+  "training_started": false
+}
