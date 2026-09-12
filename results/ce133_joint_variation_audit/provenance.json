@@ -1,0 +1,60 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\ce133_uncertainty_v1_ready\\paired_changes.json",
+      "bytes": 118202,
+      "sha256": "7efc9e2f229181e4cdf79da104f707993746b5f35c52fa614bd09e80d3931e3e"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\ce133_uncertainty_v1_ready\\co_variation.json",
+      "bytes": 7961,
+      "sha256": "68e6c719d9a6302bf8e71979bc6e866e947e4ccb23182c3e0ab5106159cc710f"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\ce133_uncertainty_v1_ready\\contract.json",
+      "bytes": 1055,
+      "sha256": "a976f8a8c36061c0c59a26cf707dbe3674ee0b68b3d81e554c37a91e7b3884fb"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\ce133_uncertainty_v1_ready\\summary.json",
+      "bytes": 878,
+      "sha256": "40bfd3a7cdb7ff91be24b5a1b41b9909ab0f9bf629d09152cb6147f0d4798d91"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\ce133_uncertainty_v1_ready\\provenance.json",
+      "bytes": 5478,
+      "sha256": "4cf91ed0e8d5ababcd555591f605944dfefed619449f71a058ab683ff53fa10e"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\msi_local_adapter_ready_effective29_v35_parent_gradient_fixed\\target_existing_plus_msi_adapter_ready.csv",
+      "bytes": 2195724,
+      "sha256": "e98aeb4ebde9a1d57d505d7b0fe64c0558619d5cce550e6ff6052dc602c109ad"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\build_ce133_uncertainty.py",
+      "bytes": 12777,
+      "sha256": "20b8126b653a5f1f2450fc4951fb47a3625cd510a1c69f207aef788a871d3401"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\run_ce_uncertainty_identity_pilot.py",
+      "bytes": 29481,
+      "sha256": "63768f2d37a7cb90da4cb2dcdd0dbd51f5cc71f25d12f3ede5f0b5f3f67a35d9"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\rho_mismatch_mechanism_ce_audit\\ce_asset_audit.json",
+      "bytes": 2189,
+      "sha256": "2fcdf4a79aecdeb3b49397c6599eaee5add798de02a884002af546bc551c930c"
+    },
+    {
+      "path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\audit_ce133_joint_variation.py",
+      "bytes": 9045,
+      "sha256": "df98e602d4426824237ac294311d7d29db79a7f52d42ed6f7779be1752288eeb"
+    }
+  ],
+  "outputs": {
+    "exact_support_joint_statistics.json": "0536db5d8b4391d65fb85775f07dbf9e8b453ab3c6abe7f7e7507f805dfecffe",
+    "observed_joint_changes.json": "f94408220130c48b4ffeb4dc73e0d2dbdad4dbff0aff3cfa36c94f15092cb78b",
+    "summary.json": "727dec01e32aa6c9f9aa35145a2bc37c3ec8f67c6ed2b80844e64ced71d564c9"
+  },
+  "numpy_version": "2.3.5"
+}

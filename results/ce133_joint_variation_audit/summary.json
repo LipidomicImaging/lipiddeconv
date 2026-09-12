@@ -1,0 +1,126 @@
+{
+  "status": "BOUNDED_DESCRIPTIVE_AUDIT_COMPLETE_PHYSICAL_MODEL_NOT_FROZEN",
+  "source_pair_count": 244,
+  "source_identity_count": 120,
+  "source_row_count": 302,
+  "exact_ce_rule_support_strata": 123,
+  "stratum_size_histogram": {
+    "1": 90,
+    "2": 17,
+    "3": 8,
+    "4": 1,
+    "5": 1,
+    "8": 1,
+    "10": 1,
+    "13": 1,
+    "17": 1,
+    "19": 1,
+    "20": 1
+  },
+  "strata_at_existing_v1_n_reference": [
+    {
+      "rule": "PEO-H",
+      "ce_pair": [
+        30.0,
+        35.0
+      ],
+      "channels": [
+        "sn2_fragment",
+        "sn2_fragment_co2",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "distinct_identity_count": 13
+    },
+    {
+      "rule": "PEO-H",
+      "ce_pair": [
+        30.0,
+        35.0
+      ],
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "distinct_identity_count": 20
+    },
+    {
+      "rule": "PEO-H",
+      "ce_pair": [
+        30.0,
+        40.0
+      ],
+      "channels": [
+        "sn2_fragment",
+        "sn2_fragment_co2",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "distinct_identity_count": 10
+    },
+    {
+      "rule": "PEO-H",
+      "ce_pair": [
+        30.0,
+        40.0
+      ],
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "distinct_identity_count": 17
+    },
+    {
+      "rule": "PEO-H",
+      "ce_pair": [
+        35.0,
+        40.0
+      ],
+      "channels": [
+        "sn2_fragment",
+        "sn2_ketene_loss",
+        "sn2_loss"
+      ],
+      "distinct_identity_count": 19
+    }
+  ],
+  "old_n_reference": 10,
+  "source_centered_change_max_abs_error": 4.440892098500626e-16,
+  "identities_with_all_three_eligible_pairs": 62,
+  "triples_with_common_support_at_least_two": 62,
+  "ce_pair_composition_max_abs_error": 8.881784197001252e-16,
+  "strongest_shared_lower_ce_change": {
+    "count_including_ties": 245,
+    "minimum": -3.7784770470539497,
+    "median": 0.0006880459822070639,
+    "maximum": 1.5957951321679935,
+    "units": "log intensity ratio after geometric-mean scaling over shared channels",
+    "limitation": "Selected positive shared channels only; cannot estimate strong-peak disappearance or define censoring"
+  },
+  "existing_descriptive_correlation_example": [
+    {
+      "rule": "PEO-H",
+      "first": "sn2_fragment",
+      "second": "sn2_fragment_co2",
+      "n": 15,
+      "correlation": 0.7744870951027697,
+      "centered_compositional_correlation": true
+    }
+  ],
+  "conclusions": {
+    "independent_fragment_box_confirmed": true,
+    "isotope_and_profile_coupling_preserved": true,
+    "joint_co_variation_unused_by_v1": true,
+    "box_caused_v2_failure": "NOT_VERIFIED",
+    "physical_low_dimensional_rank": "NOT_VERIFIED",
+    "strong_fragment_definition_and_detection_stability": "NOT_VERIFIED",
+    "weak_fragment_censoring": "NOT_VERIFIED",
+    "pixel_variation_and_smaller_than_systematic": "NOT_VERIFIED",
+    "independent_library_to_experiment_error_coverage": "NOT_VERIFIED"
+  },
+  "no_solver_or_simulation_run": true,
+  "no_uncertainty_model_fit": true,
+  "no_parameter_selection_or_v2_changes": true
+}

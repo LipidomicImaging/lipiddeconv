@@ -1,3 +1,11 @@
+# COMPLETED — bounded CE joint-variation check; V2 remains closed — 2026-09-12
+
+Latest user priority: measure physically supported correlated fragment changes before a new identity method/open-set pilot. This turn checked the existing CE133 paired records, their directly referenced target table and original uncertainty/LP code only. Outputs: results/ce133_joint_variation_audit; reproducer: analysis/audit_ce133_joint_variation.py. No archive search, source-data edits, uncertainty fit, solver, training, rho, remote job or deletion.
+
+The independent fragment box is confirmed but its causal role in V2 failure is unproven. Joint vectors are preserved; covariance/rank descriptions are conditional on exact CE/support and are not physical coverage or independent-replicate estimates. Strong/weak boundaries, censoring, pixel variation and independent prediction-error coverage remain NOT_VERIFIED. Do not generate a new sigma/dropout or claim a complete U_phys from this check. Full findings, supported next-model scope, missing data and margin normalization/cone caveats are in analysis_record.md. V2 stays NO-GO / BOTH_NO_GO with no V2.1 or spatial-weight iteration.
+
+Commit/push only this bounded result, its reproducer and CURRENT_STATE/NEXT_TASK, then STOP. No automatic V3, identifiability pilot, raw MSI processing or additional audit loop is queued. A later small pilot requires a prospectively frozen physical model and fresh evaluation; do not reuse exposed V2 outcomes for model/threshold selection. Broader 1% risk / 40% retention objective remains open.
+
 # COMPLETED — V2 pilot, independent review and result handoff — 2026-09-12
 
 V2 has finished and independently passed5572 numerical proof checks plus source hashes, CAL-only seals and all accounting. Method NO-GO; paired result BOTH_NO_GO. Local aggregate TP retention4.57%, global6.86%; local challenge retentions12.20%/0%/0.89%, all below40%. Report: results/ce_identity_spatial_v2/final_interpretation.md. Main scientific objective remains open, but this version is closed without tuning or a new validation launch. No further intermediate task is authorized by the V2 contract.

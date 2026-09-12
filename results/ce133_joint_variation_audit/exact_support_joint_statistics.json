@@ -1,0 +1,7933 @@
+[
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 18:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|701_30ev_01.txt|PA 18:0_18:1|PA-H",
+        "35|701_35ev_00.txt|PA 18:0_18:1|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.066939020880468,
+      0.8929943778656843,
+      -0.1337810185338547,
+      -1.6306548111873633,
+      0.862321046649084,
+      -0.420994113816228,
+      -0.6368245018577904
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PA 16:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ],
+      [
+        "PA 18:0_22:6",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|673_30ev_01.txt|PA 16:0_18:1|PA-H",
+        "35|673_35ev_00.txt|PA 16:0_18:1|PA-H"
+      ],
+      [
+        "30|747_30ev_02.txt|PA 18:0_22:6|PA-H",
+        "35|747_35ev_00.txt|PA 18:0_22:6|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.9340744052649569,
+      0.8564166309569388,
+      -0.8165248736798543,
+      0.6095929120368362,
+      -0.6004307397738458,
+      -0.9831283348050321
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.6704269996628178,
+      1.2757001226805677e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      3.6207138436978443e-32
+    ],
+    "covariance": [
+      [
+        0.01989233542511306,
+        0.0077739012009668184,
+        0.049602855095179886,
+        0.024774030413142238,
+        -0.04091410752408992,
+        -0.06112901461031209
+      ],
+      [
+        0.0077739012009668184,
+        0.003038031412143749,
+        0.019384737214364078,
+        0.00968166183938256,
+        -0.01598918492076455,
+        -0.023889146746092656
+      ],
+      [
+        0.049602855095179886,
+        0.019384737214364078,
+        0.12368800249000572,
+        0.06177568467678749,
+        -0.10202203529626572,
+        -0.15242924418007148
+      ],
+      [
+        0.024774030413142238,
+        0.00968166183938256,
+        0.06177568467678749,
+        0.030853721787561714,
+        -0.05095466783898827,
+        -0.07613043087788575
+      ],
+      [
+        -0.04091410752408992,
+        -0.01598918492076455,
+        -0.10202203529626572,
+        -0.05095466783898827,
+        0.08415121496390501,
+        0.1257287806162035
+      ],
+      [
+        -0.06112901461031209,
+        -0.023889146746092656,
+        -0.15242924418007148,
+        -0.07613043087788575,
+        0.1257287806162035,
+        0.18784905579815853
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 18:0_22:4",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|751_30ev_01.txt|PA 18:0_22:4|PA-H",
+        "35|751_35ev_00.txt|PA 18:0_22:4|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6371475898399378,
+      1.4987209389438936,
+      -0.17361552803863056,
+      -1.1146952719826746,
+      -0.8475577287625258
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 18:0_20:4",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|723_30ev_01.txt|PA 18:0_20:4|PA-H",
+        "35|723_35ev_01.txt|PA 18:0_20:4|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.9438610752202421,
+      0.8933770210454723,
+      -0.12557758646123512,
+      -0.07451525038673584,
+      -0.8033430259665177,
+      -0.8338022334512261
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 16:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|673_30ev_01.txt|PA 16:0_18:1|PA-H",
+        "40|673_40ev_00.txt|PA 16:0_18:1|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.4392901425004063,
+      1.5957951321679935,
+      -1.8865968683946377,
+      1.3861465403861395,
+      -2.534634946659902
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 18:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|701_30ev_01.txt|PA 18:0_18:1|PA-H",
+        "40|701_40ev_03.txt|PA 18:0_18:1|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.1991325575831633,
+      1.2913058158252073,
+      1.417862516502093,
+      -1.2869005355793675,
+      -2.6214003543310955
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 16:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|673_35ev_00.txt|PA 16:0_18:1|PA-H",
+        "40|673_40ev_00.txt|PA 16:0_18:1|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.5665960889941306,
+      0.8615147762831179,
+      -1.1576457092395698,
+      0.8134595405189937,
+      -1.0839246965566725
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PA-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PA 18:0_18:1",
+        "[M-H]-",
+        "PA-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|701_35ev_00.txt|PA 18:0_18:1|PA-H",
+        "40|701_40ev_03.txt|PA 18:0_18:1|PA-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.48508070264693876,
+      0.7511986039037666,
+      0.9084286357972524,
+      -0.5130192558188962,
+      -1.6316886865290614
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PC 14:0_16:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:0_22:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 18:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|764_30ev_02.txt|PC 14:0_16:0|PC+CH3COO",
+        "35|764_35ev_04.txt|PC 14:0_16:0|PC+CH3COO"
+      ],
+      [
+        "30|868_30ev_01.txt|PC 16:0_22:4|PC+CH3COO",
+        "35|868_35ev_01.txt|PC 16:0_22:4|PC+CH3COO"
+      ],
+      [
+        "30|844_30ev_02.txt|PC 18:0_18:2|PC+CH3COO",
+        "35|844_35ev_01.txt|PC 18:0_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.2603777626350023,
+      0.5116956875310527,
+      0.4121744988701293,
+      -0.4243487807185779,
+      0.5844886200356453,
+      0.08106476415167967,
+      0.09530297276507353
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.3647100786459598,
+      0.5500288083227922,
+      1.9179484335559227e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8602602584170463,
+      0.13973974158295366,
+      1.6991155529868362e-32
+    ],
+    "covariance": [
+      [
+        0.05394578934536988,
+        0.004358150405759613,
+        -0.13709291716102645,
+        0.0650417754597028,
+        0.03584838079435829,
+        -0.09950878839905952,
+        0.07740760955489533
+      ],
+      [
+        0.004358150405759613,
+        0.0003583981640172404,
+        -0.011437926411647606,
+        0.0063003403505902285,
+        0.003134590465670781,
+        -0.008694996959972546,
+        0.00598144398558228
+      ],
+      [
+        -0.13709291716102645,
+        -0.011437926411647606,
+        0.3692106433237883,
+        -0.22533745178043396,
+        -0.10479522297864659,
+        0.29054432530190366,
+        -0.18109145029393703
+      ],
+      [
+        0.0650417754597028,
+        0.0063003403505902285,
+        -0.22533745178043396,
+        0.251637200053292,
+        0.08272375792062321,
+        -0.22862053103269936,
+        0.04825490902892486
+      ],
+      [
+        0.03584838079435829,
+        0.003134590465670781,
+        -0.10479522297864659,
+        0.08272375792062321,
+        0.032830486330572325,
+        -0.0909022187713136,
+        0.0411602262387355
+      ],
+      [
+        -0.09950878839905952,
+        -0.008694996959972546,
+        0.29054432530190366,
+        -0.22862053103269936,
+        -0.0909022187713136,
+        0.2516975377648648,
+        -0.11451532790372318
+      ],
+      [
+        0.07740760955489533,
+        0.00598144398558228,
+        -0.18109145029393703,
+        0.04825490902892486,
+        0.0411602262387355,
+        -0.11451532790372318,
+        0.12280258938952217
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|842_30ev_01.txt|PC 18:1_18:2|PC+CH3COO",
+        "35|842_35ev_00.txt|PC 18:1_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.4684037866424695,
+      0.27829549335622883,
+      0.21993503174558574,
+      0.9701732615406549
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:6",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|864_30ev_02.txt|PC 16:0_22:6|PC+CH3COO",
+        "35|864_35ev_03.txt|PC 16:0_22:6|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.2766466150101328,
+      0.28125839346539944,
+      0.6996684791708614,
+      0.01426800997575356,
+      0.5250426563374051,
+      -0.10844599979098118,
+      -0.13514492414830545
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|868_30ev_02.txt|PC 18:0_20:4|PC+CH3COO",
+        "35|868_35ev_00.txt|PC 18:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.3361854348497815,
+      0.22002078653810064,
+      0.019035065593378864,
+      0.6213628560452099,
+      0.1462905743616948,
+      0.32947615231139704
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:3",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|842_30ev_02.txt|PC 16:0_20:3|PC+CH3COO",
+        "35|842_35ev_01.txt|PC 16:0_20:3|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.44474921358126,
+      0.1765825068782283,
+      0.19191395028693392,
+      1.076252756416098
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|840_30ev_01.txt|PC 16:0_20:4|PC+CH3COO",
+        "35|840_35ev_02.txt|PC 16:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.3677771982920675,
+      0.6318243365284701,
+      0.3965474015267069,
+      0.3394054602368904
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|866_30ev_01.txt|PC 18:1_20:4|PC+CH3COO",
+        "35|866_35ev_04.txt|PC 18:1_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.5760619081432046,
+      -0.9049784249430106,
+      -2.3061545280890132,
+      0.25209578204704,
+      1.4127390133126205,
+      0.4725828605850838,
+      0.49765338894407474
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|818_30ev_01.txt|PC 16:0_18:1|PC+CH3COO",
+        "35|818_35ev_00.txt|PC 16:0_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.2966642326321166,
+      0.04400857228268303,
+      -0.26476219202676515,
+      0.1690014954458254,
+      -0.2309687987643374,
+      -0.013943309569522451
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 16:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 18:1_20:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|816_30ev_02.txt|PC 16:0_18:2|PC+CH3COO",
+        "35|816_35ev_00.txt|PC 16:0_18:2|PC+CH3COO"
+      ],
+      [
+        "30|874_30ev_04.txt|PC 18:1_20:0|PC+CH3COO",
+        "35|874_35ev_01.txt|PC 18:1_20:0|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.11141175347950907,
+      -0.24259724415584222,
+      0.05955108800482965,
+      0.17713017062050898,
+      -0.1054957679490055
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.723104570637247,
+      4.374913624042058e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      3.660469163478662e-33
+    ],
+    "covariance": [
+      [
+        0.00014612713706908394,
+        -3.8436775666937306e-05,
+        -0.0046869810693011575,
+        -0.002397113431512147,
+        0.006976404139411158
+      ],
+      [
+        -3.8436775666937306e-05,
+        1.0110276251918943e-05,
+        0.0012328472556794195,
+        0.0006305284087764978,
+        -0.0018350491650408992
+      ],
+      [
+        -0.0046869810693011575,
+        0.0012328472556794195,
+        0.1503334150288717,
+        0.07688664473836462,
+        -0.2237659259536146
+      ],
+      [
+        -0.002397113431512147,
+        0.0006305284087764978,
+        0.07688664473836462,
+        0.039322968469705635,
+        -0.11444302818533462
+      ],
+      [
+        0.006976404139411158,
+        -0.0018350491650408992,
+        -0.2237659259536146,
+        -0.11444302818533462,
+        0.333067599164579
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PC 14:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:0_17:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:1_22:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|790_30ev_03.txt|PC 14:0_18:1|PC+CH3COO",
+        "35|790_35ev_00.txt|PC 14:0_18:1|PC+CH3COO"
+      ],
+      [
+        "30|804_30ev_03.txt|PC 16:0_17:1|PC+CH3COO",
+        "35|804_35ev_00.txt|PC 16:0_17:1|PC+CH3COO"
+      ],
+      [
+        "30|874_30ev_04.txt|PC 16:1_22:0|PC+CH3COO",
+        "35|874_35ev_01.txt|PC 16:1_22:0|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.26064971025002265,
+      -0.1785242865799566,
+      -0.08212542367006608
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.339552309298213,
+      0.9461114409275664,
+      4.7457421386045134e-17
+    ],
+    "empirical_variance_fraction": [
+      0.6671805949095312,
+      0.3328194050904688,
+      8.373987831085463e-34
+    ],
+    "covariance": [
+      [
+        0.39671793042896414,
+        -0.07647479192577157,
+        -0.3202431385031924
+      ],
+      [
+        -0.07647479192577157,
+        0.35213867349686023,
+        -0.27566388157108873
+      ],
+      [
+        -0.3202431385031924,
+        -0.27566388157108873,
+        0.5959070200742811
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|872_30ev_00.txt|PC 18:1_20:1|PC+CH3COO",
+        "35|872_35ev_00.txt|PC 18:1_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.3832918648261649,
+      -0.10996155627987703,
+      -0.385702084442262,
+      0.8789555055483039
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PC 16:0_16:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:1_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|790_30ev_03.txt|PC 16:0_16:1|PC+CH3COO",
+        "35|790_35ev_00.txt|PC 16:0_16:1|PC+CH3COO"
+      ],
+      [
+        "30|844_30ev_01.txt|PC 16:0_20:2|PC+CH3COO",
+        "35|844_35ev_00.txt|PC 16:0_20:2|PC+CH3COO"
+      ],
+      [
+        "30|816_30ev_02.txt|PC 16:1_18:1|PC+CH3COO",
+        "35|816_35ev_01.txt|PC 16:1_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.16087969753167816,
+      0.3383241738262277,
+      -0.17744447629454949
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      0.6933597088996496,
+      0.12319443295135496,
+      9.326463494375893e-17
+    ],
+    "empirical_variance_fraction": [
+      0.9693968201804435,
+      0.030603179819556573,
+      1.7539547209150847e-32
+    ],
+    "covariance": [
+      [
+        0.14252357804619525,
+        -0.028512667472340915,
+        -0.11401091057385437
+      ],
+      [
+        -0.028512667472340915,
+        0.00997022798504882,
+        0.01854243948729211
+      ],
+      [
+        -0.11401091057385437,
+        0.01854243948729211,
+        0.0954684710865623
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|874_30ev_04.txt|PC 18:0_20:1|PC+CH3COO",
+        "35|874_35ev_01.txt|PC 18:0_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.041061279165115816,
+      -0.08663014157617677,
+      -0.1638729887996545,
+      0.2915644095409469
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 17:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|832_30ev_01.txt|PC 17:0_18:1|PC+CH3COO",
+        "35|832_35ev_01.txt|PC 17:0_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.003538110415387291,
+      0.0035381104153872633
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_ketene_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 15:0_16:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|778_30ev_01.txt|PC 15:0_16:0|PC+CH3COO",
+        "35|778_35ev_01.txt|PC 15:0_16:0|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.5455393009247642,
+      -0.5455393009247643
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|872_30ev_00.txt|PC 18:0_20:2|PC+CH3COO",
+        "35|872_35ev_01.txt|PC 18:0_20:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.20225751700215247,
+      -0.14410202853873144,
+      0.3463595455408839
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|842_30ev_01.txt|PC 18:1_18:2|PC+CH3COO",
+        "40|842_40ev_00.txt|PC 18:1_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.9086504044797272,
+      0.41714487891364915,
+      0.12935967038846186,
+      1.1377656911704226,
+      1.2243801640071936
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|844_30ev_02.txt|PC 18:0_18:2|PC+CH3COO",
+        "40|844_40ev_01.txt|PC 18:0_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.048335649905722,
+      0.9319332181834885,
+      0.24260812574954146,
+      -0.32261157008224794,
+      0.9800928365008892,
+      -0.3562171352374769,
+      1.5725301747915275
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:6",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|864_30ev_02.txt|PC 16:0_22:6|PC+CH3COO",
+        "40|864_40ev_03.txt|PC 16:0_22:6|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.955733673840584,
+      1.430727400893362,
+      0.5282524639937694,
+      0.03412436289718923,
+      0.7637370169589235,
+      0.14835483743206823,
+      0.0505375916652715
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|868_30ev_01.txt|PC 16:0_22:4|PC+CH3COO",
+        "40|868_40ev_04.txt|PC 16:0_22:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.2232312267628274,
+      1.442872792933068,
+      0.8634245385466047,
+      0.7816403548020486,
+      0.5677866458599762,
+      -0.43249310537887004
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|868_30ev_02.txt|PC 18:0_20:4|PC+CH3COO",
+        "40|868_40ev_03.txt|PC 18:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.7463935105823625,
+      0.5511058357805453,
+      1.4949896139732681,
+      0.15985311639482502,
+      0.5404449444337238
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:2_20:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|872_30ev_00.txt|PC 18:2_20:0|PC+CH3COO",
+        "40|872_40ev_01.txt|PC 18:2_20:0|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.8257966547174629,
+      -0.45559020080720236,
+      -0.6709516116793571,
+      0.3007451577690965
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|866_30ev_01.txt|PC 18:1_20:4|PC+CH3COO",
+        "40|866_40ev_00.txt|PC 18:1_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7927745597437287,
+      -1.0890552649063632,
+      -1.3928081401664467,
+      0.0563286681908739,
+      1.6768940494016333,
+      -0.044133872263425356
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|872_30ev_00.txt|PC 18:1_20:1|PC+CH3COO",
+        "40|872_40ev_02.txt|PC 18:1_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.32766317100652953,
+      -0.27885841187992655,
+      -0.65472681006541,
+      0.43233073818957546,
+      0.17359131274923134
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|818_30ev_01.txt|PC 16:0_18:1|PC+CH3COO",
+        "40|818_40ev_04.txt|PC 16:0_18:1|PC+CH3COO"
+      ],
+      [
+        "30|816_30ev_02.txt|PC 16:0_18:2|PC+CH3COO",
+        "40|816_40ev_01.txt|PC 16:0_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6430867377455509,
+      -0.16355396522763507,
+      -0.3279302721923239,
+      0.5375773111048354,
+      -0.4740757255977599,
+      -0.21510408583266735
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.08848937571512822,
+      9.81691035192918e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      1.2307430377224273e-30
+    ],
+    "covariance": [
+      [
+        0.0018093881952285895,
+        0.00032361331796938123,
+        -0.001545413025653655,
+        0.0021463955441532435,
+        -0.0015356892734715774,
+        -0.0011982947582259795
+      ],
+      [
+        0.00032361331796938123,
+        5.7879000119110043e-05,
+        -0.0002764007404180602,
+        0.0003838878719059918,
+        -0.000274661624558317,
+        -0.00021431782501810562
+      ],
+      [
+        -0.001545413025653655,
+        -0.0002764007404180602,
+        0.0013199497079499061,
+        -0.0018332537157513202,
+        0.0013116445729213712,
+        0.0010234732009517565
+      ],
+      [
+        0.0021463955441532435,
+        0.0003838878719059918,
+        -0.0018332537157513202,
+        0.0025461721504040588,
+        -0.0018217188674467392,
+        -0.0014214829832652326
+      ],
+      [
+        -0.0015356892734715774,
+        -0.000274661624558317,
+        0.0013116445729213712,
+        -0.0018217188674467392,
+        0.0013033916938745807,
+        0.0010170334986806804
+      ],
+      [
+        -0.0011982947582259795,
+        -0.00021431782501810562,
+        0.0010234732009517565,
+        -0.0014214829832652326,
+        0.0010170334986806804,
+        0.0007935888668768799
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|874_30ev_04.txt|PC 16:0_22:1|PC+CH3COO",
+        "40|874_40ev_03.txt|PC 16:0_22:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.6416003668822611,
+      0.591748323836371,
+      0.04985204304589008
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|846_30ev_01.txt|PC 16:0_20:1|PC+CH3COO",
+        "40|846_40ev_04.txt|PC 16:0_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.47972040208416034,
+      -0.282335077336884,
+      0.761676904632131,
+      -0.23209005178577025,
+      -0.7269721775936375
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|874_30ev_04.txt|PC 18:1_20:0|PC+CH3COO",
+        "40|874_40ev_03.txt|PC 18:1_20:0|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.007896436209095858,
+      -0.82967456553207,
+      0.287474565469777,
+      0.534303563853197
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:1_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|816_30ev_02.txt|PC 16:1_18:1|PC+CH3COO",
+        "40|816_40ev_01.txt|PC 16:1_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.11415259909735109,
+      0.11415259909735098
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 15:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 16:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|804_30ev_03.txt|PC 15:0_18:1|PC+CH3COO",
+        "40|804_40ev_03.txt|PC 15:0_18:1|PC+CH3COO"
+      ],
+      [
+        "30|844_30ev_01.txt|PC 16:0_20:2|PC+CH3COO",
+        "40|844_40ev_00.txt|PC 16:0_20:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.18564959305111192,
+      0.28792649849144347,
+      -0.10227690544033147
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.8423528118267775,
+      8.777083671441754e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      1.0857064481179368e-32
+    ],
+    "covariance": [
+      [
+        0.0019638150750873645,
+        0.025358710833773578,
+        -0.02732252590886093
+      ],
+      [
+        0.025358710833773578,
+        0.3274566038873784,
+        -0.35281531472115185
+      ],
+      [
+        -0.02732252590886093,
+        -0.35281531472115185,
+        0.38013784063001266
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|872_30ev_00.txt|PC 18:0_20:2|PC+CH3COO",
+        "40|872_40ev_01.txt|PC 18:0_20:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7990013927935873,
+      0.16976263498222055,
+      -1.1033698814619106,
+      0.134605853686103
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|840_30ev_01.txt|PC 16:0_20:4|PC+CH3COO",
+        "40|840_40ev_00.txt|PC 16:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6271685408453976,
+      -0.31286823401681496,
+      -0.3143003068285827
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|846_30ev_01.txt|PC 18:0_18:1|PC+CH3COO",
+        "40|846_40ev_04.txt|PC 18:0_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.240525345279458,
+      -0.40379476598463643,
+      0.6828635666937888,
+      -0.10012247222327272,
+      0.061579016793578356
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|874_30ev_04.txt|PC 18:0_20:1|PC+CH3COO",
+        "40|874_40ev_03.txt|PC 18:0_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.7160287239082086,
+      0.4326222143850802,
+      -0.38174085362248544,
+      0.6651473631456137
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:6",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|864_35ev_03.txt|PC 16:0_22:6|PC+CH3COO",
+        "40|864_40ev_03.txt|PC 16:0_22:6|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.6577480242252474,
+      1.1708080420331664,
+      -0.15007698057188812,
+      -0.14937324223642706,
+      0.04119538752663965,
+      0.2600333952267222,
+      0.27813987182825317,
+      0.2070215504187809
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 16:0_18:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 18:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|820_35ev_03.txt|PC 16:0_18:0|PC+CH3COO",
+        "40|820_40ev_04.txt|PC 16:0_18:0|PC+CH3COO"
+      ],
+      [
+        "35|844_35ev_01.txt|PC 18:0_18:2|PC+CH3COO",
+        "40|844_40ev_01.txt|PC 18:0_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.7131058816721585,
+      0.5329441617135406,
+      0.22506564291929843,
+      0.055926501550844096,
+      0.4869019633400441,
+      -0.006002209922328493,
+      0.4182698220707596
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.2642911464852733,
+      2.0068883865825244e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      2.519719785680251e-32
+    ],
+    "covariance": [
+      [
+        0.23501238070473196,
+        0.09202359411654767,
+        -0.19130621253545252,
+        0.17574473200860793,
+        0.1813951253093405,
+        -0.03418086667278881,
+        -0.45868875293098677
+      ],
+      [
+        0.09202359411654767,
+        0.03603359894799193,
+        -0.07490960774723993,
+        0.06881621231181352,
+        0.07102873191672215,
+        -0.013384172322395504,
+        -0.17960835722343987
+      ],
+      [
+        -0.19130621253545252,
+        -0.07490960774723993,
+        0.1557282507624196,
+        -0.14306079940471805,
+        -0.1476603670464626,
+        0.027824117711339105,
+        0.37338461826011443
+      ],
+      [
+        0.17574473200860793,
+        0.06881621231181352,
+        -0.14306079940471805,
+        0.13142376046810342,
+        0.1356491840538851,
+        -0.025560811882411074,
+        -0.34301227755528085
+      ],
+      [
+        0.1813951253093405,
+        0.07102873191672215,
+        -0.1476603670464626,
+        0.1356491840538851,
+        0.14001045982054855,
+        -0.026382621097236277,
+        -0.3540405129567974
+      ],
+      [
+        -0.03418086667278881,
+        -0.013384172322395504,
+        0.027824117711339105,
+        -0.025560811882411074,
+        -0.026382621097236277,
+        0.004971362117176494,
+        0.06671299214631607
+      ],
+      [
+        -0.45868875293098677,
+        -0.17960835722343987,
+        0.37338461826011443,
+        -0.34301227755528085,
+        -0.3540405129567974,
+        0.06671299214631607,
+        0.8952522902600746
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|842_35ev_00.txt|PC 18:1_18:2|PC+CH3COO",
+        "40|842_40ev_00.txt|PC 18:1_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.1538586162835007,
+      0.42523738711117764,
+      0.1958126401966333,
+      0.5405949040202959,
+      -0.007786315044606251
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|868_35ev_01.txt|PC 16:0_22:4|PC+CH3COO",
+        "40|868_40ev_04.txt|PC 16:0_22:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.6247575163931518,
+      1.139289681489802,
+      0.13863471637261243,
+      0.5793555371259607,
+      -0.2325224185952231
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|868_35ev_00.txt|PC 18:0_20:4|PC+CH3COO",
+        "40|868_40ev_03.txt|PC 18:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.4135012021729172,
+      -0.3018317707880963,
+      0.09827661645167718,
+      0.52877764374683,
+      0.870333631487722,
+      0.010269415592793846,
+      0.20767566568199047
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 18:1_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|866_35ev_04.txt|PC 18:1_20:4|PC+CH3COO",
+        "40|866_40ev_00.txt|PC 18:1_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.13377042010984497,
+      -0.2670190714540318,
+      0.8304041564318875,
+      -0.2787093453468452,
+      0.18121280459833344,
+      -0.5996589643391885
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|818_35ev_00.txt|PC 16:0_18:1|PC+CH3COO",
+        "40|818_40ev_04.txt|PC 16:0_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.37650063832702146,
+      -0.2021829929143923,
+      -0.08885805591437858,
+      0.40425614742879634,
+      -0.26863526103166774,
+      -0.22108047589537927
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|816_35ev_00.txt|PC 16:0_18:2|PC+CH3COO",
+        "40|816_40ev_01.txt|PC 16:0_18:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.4033396497696377,
+      -0.013797380514819935,
+      -0.17733538803378154,
+      0.37527674504920744,
+      -0.5874836262702435
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|844_35ev_00.txt|PC 16:0_20:2|PC+CH3COO",
+        "40|844_40ev_00.txt|PC 16:0_20:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7116405191178786,
+      -0.8466783470787386,
+      0.5335341950819006,
+      -0.39849636712104064
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 18:1_20:0",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 18:1_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|874_35ev_01.txt|PC 18:1_20:0|PC+CH3COO",
+        "40|874_40ev_03.txt|PC 18:1_20:0|PC+CH3COO"
+      ],
+      [
+        "35|872_35ev_00.txt|PC 18:1_20:1|PC+CH3COO",
+        "40|872_40ev_02.txt|PC 18:1_20:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.2550681223037849,
+      -0.4320368686833521,
+      0.34115330295445495,
+      -0.8743649414204394,
+      0.7101803848455517
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.8124587154091775,
+      5.41944938641421e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      4.4494642910141676e-33
+    ],
+    "covariance": [
+      [
+        0.10513508802888316,
+        0.016750561031003586,
+        0.11476129504230884,
+        -0.026417211535821803,
+        -0.21022973256637376
+      ],
+      [
+        0.016750561031003586,
+        0.002668769295901416,
+        0.01828424850964215,
+        -0.004208900400389152,
+        -0.033494678436158
+      ],
+      [
+        0.11476129504230884,
+        0.01828424850964215,
+        0.12526888108154433,
+        -0.02883598106109595,
+        -0.22947844357239935
+      ],
+      [
+        -0.026417211535821803,
+        -0.004208900400389152,
+        -0.02883598106109595,
+        0.006637832130188877,
+        0.05282426086711803
+      ],
+      [
+        -0.21022973256637376,
+        -0.033494678436158,
+        -0.22947844357239935,
+        0.05282426086711803,
+        0.42037859370781305
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:1_18:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|816_35ev_01.txt|PC 16:1_18:1|PC+CH3COO",
+        "40|816_40ev_01.txt|PC 16:1_18:1|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.0273948145315569,
+      -0.027394814531556788
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:5",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|866_35ev_04.txt|PC 16:0_22:5|PC+CH3COO",
+        "40|866_40ev_00.txt|PC 16:0_22:5|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.21166591694371584,
+      -0.6108599940457252,
+      1.5734841428966655,
+      -0.7509582319072242
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:4",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|840_35ev_02.txt|PC 16:0_20:4|PC+CH3COO",
+        "40|840_40ev_00.txt|PC 16:0_20:4|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.45126993708095003,
+      -0.2534899027794995,
+      -0.19778003430145055
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+CH3COO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PC 18:0_20:1",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ],
+      [
+        "PC 18:0_20:2",
+        "[M+CH3COO]-",
+        "PC+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|874_35ev_01.txt|PC 18:0_20:1|PC+CH3COO",
+        "40|874_40ev_03.txt|PC 18:0_20:1|PC+CH3COO"
+      ],
+      [
+        "35|872_35ev_01.txt|PC 18:0_20:2|PC+CH3COO",
+        "40|872_40ev_01.txt|PC 18:0_20:2|PC+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.4663085786478973,
+      -0.5678955341979228,
+      0.10158695555002548
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.30803858639603027,
+      7.850462293418875e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      6.495015928815994e-32
+    ],
+    "covariance": [
+      [
+        0.05919921931986791,
+        -0.04302459749688713,
+        -0.016174621822980753
+      ],
+      [
+        -0.04302459749688713,
+        0.03126926353145154,
+        0.011755333965435585
+      ],
+      [
+        -0.016174621822980753,
+        0.011755333965435585,
+        0.004419287857545162
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3x_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|804_30ev_05.txt|PC 16:0_18:1|PC+HCOO",
+        "35|804_35ev_01.txt|PC 16:0_18:1|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.0692936867664513,
+      0.34915365272761995,
+      -0.956657305173565,
+      0.7643990133752099,
+      0.9123983258371863
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "ch3x_loss",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_22:6",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|850_30ev_01.txt|PC 16:0_22:6|PC+HCOO",
+        "35|850_35ev_00.txt|PC 16:0_22:6|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.3332399782569724,
+      0.011060761517153878,
+      -0.05167320684397767,
+      0.8430221967391773,
+      0.5308302268446189
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|804_30ev_05.txt|PC 16:0_18:1|PC+HCOO",
+        "40|804_40ev_02.txt|PC 16:0_18:1|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.2782839966268839,
+      0.15262872767869376,
+      0.4990704953373972,
+      -0.9299832196429749
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3x_loss",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:0",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|806_35ev_03.txt|PC 16:0_18:0|PC+HCOO",
+        "40|806_40ev_04.txt|PC 16:0_18:0|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.1966493652206711,
+      0.7109417288785358,
+      -0.05173980185951088,
+      0.804461731858866,
+      -0.26701429365721996
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "ch3x_loss",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_20:4",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|826_35ev_00.txt|PC 16:0_20:4|PC+HCOO",
+        "40|826_40ev_01.txt|PC 16:0_20:4|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.5341572073524,
+      0.7668655596905608,
+      -0.08480153479625246,
+      1.8237378483493683,
+      -0.9716446658912767
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PC+HCOO",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC 16:0_18:1",
+        "[M+HCOO]-",
+        "PC+HCOO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|804_35ev_01.txt|PC 16:0_18:1|PC+HCOO",
+        "40|804_40ev_02.txt|PC 16:0_18:1|PC+HCOO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.24876196328112743,
+      -0.29213866631465285,
+      -0.09369621111792584,
+      0.13707291415145129
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PCO+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "ch3hac_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC O-16:1_18:1",
+        "[M+CH3COO]-",
+        "PCO+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|802_30ev_02.txt|PC O-16:1_18:1|PCO+CH3COO",
+        "40|802_40ev_02.txt|PC O-16:1_18:1|PCO+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.9425235453823535,
+      0.7942885880176735,
+      0.8431910204204388,
+      0.30504393694424115
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PCO+CH3COO",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PC O-18:1_18:1",
+        "[M+CH3COO]-",
+        "PCO+CH3COO"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|830_30ev_02.txt|PC O-18:1_18:1|PCO+CH3COO",
+        "40|830_40ev_04.txt|PC O-18:1_18:1|PCO+CH3COO"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.018740580864350126,
+      -0.018740580864350126
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PE 16:0_20:4",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_20:4",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_22:4",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|738_30ev_01.txt|PE 16:0_20:4|PE-H",
+        "35|738_35ev_00.txt|PE 16:0_20:4|PE-H"
+      ],
+      [
+        "30|766_30ev_03.txt|PE 18:0_20:4|PE-H",
+        "35|766_35ev_03.txt|PE 18:0_20:4|PE-H"
+      ],
+      [
+        "30|794_30ev_01.txt|PE 18:0_22:4|PE-H",
+        "35|794_35ev_02.txt|PE 18:0_22:4|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6107294801868787,
+      -0.4692147091520786,
+      -0.3324333363853195,
+      0.21622510860581742,
+      0.500511915983134,
+      -0.30620312216741036,
+      -0.21961533707102188
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.159353599339483,
+      0.3457471188396706,
+      1.164215734121186e-16
+    ],
+    "empirical_variance_fraction": [
+      0.9183262823987888,
+      0.08167371760121124,
+      9.260450473157534e-33
+    ],
+    "covariance": [
+      [
+        0.036712751265058366,
+        0.03001055161466677,
+        -0.13946561749976288,
+        0.018810944000943016,
+        0.019664212092268825,
+        0.022423262158752615,
+        0.011843896368073304
+      ],
+      [
+        0.03001055161466677,
+        0.05129658155274228,
+        -0.14162300774233164,
+        0.029666519010996928,
+        0.024887405853067954,
+        0.026576080127586325,
+        -0.020814130416728586
+      ],
+      [
+        -0.13946561749976288,
+        -0.14162300774233164,
+        0.5583049818835272,
+        -0.08620484146975237,
+        -0.08379506393906007,
+        -0.09369147959181323,
+        -0.013524971640807142
+      ],
+      [
+        0.018810944000943016,
+        0.029666519010996928,
+        -0.08620484146975237,
+        0.017267629390489807,
+        0.014780867793122135,
+        0.015891999295015342,
+        -0.010213118020814845
+      ],
+      [
+        0.019664212092268825,
+        0.024887405853067954,
+        -0.08379506393906007,
+        0.014780867793122135,
+        0.013434565654020082,
+        0.014725778717424523,
+        -0.0036977661708434287
+      ],
+      [
+        0.022423262158752615,
+        0.026576080127586325,
+        -0.09369147959181323,
+        0.015891999295015342,
+        0.014725778717424523,
+        0.01623633945487484,
+        -0.002161980161840402
+      ],
+      [
+        0.011843896368073304,
+        -0.020814130416728586,
+        -0.013524971640807142,
+        -0.010213118020814845,
+        -0.0036977661708434287,
+        -0.002161980161840402,
+        0.03856807004296109
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PE 16:0_18:1",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_18:1",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|716_30ev_02.txt|PE 16:0_18:1|PE-H",
+        "35|716_35ev_03.txt|PE 16:0_18:1|PE-H"
+      ],
+      [
+        "30|744_30ev_03.txt|PE 18:0_18:1|PE-H",
+        "35|744_35ev_00.txt|PE 18:0_18:1|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6216861980529989,
+      -0.2875717393474746,
+      -0.7746148673554893,
+      0.5157614600038544,
+      -0.2506450970274161,
+      0.17538404567352678
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.6864847673328255,
+      6.152768520703637e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      8.033029148615323e-33
+    ],
+    "covariance": [
+      [
+        0.012165489917558071,
+        0.04594538372701971,
+        -0.05740766828955313,
+        0.008131862424052743,
+        0.001638488813182813,
+        -0.010473556592260187
+      ],
+      [
+        0.04594538372701971,
+        0.1735218474659519,
+        -0.21681143680290174,
+        0.030711590081481194,
+        0.006188077731704231,
+        -0.03955546220325526
+      ],
+      [
+        -0.05740766828955313,
+        -0.21681143680290174,
+        0.2709007529311968,
+        -0.03837340409468741,
+        -0.007731856499061829,
+        0.049423612755007264
+      ],
+      [
+        0.008131862424052743,
+        0.030711590081481194,
+        -0.03837340409468741,
+        0.005435636947779772,
+        0.0010952263905888433,
+        -0.00700091174921513
+      ],
+      [
+        0.001638488813182813,
+        0.006188077731704231,
+        -0.007731856499061829,
+        0.0010952263905888433,
+        0.00022067714568983844,
+        -0.001410613582103896
+      ],
+      [
+        -0.010473556592260187,
+        -0.03955546220325526,
+        0.049423612755007264,
+        -0.00700091174921513,
+        -0.001410613582103896,
+        0.009016931371827196
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PE 16:0_22:6",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_20:4",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_22:4",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|762_30ev_01.txt|PE 16:0_22:6|PE-H",
+        "40|762_40ev_04.txt|PE 16:0_22:6|PE-H"
+      ],
+      [
+        "30|766_30ev_03.txt|PE 18:0_20:4|PE-H",
+        "40|766_40ev_01.txt|PE 18:0_20:4|PE-H"
+      ],
+      [
+        "30|794_30ev_01.txt|PE 18:0_22:4|PE-H",
+        "40|794_40ev_01.txt|PE 18:0_22:4|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.6047439635247287,
+      -1.4776471629183234,
+      -1.079349720059455,
+      0.454395092479501,
+      0.9970154795537511,
+      -0.4315712784271173,
+      -0.06758637415308481
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      2.0153112501655897,
+      0.8438358956266703,
+      3.0245937307082035e-16
+    ],
+    "empirical_variance_fraction": [
+      0.850832034634096,
+      0.14916796536590407,
+      1.9164331290915117e-32
+    ],
+    "covariance": [
+      [
+        0.021620553710191233,
+        0.11861796398883372,
+        -0.012193653965126111,
+        -0.07365234323401035,
+        -0.06045538039192137,
+        -0.026475277328088232,
+        0.03253813722012118
+      ],
+      [
+        0.11861796398883372,
+        1.185533959308914,
+        -0.6102481310802114,
+        -0.49937909405488545,
+        -0.41944695956010225,
+        -0.16911901694063153,
+        0.39404127833808344
+      ],
+      [
+        -0.012193653965126111,
+        -0.6102481310802114,
+        0.5589600212683006,
+        0.13836694502082156,
+        0.1232740942266973,
+        0.03918158919404551,
+        -0.23734086466452775
+      ],
+      [
+        -0.07365234323401035,
+        -0.49937909405488545,
+        0.13836694502082156,
+        0.2678856744609448,
+        0.2215873390215915,
+        0.09444351724510469,
+        -0.14925203845956703
+      ],
+      [
+        -0.06045538039192137,
+        -0.41944695956010225,
+        0.1232740942266973,
+        0.2215873390215915,
+        0.18345029575753982,
+        0.07794726040135554,
+        -0.12635664945516076
+      ],
+      [
+        -0.026475277328088232,
+        -0.16911901694063153,
+        0.03918158919404551,
+        0.09444351724510469,
+        0.07794726040135554,
+        0.03348525639865042,
+        -0.049463328970436496
+      ],
+      [
+        0.03253813722012118,
+        0.39404127833808344,
+        -0.23734086466452775,
+        -0.14925203845956703,
+        -0.12635664945516076,
+        -0.049463328970436496,
+        0.13583346599148757
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PE 18:0_18:1",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|744_30ev_03.txt|PE 18:0_18:1|PE-H",
+        "40|744_40ev_03.txt|PE 18:0_18:1|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.032759350195947,
+      -1.8016508484097065,
+      -1.1108941938170316,
+      0.8768724801675287,
+      -0.9745709294133936,
+      1.9774841412766562
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PE 18:0_20:4",
+        "[M-H]-",
+        "PE-H"
+      ],
+      [
+        "PE 18:0_22:4",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|766_35ev_03.txt|PE 18:0_20:4|PE-H",
+        "40|766_40ev_01.txt|PE 18:0_20:4|PE-H"
+      ],
+      [
+        "35|794_35ev_02.txt|PE 18:0_22:4|PE-H",
+        "40|794_40ev_01.txt|PE 18:0_22:4|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.0223417272578281,
+      -1.5007140939200891,
+      -0.9257226927956013,
+      0.5993087381704387,
+      0.8045811977444866,
+      0.04842526387245561,
+      -0.04822014032951871
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.1721970491201226,
+      2.9687601634355854e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      6.414295743036064e-32
+    ],
+    "covariance": [
+      [
+        5.6623975019961714e-08,
+        5.401878512624144e-05,
+        -0.00024359110438464262,
+        2.7227399456316337e-05,
+        2.6806184543393293e-05,
+        1.8184626070636947e-05,
+        0.00011729748521303457
+      ],
+      [
+        5.401878512624144e-05,
+        0.05153345637579043,
+        -0.23238381836985272,
+        0.025974704888849568,
+        0.02557286948493917,
+        0.01734797685899816,
+        0.11190079197614909
+      ],
+      [
+        -0.00024359110438464262,
+        -0.23238381836985272,
+        1.0479064056243288,
+        -0.11712975467984726,
+        -0.11531772707517919,
+        -0.07822857978103166,
+        -0.504602934614033
+      ],
+      [
+        2.7227399456316337e-05,
+        0.025974704888849568,
+        -0.11712975467984726,
+        0.013092180139110206,
+        0.012889640725600818,
+        0.008744000713733557,
+        0.05640200081309676
+      ],
+      [
+        2.6806184543393293e-05,
+        0.02557286948493917,
+        -0.11531772707517919,
+        0.012889640725600818,
+        0.012690234649212432,
+        0.008608728760745777,
+        0.05552944727013757
+      ],
+      [
+        1.8184626070636947e-05,
+        0.01734797685899816,
+        -0.07822857978103166,
+        0.008744000713733557,
+        0.008608728760745777,
+        0.005839940152776518,
+        0.03766974866870699
+      ],
+      [
+        0.00011729748521303457,
+        0.11190079197614909,
+        -0.504602934614033,
+        0.05640200081309676,
+        0.05552944727013757,
+        0.03766974866870699,
+        0.24298364840072947
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PE-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PE 18:0_18:1",
+        "[M-H]-",
+        "PE-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|744_35ev_00.txt|PE 18:0_18:1|PE-H",
+        "40|744_40ev_03.txt|PE 18:0_18:1|PE-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.4890651065919746,
+      -1.2195270360208492,
+      -0.704315162305823,
+      0.413243720783246,
+      -0.7134216154782342,
+      1.7349549864296863
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 13,
+    "identities": [
+      [
+        "PE O-16:0_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:0_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:0_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:0_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_24:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|724_30ev_01.txt|PE O-16:0_20:4|PEO-H",
+        "35|724_35ev_00.txt|PE O-16:0_20:4|PEO-H"
+      ],
+      [
+        "30|752_30ev_01.txt|PE O-16:0_22:4|PEO-H",
+        "35|752_35ev_00.txt|PE O-16:0_22:4|PEO-H"
+      ],
+      [
+        "30|722_30ev_01.txt|PE O-16:1_20:4|PEO-H",
+        "35|722_35ev_01.txt|PE O-16:1_20:4|PEO-H"
+      ],
+      [
+        "30|750_30ev_01.txt|PE O-16:1_22:4|PEO-H",
+        "35|750_35ev_04.txt|PE O-16:1_22:4|PEO-H"
+      ],
+      [
+        "30|746_30ev_01.txt|PE O-16:1_22:6|PEO-H",
+        "35|746_35ev_00.txt|PE O-16:1_22:6|PEO-H"
+      ],
+      [
+        "30|752_30ev_03.txt|PE O-18:0_20:4|PEO-H",
+        "35|752_35ev_03.txt|PE O-18:0_20:4|PEO-H"
+      ],
+      [
+        "30|776_30ev_04.txt|PE O-18:0_22:6|PEO-H",
+        "35|776_35ev_03.txt|PE O-18:0_22:6|PEO-H"
+      ],
+      [
+        "30|748_30ev_02.txt|PE O-18:2_20:4|PEO-H",
+        "35|748_35ev_01.txt|PE O-18:2_20:4|PEO-H"
+      ],
+      [
+        "30|776_30ev_04.txt|PE O-18:2_22:4|PEO-H",
+        "35|776_35ev_04.txt|PE O-18:2_22:4|PEO-H"
+      ],
+      [
+        "30|772_30ev_01.txt|PE O-18:2_22:6|PEO-H",
+        "35|772_35ev_00.txt|PE O-18:2_22:6|PEO-H"
+      ],
+      [
+        "30|800_30ev_04.txt|PE O-18:2_24:6|PEO-H",
+        "35|800_35ev_04.txt|PE O-18:2_24:6|PEO-H"
+      ],
+      [
+        "30|806_30ev_05.txt|PE O-20:1_22:4|PEO-H",
+        "35|806_35ev_05.txt|PE O-20:1_22:4|PEO-H"
+      ],
+      [
+        "30|802_30ev_04.txt|PE O-20:1_22:6|PEO-H",
+        "35|802_35ev_01.txt|PE O-20:1_22:6|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.4083041807638295,
+      0.15452121967826837,
+      0.0687477243313627,
+      0.1850352367541985
+    ],
+    "forced_rank_upper_bound": 3,
+    "singular_values": [
+      1.5658802626521726,
+      0.8973814396296929,
+      0.5665633098812589,
+      2.396070121101481e-16
+    ],
+    "empirical_variance_fraction": [
+      0.6852423303165465,
+      0.22505115647754784,
+      0.08970651320590572,
+      1.604449788699613e-32
+    ],
+    "covariance": [
+      [
+        0.03470534117361337,
+        0.009962647228858451,
+        -0.007758692644525119,
+        -0.0369092957579467
+      ],
+      [
+        0.009962647228858451,
+        0.11879332548524334,
+        -0.05720292413580915,
+        -0.07155304857829267
+      ],
+      [
+        -0.007758692644525119,
+        -0.05720292413580915,
+        0.0505948207784151,
+        0.014366796001919169
+      ],
+      [
+        -0.0369092957579467,
+        -0.07155304857829267,
+        0.014366796001919169,
+        0.09409554833432021
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 20,
+    "identities": [
+      [
+        "PE O-16:0_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:3",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_22:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_24:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_24:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:2_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-22:2_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|702_30ev_02.txt|PE O-16:0_18:1|PEO-H",
+        "35|702_35ev_00.txt|PE O-16:0_18:1|PEO-H"
+      ],
+      [
+        "30|674_30ev_01.txt|PE O-16:1_16:0|PEO-H",
+        "35|674_35ev_01.txt|PE O-16:1_16:0|PEO-H"
+      ],
+      [
+        "30|700_30ev_01.txt|PE O-16:1_18:1|PEO-H",
+        "35|700_35ev_01.txt|PE O-16:1_18:1|PEO-H"
+      ],
+      [
+        "30|730_30ev_01.txt|PE O-16:1_20:0|PEO-H",
+        "35|730_35ev_00.txt|PE O-16:1_20:0|PEO-H"
+      ],
+      [
+        "30|724_30ev_03.txt|PE O-16:1_20:3|PEO-H",
+        "35|724_35ev_01.txt|PE O-16:1_20:3|PEO-H"
+      ],
+      [
+        "30|702_30ev_02.txt|PE O-18:1_16:0|PEO-H",
+        "35|702_35ev_00.txt|PE O-18:1_16:0|PEO-H"
+      ],
+      [
+        "30|754_30ev_01.txt|PE O-18:1_20:2|PEO-H",
+        "35|754_35ev_02.txt|PE O-18:1_20:2|PEO-H"
+      ],
+      [
+        "30|782_30ev_03.txt|PE O-18:1_22:2|PEO-H",
+        "35|782_35ev_04.txt|PE O-18:1_22:2|PEO-H"
+      ],
+      [
+        "30|810_30ev_04.txt|PE O-18:1_24:2|PEO-H",
+        "35|810_35ev_01.txt|PE O-18:1_24:2|PEO-H"
+      ],
+      [
+        "30|700_30ev_01.txt|PE O-18:2_16:0|PEO-H",
+        "35|700_35ev_01.txt|PE O-18:2_16:0|PEO-H"
+      ],
+      [
+        "30|698_30ev_01.txt|PE O-18:2_16:1|PEO-H",
+        "35|698_35ev_01.txt|PE O-18:2_16:1|PEO-H"
+      ],
+      [
+        "30|726_30ev_01.txt|PE O-18:2_18:1|PEO-H",
+        "35|726_35ev_00.txt|PE O-18:2_18:1|PEO-H"
+      ],
+      [
+        "30|754_30ev_01.txt|PE O-18:2_20:1|PEO-H",
+        "35|754_35ev_02.txt|PE O-18:2_20:1|PEO-H"
+      ],
+      [
+        "30|752_30ev_03.txt|PE O-18:2_20:2|PEO-H",
+        "35|752_35ev_03.txt|PE O-18:2_20:2|PEO-H"
+      ],
+      [
+        "30|782_30ev_02.txt|PE O-18:2_22:1|PEO-H",
+        "35|782_35ev_04.txt|PE O-18:2_22:1|PEO-H"
+      ],
+      [
+        "30|810_30ev_04.txt|PE O-18:2_24:1|PEO-H",
+        "35|810_35ev_01.txt|PE O-18:2_24:1|PEO-H"
+      ],
+      [
+        "30|730_30ev_01.txt|PE O-20:1_16:0|PEO-H",
+        "35|730_35ev_01.txt|PE O-20:1_16:0|PEO-H"
+      ],
+      [
+        "30|812_30ev_04.txt|PE O-20:1_22:1|PEO-H",
+        "35|812_35ev_02.txt|PE O-20:1_22:1|PEO-H"
+      ],
+      [
+        "30|782_30ev_02.txt|PE O-20:2_20:1|PEO-H",
+        "35|782_35ev_04.txt|PE O-20:2_20:1|PEO-H"
+      ],
+      [
+        "30|810_30ev_04.txt|PE O-22:2_20:1|PEO-H",
+        "35|810_35ev_01.txt|PE O-22:2_20:1|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.014780053828222839,
+      -0.1476106931068643,
+      0.13283063927864153
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.7287979541325715,
+      1.0543692924423635,
+      1.5548998296472276e-16
+    ],
+    "empirical_variance_fraction": [
+      0.7288838695261136,
+      0.2711161304738865,
+      5.896233736310632e-33
+    ],
+    "covariance": [
+      [
+        0.03941796823283981,
+        -0.015216558109806743,
+        -0.02420141012303307
+      ],
+      [
+        -0.015216558109806743,
+        0.08370482595745048,
+        -0.06848826784764371
+      ],
+      [
+        -0.02420141012303307,
+        -0.06848826784764371,
+        0.09268967797067677
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 10,
+    "identities": [
+      [
+        "PE O-16:0_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:0_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:0_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:0_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|752_30ev_01.txt|PE O-16:0_22:4|PEO-H",
+        "40|752_40ev_00.txt|PE O-16:0_22:4|PEO-H"
+      ],
+      [
+        "30|748_30ev_01.txt|PE O-16:0_22:6|PEO-H",
+        "40|748_40ev_02.txt|PE O-16:0_22:6|PEO-H"
+      ],
+      [
+        "30|750_30ev_01.txt|PE O-16:1_22:4|PEO-H",
+        "40|750_40ev_02.txt|PE O-16:1_22:4|PEO-H"
+      ],
+      [
+        "30|746_30ev_01.txt|PE O-16:1_22:6|PEO-H",
+        "40|746_40ev_00.txt|PE O-16:1_22:6|PEO-H"
+      ],
+      [
+        "30|752_30ev_03.txt|PE O-18:0_20:4|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:0_20:4|PEO-H"
+      ],
+      [
+        "30|780_30ev_01.txt|PE O-18:0_22:4|PEO-H",
+        "40|780_40ev_03.txt|PE O-18:0_22:4|PEO-H"
+      ],
+      [
+        "30|748_30ev_02.txt|PE O-18:2_20:4|PEO-H",
+        "40|748_40ev_03.txt|PE O-18:2_20:4|PEO-H"
+      ],
+      [
+        "30|772_30ev_01.txt|PE O-18:2_22:6|PEO-H",
+        "40|772_40ev_02.txt|PE O-18:2_22:6|PEO-H"
+      ],
+      [
+        "30|806_30ev_05.txt|PE O-20:1_22:4|PEO-H",
+        "40|806_40ev_00.txt|PE O-20:1_22:4|PEO-H"
+      ],
+      [
+        "30|802_30ev_04.txt|PE O-20:1_22:6|PEO-H",
+        "40|802_40ev_03.txt|PE O-20:1_22:6|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.6635892277913653,
+      -0.03321023976439785,
+      0.12441390891286157,
+      0.5723855586429016
+    ],
+    "forced_rank_upper_bound": 3,
+    "singular_values": [
+      1.888504728606415,
+      0.6696213348651764,
+      0.2611750476710781,
+      1.9323293403767265e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8734758394621059,
+      0.10981794389630906,
+      0.01670621664158511,
+      9.144859555535631e-33
+    ],
+    "covariance": [
+      [
+        0.13434395546811662,
+        0.08482139155434362,
+        -0.10112765733293164,
+        -0.11803768968952867
+      ],
+      [
+        0.08482139155434362,
+        0.08331915264184836,
+        -0.06039940238544131,
+        -0.10774114181075072
+      ],
+      [
+        -0.10112765733293164,
+        -0.06039940238544131,
+        0.08587896269858644,
+        0.0756480970197865
+      ],
+      [
+        -0.11803768968952867,
+        -0.10774114181075072,
+        0.0756480970197865,
+        0.15013073448049286
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 17,
+    "identities": [
+      [
+        "PE O-16:0_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_22:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_24:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-22:1_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|702_30ev_02.txt|PE O-16:0_18:1|PEO-H",
+        "40|702_40ev_01.txt|PE O-16:0_18:1|PEO-H"
+      ],
+      [
+        "30|674_30ev_01.txt|PE O-16:1_16:0|PEO-H",
+        "40|674_40ev_01.txt|PE O-16:1_16:0|PEO-H"
+      ],
+      [
+        "30|700_30ev_01.txt|PE O-16:1_18:1|PEO-H",
+        "40|700_40ev_02.txt|PE O-16:1_18:1|PEO-H"
+      ],
+      [
+        "30|730_30ev_01.txt|PE O-16:1_20:0|PEO-H",
+        "40|730_40ev_00.txt|PE O-16:1_20:0|PEO-H"
+      ],
+      [
+        "30|702_30ev_02.txt|PE O-18:1_16:0|PEO-H",
+        "40|702_40ev_01.txt|PE O-18:1_16:0|PEO-H"
+      ],
+      [
+        "30|754_30ev_01.txt|PE O-18:1_20:2|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:1_20:2|PEO-H"
+      ],
+      [
+        "30|782_30ev_03.txt|PE O-18:1_22:2|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:1_22:2|PEO-H"
+      ],
+      [
+        "30|700_30ev_01.txt|PE O-18:2_16:0|PEO-H",
+        "40|700_40ev_02.txt|PE O-18:2_16:0|PEO-H"
+      ],
+      [
+        "30|698_30ev_01.txt|PE O-18:2_16:1|PEO-H",
+        "40|698_40ev_01.txt|PE O-18:2_16:1|PEO-H"
+      ],
+      [
+        "30|726_30ev_01.txt|PE O-18:2_18:1|PEO-H",
+        "40|726_40ev_00.txt|PE O-18:2_18:1|PEO-H"
+      ],
+      [
+        "30|754_30ev_01.txt|PE O-18:2_20:1|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:2_20:1|PEO-H"
+      ],
+      [
+        "30|752_30ev_03.txt|PE O-18:2_20:2|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:2_20:2|PEO-H"
+      ],
+      [
+        "30|782_30ev_02.txt|PE O-18:2_22:1|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:2_22:1|PEO-H"
+      ],
+      [
+        "30|810_30ev_04.txt|PE O-18:2_24:1|PEO-H",
+        "40|810_40ev_01.txt|PE O-18:2_24:1|PEO-H"
+      ],
+      [
+        "30|730_30ev_01.txt|PE O-20:1_16:0|PEO-H",
+        "40|730_40ev_02.txt|PE O-20:1_16:0|PEO-H"
+      ],
+      [
+        "30|754_30ev_01.txt|PE O-20:2_18:1|PEO-H",
+        "40|754_40ev_01.txt|PE O-20:2_18:1|PEO-H"
+      ],
+      [
+        "30|812_30ev_04.txt|PE O-22:1_20:1|PEO-H",
+        "40|812_40ev_01.txt|PE O-22:1_20:1|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.195973165362491,
+      -0.27968941774713024,
+      0.08371625238463934
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.947522300473347,
+      0.8516908023439076,
+      4.563900238795496e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8394551019575636,
+      0.16054489804243643,
+      4.6100419748466094e-32
+    ],
+    "covariance": [
+      [
+        0.03064042709736827,
+        -0.009012830051208452,
+        -0.021627597046159807
+      ],
+      [
+        -0.009012830051208452,
+        0.1195667883800342,
+        -0.11055395832882574
+      ],
+      [
+        -0.021627597046159807,
+        -0.11055395832882574,
+        0.13218155537498552
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 8,
+    "identities": [
+      [
+        "PE O-16:0_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:0_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:4",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_22:6",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|752_35ev_00.txt|PE O-16:0_22:4|PEO-H",
+        "40|752_40ev_00.txt|PE O-16:0_22:4|PEO-H"
+      ],
+      [
+        "35|750_35ev_04.txt|PE O-16:1_22:4|PEO-H",
+        "40|750_40ev_02.txt|PE O-16:1_22:4|PEO-H"
+      ],
+      [
+        "35|746_35ev_00.txt|PE O-16:1_22:6|PEO-H",
+        "40|746_40ev_00.txt|PE O-16:1_22:6|PEO-H"
+      ],
+      [
+        "35|752_35ev_03.txt|PE O-18:0_20:4|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:0_20:4|PEO-H"
+      ],
+      [
+        "35|748_35ev_01.txt|PE O-18:2_20:4|PEO-H",
+        "40|748_40ev_03.txt|PE O-18:2_20:4|PEO-H"
+      ],
+      [
+        "35|772_35ev_00.txt|PE O-18:2_22:6|PEO-H",
+        "40|772_40ev_02.txt|PE O-18:2_22:6|PEO-H"
+      ],
+      [
+        "35|806_35ev_05.txt|PE O-20:1_22:4|PEO-H",
+        "40|806_40ev_00.txt|PE O-20:1_22:4|PEO-H"
+      ],
+      [
+        "35|802_35ev_01.txt|PE O-20:1_22:6|PEO-H",
+        "40|802_40ev_03.txt|PE O-20:1_22:6|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.22219257864552916,
+      -0.16331163940888216,
+      -0.005839203707711788,
+      0.3913434217621231
+    ],
+    "forced_rank_upper_bound": 3,
+    "singular_values": [
+      1.0030857440037277,
+      0.8286209335920556,
+      0.5290901865131968,
+      1.1407229008279157e-16
+    ],
+    "empirical_variance_fraction": [
+      0.5100449455897822,
+      0.3480519996907506,
+      0.14190305471946704,
+      6.596182342078677e-33
+    ],
+    "covariance": [
+      [
+        0.09574732336285949,
+        -0.04022224192512438,
+        -0.012310598037884923,
+        -0.04321448339985017
+      ],
+      [
+        -0.04022224192512438,
+        0.04952192765799069,
+        0.0009081505480974709,
+        -0.01020783628096379
+      ],
+      [
+        -0.012310598037884923,
+        0.0009081505480974709,
+        0.047264730313708134,
+        -0.03586228282392069
+      ],
+      [
+        -0.04321448339985017,
+        -0.01020783628096379,
+        -0.03586228282392069,
+        0.08928460250473465
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PEO-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 19,
+    "identities": [
+      [
+        "PE O-16:0_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:0_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-16:1_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:1_22:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_16:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_20:2",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_22:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-18:2_24:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-20:1_16:0",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-22:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ],
+      [
+        "PE O-24:2_18:1",
+        "[M-H]-",
+        "PEO-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|676_35ev_00.txt|PE O-16:0_16:0|PEO-H",
+        "40|676_40ev_00.txt|PE O-16:0_16:0|PEO-H"
+      ],
+      [
+        "35|702_35ev_00.txt|PE O-16:0_18:1|PEO-H",
+        "40|702_40ev_01.txt|PE O-16:0_18:1|PEO-H"
+      ],
+      [
+        "35|674_35ev_01.txt|PE O-16:1_16:0|PEO-H",
+        "40|674_40ev_01.txt|PE O-16:1_16:0|PEO-H"
+      ],
+      [
+        "35|700_35ev_01.txt|PE O-16:1_18:1|PEO-H",
+        "40|700_40ev_02.txt|PE O-16:1_18:1|PEO-H"
+      ],
+      [
+        "35|730_35ev_00.txt|PE O-16:1_20:0|PEO-H",
+        "40|730_40ev_00.txt|PE O-16:1_20:0|PEO-H"
+      ],
+      [
+        "35|726_35ev_00.txt|PE O-16:1_20:2|PEO-H",
+        "40|726_40ev_00.txt|PE O-16:1_20:2|PEO-H"
+      ],
+      [
+        "35|702_35ev_00.txt|PE O-18:1_16:0|PEO-H",
+        "40|702_40ev_01.txt|PE O-18:1_16:0|PEO-H"
+      ],
+      [
+        "35|754_35ev_02.txt|PE O-18:1_20:2|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:1_20:2|PEO-H"
+      ],
+      [
+        "35|782_35ev_04.txt|PE O-18:1_22:2|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:1_22:2|PEO-H"
+      ],
+      [
+        "35|700_35ev_01.txt|PE O-18:2_16:0|PEO-H",
+        "40|700_40ev_02.txt|PE O-18:2_16:0|PEO-H"
+      ],
+      [
+        "35|698_35ev_01.txt|PE O-18:2_16:1|PEO-H",
+        "40|698_40ev_01.txt|PE O-18:2_16:1|PEO-H"
+      ],
+      [
+        "35|726_35ev_00.txt|PE O-18:2_18:1|PEO-H",
+        "40|726_40ev_00.txt|PE O-18:2_18:1|PEO-H"
+      ],
+      [
+        "35|754_35ev_02.txt|PE O-18:2_20:1|PEO-H",
+        "40|754_40ev_01.txt|PE O-18:2_20:1|PEO-H"
+      ],
+      [
+        "35|752_35ev_03.txt|PE O-18:2_20:2|PEO-H",
+        "40|752_40ev_02.txt|PE O-18:2_20:2|PEO-H"
+      ],
+      [
+        "35|782_35ev_04.txt|PE O-18:2_22:1|PEO-H",
+        "40|782_40ev_01.txt|PE O-18:2_22:1|PEO-H"
+      ],
+      [
+        "35|810_35ev_01.txt|PE O-18:2_24:1|PEO-H",
+        "40|810_40ev_01.txt|PE O-18:2_24:1|PEO-H"
+      ],
+      [
+        "35|730_35ev_01.txt|PE O-20:1_16:0|PEO-H",
+        "40|730_40ev_02.txt|PE O-20:1_16:0|PEO-H"
+      ],
+      [
+        "35|782_35ev_04.txt|PE O-22:2_18:1|PEO-H",
+        "40|782_40ev_01.txt|PE O-22:2_18:1|PEO-H"
+      ],
+      [
+        "35|810_35ev_01.txt|PE O-24:2_18:1|PEO-H",
+        "40|810_40ev_01.txt|PE O-24:2_18:1|PEO-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.15568563841855262,
+      -0.09860058479349643,
+      -0.057085053625056156
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      2.3447580124750207,
+      1.008050443578698,
+      3.168647998171958e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8440041469223509,
+      0.15599585307764902,
+      1.541333140579158e-32
+    ],
+    "covariance": [
+      [
+        0.039674532732789286,
+        -0.004003967319220422,
+        -0.03567056541356886
+      ],
+      [
+        -0.004003967319220422,
+        0.14527542997157059,
+        -0.1412714626523502
+      ],
+      [
+        -0.03567056541356886,
+        -0.1412714626523502,
+        0.17694202806591905
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PG-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "p_glycerol_sn2",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PG 16:0_18:1",
+        "[M-H]-",
+        "PG-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|747_30ev_03.txt|PG 16:0_18:1|PG-H",
+        "35|747_35ev_01.txt|PG 16:0_18:1|PG-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.3078803491697162,
+      -0.796031999647142,
+      0.7801773972611652,
+      -0.29545686832842033,
+      0.4596077147176548,
+      -0.7160379940629349,
+      0.25986140088996124
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_head_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 16:0_20:4",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|857_30ev_01.txt|PI 16:0_20:4|PI-H",
+        "35|857_35ev_00.txt|PI 16:0_20:4|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.17468461946073188,
+      0.13160016312597578,
+      -0.3013025205858769,
+      0.20450500396678617,
+      -0.2094872659676168
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_head_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 18:0_18:1",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|863_30ev_01.txt|PI 18:0_18:1|PI-H",
+        "35|863_35ev_00.txt|PI 18:0_18:1|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.18124285473376556,
+      0.29387343666420607,
+      -0.4553974613805333,
+      -0.01971883001743846
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_head_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 18:1_18:1",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|861_30ev_01.txt|PI 18:1_18:1|PI-H",
+        "35|861_35ev_00.txt|PI 18:1_18:1|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.23671230502806545,
+      -0.8791856199270698,
+      0.6424733148990044
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_head_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 16:0_20:4",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|857_30ev_01.txt|PI 16:0_20:4|PI-H",
+        "40|857_40ev_00.txt|PI 16:0_20:4|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7025728314333903,
+      0.32417087647485654,
+      -0.5267805654796694,
+      0.1718160254443757,
+      -0.671779167872953
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_head_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 18:0_18:1",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|863_30ev_01.txt|PI 18:0_18:1|PI-H",
+        "40|863_40ev_03.txt|PI 18:0_18:1|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.8943688394752929,
+      0.7703149940019096,
+      -1.0656009283022896,
+      -0.5990829051749131
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_head_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 16:0_20:4",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|857_35ev_00.txt|PI 16:0_20:4|PI-H",
+        "40|857_40ev_00.txt|PI 16:0_20:4|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.5073003764455516,
+      0.17198287782177368,
+      0.10293917763553506,
+      -0.24606588042089955,
+      -0.05327681404951734,
+      -0.48287973743244333
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PI-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_head_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PI 18:0_18:1",
+        "[M-H]-",
+        "PI-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|863_35ev_00.txt|PI 18:0_18:1|PI-H",
+        "40|863_40ev_03.txt|PI 18:0_18:1|PI-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7131259847415272,
+      0.47644155733770366,
+      -0.6102034669217562,
+      -0.5793640751574747
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 22:6_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|878_30ev_00.txt|PS 22:6_22:6|PS-H",
+        "35|878_35ev_04.txt|PS 22:6_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.205128481977209,
+      1.205128481977209
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_fragment_co2",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 20:4_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|854_30ev_01.txt|PS 20:4_22:6|PS-H",
+        "35|854_35ev_01.txt|PS 20:4_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.296028579761687,
+      0.5783913002538624,
+      0.6561985693370452,
+      -0.5587138185019843,
+      1.8336227962925586,
+      0.1417919988399683,
+      0.04520222833001829,
+      0.286596816248989,
+      -0.17764550875336987,
+      -0.5094158022854007
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PS 18:0_20:4",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:0_22:4",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|810_30ev_02.txt|PS 18:0_20:4|PS-H",
+        "35|810_35ev_02.txt|PS 18:0_20:4|PS-H"
+      ],
+      [
+        "30|838_30ev_02.txt|PS 18:0_22:4|PS-H",
+        "35|838_35ev_04.txt|PS 18:0_22:4|PS-H"
+      ],
+      [
+        "30|832_30ev_02.txt|PS 18:1_22:6|PS-H",
+        "35|832_35ev_00.txt|PS 18:1_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.5656720962926383,
+      0.6470826708864161,
+      0.7358912856339067,
+      -0.39305328331758677,
+      -0.7199454517476749,
+      0.28998250951955656,
+      1.1957084685547692,
+      0.1473971497294713,
+      -0.3373912529662199
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      1.1469578875115327,
+      0.4623779948525736,
+      2.0618933409164957e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8602023157786773,
+      0.1397976842213227,
+      2.779956849085621e-32
+    ],
+    "covariance": [
+      [
+        0.0008406667922416312,
+        0.0033610025815424076,
+        0.0040108949837294496,
+        -0.003713083423831292,
+        -0.003737206258102345,
+        0.009337902353466532,
+        -0.01664855593736095,
+        0.004173807861918528,
+        0.0023745710463960465
+      ],
+      [
+        0.0033610025815424076,
+        0.016679130863174057,
+        0.008866917879448724,
+        -0.023163527822535532,
+        -0.002614956942009891,
+        0.0512337774983885,
+        -0.08349799439384838,
+        0.017166008715688085,
+        0.011969641620152047
+      ],
+      [
+        0.0040108949837294496,
+        0.008866917879448724,
+        0.03498892460118509,
+        0.0006798213879150505,
+        -0.04508874900371088,
+        0.013812646652658252,
+        -0.041978565899819305,
+        0.01885427144297929,
+        0.0058538379556143496
+      ],
+      [
+        -0.003713083423831292,
+        -0.023163527822535532,
+        0.0006798213879150505,
+        0.03774583839410133,
+        -0.015123678505595834,
+        -0.07691367165688123,
+        0.11699431282391116,
+        -0.019664248616354994,
+        -0.01684176258072866
+      ],
+      [
+        -0.003737206258102345,
+        -0.002614956942009891,
+        -0.04508874900371088,
+        -0.015123678505595834,
+        0.06348378496639102,
+        0.011343717230302225,
+        0.009611656605114507,
+        -0.016733272700967836,
+        -0.001141295391421002
+      ],
+      [
+        0.009337902353466532,
+        0.0512337774983885,
+        0.013812646652658252,
+        -0.07691367165688123,
+        0.011343717230302225,
+        0.1633286227588666,
+        -0.257552043991367,
+        0.04841566351352284,
+        0.03699338564104331
+      ],
+      [
+        -0.01664855593736095,
+        -0.08349799439384838,
+        -0.041978565899819305,
+        0.11699431282391116,
+        0.009611656605114507,
+        -0.257552043991367,
+        0.4181942126705459,
+        -0.08516081047056485,
+        -0.059962211406611135
+      ],
+      [
+        0.004173807861918528,
+        0.017166008715688085,
+        0.01885427144297929,
+        -0.019664248616354994,
+        -0.016733272700967836,
+        0.04841566351352284,
+        -0.08516081047056485,
+        0.020793234508060286,
+        0.012155345745718664
+      ],
+      [
+        0.0023745710463960465,
+        0.011969641620152047,
+        0.0058538379556143496,
+        -0.01684176258072866,
+        -0.001141295391421002,
+        0.03699338564104331,
+        -0.059962211406611135,
+        0.012155345745718664,
+        0.008598487369836384
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:0_22:5",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:4",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|836_30ev_02.txt|PS 18:0_22:5|PS-H",
+        "35|836_35ev_03.txt|PS 18:0_22:5|PS-H"
+      ],
+      [
+        "30|808_30ev_01.txt|PS 18:1_20:4|PS-H",
+        "35|808_35ev_01.txt|PS 18:1_20:4|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.8185426276368721,
+      1.2357729121387284,
+      0.8113688108698959,
+      -0.32466474911571636,
+      -0.7605913404312958,
+      0.8903534706551266,
+      0.20417840031261733,
+      -0.23787487679248384
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.5717335239595658,
+      1.858017606298207e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      1.3974678233433561e-32
+    ],
+    "covariance": [
+      [
+        0.16309466533566788,
+        0.027745520057017945,
+        0.03032340516513377,
+        -0.509952547889197,
+        0.32414316953977135,
+        -0.07524048834033399,
+        -0.019006326137990654,
+        0.058892602269930754
+      ],
+      [
+        0.027745520057017945,
+        0.004720043305217974,
+        0.005158590837258394,
+        -0.08675267591657294,
+        0.05514294899407886,
+        -0.012799845255821611,
+        -0.0032333393737098387,
+        0.010018757352531238
+      ],
+      [
+        0.03032340516513377,
+        0.005158590837258394,
+        0.005637884592462939,
+        -0.09481301974415114,
+        0.06026637745162079,
+        -0.013989101409729001,
+        -0.003533754626472882,
+        0.010949617733877143
+      ],
+      [
+        -0.509952547889197,
+        -0.08675267591657294,
+        -0.09481301974415114,
+        1.5944825697607408,
+        -1.0135073078416421,
+        0.23525649140401184,
+        0.0594275994259741,
+        -0.1841411091991638
+      ],
+      [
+        0.32414316953977135,
+        0.05514294899407886,
+        0.06026637745162079,
+        -1.0135073078416421,
+        0.6442196876460987,
+        -0.14953702083487094,
+        -0.03777420176800575,
+        0.11704634681294933
+      ],
+      [
+        -0.07524048834033399,
+        -0.012799845255821611,
+        -0.013989101409729001,
+        0.23525649140401184,
+        -0.14953702083487094,
+        0.03471070665641127,
+        0.008768191511567044,
+        -0.02716893373123464
+      ],
+      [
+        -0.019006326137990654,
+        -0.0032333393737098387,
+        -0.003533754626472882,
+        0.0594275994259741,
+        -0.03777420176800575,
+        0.008768191511567044,
+        0.002214912624641595,
+        -0.006863081656003625
+      ],
+      [
+        0.058892602269930754,
+        0.010018757352531238,
+        0.010949617733877143,
+        -0.1841411091991638,
+        0.11704634681294933,
+        -0.02716893373123464,
+        -0.006863081656003625,
+        0.021265800417113623
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 16:0_20:4",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|782_30ev_04.txt|PS 16:0_20:4|PS-H",
+        "35|782_35ev_01.txt|PS 16:0_20:4|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.3977777449163864,
+      1.4290553328159246,
+      0.846958333378562,
+      0.7087098229986707,
+      -0.5869457442767708
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|834_30ev_02.txt|PS 18:0_22:6|PS-H",
+        "35|834_35ev_01.txt|PS 18:0_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.331627215928341,
+      1.1858713391054154,
+      0.13414964839747084,
+      -0.35860821681233546,
+      0.40801955934699063,
+      -0.03780511410920029
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 16:0_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|806_30ev_02.txt|PS 16:0_22:6|PS-H",
+        "35|806_35ev_00.txt|PS 16:0_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.4995867614631016,
+      0.5808384441443277,
+      0.2278999623321885,
+      -1.1488888160403656,
+      -0.040146135602733474,
+      1.3827930868988878,
+      -0.8283658179381768,
+      -0.6737174852572296
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_22:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|842_30ev_04.txt|PS 18:1_22:1|PS-H",
+        "35|842_35ev_04.txt|PS 18:1_22:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.12028878653936381,
+      -0.28769385386907653,
+      -0.43148050830060003,
+      0.83946314870904
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 4,
+    "identities": [
+      [
+        "PS 18:0_20:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:0_20:3",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_24:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|816_30ev_03.txt|PS 18:0_20:1|PS-H",
+        "35|816_35ev_02.txt|PS 18:0_20:1|PS-H"
+      ],
+      [
+        "30|812_30ev_01.txt|PS 18:0_20:3|PS-H",
+        "35|812_35ev_00.txt|PS 18:0_20:3|PS-H"
+      ],
+      [
+        "30|814_30ev_04.txt|PS 18:1_20:1|PS-H",
+        "35|814_35ev_00.txt|PS 18:1_20:1|PS-H"
+      ],
+      [
+        "30|870_30ev_05.txt|PS 18:1_24:1|PS-H",
+        "35|870_35ev_03.txt|PS 18:1_24:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.602364204993696,
+      -0.29224623520272347,
+      -0.6412460529693278,
+      0.7388962111253848,
+      -0.12549933085380535,
+      -0.2822687970932245
+    ],
+    "forced_rank_upper_bound": 3,
+    "singular_values": [
+      1.3170768597865545,
+      0.4335145212334829,
+      0.354502643340097,
+      1.351675863688247e-16
+    ],
+    "empirical_variance_fraction": [
+      0.8468939089290907,
+      0.09175168930056131,
+      0.061354401770347934,
+      8.919733685638937e-33
+    ],
+    "covariance": [
+      [
+        0.05329866531854079,
+        0.04742995753901754,
+        -0.008666719164932677,
+        0.031182618035674927,
+        -0.15342850807315261,
+        0.030183986344852035
+      ],
+      [
+        0.04742995753901754,
+        0.07665256365335078,
+        -0.026329731443169673,
+        0.005011900580147523,
+        -0.12906128339256243,
+        0.026296593063216262
+      ],
+      [
+        -0.008666719164932677,
+        -0.026329731443169673,
+        0.035153863204555665,
+        -0.010085570825283253,
+        0.006562834290878012,
+        0.0033653239379519417
+      ],
+      [
+        0.031182618035674927,
+        0.005011900580147523,
+        -0.010085570825283253,
+        0.045896510860236585,
+        -0.08421425472771614,
+        0.012208796076940373
+      ],
+      [
+        -0.15342850807315261,
+        -0.12906128339256243,
+        0.006562834290878012,
+        -0.08421425472771614,
+        0.4519802239511856,
+        -0.09183901204863247
+      ],
+      [
+        0.030183986344852035,
+        0.026296593063216262,
+        0.0033653239379519417,
+        0.012208796076940373,
+        -0.09183901204863247,
+        0.019784312625671843
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:1_20:0",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:0",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|816_30ev_03.txt|PS 18:1_20:0|PS-H",
+        "35|816_35ev_02.txt|PS 18:1_20:0|PS-H"
+      ],
+      [
+        "30|844_30ev_03.txt|PS 18:1_22:0|PS-H",
+        "35|844_35ev_04.txt|PS 18:1_22:0|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.14046722776361675,
+      -0.0683811116611317,
+      -0.14400602421907638,
+      0.8406732987338745,
+      -0.48781893509005025
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.0529951982350374,
+      8.032350411739543e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      5.8187876867454574e-33
+    ],
+    "covariance": [
+      [
+        0.7928823510270874,
+        -0.1482441495295176,
+        -0.08822600705552372,
+        -0.4597649374342903,
+        -0.09664725700775534
+      ],
+      [
+        -0.1482441495295176,
+        0.027717009769812857,
+        0.01649549818505736,
+        0.08596163358302542,
+        0.01807000799162186
+      ],
+      [
+        -0.08822600705552372,
+        0.01649549818505736,
+        0.009817128998871362,
+        0.05115919727739576,
+        0.010754182594199193
+      ],
+      [
+        -0.4597649374342903,
+        0.08596163358302542,
+        0.05115919727739576,
+        0.2666017189311045,
+        0.05604238764276438
+      ],
+      [
+        -0.09664725700775534,
+        0.01807000799162186,
+        0.010754182594199193,
+        0.05604238764276438,
+        0.011780678779169858
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|844_30ev_03.txt|PS 18:0_22:1|PS-H",
+        "35|844_35ev_04.txt|PS 18:0_22:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.6519614984064841,
+      -1.1110908568202886,
+      0.8998008205122559,
+      0.8230284408237203,
+      0.04022309389079659
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PS 16:0_18:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 17:0_18:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 20:0_20:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|760_30ev_01.txt|PS 16:0_18:1|PS-H",
+        "35|760_35ev_00.txt|PS 16:0_18:1|PS-H"
+      ],
+      [
+        "30|774_30ev_03.txt|PS 17:0_18:1|PS-H",
+        "35|774_35ev_01.txt|PS 17:0_18:1|PS-H"
+      ],
+      [
+        "30|844_30ev_03.txt|PS 20:0_20:1|PS-H",
+        "35|844_35ev_04.txt|PS 20:0_20:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6625579711141005,
+      0.03075753650045297,
+      -0.2602507309595477,
+      -0.04922852119341999,
+      -0.3838362554615859
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      2.5986405055117108,
+      0.5501037540446707,
+      2.1499376424746297e-16
+    ],
+    "empirical_variance_fraction": [
+      0.957109752562529,
+      0.04289024743747109,
+      6.551203070966438e-33
+    ],
+    "covariance": [
+      [
+        0.10965599514197644,
+        0.01048858514676354,
+        -0.4714924033777275,
+        0.12935481777269284,
+        0.22199300531629468
+      ],
+      [
+        0.01048858514676354,
+        0.01687010265611003,
+        0.028116042423326795,
+        0.006044243920751569,
+        -0.06151897414695193
+      ],
+      [
+        -0.4714924033777275,
+        0.028116042423326795,
+        2.3651266319810547,
+        -0.5853938847206663,
+        -1.3363563863059873
+      ],
+      [
+        0.12935481777269284,
+        0.006044243920751569,
+        -0.5853938847206663,
+        0.15511652333076728,
+        0.29487829969645457
+      ],
+      [
+        0.22199300531629468,
+        -0.06151897414695193,
+        -1.3363563863059873,
+        0.29487829969645457,
+        0.8810040554401899
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:1_18:2",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:3",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|784_30ev_04.txt|PS 18:1_18:2|PS-H",
+        "35|784_35ev_02.txt|PS 18:1_18:2|PS-H"
+      ],
+      [
+        "30|810_30ev_05.txt|PS 18:1_20:3|PS-H",
+        "35|810_35ev_05.txt|PS 18:1_20:3|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.4832990319222734,
+      -0.04376056903959151,
+      0.7862281018900059,
+      -1.2257665647726879
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.2446780342301083,
+      1.9778890766513093e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      2.525165303516206e-34
+    ],
+    "covariance": [
+      [
+        0.49473398301114757,
+        0.022609776339134902,
+        0.18141803673693296,
+        -0.6987617960872154
+      ],
+      [
+        0.022609776339134902,
+        0.0010332865815975,
+        0.008290963174879758,
+        -0.03193402609561216
+      ],
+      [
+        0.18141803673693296,
+        0.008290963174879758,
+        0.06652565860377042,
+        -0.25623465851558314
+      ],
+      [
+        -0.6987617960872154,
+        -0.03193402609561216,
+        -0.25623465851558314,
+        0.9869304806984107
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 20:1_22:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|870_30ev_05.txt|PS 20:1_22:1|PS-H",
+        "35|870_35ev_03.txt|PS 20:1_22:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -0.6642924083717867,
+      0.49137306974516076,
+      0.17291933862662606
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      35.0
+    ],
+    "channels": [
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:2",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|814_30ev_05.txt|PS 18:0_20:2|PS-H",
+        "35|814_35ev_00.txt|PS 18:0_20:2|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.2227820999733456,
+      0.25403237261622047,
+      -1.4768144725895662
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:0_22:4",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|838_30ev_02.txt|PS 18:0_22:4|PS-H",
+        "40|838_40ev_04.txt|PS 18:0_22:4|PS-H"
+      ],
+      [
+        "30|832_30ev_02.txt|PS 18:1_22:6|PS-H",
+        "40|832_40ev_04.txt|PS 18:1_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.1669057208578613,
+      1.4392541000589905,
+      1.6503099421259217,
+      -1.1251289454544708,
+      -1.3034294397359385,
+      0.7023667630590062,
+      2.514547994944727,
+      -0.018906966124059933,
+      -0.6921077280163148
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.5795039110081315,
+      2.532488337206393e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      2.5707124259622317e-32
+    ],
+    "covariance": [
+      [
+        0.007088001979137065,
+        0.0165823881637523,
+        -0.021835207762849133,
+        -0.10389462905776065,
+        -0.0018462037114558975,
+        0.046667352363681094,
+        0.060273984185127444,
+        0.01006839265813511,
+        -0.013104078817767354
+      ],
+      [
+        0.0165823881637523,
+        0.0387945147338728,
+        -0.05108349176897713,
+        -0.24306159510618427,
+        -0.004319195545209065,
+        0.10917832045574248,
+        0.14101105006397505,
+        0.02355501532500936,
+        -0.030657006321981532
+      ],
+      [
+        -0.021835207762849133,
+        -0.05108349176897713,
+        0.06726526028775638,
+        0.3200564584487509,
+        0.005687391415922057,
+        -0.1437628456654471,
+        -0.18567926070714358,
+        -0.031016560968157383,
+        0.04036825672014496
+      ],
+      [
+        -0.10389462905776065,
+        -0.24306159510618427,
+        0.3200564584487509,
+        1.522868359633813,
+        0.027061314363532894,
+        -0.6840414657337244,
+        -0.8834849718128236,
+        -0.1475806473395173,
+        0.1920771766039134
+      ],
+      [
+        -0.0018462037114558975,
+        -0.004319195545209065,
+        0.005687391415922057,
+        0.027061314363532894,
+        0.00048087855424223486,
+        -0.012155391518123913,
+        -0.015699495236366174,
+        -0.0026225026387630044,
+        0.0034132043162208698
+      ],
+      [
+        0.046667352363681094,
+        0.10917832045574248,
+        -0.1437628456654471,
+        -0.6840414657337244,
+        -0.012155391518123913,
+        0.30725750120362055,
+        0.39684346401279286,
+        0.06629022244859688,
+        -0.0862771575671386
+      ],
+      [
+        0.060273984185127444,
+        0.14101105006397505,
+        -0.18567926070714358,
+        -0.8834849718128236,
+        -0.015699495236366174,
+        0.39684346401279286,
+        0.5125496832876577,
+        0.08561822381431838,
+        -0.11143267760753817
+      ],
+      [
+        0.01006839265813511,
+        0.02355501532500936,
+        -0.031016560968157383,
+        -0.1475806473395173,
+        -0.0026225026387630044,
+        0.06629022244859688,
+        0.08561822381431838,
+        0.014301989618057454,
+        -0.018614132917679493
+      ],
+      [
+        -0.013104078817767354,
+        -0.030657006321981532,
+        0.04036825672014496,
+        0.1920771766039134,
+        0.0034132043162208698,
+        -0.0862771575671386,
+        -0.11143267760753817,
+        -0.018614132917679493,
+        0.024226415591825902
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:5",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|836_30ev_02.txt|PS 18:0_22:5|PS-H",
+        "40|836_40ev_00.txt|PS 18:0_22:5|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.0365918374498944,
+      2.0588372941593382,
+      1.7204611641577041,
+      -1.6745201139058503,
+      1.5270060726272374,
+      0.130476823849479,
+      -0.7256694034380141
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:4",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|810_30ev_02.txt|PS 18:0_20:4|PS-H",
+        "40|810_40ev_03.txt|PS 18:0_20:4|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.2956325607484755,
+      1.5571434918124787,
+      1.4488408772083037,
+      -1.2409919221772618,
+      1.0349545700193556,
+      1.6461959776253714,
+      -0.21555975372400282,
+      -0.9349506800157695
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_20:4",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|808_30ev_01.txt|PS 18:1_20:4|PS-H",
+        "40|808_40ev_02.txt|PS 18:1_20:4|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -3.7784770470539497,
+      2.4947592839660806,
+      1.8824930089314194,
+      -1.2312955237479133,
+      1.7607901088858802,
+      -0.6167337798635261,
+      -0.5115360511179915
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_ketene_loss",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|834_30ev_02.txt|PS 18:0_22:6|PS-H",
+        "40|834_40ev_03.txt|PS 18:0_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -2.807754774446138,
+      2.404496849050237,
+      -0.0012500154379412147,
+      0.5622995453835408,
+      -0.15779160454969915
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_20:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|814_30ev_04.txt|PS 18:1_20:1|PS-H",
+        "40|814_40ev_03.txt|PS 18:1_20:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.2491583696289639,
+      1.0622542631815879,
+      -0.6170618746175265,
+      -0.8451874111124204,
+      1.3793761795841069,
+      -1.2752418313615073,
+      -0.9532976953032043
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:2",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|814_30ev_05.txt|PS 18:0_20:2|PS-H",
+        "40|814_40ev_04.txt|PS 18:0_20:2|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.0478771954324988,
+      -1.0952801606334448,
+      1.7610873111383754,
+      -0.719490820671397,
+      -0.9941935252660323
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 16:1_18:0",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:0",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|760_30ev_01.txt|PS 16:1_18:0|PS-H",
+        "40|760_40ev_02.txt|PS 16:1_18:0|PS-H"
+      ],
+      [
+        "30|816_30ev_03.txt|PS 18:1_20:0|PS-H",
+        "40|816_40ev_05.txt|PS 18:1_20:0|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.20555798481722587,
+      -0.2412500766308558,
+      -1.381081358855112,
+      1.416773450668742
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.3364182722980242,
+      2.1160782406849524e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      2.507140272029653e-32
+    ],
+    "covariance": [
+      [
+        1.2716996407927035,
+        -0.17974997697729259,
+        -0.6590368531064247,
+        -0.4329128107089862
+      ],
+      [
+        -0.17974997697729259,
+        0.025406985412999728,
+        0.09315238864046936,
+        0.0611906029238235
+      ],
+      [
+        -0.6590368531064247,
+        0.09315238864046936,
+        0.3415347145035627,
+        0.22434974996239265
+      ],
+      [
+        -0.4329128107089862,
+        0.0611906029238235,
+        0.22434974996239265,
+        0.14737245782277006
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 5,
+    "identities": [
+      [
+        "PS 16:0_18:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:0_18:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:0_20:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:0",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_24:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|760_30ev_01.txt|PS 16:0_18:1|PS-H",
+        "40|760_40ev_02.txt|PS 16:0_18:1|PS-H"
+      ],
+      [
+        "30|788_30ev_02.txt|PS 18:0_18:1|PS-H",
+        "40|788_40ev_00.txt|PS 18:0_18:1|PS-H"
+      ],
+      [
+        "30|816_30ev_03.txt|PS 18:0_20:1|PS-H",
+        "40|816_40ev_04.txt|PS 18:0_20:1|PS-H"
+      ],
+      [
+        "30|844_30ev_03.txt|PS 18:1_22:0|PS-H",
+        "40|844_40ev_02.txt|PS 18:1_22:0|PS-H"
+      ],
+      [
+        "30|870_30ev_05.txt|PS 18:1_24:1|PS-H",
+        "40|870_40ev_02.txt|PS 18:1_24:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.2469616087187052,
+      -0.2685783799907365,
+      -0.989355329894812,
+      1.3207092264659734,
+      -0.3218447919911197,
+      -0.9878923333080103
+    ],
+    "forced_rank_upper_bound": 4,
+    "singular_values": [
+      1.7846013074041835,
+      1.0402199199131137,
+      0.2933012280801883,
+      0.2076697993475459,
+      1.1728943453906052e-16
+    ],
+    "empirical_variance_fraction": [
+      0.7244752902677001,
+      0.24614527086312668,
+      0.01956901322517924,
+      0.009810425643994026,
+      3.12938465717743e-33
+    ],
+    "covariance": [
+      [
+        0.09372381836049334,
+        -0.004094706070920014,
+        -0.06947360102333061,
+        0.008783263568585671,
+        -0.11688458852850711,
+        0.08794581369367879
+      ],
+      [
+        -0.004094706070920014,
+        0.009513410192128254,
+        0.007892031646133847,
+        0.005709935919759325,
+        -0.027722537079958105,
+        0.0087018653928567
+      ],
+      [
+        -0.06947360102333061,
+        0.007892031646133847,
+        0.23213766349764625,
+        0.0143422949732174,
+        -0.18308963555822333,
+        -0.0018087535354436523
+      ],
+      [
+        0.008783263568585671,
+        0.005709935919759325,
+        0.0143422949732174,
+        0.019178793874718873,
+        -0.06629069091563469,
+        0.018276402579353427
+      ],
+      [
+        -0.11688458852850711,
+        -0.027722537079958105,
+        -0.18308963555822333,
+        -0.06629069091563469,
+        0.6257760051597858,
+        -0.23178855307746268
+      ],
+      [
+        0.08794581369367879,
+        0.0087018653928567,
+        -0.0018087535354436523,
+        0.018276402579353427,
+        -0.23178855307746268,
+        0.1186732249470175
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_22:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|842_30ev_04.txt|PS 18:1_22:1|PS-H",
+        "40|842_40ev_02.txt|PS 18:1_22:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.2644126115470504,
+      -1.1451242056585655,
+      -0.4813014149079362,
+      2.0893420817014925,
+      -0.7273290726820412
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:3",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|812_30ev_01.txt|PS 18:0_20:3|PS-H",
+        "40|812_40ev_04.txt|PS 18:0_20:3|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.4754320792035363,
+      -1.8321563049891323,
+      1.6873622835831472,
+      -0.021420934302071704,
+      -1.3092171234954795
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      30.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_18:2",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "30|784_30ev_04.txt|PS 18:1_18:2|PS-H",
+        "40|784_40ev_00.txt|PS 18:1_18:2|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.040348809696253,
+      -2.326918708921789,
+      1.286569899225536
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:0_22:4",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|838_35ev_04.txt|PS 18:0_22:4|PS-H",
+        "40|838_40ev_04.txt|PS 18:0_22:4|PS-H"
+      ],
+      [
+        "35|832_35ev_00.txt|PS 18:1_22:6|PS-H",
+        "40|832_40ev_04.txt|PS 18:1_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.5871362980879389,
+      0.8662594204421025,
+      0.9424784144013207,
+      -0.839828450003422,
+      -0.5787507262646125,
+      0.6449848360090975,
+      0.9470431749473136,
+      -0.09369312861609744,
+      -0.3013572428277634
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.5066645988602567,
+      4.852291074225052e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      1.0371952564239102e-31
+    ],
+    "covariance": [
+      [
+        0.011300102740210923,
+        0.023126668848462324,
+        -0.0004153575079096858,
+        -0.12306641355745103,
+        -0.040189081739830636,
+        0.054123865129495616,
+        0.06721471933633276,
+        0.023317577731986668,
+        -0.015412080981296938
+      ],
+      [
+        0.023126668848462324,
+        0.047330791969105085,
+        -0.0008500662126697244,
+        -0.25186639963752744,
+        -0.08225054285687834,
+        0.11076932081285824,
+        0.13756092237128545,
+        0.04772150403880923,
+        -0.03154219933344478
+      ],
+      [
+        -0.0004153575079096858,
+        -0.0008500662126697244,
+        1.5267282372843676e-05,
+        0.004523548149762354,
+        0.001477228766888462,
+        -0.001989429145509488,
+        -0.0024706092466790295,
+        -0.0008570834442756215,
+        0.0005665013580198894
+      ],
+      [
+        -0.12306641355745103,
+        -0.25186639963752744,
+        0.004523548149762354,
+        1.3402835791925614,
+        0.43768860050168723,
+        -0.5894486202901446,
+        -0.7320176318006404,
+        -0.253945537513681,
+        0.16784887495543346
+      ],
+      [
+        -0.040189081739830636,
+        -0.08225054285687834,
+        0.001477228766888462,
+        0.43768860050168723,
+        0.14293341646738336,
+        -0.1924928020366182,
+        -0.23905073357565157,
+        -0.08292951480086941,
+        0.05481342927388908
+      ],
+      [
+        0.054123865129495616,
+        0.11076932081285824,
+        -0.001989429145509488,
+        -0.5894486202901446,
+        -0.1924928020366182,
+        0.2592359418230522,
+        0.32193693169985027,
+        0.11168371308887941,
+        -0.07381892108186353
+      ],
+      [
+        0.06721471933633276,
+        0.13756092237128545,
+        -0.0024706092466790295,
+        -0.7320176318006404,
+        -0.23905073357565157,
+        0.32193693169985027,
+        0.3998033114677378,
+        0.13869647727020154,
+        -0.09167338752243677
+      ],
+      [
+        0.023317577731986668,
+        0.04772150403880923,
+        -0.0008570834442756215,
+        -0.253945537513681,
+        -0.08292951480086941,
+        0.11168371308887941,
+        0.13869647727020154,
+        0.04811544140678246,
+        -0.03180257777783327
+      ],
+      [
+        -0.015412080981296938,
+        -0.03154219933344478,
+        0.0005665013580198894,
+        0.16784887495543346,
+        0.05481342927388908,
+        -0.07381892108186353,
+        -0.09167338752243677,
+        -0.03180257777783327,
+        0.021020361109532804
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:5",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|836_35ev_03.txt|PS 18:0_22:5|PS-H",
+        "40|836_40ev_00.txt|PS 18:0_22:5|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.4813180480042805,
+      0.7967804257594548,
+      0.8782947386897759,
+      -0.4346755764229826,
+      0.790688417884271,
+      0.03697143856648305,
+      -0.018127012467452297,
+      -0.5686143840052692
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_fragment_co2",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:0_20:4",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:4",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|810_35ev_02.txt|PS 18:0_20:4|PS-H",
+        "40|810_40ev_03.txt|PS 18:0_20:4|PS-H"
+      ],
+      [
+        "35|808_35ev_01.txt|PS 18:1_20:4|PS-H",
+        "40|808_40ev_02.txt|PS 18:1_20:4|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.7106573383035428,
+      1.0403305942523258,
+      0.89612895522224,
+      -0.21123001785077616,
+      0.5148388699541177,
+      0.5779753299765731,
+      -0.6755798000355162,
+      -0.4318065932154215
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      1.2081444616846806,
+      1.6302709355362949e-16
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      1.8208821447013618e-32
+    ],
+    "covariance": [
+      [
+        0.0016327273138449893,
+        -0.011564600024701721,
+        -0.009327584791362866,
+        -0.01389820852659371,
+        -0.009085813289536789,
+        0.039553741665248054,
+        0.013912932338184187,
+        -0.011223194685082137
+      ],
+      [
+        -0.011564600024701721,
+        0.08191200857440194,
+        0.06606724000627794,
+        0.09844094681765989,
+        0.06435477357524506,
+        -0.2801589695720621,
+        -0.09854523550716672,
+        0.0794938361303457
+      ],
+      [
+        -0.009327584791362866,
+        0.06606724000627794,
+        0.053287427301730035,
+        0.07939887902932018,
+        0.05190621430658076,
+        -0.22596601163572533,
+        -0.07948299448442259,
+        0.06411683026760186
+      ],
+      [
+        -0.01389820852659371,
+        0.09844094681765989,
+        0.07939887902932018,
+        0.11830524216184007,
+        0.07734085579440934,
+        -0.3366919540140836,
+        -0.1184305751565511,
+        0.09553481389399889
+      ],
+      [
+        -0.009085813289536789,
+        0.06435477357524506,
+        0.05190621430658076,
+        0.07734085579440934,
+        0.05056080242690225,
+        -0.2201089604036201,
+        -0.07742279097237016,
+        0.062454918562389605
+      ],
+      [
+        0.039553741665248054,
+        -0.2801589695720621,
+        -0.22596601163572533,
+        -0.3366919540140836,
+        -0.2201089604036201,
+        0.9582117396179682,
+        0.33704864666878415,
+        -0.2718882323265092
+      ],
+      [
+        0.013912932338184187,
+        -0.09854523550716672,
+        -0.07948299448442259,
+        -0.1184305751565511,
+        -0.07742279097237016,
+        0.33704864666878415,
+        0.11855604092948292,
+        -0.09563602381594062
+      ],
+      [
+        -0.011223194685082137,
+        0.0794938361303457,
+        0.06411683026760186,
+        0.09553481389399889,
+        0.062454918562389605,
+        -0.2718882323265092,
+        -0.09563602381594062,
+        0.07714705197319591
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "neutral_loss",
+      "p_glycerol",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_22:6",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|834_35ev_01.txt|PS 18:0_22:6|PS-H",
+        "40|834_40ev_03.txt|PS 18:0_22:6|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      -1.5353835933435747,
+      1.1593694751190444,
+      -0.19465569866118998,
+      0.6548883909412249,
+      0.09502395121077219,
+      -0.17924252526627676
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "p_glycerol",
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_18:2",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|784_35ev_02.txt|PS 18:1_18:2|PS-H",
+        "40|784_40ev_00.txt|PS 18:1_18:2|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.1689433297157548,
+      0.17225913194210973,
+      0.4215859175170382,
+      -2.1933185523141736,
+      0.43053017313927067
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment"
+    ],
+    "distinct_identity_count": 2,
+    "identities": [
+      [
+        "PS 18:1_20:0",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_22:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|816_35ev_02.txt|PS 18:1_20:0|PS-H",
+        "40|816_40ev_05.txt|PS 18:1_20:0|PS-H"
+      ],
+      [
+        "35|842_35ev_04.txt|PS 18:1_22:1|PS-H",
+        "40|842_40ev_02.txt|PS 18:1_22:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.24194788447186732,
+      -0.5571881834896999,
+      -0.5113909941891157,
+      0.8266312932069482
+    ],
+    "forced_rank_upper_bound": 1,
+    "singular_values": [
+      0.8607642425388954,
+      8.092071311423672e-17
+    ],
+    "empirical_variance_fraction": [
+      1.0,
+      8.837938350525258e-33
+    ],
+    "covariance": [
+      [
+        0.003054298115290518,
+        0.03767773716105475,
+        -0.021863611169587013,
+        -0.018868424106758236
+      ],
+      [
+        0.03767773716105475,
+        0.4647915245963133,
+        -0.2697089033042359,
+        -0.23276035845313187
+      ],
+      [
+        -0.021863611169587013,
+        -0.2697089033042359,
+        0.15650649521794371,
+        0.13506601925587905
+      ],
+      [
+        -0.018868424106758236,
+        -0.23276035845313187,
+        0.13506601925587905,
+        0.11656276330401091
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 3,
+    "identities": [
+      [
+        "PS 18:0_20:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_20:1",
+        "[M-H]-",
+        "PS-H"
+      ],
+      [
+        "PS 18:1_24:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|816_35ev_02.txt|PS 18:0_20:1|PS-H",
+        "40|816_40ev_04.txt|PS 18:0_20:1|PS-H"
+      ],
+      [
+        "35|814_35ev_00.txt|PS 18:1_20:1|PS-H",
+        "40|814_40ev_03.txt|PS 18:1_20:1|PS-H"
+      ],
+      [
+        "35|870_35ev_03.txt|PS 18:1_24:1|PS-H",
+        "40|870_40ev_02.txt|PS 18:1_24:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.6132958364900427,
+      -0.05264898958686398,
+      -0.46700431782074975,
+      0.7082714784393785,
+      -0.05536596232112025,
+      -0.7465480452006874
+    ],
+    "forced_rank_upper_bound": 2,
+    "singular_values": [
+      0.7536571302619991,
+      0.5483260777697946,
+      1.8200548080610235e-16
+    ],
+    "empirical_variance_fraction": [
+      0.6538791994793398,
+      0.34612080052066024,
+      3.8134567933666965e-32
+    ],
+    "covariance": [
+      [
+        0.05600089635316555,
+        -0.01673698812764988,
+        -0.056397021029293413,
+        -0.021049355920924766,
+        -0.016031174179227094,
+        0.054213642903929604
+      ],
+      [
+        -0.01673698812764988,
+        0.10450827942736408,
+        -0.03458512802958706,
+        -0.013029260780006576,
+        0.0668921792094534,
+        -0.107049081699574
+      ],
+      [
+        -0.056397021029293413,
+        -0.03458512802958706,
+        0.08338854620767573,
+        0.03118603023968356,
+        -0.015959028514975524,
+        -0.0076333988735032676
+      ],
+      [
+        -0.021049355920924766,
+        -0.013029260780006576,
+        0.03118603023968356,
+        0.011663194352809285,
+        -0.006031907179376867,
+        -0.0027387007121846313
+      ],
+      [
+        -0.016031174179227094,
+        0.0668921792094534,
+        -0.015959028514975524,
+        -0.006031907179376867,
+        0.04334587736017919,
+        -0.07221594669605312
+      ],
+      [
+        0.054213642903929604,
+        -0.107049081699574,
+        -0.0076333988735032676,
+        -0.0027387007121846313,
+        -0.07221594669605312,
+        0.13542348507738544
+      ]
+    ],
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_22:0",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|844_35ev_04.txt|PS 18:1_22:0|PS-H",
+        "40|844_40ev_02.txt|PS 18:1_22:0|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.38722873448748063,
+      -0.18559817989551203,
+      -0.4765558115704346,
+      0.8067544895280868,
+      -0.5318292325496208
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_ketene_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:3",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|812_35ev_00.txt|PS 18:0_20:3|PS-H",
+        "40|812_40ev_04.txt|PS 18:0_20:3|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.946751231754153,
+      -1.2671055624528273,
+      0.8062611941904481,
+      0.3866433963061843,
+      -0.8725502597979581
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 16:0_18:1",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|760_35ev_00.txt|PS 16:0_18:1|PS-H",
+        "40|760_40ev_02.txt|PS 16:0_18:1|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.8654518075588709,
+      -0.5350381323650841,
+      0.5802886898313423,
+      -0.5072145400508212,
+      -0.403487824974308
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn1_loss",
+      "sn2_fragment",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:1_24:0",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|872_35ev_01.txt|PS 18:1_24:0|PS-H",
+        "40|872_40ev_01.txt|PS 18:1_24:0|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      1.4409012623297952,
+      -0.013295402547211137,
+      0.7015233317059791,
+      -2.129129191488563
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  },
+  {
+    "rule": "PS-H",
+    "ce_pair": [
+      35.0,
+      40.0
+    ],
+    "channels": [
+      "sn1_fragment",
+      "sn2_fragment",
+      "sn2_ketene_loss",
+      "sn2_loss"
+    ],
+    "distinct_identity_count": 1,
+    "identities": [
+      [
+        "PS 18:0_20:2",
+        "[M-H]-",
+        "PS-H"
+      ]
+    ],
+    "source_pairs": [
+      [
+        "35|814_35ev_00.txt|PS 18:0_20:2|PS-H",
+        "40|814_40ev_04.txt|PS 18:0_20:2|PS-H"
+      ]
+    ],
+    "mean_centered_log_change": [
+      0.7259988015009537,
+      0.28050462226439654,
+      -1.2313237821882508,
+      0.2248203584229005
+    ],
+    "forced_rank_upper_bound": 0,
+    "singular_values": [
+      0.0
+    ],
+    "empirical_variance_fraction": null,
+    "covariance": null,
+    "interpretation": "Descriptive only: compositional closure, selected support, shared source files and small n; no physical rank/coverage claim"
+  }
+]
