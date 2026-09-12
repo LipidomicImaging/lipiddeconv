@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "pushed_case_snapshot": "3e3ad1879859496a40e75d8d80d703e3ccdb2283",
+  "archives": [
+    {
+      "case": "MILD__CAL_R61_K125",
+      "archive_sha256": "f0a71bd8cbdef94eab1383d4298e5bf3a77b6d6bffa7554623d3862756aeb90a",
+      "bytes": 30134662,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\MILD__CAL_R61_K125.tar.gz",
+      "local_training_complete_sha256": "efc22e82f79b14760f4a75663667a27113efd7c5b43ca227ee53454ab55fd00c",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    },
+    {
+      "case": "close_neighbor__HOLD_R61_K125",
+      "archive_sha256": "c6434b69de60f2b5cc6d9540b7e0c24f598467ec4be03deef37809629817dafe",
+      "bytes": 31601896,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\close_neighbor__HOLD_R61_K125.tar.gz",
+      "local_training_complete_sha256": "d6b6a2f6ba3e3223ff1ca750dc5a9b62e19d1ae33c29b3d03619fecc1393fbd5",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    },
+    {
+      "case": "relatively_isolated__HOLD_R61_K125",
+      "archive_sha256": "fd9a90db23b017315bcdadc8f7c30a38a4a9b091de626cbad4a72c2508341042",
+      "bytes": 29946485,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\relatively_isolated__HOLD_R61_K125.tar.gz",
+      "local_training_complete_sha256": "d58b860834b9f02c3e07c0e9d8241afe85dc4a8ee48bb96e179e8cf1d55cca63",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    },
+    {
+      "case": "MILD__CAL_R62_K125",
+      "archive_sha256": "855a24d65f6d92425c6ebdd1825f6d9f1b23db0de6ff138d25c8a0689788db40",
+      "bytes": 30970948,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\MILD__CAL_R62_K125.tar.gz",
+      "local_training_complete_sha256": "dc1d6a5ea5309fdfb1c8a4cf84e2f5ac21084dda6fa20fa792be2d1b1295549f",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    },
+    {
+      "case": "close_neighbor__HOLD_R62_K125",
+      "archive_sha256": "2cc83e59327db979213b060902736caecd4fa3aabbd98a53878beb89490e55ab",
+      "bytes": 29919671,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\close_neighbor__HOLD_R62_K125.tar.gz",
+      "local_training_complete_sha256": "b367349e3dc78c800a7c1e961120ad4148bdb8a34ca7c64ff7047a940241e8a8",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    },
+    {
+      "case": "relatively_isolated__HOLD_R62_K125",
+      "archive_sha256": "633af5007bf270ea30a41ade9a0c6ae56242060f643f7159dd9ed3e27a734f0a",
+      "bytes": 29988932,
+      "local_archive": "C:\\Users\\ld\\AppData\\Local\\Temp\\relatively_isolated__HOLD_R62_K125.tar.gz",
+      "local_training_complete_sha256": "efc5a3473f1d06d8856677c61103627b01ba9630eac6f9b5926666862a4bb4bf",
+      "case_present_in_pushed_commit": "3e3ad1879859496a40e75d8d80d703e3ccdb2283"
+    }
+  ]
+}
