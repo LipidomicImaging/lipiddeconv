@@ -1,0 +1,18 @@
+{
+  "tag": "MILD__CAL_R61_K125",
+  "case": "MILD__CAL_R61_K125",
+  "files": {
+    "cases/MILD__CAL_R61_K125/evidence.npz": "2884ccff9319b48c47a5ff616405846705009ba08eea393d5c091481c63614a8",
+    "cases/MILD__CAL_R61_K125/independent_evidence_review.json": "477c413ca0cc4c2592ec6280eb744b40c04c1c80c80e6acc4d6a46c9e2b44e48",
+    "cases/MILD__CAL_R61_K125/input.json": "f738b81ac7ba158727c7b457a50ef1a19fe29359e7dbb687dc1fe7e703b5bc4a",
+    "cases/MILD__CAL_R61_K125/molecular_records.json": "0937d5c66eee834a85c83d8a73ce7cdc6415b44b6ee6c1fa6053bcf5dd14ffd0",
+    "cases/MILD__CAL_R61_K125/training/checkpoint_diagnostics.csv": "b27f9f5cfc43b524fd38d9f41f5b8198f6a8ad0f7ece800bc8bc8202c4f24d4d",
+    "cases/MILD__CAL_R61_K125/training/runtime_contract.json": "74051b26526bcbf02bb5b5546fc13066f02fd81751747f0befac760aed5e34b0",
+    "cases/MILD__CAL_R61_K125/training/solver_run.json": "83b51f36c34d5bede5edb28b3341aaf1d8b2f2ed15d028c11bfbeaa740cb5ad8",
+    "cases/MILD__CAL_R61_K125/training/training_history.json": "61aca6549bd9814f185ba32b05672303f2fe616b06829c1885f373e5b09f671d",
+    "cases/MILD__CAL_R61_K125/training_complete.json": "efc22e82f79b14760f4a75663667a27113efd7c5b43ca227ee53454ab55fd00c",
+    "deployment/launch.json": "dd1069b6849703852d03eb314c7aea3eb4c01afa3549d9a4e7595ebe1e789b34"
+  },
+  "retained_storage": "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2",
+  "retained_large_artifacts": "Models, observations/truth and learned arrays remain on the source host; no deletion."
+}

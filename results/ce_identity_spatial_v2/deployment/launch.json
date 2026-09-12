@@ -1,0 +1,22 @@
+{
+  "pid": 102539,
+  "started_utc": "2026-09-12T02:04:59.042168+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/root/v58_jobs/ce_identity_spatial_v2_code/run_ce_identity_spatial_v2.py",
+    "run",
+    "--output",
+    "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2",
+    "--device",
+    "cuda:0",
+    "--workers",
+    "4"
+  ],
+  "code_commit": "20fa0cf33728975b82b8ef32806dde654ee6fce1",
+  "prepared_snapshot_commit": "4e86abc96150e4ce99fcf73370d27732f182cac8",
+  "script_sha256": "580612a7a207bfc76ab1af4db32b7ca7cd33151a845818d46b58014d8bbb8ab3",
+  "design_fingerprint": "838a88736fa4c2cd05fdb888b5644773596130a512413dfed972aeaa9f4857f7",
+  "new_fits": 6,
+  "cleanup": false
+}

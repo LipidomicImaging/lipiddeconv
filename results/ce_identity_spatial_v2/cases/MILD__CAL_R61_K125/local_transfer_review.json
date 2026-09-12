@@ -1,0 +1,17 @@
+{
+  "status": "DOWNLOADED_SOURCE_HASHES_PASS",
+  "case": "MILD__CAL_R61_K125",
+  "archive_sha256": "f0a71bd8cbdef94eab1383d4298e5bf3a77b6d6bffa7554623d3862756aeb90a",
+  "files_verified": 10,
+  "large_artifacts": {
+    "cases/MILD__CAL_R61_K125/evidence.npz": {
+      "sha256": "2884ccff9319b48c47a5ff616405846705009ba08eea393d5c091481c63614a8",
+      "bytes": 30090530,
+      "remote_path": "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2/cases/MILD__CAL_R61_K125/evidence.npz",
+      "local_download_verified": true,
+      "Git_blob": false
+    }
+  },
+  "source_models_and_observations_retained": true,
+  "performance_review_deferred": true
+}

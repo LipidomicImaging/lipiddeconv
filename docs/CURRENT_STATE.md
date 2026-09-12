@@ -1,8 +1,10 @@
-# V2 spatial-conditioned identity pilot RUNNING; first fit verified — 2026-09-12
+# V2 spatial-conditioned identity pilot RUNNING; first two fits verified — 2026-09-12
 
-Six-case design838a88736fa4c2cd05fdb888b5644773596130a512413dfed972aeaa9f4857f7 pushed before execution as4e86abc96150e4ce99fcf73370d27732f182cac8. Main PID102539 on westc started02:04:59UTC (10:04:59China), output/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2. First MILD CAL_R61 fit complete and independently verified:15 hashes, exact spatial weights and local spectra reconstructed within1.45e-15. Second close-neighbor CAL_R61 training; no V2 calibration/evaluation result yet.12 local analytic/end-to-end tests PASS, original10 also PASS remotely.
+Six-case design838a88736fa4c2cd05fdb888b5644773596130a512413dfed972aeaa9f4857f7 pushed before execution as4e86abc96150e4ce99fcf73370d27732f182cac8. Main PID102539 on westc started02:04:59UTC (10:04:59China), output/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2. At02:30UTC MILD CAL_R61 and close-neighbor HOLD_R61 fits complete and independently verified:15 artifact hashes each, exact spatial weights and local spectra reconstructed within1.45e-15. Both ten-file compact archives downloaded with exact hashes;30–32MB evidence arrays remain verified locally/remote with explicit storage references, outside lightweight Git. Third relatively-isolated R61 at epoch2200; no V2 calibration/evaluation result yet.12 local analytic/end-to-end tests PASS, original10 also PASS remotely.
 
 Follow docs/CE_IDENTITY_SPATIAL_V2_PROTOCOL.md. Same U v1 and production recipe; new spatial seeds6201/6202, global/local control, gamma1e-6 and per-challenge40% retention/nonempty plus aggregate1% FDP are frozen. All six fits precede input-novelty verification and LP scoring; both CAL seals precede EVAL. The bounded independent postprocessor audits/exports completed cases and the final pilot without model polling or deletion. Download/hash-check/Git sync remains a separate thread action; archive-ready is not a pushed-result claim. Old V1 and original pipelines unchanged; main endpoint OPEN.
+
+Postprocessor PID103069; status/root/v58_jobs/ce_identity_spatial_v2_audit_status.json, exports/root/v58_jobs/ce_identity_spatial_v2_exports/, main log/root/v58_jobs/ce_identity_spatial_v2_run.log. It exits on completion/failure, performs no Git action and no cleanup. Continue from these paths; never launch duplicate fits.
 
 # CE identity pilot COMPLETED; current version stops — 2026-09-11
 
