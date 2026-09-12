@@ -1,3 +1,7 @@
+# 当前任务 COMPLETED：固定联合指标筛查
+
+本次联合策略得到93TP/1FP，74.4%召回与1.06383% FDP；优于同拆分单独rho/丰度，但未满足严格1%/80%。报告 results/small_mismatch_joint_confidence/analysis_record.md；模型、全部molecular记录、CAL seals、hash及远程/本地缓存审查均保留。仅完成一次固定CPU分类器，未重新解卷积/rho/训练GPU，也未启动新case。现在提交推送明确列出的紧凑结果后STOP，不在已曝光test上增删特征/调参/改阈值/重试。主线独立验证与80%目标仍未完成；不因此宣称联合方法不可能。
+
 # 当前任务：一次固定联合指标CPU开发筛查
 
 用户最新联合指标请求取代下方已完成任务的“不运行事后联合模型”限制。范围仅 docs/SMALL_MISMATCH_JOINT_CONFIDENCE.md、analysis/run_small_mismatch_joint_confidence.py、原 analysis/run_joint_confidence_cal_pilot.py 和 results/small_mismatch_nnls_first_case/case 的 molecular_records/design/result/summary JSON；新结果写 results/small_mismatch_joint_confidence。冻结输入/模型/五组membership并推送后，用原主机已有依赖执行一次固定模型；缓存独立审查、下载hash、记录比较、Git后STOP。已曝光单case无独立FDR保证；不调参/换特征重试，不运行优化解卷积/rho/GPU/新case，不清理。

@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE_AWAITING_REVIEW",
+  "script_sha256": "f3505cd8190fa74bda0c8940b38810e1ba6d5e1e7106e4c691241251e43226e2",
+  "sklearn": "1.6.1",
+  "numpy": "2.1.3",
+  "original_HOLD_used": false,
+  "identity_disjoint_per_fold": true,
+  "feature_names": [
+    "standardized_log_X",
+    "standardized_log_rho",
+    "log_X_squared",
+    "log_X_log_rho",
+    "log_rho_squared",
+    "rho_is_zero"
+  ],
+  "fold_seal_hashes": [
+    "0ad59cb06e0d0f9c5195d9235e5e8f0a574678262efd2ad3ba36a4a33f837c66",
+    "4e4961075794cecea0e5bb8a29f3586652f236d902bb36a0af223e189ed198b8",
+    "26737369c9a2ec250daaba6c9f2fc439165044824299ea9a004356930c194a09",
+    "4be218274b71196e9dff393d786066d0376d01d9881bc05c12a24c2a34f9aab4",
+    "b88117cae6d1d8aef4d02e1fdfa9eae45138072e8268f5f84dec39589ea46482"
+  ],
+  "source_hashes": {
+    "molecules.csv": "8edc24450f12197bd74d0fb80e17660ed49ee76cc27bbd24792faec237477ea6"
+  },
+  "files": {
+    "contract.json": "b01e93557a98b5d45f3171180ccbd81bc4685a1ada3aa88e8c5016c3a2d9ccc1",
+    "fold_0_seal.json": "0ad59cb06e0d0f9c5195d9235e5e8f0a574678262efd2ad3ba36a4a33f837c66",
+    "fold_1_seal.json": "4e4961075794cecea0e5bb8a29f3586652f236d902bb36a0af223e189ed198b8",
+    "fold_2_seal.json": "26737369c9a2ec250daaba6c9f2fc439165044824299ea9a004356930c194a09",
+    "fold_3_seal.json": "4be218274b71196e9dff393d786066d0376d01d9881bc05c12a24c2a34f9aab4",
+    "fold_4_seal.json": "b88117cae6d1d8aef4d02e1fdfa9eae45138072e8268f5f84dec39589ea46482",
+    "models.json": "8b099efe6cec5e9c2cf424d48f3346044012169c785cb3747716d0bc5bc2580e",
+    "out_of_group_records.json": "76d37113f78573d8fa230505b195f9b3681f2aaff4cbdf84f765ee95457da0b2"
+  }
+}

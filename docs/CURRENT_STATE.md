@@ -1,3 +1,7 @@
+# 联合指标筛查完成：有增益，未过严格1%/80% — 2026-09-12
+
+固定rho+丰度联合模型在五组身份分离的TRAIN/CAL/TEST中得到93TP/1FP，74.4% recall/retention、FDP1.06383%；同拆分rho为61/3、48.8%/4.6875%，丰度84/2、67.2%/2.3256%。联合相对丰度新增9TP、去掉1FP、不损失原TP；但1.064%不能算1%，80%仍未达到。仅一次已曝光单case开发筛查，无独立FDR保证，不改旧40% GO。结果 results/small_mismatch_joint_confidence/analysis_record.md。预执行合同4b72366已先推送，CPU执行及两端缓存审查通过，12文件下载hash一致；无NNLS/rho/GPU重算、无调参/新case/清理。保存结果到Git后STOP。
+
 # 联合指标开发筛查：准备中 — 2026-09-12
 
 用户追加授权开发其他/联合指标。仅复用现有固定rho+丰度逻辑回归，在已完成5% NNLS单组缓存上按分子身份分组TRAIN/CAL/TEST，与同拆分rho和丰度比较。先冻结并推送 docs/SMALL_MISMATCH_JOINT_CONFIDENCE.md、代码与输入，再运行一次CPU筛查，审查/Git后停止。目标1% FDP与80% recall/retention；不改旧40% GO，不重跑NNLS/rho/GPU，不开启新case。本case已曝光，结果仅为组外开发证据，不是独立FDR验证。

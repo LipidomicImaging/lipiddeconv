@@ -1,0 +1,312 @@
+{
+  "status": "CACHED_REVIEW_PASS",
+  "results_at_separate_CAL_1pct": {
+    "rho_zero": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 61,
+      "FP": 3,
+      "FN": 64,
+      "FDP": 0.046875,
+      "TP_retention": 0.488,
+      "all_truth_recall": 0.488,
+      "reportable_truth_recall": 0.488,
+      "filter_induced_true_loss": 64,
+      "retained": 64,
+      "coverage": 0.367816091954023
+    },
+    "X_hat": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 84,
+      "FP": 2,
+      "FN": 41,
+      "FDP": 0.023255813953488372,
+      "TP_retention": 0.672,
+      "all_truth_recall": 0.672,
+      "reportable_truth_recall": 0.672,
+      "filter_induced_true_loss": 41,
+      "retained": 86,
+      "coverage": 0.4942528735632184
+    },
+    "joint_probability": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 93,
+      "FP": 1,
+      "FN": 32,
+      "FDP": 0.010638297872340425,
+      "TP_retention": 0.744,
+      "all_truth_recall": 0.744,
+      "reportable_truth_recall": 0.744,
+      "filter_induced_true_loss": 32,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    }
+  },
+  "fold_results": [
+    {
+      "fold": 0,
+      "results": {
+        "rho_zero": {
+          "raw_TP": 31,
+          "raw_FP": 6,
+          "raw_FN": 0,
+          "TP": 16,
+          "FP": 0,
+          "FN": 15,
+          "FDP": 0.0,
+          "TP_retention": 0.5161290322580645,
+          "all_truth_recall": 0.5161290322580645,
+          "reportable_truth_recall": 0.5161290322580645,
+          "filter_induced_true_loss": 15,
+          "retained": 16,
+          "coverage": 0.43243243243243246
+        },
+        "X_hat": {
+          "raw_TP": 31,
+          "raw_FP": 6,
+          "raw_FN": 0,
+          "TP": 27,
+          "FP": 1,
+          "FN": 4,
+          "FDP": 0.03571428571428571,
+          "TP_retention": 0.8709677419354839,
+          "all_truth_recall": 0.8709677419354839,
+          "reportable_truth_recall": 0.8709677419354839,
+          "filter_induced_true_loss": 4,
+          "retained": 28,
+          "coverage": 0.7567567567567568
+        },
+        "joint_probability": {
+          "raw_TP": 31,
+          "raw_FP": 6,
+          "raw_FN": 0,
+          "TP": 27,
+          "FP": 1,
+          "FN": 4,
+          "FDP": 0.03571428571428571,
+          "TP_retention": 0.8709677419354839,
+          "all_truth_recall": 0.8709677419354839,
+          "reportable_truth_recall": 0.8709677419354839,
+          "filter_induced_true_loss": 4,
+          "retained": 28,
+          "coverage": 0.7567567567567568
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "results": {
+        "rho_zero": {
+          "raw_TP": 22,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 14,
+          "FP": 2,
+          "FN": 8,
+          "FDP": 0.125,
+          "TP_retention": 0.6363636363636364,
+          "all_truth_recall": 0.6363636363636364,
+          "reportable_truth_recall": 0.6363636363636364,
+          "filter_induced_true_loss": 8,
+          "retained": 16,
+          "coverage": 0.47058823529411764
+        },
+        "X_hat": {
+          "raw_TP": 22,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 20,
+          "FP": 0,
+          "FN": 2,
+          "FDP": 0.0,
+          "TP_retention": 0.9090909090909091,
+          "all_truth_recall": 0.9090909090909091,
+          "reportable_truth_recall": 0.9090909090909091,
+          "filter_induced_true_loss": 2,
+          "retained": 20,
+          "coverage": 0.5882352941176471
+        },
+        "joint_probability": {
+          "raw_TP": 22,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 20,
+          "FP": 0,
+          "FN": 2,
+          "FDP": 0.0,
+          "TP_retention": 0.9090909090909091,
+          "all_truth_recall": 0.9090909090909091,
+          "reportable_truth_recall": 0.9090909090909091,
+          "filter_induced_true_loss": 2,
+          "retained": 20,
+          "coverage": 0.5882352941176471
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "results": {
+        "rho_zero": {
+          "raw_TP": 16,
+          "raw_FP": 9,
+          "raw_FN": 0,
+          "TP": 4,
+          "FP": 0,
+          "FN": 12,
+          "FDP": 0.0,
+          "TP_retention": 0.25,
+          "all_truth_recall": 0.25,
+          "reportable_truth_recall": 0.25,
+          "filter_induced_true_loss": 12,
+          "retained": 4,
+          "coverage": 0.16
+        },
+        "X_hat": {
+          "raw_TP": 16,
+          "raw_FP": 9,
+          "raw_FN": 0,
+          "TP": 11,
+          "FP": 0,
+          "FN": 5,
+          "FDP": 0.0,
+          "TP_retention": 0.6875,
+          "all_truth_recall": 0.6875,
+          "reportable_truth_recall": 0.6875,
+          "filter_induced_true_loss": 5,
+          "retained": 11,
+          "coverage": 0.44
+        },
+        "joint_probability": {
+          "raw_TP": 16,
+          "raw_FP": 9,
+          "raw_FN": 0,
+          "TP": 11,
+          "FP": 0,
+          "FN": 5,
+          "FDP": 0.0,
+          "TP_retention": 0.6875,
+          "all_truth_recall": 0.6875,
+          "reportable_truth_recall": 0.6875,
+          "filter_induced_true_loss": 5,
+          "retained": 11,
+          "coverage": 0.44
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "results": {
+        "rho_zero": {
+          "raw_TP": 27,
+          "raw_FP": 10,
+          "raw_FN": 0,
+          "TP": 14,
+          "FP": 1,
+          "FN": 13,
+          "FDP": 0.06666666666666667,
+          "TP_retention": 0.5185185185185185,
+          "all_truth_recall": 0.5185185185185185,
+          "reportable_truth_recall": 0.5185185185185185,
+          "filter_induced_true_loss": 13,
+          "retained": 15,
+          "coverage": 0.40540540540540543
+        },
+        "X_hat": {
+          "raw_TP": 27,
+          "raw_FP": 10,
+          "raw_FN": 0,
+          "TP": 17,
+          "FP": 1,
+          "FN": 10,
+          "FDP": 0.05555555555555555,
+          "TP_retention": 0.6296296296296297,
+          "all_truth_recall": 0.6296296296296297,
+          "reportable_truth_recall": 0.6296296296296297,
+          "filter_induced_true_loss": 10,
+          "retained": 18,
+          "coverage": 0.4864864864864865
+        },
+        "joint_probability": {
+          "raw_TP": 27,
+          "raw_FP": 10,
+          "raw_FN": 0,
+          "TP": 21,
+          "FP": 0,
+          "FN": 6,
+          "FDP": 0.0,
+          "TP_retention": 0.7777777777777778,
+          "all_truth_recall": 0.7777777777777778,
+          "reportable_truth_recall": 0.7777777777777778,
+          "filter_induced_true_loss": 6,
+          "retained": 21,
+          "coverage": 0.5675675675675675
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "results": {
+        "rho_zero": {
+          "raw_TP": 29,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 13,
+          "FP": 0,
+          "FN": 16,
+          "FDP": 0.0,
+          "TP_retention": 0.4482758620689655,
+          "all_truth_recall": 0.4482758620689655,
+          "reportable_truth_recall": 0.4482758620689655,
+          "filter_induced_true_loss": 16,
+          "retained": 13,
+          "coverage": 0.3170731707317073
+        },
+        "X_hat": {
+          "raw_TP": 29,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 9,
+          "FP": 0,
+          "FN": 20,
+          "FDP": 0.0,
+          "TP_retention": 0.3103448275862069,
+          "all_truth_recall": 0.3103448275862069,
+          "reportable_truth_recall": 0.3103448275862069,
+          "filter_induced_true_loss": 20,
+          "retained": 9,
+          "coverage": 0.21951219512195122
+        },
+        "joint_probability": {
+          "raw_TP": 29,
+          "raw_FP": 12,
+          "raw_FN": 0,
+          "TP": 14,
+          "FP": 0,
+          "FN": 15,
+          "FDP": 0.0,
+          "TP_retention": 0.4827586206896552,
+          "all_truth_recall": 0.4827586206896552,
+          "reportable_truth_recall": 0.4827586206896552,
+          "filter_induced_true_loss": 15,
+          "retained": 14,
+          "coverage": 0.34146341463414637
+        }
+      }
+    }
+  ],
+  "requested_1pct_80pct_developmental_target_met": false,
+  "maximum_saved_model_prediction_error": 7.771561172376096e-16,
+  "source_membership_and_split_verified": true,
+  "models_refit_during_review": false,
+  "probabilities_not_risk_calibrated": true,
+  "fresh_independent_case_or_real_data_validation": false,
+  "original_first_case_rho_GO_unchanged": true,
+  "no_automatic_next_run": true,
+  "provenance_sha256": "030039d9b653dcd060d23b5e52cc61056f0bd33294727f003feb59570cb42987",
+  "contract_sha256": "b01e93557a98b5d45f3171180ccbd81bc4685a1ada3aa88e8c5016c3a2d9ccc1"
+}

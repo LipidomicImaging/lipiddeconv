@@ -1,0 +1,54 @@
+{
+  "status": "ALL_12_FILES_HASH_MATCH",
+  "archive_sha256": "7f9bce62f1f5da025212ae54dd391fe26eb813a1491f820f7a0ed72fabd76e8d",
+  "files": {
+    "review.json": {
+      "sha256": "0cbde389b2d4e4c79a7907b265b852cc00d9c7eb656c5e1647a497744f72d1e6",
+      "bytes": 8671
+    },
+    "execution.log": {
+      "sha256": "aee191086e251cb621b68e472f8b327501665c504f940c202e30ec4fc132276c",
+      "bytes": 8700
+    },
+    "execution_receipt.json": {
+      "sha256": "fa76e1e9571f00076d1416f1b28b2f5f6a34a51ae15c0d31d8c03286255dfae0",
+      "bytes": 442
+    },
+    "fit/contract.json": {
+      "sha256": "b01e93557a98b5d45f3171180ccbd81bc4685a1ada3aa88e8c5016c3a2d9ccc1",
+      "bytes": 12069
+    },
+    "fit/models.json": {
+      "sha256": "8b099efe6cec5e9c2cf424d48f3346044012169c785cb3747716d0bc5bc2580e",
+      "bytes": 26950
+    },
+    "fit/out_of_group_records.json": {
+      "sha256": "76d37113f78573d8fa230505b195f9b3681f2aaff4cbdf84f765ee95457da0b2",
+      "bytes": 215465
+    },
+    "fit/provenance.json": {
+      "sha256": "030039d9b653dcd060d23b5e52cc61056f0bd33294727f003feb59570cb42987",
+      "bytes": 1660
+    },
+    "fit/fold_0_seal.json": {
+      "sha256": "0ad59cb06e0d0f9c5195d9235e5e8f0a574678262efd2ad3ba36a4a33f837c66",
+      "bytes": 5783
+    },
+    "fit/fold_1_seal.json": {
+      "sha256": "4e4961075794cecea0e5bb8a29f3586652f236d902bb36a0af223e189ed198b8",
+      "bytes": 5578
+    },
+    "fit/fold_2_seal.json": {
+      "sha256": "26737369c9a2ec250daaba6c9f2fc439165044824299ea9a004356930c194a09",
+      "bytes": 5869
+    },
+    "fit/fold_3_seal.json": {
+      "sha256": "4be218274b71196e9dff393d786066d0376d01d9881bc05c12a24c2a34f9aab4",
+      "bytes": 5871
+    },
+    "fit/fold_4_seal.json": {
+      "sha256": "b88117cae6d1d8aef4d02e1fdfa9eae45138072e8268f5f84dec39589ea46482",
+      "bytes": 5981
+    }
+  }
+}
