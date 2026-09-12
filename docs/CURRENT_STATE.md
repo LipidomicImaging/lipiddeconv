@@ -1,3 +1,9 @@
+# V2 CAL sealed, EVAL running; two final conclusions required — 2026-09-12
+
+At03:36UTC (11:36 China), V2 has entered R62 EVAL; both global/local CAL seal hashes independently checked. Status check reads process/seal evidence only, not EVAL outcomes. Complete the existing EVAL and independent review; no new intermediate task, experimental patch or physical-model change.
+
+User requires separate final conclusions: METHOD_GO/NO_GO from the unchanged local aggregate1% FDP/40% retention plus each challenge40%/nonempty gate; SPATIAL_CONTRIBUTION from same-batch local versus global. Local-only GO supports spatial benefit; neither GO means method failure; both GO shows feasibility without attributing success to spatial conditioning; global-only GO is adverse for this spatial version. Report both missing-library arms separately, including nonzero recovery versus reaching40%. Old V1 zero retention is historical context, not the matched control. Method GO permits prospective physical-validation design; spatial attribution is not an added method gate. See the protocol reporting clarification; current runner and frozen scientific inputs unchanged.
+
 # V2 bounded storage recovery COMPLETE; scoring continues — 2026-09-12
 
 Plan pushed and remotely verified asb846f40fe356d486f2cc31b7b78d84914e050024 before any source replacement/deletion.36 checkpoint/model files (1431394074 bytes,1.33GiB) relocated to /root/v2_retained_runtime_20260912 with byte-identical copies and atomic symlinks at the original paths. Six redundant, downloaded per-case transport archives (182562594 bytes,174MiB) deleted. No unique checkpoint, learned array, observation, candidate/molecular record, seal or proof removed. Data free space rose from2243702784 to3675205632 bytes (~2.09→3.42GiB); root has~6.45GiB free after receiving the checkpoint copies.

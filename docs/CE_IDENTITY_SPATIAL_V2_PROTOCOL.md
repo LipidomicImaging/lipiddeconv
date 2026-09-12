@@ -44,6 +44,25 @@ Stop after the reviewed pilot. A favorable result warrants designing independent
 
 The bounded postprocessor analysis/audit_ce_identity_spatial_v2_job.py audits each completed training/evidence case, exports hashed compact archives, then independently checks the completed paired pilot and writes its descriptive report. It exits after completion/failure and uses no model calls while waiting. It never modifies scientific inputs, retries failed experiments or deletes files. Archive generation is not a Git push: this thread separately downloads, verifies and pushes each reviewed snapshot.
 
+## Final report: method decision and spatial contribution are separate
+
+User clarification2026-09-12, recorded during execution without changing any case, score, threshold, denominator, numerical guard, source binding or running code. Complete the existing CAL seals -> EVAL -> independent review -> decision sequence. Add no intermediate experiment or outcome-driven patch.
+
+First report METHOD_GO or METHOD_NO_GO using exactly the existing local EVAL rule: aggregate FDP<=1%, aggregate TP retention>=40%, each of the three challenges TP retention>=40%, and each retained set nonempty. Aggregate retention>=60% remains strong success only after GO. Global performance is not an additional condition in the method GO formula. A reviewed method GO permits designing the next physical-mismatch validation; it does not establish real-experiment robustness.
+
+Then report the paired spatial-contribution interpretation separately, applying the identical frozen GO rule to global:
+
+| Local EVAL | Same-batch global EVAL | Interpretation for this pilot |
+|---|---|---|
+| GO | NO-GO | Strong paired evidence that spatial conditioning adds useful discrimination under this fixed benchmark. |
+| NO-GO | NO-GO | V2 fails its method gate; partial numerical improvements cannot override NO-GO. |
+| GO | GO | Feasibility signal for the identity-screening route, but crossing the gate cannot be attributed to spatial conditioning. Easier new cases remain an alternative explanation; do not assert that explanation is proven. |
+| NO-GO | GO | Spatial conditioning fails where the global control succeeds; stop this spatial version and report the adverse paired result. |
+
+Show each missing-library arm separately: raw solver TP, retained TP/FP, FDP, TP retention, all-truth recall, abstention/status counts and local-minus-global differences from the existing outputs. State whether each local arm recovered a nonzero subset and whether it reached40%; these are different achievements. V1's historical zero retention is context only because V2 uses different cases. Attribute spatial contribution using the same-batch global control, not a direct V1-to-V2 outcome comparison.
+
+This reporting clarification supersedes any earlier wording that merged method GO with proof of spatial benefit. The physical model below remains a next-stage validation boundary. No new cases, physical perturbations, diagnostics for selection, retuning or changes to the current V2 implementation are authorized by this clarification.
+
 ## Physical interpretation and future-validation boundary
 
 Documentation addendum authorized 2026-09-12, after V2 execution began. This records interpretation and future model scope only. The six cases, frozen design and source bindings, CE uncertainty v1, gamma, epsilon calibration rule, production GPU fits, full/delete LPs, reporting and accounting, and local/global evidence definitions remain unchanged. Keep the originally deployed protocol/source snapshots and their hashes; this addendum does not replace or rebind them. No new physical model or diagnostic is added to the running code.
@@ -76,7 +95,7 @@ The inherited MILD target is a controlled synthetic stress test, not the final i
 
 Do not describe independent fragment dropout as the established physical mechanism of real MSI mismatch. Keep old settings and results as historical stress tests. V2 asks only whether identity-conditioned spatial evidence improves discrimination over global foreground mean with the inherited mismatch and uncertainty held fixed. Its missing-library arms remain CLEAN omission challenges; they are not combined realistic mismatch-plus-omission validation. Neither success nor failure directly validates or refutes performance under real experimental perturbations.
 
-After the paired pilot is independently reviewed, apply the existing frozen GO rule unchanged. No local improvement ends this spatial route for the present version; failure of GO also stops this version without tuning on exposed EVAL. Local improvement together with a passed GO motivates a separately frozen validation model combining systematic fragment-intensity mismatch, strong-peak preservation, evidence-based weak-peak censoring and separately estimated pixel variability. No new numerical definition of "clear improvement" is inserted into V2's sealed calibration or GO decision. Any later confirmatory comparison criterion must be specified prospectively. No future experiment starts automatically from this addendum.
+After the paired pilot is independently reviewed, apply the existing frozen method GO rule unchanged and separately report spatial contribution using the four outcomes above. Method GO motivates designing a separately frozen validation model combining systematic fragment-intensity mismatch, strong-peak preservation, evidence-based weak-peak censoring and separately estimated pixel variability; it does not itself establish spatial superiority. Method NO-GO stops this version without tuning on exposed EVAL. No new numerical definition of "clear improvement" is inserted into V2's sealed calibration or GO decision. Any later confirmatory comparison criterion must be specified prospectively. No future experiment starts automatically from this addendum.
 
 ### Optional diagnostic only: spatial weight concentration
 
