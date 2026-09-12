@@ -1,0 +1,28 @@
+{
+  "status": "INDEPENDENT_RAW_CAL_ACCOUNTING_PASS",
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "case_snapshot_pushed_commit": "382ee2091773d93d027faecd93b27fde5f22e4a6",
+  "source_files": {
+    "molecular_records.json": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5",
+    "candidate_records.json": "3d23fd37b3dbffe47ae1fc67d8a5bcfd043a918be88fae0819a45880a4e00dbd",
+    "input.json": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+    "case_review.json": "fd0a4cd9d182066a64df2518f568a32283594e411b6b7a6dc3f838dfc7b01ca3",
+    "training_complete.json": "a79cf1b31a2510b5f223be20788f2b3a400b3211464bbb6230be73a7b2e6afc4"
+  },
+  "molecular_universe": 377,
+  "raw_reported": 232,
+  "raw_solver_TP": 123,
+  "raw_solver_FP": 109,
+  "raw_solver_FN": 2,
+  "raw_all_truth_recall": 0.984,
+  "raw_reportable_truth_recall": 0.984,
+  "raw_FDP": 0.4698275862068966,
+  "supported_perturbed_truth_count": 26,
+  "supported_raw_solver_TP": 26,
+  "supported_raw_solver_FN": 0,
+  "required_filtered_TP_for_40_percent": 50,
+  "required_supported_filtered_TP_for_40_percent": 11,
+  "confidence_result": "NOT_YET_COMPUTED",
+  "second_case_started": false,
+  "remaining_GPU_fits": "PAUSED_BY_USER_DIRECTED_FIRST_CAL_CHECK"
+}

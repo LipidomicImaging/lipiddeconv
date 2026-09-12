@@ -1,5 +1,7 @@
 # NEXT — 主线 identity robustness pilot
 
+LATEST USER PRIORITY2026-09-12: pause the remainingfive GPU fits; firstCAL has completed/reviewed/downloaded/pushed382ee209. Follow docs/PHYSICAL_IDENTITY_FIRST_CAL_FEASIBILITY.md for a CPU-only firstCAL screen using unchanged U/full-deleteLP/gamma/accounting. Keep its evidence/threshold exploration separate from officialsix-case seals. Independently review, download/hash/Git the result; user-authorized earlystop is a developmental resource decision, not formal EVAL NO-GO. Secondcasehasnotstarted; do not automatically resume the coordinator before this decision.
+
 Physical interpretation corrected by user: keep the best available library for the actual CE fixed; no CE-selection/between-CE-error project. Any later reality validation concerns same-CE residual mismatch. Existing joint-CE endpoint pilot continues unchanged as its declared controlled test, without claiming its range is the same-CE residual range.
 
 User-requested future reasoning is recorded in docs/IDENTITY_CONFIDENCE_DECISION_PATH_20260912.md; no extra prerequisite or scientific edit is introduced. Keep executing the current six-case pilot. After its reviewed outcome, choose only the evidence-supported next branch; do not tune the exposed EVAL or equate a feasible deletion relaxation with a physical replacement proof.

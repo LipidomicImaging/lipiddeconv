@@ -1,4 +1,10 @@
-# Mainline physical identity pilot: first production fit RUNNING — 2026-09-12
+# First CAL completed and pushed; remaining five fits PAUSED for user-directed feasibility screen — 2026-09-12
+
+First case SUPPORTED_MISMATCH__CAL_R71_K125 completed normally at3000epochs, independent process reviewPASS,16 compact export files downloaded/verified and case commit382ee2091773d93d027faecd93b27fde5f22e4a6 pushed before ACK. Original solver TP123/FP109/FN2;26/26 perturbed truths reported. No confidence result yet. Second case has no launch or reservation; GPU confirmedidle. The local coordinator stopped on a false self-match in its process guard, now fixed; its subsequent restart was deliberately cancelled at the password prompt after the user requested first-case analysis.
+
+Latest execution priority: docs/PHYSICAL_IDENTITY_FIRST_CAL_FEASIBILITY.md. Pause the otherfive GPU fits and apply frozen confidence code to the firstCAL only, in a separate output/seal. Inspect numerical validity, any-threshold utility ceiling, then standalone1%/40% feasibility. This is a prospective resource stop/continue screen authorized by the user, not a replacement official CALseal or an EVAL outcome. Preserve all original artifacts and denominators; no outcome-driven scientific changes.
+
+# Historical first production fit launch — 2026-09-12
 
 Latest user clarification: each CE has its own corresponding best-matched reference library. Future mainline work conditions on the correctly selected CE and studies only within-CE residual library-to-experiment mismatch. Cross-CE differences are not its residual-error amplitude. Decision memo corrected accordingly; current six-case endpoint pilot remains frozen and is not relabelled as validated within-CE physical uncertainty.
 
