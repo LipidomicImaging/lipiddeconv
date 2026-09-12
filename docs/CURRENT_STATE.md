@@ -1,3 +1,7 @@
+# 联合指标开发筛查：准备中 — 2026-09-12
+
+用户追加授权开发其他/联合指标。仅复用现有固定rho+丰度逻辑回归，在已完成5% NNLS单组缓存上按分子身份分组TRAIN/CAL/TEST，与同拆分rho和丰度比较。先冻结并推送 docs/SMALL_MISMATCH_JOINT_CONFIDENCE.md、代码与输入，再运行一次CPU筛查，审查/Git后停止。目标1% FDP与80% recall/retention；不改旧40% GO，不重跑NNLS/rho/GPU，不开启新case。本case已曝光，结果仅为组外开发证据，不是独立FDR验证。
+
 # 用户追问80%召回：只读曲线分析完成 — 2026-09-12
 
 现有rho阈值在FDP<=1%下最多60TP/0FP（48%召回）；80%召回为100TP/14FP、FDP12.28%。召回>=80%范围的最低FDP仍为12.07%（102TP/14FP）。现有X_hat丰度事后对照的80%点为100TP/3FP、FDP2.91%，但其FDP<=1%最大召回仅43.2%。两种单独筛选都尚未同时达到1%/80%。记录 results/small_mismatch_nnls_first_case/recall80_tradeoff.md 和.json；不重跑优化/实验、不改主合同或旧GO、不引入联合新分数。用户更高效用目标已记录；本次分析保存到Git后STOP，未启动后续。

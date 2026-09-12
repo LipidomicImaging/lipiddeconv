@@ -1,3 +1,7 @@
+# 当前任务：一次固定联合指标CPU开发筛查
+
+用户最新联合指标请求取代下方已完成任务的“不运行事后联合模型”限制。范围仅 docs/SMALL_MISMATCH_JOINT_CONFIDENCE.md、analysis/run_small_mismatch_joint_confidence.py、原 analysis/run_joint_confidence_cal_pilot.py 和 results/small_mismatch_nnls_first_case/case 的 molecular_records/design/result/summary JSON；新结果写 results/small_mismatch_joint_confidence。冻结输入/模型/五组membership并推送后，用原主机已有依赖执行一次固定模型；缓存独立审查、下载hash、记录比较、Git后STOP。已曝光单case无独立FDR保证；不调参/换特征重试，不运行优化解卷积/rho/GPU/新case，不清理。
+
 # 当前追加分析已完成 — 80%召回与错误率的现有曲线权衡
 
 用户要求检查80%召回。已只读重计完整rho曲线并比较已有X_hat基线：rho80%对应14FP/12.28%FDP，X_hat80%对应3FP/2.91%；严格1%限制下二者最大召回48%/43.2%。保存 results/small_mismatch_nnls_first_case/recall80_tradeoff.json 和.md 后commit/push并STOP。不修改冻结阈值/原GO，不运行新实验或事后联合模型。后续80%方案及独立验证尚未冻结。
