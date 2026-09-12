@@ -236,7 +236,8 @@ print(json.dumps({'status':'VERIFIED','files':len(expected)}))
     def process(self, pid, command):
         return self.remote.python("""import pathlib,json
 p=pathlib.Path('/proc')/str(PID)/'cmdline'
-args=p.read_bytes().split(b'\\0') if p.exists() else []
+try: args=p.read_bytes().split(b'\\0')
+except (FileNotFoundError,ProcessLookupError): args=[]
 actual=[x.decode() for x in args if x]
 if actual: assert actual==COMMAND, 'PROCESS_IDENTITY_CHANGED'
 print(json.dumps({'alive':bool(actual)}))
@@ -296,6 +297,8 @@ print(json.dumps(value))
             require(failure is None, "FROZEN_RUNNER_REPORTED_FAILURE")
             completed = self.remote.json(OUTPUT + "/cases/" + case + "/training_complete.json", optional=True)
             alive = self.process(launch["pid"], launch["command"])["alive"]
+            if not alive and completed is None:
+                completed = self.remote.json(OUTPUT + "/cases/" + case + "/training_complete.json", optional=True)
             if completed is not None:
                 require(completed["case"] == case and completed["fingerprint"] == DESIGN and
                         completed["status"] == "NORMAL_FINITE_COMPLETE", "COMPLETION_BINDING_FAILED")
@@ -337,7 +340,10 @@ print(json.dumps(v))
             if result is not None:
                 require(result["returncode"] == 0, "INDEPENDENT_REVIEW_FAILED")
                 return
-            require(self.process(launch["pid"], launch["command"])["alive"], "REVIEW_EXITED_WITHOUT_RECEIPT")
+            if not self.process(launch["pid"], launch["command"])["alive"]:
+                result = self.remote.json(exit_path, optional=True)
+                require(result is not None and result["returncode"] == 0, "REVIEW_EXITED_WITHOUT_SUCCESS_RECEIPT")
+                return
             require(time.time() < deadline, "REVIEW_TIME_LIMIT_REACHED")
             self.event("INDEPENDENT_PROCESS_REVIEW_RUNNING", case)
             time.sleep(30)
