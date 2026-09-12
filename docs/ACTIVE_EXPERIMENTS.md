@@ -1,3 +1,7 @@
+# V2 storage locations updated after verified recovery — 2026-09-12
+
+Westc V2 data free~3.42GiB after verified storage recovery.36 checkpoints/models now reside in /root/v2_retained_runtime_20260912, accessed by atomic symlinks from the original six case training directories. All original90 artifact bindings and106 protected hashes pass. This retained directory is a required dependency, not disposable cache. Six per-case export tarballs were deleted only after byte-identical local backups and pushed case/plan verification; receipts/manifests and all local case outputs remain. Full V2 final export is still pending. Exact plan, deletion receipt, storage mapping and post-verification are in results/v2_storage_retirement_20260912. No V58/V59/old result files were touched, and V2 scoring continues.
+
 # Live two-host check and completed-result recovery — 2026-09-12
 
 At03:06UTC (11:06 China), westc is executing the new six-case CE identity spatial V2 pilot, following completed V58 and missing-library work. All six V2 GPU fits and independent evidence reviews have finished; CPU global/local LP screening remains active. Case snapshots are in results/ce_identity_spatial_v2. Its main status file can retain the last training label during LP scoring; use /root/v58_jobs/ce_identity_spatial_v2_run.log and /root/v58_jobs/ce_identity_spatial_v2_audit_status.json as well. The eleven-o'clock estimate was for training, not the final pilot decision.

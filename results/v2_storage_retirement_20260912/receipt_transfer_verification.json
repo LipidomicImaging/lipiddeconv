@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "archive_sha256": "40076b949ebc32c34b017d0f94c8b7148f1a12db3e18231733f95f3272ec2c98",
+  "files": {
+    "receipt.json": "b0d126373c36b151d845c2a3cc8a9b0f9c7b7679117b360742a8b5a8aba15d4d",
+    "post_verification.json": "5d3739151d59bee677ae6c30d1d6fd3cd9f94fbb467d34e7d743a380b672069e",
+    "post_verify.py": "c7c2bd695d28adb5762da44c053a7e64342f0bcf0491b5c7aec77feb0246725d"
+  },
+  "plan_and_execution_membership_identical": true
+}

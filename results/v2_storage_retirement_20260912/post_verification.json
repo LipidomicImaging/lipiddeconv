@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "observed_utc": "2026-09-12T03:25:47.409112+00:00",
+  "original_runner_sha256": "580612a7a207bfc76ab1af4db32b7ca7cd33151a845818d46b58014d8bbb8ab3",
+  "original_runner_verify_files_cases": [
+    "MILD__CAL_R61_K125",
+    "MILD__CAL_R62_K125",
+    "close_neighbor__HOLD_R61_K125",
+    "close_neighbor__HOLD_R62_K125",
+    "relatively_isolated__HOLD_R61_K125",
+    "relatively_isolated__HOLD_R62_K125"
+  ],
+  "original_bound_artifact_count": 90,
+  "protected_hashes_verified": 106,
+  "verified_checkpoint_links": 36,
+  "confirmed_removed_archive_count": 6,
+  "unique_checkpoint_bytes_deleted": 0,
+  "live_processes": {
+    "102539": true,
+    "103069": true
+  },
+  "latest_scoring_log": [
+    "SCORE_PROGRESS close_neighbor__HOLD_R61_K125 local 100 232",
+    "SCORE_PROGRESS close_neighbor__HOLD_R61_K125 local 125 232",
+    "SCORE_PROGRESS close_neighbor__HOLD_R61_K125 local 150 232",
+    "SCORE_PROGRESS close_neighbor__HOLD_R61_K125 local 175 232"
+  ],
+  "free": {
+    "data": {
+      "total": 53687091200,
+      "used": 50012786688,
+      "free": 3674304512
+    },
+    "root": {
+      "total": 32212254720,
+      "used": 25284472832,
+      "free": 6927781888
+    }
+  }
+}
