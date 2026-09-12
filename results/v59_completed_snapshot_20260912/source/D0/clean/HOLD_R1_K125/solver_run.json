@@ -1,0 +1,39 @@
+{
+  "dataset_id": "HOLD_R1_K125",
+  "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3",
+  "arrays_sha256": "081768662952e15e8d7026c3a22c21afc2a0a15372ce4765048104f3a0666706",
+  "training": {
+    "stopped_epoch": 3000,
+    "stop_reason": "max_epochs",
+    "wall_time_seconds_this_invocation": 1668.1758561134338,
+    "final_physical_loss": 0.0004226158489473164,
+    "final_raw_losses": [
+      5.403901741374284e-05,
+      0.00022971630096435547,
+      0.00013226538430899382,
+      6.595140348508721e-06
+    ],
+    "channel_weighting": {
+      "mode": "auto",
+      "reference_A_path": "solver_A",
+      "reference_A_shape": [
+        2566,
+        896
+      ],
+      "reference_meta_path": "solver_metadata",
+      "parent_weight_multiplier_before_renormalization": 1.0,
+      "parent_mz_range": [
+        748.0,
+        803.0
+      ],
+      "parent_channel_count": 466,
+      "fragment_channel_count": 2100,
+      "mean_parent_channel_weight": 1.0452816486358643,
+      "mean_fragment_channel_weight": 1.0197234153747559,
+      "mean_all_channel_weight": 1.024364948272705
+    },
+    "resumed_from_runtime_checkpoint": false,
+    "scheduler_T_max": 5000
+  },
+  "X_true_used_in_training_or_stopping": false
+}

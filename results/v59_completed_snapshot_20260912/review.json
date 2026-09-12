@@ -1,0 +1,534 @@
+{
+  "observed_utc": "2026-09-12T03:04:15.279386+00:00",
+  "planned_cases": 18,
+  "completed_cases": [
+    "D0__CAL_R1_K125",
+    "D0__CAL_R2_K125",
+    "D0__CAL_R3_K125",
+    "D0__HOLD_R1_K125",
+    "D0__HOLD_R2_K125",
+    "D0__HOLD_R3_K125",
+    "D1__CAL_R1_K125"
+  ],
+  "active_case": "D1__CAL_R2_K125",
+  "supervisor": {
+    "status": "RUNNING",
+    "pid": 2200,
+    "started_utc": "2026-09-10T11:13:11.235177+00:00",
+    "planned_formal_count": 18,
+    "completed_stages": [
+      "selftest",
+      "prepare",
+      "audit",
+      "freeze",
+      "oracle",
+      "sentinel"
+    ],
+    "output_dir": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal",
+    "active_stage": "formal",
+    "updated_utc": "2026-09-10T13:05:02.227278+00:00",
+    "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3"
+  },
+  "formal_pid": 4983,
+  "rho_workers": 1,
+  "all_results_complete": false,
+  "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3",
+  "reviews": [
+    {
+      "dataset_id": "D0__CAL_R1_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 122,
+      "raw_solver_FP": 185,
+      "raw_solver_FN": 3,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 13,
+            "FP": 0,
+            "FN": 112,
+            "FDP": 0.0,
+            "TP_retention": 0.10655737704918032,
+            "all_truth_recall": 0.104,
+            "raw_solver_FN": 3,
+            "filter_induced_true_loss": 109
+          },
+          "FDR5": {
+            "TP": 36,
+            "FP": 3,
+            "FN": 89,
+            "FDP": 0.07692307692307693,
+            "TP_retention": 0.29508196721311475,
+            "all_truth_recall": 0.288,
+            "raw_solver_FN": 3,
+            "filter_induced_true_loss": 86
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 122,
+            "FP": 1,
+            "FN": 3,
+            "FDP": 0.008130081300813009,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.976,
+            "raw_solver_FN": 3,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 122,
+            "FP": 6,
+            "FN": 3,
+            "FDP": 0.046875,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.976,
+            "raw_solver_FN": 3,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "2155d003ff6cc8b9cab04b638f1517707f36b172ec44fb5fdf7368f0641bf27b",
+        "learned_arrays.npz": "307412f1b09dad0d3c3c2dc05df8b6eb5b807397e95c0326875e025e05853389",
+        "runtime_contract.json": "a1c4817dfe33016e9c5ffcc3333aac5c6275523bb46d59587ea94f114e111638",
+        "training_history.json": "b8219bf5d9715db6d16bf4ad5826ebf84200737057289e40f4cbfaf163ed8f97",
+        "latest_model.pth": "da0ae16538f581c42d9c99bf88b5d1404d52b969f077510c1659ed8432c9af1e",
+        "checkpoint_epoch_1000.pth": "24972c9443d583bd37eb15c4e29f69c98bc72933a9db2d40e7e7a09429719622",
+        "checkpoint_epoch_1500.pth": "d4d10a4049e6c7711df9b165826a48c31f1237517879f6df38e8ce35fb59dfff",
+        "checkpoint_epoch_2000.pth": "733fd5e1105f6a719014ef74365dba9b8cf36a2b0a507f03ab6e43a91d9b8315",
+        "checkpoint_epoch_2500.pth": "bd26fb918204e2d9f71cfc3f539e0c019204ce9355f0d1447a6067c41782a253",
+        "checkpoint_epoch_3000.pth": "e711754ba48f0af6a308b8c96f4c4840124a3f2cd30d85bd414426e2e251514c"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/CAL_R1_K125",
+      "completed_utc": "2026-09-10T16:07:18.191900+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D0__CAL_R2_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 121,
+      "raw_solver_FP": 183,
+      "raw_solver_FN": 4,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 15,
+            "FP": 0,
+            "FN": 110,
+            "FDP": 0.0,
+            "TP_retention": 0.12396694214876033,
+            "all_truth_recall": 0.12,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 106
+          },
+          "FDR5": {
+            "TP": 42,
+            "FP": 2,
+            "FN": 83,
+            "FDP": 0.045454545454545456,
+            "TP_retention": 0.34710743801652894,
+            "all_truth_recall": 0.336,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 79
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 121,
+            "FP": 1,
+            "FN": 4,
+            "FDP": 0.00819672131147541,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.968,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 121,
+            "FP": 5,
+            "FN": 4,
+            "FDP": 0.03968253968253968,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.968,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "e7060f1fb01302f6502ef75ffece714a49b9d3de1d42389c78fe1d51d55a7a73",
+        "learned_arrays.npz": "32f491f9ab98d283847e326f10f211d3d0a1244b74e8f9e0810c3955f610d76c",
+        "runtime_contract.json": "72f45f0d5bd0b85173da3a96bd1683dbe744f8822c9f65b94f873871226502c4",
+        "training_history.json": "403a902a724085852c1c23a6db052f0ddddaec46f15eeb11cb596290764cb489",
+        "latest_model.pth": "63b7edac1f459f392cc9ee1d41bfb879815b33fabe3b569815141a1c2f69b33e",
+        "checkpoint_epoch_1000.pth": "64cd80edcdf7869b220c29ca971e95f79ccfff857ae11bea4d343ebd3d99255e",
+        "checkpoint_epoch_1500.pth": "6e77ed7343fbb58afd945b3782dd7bc9f0e470edd7d86f53f7f09a0ce3f4ba4c",
+        "checkpoint_epoch_2000.pth": "e896952049f7d1c21ad0d87eb00a86b1cc086900ca6c0b88a182ee972d9e480b",
+        "checkpoint_epoch_2500.pth": "f81031b532b9f83a7cc3cceeeeb191748c0f41bb9947d67195de42b36909da43",
+        "checkpoint_epoch_3000.pth": "73240b9d015892fe5a05da51891734acb0a3eb806679a4c314b269d13d133f85"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/CAL_R2_K125",
+      "completed_utc": "2026-09-10T19:38:02.129623+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D0__CAL_R3_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 123,
+      "raw_solver_FP": 210,
+      "raw_solver_FN": 2,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 14,
+            "FP": 0,
+            "FN": 111,
+            "FDP": 0.0,
+            "TP_retention": 0.11382113821138211,
+            "all_truth_recall": 0.112,
+            "raw_solver_FN": 2,
+            "filter_induced_true_loss": 109
+          },
+          "FDR5": {
+            "TP": 37,
+            "FP": 1,
+            "FN": 88,
+            "FDP": 0.02631578947368421,
+            "TP_retention": 0.3008130081300813,
+            "all_truth_recall": 0.296,
+            "raw_solver_FN": 2,
+            "filter_induced_true_loss": 86
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 123,
+            "FP": 1,
+            "FN": 2,
+            "FDP": 0.008064516129032258,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.984,
+            "raw_solver_FN": 2,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 123,
+            "FP": 8,
+            "FN": 2,
+            "FDP": 0.061068702290076333,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.984,
+            "raw_solver_FN": 2,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "7e0b428bf92c9edaec37657e6cdf665647d0b26be137e243e55f2eac49f3b639",
+        "learned_arrays.npz": "9866e9bd0b454885b515da9c4cbc3628563d0bcfc05c2f3e4c5d4740ab5cc3bc",
+        "runtime_contract.json": "7d928293e5cacc6728a890ece47656ba56555db5bbdfe2055108233ee1ba3454",
+        "training_history.json": "6b25cb0e1ddb004fc8bcf6528c608045bc3015045c2b85d5d3bacbe4fac93963",
+        "latest_model.pth": "a9e2af6c6766833f7aa45b85227ed0ee9df15b4cf1670a684f90d8e2167af454",
+        "checkpoint_epoch_1000.pth": "4aed225192ac91ff35d0b6ec99d7db4b45ed370df94f77227294010562f7a56e",
+        "checkpoint_epoch_1500.pth": "822513445bb57b38691da196daf9bfbb3a7c3ca3bb453a82595465771c3308e1",
+        "checkpoint_epoch_2000.pth": "d10d29823cc56a4201da3a2479bdd0458e94b41260d8ca94627f43515e8234ed",
+        "checkpoint_epoch_2500.pth": "d2f13e5f090fa80f10a4c2a0f69128d436c7d8a3e507dd3d9d59f7393e56cba9",
+        "checkpoint_epoch_3000.pth": "d22e38777901395721c5fc80b9fb8efee6d6150e700fb9f799d89b17b4bd22bb"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/CAL_R3_K125",
+      "completed_utc": "2026-09-10T23:27:04.430379+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D0__HOLD_R1_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 121,
+      "raw_solver_FP": 183,
+      "raw_solver_FN": 4,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 19,
+            "FP": 0,
+            "FN": 106,
+            "FDP": 0.0,
+            "TP_retention": 0.15702479338842976,
+            "all_truth_recall": 0.152,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 102
+          },
+          "FDR5": {
+            "TP": 42,
+            "FP": 0,
+            "FN": 83,
+            "FDP": 0.0,
+            "TP_retention": 0.34710743801652894,
+            "all_truth_recall": 0.336,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 79
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 121,
+            "FP": 0,
+            "FN": 4,
+            "FDP": 0.0,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.968,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 121,
+            "FP": 4,
+            "FN": 4,
+            "FDP": 0.032,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.968,
+            "raw_solver_FN": 4,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "3301017e8f44f897b04b03569f13f6e0220c8187181928e6613aa0946b312733",
+        "learned_arrays.npz": "081768662952e15e8d7026c3a22c21afc2a0a15372ce4765048104f3a0666706",
+        "runtime_contract.json": "a1c2f85063a6b8832fd86d527e9894f71e68b994d7e617b1eee2833e0bb45e42",
+        "training_history.json": "351190264eb9a86d89161688f70549e73e690776df2b434d854b9bfa520e3bc0",
+        "latest_model.pth": "2967b7c9fb69f3e65f4a301523e2f83558cdb7e578173e2f19415ed410c0c25e",
+        "checkpoint_epoch_1000.pth": "4e157f9a401910e56009dc91bb51191efb75443cae12aacf4ba2b7713aa39444",
+        "checkpoint_epoch_1500.pth": "d834db4dc22245021628d4767dd60c9e41fd8e016b84486c3377bade4c1d8172",
+        "checkpoint_epoch_2000.pth": "29e267ccf354cfa0a8ab8bbe16b28fe7644a0b1aedb2b5d636efed1f98627279",
+        "checkpoint_epoch_2500.pth": "0275c2c747836419f26f9091b32b39b23ada54dd6f0836cafde65c00739e0a38",
+        "checkpoint_epoch_3000.pth": "8868d8d9a5ba9e225a59f58bada04e5898ef4d75729d726f8a87a6263dc6e0d5"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/HOLD_R1_K125",
+      "completed_utc": "2026-09-11T03:39:45.741227+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D0__HOLD_R2_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 120,
+      "raw_solver_FP": 195,
+      "raw_solver_FN": 5,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 27,
+            "FP": 0,
+            "FN": 98,
+            "FDP": 0.0,
+            "TP_retention": 0.225,
+            "all_truth_recall": 0.216,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 93
+          },
+          "FDR5": {
+            "TP": 43,
+            "FP": 1,
+            "FN": 82,
+            "FDP": 0.022727272727272728,
+            "TP_retention": 0.35833333333333334,
+            "all_truth_recall": 0.344,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 77
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 120,
+            "FP": 0,
+            "FN": 5,
+            "FDP": 0.0,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.96,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 120,
+            "FP": 1,
+            "FN": 5,
+            "FDP": 0.008264462809917356,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.96,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "d00fe8f5fc1c27774ef0f359d6f6861372841b440116858494b5caf45959d3a6",
+        "learned_arrays.npz": "d7da802bdfcdf98b78c1df5ba5c9d6fb1cec13f891001685860e49adeb483010",
+        "runtime_contract.json": "769378ad76a52b30edfbeecb4ee491870a0d57f6918312f852c87fced1f50152",
+        "training_history.json": "bd65ffea66775f2a0d5b72379a4055c3dc0e76283f8a1596bb77e760675b28bf",
+        "latest_model.pth": "783d2cefd1f34c945589b6b1edac3fc023eca629b63a7715e79831f7b207ca61",
+        "checkpoint_epoch_1000.pth": "b8af6a1a6828b7b2339c720fe3cbef2edcc59596253502161a9cbf6fb9e6d00a",
+        "checkpoint_epoch_1500.pth": "030e09572bd07f929e60503a14b56afa914bf8540fbb89ee73f664749beb5a9e",
+        "checkpoint_epoch_2000.pth": "b348d98c30c2b69091d000aa30ec0f0884e2241f79b023bb25178e82beaa57c1",
+        "checkpoint_epoch_2500.pth": "dad270e6fb87bf936ebb5e0d793ff226e5c01c76544fabf940738b3af0505e23",
+        "checkpoint_epoch_3000.pth": "abd95cd328fc43cf8cae005c73409d19e871090420ad6653819da983050a5c35"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/HOLD_R2_K125",
+      "completed_utc": "2026-09-11T08:03:13.213094+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D0__HOLD_R3_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 120,
+      "raw_solver_FP": 202,
+      "raw_solver_FN": 5,
+      "filtered": {
+        "X_hat": {
+          "FDR1": {
+            "TP": 23,
+            "FP": 0,
+            "FN": 102,
+            "FDP": 0.0,
+            "TP_retention": 0.19166666666666668,
+            "all_truth_recall": 0.184,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 97
+          },
+          "FDR5": {
+            "TP": 42,
+            "FP": 1,
+            "FN": 83,
+            "FDP": 0.023255813953488372,
+            "TP_retention": 0.35,
+            "all_truth_recall": 0.336,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 78
+          }
+        },
+        "rho_zero": {
+          "FDR1": {
+            "TP": 120,
+            "FP": 0,
+            "FN": 5,
+            "FDP": 0.0,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.96,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 0
+          },
+          "FDR5": {
+            "TP": 120,
+            "FP": 0,
+            "FN": 5,
+            "FDP": 0.0,
+            "TP_retention": 1.0,
+            "all_truth_recall": 0.96,
+            "raw_solver_FN": 5,
+            "filter_induced_true_loss": 0
+          }
+        }
+      },
+      "filter_review": "SEALED_DOMAIN_CAL_THRESHOLDS",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "65c6bea4e6d0774db49dfb3d86314047621d0af73d9c8a36ec1dd59d69ded3e4",
+        "learned_arrays.npz": "5d762372ad57e199897eff6d8864cf4c22bd5319cd446276dfca6b01c9d7015d",
+        "runtime_contract.json": "c49012024c996ea73e90c3d852089ea4631b80d1100103d57f1a12c1a34280ff",
+        "training_history.json": "6da91a24e8318e7467bfa91f852ce381ea9721890a4db5a83f5f8cb1d187f48e",
+        "latest_model.pth": "045790346436ba137fb4149fc57bb69579a9e7d7699d001e41e3ba5501eca02f",
+        "checkpoint_epoch_1000.pth": "4cd48191f3b026deb989ca631d76f115f7ef4ab7af0a0512e5c2b462ed0eabb5",
+        "checkpoint_epoch_1500.pth": "41d7a26abc39465cc5f059da3f9c3792210aae77604f64ca66bf0cd2b3eef38b",
+        "checkpoint_epoch_2000.pth": "8687a951fa169df5f22f40eef630fa65d4cfc0f6b35f406f2e700c41bdb1e1dd",
+        "checkpoint_epoch_2500.pth": "56f6e376042f17b62858881a2fa5ac00c8abe4bc99e06cc5ab5a2ead9d668ec6",
+        "checkpoint_epoch_3000.pth": "d1858f1bec0b8d32f79d37f559fd7d5e6ff7ed1587f0223788717134e5db432c"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D0/clean/HOLD_R3_K125",
+      "completed_utc": "2026-09-11T12:13:21.420801+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    },
+    {
+      "dataset_id": "D1__CAL_R1_K125",
+      "status": "CACHED_PROCESS_BINDING_HASH_AND_ACCOUNTING_PASS",
+      "raw_solver_TP": 120,
+      "raw_solver_FP": 246,
+      "raw_solver_FN": 5,
+      "filtered": {},
+      "filter_review": "DEFERRED_NO_DOMAIN_CAL_SEAL",
+      "array_fields_finite": [
+        "X_hat",
+        "B_hat"
+      ],
+      "source_artifact_hashes": {
+        "solver_run.json": "686bef26373ebbf3e2618ab8d353186eb8f8969e9fc530e44cc9a725208393df",
+        "learned_arrays.npz": "87ad516438b5e9a1f3e56290dbaecee02afdbdcbc57c7074142ac8e7b2358f18",
+        "runtime_contract.json": "17a1e71c251de04774c2ae5b47cf9499d8ecbbc45b2cdb2e28885b71e46a4e52",
+        "training_history.json": "c0f4300ef5831b58d7fe4ce60cabb4b522040ae8742fa2c88d16b28655785c2c",
+        "latest_model.pth": "eea4a84e0588eca67ef4f2b5b0514157618986e1d2e6a5d353fdbf6832a61629",
+        "checkpoint_epoch_1000.pth": "aa86ea60a9d15db3d7af987985388bdc4acb6b471f080cbe9a41967bef68f1fb",
+        "checkpoint_epoch_1500.pth": "b26c00b9fdbb9cd709c017b7b20458c4869207fecfcd2967ca6b33d309d07b7e",
+        "checkpoint_epoch_2000.pth": "5fb0215283a5a87b4fbfdd47c2bfc6e1f68c245ddd05f0c8cd3b0bc0b6f99761",
+        "checkpoint_epoch_2500.pth": "199ad7f1d43ce8f71caf70183e40e883e944e06445465322234db91ce8475d69",
+        "checkpoint_epoch_3000.pth": "eea0d4408f427ffd0233ef80de66261e5f9cf91b56e2096e179ccc7021b4bbbc"
+      },
+      "retained_source_directory": "/root/autodl-tmp/lipiddeconv/results/v59_oracle_float64_recovery/v59_standardized_cross_library_formal/D1/clean/CAL_R1_K125",
+      "completed_utc": "2026-09-11T20:18:41.290695+00:00",
+      "deferred": [
+        "Final all-18 aggregation",
+        "Independent reconstruction residual recomputation",
+        "Historical raw MSI asset re-audit"
+      ]
+    }
+  ],
+  "cleanup_performed": false,
+  "large_artifacts_retained_on_source": true
+}

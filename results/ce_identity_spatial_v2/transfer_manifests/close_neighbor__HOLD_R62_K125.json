@@ -1,0 +1,18 @@
+{
+  "tag": "close_neighbor__HOLD_R62_K125",
+  "case": "close_neighbor__HOLD_R62_K125",
+  "files": {
+    "cases/close_neighbor__HOLD_R62_K125/evidence.npz": "68f65d5110fda5203c28e9899d0aa3984843711d2ddea6bec23c49b3ba048f87",
+    "cases/close_neighbor__HOLD_R62_K125/independent_evidence_review.json": "fa9b718b81984d8648e5b9f3967ed1f0793f637ce33b752fe578e1ded758a95e",
+    "cases/close_neighbor__HOLD_R62_K125/input.json": "c6180d7b6f932ec3edb12bc73602b5db5a6a6406f854f8dc0361316e60cbc8e0",
+    "cases/close_neighbor__HOLD_R62_K125/molecular_records.json": "7e8ff069b5e0691ddb2aa3c7dc17fb625183684fb64b20e61ae873df327f0e0c",
+    "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_diagnostics.csv": "faf7c4fc3471b02645270f44b1489d6eaaa60078902ca59913c8a54fff50e3f4",
+    "cases/close_neighbor__HOLD_R62_K125/training/runtime_contract.json": "f5cd0f004ef5ada437e228b6250f1257e5baf63c6f171cb1f22f62c5fb5f8b2a",
+    "cases/close_neighbor__HOLD_R62_K125/training/solver_run.json": "36e891f69f83194db04d8715943a6b561a3a11cbecb3a1f548e89394214c099b",
+    "cases/close_neighbor__HOLD_R62_K125/training/training_history.json": "504acedbd8320d66018cf8c3e6e7b54fcef03e3255c9dea59417643ef74e3a7f",
+    "cases/close_neighbor__HOLD_R62_K125/training_complete.json": "b367349e3dc78c800a7c1e961120ad4148bdb8a34ca7c64ff7047a940241e8a8",
+    "deployment/launch.json": "dd1069b6849703852d03eb314c7aea3eb4c01afa3549d9a4e7595ebe1e789b34"
+  },
+  "retained_storage": "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2",
+  "retained_large_artifacts": "Models, observations/truth and learned arrays remain on the source host; no deletion."
+}

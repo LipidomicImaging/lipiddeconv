@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "case": "close_neighbor__HOLD_R62_K125",
+  "artifact_hashes": 15,
+  "normal_finite_training": true,
+  "all_same_name_unthresholded_weights_reconstructed": true,
+  "reported_membership_and_all_truth_denominators_verified": true,
+  "all_local_observations_independently_reconstructed": true,
+  "weight_absolute_error": 0.0,
+  "local_absolute_error": 1.0269562977782698e-15,
+  "outcome_analysis": "DEFERRED_UNTIL_BOTH_CALIBRATION_SEALS"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "NORMAL_FINITE_COMPLETE",
+  "case": "close_neighbor__HOLD_R62_K125",
+  "fingerprint": "838a88736fa4c2cd05fdb888b5644773596130a512413dfed972aeaa9f4857f7",
+  "files": {
+    "training/runtime_contract.json": "f5cd0f004ef5ada437e228b6250f1257e5baf63c6f171cb1f22f62c5fb5f8b2a",
+    "training/training_history.json": "504acedbd8320d66018cf8c3e6e7b54fcef03e3255c9dea59417643ef74e3a7f",
+    "training/checkpoint_diagnostics.csv": "faf7c4fc3471b02645270f44b1489d6eaaa60078902ca59913c8a54fff50e3f4",
+    "training/latest_model.pth": "667b03b6de355b8a0b75f5750b0c1db75e17cbef43fed4c00c1f7ad39c735f54",
+    "training/checkpoint_epoch_1000.pth": "4e526240d11befa0880167efd184979a6fb104c2b0fdc86cbf5434cfcf77395f",
+    "training/checkpoint_epoch_1500.pth": "96c1c097f387c2daac78eab21f5e409c7da8bf074f5f305e0fe5505d348ae75c",
+    "training/checkpoint_epoch_2000.pth": "e2f0f227243e5a9ddb753978de63cce007bec7ec9d75192b526c46528cbade15",
+    "training/checkpoint_epoch_2500.pth": "8ebbcad084af01e3db85511ed10fbb3d4f928a784d8a7186643bbb3a762f6bbc",
+    "training/checkpoint_epoch_3000.pth": "e428f57155f5556f152ff1ab7b2176ec7944516c40a719d1be48440396566317",
+    "training/learned_arrays.npz": "196edb7a5bf4b76436f350e424bb5bec0cd6e65281ea523765c6c0131d8dcd1e",
+    "training/solver_run.json": "36e891f69f83194db04d8715943a6b561a3a11cbecb3a1f548e89394214c099b",
+    "input.json": "c6180d7b6f932ec3edb12bc73602b5db5a6a6406f854f8dc0361316e60cbc8e0",
+    "observation_truth.npz": "27f5c0502f2b2e6b815a50f0cac56d98369438dcfc478e13f13cec847d4db075",
+    "evidence.npz": "68f65d5110fda5203c28e9899d0aa3984843711d2ddea6bec23c49b3ba048f87",
+    "molecular_records.json": "7e8ff069b5e0691ddb2aa3c7dc17fb625183684fb64b20e61ae873df327f0e0c"
+  },
+  "weights_frozen_before_LPs": true,
+  "training_uses_no_truth_or_target_library": true,
+  "stopped_epoch": 3000,
+  "stop_reason": "max_epochs"
+}

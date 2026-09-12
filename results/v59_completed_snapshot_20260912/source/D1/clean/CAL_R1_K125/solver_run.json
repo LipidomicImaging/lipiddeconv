@@ -1,0 +1,39 @@
+{
+  "dataset_id": "CAL_R1_K125",
+  "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3",
+  "arrays_sha256": "87ad516438b5e9a1f3e56290dbaecee02afdbdcbc57c7074142ac8e7b2358f18",
+  "training": {
+    "stopped_epoch": 3000,
+    "stop_reason": "max_epochs",
+    "wall_time_seconds_this_invocation": 2183.1788823604584,
+    "final_physical_loss": 0.0006354021606966853,
+    "final_raw_losses": [
+      7.290716166608036e-05,
+      0.0004736781120300293,
+      8.285066724056378e-05,
+      5.966229764453601e-06
+    ],
+    "channel_weighting": {
+      "mode": "auto",
+      "reference_A_path": "solver_A",
+      "reference_A_shape": [
+        2646,
+        1223
+      ],
+      "reference_meta_path": "solver_metadata",
+      "parent_weight_multiplier_before_renormalization": 1.0,
+      "parent_mz_range": [
+        748.0,
+        803.0
+      ],
+      "parent_channel_count": 264,
+      "fragment_channel_count": 2382,
+      "mean_parent_channel_weight": 1.5369341373443604,
+      "mean_fragment_channel_weight": 0.9715489149093628,
+      "mean_all_channel_weight": 1.0279592275619507
+    },
+    "resumed_from_runtime_checkpoint": false,
+    "scheduler_T_max": 5000
+  },
+  "X_true_used_in_training_or_stopping": false
+}

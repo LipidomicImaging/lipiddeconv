@@ -1,0 +1,17 @@
+{
+  "status": "SOURCE_HASHES_VERIFIED_AFTER_DOWNLOAD",
+  "archive_sha256": "d8de8f722add6218e7ea1dea8e6abc07de8bb51f62752292081c5ad304aaa1b1",
+  "files_verified": 91,
+  "completed_cases": [
+    "D0__CAL_R1_K125",
+    "D0__CAL_R2_K125",
+    "D0__CAL_R3_K125",
+    "D0__HOLD_R1_K125",
+    "D0__HOLD_R2_K125",
+    "D0__HOLD_R3_K125",
+    "D1__CAL_R1_K125"
+  ],
+  "all_18_complete": false,
+  "large_artifacts_retained_on_source": true,
+  "deletion_performed": false
+}

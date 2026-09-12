@@ -1,0 +1,73 @@
+{
+  "datasets": {
+    "D0__CAL_R1_K125": {
+      "all_outputs_losses_finite": true,
+      "artifact_hashes": {
+        "checkpoint_epoch_1000.pth": "24972c9443d583bd37eb15c4e29f69c98bc72933a9db2d40e7e7a09429719622",
+        "checkpoint_epoch_1500.pth": "d4d10a4049e6c7711df9b165826a48c31f1237517879f6df38e8ce35fb59dfff",
+        "checkpoint_epoch_2000.pth": "733fd5e1105f6a719014ef74365dba9b8cf36a2b0a507f03ab6e43a91d9b8315",
+        "checkpoint_epoch_2500.pth": "bd26fb918204e2d9f71cfc3f539e0c019204ce9355f0d1447a6067c41782a253",
+        "checkpoint_epoch_3000.pth": "e711754ba48f0af6a308b8c96f4c4840124a3f2cd30d85bd414426e2e251514c",
+        "latest_model.pth": "da0ae16538f581c42d9c99bf88b5d1404d52b969f077510c1659ed8432c9af1e",
+        "learned_arrays.npz": "307412f1b09dad0d3c3c2dc05df8b6eb5b807397e95c0326875e025e05853389",
+        "runtime_contract.json": "a1c4817dfe33016e9c5ffcc3333aac5c6275523bb46d59587ea94f114e111638",
+        "solver_run.json": "2155d003ff6cc8b9cab04b638f1517707f36b172ec44fb5fdf7368f0641bf27b",
+        "training_history.json": "b8219bf5d9715db6d16bf4ad5826ebf84200737057289e40f4cbfaf163ed8f97"
+      },
+      "final_residual": 0.04177125624605165,
+      "identity_outcomes_used": false,
+      "normal_completion": true,
+      "status": "PASS",
+      "stop_reason": "max_epochs",
+      "stopped_epoch": 3000
+    },
+    "D1__CAL_R1_K125": {
+      "all_outputs_losses_finite": true,
+      "artifact_hashes": {
+        "checkpoint_epoch_1000.pth": "aa86ea60a9d15db3d7af987985388bdc4acb6b471f080cbe9a41967bef68f1fb",
+        "checkpoint_epoch_1500.pth": "b26c00b9fdbb9cd709c017b7b20458c4869207fecfcd2967ca6b33d309d07b7e",
+        "checkpoint_epoch_2000.pth": "5fb0215283a5a87b4fbfdd47c2bfc6e1f68c245ddd05f0c8cd3b0bc0b6f99761",
+        "checkpoint_epoch_2500.pth": "199ad7f1d43ce8f71caf70183e40e883e944e06445465322234db91ce8475d69",
+        "checkpoint_epoch_3000.pth": "eea0d4408f427ffd0233ef80de66261e5f9cf91b56e2096e179ccc7021b4bbbc",
+        "latest_model.pth": "eea4a84e0588eca67ef4f2b5b0514157618986e1d2e6a5d353fdbf6832a61629",
+        "learned_arrays.npz": "87ad516438b5e9a1f3e56290dbaecee02afdbdcbc57c7074142ac8e7b2358f18",
+        "runtime_contract.json": "17a1e71c251de04774c2ae5b47cf9499d8ecbbc45b2cdb2e28885b71e46a4e52",
+        "solver_run.json": "686bef26373ebbf3e2618ab8d353186eb8f8969e9fc530e44cc9a725208393df",
+        "training_history.json": "c0f4300ef5831b58d7fe4ce60cabb4b522040ae8742fa2c88d16b28655785c2c"
+      },
+      "final_residual": 0.052585734803495,
+      "identity_outcomes_used": false,
+      "normal_completion": true,
+      "status": "PASS",
+      "stop_reason": "max_epochs",
+      "stopped_epoch": 3000
+    },
+    "D2__CAL_R1_K125": {
+      "all_outputs_losses_finite": true,
+      "artifact_hashes": {
+        "checkpoint_epoch_1000.pth": "1d42aacacd70d0b29d349c611ff1a03f8e7612dd682afa6b38ebe3cdd452c5a2",
+        "checkpoint_epoch_1500.pth": "f22bbbfc9e9d0db8715fd3815177c84e657e11eb5b4187c4d7b6f4a22ceb1d15",
+        "checkpoint_epoch_2000.pth": "6ad0e6d6b70a47ff09ae5f14f2d1ed9fc721a074956c60da076051560813d21d",
+        "checkpoint_epoch_2500.pth": "dc8b2bf17b774166f3045063da22e99fb77aca013eba51634574cd29ba621202",
+        "checkpoint_epoch_3000.pth": "12fe91e203e5c755d0aa20065fdafb64024982d1e76a963a338c3a4e6c76c0f1",
+        "latest_model.pth": "0e0de6763c2709b391dceea733aee745a91b66b780d3fc83108930df4f805237",
+        "learned_arrays.npz": "aeca44245e2413b253ddd615b5490fb97bc1049d58ab6837916620d8ce063548",
+        "runtime_contract.json": "bccb51110915dc855215b75c485818116fcb41b9c4b65f427132494df039ea85",
+        "solver_run.json": "363d58024325f10922653e0f0f9424494418316654f879141b82feef11f04406",
+        "training_history.json": "df44c7b437b5cb8a3d161cab83061fb5610a4830985a19248f88474444159a2d"
+      },
+      "final_residual": 0.036902611829549806,
+      "identity_outcomes_used": false,
+      "normal_completion": true,
+      "status": "PASS",
+      "stop_reason": "max_epochs",
+      "stopped_epoch": 3000
+    }
+  },
+  "design_fingerprint": "a8331e8ecf4cd51ed3bfb5a1e1310de46297f3470012f89ab1b9e0e1c4382fa3",
+  "formula": "normal completion AND finite outputs/losses AND final foreground reconstruction relative residual <=0.10",
+  "hard_cap_only": 3000,
+  "identity_outcomes_used": false,
+  "minimum_epoch_requirement": null,
+  "status": "PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "DOWNLOADED_SOURCE_HASHES_PASS",
+  "case": "relatively_isolated__HOLD_R62_K125",
+  "archive_sha256": "633af5007bf270ea30a41ade9a0c6ae56242060f643f7159dd9ed3e27a734f0a",
+  "files_verified": 10,
+  "large_artifacts": {
+    "cases/relatively_isolated__HOLD_R62_K125/evidence.npz": {
+      "sha256": "42d650a58d7d15e3b380052cfb59cad75f8cf58e942f6793ca5a4633e79ce972",
+      "bytes": 29947311,
+      "remote_path": "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2/cases/relatively_isolated__HOLD_R62_K125/evidence.npz",
+      "local_download_verified": true,
+      "Git_blob": false
+    }
+  },
+  "source_models_and_observations_retained": true,
+  "performance_review_deferred": true
+}
