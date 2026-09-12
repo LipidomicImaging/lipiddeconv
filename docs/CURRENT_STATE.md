@@ -1,3 +1,7 @@
+# V2 spatial-conditioned identity pilot implemented; preparation next — 2026-09-12
+
+User authorized V2 implementation and small new pilot under docs/CE_IDENTITY_SPATIAL_V2_PROTOCOL.md. New runner reuses exact CE v1 LP/uncertainty and V57 construction/training; only global versus identity-conditioned evidence is compared on the same six new cases. R61/6201 is developmental CAL, R62/6202 EVAL. Frozen gamma1e-6, all six requested statuses, separate method CAL seals, aggregate FDP<=1%/retention>=40% AND each of three challenges retention>=40%/nonempty. Ten analytic tests PASS; old run04 remains closed. Next prepare/freeze direct-source design on westc, execute six new production fits then CPU paired scoring, independently review and Git. No original pipeline edits or cleanup.
+
 # CE identity pilot COMPLETED; current version stops — 2026-09-11
 
 Six fixed CPU contexts complete and independently reviewed in results/ce_uncertainty_identity_pilot_run04.115 output hashes/116 transfer hashes,1415 full/deletion proofs and all accounting/calibration checks PASS. Frozen R2 aggregate:44 TP/1 FP, FDR2.22%, retention12.43%, all/reportable recall11.73%;0/3 full-model abstentions. MILD alone retention35.48%; both omission arms select no identities. Raw solver FN21 plus filter-induced true losses310 gives final FN331. Current version fails the fixed1%/40% continuation line; no formal validation launch, threshold/model tuning or impossibility claim.

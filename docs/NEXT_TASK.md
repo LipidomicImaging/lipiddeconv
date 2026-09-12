@@ -1,3 +1,9 @@
+# ACTIVE — V2 identity-conditioned spatial evidence pilot — 2026-09-12
+
+Follow docs/CE_IDENTITY_SPATIAL_V2_PROTOCOL.md and analysis/run_ce_identity_spatial_v2.py. User explicitly requested implementation/execution with frozen U v1 and gamma1e-6. Prepare six genuinely new spatial cases using the inherited V57 recipe and fixed new seeds6201/6202; retain original identity/abundance/solver/mismatch contracts. Execute fresh production X_hat fits; old run04 only input/debug/novelty references. Freeze input novelty before LP scoring; separate global/local CAL epsilon seals before either EVAL. GO requires aggregate FDP<=1%, aggregate and EACH challenge retention>=40%, each nonempty;60% aggregate only strong success. Preserve all nonselections in denominators.
+
+Required outputs: frozen design/protocol/source bindings, evidence/novelty records, complete production artifacts, numerical proof files, independent review, raw/filter-loss/status metrics and paired global/local report. Reuse existing code and known paths only. Review/download/Git each completed case; no cleanup, rho rerun, additional benchmark or outcome-driven change. After reviewed success or failure, update state, commit/push and STOP this pilot; no automatic independent validation or open-set expansion.
+
 # COMPLETED — CE boundary and six-context identity pilot — 2026-09-11
 
 All six contexts finished; all numerical proofs, original source/output hashes, fixed calibration and accounting independently PASS. Results and analysis: results/ce_uncertainty_identity_pilot_run04/findings.md. R2 FDR2.22%, TP retention12.43%: STOP_CURRENT_VERSION under the frozen1%/40% rule. MILD alone35.48% retention; omission arms retain none. No result-driven threshold/U changes or automatic formal validation.
