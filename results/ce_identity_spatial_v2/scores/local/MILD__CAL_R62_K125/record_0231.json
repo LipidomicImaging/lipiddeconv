@@ -1,0 +1,53 @@
+{
+  "binding": {
+    "evidence_sha256": "b6d67463ea54adbe858c842a000c8cf35f3483ebe732bb453437c71d7ee05499",
+    "records_sha256": "acdd3e5bce5462238f432be8b9f0af9da76925b90adf872de8f654de84c9b8a5",
+    "method": "local",
+    "input_evidence_seal_sha256": "59f6bcfa79b6f28724fb9d1339051ef88210ebe7297dcc0bb5b8a2d9c428fa68",
+    "contract_fp": "16c66de43e586f3fc94fd8acd644c0ad32abcd610bba4dac5116666de34ea70f",
+    "fingerprint": "838a88736fa4c2cd05fdb888b5644773596130a512413dfed972aeaa9f4857f7"
+  },
+  "record": {
+    "lipid_name": "PE O-18:0_22:2",
+    "evidence_index": 231,
+    "removed": [
+      231
+    ],
+    "raw_solver_reported": true,
+    "X_hat": 0.018334835864190255,
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "full": {
+      "lower": 0.019860747459464034,
+      "upper": 0.019860870921553666,
+      "seconds": 2.9970220141112804,
+      "objective": 0.019860856881521526,
+      "backend_attempts": [
+        {
+          "method": "highs",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      ],
+      "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+    },
+    "deleted": {
+      "lower": 0.01986260668062768,
+      "upper": 0.019862742077170797,
+      "seconds": 2.560744136571884,
+      "objective": 0.019862727233509243,
+      "backend_attempts": [
+        {
+          "method": "highs",
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      ],
+      "proof": "GLOBAL_LP_BOUNDS_NUMERICAL_GUARD_1e-8"
+    },
+    "proof_file": "proof_0231.npz"
+  },
+  "proof_files": {
+    "proof_0231.npz": "d9bab851a1faeb6968efb066249662349a4e1cef3a53075cc22e4a1b53fafbe4"
+  }
+}

@@ -1,3 +1,7 @@
+# V2 finished; no next experiment queued — 2026-09-12
+
+V2 compute and independent final review complete; both processes exited and westc GPU0%/0MiB at04:25UTC. Method NO-GO and paired BOTH_NO_GO: local/global aggregate TP retention4.57%/6.86%; local missing-library retention0% and0.89%. Final outputs and separate two-part interpretation are in results/ce_identity_spatial_v2. Full source/numerical evidence is downloaded and hash-verified. Close this version without tuning or new runs; final Git handoff and the one explicitly planned redundant transport archive receipt remain. Existing V59 on cqa1 is a separate unresolved experiment; this turn did not stop or freshly audit it.
+
 # V2 storage locations updated after verified recovery — 2026-09-12
 
 Westc V2 data free~3.42GiB after verified storage recovery.36 checkpoints/models now reside in /root/v2_retained_runtime_20260912, accessed by atomic symlinks from the original six case training directories. All original90 artifact bindings and106 protected hashes pass. This retained directory is a required dependency, not disposable cache. Six per-case export tarballs were deleted only after byte-identical local backups and pushed case/plan verification; receipts/manifests and all local case outputs remain. Full V2 final export is still pending. Exact plan, deletion receipt, storage mapping and post-verification are in results/v2_storage_retirement_20260912. No V58/V59/old result files were touched, and V2 scoring continues.

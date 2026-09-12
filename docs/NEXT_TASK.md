@@ -1,4 +1,10 @@
-# ACTIVE — V2 identity-conditioned spatial evidence pilot — 2026-09-12
+# COMPUTATION AND REVIEW COMPLETE — V2 final Git handoff — 2026-09-12
+
+V2 has finished and independently passed5572 numerical proof checks plus source hashes, CAL-only seals and all accounting. Method NO-GO; paired result BOTH_NO_GO. Local aggregate TP retention4.57%, global6.86%; local challenge retentions12.20%/0%/0.89%, all below40%. Report: results/ce_identity_spatial_v2/final_interpretation.md. Main scientific objective remains open, but this version is closed without tuning or a new validation launch. No further intermediate task is authorized by the V2 contract.
+
+Only finish the final result Git push, verify that snapshot, retire the one redundant final.tar.gz explicitly listed in final_archive_retirement_plan.json after local/source hash checks, then push its receipt and STOP. Preserve all local/remote numerical proof and evidence files, trained arrays, source results and /root/v2_retained_runtime_20260912. The historical postprocessor archive-ready status becomes a historical export record after transport-archive retirement; do not restart V2 or recreate its retired archives. No active V2 process or GPU allocation remains at the latest check.
+
+# Historical V2 execution instructions
 
 Both CAL seals verified; R62 EVAL active at03:36UTC2026-09-12. Proceed only through existing EVAL -> independent review -> final report/Git. The final report must separate unchanged local METHOD_GO/NO_GO from paired SPATIAL_CONTRIBUTION (local-only/both/neither/global-only GO), with each missing-library arm's recovery and40% gate explicit. V1 zero retention is historical context; same-batch global is the attribution control. No extra intermediate task or current-version patch. A method GO may motivate a new prospective physical-validation design without claiming spatial superiority when both controls pass. Latest user clarification supersedes older wording that conflated those conclusions; see docs/CE_IDENTITY_SPATIAL_V2_PROTOCOL.md.
 

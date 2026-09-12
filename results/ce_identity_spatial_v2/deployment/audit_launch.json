@@ -1,0 +1,22 @@
+{
+  "pid": 103069,
+  "started_utc": "2026-09-12T02:24:39.143813+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/root/v58_jobs/ce_identity_spatial_v2_code/audit_ce_identity_spatial_v2_job.py",
+    "--output",
+    "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2",
+    "--exports",
+    "/root/v58_jobs/ce_identity_spatial_v2_exports",
+    "--status",
+    "/root/v58_jobs/ce_identity_spatial_v2_audit_status.json",
+    "--main-pid",
+    "102539"
+  ],
+  "script_sha256": "38842b59110e23edaed614b0b63062c7f486a690ba822e82a04efcb569271c42",
+  "git_commit": "280d35e2fd2049714308caefab3197d199ff3f1f",
+  "no_scientific_changes": true,
+  "no_cleanup": true,
+  "automatic_Git_push": false
+}

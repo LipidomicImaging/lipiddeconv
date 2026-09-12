@@ -1,0 +1,194 @@
+{
+  "cases/MILD__CAL_R61_K125/observation_truth.npz": {
+    "sha256": "d61ebce81fad097739421210068293ccb0a71bd12ef29facef24052785353c52",
+    "bytes": 61752897
+  },
+  "cases/MILD__CAL_R61_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "6e8937690666b481ebeec24d3047842cc91ab8302fbaec6b34ae862fe6ca6d72",
+    "bytes": 40071215
+  },
+  "cases/MILD__CAL_R61_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "cd074372f13cd69d7155a6b8fa6384d4c380c021177b9eefe6ae8f7295317632",
+    "bytes": 40083695
+  },
+  "cases/MILD__CAL_R61_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "5f149342a436e56d48283c3e9e5e00af8839f960c6e1c7459b467af4210570e6",
+    "bytes": 40096047
+  },
+  "cases/MILD__CAL_R61_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "ec966c1914cee5e4bbe207747a75ebf61550c10bf7053b6b89d6f96d6dc56f0c",
+    "bytes": 40108399
+  },
+  "cases/MILD__CAL_R61_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "ee128718a5acc09122e29d823823e3d973dbc997a91fbbf47a03fc533b454615",
+    "bytes": 40120559
+  },
+  "cases/MILD__CAL_R61_K125/training/latest_model.pth": {
+    "sha256": "1474d979374005c3612fa517239ce107d7d19a243b70368c6993e64eab8a55e0",
+    "bytes": 40116068
+  },
+  "cases/MILD__CAL_R61_K125/training/learned_arrays.npz": {
+    "sha256": "9cd32f61b975166bbd480c075615316130f06a741611b5184a7f2854ad59ecd0",
+    "bytes": 74415157
+  },
+  "cases/MILD__CAL_R62_K125/observation_truth.npz": {
+    "sha256": "c997759914f1bed0ed05d06a26ed3bfded3353a74df5debea36a7c3e65808cf4",
+    "bytes": 60835277
+  },
+  "cases/MILD__CAL_R62_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "e4f86bf31c5336a8c88bac7a8252582aae422e609ed42256ccdbb889cbfc6238",
+    "bytes": 40071279
+  },
+  "cases/MILD__CAL_R62_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "0df9cffed6031019c13dec498699d96b1cc8097a4d1aa18050b7415e0ebc79b9",
+    "bytes": 40083887
+  },
+  "cases/MILD__CAL_R62_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "82c8d7c840ec60ddd488af1a24b9a2d087f7f64278be4199afac249b50b59729",
+    "bytes": 40096047
+  },
+  "cases/MILD__CAL_R62_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "262d837c9dd162a92a52d1b8e0f8040e6a06d168443f42113117b67412ca88c8",
+    "bytes": 40108207
+  },
+  "cases/MILD__CAL_R62_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "599b6a3909c0dad888ac2944fcb00eb8d97366caaa119fc531ae8d8fa1eb6658",
+    "bytes": 40120367
+  },
+  "cases/MILD__CAL_R62_K125/training/latest_model.pth": {
+    "sha256": "eb23e1916c0cfa8f0b088f8b312d3909ae75bd61165d7aa11856594934ab08ef",
+    "bytes": 40115876
+  },
+  "cases/MILD__CAL_R62_K125/training/learned_arrays.npz": {
+    "sha256": "e2e17749b082b2e7ece6f9d26385097c0267f169eccc5a248f7427bac5624bdc",
+    "bytes": 74406749
+  },
+  "cases/close_neighbor__HOLD_R61_K125/observation_truth.npz": {
+    "sha256": "77e25c3b2636f89b0b68feb3b30caba4fd5e7330c54b5d623110d704115e8ed6",
+    "bytes": 63776961
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "387225b2b9cb53ee0227a2acdb8dc375f949a8f53d394b10d9115709397959dd",
+    "bytes": 39564207
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "85293c6da3503c1f1b2719629ccf9475af2e80902eb96b2945d080fbfcffb605",
+    "bytes": 39576559
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "08961ed216df8bb8c601ed7f315f2d893b4e6417532c2fb0f4dc17e7cf5e1102",
+    "bytes": 39588719
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "6043e9e0ead155fa550fbb4c03fe237841bc7fa9bef6f6a3a690d9094989f763",
+    "bytes": 39600879
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "63ed6371ba8a01e1da7f804b6571af9ed223006ce72bd1086b748174aa7de4d3",
+    "bytes": 39612911
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/latest_model.pth": {
+    "sha256": "e334ab0c484b17f7100ef63ced49045fbfb698da48231e837e78e20356af0f0c",
+    "bytes": 39608420
+  },
+  "cases/close_neighbor__HOLD_R61_K125/training/learned_arrays.npz": {
+    "sha256": "4fca70827e9c0ef397a86a751b5a493f0f075e3188493e21bc2b4ecb487c1b43",
+    "bytes": 75033876
+  },
+  "cases/close_neighbor__HOLD_R62_K125/observation_truth.npz": {
+    "sha256": "27f5c0502f2b2e6b815a50f0cac56d98369438dcfc478e13f13cec847d4db075",
+    "bytes": 63196869
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "4e526240d11befa0880167efd184979a6fb104c2b0fdc86cbf5434cfcf77395f",
+    "bytes": 39564271
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "96c1c097f387c2daac78eab21f5e409c7da8bf074f5f305e0fe5505d348ae75c",
+    "bytes": 39576495
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "e2f0f227243e5a9ddb753978de63cce007bec7ec9d75192b526c46528cbade15",
+    "bytes": 39588463
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "8ebbcad084af01e3db85511ed10fbb3d4f928a784d8a7186643bbb3a762f6bbc",
+    "bytes": 39600367
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "e428f57155f5556f152ff1ab7b2176ec7944516c40a719d1be48440396566317",
+    "bytes": 39612207
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/latest_model.pth": {
+    "sha256": "667b03b6de355b8a0b75f5750b0c1db75e17cbef43fed4c00c1f7ad39c735f54",
+    "bytes": 39607716
+  },
+  "cases/close_neighbor__HOLD_R62_K125/training/learned_arrays.npz": {
+    "sha256": "196edb7a5bf4b76436f350e424bb5bec0cd6e65281ea523765c6c0131d8dcd1e",
+    "bytes": 73902321
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/observation_truth.npz": {
+    "sha256": "77e25c3b2636f89b0b68feb3b30caba4fd5e7330c54b5d623110d704115e8ed6",
+    "bytes": 63776961
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "0f775f5d04b050edd91d08902229d4ed1cec97d1f9dca45728ef693d6e54a12d",
+    "bytes": 39564399
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "734a5bfcab0ac0dcf1008d55da07c0f11e5c07c4decfb26f2af4181de669e401",
+    "bytes": 39576815
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "c3911d791ce5a84c07a8d44ba44979cf2613da7991b676804f3d5aa6af7462ca",
+    "bytes": 39588911
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "a0f394c8bcd1c02eb8d4a17fed15dee88fcb2401e21c5d1eb874f3f6758d23f6",
+    "bytes": 39600879
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "6dc50809f306355a7c41bdaf4a9989592975b532d653e77e10c65ff2b31dede5",
+    "bytes": 39612847
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/latest_model.pth": {
+    "sha256": "8dceb2f45217b62ad6a698701cf7bb21cdf907f62564f8ffd4ee42af9a79cfd7",
+    "bytes": 39608356
+  },
+  "cases/relatively_isolated__HOLD_R61_K125/training/learned_arrays.npz": {
+    "sha256": "e50d0425e0587a18919330ab7430e2633eeb2361e8d6235811e89573ce2a7370",
+    "bytes": 73965052
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/observation_truth.npz": {
+    "sha256": "27f5c0502f2b2e6b815a50f0cac56d98369438dcfc478e13f13cec847d4db075",
+    "bytes": 63196869
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/checkpoint_epoch_1000.pth": {
+    "sha256": "841dc7521f94bf7391ea14a51aa5009d677b8aa837940db873330dba0a197fe1",
+    "bytes": 39564143
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/checkpoint_epoch_1500.pth": {
+    "sha256": "32a14b06823ad594cf90e587e1a08d8edb04f7f992a96f538092d464e34eb623",
+    "bytes": 39576367
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/checkpoint_epoch_2000.pth": {
+    "sha256": "a5b48547f87aca0fd550b89a4d05e6a6705a53409e4ab6a1f0120b77d585f87d",
+    "bytes": 39588463
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/checkpoint_epoch_2500.pth": {
+    "sha256": "fb600690c6d3b16df2d4b8d3201d6b338248f83664941fbce002019781652b58",
+    "bytes": 39600303
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/checkpoint_epoch_3000.pth": {
+    "sha256": "95ad28ded22e903ed6692a0166efbbabcfb1cce0a864ce93032449459276ad66",
+    "bytes": 39612143
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/latest_model.pth": {
+    "sha256": "558949fdcf20ba28734c97cd7c386bb341dd31f0a5f3bc27bafe0b307a09762c",
+    "bytes": 39607588
+  },
+  "cases/relatively_isolated__HOLD_R62_K125/training/learned_arrays.npz": {
+    "sha256": "a680488b5c8f571cdd32a1eaad8294949dc6791b7f4205c9d8eb1fc22c25a739",
+    "bytes": 74004310
+  }
+}

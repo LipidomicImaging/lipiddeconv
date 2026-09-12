@@ -1,0 +1,36 @@
+{
+  "process_and_evidence_review": "PASS",
+  "method_decision": "NO_GO",
+  "paired_spatial_contribution_category": "BOTH_NO_GO",
+  "spatial_contribution_conclusion": "No useful rescue in this pilot; local aggregate retention is lower than global, and both missing-library arms fail the frozen utility gate.",
+  "by_challenge": {
+    "MILD": {
+      "local_TP": 15,
+      "global_TP": 24,
+      "local_minus_global_TP": -9,
+      "local_minus_global_retention": -0.07317073170731708
+    },
+    "close_neighbor": {
+      "local_TP": 0,
+      "global_TP": 0,
+      "local_minus_global_TP": 0,
+      "local_minus_global_retention": 0.0
+    },
+    "relatively_isolated": {
+      "local_TP": 1,
+      "global_TP": 0,
+      "local_minus_global_TP": 1,
+      "local_minus_global_retention": 0.008928571428571428
+    }
+  },
+  "local_gate_failure_reasons": [
+    "aggregate TP retention below40%",
+    "MILD TP retention below40%",
+    "close-neighbor TP retention below40% and empty retained set",
+    "relatively-isolated TP retention below40%"
+  ],
+  "new_physical_validation_authorized_by_result": false,
+  "current_version_closed_without_tuning": true,
+  "main_identity_objective_remains_open": true,
+  "real_physical_mismatch_validated": false
+}
