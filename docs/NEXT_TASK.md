@@ -1,5 +1,7 @@
 # NEXT — 主线 identity robustness pilot
 
+User-requested future reasoning is recorded in docs/IDENTITY_CONFIDENCE_DECISION_PATH_20260912.md; no extra prerequisite or scientific edit is introduced. Keep executing the current six-case pilot. After its reviewed outcome, choose only the evidence-supported next branch; do not tune the exposed EVAL or equate a feasible deletion relaxation with a physical replacement proof.
+
 RUNNING2026-09-12: first production fit launched06:27:58UTC on westc, PID115253, after design commitdbf304f was pushed/verified. Continue exact six-case per-fit handoff; do not repeat prepare or duplicate first launch. No outcomes yet.
 
 PREPARED2026-09-12: six-case design a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4 passes independent preparation and exact local15-file transfer review. Push the prepared design, then start SUPPORTED_MISMATCH__CAL_R71_K125 on westc from the frozen source snapshot. Do not repeat prepare. Complete each fit's review/download/push before writing its handoff ACK and starting the next. Source/CE uncertainty/denominators remain frozen; no EVAL confidence before the CAL seal. No new outcome is available yet.

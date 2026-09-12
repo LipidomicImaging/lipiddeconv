@@ -1,5 +1,7 @@
 # Mainline physical identity pilot: first production fit RUNNING — 2026-09-12
 
+Prospective reasoning memo requested while execution proceeds: docs/IDENTITY_CONFIDENCE_DECISION_PATH_20260912.md. Distinguishes physical error coverage, computational relaxation conservatism, and actual ambiguity. It proposes conditional follow-up only, does not freeze or launch another experiment, and changes no current scientific contract. First fit has now completed; independent review/download/Git handoff is being connected. No confidence outcomes have been read.
+
 Frozen design was pushed and remotely verified as dbf304f86563442c6be6f064e8cd72fabee2e682 before GPU execution. First case SUPPORTED_MISMATCH__CAL_R71_K125 launched06:27:58UTC (14:27:58China), PID115253 on westc; GPU97%,8241MiB at06:29UTC. Launch provenance: results/physical_identity_mainline_pilot/first_training_launch.json. Six-case handoff and CAL-before-EVAL contract remains active. No reviewed fit or confidence result yet; next independent review/download/Git/ACK before the second fit. This supersedes the historical no-training state below.
 
 # Mainline pilot: six-case design prepared and independently verified — 2026-09-12
