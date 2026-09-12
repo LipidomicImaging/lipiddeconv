@@ -1,3 +1,7 @@
+# 当前任务：固定四个辅助量的缓存开发探索 — 2026-09-12
+
+用户最新授权探索其他辅助指标。仅按 docs/SMALL_MISMATCH_AUXILIARY_CONFIDENCE.md 使用已完成5% case的 nominal A_solver、X_hat、mask、candidate/molecular records、metadata、result/design/summary，以及已冻结联合模型的seals/predictions。新增代码 analysis/run_small_mismatch_auxiliary_confidence.py 与analytic test；新输出 results/small_mismatch_auxiliary_confidence。四个observable量分为谱库/竞争、global-mean一致性、空间集中度三类，固定三类单加及全部加入四扩展，原baseline不重训。冻结并推送后仅20个小CPU分类器，复核/Git后停止；全部旧fold已曝光，不宣称独立FDR、不改旧结果、不做NNLS/rho/GPU/新case/清理。
+
 # 当前任务 COMPLETED：固定联合指标筛查
 
 本次联合策略得到93TP/1FP，74.4%召回与1.06383% FDP；优于同拆分单独rho/丰度，但未满足严格1%/80%。报告 results/small_mismatch_joint_confidence/analysis_record.md；模型、全部molecular记录、CAL seals、hash及远程/本地缓存审查均保留。仅完成一次固定CPU分类器，未重新解卷积/rho/训练GPU，也未启动新case。现在提交推送明确列出的紧凑结果后STOP，不在已曝光test上增删特征/调参/改阈值/重试。主线独立验证与80%目标仍未完成；不因此宣称联合方法不可能。

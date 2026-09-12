@@ -1,3 +1,7 @@
+# 辅助指标探索准备中 — 2026-09-12
+
+用户最新授权探索其他辅助指标。仅按 docs/SMALL_MISMATCH_AUXILIARY_CONFIDENCE.md 使用已完成5% case的 nominal A_solver、X_hat、mask、candidate/molecular records、metadata、result/design/summary，以及已冻结联合模型的seals/predictions。新增代码 analysis/run_small_mismatch_auxiliary_confidence.py 与analytic test；新输出 results/small_mismatch_auxiliary_confidence。四个observable量分为谱库/竞争、global-mean一致性、空间集中度三类，固定三类单加及全部加入四扩展，原baseline不重训。冻结并推送后仅20个小CPU分类器，复核/Git后停止；全部旧fold已曝光，不宣称独立FDR、不改旧结果、不做NNLS/rho/GPU/新case/清理。
+
 # 联合指标筛查完成：有增益，未过严格1%/80% — 2026-09-12
 
 固定rho+丰度联合模型在五组身份分离的TRAIN/CAL/TEST中得到93TP/1FP，74.4% recall/retention、FDP1.06383%；同拆分rho为61/3、48.8%/4.6875%，丰度84/2、67.2%/2.3256%。联合相对丰度新增9TP、去掉1FP、不损失原TP；但1.064%不能算1%，80%仍未达到。仅一次已曝光单case开发筛查，无独立FDR保证，不改旧40% GO。结果 results/small_mismatch_joint_confidence/analysis_record.md。预执行合同4b72366已先推送，CPU执行及两端缓存审查通过，12文件下载hash一致；无NNLS/rho/GPU重算、无调参/新case/清理。保存结果到Git后STOP。
