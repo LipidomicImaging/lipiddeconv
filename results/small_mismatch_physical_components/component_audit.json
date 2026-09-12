@@ -1,0 +1,44 @@
+{
+  "status": "FULL_PHYSICAL_ION_COMPONENTS_VERIFIED",
+  "candidate_count": 391,
+  "component_count": 3012,
+  "source_candidate_counts": {
+    "V36_CHANNEL_PREDICTION": 366,
+    "PC_CL_ORIGINAL_WORKBOOK_PLUS_ORIGINAL_SURVIVAL_TRANSFER": 25
+  },
+  "kind_counts": {
+    "fragment": 2621,
+    "precursor": 391
+  },
+  "candidate_coverage_count": 391,
+  "precursor_candidate_coverage_count": 391,
+  "source_sticks_bitwise_parity": true,
+  "source_sticks_max_componentwise_relative_rounding": 1.2468736082972263e-07,
+  "source_float32_rounding_guard": 7.62939453125e-06,
+  "original_saved_axis_and_response_reused": true,
+  "recomputed_axis_center_max_difference": 1.9557546693249606e-09,
+  "axis_center_difference_not_used_to_modify_production": true,
+  "normalized_component_response_vs_production_max_relative": 4.1621087201129156e-07,
+  "fixed_A_partition_max_absolute_error": 5.551115123125783e-17,
+  "fixed_A_partition_max_relative_error": 2.4208837548171274e-16,
+  "exact_positive_support": true,
+  "A_solver_array_sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447",
+  "component_array_sha256": "6b74fd1c13d8d6873500f0ff97562165dd55b748ff03088d236a219996147a78",
+  "physical_family_definition": "Original selected-source formula-merged monoisotopic ion, its exact conditional isotope states M0-M4, original cluster projection and saved profile response",
+  "final_partition": "Per-channel fractions of original physical contributions multiplied by unchanged production A; float32 accumulation/normalization rounding preserved in nominal A",
+  "no_peak_matching_heuristic": true,
+  "no_observation_selection_or_MSI_processing": true,
+  "no_new_spectra_fit": true,
+  "merge_report": {
+    "mode": "iterative adjacent-center merge by empirical local FWHM",
+    "resolving_power": null,
+    "empirical_fwhm_fraction": 1.0,
+    "empirical_fwhm_intercept": 0.0042266,
+    "empirical_fwhm_slope": 1.7345e-05,
+    "input_axis_count": 2272,
+    "output_axis_count": 1253,
+    "merge_count": 1019,
+    "minimum_final_adjacent_gap_over_selected_resolution_threshold": 1.0016013252553382,
+    "maximum_original_channels_per_observation_channel": 5
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "status": "COMPLETE",
+  "inputs": {
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\physical_identity_mainline_pilot\\A_solver.npy": {
+      "bytes": 1695504,
+      "sha256": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293"
+    },
+    "D:\\jupyter\\GNN\\database\\PC_Cl_MSMS_Library.xlsx": {
+      "bytes": 6058896,
+      "sha256": "d41199d393169f3a94f7b395f9386a539f3c627dde36a77d8b6c724559c30d12"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\build_isotope_library_v23.py": {
+      "bytes": 45157,
+      "sha256": "cbf90a9cc59af4d283ff59082dc2a8e2a6ce96f4350870ce7511009d88d6ba00"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\build_isotope_library_758.py": {
+      "bytes": 23714,
+      "sha256": "3c9d7ddd2fa3b1deef93c4ced32c3697ff77272d07a11345679eb9430d9e1b1d"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\process_758_two_pass.py": {
+      "bytes": 50715,
+      "sha256": "0d06f4792b317f308957e09346134899616972a063c0fe1f105e6b8c33d1f6e7"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\metadata_ce29_full.jsonl": {
+      "bytes": 2681828,
+      "sha256": "6ef97b31209efce933a2a501e992fff0e982251ae4329fa9404e14456b0a07b7"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_predictions_ce29.npy": {
+      "bytes": 433568,
+      "sha256": "76a8ce6469321eb8f3586f9e40706ccd03de255e524c4c2a2a57386e0129cc0c"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_target_mz.npy": {
+      "bytes": 867008,
+      "sha256": "42a31e7cbba6b960e934fa5a76f09d4cdd0c33ba851f0400aa8cd5231800d374"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channel_masks.npy": {
+      "bytes": 433568,
+      "sha256": "19dd05e6bf91a69473ef0be6124649f58848fa50713785f3c538c11b2725fc29"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v36_linear_ce_response_msi29_parent_gradient_fixed_msiw5\\channels.json": {
+      "bytes": 381,
+      "sha256": "2f3750f00c84d66677aecd3c9f775e6a31649c474a60436d2d3a683cddeda121"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\A_library_joint.npy": {
+      "bytes": 5616512,
+      "sha256": "f5c49c37d80682f29ee228be578b3c36335e53decf58986be33235fcdf02e7f7"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\shared_mz.npy": {
+      "bytes": 18304,
+      "sha256": "eafa78381aea7c0b9b53e14a04ddfc4ed3d19b35124797303f3c022d2344a8ed"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\candidate_metadata.jsonl": {
+      "bytes": 5936100,
+      "sha256": "35c20487627b1d0714b2e98210c2740ca4ea4bd7a2c67b6173f94b869135e58c"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\axis_exact_mass_to_cluster.npz": {
+      "bytes": 218758,
+      "sha256": "36b4ea6332f0662e1506212fa28825fd41721080bc2140055ae55eb7e741afc8"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\channel_formulas.jsonl": {
+      "bytes": 1784543,
+      "sha256": "22e879dc74277b46b09b58e768a076030db5bd1974949b2040d965681df9ca7d"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\v59_w0_reconstruction\\isotope_rebuilt\\isotope_library_report.json": {
+      "bytes": 4059,
+      "sha256": "c0eea1dc7c157e323da8ee07cc0f9e7610e7536102cce08a0adb8b7e815a9606"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\spectrum_source_STICK.npy": {
+      "bytes": 1695504,
+      "sha256": "3fdc2bf52b0847e2249fbc969115f0bc707cbc17cf1d10755bcd7a6920a65103"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\shared_mz_source_sticks.npy": {
+      "bytes": 8800,
+      "sha256": "85d6bee7a986f5e9cd2c038b7c4b207235f4d3293e2e890b820247dc52d434bf"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\peak_response_matrix.npz": {
+      "bytes": 9287,
+      "sha256": "674c80db8930f8801a12aa61eee9f42f6a8f327566dfdf5cc6868de53a5a2237"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\candidate_metadata_final.jsonl": {
+      "bytes": 3707991,
+      "sha256": "63b032f12d9e517ae250adf21f0cb054cc8e5c421425977f2e53bb797f53b474"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\two_pass_report.json": {
+      "bytes": 5336,
+      "sha256": "6765cd544a4b4cc3a9f372b0c94beeaf62badcbf427885a13d25bab1c4d0cc8f"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\peak_channel_coefficient.npy": {
+      "bytes": 4464,
+      "sha256": "af20202408d5609ffa441c4380649e43a1b0193e36a864b231653070a1da5fb6"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\decon-lipid\\adapter_pipeline\\outputs\\v38_ce29_fragmentionfixed_profile_overlap_empiricalfwhm_globalq99_ista_ready\\A_library.npy": {
+      "bytes": 1695504,
+      "sha256": "d19e88f6d25bcd66359ea2fcc21f07962b75470a2a1f54ea73938d4662312e69"
+    },
+    "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\analysis\\build_small_mismatch_components.py": {
+      "bytes": 16663,
+      "sha256": "5796d38aa8ce23c6b1a8db527ecd4c59de2a4dede3897c8c1fd2b3cae4dbee8c"
+    }
+  },
+  "outputs": {
+    "A_solver.npy": {
+      "bytes": 1695504,
+      "sha256": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293"
+    },
+    "component_audit.json": {
+      "bytes": 2212,
+      "sha256": "2c7a17fb6c29098290d47fdbe4260a9706190b1e71bb4038afde98a4cb0ee6a7"
+    },
+    "component_metadata.json": {
+      "bytes": 1728221,
+      "sha256": "13458619a58fa4d5bf406b1f93760a42e933458a0d6d8aa2875c33c0e611a02b"
+    },
+    "components.npz": {
+      "bytes": 401553,
+      "sha256": "52686db8d0784b98a3290be4f51d8bde3d2fcb8aff906ac40a12cc96484b9f2f"
+    },
+    "metadata.json": {
+      "bytes": 38333,
+      "sha256": "7cc7fd54c075237725b7f521a59a74f9552cb5dc21563912c83baffc4ef1c10a"
+    }
+  }
+}

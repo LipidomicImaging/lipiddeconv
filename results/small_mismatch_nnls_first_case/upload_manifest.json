@@ -1,0 +1,59 @@
+{
+  "destination": "/root/small_mismatch_nnls_first",
+  "file_count": 13,
+  "files": {
+    "source/analysis/run_small_mismatch_nnls_first_case.py": {
+      "sha256": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+      "bytes": 24862
+    },
+    "source/analysis/small_relative_spectral_mismatch.py": {
+      "sha256": "132344da5ec5e6924e9d261ccf2fee5d99c5ca6630619e317a1c1b42fce22269",
+      "bytes": 9574
+    },
+    "source/analysis/run_nnls_solver_baseline.py": {
+      "sha256": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+      "bytes": 11263
+    },
+    "source/src/rho_zero.py": {
+      "sha256": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+      "bytes": 3480
+    },
+    "source/docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md": {
+      "sha256": "c06249ef6a63be0a57ffc3341faf6013984683d4ab7d2466f1186f644ed37aea",
+      "bytes": 6459
+    },
+    "source/analysis/test_small_mismatch_nnls_first_case.py": {
+      "sha256": "64acf092fc9a8017aaa2ff8ed92a357c5d121273ea7a2816ae40bbd8fbce8d4a",
+      "bytes": 3801
+    },
+    "source/analysis/test_small_relative_spectral_mismatch.py": {
+      "sha256": "bb7413d701d11eb7b874af4f6a5c42f4f79727164d69b6ca58c24aa225020aad",
+      "bytes": 8445
+    },
+    "components/A_solver.npy": {
+      "sha256": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293",
+      "bytes": 1695504
+    },
+    "components/components.npz": {
+      "sha256": "52686db8d0784b98a3290be4f51d8bde3d2fcb8aff906ac40a12cc96484b9f2f",
+      "bytes": 401553
+    },
+    "components/component_metadata.json": {
+      "sha256": "13458619a58fa4d5bf406b1f93760a42e933458a0d6d8aa2875c33c0e611a02b",
+      "bytes": 1728221
+    },
+    "components/metadata.json": {
+      "sha256": "7cc7fd54c075237725b7f521a59a74f9552cb5dc21563912c83baffc4ef1c10a",
+      "bytes": 38333
+    },
+    "components/component_audit.json": {
+      "sha256": "2c7a17fb6c29098290d47fdbe4260a9706190b1e71bb4038afde98a4cb0ee6a7",
+      "bytes": 2212
+    },
+    "components/provenance.json": {
+      "sha256": "9b6c9b7f1eb578160565a5f911524ce3fc8bf316a81449b7606792508771e85f",
+      "bytes": 7256
+    }
+  },
+  "scope": "one complete-library 5% CPU NNLS case only; no GPU or subsequent case"
+}
