@@ -1,0 +1,4540 @@
+[
+  {
+    "lipid_name": "PA 16:0_24:0",
+    "candidate_indices": [
+      0
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 16:0_24:1",
+    "candidate_indices": [
+      1
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 16:0_24:4",
+    "candidate_indices": [
+      2
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 16:0_24:5",
+    "candidate_indices": [
+      3
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 24:0_16:1",
+    "candidate_indices": [
+      4
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:0",
+    "candidate_indices": [
+      5
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:1",
+    "candidate_indices": [
+      6
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:0_22:2",
+    "candidate_indices": [
+      7
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:3",
+    "candidate_indices": [
+      8
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:4",
+    "candidate_indices": [
+      9
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:5",
+    "candidate_indices": [
+      10
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:0_24:0",
+    "candidate_indices": [
+      11
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:0_24:1",
+    "candidate_indices": [
+      12
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:4",
+    "candidate_indices": [
+      13
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:0_24:5",
+    "candidate_indices": [
+      14
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:6",
+    "candidate_indices": [
+      15
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:0_18:1",
+    "candidate_indices": [
+      16
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:1_22:1",
+    "candidate_indices": [
+      17
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:2",
+    "candidate_indices": [
+      18
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:1_22:3",
+    "candidate_indices": [
+      19
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:4",
+    "candidate_indices": [
+      20
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 24:0_18:1",
+    "candidate_indices": [
+      21
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:1",
+    "candidate_indices": [
+      22
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:4",
+    "candidate_indices": [
+      23
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:5",
+    "candidate_indices": [
+      24
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:1_24:6",
+    "candidate_indices": [
+      25
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:0_18:2",
+    "candidate_indices": [
+      26
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:1_18:2",
+    "candidate_indices": [
+      27
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:2_22:2",
+    "candidate_indices": [
+      28
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 18:2_22:3",
+    "candidate_indices": [
+      29
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 24:0_18:2",
+    "candidate_indices": [
+      30
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 24:1_18:2",
+    "candidate_indices": [
+      31
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:4",
+    "candidate_indices": [
+      32
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:5",
+    "candidate_indices": [
+      33
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:6",
+    "candidate_indices": [
+      34
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:0",
+    "candidate_indices": [
+      35
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:0_20:1",
+    "candidate_indices": [
+      36
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:0_20:2",
+    "candidate_indices": [
+      37
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:3",
+    "candidate_indices": [
+      38
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:4",
+    "candidate_indices": [
+      39
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:5",
+    "candidate_indices": [
+      40
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:1",
+    "candidate_indices": [
+      41
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:2",
+    "candidate_indices": [
+      42
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:3",
+    "candidate_indices": [
+      43
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:4",
+    "candidate_indices": [
+      44
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:5",
+    "candidate_indices": [
+      45
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:6",
+    "candidate_indices": [
+      46
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:1",
+    "candidate_indices": [
+      47
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:2",
+    "candidate_indices": [
+      48
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:1_20:3",
+    "candidate_indices": [
+      49
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:1_20:4",
+    "candidate_indices": [
+      50
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:0_20:1",
+    "candidate_indices": [
+      51
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:1",
+    "candidate_indices": [
+      52
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:2",
+    "candidate_indices": [
+      53
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:1_22:3",
+    "candidate_indices": [
+      54
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:4",
+    "candidate_indices": [
+      55
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:1_22:5",
+    "candidate_indices": [
+      56
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:6",
+    "candidate_indices": [
+      57
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:2_20:2",
+    "candidate_indices": [
+      58
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:2_20:3",
+    "candidate_indices": [
+      59
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:2",
+    "candidate_indices": [
+      60
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:2_22:4",
+    "candidate_indices": [
+      61
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:2_22:6",
+    "candidate_indices": [
+      62
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:0_20:3",
+    "candidate_indices": [
+      63
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:3",
+    "candidate_indices": [
+      64
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:3_22:3",
+    "candidate_indices": [
+      65
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:3_22:4",
+    "candidate_indices": [
+      66
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:3_22:6",
+    "candidate_indices": [
+      67
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:0_20:4",
+    "candidate_indices": [
+      68
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:4",
+    "candidate_indices": [
+      69
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:2_20:4",
+    "candidate_indices": [
+      70
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:3_20:4",
+    "candidate_indices": [
+      71
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 20:4_22:4",
+    "candidate_indices": [
+      72
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:4_22:5",
+    "candidate_indices": [
+      73
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 20:4_22:6",
+    "candidate_indices": [
+      74
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:5",
+    "candidate_indices": [
+      75
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:3_22:6",
+    "candidate_indices": [
+      76
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:4_22:5",
+    "candidate_indices": [
+      77
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:4_22:6",
+    "candidate_indices": [
+      78
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PA 22:5_22:5",
+    "candidate_indices": [
+      79
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:5_22:6",
+    "candidate_indices": [
+      80
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PA 22:6_22:6",
+    "candidate_indices": [
+      81
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_20:0",
+    "candidate_indices": [
+      82
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_20:1",
+    "candidate_indices": [
+      83
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 14:0_22:0",
+    "candidate_indices": [
+      84
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:1",
+    "candidate_indices": [
+      85
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:2",
+    "candidate_indices": [
+      86
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:3",
+    "candidate_indices": [
+      87
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:4",
+    "candidate_indices": [
+      88
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:0_18:0",
+    "candidate_indices": [
+      89
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 16:0_18:1",
+    "candidate_indices": [
+      90
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:0_18:2",
+    "candidate_indices": [
+      91
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 16:0_20:0",
+    "candidate_indices": [
+      92
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 16:0_20:1",
+    "candidate_indices": [
+      93
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:2",
+    "candidate_indices": [
+      94
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:3",
+    "candidate_indices": [
+      95
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:4",
+    "candidate_indices": [
+      96
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 16:0_20:5",
+    "candidate_indices": [
+      97
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:0_16:1",
+    "candidate_indices": [
+      98
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:1_18:1",
+    "candidate_indices": [
+      99
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 20:0_16:1",
+    "candidate_indices": [
+      100
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:1",
+    "candidate_indices": [
+      101
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:2",
+    "candidate_indices": [
+      102
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 16:1_20:3",
+    "candidate_indices": [
+      103
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:4",
+    "candidate_indices": [
+      104
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:0",
+    "candidate_indices": [
+      105
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:1",
+    "candidate_indices": [
+      106
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 18:0_18:2",
+    "candidate_indices": [
+      107
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:3",
+    "candidate_indices": [
+      108
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:1_18:1",
+    "candidate_indices": [
+      109
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 18:1_18:2",
+    "candidate_indices": [
+      110
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 18:1_18:3",
+    "candidate_indices": [
+      111
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 18:2_18:2",
+    "candidate_indices": [
+      112
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 17:0_18:1",
+    "candidate_indices": [
+      113
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PS 17:0_18:2",
+    "candidate_indices": [
+      114
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PS 18:0_17:1",
+    "candidate_indices": [
+      115
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:1",
+    "candidate_indices": [
+      116
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:2",
+    "candidate_indices": [
+      117
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:3",
+    "candidate_indices": [
+      118
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:4",
+    "candidate_indices": [
+      119
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:5",
+    "candidate_indices": [
+      120
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:6",
+    "candidate_indices": [
+      121
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 16:0_24:4",
+    "candidate_indices": [
+      122
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_24:5",
+    "candidate_indices": [
+      123
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:0_24:6",
+    "candidate_indices": [
+      124
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 22:0_16:1",
+    "candidate_indices": [
+      125
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:1",
+    "candidate_indices": [
+      126
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:2",
+    "candidate_indices": [
+      127
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 16:1_22:3",
+    "candidate_indices": [
+      128
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:4",
+    "candidate_indices": [
+      129
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:5",
+    "candidate_indices": [
+      130
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:6",
+    "candidate_indices": [
+      131
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:0",
+    "candidate_indices": [
+      132
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:0_20:1",
+    "candidate_indices": [
+      133
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:2",
+    "candidate_indices": [
+      134
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:3",
+    "candidate_indices": [
+      135
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:4",
+    "candidate_indices": [
+      136
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:0_20:5",
+    "candidate_indices": [
+      137
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:0_22:3",
+    "candidate_indices": [
+      138
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:0_22:4",
+    "candidate_indices": [
+      139
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:0_22:5",
+    "candidate_indices": [
+      140
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:0_22:6",
+    "candidate_indices": [
+      141
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:0_18:1",
+    "candidate_indices": [
+      142
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:1",
+    "candidate_indices": [
+      143
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:2",
+    "candidate_indices": [
+      144
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:3",
+    "candidate_indices": [
+      145
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:1_20:4",
+    "candidate_indices": [
+      146
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:5",
+    "candidate_indices": [
+      147
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:2",
+    "candidate_indices": [
+      148
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:3",
+    "candidate_indices": [
+      149
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:4",
+    "candidate_indices": [
+      150
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:5",
+    "candidate_indices": [
+      151
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:6",
+    "candidate_indices": [
+      152
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:0_18:2",
+    "candidate_indices": [
+      153
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:1_18:2",
+    "candidate_indices": [
+      154
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:2",
+    "candidate_indices": [
+      155
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:3",
+    "candidate_indices": [
+      156
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:4",
+    "candidate_indices": [
+      157
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:5",
+    "candidate_indices": [
+      158
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 22:1_18:2",
+    "candidate_indices": [
+      159
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:2_22:2",
+    "candidate_indices": [
+      160
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:3",
+    "candidate_indices": [
+      161
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:2_22:4",
+    "candidate_indices": [
+      162
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:2_22:5",
+    "candidate_indices": [
+      163
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 18:2_22:6",
+    "candidate_indices": [
+      164
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:0_18:3",
+    "candidate_indices": [
+      165
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:1_18:3",
+    "candidate_indices": [
+      166
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:3_20:4",
+    "candidate_indices": [
+      167
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:3_22:4",
+    "candidate_indices": [
+      168
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 18:3_22:5",
+    "candidate_indices": [
+      169
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:0_20:3",
+    "candidate_indices": [
+      170
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:0_20:4",
+    "candidate_indices": [
+      171
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:0_20:5",
+    "candidate_indices": [
+      172
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:2",
+    "candidate_indices": [
+      173
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:1_20:3",
+    "candidate_indices": [
+      174
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:4",
+    "candidate_indices": [
+      175
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:5",
+    "candidate_indices": [
+      176
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:2",
+    "candidate_indices": [
+      177
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:2_20:3",
+    "candidate_indices": [
+      178
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:4",
+    "candidate_indices": [
+      179
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:2_20:5",
+    "candidate_indices": [
+      180
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:3_20:3",
+    "candidate_indices": [
+      181
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:3_20:4",
+    "candidate_indices": [
+      182
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:3_20:5",
+    "candidate_indices": [
+      183
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 20:4_20:4",
+    "candidate_indices": [
+      184
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:4_20:5",
+    "candidate_indices": [
+      185
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:0",
+    "candidate_indices": [
+      186
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:1",
+    "candidate_indices": [
+      187
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:0_20:2",
+    "candidate_indices": [
+      188
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:0_20:3",
+    "candidate_indices": [
+      189
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:0_20:4",
+    "candidate_indices": [
+      190
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:0_20:5",
+    "candidate_indices": [
+      191
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:0_22:1",
+    "candidate_indices": [
+      192
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:2",
+    "candidate_indices": [
+      193
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:3",
+    "candidate_indices": [
+      194
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:4",
+    "candidate_indices": [
+      195
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:5",
+    "candidate_indices": [
+      196
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:6",
+    "candidate_indices": [
+      197
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 20:0_17:1",
+    "candidate_indices": [
+      198
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:1_20:1",
+    "candidate_indices": [
+      199
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:2",
+    "candidate_indices": [
+      200
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:3",
+    "candidate_indices": [
+      201
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:4",
+    "candidate_indices": [
+      202
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:1_22:1",
+    "candidate_indices": [
+      203
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE 17:1_22:3",
+    "candidate_indices": [
+      204
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:4",
+    "candidate_indices": [
+      205
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:5",
+    "candidate_indices": [
+      206
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:6",
+    "candidate_indices": [
+      207
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:1",
+    "candidate_indices": [
+      208
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:2",
+    "candidate_indices": [
+      209
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:0_22:3",
+    "candidate_indices": [
+      210
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:0_22:4",
+    "candidate_indices": [
+      211
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:5",
+    "candidate_indices": [
+      212
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:6",
+    "candidate_indices": [
+      213
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:0",
+    "candidate_indices": [
+      214
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:1_22:1",
+    "candidate_indices": [
+      215
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:2",
+    "candidate_indices": [
+      216
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:1_22:3",
+    "candidate_indices": [
+      217
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:4",
+    "candidate_indices": [
+      218
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:1_22:5",
+    "candidate_indices": [
+      219
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:1_24:0",
+    "candidate_indices": [
+      220
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:1",
+    "candidate_indices": [
+      221
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-16:1_24:4",
+    "candidate_indices": [
+      222
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:5",
+    "candidate_indices": [
+      223
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:6",
+    "candidate_indices": [
+      224
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:1",
+    "candidate_indices": [
+      225
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:2",
+    "candidate_indices": [
+      226
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:3",
+    "candidate_indices": [
+      227
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:4",
+    "candidate_indices": [
+      228
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:5",
+    "candidate_indices": [
+      229
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:1",
+    "candidate_indices": [
+      230
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:0_22:2",
+    "candidate_indices": [
+      231
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:0_22:3",
+    "candidate_indices": [
+      232
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:4",
+    "candidate_indices": [
+      233
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:5",
+    "candidate_indices": [
+      234
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:6",
+    "candidate_indices": [
+      235
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:1",
+    "candidate_indices": [
+      236
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_20:2",
+    "candidate_indices": [
+      237
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:3",
+    "candidate_indices": [
+      238
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:4",
+    "candidate_indices": [
+      239
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_20:5",
+    "candidate_indices": [
+      240
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:1",
+    "candidate_indices": [
+      241
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_22:2",
+    "candidate_indices": [
+      242
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_22:3",
+    "candidate_indices": [
+      243
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_22:4",
+    "candidate_indices": [
+      244
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_22:5",
+    "candidate_indices": [
+      245
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:1_22:6",
+    "candidate_indices": [
+      246
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-20:0_18:2",
+    "candidate_indices": [
+      247
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-20:1_18:2",
+    "candidate_indices": [
+      248
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_20:2",
+    "candidate_indices": [
+      249
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:2_20:3",
+    "candidate_indices": [
+      250
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_20:4",
+    "candidate_indices": [
+      251
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:2_22:0",
+    "candidate_indices": [
+      252
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-22:1_18:2",
+    "candidate_indices": [
+      253
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:2",
+    "candidate_indices": [
+      254
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:2_22:3",
+    "candidate_indices": [
+      255
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:4",
+    "candidate_indices": [
+      256
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:5",
+    "candidate_indices": [
+      257
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:6",
+    "candidate_indices": [
+      258
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:3_20:3",
+    "candidate_indices": [
+      259
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:0",
+    "candidate_indices": [
+      260
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-18:3_22:3",
+    "candidate_indices": [
+      261
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:4",
+    "candidate_indices": [
+      262
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:5",
+    "candidate_indices": [
+      263
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:6",
+    "candidate_indices": [
+      264
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-20:0_20:2",
+    "candidate_indices": [
+      265
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:0_20:3",
+    "candidate_indices": [
+      266
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:0_20:4",
+    "candidate_indices": [
+      267
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:1",
+    "candidate_indices": [
+      268
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:2",
+    "candidate_indices": [
+      269
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:3",
+    "candidate_indices": [
+      270
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:4",
+    "candidate_indices": [
+      271
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:2",
+    "candidate_indices": [
+      272
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:3",
+    "candidate_indices": [
+      273
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:4",
+    "candidate_indices": [
+      274
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PE O-20:3_20:3",
+    "candidate_indices": [
+      275
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PE O-20:3_20:4",
+    "candidate_indices": [
+      276
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_20:0",
+    "candidate_indices": [
+      277
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_18:0",
+    "candidate_indices": [
+      278
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:5",
+    "candidate_indices": [
+      279
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:5",
+    "candidate_indices": [
+      280
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:4",
+    "candidate_indices": [
+      281
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:2_18:3",
+    "candidate_indices": [
+      282
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:4",
+    "candidate_indices": [
+      283
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:4",
+    "candidate_indices": [
+      284
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:3",
+    "candidate_indices": [
+      285
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:1_18:3",
+    "candidate_indices": [
+      286
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:2_18:2",
+    "candidate_indices": [
+      287
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 14:0_22:3",
+    "candidate_indices": [
+      288
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:3",
+    "candidate_indices": [
+      289
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 16:1_20:2",
+    "candidate_indices": [
+      290
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:0_18:3",
+    "candidate_indices": [
+      291
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:1_18:2",
+    "candidate_indices": [
+      292
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:2",
+    "candidate_indices": [
+      293
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:2",
+    "candidate_indices": [
+      294
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:1",
+    "candidate_indices": [
+      295
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:2",
+    "candidate_indices": [
+      296
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:1_18:1",
+    "candidate_indices": [
+      297
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:1",
+    "candidate_indices": [
+      298
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 16:0_20:1",
+    "candidate_indices": [
+      299
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 20:0_16:1",
+    "candidate_indices": [
+      300
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:1",
+    "candidate_indices": [
+      301
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:0",
+    "candidate_indices": [
+      302
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:0",
+    "candidate_indices": [
+      303
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:0",
+    "candidate_indices": [
+      304
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:6",
+    "candidate_indices": [
+      305
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:5",
+    "candidate_indices": [
+      306
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:3_20:4",
+    "candidate_indices": [
+      307
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 16:0_22:6",
+    "candidate_indices": [
+      308
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:5",
+    "candidate_indices": [
+      309
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:1_20:5",
+    "candidate_indices": [
+      310
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:4",
+    "candidate_indices": [
+      311
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_22:5",
+    "candidate_indices": [
+      312
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 16:1_22:4",
+    "candidate_indices": [
+      313
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:0_20:5",
+    "candidate_indices": [
+      314
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:1_20:4",
+    "candidate_indices": [
+      315
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:3",
+    "candidate_indices": [
+      316
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 20:2_18:3",
+    "candidate_indices": [
+      317
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 14:0_24:4",
+    "candidate_indices": [
+      318
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:0_22:4",
+    "candidate_indices": [
+      319
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:3",
+    "candidate_indices": [
+      320
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 18:0_20:4",
+    "candidate_indices": [
+      321
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:1_20:3",
+    "candidate_indices": [
+      322
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:2_20:2",
+    "candidate_indices": [
+      323
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 20:1_18:3",
+    "candidate_indices": [
+      324
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:0",
+    "candidate_indices": [
+      325
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:1",
+    "candidate_indices": [
+      326
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:2",
+    "candidate_indices": [
+      327
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:0",
+    "candidate_indices": [
+      328
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:1",
+    "candidate_indices": [
+      329
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:2",
+    "candidate_indices": [
+      330
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 17:0_20:3",
+    "candidate_indices": [
+      331
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:4",
+    "candidate_indices": [
+      332
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:5",
+    "candidate_indices": [
+      333
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 18:0_17:1",
+    "candidate_indices": [
+      334
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 17:1_18:1",
+    "candidate_indices": [
+      335
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:1_18:2",
+    "candidate_indices": [
+      336
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 20:0_17:1",
+    "candidate_indices": [
+      337
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 17:1_20:1",
+    "candidate_indices": [
+      338
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:1_20:2",
+    "candidate_indices": [
+      339
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 17:1_20:3",
+    "candidate_indices": [
+      340
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PG 17:1_20:4",
+    "candidate_indices": [
+      341
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PG 17:0_17:0",
+    "candidate_indices": [
+      342
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_18:0",
+    "candidate_indices": [
+      343,
+      355,
+      367
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 14:0_18:1",
+    "candidate_indices": [
+      344,
+      356,
+      368
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:0_16:0",
+    "candidate_indices": [
+      345,
+      357,
+      379
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:0_16:1",
+    "candidate_indices": [
+      346,
+      358,
+      380
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 14:0_17:1",
+    "candidate_indices": [
+      347,
+      359,
+      366
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:0_16:1",
+    "candidate_indices": [
+      348,
+      360
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:1_16:1",
+    "candidate_indices": [
+      349,
+      361
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:1_18:0",
+    "candidate_indices": [
+      350
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC O-16:1_18:1",
+    "candidate_indices": [
+      351
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:1_18:2",
+    "candidate_indices": [
+      352
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:1_17:0",
+    "candidate_indices": [
+      353,
+      363
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:0_17:1",
+    "candidate_indices": [
+      354,
+      364
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:0_17:0",
+    "candidate_indices": [
+      362
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC O-16:1_17:1",
+    "candidate_indices": [
+      365
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_18:2",
+    "candidate_indices": [
+      369
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_20:0",
+    "candidate_indices": [
+      370
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_20:1",
+    "candidate_indices": [
+      371
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_20:2",
+    "candidate_indices": [
+      372
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:3",
+    "candidate_indices": [
+      373
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 14:0_20:4",
+    "candidate_indices": [
+      374
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 14:1_17:1",
+    "candidate_indices": [
+      375
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 18:0_14:1",
+    "candidate_indices": [
+      376
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 20:0_14:1",
+    "candidate_indices": [
+      377
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 14:1_20:1",
+    "candidate_indices": [
+      378
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:0",
+    "candidate_indices": [
+      381
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:1",
+    "candidate_indices": [
+      382
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:2",
+    "candidate_indices": [
+      383
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:1_16:1",
+    "candidate_indices": [
+      384
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 18:0_16:1",
+    "candidate_indices": [
+      385
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:1_18:1",
+    "candidate_indices": [
+      386
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 16:1_18:2",
+    "candidate_indices": [
+      387
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 17:0_17:0",
+    "candidate_indices": [
+      388
+    ],
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "partial_mean_reported": true,
+    "already_above_whole_foreground_gate": true,
+    "truth_present_in_completed_pixels": true,
+    "completed_truth_reportable": true
+  },
+  {
+    "lipid_name": "PC 17:0_17:1",
+    "candidate_indices": [
+      389
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  },
+  {
+    "lipid_name": "PC 17:1_17:1",
+    "candidate_indices": [
+      390
+    ],
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "partial_mean_reported": false,
+    "already_above_whole_foreground_gate": false,
+    "truth_present_in_completed_pixels": false,
+    "completed_truth_reportable": false
+  }
+]

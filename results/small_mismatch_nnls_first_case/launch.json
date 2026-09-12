@@ -1,0 +1,17 @@
+{
+  "pid": 118584,
+  "started_utc": "2026-09-12T08:10:45.727076+00:00",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "analysis/run_small_mismatch_nnls_first_case.py",
+    "run",
+    "--component-assets",
+    "/root/small_mismatch_nnls_first/components",
+    "--output",
+    "/root/small_mismatch_nnls_first/results"
+  ],
+  "prepared_commit": "af4b31911fde55a6d7999c067a441b9f3b8b8294",
+  "implementation_commit": "172479c960d62b1d90dc2ea82b40cadc8f12e069",
+  "design_sha256": "f6401b069986dbedb4c8f130014f9a6ae6a0e8f1e38c0f6574c28e79d95efc27",
+  "scope": "one CPU NNLS case only; no GPU; no second case queued"
+}

@@ -1,3 +1,7 @@
+# 单组 NNLS 正在运行；用户要求的部分像素预览已完成 — 2026-09-12
+
+首组在 westc 于北京时间16:10:45启动，PID118584，仅4个CPU进程。用户要求不实时监控，完成后再分析；已设置本任务一次16:45后续处理 nnls-git。随后用户明确要求提前分析已完成像素：固定10000/15837像素缓存预览已复核，raw TP125/FP53、recall100%、FDP29.78%、相对重建残差0.403%。已累计信号足以保证最终原始报告至少124TP/36FP；这不是最终筛选结果。记录 results/small_mismatch_nnls_first_case/partial_010000/analysis_record.md。主计算未改动，未重跑NNLS/rho、未改阈值/分母，最终rho及GO/NO-GO仍待完成。保存此次紧凑预览到Git后停止主动轮询，16:45后续处理负责最终审查/下载/Git。
+
 # Single CPU NNLS 5% case: inputs frozen before execution — 2026-09-12
 
 Complete physical ion mapping verified:391 candidates,2621 fragment and391 precursor envelopes. One case NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125 prepared on westc under /root/small_mismatch_nnls_first/results. All125 truths reportable and actually perturbed;15837 foreground pixels; target foreground norm0.6036783508875704. Independent local source/array/forward-equation review PASS, exact prepared input archived locally. Design fingerprint bb331ae5b94bfc985ac00c1cf5156fe51ad3db4cbc402777383cf6bceeb5f7b3; implementation172479c. Records:results/small_mismatch_nnls_first_case. Next push this prepared seal, then only CPU4 NNLS plus unchanged rho; review/Git/stop after this case, no automatic second case or GPU. No outcome exists at this seal.

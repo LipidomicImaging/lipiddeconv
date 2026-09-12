@@ -1,3 +1,7 @@
+# 当前状态 — 单组运行中，部分像素预览已完成
+
+用户追加的10000像素缓存预览已完成，属于非最终原始NNLS结果。首组仍运行；不实时轮询、不改正在执行的代码或科学合同。一次后续处理 nnls-git 安排北京时间2026-09-12 16:45：结束后执行缓存独立审查、结果下载核对和紧凑Git保存；若未结束，只按剩余时间延后一次。最终阈值/GO尚未评估，不把部分预览作为完整实验结果。继续范围与下方唯一首组合同相同。
+
 # 当前任务 — 仅一组完整库5%失配，先NNLS，失败即停止
 
 LATEST USER REQUEST supersedes preparation-only scope below: execute exactly NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125,seed7301,CPU NNLS+existingrho_zero, complete391candidate library andcachedR71spatial/relativeabundance,oneglobalsignal scalar. NoGPU, nooldfivefits, nomissing/HOLD/secondseed queue, no newconfidence score. Requirecompletephysicalcomponent reconstruction thenfreeze/push exactinputdesign before outcomes. Review fullcurve forsinglecaseFDP<=1% andTPretention>=40%; NO-GO ifnone, technicalunresolvedkeptseparate. Independentreview/download/hash/Git thenstop; evenGOdoesnotautolaunchnextcase. Details:docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md.
