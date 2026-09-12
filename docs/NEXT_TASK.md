@@ -1,3 +1,7 @@
+# 当前追加分析已完成 — 80%召回与错误率的现有曲线权衡
+
+用户要求检查80%召回。已只读重计完整rho曲线并比较已有X_hat基线：rho80%对应14FP/12.28%FDP，X_hat80%对应3FP/2.91%；严格1%限制下二者最大召回48%/43.2%。保存 results/small_mismatch_nnls_first_case/recall80_tradeoff.json 和.md 后commit/push并STOP。不修改冻结阈值/原GO，不运行新实验或事后联合模型。后续80%方案及独立验证尚未冻结。
+
 # 当前任务已完成 — 单组NNLS开发GO，保存后停止
 
 用户授权的唯一首组NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125已完整执行和审查：原始125TP/49FP；筛选60TP/0FP，48%retention，开发GO。报告与全部计数/curve/provenance位于 results/small_mismatch_nnls_first_case。333个文件下载验证通过，最终数组和全部源记录保留。数值汇总的跨平台float32差异已单列，身份计数和阈值曲线一致。

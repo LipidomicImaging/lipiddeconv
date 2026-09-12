@@ -1,0 +1,120 @@
+{
+  "status": "CACHED_DESCRIPTIVE_TRADEOFF_ONLY",
+  "sources_sha256": {
+    "threshold_curve.json": "502e96bc91a44549f91ab9b6f12866422951de1d543c410044b94ed738b2dddf",
+    "molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad"
+  },
+  "original_threshold_curve_independently_recounted": true,
+  "truth_count": 125,
+  "rho_first_reach": {
+    "0.48": {
+      "threshold": 7.855148751253491e-07,
+      "filtered_TP": 60,
+      "filtered_FP": 0,
+      "FDP": 0.0,
+      "all_truth_recall": 0.48,
+      "TP_retention": 0.48
+    },
+    "0.6": {
+      "threshold": 2.943119144483016e-07,
+      "filtered_TP": 75,
+      "filtered_FP": 4,
+      "FDP": 0.05063291139240506,
+      "all_truth_recall": 0.6,
+      "TP_retention": 0.6
+    },
+    "0.7": {
+      "threshold": 1.1409326693395004e-07,
+      "filtered_TP": 88,
+      "filtered_FP": 11,
+      "FDP": 0.1111111111111111,
+      "all_truth_recall": 0.704,
+      "TP_retention": 0.704
+    },
+    "0.8": {
+      "threshold": 4.757753953784443e-08,
+      "filtered_TP": 100,
+      "filtered_FP": 14,
+      "FDP": 0.12280701754385964,
+      "all_truth_recall": 0.8,
+      "TP_retention": 0.8
+    },
+    "0.9": {
+      "threshold": 1.214247900974721e-10,
+      "filtered_TP": 113,
+      "filtered_FP": 40,
+      "FDP": 0.26143790849673204,
+      "all_truth_recall": 0.904,
+      "TP_retention": 0.904
+    },
+    "1.0": {
+      "threshold": 0.0,
+      "filtered_TP": 125,
+      "filtered_FP": 49,
+      "FDP": 0.28160919540229884,
+      "all_truth_recall": 1.0,
+      "TP_retention": 1.0
+    }
+  },
+  "rho_max_recall_at_FDP": {
+    "0.01": {
+      "threshold": 7.855148751253491e-07,
+      "filtered_TP": 60,
+      "filtered_FP": 0,
+      "FDP": 0.0,
+      "all_truth_recall": 0.48,
+      "TP_retention": 0.48
+    },
+    "0.02": {
+      "threshold": 4.951019329273616e-07,
+      "filtered_TP": 67,
+      "filtered_FP": 1,
+      "FDP": 0.014705882352941176,
+      "all_truth_recall": 0.536,
+      "TP_retention": 0.536
+    },
+    "0.05": {
+      "threshold": 2.822739754113784e-07,
+      "filtered_TP": 77,
+      "filtered_FP": 4,
+      "FDP": 0.04938271604938271,
+      "all_truth_recall": 0.616,
+      "TP_retention": 0.616
+    },
+    "0.1": {
+      "threshold": 1.64807433649791e-07,
+      "filtered_TP": 85,
+      "filtered_FP": 9,
+      "FDP": 0.09574468085106383,
+      "all_truth_recall": 0.68,
+      "TP_retention": 0.68
+    }
+  },
+  "minimum_FDP_over_all_rho_thresholds_with_recall_at_least_80pct": {
+    "threshold": 4.713344446497771e-08,
+    "filtered_TP": 102,
+    "filtered_FP": 14,
+    "FDP": 0.1206896551724138,
+    "all_truth_recall": 0.816,
+    "TP_retention": 0.816
+  },
+  "existing_X_hat_baseline_posthoc_max_at_FDP1": {
+    "threshold": 0.015740418580566386,
+    "filtered_TP": 54,
+    "filtered_FP": 0,
+    "FDP": 0.0,
+    "all_truth_recall": 0.432,
+    "TP_retention": 0.432
+  },
+  "existing_X_hat_baseline_posthoc_first_reach_80": {
+    "threshold": 0.006837629781120172,
+    "filtered_TP": 100,
+    "filtered_FP": 3,
+    "FDP": 0.02912621359223301,
+    "all_truth_recall": 0.8,
+    "TP_retention": 0.8
+  },
+  "baseline_interpretation": "Post-hoc comparison on this exposed development case; does not alter the frozen rho GO result or establish independent risk control.",
+  "no_refitting_no_new_rho_no_new_score": true,
+  "original_GO_and_threshold_unchanged": true
+}

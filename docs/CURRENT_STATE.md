@@ -1,3 +1,7 @@
+# 用户追问80%召回：只读曲线分析完成 — 2026-09-12
+
+现有rho阈值在FDP<=1%下最多60TP/0FP（48%召回）；80%召回为100TP/14FP、FDP12.28%。召回>=80%范围的最低FDP仍为12.07%（102TP/14FP）。现有X_hat丰度事后对照的80%点为100TP/3FP、FDP2.91%，但其FDP<=1%最大召回仅43.2%。两种单独筛选都尚未同时达到1%/80%。记录 results/small_mismatch_nnls_first_case/recall80_tradeoff.md 和.json；不重跑优化/实验、不改主合同或旧GO、不引入联合新分数。用户更高效用目标已记录；本次分析保存到Git后STOP，未启动后续。
+
 # 首组 NNLS + 全库5%失配完成：开发GO，停止于单组 — 2026-09-12
 
 最终原始NNLS125TP/49FP/0FN。按预先冻结的单组1%阈值选择规则，rho>=7.855148751253491e-7保留60TP/0FP，FDP0%、TP retention与all-truth recall均48%，达到40%继续线但未达60%强成功线。原固定rho1e-3仅2TP/0FP，完整保留。125个truth全部实际受扰动，solver misses0，filter-induced true losses65。此为同一已曝光空间case的开发筛查，不是独立FDR保证。详细报告 results/small_mismatch_nnls_first_case/analysis_record.md。
