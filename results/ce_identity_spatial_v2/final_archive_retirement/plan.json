@@ -1,0 +1,21 @@
+{
+  "status": "PENDING_FINAL_RESULT_PUSH",
+  "path": "/root/v58_jobs/ce_identity_spatial_v2_exports/final.tar.gz",
+  "resolved": "/root/v58_jobs/ce_identity_spatial_v2_exports/final.tar.gz",
+  "symlink": false,
+  "sha256": "ba29a0f3156a7fb4c147422ebfc861a2bd390ab85bb62d0246d98c8ae7fb0789",
+  "bytes": 257113367,
+  "reason": "Redundant transport archive; every compact/numerical output is downloaded with matching hashes and complete source outputs remain. Delete only after this exact final snapshot is successfully pushed.",
+  "local_verified_output_directory": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\ce_identity_spatial_v2",
+  "source_root": "/root/autodl-tmp/lipiddeconv/results/ce_identity_spatial_v2",
+  "output_manifest_sha256": "38f3694a0524ebaf328a8d05ea0aba17ca3c105a8eaaef52b42dbe1441f2a4b8",
+  "independent_review_sha256": "f2bbdc07b4468900a119f35d02f4a83345528809feb36b1d10d3feafd3a6bf76",
+  "protected_training_manifest": "/root/v58_jobs/v2_storage_retirement_20260912/plan.json",
+  "preconditions": [
+    "No V2 main or postprocessor is active",
+    "Exact final results and retirement plan pushed",
+    "All source output hashes and bound training dependencies verified",
+    "Local complete output backup verified"
+  ],
+  "retire_unique_model_or_array": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "observed_utc": "2026-09-12T04:36:34.570311+00:00",
+  "git_final_snapshot_commit": "e99f98e37c0c6c5385556c05be6841fdfe5d98fb",
+  "plan_sha256": "d06eeac2acd490c5a828da66e3656097c6a75097e1f9e1afa8785f50213316ba",
+  "removed": [
+    {
+      "path": "/root/v58_jobs/ce_identity_spatial_v2_exports/final.tar.gz",
+      "resolved": "/root/v58_jobs/ce_identity_spatial_v2_exports/final.tar.gz",
+      "sha256": "ba29a0f3156a7fb4c147422ebfc861a2bd390ab85bb62d0246d98c8ae7fb0789",
+      "bytes": 257113367,
+      "reason": "Redundant transport archive; every compact/numerical output is downloaded with matching hashes and complete source outputs remain. Delete only after this exact final snapshot is successfully pushed."
+    }
+  ],
+  "unique_scientific_artifacts_deleted": false,
+  "original_output_hashes_verified": 5689,
+  "protected_training_hashes_verified": 106,
+  "free_root_before": 6768234496,
+  "free_root_after": 7025348608,
+  "local_backup_verified_before_push": true,
+  "source_outputs_retained": true
+}

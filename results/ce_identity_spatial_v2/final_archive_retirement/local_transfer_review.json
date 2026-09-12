@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "receipt_archive_sha256": "72361926d060de1c30048cf42a6846b18792f775e429402a086d4c746d4ec94d",
+  "files": {
+    "plan.json": "d06eeac2acd490c5a828da66e3656097c6a75097e1f9e1afa8785f50213316ba",
+    "receipt.json": "304340c57c6da75c60e24aa1d274b853819f4220b7ad5f9df9c7f13ea3a30269",
+    "retire_source.py": "a46269395132bf0064fa0aa68c5611e4d10b3c7cb5cf5ad68d51b51750b4261a"
+  },
+  "exact_pushed_plan_membership": true
+}

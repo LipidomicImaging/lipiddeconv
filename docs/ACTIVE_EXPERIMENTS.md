@@ -1,6 +1,6 @@
 # V2 finished; no next experiment queued — 2026-09-12
 
-V2 compute and independent final review complete; both processes exited and westc GPU0%/0MiB at04:25UTC. Method NO-GO and paired BOTH_NO_GO: local/global aggregate TP retention4.57%/6.86%; local missing-library retention0% and0.89%. Final outputs and separate two-part interpretation are in results/ce_identity_spatial_v2. Full source/numerical evidence is downloaded and hash-verified. Close this version without tuning or new runs; final Git handoff and the one explicitly planned redundant transport archive receipt remain. Existing V59 on cqa1 is a separate unresolved experiment; this turn did not stop or freshly audit it.
+V2 compute and independent final review complete; both processes exited and westc GPU0%/0MiB at04:25UTC. Method NO-GO and paired BOTH_NO_GO: local/global aggregate TP retention4.57%/6.86%; local missing-library retention0% and0.89%. Final outputs and separate two-part interpretation are in results/ce_identity_spatial_v2. Full source/numerical evidence is downloaded and hash-verified; scientific snapshot pushed ase99f98e37c0c6c5385556c05be6841fdfe5d98fb. The one explicitly planned redundant transport archive was retired after that push; all5689 source output hashes/106 protected training hashes still pass. Closing receipt: final_archive_retirement. This version is closed without tuning or new runs. Existing V59 on cqa1 is a separate unresolved experiment; this turn did not stop or freshly audit it.
 
 # V2 storage locations updated after verified recovery — 2026-09-12
 
