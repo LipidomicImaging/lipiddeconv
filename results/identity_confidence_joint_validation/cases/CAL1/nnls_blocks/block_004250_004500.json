@@ -1,0 +1,12 @@
+{
+  "fingerprint": "013298f77ee2934d6f5fe75dde4a308ee0afee50799ea0e838d9a438f3ab5728",
+  "start": 4250,
+  "stop": 4500,
+  "array_sha256": "a370f6c173a8a82867459463fcbabb8f4d5c277f9612f8e4dac1a7a2d29bf54d",
+  "KKT": {
+    "max_dual_violation": 4.631630981117514e-16,
+    "max_complementarity": 1.4021163833852368e-16,
+    "max_bound_ratio": 0.00010333825952127507
+  },
+  "all_pixels_checked_before_float32": true
+}

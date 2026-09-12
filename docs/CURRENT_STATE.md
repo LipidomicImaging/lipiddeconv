@@ -1,3 +1,7 @@
+# CAL1完成并NO-GO；本版本其余三组停止 — 2026-09-12
+
+18:18:09完成。原始NNLS125TP/51FP/0FN；FDP<=1%下最多64TP/0FP，recall/retention51.2%；80%点100TP/3FP、FDP2.91%；recall>=80%的最佳FDP仍2.50%（117TP/3FP）。远程及本地独立检查PASS，316文件下载hash一致，大数组/块均两端保留，无删除或重算。记录 results/identity_confidence_joint_validation/cases/CAL1/analysis_record.md。冻结共享模型排序未达到目标，不能仅靠扩大CAL或改单一阈值修复；CAL2/HOLD1/HOLD2未求解、无HOLD阈值封存。此版本关闭，持续目标ACTIVE；先保存失败/来源与Git，再依据机制设计下一方法，不在此版本重调、不重复监控。
+
 # CAL1 CPU validation RUNNING — 2026-09-12
 
 The first new case started at 2026-09-12T09:55:40Z (Beijing17:55:40), PID121523, four CPU workers, no GPU. Pre-execution model/input seal commit05c825b was successfully pushed first. Startup produced valid250/500-pixel checkpoint progress with no failure file. Only CAL1 is active; no next case is automatically queued. Expected duration is approximately20–25minutes from the completed predecessor, not a completion guarantee. Review/download/Git is required before continuing under docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md. Main objective remains ACTIVE; no outcome yet.

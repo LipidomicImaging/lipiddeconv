@@ -1,0 +1,178 @@
+{
+  "scope": "Cached observed CAL1 and already exposed training case; no new fit, no HOLD read, no name-based exclusion",
+  "old_shared_model_in_sample_diagnostic": {
+    "best_at_1pct": {
+      "threshold": 0.8896043626426908,
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 99,
+      "FP": 1,
+      "FN": 26,
+      "FDP": 0.01,
+      "all_truth_recall": 0.792,
+      "TP_retention": 0.792,
+      "reportable_truth_recall": 0.792,
+      "retained": 100,
+      "coverage": 0.5747126436781609,
+      "filter_induced_true_loss": 26,
+      "truth_count": 125,
+      "distinct_retained_identities": 100
+    },
+    "first_at_80pct": {
+      "threshold": 0.8741406361566658,
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 100,
+      "FP": 3,
+      "FN": 25,
+      "FDP": 0.02912621359223301,
+      "all_truth_recall": 0.8,
+      "TP_retention": 0.8,
+      "reportable_truth_recall": 0.8,
+      "retained": 103,
+      "coverage": 0.5919540229885057,
+      "filter_induced_true_loss": 25,
+      "truth_count": 125,
+      "distinct_retained_identities": 103
+    },
+    "best_FDP_above_80pct": {
+      "threshold": 0.8503664023935857,
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 105,
+      "FP": 3,
+      "FN": 20,
+      "FDP": 0.027777777777777776,
+      "all_truth_recall": 0.84,
+      "TP_retention": 0.84,
+      "reportable_truth_recall": 0.84,
+      "retained": 108,
+      "coverage": 0.6206896551724138,
+      "filter_induced_true_loss": 20,
+      "truth_count": 125,
+      "distinct_retained_identities": 108
+    }
+  },
+  "new_CAL1_shared_model": {
+    "best_at_1pct": {
+      "threshold": 0.9688462456328173,
+      "raw_TP": 125,
+      "raw_FP": 51,
+      "raw_FN": 0,
+      "TP": 64,
+      "FP": 0,
+      "FN": 61,
+      "FDP": 0.0,
+      "all_truth_recall": 0.512,
+      "TP_retention": 0.512,
+      "reportable_truth_recall": 0.512,
+      "retained": 64,
+      "coverage": 0.36363636363636365,
+      "filter_induced_true_loss": 61,
+      "truth_count": 125,
+      "distinct_retained_identities": 64
+    },
+    "first_at_80pct": {
+      "threshold": 0.8676467916068523,
+      "raw_TP": 125,
+      "raw_FP": 51,
+      "raw_FN": 0,
+      "TP": 100,
+      "FP": 3,
+      "FN": 25,
+      "FDP": 0.02912621359223301,
+      "all_truth_recall": 0.8,
+      "TP_retention": 0.8,
+      "reportable_truth_recall": 0.8,
+      "retained": 103,
+      "coverage": 0.5852272727272727,
+      "filter_induced_true_loss": 25,
+      "truth_count": 125,
+      "distinct_retained_identities": 103
+    },
+    "best_FDP_above_80pct": {
+      "threshold": 0.7527893626396369,
+      "raw_TP": 125,
+      "raw_FP": 51,
+      "raw_FN": 0,
+      "TP": 117,
+      "FP": 3,
+      "FN": 8,
+      "FDP": 0.025,
+      "all_truth_recall": 0.936,
+      "TP_retention": 0.936,
+      "reportable_truth_recall": 0.936,
+      "retained": 120,
+      "coverage": 0.6818181818181818,
+      "filter_induced_true_loss": 8,
+      "truth_count": 125,
+      "distinct_retained_identities": 120
+    }
+  },
+  "top_false_identity_score_changes": [
+    {
+      "lipid_name": "PG 17:0_20:3",
+      "new": {
+        "X_hat": 0.01449400960740468,
+        "rho_zero": 6.985228053491896e-07,
+        "joint_score": 0.9678896560470865
+      },
+      "old": {
+        "raw_solver_reported": true,
+        "X_hat": 0.005706597329688453,
+        "rho_zero": 1.0180389775169776e-07,
+        "joint_score": 0.7560618293196004
+      },
+      "true_identities_above_new_score": 64
+    },
+    {
+      "lipid_name": "PG 14:0_22:3",
+      "new": {
+        "X_hat": 0.004236179887677882,
+        "rho_zero": 0.0,
+        "joint_score": 0.9264366227529505
+      },
+      "old": {
+        "raw_solver_reported": false,
+        "X_hat": 0,
+        "rho_zero": null,
+        "joint_score": null
+      },
+      "true_identities_above_new_score": 85
+    },
+    {
+      "lipid_name": "PE O-18:2_22:5",
+      "new": {
+        "X_hat": 0.008997887994102147,
+        "rho_zero": 3.762810041696725e-07,
+        "joint_score": 0.923942537309485
+      },
+      "old": {
+        "raw_solver_reported": true,
+        "X_hat": 0.006733625304551176,
+        "rho_zero": 2.961799388591979e-08,
+        "joint_score": 0.8323826327217879
+      },
+      "true_identities_above_new_score": 86
+    },
+    {
+      "lipid_name": "PG 18:2_20:2",
+      "new": {
+        "X_hat": 0.005608084774365669,
+        "rho_zero": 4.464132520536329e-08,
+        "joint_score": 0.7380401975201771
+      },
+      "old": {
+        "raw_solver_reported": true,
+        "X_hat": 0.0025646387779676262,
+        "rho_zero": 1.438717825258682e-09,
+        "joint_score": 0.08318065897647266
+      },
+      "true_identities_above_new_score": 117
+    }
+  ],
+  "interpretation": "Larger independent calibration cannot by itself repair this fixed CAL1 score ordering. This rejects the tested shared-model/calibration-only hypothesis, not all identity confidence strategies. Names are accounting records only; no blacklist or outcome-dependent veto is adopted."
+}

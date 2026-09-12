@@ -1,0 +1,86 @@
+{
+  "status": "NO_GO_CAL1",
+  "best_at_FDP_le_1pct": {
+    "threshold": 0.9688462456328173,
+    "per_case": [
+      {
+        "raw_TP": 125,
+        "raw_FP": 51,
+        "raw_FN": 0,
+        "TP": 64,
+        "FP": 0,
+        "FN": 61,
+        "FDP": 0.0,
+        "all_truth_recall": 0.512,
+        "TP_retention": 0.512,
+        "reportable_truth_recall": 0.512,
+        "retained": 64,
+        "coverage": 0.36363636363636365,
+        "filter_induced_true_loss": 61,
+        "truth_count": 125,
+        "distinct_retained_identities": 64
+      }
+    ],
+    "pooled": {
+      "raw_TP": 125,
+      "raw_FP": 51,
+      "raw_FN": 0,
+      "TP": 64,
+      "FP": 0,
+      "FN": 61,
+      "FDP": 0.0,
+      "all_truth_recall": 0.512,
+      "TP_retention": 0.512,
+      "reportable_truth_recall": 0.512,
+      "retained": 64,
+      "coverage": 0.36363636363636365,
+      "filter_induced_true_loss": 61,
+      "truth_count": 125,
+      "distinct_retained_identities": 64
+    }
+  },
+  "lowest_FDP_at_recall_ge_80pct": {
+    "threshold": 0.7527893626396369,
+    "per_case": [
+      {
+        "raw_TP": 125,
+        "raw_FP": 51,
+        "raw_FN": 0,
+        "TP": 117,
+        "FP": 3,
+        "FN": 8,
+        "FDP": 0.025,
+        "all_truth_recall": 0.936,
+        "TP_retention": 0.936,
+        "reportable_truth_recall": 0.936,
+        "retained": 120,
+        "coverage": 0.6818181818181818,
+        "filter_induced_true_loss": 8,
+        "truth_count": 125,
+        "distinct_retained_identities": 120
+      }
+    ],
+    "pooled": {
+      "raw_TP": 125,
+      "raw_FP": 51,
+      "raw_FN": 0,
+      "TP": 117,
+      "FP": 3,
+      "FN": 8,
+      "FDP": 0.025,
+      "all_truth_recall": 0.936,
+      "TP_retention": 0.936,
+      "reportable_truth_recall": 0.936,
+      "retained": 120,
+      "coverage": 0.6818181818181818,
+      "filter_induced_true_loss": 8,
+      "truth_count": 125,
+      "distinct_retained_identities": 120
+    }
+  },
+  "remaining_three_cases_not_run": true,
+  "case_completed_utc": "2026-09-12T10:18:09Z",
+  "frozen_method_unchanged": true,
+  "no_further_cutoff_used_for_validation": true,
+  "broader_goal_complete": false
+}

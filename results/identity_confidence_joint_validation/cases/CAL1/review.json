@@ -1,0 +1,33 @@
+{
+  "case": "CAL1",
+  "status": "PASS",
+  "process_valid": true,
+  "model_sha256": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1",
+  "result_sha256": "9974d12a3156e6114428717e21c4e2f053f84c7ab51b28e8166b868018f103f2",
+  "fingerprint": "013298f77ee2934d6f5fe75dde4a308ee0afee50799ea0e838d9a438f3ab5728",
+  "all_artifacts_hash_verified": true,
+  "all_pixels_KKT_checked_before_float32": true,
+  "actual_perturbed_truth_count": 125,
+  "no_optimization_rerun": true,
+  "raw": {
+    "raw_TP": 125,
+    "raw_FP": 51,
+    "raw_FN": 0,
+    "TP": 125,
+    "FP": 51,
+    "FN": 0,
+    "FDP": 0.2897727272727273,
+    "all_truth_recall": 1.0,
+    "TP_retention": 1.0,
+    "reportable_truth_recall": 1.0,
+    "retained": 176,
+    "coverage": 1.0,
+    "filter_induced_true_loss": 0,
+    "truth_count": 125,
+    "distinct_retained_identities": 176
+  },
+  "source_old_omissions_used": false,
+  "calibration_feasible": false,
+  "feasible_point": null,
+  "not_independent_validation": true
+}
