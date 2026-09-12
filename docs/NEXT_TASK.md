@@ -1,5 +1,7 @@
 # NEXT — 主线 identity robustness pilot
 
+Physical interpretation corrected by user: keep the best available library for the actual CE fixed; no CE-selection/between-CE-error project. Any later reality validation concerns same-CE residual mismatch. Existing joint-CE endpoint pilot continues unchanged as its declared controlled test, without claiming its range is the same-CE residual range.
+
 User-requested future reasoning is recorded in docs/IDENTITY_CONFIDENCE_DECISION_PATH_20260912.md; no extra prerequisite or scientific edit is introduced. Keep executing the current six-case pilot. After its reviewed outcome, choose only the evidence-supported next branch; do not tune the exposed EVAL or equate a feasible deletion relaxation with a physical replacement proof.
 
 RUNNING2026-09-12: first production fit launched06:27:58UTC on westc, PID115253, after design commitdbf304f was pushed/verified. Continue exact six-case per-fit handoff; do not repeat prepare or duplicate first launch. No outcomes yet.
