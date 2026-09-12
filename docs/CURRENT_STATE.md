@@ -1,3 +1,7 @@
+# Single CPU NNLS 5% case: inputs frozen before execution — 2026-09-12
+
+Complete physical ion mapping verified:391 candidates,2621 fragment and391 precursor envelopes. One case NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125 prepared on westc under /root/small_mismatch_nnls_first/results. All125 truths reportable and actually perturbed;15837 foreground pixels; target foreground norm0.6036783508875704. Independent local source/array/forward-equation review PASS, exact prepared input archived locally. Design fingerprint bb331ae5b94bfc985ac00c1cf5156fe51ad3db4cbc402777383cf6bceeb5f7b3; implementation172479c. Records:results/small_mismatch_nnls_first_case. Next push this prepared seal, then only CPU4 NNLS plus unchanged rho; review/Git/stop after this case, no automatic second case or GPU. No outcome exists at this seal.
+
 # New user assumption:5% relative intensity mismatch around fixed correctly matched library — 2026-09-12
 
 LATEST USER STEERING: run ONLY the easiest complete-library5%case FIRST, usingNNLS onCPU; ifitfailsstop. Reuse existingrho_zero baseline and unchanged reporting/aggregation; no newscore/GPU/queued missing/EVALcases. Exactnewcase NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125,seed7301, samecachedR71spatial/relativeabundance andoneglobal signal scalar. Fullphysicalcomponent adapter andsinglecase runner are being prepared, nofitlaunchedyet. Protocol updated in docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md. Singlecase will be frozen/pushed beforeNNLS, independentlyreviewed, thenGit/stop.

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "fingerprint": "bb331ae5b94bfc985ac00c1cf5156fe51ad3db4cbc402777383cf6bceeb5f7b3",
+  "prepared_source_hashes_verified": true,
+  "array_hashes_verified": true,
+  "finite_nonnegative_zero_background": true,
+  "truth_reportable_perturbed_counts": [
+    125,
+    125,
+    125
+  ],
+  "forward_equation_max_absolute_error": 0.0,
+  "foreground_pixels": 15837,
+  "before_any_NNLS_or_rho": true,
+  "implementation_commit": "172479c960d62b1d90dc2ea82b40cadc8f12e069"
+}
