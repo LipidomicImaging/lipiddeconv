@@ -1,4 +1,10 @@
-# First CAL completed and pushed; remaining five fits PAUSED for user-directed feasibility screen — 2026-09-12
+# First CAL feasibility COMPLETE: EARLY_STOP_CAL_FUTILITY; remaining five fits NOT STARTED — 2026-09-12
+
+User-directed first-case screen is complete. Result: results/physical_identity_first_cal_feasibility/analysis_record.md. Frozen score/uncertainty/numerical rules yield23TP/0FP,18.70% retention,18.4% recall; actual perturbed truths2/26 retained(7.69%). Even ignoring FDP, the complete threshold curve reaches at most23TP and2supportedTP, below the required50/11. Solver raw123TP/109FP/FN2; filtering loses100 additional true identities.232 identities/240 LP proofs independently verified, no numerical unresolved result.479 exported files downloaded with matching hashes; arrays/proofs and original final models retained, no deletion.
+
+This is a user-directed firstCAL resource stop, NOT formal EVAL NO-GO or proof of physical impossibility. Original formal CAL/EVAL seals untouched; remainingfive fits have no launch/reservation/completion/ACK, GPUidle and no active mainline runner. Do not restart the coordinator or fit missing/EVAL cases automatically. This current pilot execution is stopped; the broader identity-confidence goal remainsOPEN. Finish exact result Git preservation and STOP; no additional audit, method change or experiment is queued. Existing CE endpoint test remains a controlled scope, not validated same-CE residual mismatch.
+
+# Historical first CAL completed; paused pending screen — 2026-09-12
 
 First case SUPPORTED_MISMATCH__CAL_R71_K125 completed normally at3000epochs, independent process reviewPASS,16 compact export files downloaded/verified and case commit382ee2091773d93d027faecd93b27fde5f22e4a6 pushed before ACK. Original solver TP123/FP109/FN2;26/26 perturbed truths reported. No confidence result yet. Second case has no launch or reservation; GPU confirmedidle. The local coordinator stopped on a false self-match in its process guard, now fixed; its subsequent restart was deliberately cancelled at the password prompt after the user requested first-case analysis.
 

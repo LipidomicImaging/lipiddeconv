@@ -1,0 +1,42 @@
+{
+  "status": "USER_DIRECTED_EARLY_STOP_AFTER_FIRST_CAL",
+  "checked_utc": "2026-09-12T07:19:25.205212+00:00",
+  "screen_report_sha256": "e7880fb3270b3b6216d673228468de6c5429db0102474af5c3336db398ab6365",
+  "remaining_five_cases": {
+    "close_neighbor__HOLD_R71_K125": {
+      "launch.json": false,
+      "launch_reservation.json": false,
+      "training_complete.json": false,
+      "handoff_ack.json": false
+    },
+    "relatively_isolated__HOLD_R71_K125": {
+      "launch.json": false,
+      "launch_reservation.json": false,
+      "training_complete.json": false,
+      "handoff_ack.json": false
+    },
+    "SUPPORTED_MISMATCH__CAL_R72_K125": {
+      "launch.json": false,
+      "launch_reservation.json": false,
+      "training_complete.json": false,
+      "handoff_ack.json": false
+    },
+    "close_neighbor__HOLD_R72_K125": {
+      "launch.json": false,
+      "launch_reservation.json": false,
+      "training_complete.json": false,
+      "handoff_ack.json": false
+    },
+    "relatively_isolated__HOLD_R72_K125": {
+      "launch.json": false,
+      "launch_reservation.json": false,
+      "training_complete.json": false,
+      "handoff_ack.json": false
+    }
+  },
+  "active_mainline_runner_pids": [],
+  "GPU": "0 %, 0 MiB",
+  "resume_authorized": false,
+  "no_deletions": true,
+  "formal_EVAL_status": "NOT_RUN"
+}

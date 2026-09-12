@@ -1,0 +1,25 @@
+{
+  "status": "FIRST_CAL_ONLY_NOT_OFFICIAL_CAL",
+  "user_directed_budget_screen": true,
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "original_six_case_design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "original_case_pushed_commit": "382ee2091773d93d027faecd93b27fde5f22e4a6",
+  "source_output": "/root/physical_identity_mainline_v1/results",
+  "snapshot": "/root/physical_identity_mainline_v1/source",
+  "input_hashes": {
+    "input.json": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+    "evidence.npz": "6161e0421fd2564a13a7e66362d6e5024327f7ccb9414dd52700ac67e81fdb42",
+    "metadata.json": "bc988c50c64a6ec17857b7f1e9400b79d7e03965966ca76e7cecad122fa213cf",
+    "molecular_records.json": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5",
+    "candidate_records.json": "3d23fd37b3dbffe47ae1fc67d8a5bcfd043a918be88fae0819a45880a4e00dbd",
+    "training_complete.json": "a79cf1b31a2510b5f223be20788f2b3a400b3211464bbb6230be73a7b2e6afc4",
+    "case_review.json": "fd0a4cd9d182066a64df2518f568a32283594e411b6b7a6dc3f838dfc7b01ca3",
+    "handoff_ack.json": "74a32e7c558de8ac5bad8043ab1a535535d24481f7a16185d9a4c7a7ea4ea490"
+  },
+  "source_manifest_sha256": "4f39b87b58af56968642472e3371b7c40fcec15d08ee7c5d88e8daff2c540216",
+  "wrapper_sha256": "40040a4406564a419c20318b054be46541dafd5989c99c80f73b4482a3be04f1",
+  "scope": "Original first CAL only; no other fit, formal CAL seal or EVAL access",
+  "reuse": "Unchanged frozen score_case, MODEL uncertainty, LP proofs, gamma and calibration",
+  "stop_rule": "Any numerical unresolved: TECHNICAL_UNRESOLVED; otherwise same-epsilon all/support 40% utility, then 1% risk",
+  "scientific_interpretation": "Budget screen only; not formal EVAL failure or a general impossibility result"
+}

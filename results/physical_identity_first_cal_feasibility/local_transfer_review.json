@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-09-12T07:18:33.540493+00:00",
+  "archive_sha256": "0f485f86d01bc7ce2bf6fdb9d93715d825ae8c9bf176a1d37179d8ed2fa2507d",
+  "receipt_sha256": "9c42f95e74b66ce495e901513e3c61893bec8463e6089707b33368d53b7815c0",
+  "verified_files": 479,
+  "archive_bytes": 3862939,
+  "all_source_hashes_match": true,
+  "no_source_case_or_symlink_in_archive": true,
+  "no_training_or_scoring_rerun": true,
+  "retained_proofs": "All downloaded NPZ proofs remain local and remote, outside lightweight Git"
+}

@@ -1,0 +1,5826 @@
+{
+  "key": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "kind": "SUPPORTED_MISMATCH",
+  "base": "CAL_R71_K125",
+  "role": "CAL",
+  "replicate": "R71",
+  "binding": {
+    "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+    "evidence_sha256": "6161e0421fd2564a13a7e66362d6e5024327f7ccb9414dd52700ac67e81fdb42",
+    "records_sha256": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5",
+    "bank_fingerprint": "e1f4404617aa2ff9b23f971945ea970617562fffabe88f3ebe50bca34470ae45",
+    "evidence_seal_sha256": "62414e4f8f8b9bf68cb75b8dff3b83f2d2baa193c9206ab5b66d08643f5a9abf",
+    "evaluation_access_sha256": null
+  },
+  "full_sha256": "b4452388e416377bd490c4122526aeb568e6fbae064cd2d409f012152732019b",
+  "truth_count": 125,
+  "reportable_truth_count": 125,
+  "supported_perturbed_truth_count": 26,
+  "records": [
+    {
+      "lipid_name": "PA 16:0_24:0",
+      "evidence_index": 0,
+      "X_hat": 0.025824579796613546,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        0
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0026602983789994405,
+        "upper": 0.0026604190487691088,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 16:0_24:1",
+      "evidence_index": 1,
+      "X_hat": 0.002122296093190002,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        1
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:1",
+      "evidence_index": 6,
+      "X_hat": 0.013834321523691332,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        6
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005539792892965298,
+        "upper": 0.0005540758838305672,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:3",
+      "evidence_index": 8,
+      "X_hat": 0.008156024010725486,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        8
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00012028532707048728,
+        "upper": 0.00012039627492082667,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:4",
+      "evidence_index": 9,
+      "X_hat": 0.0062102966443538035,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        9
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:5",
+      "evidence_index": 10,
+      "X_hat": 0.007440141206861111,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        10
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000103441440741878,
+        "upper": 0.00010355520763741,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_24:0",
+      "evidence_index": 11,
+      "X_hat": 0.006206930891577524,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        11
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0012360233748881472,
+        "upper": 0.0012361193335510832,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_24:4",
+      "evidence_index": 13,
+      "X_hat": 0.002408576984308185,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        13
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0001940576352373684,
+        "upper": 0.00019416506544508264,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:0_18:1",
+      "evidence_index": 16,
+      "X_hat": 0.007153329813261716,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        16
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0004876181072792611,
+        "upper": 0.0004877256656385399,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_22:2",
+      "evidence_index": 18,
+      "X_hat": 0.020540594460995428,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        18
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005108071285118852,
+        "upper": 0.0005109455321673991,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_22:3",
+      "evidence_index": 19,
+      "X_hat": 0.0065879185291506225,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        19
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_22:4",
+      "evidence_index": 20,
+      "X_hat": 0.004666192402798807,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        20
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.026492897362233e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_24:4",
+      "evidence_index": 23,
+      "X_hat": 0.0032927713038982892,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        23
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_24:5",
+      "evidence_index": 24,
+      "X_hat": 0.00505794482612129,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        24
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0001729854354877234,
+        "upper": 0.00017311228131123115,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:2_22:2",
+      "evidence_index": 28,
+      "X_hat": 0.015643015918507853,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        28
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000255203852553998,
+        "upper": 0.0002552773106500683,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 18:2_22:3",
+      "evidence_index": 29,
+      "X_hat": 0.013640298846154416,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        29
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00021403582240219572,
+        "upper": 0.00021417969136835557,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "evidence_index": 35,
+      "X_hat": 0.00856279378732031,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        35
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005805698045367085,
+        "upper": 0.0005806839615908467,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:1",
+      "evidence_index": 36,
+      "X_hat": 0.014353251742131373,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        36
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0006781697547176365,
+        "upper": 0.0006786030854011302,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:3",
+      "evidence_index": 38,
+      "X_hat": 0.0044289358221515415,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        38
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:5",
+      "evidence_index": 40,
+      "X_hat": 0.0018242032939154301,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        40
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_22:3",
+      "evidence_index": 43,
+      "X_hat": 0.001695446899853842,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        43
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_22:5",
+      "evidence_index": 45,
+      "X_hat": 0.002637950824014987,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        45
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_22:6",
+      "evidence_index": 46,
+      "X_hat": 0.0023267623543240233,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        46
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:2",
+      "evidence_index": 48,
+      "X_hat": 0.009085350852905322,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        48
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00025261104503048864,
+        "upper": 0.0002527512601017547,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:3",
+      "evidence_index": 49,
+      "X_hat": 0.019216923188474243,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        49
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00021333592172703545,
+        "upper": 0.00021344138161764323,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:4",
+      "evidence_index": 50,
+      "X_hat": 0.024990632757820087,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        50
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0008260832074605505,
+        "upper": 0.0008262141520995261,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:0_20:1",
+      "evidence_index": 51,
+      "X_hat": 0.0013619212105747186,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        51
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_22:2",
+      "evidence_index": 53,
+      "X_hat": 0.018633271750642208,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        53
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0011230418001974224,
+        "upper": 0.001123138087310503,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_22:4",
+      "evidence_index": 55,
+      "X_hat": 0.018514983499975952,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        55
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0016892790450754745,
+        "upper": 0.0016893810206855344,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_22:5",
+      "evidence_index": 56,
+      "X_hat": 0.003984191615687603,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        56
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_22:6",
+      "evidence_index": 57,
+      "X_hat": 0.016720937616953844,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        57
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_20:2",
+      "evidence_index": 58,
+      "X_hat": 0.00897417398967716,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        58
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00021138295133222104,
+        "upper": 0.0002115318673740277,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_20:3",
+      "evidence_index": 59,
+      "X_hat": 0.0027055847817312128,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        59
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.759655970308891e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:1_20:2",
+      "evidence_index": 60,
+      "X_hat": 0.0015966854553652403,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        60
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_22:4",
+      "evidence_index": 61,
+      "X_hat": 0.014847034323003841,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        61
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00038716568147713636,
+        "upper": 0.00038727564001509905,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_22:6",
+      "evidence_index": 62,
+      "X_hat": 0.020962796557571533,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        62
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0011928417417798876,
+        "upper": 0.0011929716455471705,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:3_22:3",
+      "evidence_index": 65,
+      "X_hat": 0.02551424724129586,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        65
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0015102133860165805,
+        "upper": 0.0015103492893321427,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:3_22:4",
+      "evidence_index": 66,
+      "X_hat": 0.004451473764353541,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        66
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:3_22:6",
+      "evidence_index": 67,
+      "X_hat": 0.0018955075719064034,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        67
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005371454941244294,
+        "upper": 0.000537255352404136,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:1_20:4",
+      "evidence_index": 69,
+      "X_hat": 0.010601375760135553,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        69
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00033729816257651826,
+        "upper": 0.0003374335793846984,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:2_20:4",
+      "evidence_index": 70,
+      "X_hat": 0.02217954994824402,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        70
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0003906441837467025,
+        "upper": 0.00039078093498801694,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:3_20:4",
+      "evidence_index": 71,
+      "X_hat": 0.023405820322064043,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        71
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.002804667400642052,
+        "upper": 0.0028047568627047907,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:4_22:5",
+      "evidence_index": 73,
+      "X_hat": 0.0017066054202434632,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        73
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.315839090867261e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 20:4_22:6",
+      "evidence_index": 74,
+      "X_hat": 0.0019176262878901327,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        74
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:3_22:6",
+      "evidence_index": 76,
+      "X_hat": 0.002599448852084294,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        76
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:4_22:5",
+      "evidence_index": 77,
+      "X_hat": 0.005846158412337028,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        77
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0006548509866759404,
+        "upper": 0.0006549567459608231,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "evidence_index": 78,
+      "X_hat": 0.006107325133324386,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        78
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00017778032645304534,
+        "upper": 0.00017787974559476728,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 14:0_20:0",
+      "evidence_index": 82,
+      "X_hat": 0.0012392256567969925,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        82
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 14:0_20:1",
+      "evidence_index": 83,
+      "X_hat": 0.025481136238082784,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        83
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.007387832635399596,
+        "upper": 0.00738797019982454,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_18:0",
+      "evidence_index": 89,
+      "X_hat": 0.024163839716726022,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        89
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0064497916363442515,
+        "upper": 0.006449929586887255,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_18:2",
+      "evidence_index": 91,
+      "X_hat": 0.006298535663973152,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        91
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0011128538032856112,
+        "upper": 0.0011129840960804826,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_20:0",
+      "evidence_index": 92,
+      "X_hat": 0.004459562238695368,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        92
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005378259135737252,
+        "upper": 0.0005379161853678704,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_20:2",
+      "evidence_index": 94,
+      "X_hat": 0.001697048895585324,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        94
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_20:4",
+      "evidence_index": 96,
+      "X_hat": 0.005498065744977128,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        96
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00047207154329000507,
+        "upper": 0.00047219744098331133,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:1_18:1",
+      "evidence_index": 99,
+      "X_hat": 0.007881182765058265,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        99
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0012376008259237909,
+        "upper": 0.0012377061750492935,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 20:0_16:1",
+      "evidence_index": 100,
+      "X_hat": 0.0011790940168777946,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        100
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 16:1_20:2",
+      "evidence_index": 102,
+      "X_hat": 0.02522721919493744,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        102
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0032205613585090686,
+        "upper": 0.003220668534178007,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:0_18:0",
+      "evidence_index": 105,
+      "X_hat": 0.003288166318254403,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        105
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:0_18:1",
+      "evidence_index": 106,
+      "X_hat": 0.007756886741741207,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        106
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0007238332543670742,
+        "upper": 0.0007239172070534684,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:0_18:2",
+      "evidence_index": 107,
+      "X_hat": 0.002821935053623988,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        107
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.8674687688292335e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:1_18:1",
+      "evidence_index": 109,
+      "X_hat": 0.02209835281611851,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        109
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0025996312471702598,
+        "upper": 0.0025997362456276893,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:1_18:2",
+      "evidence_index": 110,
+      "X_hat": 0.008614164756759583,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        110
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0009948950325599467,
+        "upper": 0.0009950335130544546,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 18:2_18:2",
+      "evidence_index": 112,
+      "X_hat": 0.006189379440143063,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        112
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000645314259110199,
+        "upper": 0.0006454123959311656,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PS 17:0_18:2",
+      "evidence_index": 114,
+      "X_hat": 0.024906681052916674,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        114
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.010963327219885917,
+        "upper": 0.010963426957447347,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:0_22:3",
+      "evidence_index": 118,
+      "X_hat": 0.0022786664627785762,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        118
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.29124406616238e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:0_22:4",
+      "evidence_index": 119,
+      "X_hat": 0.001365789313211054,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        119
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:0_22:6",
+      "evidence_index": 121,
+      "X_hat": 0.008276920837552179,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        121
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00036485871117453747,
+        "upper": 0.00036494911369836473,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:0_24:4",
+      "evidence_index": 122,
+      "X_hat": 0.0013649836674435583,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        122
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:1_22:2",
+      "evidence_index": 127,
+      "X_hat": 0.01159647407123323,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        127
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005819112838652666,
+        "upper": 0.0005820452640331005,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:1_22:3",
+      "evidence_index": 128,
+      "X_hat": 0.007588839190655873,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        128
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.8878342487035635e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:1_22:4",
+      "evidence_index": 129,
+      "X_hat": 0.0020087404713773345,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        129
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 16:1_22:6",
+      "evidence_index": 131,
+      "X_hat": 0.0017066228980515054,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        131
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_20:0",
+      "evidence_index": 132,
+      "X_hat": 0.023495192209176292,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        132
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.003955513700063015,
+        "upper": 0.003955597713285474,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_20:3",
+      "evidence_index": 135,
+      "X_hat": 0.0052670513340063166,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        135
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_20:4",
+      "evidence_index": 136,
+      "X_hat": 0.021179630880539726,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        136
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00048026195101527424,
+        "upper": 0.0004803943266070045,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:3",
+      "evidence_index": 138,
+      "X_hat": 0.025558286321279745,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        138
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 4.22548235169875e-05,
+        "upper": 4.235314953051603e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:4",
+      "evidence_index": 139,
+      "X_hat": 0.018772334840517976,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        139
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 9.672246284360658e-05,
+        "upper": 9.679901954563866e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:5",
+      "evidence_index": 140,
+      "X_hat": 0.02032157924973951,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        140
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0002539767763964151,
+        "upper": 0.00025405755734167295,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:6",
+      "evidence_index": 141,
+      "X_hat": 0.02210966662968892,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        141
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0010008813744174178,
+        "upper": 0.0010009712507749445,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:1_20:2",
+      "evidence_index": 144,
+      "X_hat": 0.0014244563631483633,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        144
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:1_20:3",
+      "evidence_index": 145,
+      "X_hat": 0.0014260007774243016,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        145
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 6.725562546477267e-05,
+        "upper": 6.736483003299743e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:1_22:2",
+      "evidence_index": 148,
+      "X_hat": 0.0010192556285720333,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        148
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:1_22:6",
+      "evidence_index": 152,
+      "X_hat": 0.006576907812982378,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        152
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_18:2",
+      "evidence_index": 154,
+      "X_hat": 0.0012281495320282077,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        154
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.783331525985544e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_20:2",
+      "evidence_index": 155,
+      "X_hat": 0.004193888013176165,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        155
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_20:4",
+      "evidence_index": 157,
+      "X_hat": 0.0021865591192456366,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        157
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 22:1_18:2",
+      "evidence_index": 159,
+      "X_hat": 0.02974571314594472,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        159
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0020996553994528243,
+        "upper": 0.002099777261043622,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:2",
+      "evidence_index": 160,
+      "X_hat": 0.022154977127438986,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        160
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:3",
+      "evidence_index": 161,
+      "X_hat": 0.02178132165538935,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        161
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00037509778875306397,
+        "upper": 0.00037519601645755,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:4",
+      "evidence_index": 162,
+      "X_hat": 0.001763285790488303,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        162
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 5.86730557527113e-05,
+        "upper": 5.876206384251772e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:5",
+      "evidence_index": 163,
+      "X_hat": 0.003580893472342451,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        163
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00011411458667157251,
+        "upper": 0.0001142226706049945,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:6",
+      "evidence_index": 164,
+      "X_hat": 0.01600614754731957,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        164
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000495408964499723,
+        "upper": 0.0004955157325754393,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_18:3",
+      "evidence_index": 166,
+      "X_hat": 0.005249045971531653,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        166
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:0_20:3",
+      "evidence_index": 170,
+      "X_hat": 0.010231431476817442,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        170
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:0_20:4",
+      "evidence_index": 171,
+      "X_hat": 0.01208017744028072,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        171
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000409814100777148,
+        "upper": 0.00040988931820161917,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:0_20:5",
+      "evidence_index": 172,
+      "X_hat": 0.0024895379347040247,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        172
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_20:2",
+      "evidence_index": 173,
+      "X_hat": 0.010479987095437581,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        173
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 8.980890593499975e-05,
+        "upper": 8.98899921296122e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_20:4",
+      "evidence_index": 175,
+      "X_hat": 0.0013221109393108297,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        175
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_20:5",
+      "evidence_index": 176,
+      "X_hat": 0.002447472572663963,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        176
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:2",
+      "evidence_index": 177,
+      "X_hat": 0.013043121858450381,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        177
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 6.54225173767891e-05,
+        "upper": 6.55501923696737e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:3",
+      "evidence_index": 178,
+      "X_hat": 0.003652441802146618,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        178
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:4",
+      "evidence_index": 179,
+      "X_hat": 0.011743495708576388,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        179
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00012278310351779937,
+        "upper": 0.00012288064120995895,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:5",
+      "evidence_index": 180,
+      "X_hat": 0.021157869061025764,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        180
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0020551910888214815,
+        "upper": 0.0020552925030100314,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:3_20:3",
+      "evidence_index": 181,
+      "X_hat": 0.0014776647321249005,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        181
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:3_20:4",
+      "evidence_index": 182,
+      "X_hat": 0.0032100593910637464,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        182
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:3_20:5",
+      "evidence_index": 183,
+      "X_hat": 0.011149025841615904,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        183
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.001170287593834708,
+        "upper": 0.0011704076313438405,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:4_20:4",
+      "evidence_index": 184,
+      "X_hat": 0.006059604410858214,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        184
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.707980616666139e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:0",
+      "evidence_index": 186,
+      "X_hat": 0.006791387647561447,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        186
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:1",
+      "evidence_index": 187,
+      "X_hat": 0.013642207301367169,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        187
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00019077324451673082,
+        "upper": 0.00019086181052356714,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:3",
+      "evidence_index": 189,
+      "X_hat": 0.007866548996918526,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        189
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00013035542561213502,
+        "upper": 0.0001304670252864933,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "evidence_index": 190,
+      "X_hat": 0.014587830370729332,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        190
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000152836079119465,
+        "upper": 0.00015294022197040132,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:5",
+      "evidence_index": 191,
+      "X_hat": 0.018508458487053882,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        191
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.002366560763349255,
+        "upper": 0.0023666815047648023,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_22:1",
+      "evidence_index": 192,
+      "X_hat": 0.0021040062176690536,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        192
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_22:2",
+      "evidence_index": 193,
+      "X_hat": 0.002940014647019282,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        193
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.289017205800638e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_22:3",
+      "evidence_index": 194,
+      "X_hat": 0.0010103085540740663,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        194
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_22:5",
+      "evidence_index": 196,
+      "X_hat": 0.0022698565566639244,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        196
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 20:0_17:1",
+      "evidence_index": 198,
+      "X_hat": 0.027933129320280307,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        198
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0027799038680376012,
+        "upper": 0.0027799886375157253,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_20:1",
+      "evidence_index": 199,
+      "X_hat": 0.004010557155075675,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        199
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_20:2",
+      "evidence_index": 200,
+      "X_hat": 0.005392895697174798,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        200
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_20:4",
+      "evidence_index": 202,
+      "X_hat": 0.018206440000015905,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        202
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00012930267735903212,
+        "upper": 0.00012939344547896594,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_22:1",
+      "evidence_index": 203,
+      "X_hat": 0.02011146787854788,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        203
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0013989334170332111,
+        "upper": 0.001399013549718195,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_22:6",
+      "evidence_index": 207,
+      "X_hat": 0.005766282437478357,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        207
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:1",
+      "evidence_index": 208,
+      "X_hat": 0.0032261063752548843,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        208
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:2",
+      "evidence_index": 209,
+      "X_hat": 0.008896698162536675,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        209
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 7.045902317395988e-09,
+        "upper": 9.190156373954207e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:3",
+      "evidence_index": 210,
+      "X_hat": 0.006807093318368515,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        210
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 5.3089411428425964e-09,
+        "upper": 1.1255087015256845e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:4",
+      "evidence_index": 211,
+      "X_hat": 0.004143654047938062,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        211
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.386933377960665e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:5",
+      "evidence_index": 212,
+      "X_hat": 0.004491566749466511,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        212
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:0",
+      "evidence_index": 214,
+      "X_hat": 0.009035442143925647,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        214
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 3.480650186808755e-06,
+        "upper": 3.568667088194542e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:1",
+      "evidence_index": 215,
+      "X_hat": 0.005011709693795042,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        215
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:2",
+      "evidence_index": 216,
+      "X_hat": 0.01330253344376115,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        216
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 5.256460596485221e-07,
+        "upper": 6.096927113951436e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:3",
+      "evidence_index": 217,
+      "X_hat": 0.008344204094423702,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        217
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.809927440989434e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:4",
+      "evidence_index": 218,
+      "X_hat": 0.008783268369427675,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        218
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 5.920806337351043e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:5",
+      "evidence_index": 219,
+      "X_hat": 0.02215470868861685,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        219
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 8.768263711859837e-06,
+        "upper": 8.83274016187356e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_24:0",
+      "evidence_index": 220,
+      "X_hat": 0.0024690419278614257,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        220
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.5998628855303576e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_24:1",
+      "evidence_index": 221,
+      "X_hat": 0.007604935663267837,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        221
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0016188842305511924,
+        "upper": 0.0016189899393272372,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_24:5",
+      "evidence_index": 223,
+      "X_hat": 0.0010056241456591062,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        223
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_20:2",
+      "evidence_index": 226,
+      "X_hat": 0.003249760434384891,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        226
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_20:3",
+      "evidence_index": 227,
+      "X_hat": 0.0033599110268916687,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        227
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_20:4",
+      "evidence_index": 228,
+      "X_hat": 0.0012795819976858494,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        228
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_20:5",
+      "evidence_index": 229,
+      "X_hat": 0.0029797985069588678,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        229
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:1",
+      "evidence_index": 230,
+      "X_hat": 0.015099132126364552,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        230
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0010312204349599973,
+        "upper": 0.0010313147510146734,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:2",
+      "evidence_index": 231,
+      "X_hat": 0.01669281838049513,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        231
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 3.9764973282534297e-07,
+        "upper": 5.015373858924816e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:5",
+      "evidence_index": 234,
+      "X_hat": 0.0019717355644430943,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        234
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:6",
+      "evidence_index": 235,
+      "X_hat": 0.001921946179490695,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        235
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:1",
+      "evidence_index": 236,
+      "X_hat": 0.01155001852094417,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        236
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.3427548265379692e-07,
+        "upper": 2.224455658591239e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:2",
+      "evidence_index": 237,
+      "X_hat": 0.009141965755201946,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        237
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.211956651048389e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:4",
+      "evidence_index": 239,
+      "X_hat": 0.007434555101350101,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        239
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.6313414555091587e-05,
+        "upper": 1.639880113095935e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:5",
+      "evidence_index": 240,
+      "X_hat": 0.0030066737089693204,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        240
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:1",
+      "evidence_index": 241,
+      "X_hat": 0.011988986003792262,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        241
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.1184666167982998e-08,
+        "upper": 1.3446153505506075e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:2",
+      "evidence_index": 242,
+      "X_hat": 0.028970125699988712,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        242
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 9.177128792424198e-07,
+        "upper": 9.99614034639524e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:3",
+      "evidence_index": 243,
+      "X_hat": 0.005491537593752719,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        243
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 3.94372363001228e-08,
+        "upper": 1.1803409842230403e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:4",
+      "evidence_index": 244,
+      "X_hat": 0.015761601298519282,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        244
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.1493205718961061e-06,
+        "upper": 1.2787708172751185e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:5",
+      "evidence_index": 245,
+      "X_hat": 0.018695933920562298,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        245
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.9495319807567775e-06,
+        "upper": 2.069389898136615e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:6",
+      "evidence_index": 246,
+      "X_hat": 0.006655130326882949,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        246
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 2.801481942149016e-06,
+        "upper": 2.8913299824799232e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:0_18:2",
+      "evidence_index": 247,
+      "X_hat": 0.022572120922731,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        247
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0003658152008812907,
+        "upper": 0.00036592272305433843,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:1_18:2",
+      "evidence_index": 248,
+      "X_hat": 0.0017739752226403034,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        248
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "evidence_index": 249,
+      "X_hat": 0.009846789420594693,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        249
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 5.468756462636992e-08,
+        "upper": 1.6328921347966407e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_20:3",
+      "evidence_index": 250,
+      "X_hat": 0.011725608019940575,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        250
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.236848987130054e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_20:4",
+      "evidence_index": 251,
+      "X_hat": 0.02235515672783863,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        251
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0002743938285257681,
+        "upper": 0.00027450007922735537,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:0",
+      "evidence_index": 252,
+      "X_hat": 0.012901597062761241,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        252
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 9.16456667576327e-06,
+        "upper": 9.259929275405363e-06,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:2",
+      "evidence_index": 254,
+      "X_hat": 0.02593154506922388,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        254
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 1.6065620711899625e-08,
+        "upper": 1.4127922862071457e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:3",
+      "evidence_index": 255,
+      "X_hat": 0.0028909401831648134,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        255
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.685506765143938e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:4",
+      "evidence_index": 256,
+      "X_hat": 0.005004379616415495,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        256
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.6867273475589405e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:5",
+      "evidence_index": 257,
+      "X_hat": 0.007000337469597531,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        257
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.882668885946096e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:6",
+      "evidence_index": 258,
+      "X_hat": 0.02720545431905739,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        258
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.002198400271043773,
+        "upper": 0.002198503366968755,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:0",
+      "evidence_index": 260,
+      "X_hat": 0.0061497496501373575,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        260
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 5.521322155803156e-07,
+        "upper": 6.328293491254866e-07,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:3",
+      "evidence_index": 261,
+      "X_hat": 0.007874515184672085,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        261
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:4",
+      "evidence_index": 262,
+      "X_hat": 0.0024326816946711872,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        262
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:5",
+      "evidence_index": 263,
+      "X_hat": 0.002676813667248441,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        263
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.9142030483291632e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:6",
+      "evidence_index": 264,
+      "X_hat": 0.0018919359662991468,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        264
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00030870255131427,
+        "upper": 0.0003088629009314929,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:0_20:2",
+      "evidence_index": 265,
+      "X_hat": 0.005811816444634624,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        265
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:1_20:4",
+      "evidence_index": 271,
+      "X_hat": 0.001070117795627731,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        271
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.5223188630828295e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:2_20:2",
+      "evidence_index": 272,
+      "X_hat": 0.007871551832504308,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        272
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:2_20:3",
+      "evidence_index": 273,
+      "X_hat": 0.0028186254919246186,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        273
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PE O-20:2_20:4",
+      "evidence_index": 274,
+      "X_hat": 0.0023124791658067053,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": true,
+      "removed": [
+        274
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 2.7197632531761216e-05,
+        "upper": 2.7291298530466515e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 14:0_20:0",
+      "evidence_index": 277,
+      "X_hat": 0.0013544858066769634,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        277
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_18:0",
+      "evidence_index": 278,
+      "X_hat": 0.0025941270399804676,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        278
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "evidence_index": 281,
+      "X_hat": 0.006127063159114136,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        281
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00032726032149094325,
+        "upper": 0.0003273883811731795,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_18:3",
+      "evidence_index": 282,
+      "X_hat": 0.003441486069093513,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        282
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.4304236153275684e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_20:4",
+      "evidence_index": 284,
+      "X_hat": 0.002148404286316928,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        284
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:3",
+      "evidence_index": 285,
+      "X_hat": 0.002574600718939856,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        285
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_18:2",
+      "evidence_index": 287,
+      "X_hat": 0.008856977949685757,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        287
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00010780860670239321,
+        "upper": 0.00010793723699092949,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 14:0_22:3",
+      "evidence_index": 288,
+      "X_hat": 0.0013101480686163803,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        288
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_20:3",
+      "evidence_index": 289,
+      "X_hat": 0.02278499797985592,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        289
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00012738219638620468,
+        "upper": 0.00012782155786884836,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:2",
+      "evidence_index": 290,
+      "X_hat": 0.009172908917578845,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        290
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 3.871316196497289e-05,
+        "upper": 3.8858732311246744e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_18:3",
+      "evidence_index": 291,
+      "X_hat": 0.013119049703179928,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        291
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0001779905222983281,
+        "upper": 0.00017813023330034674,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:1_18:2",
+      "evidence_index": 292,
+      "X_hat": 0.004795504943462075,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        292
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 14:0_22:2",
+      "evidence_index": 293,
+      "X_hat": 0.0027792606217049965,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        293
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:1",
+      "evidence_index": 295,
+      "X_hat": 0.0010852508473215491,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        295
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_18:2",
+      "evidence_index": 296,
+      "X_hat": 0.02004926336155775,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        296
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00046006369103525276,
+        "upper": 0.00046017114033957454,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:1_18:1",
+      "evidence_index": 297,
+      "X_hat": 0.001204034326737299,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        297
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.895418956645972e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 14:0_22:1",
+      "evidence_index": 298,
+      "X_hat": 0.010328898600099355,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        298
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 9.614737039197648e-05,
+        "upper": 9.624570676338707e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_20:1",
+      "evidence_index": 299,
+      "X_hat": 0.00804884800405437,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        299
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00015737038248886102,
+        "upper": 0.00015751275249793344,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 20:0_16:1",
+      "evidence_index": 300,
+      "X_hat": 0.003350329327285279,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        300
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_20:5",
+      "evidence_index": 306,
+      "X_hat": 0.008732278777781514,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        306
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:3_20:4",
+      "evidence_index": 307,
+      "X_hat": 0.009661815966194894,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        307
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0007294132307766114,
+        "upper": 0.0007295573082186881,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_22:5",
+      "evidence_index": 312,
+      "X_hat": 0.0013603809362836463,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        312
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00011116541940122261,
+        "upper": 0.00011128662141571122,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_22:4",
+      "evidence_index": 313,
+      "X_hat": 0.004420779447625683,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        313
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0001600505930899943,
+        "upper": 0.00016014828555869825,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_20:5",
+      "evidence_index": 314,
+      "X_hat": 0.016808169638137686,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        314
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:1_20:4",
+      "evidence_index": 315,
+      "X_hat": 0.0029927345185085026,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        315
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_20:3",
+      "evidence_index": 316,
+      "X_hat": 0.012428895394629822,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        316
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0006855189099198494,
+        "upper": 0.0006856441512022694,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 20:2_18:3",
+      "evidence_index": 317,
+      "X_hat": 0.00902155890150546,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        317
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00011832756343558734,
+        "upper": 0.00011844572638772744,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_22:4",
+      "evidence_index": 319,
+      "X_hat": 0.0022070123234907467,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        319
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_20:4",
+      "evidence_index": 321,
+      "X_hat": 0.030412549007468263,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        321
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0005912318022968538,
+        "upper": 0.0005913288299517448,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "evidence_index": 322,
+      "X_hat": 0.0015126535830971132,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        322
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 9.681388512906948e-05,
+        "upper": 9.692533164248917e-05,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_20:2",
+      "evidence_index": 323,
+      "X_hat": 0.012426953801441867,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        323
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 20:1_18:3",
+      "evidence_index": 324,
+      "X_hat": 0.0011546387001781118,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        324
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_18:1",
+      "evidence_index": 326,
+      "X_hat": 0.0028163524389984446,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        326
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:1",
+      "evidence_index": 329,
+      "X_hat": 0.004110105708999141,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        329
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "evidence_index": 330,
+      "X_hat": 0.01649916136622874,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        330
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0003604772690486878,
+        "upper": 0.00036062090760528864,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:3",
+      "evidence_index": 331,
+      "X_hat": 0.030261834142248555,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        331
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 3.312075020976299e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:4",
+      "evidence_index": 332,
+      "X_hat": 0.004793816736887873,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        332
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:5",
+      "evidence_index": 333,
+      "X_hat": 0.004380355725796665,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        333
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.00039066638135253887,
+        "upper": 0.0003907759396020398,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_17:1",
+      "evidence_index": 334,
+      "X_hat": 0.011075768745118278,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        334
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0009629931669991155,
+        "upper": 0.0009630904891398585,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:1_18:2",
+      "evidence_index": 336,
+      "X_hat": 0.03248793867640923,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        336
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.006417291864692505,
+        "upper": 0.006417404272849077,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 20:0_17:1",
+      "evidence_index": 337,
+      "X_hat": 0.018956218332634358,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        337
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0019806730872138634,
+        "upper": 0.001980773175303524,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:1_20:1",
+      "evidence_index": 338,
+      "X_hat": 0.00829895381507065,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        338
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:1_20:3",
+      "evidence_index": 340,
+      "X_hat": 0.0044278072606303235,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        340
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0001544060513331648,
+        "upper": 0.00015450256656537206,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:1_20:4",
+      "evidence_index": 341,
+      "X_hat": 0.007971940312895642,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        341
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_17:0",
+      "evidence_index": 342,
+      "X_hat": 0.014223630310984099,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        342
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.002501578115992889,
+        "upper": 0.00250167331623695,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_18:0",
+      "evidence_index": 343,
+      "X_hat": 0.0012474966643326536,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        343,
+        355,
+        367
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC O-16:1_18:0",
+      "evidence_index": 350,
+      "X_hat": 0.010429548477042631,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        350
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0030110663796447212,
+        "upper": 0.0030111492983250663,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC O-16:1_17:1",
+      "evidence_index": 356,
+      "X_hat": 0.009988869529376795,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        365
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0020255462350969484,
+        "upper": 0.002025663929002279,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_18:2",
+      "evidence_index": 357,
+      "X_hat": 0.008116535983934654,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        369
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.000474835738952127,
+        "upper": 0.0004749342802895696,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_20:0",
+      "evidence_index": 358,
+      "X_hat": 0.009750610597490229,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        370
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0015187124045746895,
+        "upper": 0.0015188933784556448,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_20:1",
+      "evidence_index": 359,
+      "X_hat": 0.005526142062480166,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        371
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0003940281622726065,
+        "upper": 0.00039415232288001135,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_20:3",
+      "evidence_index": 361,
+      "X_hat": 0.02283095361575888,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        373
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.002375960281258137,
+        "upper": 0.002376056028838241,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 18:0_14:1",
+      "evidence_index": 364,
+      "X_hat": 0.026855355879678994,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        376
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.004911104809833282,
+        "upper": 0.004911273304453679,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 16:0_18:0",
+      "evidence_index": 367,
+      "X_hat": 0.003123007070217778,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        381
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 16:1_16:1",
+      "evidence_index": 370,
+      "X_hat": 0.002070464669964832,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        384
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 16:1_18:2",
+      "evidence_index": 373,
+      "X_hat": 0.0029481969629202597,
+      "raw_solver_reported": true,
+      "molecular_truth": false,
+      "reportable_truth": false,
+      "supported_perturbed_truth": false,
+      "removed": [
+        387
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 2.0946389815408095e-08,
+        "numerical_error": null
+      }
+    },
+    {
+      "lipid_name": "PC 17:0_17:0",
+      "evidence_index": 374,
+      "X_hat": 0.029501510079283276,
+      "raw_solver_reported": true,
+      "molecular_truth": true,
+      "reportable_truth": true,
+      "supported_perturbed_truth": false,
+      "removed": [
+        388
+      ],
+      "full": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0,
+        "upper": 0.0015248914687511666,
+        "numerical_error": null
+      },
+      "deleted": {
+        "status": "BOUNDS_VALID",
+        "lower": 0.0035176176632656622,
+        "upper": 0.003517709031444458,
+        "numerical_error": null
+      }
+    }
+  ],
+  "proof_files": {
+    "full_proof.npz": "c20519ff0da738ab470dfe07b503368c7401ad05bd1536a56065bdd8f3ec8549",
+    "proof_0000.npz": "ca05638a88b2c8214f551d8496d9410a3004eea8d88367f0744a785a16a56763",
+    "proof_0001.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0006.npz": "5bd734a07ffdb895a024906c4c27a9a9b404cefe94da918fc22279146094530d",
+    "proof_0008.npz": "ca82d7b267444fa5d840b2a5e45c1d287946985cbe762844ca9da99c14c15197",
+    "proof_0009.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0010.npz": "b179ee8348ff23627b3e6ebd3cd9a50d93360f40da537b9d945b434ff1bcedf3",
+    "proof_0011.npz": "3e095147d56cefcaaf312f7fae6baa483151192ee2c2aef36f6b97c893d19bac",
+    "proof_0013.npz": "635299edaea7107d47de982e4e6da378dda933030127c8d392b8af88faa1aa49",
+    "proof_0016.npz": "1f809a3b4ee0a6580fb998c66f67b78e116fdef11a22235dcfeaef647bbee8b1",
+    "proof_0018.npz": "27dc7695e81a29a29053b2e853495cb9a77c8422c86cd112043cccda31e8d585",
+    "proof_0019.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0020.npz": "379ec383a49b255a1c1aa7f943ad5823a9e0bc97f06d7e0ee5e50467fe498dc6",
+    "proof_0023.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0024.npz": "feaf900cd45e06246fccf308d95eda77d8fe2b7aa6017b2b8611f124368c88ac",
+    "proof_0028.npz": "cef6406936fecf1ac77a3d48a939edb29a428aa9d9d94d7f935bc724d2f31410",
+    "proof_0029.npz": "c1146c5c18524d9820d1cd17bc47f903159b2180303dbae70d4be0405e582ec4",
+    "proof_0035.npz": "5ed120a81769ba239b05c8f9cf2c6ce8cd483a2ee5b54e6a7f22d3db3c48e221",
+    "proof_0036.npz": "32224d108e3b319a2f654622e74931354d1d15527f2f6386c1bb1dcb8ad9c851",
+    "proof_0038.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0040.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0043.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0045.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0046.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0048.npz": "83ef19b175b0336c70e2f307023e32447c86f5fc6005b0bce33c2707603be3c5",
+    "proof_0049.npz": "c53156488011b8082d315736ecd5408f3ef6b5ca38b20730f728cc3b56600d47",
+    "proof_0050.npz": "6585b8e8918e4056812c8ebb61e8abe3a3e8498873e0fb090441bc91f497fc38",
+    "proof_0051.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0053.npz": "93d520fda60a97661eb81ae1b09de001d9ee4aac117ef7fb5f6c461dd680fcb6",
+    "proof_0055.npz": "857a6c77fb0fbdb88fba2ea8077a59676b24a06132eb458bfd2c23b93cfe54b4",
+    "proof_0056.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0057.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0058.npz": "b28df59893b2c618d92b76149208c8dd9e71d54f8dac0d4acd55b48c0db5df68",
+    "proof_0059.npz": "1ae8e9c5031d22697a52b7573e944ce20371eeae6307e50b8921dbac0ab4f6a0",
+    "proof_0060.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0061.npz": "104535f2237ffc837de7245f29edfbf460c240e4fd14f46d1af3dda75bd8fa3a",
+    "proof_0062.npz": "3cb977dc0f6ce429492aac9245463061cad6b2ba78b34c030262babdd12bec7f",
+    "proof_0065.npz": "835a6273ce19ac37c185a38b0278367d5d05dcdbcd08ab660f33b0b1e19aeb04",
+    "proof_0066.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0067.npz": "fe25964f97010af8297c41be29ba2b68cec4489ecdaa4b5e247be2bfe285e2d8",
+    "proof_0069.npz": "f441619420844561e2875d6feae388b242ff79a517e42b667242a1f121655fc8",
+    "proof_0070.npz": "1f94ce8742c95a7ed6cb361b28a0f19932cdc639b993ee7d3af6abf75f678707",
+    "proof_0071.npz": "1203e5df4cf157a542031c8d23b4c5decfc7caaa1a8cd7ac4aaa190b1ad86f04",
+    "proof_0073.npz": "34bd4d1ded2de5c3b8b177a61f519fc8cad9af067f826b66db6eb5b523d4c3b6",
+    "proof_0074.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0076.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0077.npz": "2577f01c24d9b1e35ab4bfae3321e07f622be44aba689be4fe8a089c39a64203",
+    "proof_0078.npz": "a7a290e8477b216e0efe0239b50a2df4256a5ea006c88239a71f632d83071a2a",
+    "proof_0082.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0083.npz": "c0a4c73b0a799d6e1b97bb91673a0b57407736b30579e4c6d4e4d177e0de82bd",
+    "proof_0089.npz": "814b78d2f9b31bbbb23df3d2a17e39c460b8ef286025e74680274fba681d4427",
+    "proof_0091.npz": "472a385cd8e7c1a12fca998d53af00bcf9e531eb621a1f565a55be1320c90aa8",
+    "proof_0092.npz": "4dbfef0bb2aee8ce9186059de2d0496b3417177b2f5240c731af674fdb3550fc",
+    "proof_0094.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0096.npz": "caf984e21308fe312eefdf2c66d00a0f60718ac78acb0859873a93d3f62c2b71",
+    "proof_0099.npz": "3cef4151985cc2b7a00c4f232a1d8201b9e69e231cd0f9a0f7fd844637e70bed",
+    "proof_0100.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0102.npz": "638a0333b86cfb5886fdbe03499896b19a32c01af3bf7d504d30d6a12d77e449",
+    "proof_0105.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0106.npz": "39bff0260b381cc922a7c98b00dbe6758962c72dc5d0db832de3e19f6b608343",
+    "proof_0107.npz": "ff35cd84a86e3f3461d382246e5da96bd00906c559db2415a8e699263f9add10",
+    "proof_0109.npz": "34bf8e670b240a4eaa9eaca0c0388a47c5501485c56737e6c9c1888ceef59d5e",
+    "proof_0110.npz": "247480856b544c0981852a63aee2898d3e1c618aacbcf80706a472b38d731374",
+    "proof_0112.npz": "db266ae4d7be8e46b6050d69b6a02011097bd4df5f7fa61abbaaff674c16e534",
+    "proof_0114.npz": "edcf39fd63c61a09306f22a637d268740ea35001db2eb2559dfb75d455ab8e42",
+    "proof_0118.npz": "afe37f078196e6ff6869540ccc1545df293f36251b39e2a01dc129a826c0a974",
+    "proof_0119.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0121.npz": "c64513b00f8dffacacbc56c2c3c4a35df62db27e52e88b0251857a31d11fa235",
+    "proof_0122.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0127.npz": "1bff943085b4a64d7805042ed43d7dfcda343b309de6ad6d7be89cc87fff14a0",
+    "proof_0128.npz": "85628fc6da933e99b79ca37f47fe0353dec40a6bd088b9a6a86505342a5f3256",
+    "proof_0129.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0131.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0132.npz": "fb6de068a13f52afb4810c52020a7b6bcbb335c439f11f81b6a1fa0aea1bc572",
+    "proof_0135.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0136.npz": "1cc70cdadbf29b4e70d10e0a7b48708536f9d5be2af1440dbf3055c17d8f365b",
+    "proof_0138.npz": "395050b7c515e54f776de2310df392c26cdaf58ac093f1e7728a98e42cea4a26",
+    "proof_0139.npz": "9fe63cd4dddd9c0a9fd147a39d2e34b6f47f5a3d7ffcaf81ed3814e57f8e667d",
+    "proof_0140.npz": "115213c199534fd4fc9227684f855b30a698151ca97575cc0b3b628d4c1fea37",
+    "proof_0141.npz": "349f52e8c4e02bb52dcf32baeb2a37114cc0229f1e5a824d4162ccd7815a79c9",
+    "proof_0144.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0145.npz": "ff2cb32a438e02a83c98e0f5f4ffd4cdae77ae8a6ce7a3b2d3217bdcf04ec377",
+    "proof_0148.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0152.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0154.npz": "47c791d4736d254002caaa48d55edcbf21c7a5ed61f40708f3281d407bde5318",
+    "proof_0155.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0157.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0159.npz": "527e435c8193dbe7e0b6e78a058e9993ae7406d01abb6cac1f45666b18c1da69",
+    "proof_0160.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0161.npz": "8a25df04b44e4587667e5315b569ab26e84661c7aeadaef1420afe60011be3fa",
+    "proof_0162.npz": "47574fbe6d6712ff2ee983d5d0ce88fea5959201aeda4b81f259553d1785123f",
+    "proof_0163.npz": "802afb1bd505ae3594c3f96d6edfca937df29d4a14841f0f627d751336edec4f",
+    "proof_0164.npz": "0b8c8a50dd8ba373484e4af91cd342c15dab9346276fe223a12ef9bc76bf488b",
+    "proof_0166.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0170.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0171.npz": "316a48ec78cf9abf5dc5f6fba7e9fd620e3fc13e41858dba2301148c3ab9e2b7",
+    "proof_0172.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0173.npz": "050973fca21fe3a1394b75e381ab4dcf1ec90153cc4af9419eee3e66425e39b3",
+    "proof_0175.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0176.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0177.npz": "a357f14ee74a173d3f2da7b1b832ed249f45e32d8be70b175ed4b21388bd2a10",
+    "proof_0178.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0179.npz": "ed12d02e3669afdd5c37fac5786bc0b22b63efa682c69448f95c32173907e7aa",
+    "proof_0180.npz": "d953d846b7f41edb5a2e0809e7e93ba1bb3be25740a608a60909e7801b31919c",
+    "proof_0181.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0182.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0183.npz": "8f20ecc1ba1666e6b6fe0d6eb56668311ffc32e337aac131ff19be369c827667",
+    "proof_0184.npz": "dd7969c12cac93602902ede422244ae2c3f540d3b6fa1b13ac768a8c109d0448",
+    "proof_0186.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0187.npz": "0296e63b62d94fd0942e981875c261ec2f3f1548939a66023aa191e1a98be592",
+    "proof_0189.npz": "fcedd5bc40818876f3e8bd56db0ff87881e02bb5c414b9ee71aeaafa0cb0ba47",
+    "proof_0190.npz": "0d1df9e2700be5c4f0be460e7ad205662ef9807b750adceddc4a6420591f38ab",
+    "proof_0191.npz": "697aa8737a85d72839f926a601b3e021c627d8483b7698e1f5ae0fdf0b687a05",
+    "proof_0192.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0193.npz": "5dfc37d6ef2d5f9026bd0a752005e1bdab63f49a55a5e412cddf625053c37117",
+    "proof_0194.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0196.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0198.npz": "0f3ac05b0a2b1e6c81095cd342d6ec53982e0d046debb10382f23cab72d0ce4f",
+    "proof_0199.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0200.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0202.npz": "2a782e134cf0f3017a14f54ade55532368916ff07deab7ea5aa66741d9dc4a98",
+    "proof_0203.npz": "7a950d17cbfdfb51770be07543fe3f2c0d8ddc49dae7142b754f8209012e1503",
+    "proof_0207.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0208.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0209.npz": "002ccc59c150fc79fb4eb1a561d81054c35a6c6fe5afad786955dd645361d3d5",
+    "proof_0210.npz": "6f2eb08b141ef3619db637477af2f25ef21cb1aac8182b3274d2553a932d00c2",
+    "proof_0211.npz": "8a61b4227086fa4478d09966c5279b721a5237fe219acef10a645ab6ce1f2585",
+    "proof_0212.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0214.npz": "76be8314fdfcb400e86f4ab26bc8d84baaa6657a33fe69a41cf570a6f3cc1f3d",
+    "proof_0215.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0216.npz": "d4064e0c62af495d273340d06b0c20d2f73106f3452d61ac0b097daa2c3380a4",
+    "proof_0217.npz": "11f6d5977fbec3481dd40999ccd1a613bd3fd3d1b2d9212b7ac84c780bfa6294",
+    "proof_0218.npz": "5c5826a102e07f53b521e3425b188e8929df6dd5091576b2b7c897d150e65f73",
+    "proof_0219.npz": "e717fedc7ba410b8fcfeb080f86dab615fe8b1aade5fddae3addb6ddd5e37b2a",
+    "proof_0220.npz": "c6d867df27a15437b76ffd132f79821d6a0a98c524cb99501186bdf1ca52fc79",
+    "proof_0221.npz": "1f32fe1757ffaaec7c121cb65b935f3caf8cb97df607672925d9d21dd9ea35fd",
+    "proof_0223.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0226.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0227.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0228.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0229.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0230.npz": "245416dd75d6149d2cc1147e83faaa3ca536e3cea5c876a5049b59b29e7cfc6b",
+    "proof_0231.npz": "4c747073e4e2e07d6cbe81e75e0ea74c3567c12e73ff39f48efc956ae2b8b153",
+    "proof_0234.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0235.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0236.npz": "ef674fc8d2c7cc1db8f7d366aba95b861ca200a8ae8709cde0c6055ae6c15790",
+    "proof_0237.npz": "ce6ac98b1e08a976a76abaed1c1ee252f25e079042dea8fbd3ac2cca7931960f",
+    "proof_0239.npz": "39e8b8ee7e80fc919d7d498feba3e1396921a9754672008aab66b7adaf5e9c1d",
+    "proof_0240.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0241.npz": "1fa81a78541e839cbf8acc257d91977d5679ede995005dc9654975b21de33b61",
+    "proof_0242.npz": "cb31b3c62d565feb36d190a9571379f0593b0178f77a37b9eae788af677cb821",
+    "proof_0243.npz": "766a6321b7455b6e7d91b2d4215a7f4cdf494d4f7f007cdccec94b638943f848",
+    "proof_0244.npz": "fbc75c9ed347f116498010957e00b853d6b66076b0c645b307272e4ac2c82bc5",
+    "proof_0245.npz": "86cd9bd912785e32af32b175027a37875cf30f924ac65721a8eb65f468bb0f97",
+    "proof_0246.npz": "c11854addae7b9c14e7228a65b08f39a609f518655b4fdb9754af54bcccd9d02",
+    "proof_0247.npz": "ac995bfa3f382f6860a952a8cf740681cfa445d4e85f1218069213a42539c445",
+    "proof_0248.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0249.npz": "3d35e9a3346a7156d33896714d30e06837678d743d4118266beed6fdfd9dbee0",
+    "proof_0250.npz": "b416dc59c2f6478d594530c5cc08b9ce516513bbe197a609df0e133e6d41fa1f",
+    "proof_0251.npz": "2c8a11a689fba0dff692cbf4cd52c8bed65fb30214d472fe039275ca2d546e41",
+    "proof_0252.npz": "a37ecc9d3e146ea6291d69af52c34dd810e45a45803e01ee96f233bc847a7e3e",
+    "proof_0254.npz": "1939ac7e4d4ae0ec82610f5dd00e66cfea8b92b172e3355f01a5151d483f23c1",
+    "proof_0255.npz": "1dd163f92f92611e196ebb40484419088eff5e2f8a2ead8b402c9d04a2060c91",
+    "proof_0256.npz": "6e0a92dbfbc7602e99df38784e4657798e0250c352415f1b7f43c5451ef70a4d",
+    "proof_0257.npz": "1b4acf1c9099e5015f59f236c689e328711e501ad2a95b4db2abdfabd84d2901",
+    "proof_0258.npz": "d98195960d6097130f692517fcc69f6b63cdd8b46ef2562e7edee36ecda7fae5",
+    "proof_0260.npz": "04997bbe63cfdf38d6f1710f792e6a561b2ff14d57fe43e142f49e2c56dc180d",
+    "proof_0261.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0262.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0263.npz": "a21e134893bec811473407f155efc4ce12601399c08fbcb1b21d3e94779bc052",
+    "proof_0264.npz": "8dde973d98f244cdca575cc160a7b3a16027fbe1f5fe108759b6a0f9b70fce74",
+    "proof_0265.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0271.npz": "a3943fe4bfd67af108e30ea33ca9651693ae0ca13420e60445c8434c800a32ea",
+    "proof_0272.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0273.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0274.npz": "d1910b538798ea11034e3e86d503f6fed013915f8d34df51139a0ec5a11e2018",
+    "proof_0277.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0278.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0281.npz": "f438b3bc010ecceee166bc5dd3563592233cf3ecaa277c49b283e2c784ee8380",
+    "proof_0282.npz": "be81b907741d33edb283e79446ff14bb533e265b17e28adc5854e97113dc05d1",
+    "proof_0284.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0285.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0287.npz": "f2ee732cb9de71812f4f5e56d34c6faa850d21592db53bfb4f282e4a4d6c26e2",
+    "proof_0288.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0289.npz": "94f841a68f1ee0c80a76880ccaa92196eee00af5ecf3de62667185614f8876ee",
+    "proof_0290.npz": "02558fbdfbb38799e8995fb3ee1df131a75d57b6e385d685df841189bf673b93",
+    "proof_0291.npz": "dacfd9386a03e8624178bdf607a26301fba2dc1d2ddf22804534f3f696ae288c",
+    "proof_0292.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0293.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0295.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0296.npz": "6be0ad488eb5433222c258ac389a41c8f16b55c220efabe6fe52eda7f5cf1b60",
+    "proof_0297.npz": "79ca06b9624468e02bcb1ef9ed9b8a72102e6639de6c645afb5b9d71fcdbf732",
+    "proof_0298.npz": "1b7ccfa82d249f7bc76cc588bffb8eda7acf14d4cb55e20359bde846c63ab69d",
+    "proof_0299.npz": "75587312af66760bdeb7191ca5687c594cf8f773c8bf55ebf81a3a85959fee05",
+    "proof_0300.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0306.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0307.npz": "dfff9f2241192f4f3155beb7a301d7ec76384790613d3d85b613579c56de5b2b",
+    "proof_0312.npz": "ab3746aed28e0dbfd26265132b2530dbc2ab43c3e4fc32b502fe9f9ee65cec43",
+    "proof_0313.npz": "a98e5a3b2ea27c704d79ad5277481285640b4c740482bfd5808cb24b9467355c",
+    "proof_0314.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0315.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0316.npz": "b5d8b84ca6e083085753edb3dab70b1e43952e2223c75bde50e24442fd1ac36a",
+    "proof_0317.npz": "31c2930d3ae26dc1bc2ea40eafe30dab2160442b7e5e61b5cb7d68524bed2ce1",
+    "proof_0319.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0321.npz": "9ee421ffdab950e294f6a04ef5d874eeefddbd5d794ac53bb80a352241dcdd38",
+    "proof_0322.npz": "96c8b105d413b8dce4e54ebb28ba1308a1ec3e3db0eb1cd5ebd3045b3ae3f9a4",
+    "proof_0323.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0324.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0326.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0329.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0330.npz": "1d9cd94f7f856ed5eedcc3841e3ca95c85568bf47a2691ac274e283e03aa6515",
+    "proof_0331.npz": "4f1ae4c869c72352cd0292eec1b8136eff68a8ab2ed83e738ba598494bb7d3d9",
+    "proof_0332.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0333.npz": "84bbdd1611b90607348d229c39beed6f25c8a54a27b8aa7a3d8806239e6ef13c",
+    "proof_0334.npz": "c04a1974184a16d8f266a8fee83e40a05d3813cceaa547d6575bd86ad7218639",
+    "proof_0336.npz": "2d5e9c5b48c0803a7115aad2ada740f2e6ddd27422291a865bfc8fe127c1b11c",
+    "proof_0337.npz": "0e029caf0d2cf5eb4575b08e1ed37cebc269255bd1152cd02097bdf93d43a5cc",
+    "proof_0338.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0340.npz": "aac73aa182ed5bfbd6ef46b254e179c585fb946e59f3c05bc1ca038adfb033a5",
+    "proof_0341.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0342.npz": "5d005b38a59a91811f0b8aa895ba25ee9120000913ea461614007f9418cf7f81",
+    "proof_0343.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0350.npz": "6806d44d1d7e33956611745e37f3d6b826af4072ff38017fa28dea775610f25e",
+    "proof_0356.npz": "8b9a2def5680fa297f6426bc9058d8043d7dc781da5d198ee4643a1454099575",
+    "proof_0357.npz": "c54b7c98d0c3f9cd69bd2afd0589496dd9e8cdaa9231ad183123a66a88c2c514",
+    "proof_0358.npz": "500700d6d08aad4480f5b922ec870f67866ccc58f3cc1e71139f33710f2d1805",
+    "proof_0359.npz": "5096ca16eb6a7df89f681a1e52e1a5c4a2c709f884b40557118ed71559359e3b",
+    "proof_0361.npz": "2c6628859b9731fe06363f240011ff480d9652d73c5f398ea6f6ddfed55b77cb",
+    "proof_0364.npz": "ea9c50b3bc4101bfa7a869d42f7963705c1f78ef00505e0cab5833d8d19bd265",
+    "proof_0367.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0370.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0373.npz": "eba10d5cacc21ead1d8653a34026be5489faf562302b632450d0b8c379f4973f",
+    "proof_0374.npz": "9d073ffc74ff742d89c453976b313709b4575e8f5557891ee0c8c53c81db6922"
+  }
+}

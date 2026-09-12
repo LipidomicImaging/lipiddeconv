@@ -1,4 +1,10 @@
-# NEXT — 主线 identity robustness pilot
+# 当前任务已完成 — 首组 CAL 提前止损，剩余五组不启动
+
+The user-directed firstCAL screen is COMPLETE: EARLY_STOP_CAL_FUTILITY.23TP/0FP,18.70% TP retention; supported perturbed truths2/26(7.69%).These are also the maximum counts over the unchanged threshold curve even without an FDP constraint. Raw solver123TP/109FP/FN2; no numerical unresolved result. See results/physical_identity_first_cal_feasibility/analysis_record.md and screening_report.json.479 files downloaded/hashPASS; save the reviewed compact result and independent accounting in Git, verify successful push, then STOP.
+
+Do not resume the otherfive GPU fits, official CAL/EVAL scoring or local coordinator. Remote execution stop receipt confirms allfive not started and GPUidle. No scientific tuning, cleanup, new prerequisite audit or automatic next experiment. Broader mainline objective remainsOPEN; this is a resource-stop result on firstCAL, not independent EVAL failure or impossibility proof.
+
+# Historical plan — 主线 identity robustness pilot
 
 LATEST USER PRIORITY2026-09-12: pause the remainingfive GPU fits; firstCAL has completed/reviewed/downloaded/pushed382ee209. Follow docs/PHYSICAL_IDENTITY_FIRST_CAL_FEASIBILITY.md for a CPU-only firstCAL screen using unchanged U/full-deleteLP/gamma/accounting. Keep its evidence/threshold exploration separate from officialsix-case seals. Independently review, download/hash/Git the result; user-authorized earlystop is a developmental resource decision, not formal EVAL NO-GO. Secondcasehasnotstarted; do not automatically resume the coordinator before this decision.
 

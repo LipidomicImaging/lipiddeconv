@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "scope": "INDEPENDENT_STDLIB_ACCOUNTING_FIRST_CAL_ONLY",
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "original_design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "source_hashes": {
+    "scores.json": "f4a3c72a75356ea41e500d399adcb35b71c18e94ffa19efe22e153320c9fb2c3",
+    "full.json": "b4452388e416377bd490c4122526aeb568e6fbae064cd2d409f012152732019b",
+    "threshold_curve.json": "01b8a5e1ca8e1162061d1282dbd0d391e2ee3bd841f001ec8cdcf1232c575ae4",
+    "screening_report.json": "e7880fb3270b3b6216d673228468de6c5429db0102474af5c3336db398ab6365",
+    "original_molecular_records.json": "0f4fb34b5fb18390b9f6868895375903a6cdff76d42e52ff9816bebfe8c96ae5"
+  },
+  "method": "Independent standard-library record membership, truth denominators, threshold inequalities, event/interior enumeration and exact rational nonempty-interval checks; no original scoring/accounting functions imported",
+  "source_membership_hashes_and_flags_match": true,
+  "all_saved_threshold_metrics_match": true,
+  "saved_threshold_points": 338,
+  "additional_diagnostic_interior_and_tail_points": 114,
+  "raw": {
+    "reported_molecular_identities": 232,
+    "TP": 123,
+    "FP": 109,
+    "FN": 2,
+    "truth_count": 125,
+    "reportable_truth_count": 125,
+    "all_truth_recall": 0.984,
+    "reportable_truth_recall": 0.984,
+    "FDP": 0.4698275862068966,
+    "supported_truth_count": 26,
+    "supported_TP": 26,
+    "supported_FN": 0
+  },
+  "single_CAL_one_percent_choice": {
+    "epsilon": 0.0016178842305511923,
+    "raw_solver_TP": 123,
+    "raw_solver_FP": 109,
+    "raw_solver_FN": 2,
+    "filtered_TP": 23,
+    "filtered_FP": 0,
+    "filtered_FN": 102,
+    "filter_induced_true_loss": 100,
+    "filter_induced_true_loss_fraction": 0.8130081300813008,
+    "TP_retention": 0.18699186991869918,
+    "all_truth_recall": 0.184,
+    "reportable_truth_recall": 0.184,
+    "FDP": 0.0,
+    "retained_count": 23,
+    "truth_count": 125,
+    "distinct_identities": 23,
+    "status_counts": {
+      "RETAINED": 23,
+      "RELAXATION_REPLACEABLE": 209
+    },
+    "risk_scope": "all reported molecular identities",
+    "supported": {
+      "raw_solver_TP": 26,
+      "raw_solver_FP": null,
+      "raw_solver_FN": 0,
+      "filtered_TP": 2,
+      "filtered_FP": null,
+      "filtered_FN": 24,
+      "filter_induced_true_loss": 24,
+      "filter_induced_true_loss_fraction": 0.9230769230769231,
+      "TP_retention": 0.07692307692307693,
+      "all_truth_recall": 0.07692307692307693,
+      "reportable_truth_recall": null,
+      "FDP": null,
+      "retained_count": 2,
+      "truth_count": 26,
+      "distinct_identities": 2,
+      "status_counts": {
+        "RELAXATION_REPLACEABLE": 24,
+        "RETAINED": 2
+      },
+      "risk_scope": "NOT_APPLICABLE_TRUE_SUBSET"
+    }
+  },
+  "utility_ceiling": {
+    "maximum_TP_ignoring_FDP": 23,
+    "maximum_supported_TP_ignoring_FDP": 2,
+    "maximum_TP_with_FDP_at_most_one_percent": 23,
+    "maximum_supported_TP_with_FDP_at_most_one_percent": 2,
+    "required_TP_at_40_percent_retention": 50,
+    "required_supported_TP_at_40_percent_retention": 11,
+    "same_epsilon_joint_utility_possible": false,
+    "exact_rational_possible_truth_interval_count": 23,
+    "exact_rational_possible_false_interval_count": 0
+  },
+  "miss_decomposition_at_choice": {
+    "solver_misses": 2,
+    "filter_induced_true_losses": 100,
+    "final_FN": 102,
+    "supported_solver_misses": 0,
+    "supported_filter_induced_true_losses": 24,
+    "supported_final_FN": 24
+  },
+  "numerical_statuses": {
+    "full_status": "BOUNDS_VALID",
+    "deletion_status_counts": {
+      "BOUNDS_VALID": 232
+    },
+    "saved_convex_LP_bound_pairs_checked": 240,
+    "maximum_saved_convex_LP_gap": 4.393614826436775e-07,
+    "primal_dual_proofs_reverified_this_review": false,
+    "no_LP_or_training_run": true
+  },
+  "physical_and_relaxed_full_bounds": {
+    "physical_upper": 0.0015248914687511666,
+    "all_endpoint_relaxation_lower": 0.0,
+    "all_endpoint_relaxation_upper": 2.0946389815408095e-08,
+    "physical_upper_minus_relaxed_upper": 0.0015248705223613512,
+    "selected_physical_witness": "pair_001_physical",
+    "physical_global_optimum_proven": false
+  },
+  "selection_interval_margins": {
+    "definition": "deleted_relaxation_lower - full_physical_upper - 2*gamma",
+    "all": {
+      "count": 232,
+      "positive_interval_count": 23,
+      "minimum": -0.0015268914687511666,
+      "median": -0.0015267969872275267,
+      "maximum": 0.00943643575113475
+    },
+    "truth": {
+      "count": 123,
+      "positive_interval_count": 23,
+      "minimum": -0.0015268914687511666,
+      "median": -0.0011517936799981027,
+      "maximum": 0.00943643575113475
+    },
+    "supported_truth": {
+      "count": 26,
+      "positive_interval_count": 2,
+      "minimum": -0.0015268914687511666,
+      "median": -0.0015253420424748403,
+      "maximum": 0.0006715088022926064
+    },
+    "false": {
+      "count": 109,
+      "positive_interval_count": 0,
+      "minimum": -0.0015268914687511666,
+      "median": -0.0015268914687511666,
+      "maximum": -0.0015268914687511666
+    }
+  },
+  "retained_molecular_identities": [
+    "PA 16:0_24:0",
+    "PA 20:1_22:4",
+    "PA 22:3_20:4",
+    "PS 14:0_20:1",
+    "PS 16:0_18:0",
+    "PS 16:1_20:2",
+    "PS 18:1_18:1",
+    "PS 17:0_18:2",
+    "PE 18:0_20:0",
+    "PE 22:1_18:2",
+    "PE 20:2_20:5",
+    "PE 17:0_20:5",
+    "PE 20:0_17:1",
+    "PE O-16:1_24:1",
+    "PE O-18:2_22:6",
+    "PG 17:1_18:2",
+    "PG 20:0_17:1",
+    "PG 17:0_17:0",
+    "PC O-16:1_18:0",
+    "PC O-16:1_17:1",
+    "PC 14:0_20:3",
+    "PC 18:0_14:1",
+    "PC 17:0_17:0"
+  ],
+  "retained_supported_perturbed_identities": [
+    "PE O-16:1_24:1",
+    "PE O-18:2_22:6"
+  ],
+  "nonretained_truth_classification_counts": {
+    "RELAXATION_REPLACEABLE": 100
+  },
+  "decision": "EARLY_STOP_CAL_FUTILITY_CONFIRMED_FOR_THIS_STORED_CERTIFICATE",
+  "interpretation": [
+    "Even ignoring FDP, the fixed stored full/deletion certificate can retain at most 23/123 raw true identities and 2/26 supported perturbed true identities on this CAL case.",
+    "This is a first-CAL resource stop, not a formal EVAL NO-GO; EVAL was not read.",
+    "RELAXATION_REPLACEABLE means feasible in the enlarged endpoint cone; it does not establish a single-endpoint/common-CE physical replacement.",
+    "The approximately 0.001525 physical-witness versus relaxed-fit gap is model/search conservatism, distinct from the verified saved convex-LP numerical gaps.",
+    "Zero observed false positives in 23 selected identities is descriptive and is not an independent one-percent risk guarantee."
+  ]
+}

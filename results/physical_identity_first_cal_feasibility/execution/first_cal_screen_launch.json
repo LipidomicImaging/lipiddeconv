@@ -1,0 +1,20 @@
+{
+  "status": "CPU_FIRST_CAL_SCREEN_LAUNCHED",
+  "pid": 116404,
+  "started_utc": "2026-09-12T07:10:09.128141+00:00",
+  "argv": [
+    "/root/miniconda3/bin/python",
+    "-u",
+    "/root/physical_identity_mainline_v1/jobs/screen_physical_identity_first_cal.py",
+    "--source-output",
+    "/root/physical_identity_mainline_v1/results",
+    "--snapshot",
+    "/root/physical_identity_mainline_v1/source",
+    "--output",
+    "/root/physical_identity_mainline_v1/first_case_feasibility",
+    "--workers",
+    "4"
+  ],
+  "protocol_commit": "edbd272",
+  "gpu_fits_paused": true
+}
