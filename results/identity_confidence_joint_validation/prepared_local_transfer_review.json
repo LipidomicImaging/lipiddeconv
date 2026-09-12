@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "downloaded_prepared_files": 17,
+  "all_download_hashes_match": true,
+  "local_code_matches_frozen_remote": true,
+  "contract_and_model_seals": true,
+  "CAL_HOLD_truth_overlap": 0,
+  "training_not_started_at_input_review": true,
+  "large_arrays_storage": "/root/identity_confidence_joint_validation/results/cases/<case>/prepared_arrays.npz",
+  "large_arrays_downloaded": false,
+  "remote_array_audit": "prepared_input_review.json",
+  "scientific_inputs_unchanged": true,
+  "authorization": "User explicitly authorized seven-file upload and sequential CPU CAL1 -> CAL2 -> sealed HOLD1 -> HOLD2; historical auto-review upload block is resolved."
+}

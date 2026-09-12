@@ -1,0 +1,70 @@
+{
+  "contract.json": {
+    "sha256": "70a63e6b292a93e5cdcdac079d83dd5ae12eefbbcf3a7c35b50128fc60f6e282",
+    "size": 5089
+  },
+  "contract_seal.json": {
+    "sha256": "08c14161286fe82b2f9cbf1e6e275d1f676be6d751a3695a7d59050f373e6a59",
+    "size": 138
+  },
+  "model.json": {
+    "sha256": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1",
+    "size": 4162
+  },
+  "preparation_seal.json": {
+    "sha256": "54c6e1c995f61ed59bedda1ea3224af21f074690a66bb07241868fc435cd155a",
+    "size": 1156
+  },
+  "prepared_input_review.json": {
+    "sha256": "f35ee97a0c429d66c807fa0503c9c6a52dce48ed14eb82cfaf23de8934101f12",
+    "size": 1473
+  },
+  "cases/CAL1/input.json": {
+    "sha256": "88c10306bd3bfc909c691c07ac1254349f738138b2cd6814be3ad664242a2624",
+    "size": 11319
+  },
+  "cases/CAL1/metadata.json": {
+    "sha256": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "size": 35973
+  },
+  "cases/CAL1/perturbation_audit.json": {
+    "sha256": "440e7a7a2219bff493893401a80c902a06a1865e2f54542138cf2e89f919899d",
+    "size": 1217158
+  },
+  "cases/CAL2/input.json": {
+    "sha256": "e6dad10f99e8a00f0fe6dac8f08385da69e4a8851c7cc7122f15b766ab64a0e2",
+    "size": 11319
+  },
+  "cases/CAL2/metadata.json": {
+    "sha256": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "size": 35973
+  },
+  "cases/CAL2/perturbation_audit.json": {
+    "sha256": "4616aae458c0eb9c27953919dca3bdc3d5b1b6e3d79bae6a2d64434c92ee5da8",
+    "size": 1217166
+  },
+  "cases/HOLD1/input.json": {
+    "sha256": "c316810365fdbd05151fa4edbafdb0195c0a1a85916d066be2b9d9e00cb603e2",
+    "size": 11312
+  },
+  "cases/HOLD1/metadata.json": {
+    "sha256": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "size": 35973
+  },
+  "cases/HOLD1/perturbation_audit.json": {
+    "sha256": "e11eebdfa220dd11a3f8cc837a1e76febd23ca7a30dbb9d85506b61ec2f48a0e",
+    "size": 1217201
+  },
+  "cases/HOLD2/input.json": {
+    "sha256": "34d9a304caaf8180bf7610aa6eb46256186d9c1cb8257b3162f2af1bdc94af86",
+    "size": 11312
+  },
+  "cases/HOLD2/metadata.json": {
+    "sha256": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "size": 35973
+  },
+  "cases/HOLD2/perturbation_audit.json": {
+    "sha256": "96ec1b5e0f8793e53525aaece31c269a5d9a4516e6f91669af318ed08120a120",
+    "size": 1217139
+  }
+}

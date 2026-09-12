@@ -1,3 +1,7 @@
+# 新CAL/HOLD输入与共享模型封存完成 — 2026-09-12
+
+用户已明确授权7文件上传及按合同逐组CPU执行。四组完整391候选、每组125 truth全部实际受5%扰动；CAL/HOLD真值不相交，空间图与单一全局缩放验证通过。模型/输入17文件已下载hash一致，远程独立数组/来源检查PASS，尚无新NNLS结果。记录 results/identity_confidence_joint_validation/preparation_record.md。先推送封存记录，再只运行CAL1；逐组审核下载Git后放行，CAL失败则停止该版本。主目标持续ACTIVE，无GPU/清理/自动后续模型。
+
 # 当前任务 ACTIVE：共享模型与新CAL/HOLD验证 — 2026-09-12
 
 用户授权持续分析/探索直到1%错误与80%recall/retention目标。当前诊断：既有排序的事后oracle可达107TP/1FP、85.6%，但不能用其阈值；旧每折CAL仅25–41身份。依 docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md 先冻结同一六特征共享模型与四个新5%case，CAL1优先，失败停止该版本后分析；通过才CAL2→seal→HOLD1/2。真值CAL/HOLD各125且不相交；使用既有完整空间图、不改变旧实验、不启GPU。允许的源为当前NNLS/联合结果、原physical mainline四个明确source的X/mask、既有完整components和必要solver/helper代码；新输出 results/identity_confidence_joint_validation。先实现/封存/推送，再CPU执行；逐case审查下载Git后继续。总目标保持active，不能用已曝光数据调参过线冒充完成。

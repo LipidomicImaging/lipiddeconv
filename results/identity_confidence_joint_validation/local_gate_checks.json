@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "CAL2 blocked without reviewed Git handoff",
+    "HOLD blocked before CAL handoffs and threshold seal",
+    "CAL1 scientific failure blocks CAL2 even after handoff"
+  ],
+  "remote_upload_status": "BLOCKED_BY_AUTO_REVIEW_AWAITING_EXPLICIT_SEVEN_FILE_AUTHORIZATION",
+  "new_model_or_cases_run": false
+}

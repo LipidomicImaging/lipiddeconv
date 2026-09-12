@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "mode": "INDEPENDENT_CACHED_INPUT_REVIEW_NO_OPTIMIZATION",
+  "cases": {
+    "CAL1": {
+      "status": "PASS",
+      "candidates": 391,
+      "truth_count": 125,
+      "actually_perturbed": 125,
+      "foreground_pixels": 15837,
+      "source_X_only_one_global_scalar": true,
+      "forward_equation": true,
+      "all_array_hashes": true,
+      "target_norm": 0.6036783466931458
+    },
+    "CAL2": {
+      "status": "PASS",
+      "candidates": 391,
+      "truth_count": 125,
+      "actually_perturbed": 125,
+      "foreground_pixels": 15837,
+      "source_X_only_one_global_scalar": true,
+      "forward_equation": true,
+      "all_array_hashes": true,
+      "target_norm": 0.6036783562886918
+    },
+    "HOLD1": {
+      "status": "PASS",
+      "candidates": 391,
+      "truth_count": 125,
+      "actually_perturbed": 125,
+      "foreground_pixels": 15837,
+      "source_X_only_one_global_scalar": true,
+      "forward_equation": true,
+      "all_array_hashes": true,
+      "target_norm": 0.6036783439481135
+    },
+    "HOLD2": {
+      "status": "PASS",
+      "candidates": 391,
+      "truth_count": 125,
+      "actually_perturbed": 125,
+      "foreground_pixels": 15837,
+      "source_X_only_one_global_scalar": true,
+      "forward_equation": true,
+      "all_array_hashes": true,
+      "target_norm": 0.6036783451967156
+    }
+  },
+  "model_and_source_bindings": true,
+  "time_utc": "2026-09-12T09:53:12Z",
+  "learned_case_results_exist": false
+}
