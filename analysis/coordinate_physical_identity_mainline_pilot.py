@@ -259,8 +259,12 @@ active=subprocess.check_output(['nvidia-smi','--query-compute-apps=pid','--forma
 assert not active, 'GPU_PROCESS_ACTIVE'
 util=subprocess.check_output(['nvidia-smi','--query-gpu=utilization.gpu','--format=csv,noheader,nounits']).decode().split()
 assert util and all(float(x)==0 for x in util), 'GPU_NOT_IDLE'
-processes=subprocess.check_output(['ps','-eo','args=']).decode().splitlines()
-assert not any(RUNNER in x and ' train-case ' in x and not x.startswith('python -c ') for x in processes), 'PILOT_FIT_ACTIVE'
+for process_id in subprocess.check_output(['ps','-eo','pid=']).split():
+ try:
+  argv=[x.decode() for x in (pathlib.Path('/proc')/process_id.decode()/'cmdline').read_bytes().split(b'\\0') if x]
+ except (FileNotFoundError,ProcessLookupError,PermissionError):
+  continue
+ assert not (RUNNER in argv and 'train-case' in argv), 'PILOT_FIT_ACTIVE'
 reservation=jobs/(CASE+'.launch_reserved.json')
 with reservation.open('x') as f: json.dump({'case':CASE,'command':COMMAND},f)
 with (jobs/(CASE+'.log')).open('xb') as log:
