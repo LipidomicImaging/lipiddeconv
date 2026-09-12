@@ -122,7 +122,9 @@ class Remote:
 
     def python(self, body, *, retry=True):
         def operation():
-            command = "python -c " + shlex.quote(body)
+            # Paramiko starts a non-login shell; reproduce the verified production PATH.
+            command = ("PATH=/root/miniconda3/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:$PATH "
+                       "/root/miniconda3/bin/python -c " + shlex.quote(body))
             _, stdout, stderr = self.client.exec_command(command, timeout=90)
             out, err = stdout.read(), stderr.read()
             require(stdout.channel.recv_exit_status() == 0,
