@@ -43,3 +43,47 @@ Local EVAL GO requires simultaneously aggregate FDP<=1%, aggregate TP retention>
 Stop after the reviewed pilot. A favorable result warrants designing independent validation, not declaring the main endpoint achieved. A failed result stops this version; do not tune U/epsilon/gamma/weights/denominators on exposed EVAL. Preserve source, numerical evidence, counts, calibration seals and reports; push reviewed compact records. Do not launch V59/V60, quantification or an open-set variant.
 
 The bounded postprocessor analysis/audit_ce_identity_spatial_v2_job.py audits each completed training/evidence case, exports hashed compact archives, then independently checks the completed paired pilot and writes its descriptive report. It exits after completion/failure and uses no model calls while waiting. It never modifies scientific inputs, retries failed experiments or deletes files. Archive generation is not a Git push: this thread separately downloads, verifies and pushes each reviewed snapshot.
+
+## Physical interpretation and future-validation boundary
+
+Documentation addendum authorized 2026-09-12, after V2 execution began. This records interpretation and future model scope only. The six cases, frozen design and source bindings, CE uncertainty v1, gamma, epsilon calibration rule, production GPU fits, full/delete LPs, reporting and accounting, and local/global evidence definitions remain unchanged. Keep the originally deployed protocol/source snapshots and their hashes; this addendum does not replace or rebind them. No new physical model or diagnostic is added to the running code.
+
+### Fixed library, systematic mismatch and pixel variation
+
+The library A_lib is fixed. The proposed interpretation for future validation distinguishes the experiment's mean spectrum from its pixel-specific spectrum:
+
+```text
+A_exp   = A_lib + Delta_A_sys
+A_exp,p = A_exp + Delta_A_pixel,p
+b_p     = (A_lib + Delta_A_sys + Delta_A_pixel,p) x_p + epsilon_p
+```
+
+Delta_A_sys denotes library-to-experiment systematic spectral mismatch. Delta_A_pixel,p denotes within-experiment spectral variation. Epsilon_p denotes measurement error beyond that spectral model. This notation separates mechanisms; it does not identify them from a single observation, license negative spectra, or specify arbitrary Gaussian noise. Weak-peak censoring must be modeled as an observation/detection mechanism if supported, not silently absorbed into an unrestricted additive error.
+
+For the future physical model, initially allow relative intensity variation on established fragment support. Preserve high-intensity, empirically stable fragments rather than randomly deleting them. Permit weak-fragment censoring or occasional non-detection only where supported by S/N, acquisition thresholds or repeatability evidence; do not extend it to strong peaks. Do not introduce new high-intensity unknown fragments by default. Unmodeled fragmentation belongs to a separately assessed out-of-model mechanism. These are proposed scope constraints, not claims that every strong fragment is invariant across all experimental conditions.
+
+Systematic mismatch cannot be assumed to vanish through spatial averaging. The proposal that within-experiment pixel variation is smaller, and that averaging partly reduces it, is a hypothesis to validate. Correlation across pixels, systematic detection bias and weights estimated from the same data can limit or prevent that reduction. No noise magnitude, independence, zero-mean property or averaging benefit is asserted by V2.
+
+### What CE30/35/40 supports
+
+CE30/35/40 informs condition-dependent systematic spectral-shape variation; it is not a pixel-noise measurement. The existing CE133-derived v1 envelope remains a limited shared-fragment intensity model, not a demonstrated bound on all library-to-experiment errors. CE variation alone establishes neither its coverage of prediction/instrument mismatch nor within-MSI pixel variance.
+
+Future pixel variability and weak-peak detection behavior need separate evidence from MSI repeatability, independently justified relatively homogeneous regions, technical repeats or standards. Spatial abundance/composition differences must be distinguished from spectral fluctuations; a visually uniform region alone does not establish that distinction. Unsupported mechanisms and ranges remain NOT_VERIFIED and are not added to the allowed uncertainty merely to improve a result.
+
+### What the current stress test can establish
+
+The inherited MILD target is a controlled synthetic stress test, not the final implementation of the physical model above. Its builder, analysis/run_v58_spectral_library_mismatch_fdr_recalibration.py::build_targets, perturbs nonzero fragment intensities, protects the strongest fragment, randomly drops eligible other nonzero fragments and changes parent intensity before normalization. It creates no new support. Thus it is not literally dropout of every fragment; its eligible-fragment dropout is also not an empirically calibrated weak-peak censoring model. The fixed target is reused across pixels and does not implement a separate pixel-variation process.
+
+Do not describe independent fragment dropout as the established physical mechanism of real MSI mismatch. Keep old settings and results as historical stress tests. V2 asks only whether identity-conditioned spatial evidence improves discrimination over global foreground mean with the inherited mismatch and uncertainty held fixed. Its missing-library arms remain CLEAN omission challenges; they are not combined realistic mismatch-plus-omission validation. Neither success nor failure directly validates or refutes performance under real experimental perturbations.
+
+After the paired pilot is independently reviewed, apply the existing frozen GO rule unchanged. No local improvement ends this spatial route for the present version; failure of GO also stops this version without tuning on exposed EVAL. Local improvement together with a passed GO motivates a separately frozen validation model combining systematic fragment-intensity mismatch, strong-peak preservation, evidence-based weak-peak censoring and separately estimated pixel variability. No new numerical definition of "clear improvement" is inserted into V2's sealed calibration or GO decision. Any later confirmatory comparison criterion must be specified prospectively. No future experiment starts automatically from this addendum.
+
+### Optional diagnostic only: spatial weight concentration
+
+For the same fixed molecular weights s_j on the original foreground, define:
+
+```text
+N_eff,j = (sum_p s_j(p))^2 / sum_p s_j(p)^2
+```
+
+It may be derived later from preserved completed evidence as a separate, provenance-linked diagnostic without rerunning training or changing evidence files. Zero total weight gives an undefined diagnostic and leaves NO_SPATIAL_EVIDENCE unchanged. This describes effective weight concentration, not a verified number of statistically independent pixels. It must never affect reporting, spatial weights, case membership, CAL/EVAL, epsilon, thresholding, retention/recall denominators or GO. No current diagnostic threshold or new filtering rule is introduced.
