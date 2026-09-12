@@ -1,3 +1,9 @@
+# 首组 NNLS + 全库5%失配完成：开发GO，停止于单组 — 2026-09-12
+
+最终原始NNLS125TP/49FP/0FN。按预先冻结的单组1%阈值选择规则，rho>=7.855148751253491e-7保留60TP/0FP，FDP0%、TP retention与all-truth recall均48%，达到40%继续线但未达60%强成功线。原固定rho1e-3仅2TP/0FP，完整保留。125个truth全部实际受扰动，solver misses0，filter-induced true losses65。此为同一已曝光空间case的开发筛查，不是独立FDR保证。详细报告 results/small_mismatch_nnls_first_case/analysis_record.md。
+
+16:33:13计算结束，PID118584已退出。原主机独立审查及333文件下载hash通过，本地来源/数组/身份计数/完整曲线复核一致。float32大数组范数存在跨平台标量差异，已明确记录并保留原主机绑定检查；未改rho、阈值规则、数据或优化。所有大数组与source/container/block保留本地和远程，Git只保存紧凑结果。nnls-git后续处理已确认不存在；不再监控、不开第二组/GPU、不删除文件。完成最终结果push后STOP；主线独立验证仍未完成。
+
 # 单组 NNLS 正在运行；用户要求的部分像素预览已完成 — 2026-09-12
 
 首组在 westc 于北京时间16:10:45启动，PID118584，仅4个CPU进程。用户要求不实时监控，完成后再分析；已设置本任务一次16:45后续处理 nnls-git。随后用户明确要求提前分析已完成像素：固定10000/15837像素缓存预览已复核，raw TP125/FP53、recall100%、FDP29.78%、相对重建残差0.403%。已累计信号足以保证最终原始报告至少124TP/36FP；这不是最终筛选结果。记录 results/small_mismatch_nnls_first_case/partial_010000/analysis_record.md。主计算未改动，未重跑NNLS/rho、未改阈值/分母，最终rho及GO/NO-GO仍待完成。保存此次紧凑预览到Git后停止主动轮询，16:45后续处理负责最终审查/下载/Git。

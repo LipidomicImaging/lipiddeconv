@@ -1,0 +1,22 @@
+{
+  "status": "SINGLE_CASE_COMPLETE_REVIEWED",
+  "case": "NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125",
+  "first_case_developmental_GO": true,
+  "strong_success": false,
+  "selected_TP": 60,
+  "selected_FP": 0,
+  "TP_retention": 0.48,
+  "all_truth_recall": 0.48,
+  "threshold": 7.855148751253491e-07,
+  "maximum_false_rho": 6.47443954336403e-07,
+  "source_and_identity_accounting_review": "PASS",
+  "float32_reconstruction_scalar_portability": "DOCUMENTED_ORIGINAL_HOST_CHECK_USED",
+  "independent_FDR_validated": false,
+  "next_case_started": false,
+  "main_pid_118584_exists_at_final_check": false,
+  "completed_utc": "2026-09-12T08:33:13.225309+00:00",
+  "one_time_followup": "nnls-git: automation tool confirmed already absent",
+  "all_arrays_preserved_local_and_remote": true,
+  "no_deletion": true,
+  "git_scope": "compact explicitly named records only"
+}

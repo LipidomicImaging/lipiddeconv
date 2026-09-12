@@ -95,7 +95,7 @@ def _check_reconstruction(actual, expected, label):
     return float(np.max(abs(actual.astype(np.float64)-expected.astype(np.float64))))
 
 
-def review(output, path_map=None):
+def review(output, path_map=None, *, original_host_float32_diagnostic=False):
     output = Path(output).resolve()
     path_map = path_map or {}
     d, seal, result = (read(output / n) for n in ("design.json", "design_seal.json", "result.json"))
@@ -180,7 +180,28 @@ def review(output, path_map=None):
             and np.all(X_hat[:, ~mask] == 0) and np.all(B_hat[:, ~mask] == 0), "INVALID_LEARNED_ARRAYS")
     learned_error = _check_reconstruction(B_hat[:, mask], A.astype(np.float64) @ X_hat[:, mask].astype(np.float64), "B_hat")
     residual = float(np.linalg.norm(B_hat[:, mask].astype(float)-B[:, mask]) / np.linalg.norm(B[:, mask]))
-    same(done["foreground_reconstruction_relative_residual"], residual, "reconstruction_residual")
+    stored_residual = done["foreground_reconstruction_relative_residual"]
+    # The frozen runner reduces its denominator in float32. Different BLAS
+    # implementations need not reproduce that large reduction bit-for-bit.
+    # Portable review may explicitly rely on an already verified original-host
+    # scalar check. No tolerance or identity/threshold check is relaxed.
+    if original_host_float32_diagnostic:
+        original_review = read(output / "independent_review.json")
+        require(original_review["status"] == "PASS"
+                and original_review["design_fingerprint"] == fingerprint
+                and original_review["result_sha256"] == sha(output / "result.json")
+                and original_review["verified_artifact_hashes"] == artifact_hashes,
+                "ORIGINAL_HOST_DIAGNOSTIC_REVIEW_MISSING_OR_UNBOUND")
+    else:
+        same(stored_residual, residual, "reconstruction_residual")
+    residual_diagnostic = dict(
+        original_host_check_used=original_host_float32_diagnostic,
+        local_float32_formula_exactly_matches_stored=stored_residual == residual,
+        stored=stored_residual, local_same_dtype_formula=residual,
+        local_float64_denominator=float(np.linalg.norm(B_hat[:, mask].astype(float)-B[:, mask])
+                                       / np.linalg.norm(B[:, mask].astype(float))),
+        local_numpy=np.__version__, scalar_difference_not_used_for_identity_selection=True,
+        note="All array hashes and forward equations still verified; no new scalar tolerance introduced.")
     foreground_X = X_hat[:, mask]
     block_files, kkt = set(), dict(max_dual_violation=0., max_complementarity=0., max_bound_ratio=0.)
     for start in range(0, foreground_X.shape[1], 250):
@@ -275,6 +296,7 @@ def review(output, path_map=None):
                    actually_perturbed_raw_TP=len(perturbed_truth & raw_names), actually_perturbed_filtered_TP=len(perturbed_truth & selected),
                    actually_perturbed_TP_retention=len(perturbed_truth & selected)/len(perturbed_truth & raw_names) if perturbed_truth & raw_names else None,
                    nominal_and_target_forward_max_absolute_errors=dict(target=forward_error, learned=learned_error),
+                   reconstruction_scalar_portability=residual_diagnostic,
                    stored_NNLS_block_membership_verified=True, stored_KKT_aggregation_verified=True,
                    pre_float32_KKT_independently_recomputed=False, rho_formula_and_membership_verified=True,
                    rho_optima_independently_resolved=False, truth_leakage_review="Scoring inputs reviewed in source before execution; reviewer uses truth only for cached accounting",
@@ -315,10 +337,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--path-map", type=Path, help="JSON mapping original source absolute paths to verified local copies")
+    parser.add_argument("--original-host-float32-diagnostic", action="store_true",
+                        help="Use hash-bound original-host review for the stored float32 norm scalar; keep all identity checks local")
     args = parser.parse_args()
-    receipt, analysis = review(args.output, read(args.path_map) if args.path_map else None)
-    write_once(args.output / "independent_review.json", (json.dumps(receipt, indent=2, allow_nan=False)+"\n").encode())
-    write_once(args.output / "independent_analysis.md", analysis.encode())
+    receipt, analysis = review(args.output, read(args.path_map) if args.path_map else None,
+                              original_host_float32_diagnostic=args.original_host_float32_diagnostic)
+    prefix = "portable_independent" if args.original_host_float32_diagnostic else "independent"
+    write_once(args.output / (prefix + "_review.json"), (json.dumps(receipt, indent=2, allow_nan=False)+"\n").encode())
+    write_once(args.output / (prefix + "_analysis.md"), analysis.encode())
     print("INDEPENDENT_CACHED_REVIEW_PASS", CASE, flush=True)
 
 
