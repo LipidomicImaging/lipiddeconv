@@ -1,0 +1,1602 @@
+{
+  "status": "CACHED_WITNESS_STRUCTURE_INSPECTED",
+  "source_directory": "results/physical_identity_first_cal_feasibility/scores/SUPPORTED_MISMATCH__CAL_R71_K125",
+  "source_hashes": {
+    "bank_manifest.json": "0f0691099a8ed257a880754452b24f50c5f0c1f11326d4d65d7ae09d62a9beb5",
+    "full.json": "b4452388e416377bd490c4122526aeb568e6fbae064cd2d409f012152732019b",
+    "full_proof.npz": "c20519ff0da738ab470dfe07b503368c7401ad05bd1536a56065bdd8f3ec8549",
+    "scores.json": "f4a3c72a75356ea41e500d399adcb35b71c18e94ffa19efe22e153320c9fb2c3",
+    "record_0006.json": "d1be4b289119b11145bf4d856f7b43827705010c4bcc0ca45181a395b308bd06",
+    "proof_0006.npz": "5bd734a07ffdb895a024906c4c27a9a9b404cefe94da918fc22279146094530d",
+    "record_0008.json": "9e3f39d283636a31f562dbc38b9aaec030115e4ac961afb1084b874a8c0bbeac",
+    "proof_0008.npz": "ca82d7b267444fa5d840b2a5e45c1d287946985cbe762844ca9da99c14c15197",
+    "record_0010.json": "eea6bde7c7837aa72b62b5117b57ba345a63b9b9da08d9129980baf2d8caf116",
+    "proof_0010.npz": "b179ee8348ff23627b3e6ebd3cd9a50d93360f40da537b9d945b434ff1bcedf3",
+    "record_0011.json": "fb5ea518c1d1035b802b70d0957c6428c122070d9699f1cd6c79c3d93c0866e1",
+    "proof_0011.npz": "3e095147d56cefcaaf312f7fae6baa483151192ee2c2aef36f6b97c893d19bac",
+    "record_0013.json": "de1a6cb94c537744babe1360ae1f5bebd6cd37f2093892e84ca7fd3dd10f760f",
+    "proof_0013.npz": "635299edaea7107d47de982e4e6da378dda933030127c8d392b8af88faa1aa49",
+    "record_0016.json": "c43694b9ddd3d2e809c9123114a24fc29464a6962d972730315bd972626f1382",
+    "proof_0016.npz": "1f809a3b4ee0a6580fb998c66f67b78e116fdef11a22235dcfeaef647bbee8b1",
+    "record_0018.json": "b299acf67360df7707c9d8e629db2270f3533d57fdb8795bffc99095be6a5147",
+    "proof_0018.npz": "27dc7695e81a29a29053b2e853495cb9a77c8422c86cd112043cccda31e8d585",
+    "record_0024.json": "c774bffa4d674fdd5d7361354cb704c757446a362fab14c44a6d31f31c0bfb58",
+    "proof_0024.npz": "feaf900cd45e06246fccf308d95eda77d8fe2b7aa6017b2b8611f124368c88ac",
+    "record_0028.json": "7d986c984870f2c548a3b6fb0ef2c1837c2b0804b42af19e282eda27950b281e",
+    "proof_0028.npz": "cef6406936fecf1ac77a3d48a939edb29a428aa9d9d94d7f935bc724d2f31410",
+    "record_0029.json": "b0a92b2bf3aa6bbd2856053a6f010c1fd3475705de12476b1fcc5a50bdb4e69c",
+    "proof_0029.npz": "c1146c5c18524d9820d1cd17bc47f903159b2180303dbae70d4be0405e582ec4",
+    "record_0035.json": "5c39e9d141dbe19c68854c035fdb09cb332059733282e53f3b1e61b546d11828",
+    "proof_0035.npz": "5ed120a81769ba239b05c8f9cf2c6ce8cd483a2ee5b54e6a7f22d3db3c48e221",
+    "record_0036.json": "de188f8515deaa859751bf68f9a4a5c69a69b94ef0b6ae47268edb9a7aad3f2d",
+    "proof_0036.npz": "32224d108e3b319a2f654622e74931354d1d15527f2f6386c1bb1dcb8ad9c851",
+    "record_0048.json": "f511883d5a13274809794a9adc0fe19a7ef8108623217d30a5f9f46d1eda822f",
+    "proof_0048.npz": "83ef19b175b0336c70e2f307023e32447c86f5fc6005b0bce33c2707603be3c5",
+    "record_0049.json": "af3f4c03af0e2fc3634ca3b08076d20670592404d7424a2098b2d7033ac1a347",
+    "proof_0049.npz": "c53156488011b8082d315736ecd5408f3ef6b5ca38b20730f728cc3b56600d47",
+    "record_0050.json": "5d99878906df32820242246f641573b1b6a07f9a7b1712eab37c8f701e664c89",
+    "proof_0050.npz": "6585b8e8918e4056812c8ebb61e8abe3a3e8498873e0fb090441bc91f497fc38",
+    "record_0053.json": "00dd0cf9893abcb7c6c8b5ec4221054a820294cd622ead1dcaeb8552e06a1ef7",
+    "proof_0053.npz": "93d520fda60a97661eb81ae1b09de001d9ee4aac117ef7fb5f6c461dd680fcb6",
+    "record_0058.json": "852b162fb37d28190a4b2f69d745864a8f05200c959218ba8e62d014d8e74ce1",
+    "proof_0058.npz": "b28df59893b2c618d92b76149208c8dd9e71d54f8dac0d4acd55b48c0db5df68",
+    "record_0061.json": "30a18a2265113a0feb591998ec93d737b64b2ff23abfbb5f25a8d898a2dfebec",
+    "proof_0061.npz": "104535f2237ffc837de7245f29edfbf460c240e4fd14f46d1af3dda75bd8fa3a",
+    "record_0062.json": "e16a65d5223c7affc422b948c0ff61c1b31b7358869107b89fab48c82018e0af",
+    "proof_0062.npz": "3cb977dc0f6ce429492aac9245463061cad6b2ba78b34c030262babdd12bec7f",
+    "record_0065.json": "fe71d52580b426a7f11ad8d9455613794da79eddd0f91da49424d40c3bacff10",
+    "proof_0065.npz": "835a6273ce19ac37c185a38b0278367d5d05dcdbcd08ab660f33b0b1e19aeb04",
+    "record_0067.json": "c7a0f2d5baa0f6293e513f3263f3a8fc52fa20ddbe9fee80e0040cdf81a18a42",
+    "proof_0067.npz": "fe25964f97010af8297c41be29ba2b68cec4489ecdaa4b5e247be2bfe285e2d8",
+    "record_0069.json": "c9f90173c6fc1e5ec21437108e35cf72d2aa55afd73fdc34fd774675a7cf7bb1",
+    "proof_0069.npz": "f441619420844561e2875d6feae388b242ff79a517e42b667242a1f121655fc8",
+    "record_0070.json": "305096d8e161b9e556ef3442ac5cfd6e6f78a64d1f36d783ce842a22fb266039",
+    "proof_0070.npz": "1f94ce8742c95a7ed6cb361b28a0f19932cdc639b993ee7d3af6abf75f678707",
+    "record_0077.json": "e1b5116d02393fd70d189c28628cc036c05f77de1b6e3a54acd7a79c5b8b8a85",
+    "proof_0077.npz": "2577f01c24d9b1e35ab4bfae3321e07f622be44aba689be4fe8a089c39a64203",
+    "record_0078.json": "ef2e9da977fd5910e46241867b76afddd243f217bd0ad462ab62bf8f7000d94a",
+    "proof_0078.npz": "a7a290e8477b216e0efe0239b50a2df4256a5ea006c88239a71f632d83071a2a",
+    "record_0091.json": "8cebb85747d8994c02fdd4c7224814b84debd957c41768195b8039e6364c35c9",
+    "proof_0091.npz": "472a385cd8e7c1a12fca998d53af00bcf9e531eb621a1f565a55be1320c90aa8",
+    "record_0092.json": "3f5dcfee4f8e65b650dbcacba883dfdcd09eb319f73b668bcb0941ccd750815f",
+    "proof_0092.npz": "4dbfef0bb2aee8ce9186059de2d0496b3417177b2f5240c731af674fdb3550fc",
+    "record_0096.json": "87a4b7cb171fc47decadb440150517990e22d338968ecc768128053c33443f86",
+    "proof_0096.npz": "caf984e21308fe312eefdf2c66d00a0f60718ac78acb0859873a93d3f62c2b71",
+    "record_0099.json": "5da338e9a7c6547d558f01b6bd1f18dd52c23af200915cf1fd2f8bae3ade1203",
+    "proof_0099.npz": "3cef4151985cc2b7a00c4f232a1d8201b9e69e231cd0f9a0f7fd844637e70bed",
+    "record_0106.json": "4fc64e561466ac75986771f0b4e5d6cd585ad2f07070dcef9f27b45d5ce76cdd",
+    "proof_0106.npz": "39bff0260b381cc922a7c98b00dbe6758962c72dc5d0db832de3e19f6b608343",
+    "record_0110.json": "c1e7359918f68580780571fe24b288f3f9aa3caead4f83445ac88e2d7cf9864a",
+    "proof_0110.npz": "247480856b544c0981852a63aee2898d3e1c618aacbcf80706a472b38d731374",
+    "record_0112.json": "792a6c266b87aa9c76f197274c1df423e6a492703d48e63b9433b4b3a4f7958c",
+    "proof_0112.npz": "db266ae4d7be8e46b6050d69b6a02011097bd4df5f7fa61abbaaff674c16e534",
+    "record_0121.json": "be513e30e847bbb7402465a3cfdf94dcbe792a18e0be03ed2331eb0478cd35dc",
+    "proof_0121.npz": "c64513b00f8dffacacbc56c2c3c4a35df62db27e52e88b0251857a31d11fa235",
+    "record_0127.json": "f4c8c4301d6d98255bcfe924ef9f7abcb9bf472819a44f8abd62f088082ea91a",
+    "proof_0127.npz": "1bff943085b4a64d7805042ed43d7dfcda343b309de6ad6d7be89cc87fff14a0",
+    "record_0136.json": "0742ab1361e3f38bdf2a99d7237d2b7791de617e4cd3c7019e44ad2ea16ee8f6",
+    "proof_0136.npz": "1cc70cdadbf29b4e70d10e0a7b48708536f9d5be2af1440dbf3055c17d8f365b",
+    "record_0138.json": "8fc1f281d96f7c1f511a6ad31276c71b7f275c5386bbd422fabf35ec0a2a18f1",
+    "proof_0138.npz": "395050b7c515e54f776de2310df392c26cdaf58ac093f1e7728a98e42cea4a26",
+    "record_0139.json": "13a8b371ec5467fa9fc861cb5347840e3904a950145dd2e545c484c7a522220e",
+    "proof_0139.npz": "9fe63cd4dddd9c0a9fd147a39d2e34b6f47f5a3d7ffcaf81ed3814e57f8e667d",
+    "record_0140.json": "f612befade74d6239b634dd1f739ff68c3111baeea3e8a8ec758323d68df709d",
+    "proof_0140.npz": "115213c199534fd4fc9227684f855b30a698151ca97575cc0b3b628d4c1fea37",
+    "record_0141.json": "f4c6f721dbcebcfb5185a36dbdfc073a88d145c01b2e709999d60918b07a4289",
+    "proof_0141.npz": "349f52e8c4e02bb52dcf32baeb2a37114cc0229f1e5a824d4162ccd7815a79c9",
+    "record_0145.json": "2fc91ca81b070ea82a9a07066e79d2eb18cf00efc6ddfc39a5e656f88ed4dd2f",
+    "proof_0145.npz": "ff2cb32a438e02a83c98e0f5f4ffd4cdae77ae8a6ce7a3b2d3217bdcf04ec377",
+    "record_0161.json": "d81965c9f7a41d19fd81a7526b802982585568a0ac2a9312117b6c7283191bd6",
+    "proof_0161.npz": "8a25df04b44e4587667e5315b569ab26e84661c7aeadaef1420afe60011be3fa",
+    "record_0162.json": "92066e2ab0daae85095a9cc3846554697244b0c963ece590f72015e622dac58a",
+    "proof_0162.npz": "47574fbe6d6712ff2ee983d5d0ce88fea5959201aeda4b81f259553d1785123f",
+    "record_0163.json": "7be2a0861a9815cdfe5722517a8acf0e39066694e9a1b642abf709442317fd80",
+    "proof_0163.npz": "802afb1bd505ae3594c3f96d6edfca937df29d4a14841f0f627d751336edec4f",
+    "record_0164.json": "010a4db94e5c142688af9ae91b0fc14c6084eaacc24d1abe65f0df3c64b7fb7d",
+    "proof_0164.npz": "0b8c8a50dd8ba373484e4af91cd342c15dab9346276fe223a12ef9bc76bf488b",
+    "record_0171.json": "b5e9cc59b1eb12c0890d91389bdb78c476fae2c1acdf2473f03fede119fe3a76",
+    "proof_0171.npz": "316a48ec78cf9abf5dc5f6fba7e9fd620e3fc13e41858dba2301148c3ab9e2b7",
+    "record_0173.json": "0376a48a9a4e8762878dc8ace33d1c0ce9a1649c543487287df54dde4aa8cf29",
+    "proof_0173.npz": "050973fca21fe3a1394b75e381ab4dcf1ec90153cc4af9419eee3e66425e39b3",
+    "record_0177.json": "3adc91bee425a97c881e672e155fc2f151760d1eaead1f592d2da5cb187a9007",
+    "proof_0177.npz": "a357f14ee74a173d3f2da7b1b832ed249f45e32d8be70b175ed4b21388bd2a10",
+    "record_0179.json": "380b1c9aaa9fcdd6f70f06380532c0def8da0d2236af077ac8694f33d6b96599",
+    "proof_0179.npz": "ed12d02e3669afdd5c37fac5786bc0b22b63efa682c69448f95c32173907e7aa",
+    "record_0183.json": "7ff5e8acec3ea533563dc0dd5979cf8e279137c82822e4c7de91d0a35d53ce2c",
+    "proof_0183.npz": "8f20ecc1ba1666e6b6fe0d6eb56668311ffc32e337aac131ff19be369c827667",
+    "record_0187.json": "8ee832a1ae0d5e2e05a4cd2d2ca2f01edc6210536a10eb7b609d0c8869acd2de",
+    "proof_0187.npz": "0296e63b62d94fd0942e981875c261ec2f3f1548939a66023aa191e1a98be592",
+    "record_0189.json": "0bad0c384e08cc89a82f36b3adc7a1b76776d5672b8b335502d9f6b1785005a3",
+    "proof_0189.npz": "fcedd5bc40818876f3e8bd56db0ff87881e02bb5c414b9ee71aeaafa0cb0ba47",
+    "record_0190.json": "45609780be8280df32b8d1d6925955c9bd4812c24c1a16ba99d52a65e4a5d82d",
+    "proof_0190.npz": "0d1df9e2700be5c4f0be460e7ad205662ef9807b750adceddc4a6420591f38ab",
+    "record_0202.json": "9facc4e663923a0982c57f34d80ae6467636b3f78192e9e7b3ddeae37a6d2ec5",
+    "proof_0202.npz": "2a782e134cf0f3017a14f54ade55532368916ff07deab7ea5aa66741d9dc4a98",
+    "record_0203.json": "558227cfc9801087f3caf4dc1ca7faae2d8eff3e7a0a4c93aa6eff8e12218bb2",
+    "proof_0203.npz": "7a950d17cbfdfb51770be07543fe3f2c0d8ddc49dae7142b754f8209012e1503",
+    "record_0209.json": "a75fed69d29cd935c91706a9b7dd3053b3b40a54606e7762c1269208fdfed184",
+    "proof_0209.npz": "002ccc59c150fc79fb4eb1a561d81054c35a6c6fe5afad786955dd645361d3d5",
+    "record_0210.json": "46c78012b4b6a0453a2014772f191f686de3acd379a01febbd14bc492b5d6749",
+    "proof_0210.npz": "6f2eb08b141ef3619db637477af2f25ef21cb1aac8182b3274d2553a932d00c2",
+    "record_0214.json": "cb6837180b8d0bc567927b2e40c8d659ad933c53a0b73b2fcdfe6f405c320647",
+    "proof_0214.npz": "76be8314fdfcb400e86f4ab26bc8d84baaa6657a33fe69a41cf570a6f3cc1f3d",
+    "record_0216.json": "6937898da309550fa69ea3b99866e229b24a21a1df4008366ad4c1cd8f6edab8",
+    "proof_0216.npz": "d4064e0c62af495d273340d06b0c20d2f73106f3452d61ac0b097daa2c3380a4",
+    "record_0218.json": "32527355f7c36c30d4a2a3900a421e86ca93f637a5d8c3b9f3beeb38a6e8c2db",
+    "proof_0218.npz": "5c5826a102e07f53b521e3425b188e8929df6dd5091576b2b7c897d150e65f73",
+    "record_0219.json": "162b6034e7d81ad78f86c43c31fe9d5e2b4ca6746a0e3d21427945fcce911ca2",
+    "proof_0219.npz": "e717fedc7ba410b8fcfeb080f86dab615fe8b1aade5fddae3addb6ddd5e37b2a",
+    "record_0230.json": "ec66c1e53a7adfd158f88678711f7f14b4b56fe03610184aef9a3243fab061b4",
+    "proof_0230.npz": "245416dd75d6149d2cc1147e83faaa3ca536e3cea5c876a5049b59b29e7cfc6b",
+    "record_0231.json": "f73e551660a0f6fdf653994254e425ad5ed8cf082e6973e80c1c70ef26616cbb",
+    "proof_0231.npz": "4c747073e4e2e07d6cbe81e75e0ea74c3567c12e73ff39f48efc956ae2b8b153",
+    "record_0236.json": "21db22f6b7f4fcb79ed820d9e2e91b2295f9cfc44afb1df8316d54e35d15719f",
+    "proof_0236.npz": "ef674fc8d2c7cc1db8f7d366aba95b861ca200a8ae8709cde0c6055ae6c15790",
+    "record_0239.json": "25e961bd472af2679060ed547ce36345590c24e400e9893e154c586c3e06344a",
+    "proof_0239.npz": "39e8b8ee7e80fc919d7d498feba3e1396921a9754672008aab66b7adaf5e9c1d",
+    "record_0241.json": "9fa33ce223aaf04107d7332cd83ff8bdcc983ee2fad82cfa2e67699856118118",
+    "proof_0241.npz": "1fa81a78541e839cbf8acc257d91977d5679ede995005dc9654975b21de33b61",
+    "record_0242.json": "fca874f7cb94503c2bdf16d282411a56e36eb4fa0f7cceff9d733e4a2a470753",
+    "proof_0242.npz": "cb31b3c62d565feb36d190a9571379f0593b0178f77a37b9eae788af677cb821",
+    "record_0243.json": "733938dad00f88071aa1caa0f973bb57d5806aebabb5938c5c7d1f2153d44d5e",
+    "proof_0243.npz": "766a6321b7455b6e7d91b2d4215a7f4cdf494d4f7f007cdccec94b638943f848",
+    "record_0244.json": "d224ff1bc00aefef5bdcc3c0f0e5101ada6126687337c0cabbff81119b18e9f4",
+    "proof_0244.npz": "fbc75c9ed347f116498010957e00b853d6b66076b0c645b307272e4ac2c82bc5",
+    "record_0245.json": "9bc34408dd5db240642f8268f19e59b86957b5ea663c68b92794e28e170606ab",
+    "proof_0245.npz": "86cd9bd912785e32af32b175027a37875cf30f924ac65721a8eb65f468bb0f97",
+    "record_0246.json": "8a1036a0eca521d1b9e7954f9e2cf7c31ae7691dcc31db2e05f8de59051ad3d0",
+    "proof_0246.npz": "c11854addae7b9c14e7228a65b08f39a609f518655b4fdb9754af54bcccd9d02",
+    "record_0247.json": "1fc8a87de64e35691165d9bddc5d827088273ff60e7720f05fd89c89133075b4",
+    "proof_0247.npz": "ac995bfa3f382f6860a952a8cf740681cfa445d4e85f1218069213a42539c445",
+    "record_0249.json": "3e7a4593c1c0cd53f277fbb28d8bbc999c7f626d407c152d077b0ef4b616d942",
+    "proof_0249.npz": "3d35e9a3346a7156d33896714d30e06837678d743d4118266beed6fdfd9dbee0",
+    "record_0251.json": "8314ec5ed8d852adc44e010a0b1ea08ddd455cdbac82ccc1a914a85c61bc3261",
+    "proof_0251.npz": "2c8a11a689fba0dff692cbf4cd52c8bed65fb30214d472fe039275ca2d546e41",
+    "record_0252.json": "946d0f620b45167d91912e6b52f0fbac6bf473b89a89fea7dfa4636ca1e356d8",
+    "proof_0252.npz": "a37ecc9d3e146ea6291d69af52c34dd810e45a45803e01ee96f233bc847a7e3e",
+    "record_0254.json": "045d3aabc9cb5d3a1f4911a7db9899483119512864411d4a1998cbe3270c3323",
+    "proof_0254.npz": "1939ac7e4d4ae0ec82610f5dd00e66cfea8b92b172e3355f01a5151d483f23c1",
+    "record_0260.json": "6943b47414e0870c66919af5212dff84a7d4f09503148e9d4a54d68da4784510",
+    "proof_0260.npz": "04997bbe63cfdf38d6f1710f792e6a561b2ff14d57fe43e142f49e2c56dc180d",
+    "record_0264.json": "02e2c7a274b7e3e4457ba05c9b242c5942a214f1ddde520f9c2d6f5572b7407f",
+    "proof_0264.npz": "8dde973d98f244cdca575cc160a7b3a16027fbe1f5fe108759b6a0f9b70fce74",
+    "record_0274.json": "7f091c700ec772baf0a2f190f4b4db153a9ffdd3ecc2fadd3e5af599b34f85fb",
+    "proof_0274.npz": "d1910b538798ea11034e3e86d503f6fed013915f8d34df51139a0ec5a11e2018",
+    "record_0281.json": "03302b1e563ef333c2b27b2555769ed4f255da74b8670f2d74ac68670b290a1b",
+    "proof_0281.npz": "f438b3bc010ecceee166bc5dd3563592233cf3ecaa277c49b283e2c784ee8380",
+    "record_0287.json": "d4e432991febd6ac867e21561e84c5b9c5a074523fa716a4aef8b9c1d039006b",
+    "proof_0287.npz": "f2ee732cb9de71812f4f5e56d34c6faa850d21592db53bfb4f282e4a4d6c26e2",
+    "record_0289.json": "8d006a1ce70e5bfd75bc61f3bdf3cb67bc759b3e9a1817b63b63e0247fc0891d",
+    "proof_0289.npz": "94f841a68f1ee0c80a76880ccaa92196eee00af5ecf3de62667185614f8876ee",
+    "record_0290.json": "c635acdfdc34e5a27919e70695a4d784096f99eae2b6bbc5e45acfe33851937c",
+    "proof_0290.npz": "02558fbdfbb38799e8995fb3ee1df131a75d57b6e385d685df841189bf673b93",
+    "record_0291.json": "b237dd104358e3fc51b5eebe88ae135957917ed7641de2b2c70688a429f135f7",
+    "proof_0291.npz": "dacfd9386a03e8624178bdf607a26301fba2dc1d2ddf22804534f3f696ae288c",
+    "record_0296.json": "d63ed8dc7cc92b540a14758516fe3f8169e36e397c6cc92d4649f49fad719cb8",
+    "proof_0296.npz": "6be0ad488eb5433222c258ac389a41c8f16b55c220efabe6fe52eda7f5cf1b60",
+    "record_0298.json": "0fed9223fdc89e35add7bbba76710476d27de974f633b730185b27d57e55b43e",
+    "proof_0298.npz": "1b7ccfa82d249f7bc76cc588bffb8eda7acf14d4cb55e20359bde846c63ab69d",
+    "record_0299.json": "2cdf9b94e87ec0accb8c3b079bdaaf27ce2fc9fd5761a72fb660d0d50502cd7a",
+    "proof_0299.npz": "75587312af66760bdeb7191ca5687c594cf8f773c8bf55ebf81a3a85959fee05",
+    "record_0307.json": "d96b31f3defc3537421ca16b5b11d475c9c990c58f3f6c4808efb0ceea7fdb01",
+    "proof_0307.npz": "dfff9f2241192f4f3155beb7a301d7ec76384790613d3d85b613579c56de5b2b",
+    "record_0312.json": "dd90d0109bce800cc350ca3e1dbf272281cf263cfe23d4fc9709cb4dcbf85a2b",
+    "proof_0312.npz": "ab3746aed28e0dbfd26265132b2530dbc2ab43c3e4fc32b502fe9f9ee65cec43",
+    "record_0313.json": "1eac515729adec0298ee0c71df45893e2330462efb0d91e7b8958fee295b23e3",
+    "proof_0313.npz": "a98e5a3b2ea27c704d79ad5277481285640b4c740482bfd5808cb24b9467355c",
+    "record_0316.json": "15ef3caafcdc80369b8bac170810fc6a8fe896c119a22e70c44901070959862f",
+    "proof_0316.npz": "b5d8b84ca6e083085753edb3dab70b1e43952e2223c75bde50e24442fd1ac36a",
+    "record_0317.json": "0ca87466a2c07df8705deb60c22eabbd449a4564431307f06d18bd69ac710628",
+    "proof_0317.npz": "31c2930d3ae26dc1bc2ea40eafe30dab2160442b7e5e61b5cb7d68524bed2ce1",
+    "record_0321.json": "555a057b012df76e632a21b1234f3c1978c3aaffc9f2ed4993a702a417a106e7",
+    "proof_0321.npz": "9ee421ffdab950e294f6a04ef5d874eeefddbd5d794ac53bb80a352241dcdd38",
+    "record_0322.json": "704177945357defaf2aac82b6627eb200e47cf08e977157dc1bef83d8cdd69f9",
+    "proof_0322.npz": "96c8b105d413b8dce4e54ebb28ba1308a1ec3e3db0eb1cd5ebd3045b3ae3f9a4",
+    "record_0330.json": "ec89e6ab454e03d89d6fbb5cf7c7d92c7580a231be410f796f06c9e615d23dff",
+    "proof_0330.npz": "1d9cd94f7f856ed5eedcc3841e3ca95c85568bf47a2691ac274e283e03aa6515",
+    "record_0333.json": "fb629a37c925eaccb3ebe14b8a17addc4f0e61a1dc2179a89f504fdf373c32a9",
+    "proof_0333.npz": "84bbdd1611b90607348d229c39beed6f25c8a54a27b8aa7a3d8806239e6ef13c",
+    "record_0334.json": "5fe246bbdbb677b94d87d4dbae4871a3dad6b6730acd091567501b6ee0134e4f",
+    "proof_0334.npz": "c04a1974184a16d8f266a8fee83e40a05d3813cceaa547d6575bd86ad7218639",
+    "record_0340.json": "598677efcfd4602070d02ca70ea62717b34802049cff22b7d2d5952153bd5770",
+    "proof_0340.npz": "aac73aa182ed5bfbd6ef46b254e179c585fb946e59f3c05bc1ca038adfb033a5",
+    "record_0357.json": "84a6894083199f6cd5553180e3945f097b8b95fdf5c040a87e38e0151e841807",
+    "proof_0357.npz": "c54b7c98d0c3f9cd69bd2afd0589496dd9e8cdaa9231ad183123a66a88c2c514",
+    "record_0358.json": "7843a09140294669c452bf5da7de9d2bd004ab469a13b1ed35c101f66c44aa1c",
+    "proof_0358.npz": "500700d6d08aad4480f5b922ec870f67866ccc58f3cc1e71139f33710f2d1805",
+    "record_0359.json": "8bd3d1d3bebcc6fc2b6ea89afce2d0d138b1599f00bd4b2f025f3a2f261cb05f",
+    "proof_0359.npz": "5096ca16eb6a7df89f681a1e52e1a5c4a2c709f884b40557118ed71559359e3b"
+  },
+  "no_new_optimization": true,
+  "no_new_training": true,
+  "no_threshold_or_U_changes": true,
+  "diagnostic_definition": "For each frozen (lipid_name,rule,channels) group sum primal candidate coefficients by pattern; secondary fraction=1-max_pattern_coefficient/total_group_coefficient. Count fractions>1e-6 for diagnostic robustness only; not an acceptance threshold. CE fractions likewise refer to endpoint coefficients, not physical intensity fractions.",
+  "full_witness_structure": {
+    "all_relaxed": {
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5291551609592249,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.49936879119424027,
+        "[35.0, 40.0]": 0.286698398277295,
+        "[30.0, 40.0]": 0.21393281052846466
+      }
+    },
+    "nominal": {
+      "positive_supported_groups": 33,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 0,
+      "largest_secondary_endpoint_coefficient_fraction": 0.0,
+      "positive_CE_pairs": 0,
+      "CE_pair_coefficient_fractions": {}
+    },
+    "pair_000_relaxed": {
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5878820927637188,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 1.0
+      }
+    },
+    "pair_000_physical": {
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 0,
+      "largest_secondary_endpoint_coefficient_fraction": 0.0,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 1.0
+      }
+    },
+    "pair_001_relaxed": {
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 14,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49966392835882156,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 1.0
+      }
+    },
+    "pair_001_physical": {
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 0,
+      "largest_secondary_endpoint_coefficient_fraction": 0.0,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 1.0
+      }
+    },
+    "pair_002_relaxed": {
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 10,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4531753846579688,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 1.0
+      }
+    },
+    "pair_002_physical": {
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 0,
+      "largest_secondary_endpoint_coefficient_fraction": 0.0,
+      "positive_CE_pairs": 1,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 1.0
+      }
+    }
+  },
+  "lost_true_identities": 100,
+  "lost_true_deletion_witnesses_with_mixed_endpoints": 100,
+  "lost_true_deletion_witnesses_with_multiple_CE_pairs": 100,
+  "identity_diagnostics": [
+    {
+      "lipid_name": "PA 18:0_22:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5908925064616517,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5226103280699719,
+        "[35.0, 40.0]": 0.2744434883621723,
+        "[30.0, 40.0]": 0.202946183567856
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6636823411041307,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5890018964134497,
+        "[35.0, 40.0]": 0.30527433524544223,
+        "[30.0, 40.0]": 0.10572376834110818
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_22:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5921397596968876,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.3211687920572075,
+        "[30.0, 40.0]": 0.26388577414371844,
+        "[30.0, 35.0]": 0.4149454337990741
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_24:0",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5107195707136221,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.46853062392516515,
+        "[35.0, 40.0]": 0.31899293974759474,
+        "[30.0, 40.0]": 0.2124764363272402
+      }
+    },
+    {
+      "lipid_name": "PA 18:0_24:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6319960634727804,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.25067874428600934,
+        "[30.0, 35.0]": 0.421568387573391,
+        "[30.0, 40.0]": 0.3277528681405997
+      }
+    },
+    {
+      "lipid_name": "PA 22:0_18:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 15,
+      "largest_secondary_endpoint_coefficient_fraction": 0.461967222036446,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5638857145275681,
+        "[35.0, 40.0]": 0.26328716734029606,
+        "[30.0, 40.0]": 0.17282711813213583
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_22:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5289891943014922,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5315840784980302,
+        "[35.0, 40.0]": 0.28022075667875956,
+        "[30.0, 40.0]": 0.18819516482321022
+      }
+    },
+    {
+      "lipid_name": "PA 18:1_24:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5433844950282761,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.23270846766564718,
+        "[30.0, 35.0]": 0.5422468789348452,
+        "[35.0, 40.0]": 0.2250446533995076
+      }
+    },
+    {
+      "lipid_name": "PA 18:2_22:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5467917953924857,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.43231254142593173,
+        "[35.0, 40.0]": 0.2792771080721277,
+        "[30.0, 40.0]": 0.2884103505019406
+      }
+    },
+    {
+      "lipid_name": "PA 18:2_22:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6120679757842328,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4994221644420973,
+        "[35.0, 40.0]": 0.38348249045432903,
+        "[30.0, 40.0]": 0.11709534510357357
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.588026180749841,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.41112408023656594,
+        "[35.0, 40.0]": 0.40967327561165146,
+        "[30.0, 40.0]": 0.17920264415178264
+      }
+    },
+    {
+      "lipid_name": "PA 20:0_20:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5178117749240688,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.531867728581594,
+        "[35.0, 40.0]": 0.22075708021862714,
+        "[30.0, 40.0]": 0.24737519119977894
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5703418044729108,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5278466116551643,
+        "[35.0, 40.0]": 0.2844065619549592,
+        "[30.0, 40.0]": 0.18774682638987647
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5924377605808506,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4913473918512202,
+        "[35.0, 40.0]": 0.3161614239321045,
+        "[30.0, 40.0]": 0.19249118421667522
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5998211097790269,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.49462037068893977,
+        "[35.0, 40.0]": 0.27149635587114296,
+        "[30.0, 40.0]": 0.23388327343991722
+      }
+    },
+    {
+      "lipid_name": "PA 20:1_22:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5918605519397618,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.18595259170961145,
+        "[35.0, 40.0]": 0.29990525962893294,
+        "[30.0, 35.0]": 0.5141421486614557
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5546227600536318,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5943294536995497,
+        "[30.0, 40.0]": 0.17488866586038135,
+        "[35.0, 40.0]": 0.23078188044006906
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_22:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5408545397758492,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.1651376400094004,
+        "[35.0, 40.0]": 0.26894802436083576,
+        "[30.0, 35.0]": 0.5659143356297638
+      }
+    },
+    {
+      "lipid_name": "PA 20:2_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6463650903023109,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.3848591981054545,
+        "[35.0, 40.0]": 0.20329562526671474,
+        "[30.0, 40.0]": 0.41184517662783066
+      }
+    },
+    {
+      "lipid_name": "PA 20:3_22:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6041298358170015,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5136072102414176,
+        "[35.0, 40.0]": 0.2559489794392157,
+        "[30.0, 40.0]": 0.23044381031936662
+      }
+    },
+    {
+      "lipid_name": "PA 20:3_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 25,
+      "largest_secondary_endpoint_coefficient_fraction": 0.47944940470175634,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.1830379521604272,
+        "[30.0, 35.0]": 0.4658432043701873,
+        "[35.0, 40.0]": 0.35111884346938543
+      }
+    },
+    {
+      "lipid_name": "PA 22:1_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5723028613139209,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4818249378940465,
+        "[35.0, 40.0]": 0.32278581424149855,
+        "[30.0, 40.0]": 0.195389247864455
+      }
+    },
+    {
+      "lipid_name": "PA 22:2_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5790429995484078,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.1366596879891006,
+        "[30.0, 35.0]": 0.43016762542814946,
+        "[35.0, 40.0]": 0.43317268658275
+      }
+    },
+    {
+      "lipid_name": "PA 22:4_22:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5670374131264292,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5257510949144788,
+        "[30.0, 40.0]": 0.1758527230160532,
+        "[35.0, 40.0]": 0.298396182069468
+      }
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.594615351883702,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5420836135684012,
+        "[30.0, 40.0]": 0.14530250526821328,
+        "[35.0, 40.0]": 0.3126138811633855
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6276475507085437,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.40999150210615903,
+        "[30.0, 35.0]": 0.35244088757282466,
+        "[30.0, 40.0]": 0.23756761032101642
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_20:0",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6042442943591325,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5592646678508223,
+        "[35.0, 40.0]": 0.29040152641160977,
+        "[30.0, 40.0]": 0.150333805737568
+      }
+    },
+    {
+      "lipid_name": "PS 16:0_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49415451307714386,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.14075450796943753,
+        "[30.0, 35.0]": 0.5404364848273557,
+        "[35.0, 40.0]": 0.31880900720320676
+      }
+    },
+    {
+      "lipid_name": "PS 16:1_18:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5897354449233032,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.272092536265341,
+        "[30.0, 40.0]": 0.2000401614444171,
+        "[30.0, 35.0]": 0.5278673022902419
+      }
+    },
+    {
+      "lipid_name": "PS 18:0_18:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5720569341193165,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6135854767517197,
+        "[35.0, 40.0]": 0.25644118884918493,
+        "[30.0, 40.0]": 0.1299733343990953
+      }
+    },
+    {
+      "lipid_name": "PS 18:1_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5678902685878371,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4779589884203745,
+        "[35.0, 40.0]": 0.24969031392767496,
+        "[30.0, 40.0]": 0.27235069765195047
+      }
+    },
+    {
+      "lipid_name": "PS 18:2_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5738616262914182,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.45342662407366807,
+        "[35.0, 40.0]": 0.392519492284699,
+        "[30.0, 40.0]": 0.15405388364163294
+      }
+    },
+    {
+      "lipid_name": "PE 16:0_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 25,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5836249425324931,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4669091575044077,
+        "[35.0, 40.0]": 0.3884412280546373,
+        "[30.0, 40.0]": 0.14464961444095492
+      }
+    },
+    {
+      "lipid_name": "PE 16:1_22:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.575132642964606,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.17475858870880426,
+        "[30.0, 35.0]": 0.5840899175589976,
+        "[35.0, 40.0]": 0.2411514937321982
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 16,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6323122358223972,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.36300114094922736,
+        "[35.0, 40.0]": 0.24500976457595303,
+        "[30.0, 40.0]": 0.3919890944748196
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49444715261980265,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6376174652183159,
+        "[35.0, 40.0]": 0.2715304599327133,
+        "[30.0, 40.0]": 0.09085207484897083
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.548368430202941,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5146974375754569,
+        "[35.0, 40.0]": 0.27509787724609047,
+        "[30.0, 40.0]": 0.21020468517845262
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5616337447376398,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.2396418244419478,
+        "[30.0, 35.0]": 0.48894448389048867,
+        "[35.0, 40.0]": 0.27141369166756363
+      }
+    },
+    {
+      "lipid_name": "PE 18:0_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 33,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5354202676843605,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.42503557491980004,
+        "[30.0, 35.0]": 0.2498433168538126,
+        "[30.0, 40.0]": 0.32512110822638746
+      }
+    },
+    {
+      "lipid_name": "PE 18:1_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49381983516380157,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4846163112270141,
+        "[35.0, 40.0]": 0.3766871370823417,
+        "[30.0, 40.0]": 0.1386965516906443
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49743808161606595,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.476873976714619,
+        "[35.0, 40.0]": 0.20166703896120974,
+        "[30.0, 40.0]": 0.32145898432417114
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5247387910832948,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.44359370518274666,
+        "[35.0, 40.0]": 0.3207814795666239,
+        "[30.0, 40.0]": 0.23562481525062942
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4992234033308538,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5819221351597427,
+        "[30.0, 40.0]": 0.22954760147647973,
+        "[35.0, 40.0]": 0.1885302633637775
+      }
+    },
+    {
+      "lipid_name": "PE 18:2_22:6",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5750537834601388,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.21729758270341568,
+        "[30.0, 35.0]": 0.5735987333863035,
+        "[30.0, 40.0]": 0.2091036839102808
+      }
+    },
+    {
+      "lipid_name": "PE 20:0_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6305512140172256,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.44795899862241884,
+        "[35.0, 40.0]": 0.386000587337633,
+        "[30.0, 40.0]": 0.16604041403994807
+      }
+    },
+    {
+      "lipid_name": "PE 20:1_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4986334891486913,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.42374928593734384,
+        "[30.0, 40.0]": 0.32460623052943266,
+        "[35.0, 40.0]": 0.2516444835332236
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 25,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6105025368234878,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4490647057914337,
+        "[35.0, 40.0]": 0.265772258415842,
+        "[30.0, 40.0]": 0.2851630357927243
+      }
+    },
+    {
+      "lipid_name": "PE 20:2_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 43,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5920432521339922,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4021997459496808,
+        "[35.0, 40.0]": 0.43513250348592847,
+        "[30.0, 40.0]": 0.16266775056439078
+      }
+    },
+    {
+      "lipid_name": "PE 20:3_20:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 34,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6474843031334148,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5267620067804546,
+        "[35.0, 40.0]": 0.23263798620353351,
+        "[30.0, 40.0]": 0.24060000701601184
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5570638737933518,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.533748513436609,
+        "[30.0, 40.0]": 0.2415692554819171,
+        "[35.0, 40.0]": 0.2246822310814738
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6132763313471762,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.3299102932924121,
+        "[30.0, 35.0]": 0.5412200527743855,
+        "[30.0, 40.0]": 0.12886965393320246
+      }
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5806415451734426,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6301661634001405,
+        "[35.0, 40.0]": 0.21986094857257818,
+        "[30.0, 40.0]": 0.14997288802728134
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5477979645043012,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6378247626894773,
+        "[35.0, 40.0]": 0.23361464939394996,
+        "[30.0, 40.0]": 0.12856058791657274
+      }
+    },
+    {
+      "lipid_name": "PE 17:1_22:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5713766712891512,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.3889399756928444,
+        "[35.0, 40.0]": 0.3477035693304565,
+        "[30.0, 40.0]": 0.2633564549766992
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5775875299731315,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.45769876110222607,
+        "[35.0, 40.0]": 0.36587593060695317,
+        "[30.0, 40.0]": 0.17642530829082084
+      }
+    },
+    {
+      "lipid_name": "PE O-16:0_22:3",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5324715826755302,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.09757463591784352,
+        "[30.0, 35.0]": 0.5695978805020664,
+        "[35.0, 40.0]": 0.3328274835800902
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:0",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 32,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.625508714211142,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.3503207042089135,
+        "[30.0, 35.0]": 0.5002690772441509,
+        "[30.0, 40.0]": 0.14941021854693562
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 33,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4842554341851675,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4371639810514031,
+        "[35.0, 40.0]": 0.36680456699792696,
+        "[30.0, 40.0]": 0.19603145195066998
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:4",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6010891995294563,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5613250876790423,
+        "[30.0, 40.0]": 0.1873460772978875,
+        "[35.0, 40.0]": 0.25132883502307013
+      }
+    },
+    {
+      "lipid_name": "PE O-16:1_22:5",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 34,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49522087765849143,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.17141107985470672,
+        "[30.0, 35.0]": 0.5090687266023203,
+        "[30.0, 40.0]": 0.31952019354297295
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:1",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5082523332792099,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.44505111734047914,
+        "[35.0, 40.0]": 0.2973692190621087,
+        "[30.0, 40.0]": 0.25757966359741213
+      }
+    },
+    {
+      "lipid_name": "PE O-18:0_22:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 18,
+      "largest_secondary_endpoint_coefficient_fraction": 0.596443423622482,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.15604757353312104,
+        "[35.0, 40.0]": 0.45193225872064474,
+        "[30.0, 35.0]": 0.39202016774623427
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:1",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5725831274025528,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.13870048684699401,
+        "[30.0, 35.0]": 0.6105337704148014,
+        "[35.0, 40.0]": 0.2507657427382046
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_20:4",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 34,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6072413835161286,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.24407257044367636,
+        "[30.0, 35.0]": 0.4625316130370168,
+        "[30.0, 40.0]": 0.29339581651930696
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:1",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5190639435820104,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.31764419837749114,
+        "[30.0, 40.0]": 0.14567490355683493,
+        "[30.0, 35.0]": 0.536680898065674
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 31,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5121189872669102,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6890604951331117,
+        "[35.0, 40.0]": 0.21297948616694795,
+        "[30.0, 40.0]": 0.09796001869994027
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:3",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5096196658066424,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.2876036971065143,
+        "[30.0, 35.0]": 0.4081347233735897,
+        "[35.0, 40.0]": 0.304261579519896
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:4",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5561906597572828,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6032341555198666,
+        "[35.0, 40.0]": 0.24703508358393164,
+        "[30.0, 40.0]": 0.1497307608962018
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:5",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 34,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5915970520913632,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6047759327496351,
+        "[35.0, 40.0]": 0.23509795294259753,
+        "[30.0, 40.0]": 0.16012611430776733
+      }
+    },
+    {
+      "lipid_name": "PE O-18:1_22:6",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 33,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5231851326918987,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6424396962411282,
+        "[30.0, 40.0]": 0.14723141686451904,
+        "[35.0, 40.0]": 0.2103288868943528
+      }
+    },
+    {
+      "lipid_name": "PE O-20:0_18:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 35,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4969512063351559,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.2299177558608624,
+        "[30.0, 35.0]": 0.5102617834494529,
+        "[30.0, 40.0]": 0.2598204606896848
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6105005209133099,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5832019692093773,
+        "[35.0, 40.0]": 0.2728336371757099,
+        "[30.0, 40.0]": 0.14396439361491284
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_20:4",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 34,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5700917455589011,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.1619892747043772,
+        "[30.0, 35.0]": 0.5289876270357872,
+        "[30.0, 40.0]": 0.30902309825983565
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:0",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 30,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5374736246917264,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5276284570160166,
+        "[35.0, 40.0]": 0.27221315560561765,
+        "[30.0, 40.0]": 0.20015838737836575
+      }
+    },
+    {
+      "lipid_name": "PE O-18:2_22:2",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6670979989016413,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6416066163275029,
+        "[35.0, 40.0]": 0.20188306378800333,
+        "[30.0, 40.0]": 0.15651031988449368
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:0",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 37,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.577872609785667,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.6398711119746906,
+        "[35.0, 40.0]": 0.27005500745693223,
+        "[30.0, 40.0]": 0.09007388056837728
+      }
+    },
+    {
+      "lipid_name": "PE O-18:3_22:6",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 33,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 17,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5218347422806242,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5669877419932915,
+        "[35.0, 40.0]": 0.2261211454887529,
+        "[30.0, 40.0]": 0.2068911125179556
+      }
+    },
+    {
+      "lipid_name": "PE O-20:2_20:4",
+      "supported_perturbed_truth": true,
+      "positive_supported_groups": 36,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5981517701516488,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.42123446089170336,
+        "[30.0, 40.0]": 0.18478978810449495,
+        "[30.0, 35.0]": 0.3939757510038017
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 45,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.539855625758729,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4369245763457325,
+        "[35.0, 40.0]": 0.3817384412151923,
+        "[30.0, 40.0]": 0.18133698243907517
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5667387112930193,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.25240425135543404,
+        "[30.0, 35.0]": 0.42704118903295113,
+        "[35.0, 40.0]": 0.32055455961161483
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5373804417515785,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[35.0, 40.0]": 0.31884356033610434,
+        "[30.0, 35.0]": 0.5285166948976928,
+        "[30.0, 40.0]": 0.1526397447662029
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5609313016476642,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5445124292475246,
+        "[35.0, 40.0]": 0.34847112493683036,
+        "[30.0, 40.0]": 0.10701644581564505
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_18:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5143157781444128,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.1846985242511964,
+        "[30.0, 35.0]": 0.46589763559121755,
+        "[35.0, 40.0]": 0.34940384015758597
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 38,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 26,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4783090439326583,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.39737619317645806,
+        "[35.0, 40.0]": 0.3489140951051809,
+        "[30.0, 40.0]": 0.2537097117183612
+      }
+    },
+    {
+      "lipid_name": "PG 14:0_22:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6358146278826495,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5026690945773006,
+        "[35.0, 40.0]": 0.3103640624295422,
+        "[30.0, 40.0]": 0.18696684299315725
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_20:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6316892276226063,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.488635110495988,
+        "[35.0, 40.0]": 0.3398105875071201,
+        "[30.0, 40.0]": 0.17155430199689184
+      }
+    },
+    {
+      "lipid_name": "PG 18:3_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.4815936173675893,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5932105506946408,
+        "[35.0, 40.0]": 0.2478052185259212,
+        "[30.0, 40.0]": 0.15898423077943807
+      }
+    },
+    {
+      "lipid_name": "PG 16:0_22:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5813025985523081,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4787865289279305,
+        "[35.0, 40.0]": 0.31408536996373565,
+        "[30.0, 40.0]": 0.2071281011083338
+      }
+    },
+    {
+      "lipid_name": "PG 16:1_22:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 21,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5765486537189277,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.49279956566894806,
+        "[30.0, 40.0]": 0.14124004294577908,
+        "[35.0, 40.0]": 0.36596039138527287
+      }
+    },
+    {
+      "lipid_name": "PG 18:2_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5485714967544839,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.17550996011375478,
+        "[30.0, 35.0]": 0.3865895240073292,
+        "[35.0, 40.0]": 0.437900515878916
+      }
+    },
+    {
+      "lipid_name": "PG 20:2_18:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5552475949007624,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4805840150927665,
+        "[35.0, 40.0]": 0.3931785816658735,
+        "[30.0, 40.0]": 0.12623740324135996
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_20:4",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6225384012794932,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.451466755705071,
+        "[35.0, 40.0]": 0.35122465441464085,
+        "[30.0, 40.0]": 0.19730858988028813
+      }
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6482784357616431,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 40.0]": 0.12058811837926106,
+        "[30.0, 35.0]": 0.6321934814231644,
+        "[35.0, 40.0]": 0.2472184001975745
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 25,
+      "largest_secondary_endpoint_coefficient_fraction": 0.49751873582717787,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5809900982997975,
+        "[35.0, 40.0]": 0.2784864490734532,
+        "[30.0, 40.0]": 0.14052345262674934
+      }
+    },
+    {
+      "lipid_name": "PG 17:0_20:5",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 40,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 20,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5356342145265459,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5311765419275594,
+        "[35.0, 40.0]": 0.3128622387995827,
+        "[30.0, 40.0]": 0.15596121927285791
+      }
+    },
+    {
+      "lipid_name": "PG 18:0_17:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5338618868959804,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4613501256328308,
+        "[30.0, 40.0]": 0.24564294809165588,
+        "[35.0, 40.0]": 0.2930069262755134
+      }
+    },
+    {
+      "lipid_name": "PG 17:1_20:3",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 39,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 22,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5712128328020862,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.49755635293971207,
+        "[35.0, 40.0]": 0.3754606879225595,
+        "[30.0, 40.0]": 0.1269829591377284
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_18:2",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 42,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 19,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5050088774014551,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.5605988806561094,
+        "[35.0, 40.0]": 0.26905190476799584,
+        "[30.0, 40.0]": 0.17034921457589472
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_20:0",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 24,
+      "largest_secondary_endpoint_coefficient_fraction": 0.6007605764551698,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4419340729722192,
+        "[35.0, 40.0]": 0.19445496048854305,
+        "[30.0, 40.0]": 0.36361096653923775
+      }
+    },
+    {
+      "lipid_name": "PC 14:0_20:1",
+      "supported_perturbed_truth": false,
+      "positive_supported_groups": 41,
+      "groups_with_secondary_endpoint_coefficient_fraction_gt_1e_minus6": 23,
+      "largest_secondary_endpoint_coefficient_fraction": 0.5602082651435771,
+      "positive_CE_pairs": 3,
+      "CE_pair_coefficient_fractions": {
+        "[30.0, 35.0]": 0.4027255733300607,
+        "[35.0, 40.0]": 0.38925785105885846,
+        "[30.0, 40.0]": 0.2080165756110809
+      }
+    }
+  ],
+  "optimistic_full_search_only_diagnostic": {
+    "not_a_feasible_fit_or_new_threshold": true,
+    "maximum_true_count_if_full_upper_were_zero": 109,
+    "maximum_supported_count_if_full_upper_were_zero": 12,
+    "full_upper_must_be_strictly_below_for_50TP": 0.0005088071285118852,
+    "full_upper_must_be_strictly_below_for_11supportedTP": 1.480650186808755e-06,
+    "current_full_upper": 0.0015248914687511666
+  },
+  "interpretation": "All100 stored lost-truth replacement witnesses violate original physical endpoint/CE consistency. This establishes conservatism in these particular witnesses, not that all100 identities are recoverable or that no valid physical replacements exist. Zero-full-residual counts are hypothetical diagnostic ceilings and are not achieved results. Original first-CAL outcome remains closed; no further run authorized or launched by this record."
+}
