@@ -1,4 +1,10 @@
-# 当前任务已完成 — 首组 CAL 提前止损，剩余五组不启动
+# 当前任务 — 仅一组完整库5%失配，先NNLS，失败即停止
+
+LATEST USER REQUEST supersedes preparation-only scope below: execute exactly NNLS_FULL_LIBRARY_5PCT__CAL_R71_K125,seed7301,CPU NNLS+existingrho_zero, complete391candidate library andcachedR71spatial/relativeabundance,oneglobalsignal scalar. NoGPU, nooldfivefits, nomissing/HOLD/secondseed queue, no newconfidence score. Requirecompletephysicalcomponent reconstruction thenfreeze/push exactinputdesign before outcomes. Review fullcurve forsinglecaseFDP<=1% andTPretention>=40%; NO-GO ifnone, technicalunresolvedkeptseparate. Independentreview/download/hash/Git thenstop; evenGOdoesnotautolaunchnextcase. Details:docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md.
+
+User chose5%relativeSD for new independentfragment/precursor intensity mismatch around correctly matched fixed library. Complete only the reproducible perturbation helper, tiny invariant tests and docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md; retain whole physicalion envelopes and per-experiment fixed spectra. No pixelnoise/dropout/newCEassumption. Positive mean1/exactCV=.05 lognormal multiplier is permitted by user'sGaussian-or-other wording; record pre-column-normalization semantics explicitly. Require complete nominal-library component reconstruction, never silently reuse partialCE coverage. Do not launch unsealed newGPU/scoring or resume oldfive runs. Save checks/protocol/code inGit, mark this preparation complete and stop; overall mainline remainsOPEN.
+
+# Historical completed task — 首组 CAL 提前止损，剩余五组不启动
 
 The user-directed firstCAL screen is COMPLETE: EARLY_STOP_CAL_FUTILITY.23TP/0FP,18.70% TP retention; supported perturbed truths2/26(7.69%).These are also the maximum counts over the unchanged threshold curve even without an FDP constraint. Raw solver123TP/109FP/FN2; no numerical unresolved result. See results/physical_identity_first_cal_feasibility/analysis_record.md and screening_report.json.479 files downloaded/hashPASS; save the reviewed compact result and independent accounting in Git, verify successful push, then STOP.
 

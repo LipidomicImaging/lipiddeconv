@@ -1,0 +1,17 @@
+{
+  "status": "GENERATOR_TESTS_PASS_PRODUCTION_INPUT_NOT_YET_PREPARED",
+  "checked_utc": "2026-09-12T07:55:56.676150+00:00",
+  "test_count": 9,
+  "tests": "tiny physical-envelope, precursor, float32, seed/alias/subset, complete decomposition and metadata checks",
+  "py_compile": "PASS",
+  "diff_check": "PASS",
+  "relative_sd_main": 0.05,
+  "source_hashes": {
+    "analysis/small_relative_spectral_mismatch.py": "132344da5ec5e6924e9d261ccf2fee5d99c5ca6630619e317a1c1b42fce22269",
+    "analysis/test_small_relative_spectral_mismatch.py": "bb7413d701d11eb7b874af4f6a5c42f4f79727164d69b6ca58c24aa225020aad",
+    "docs/SMALL_RELATIVE_SPECTRAL_MISMATCH_5PCT.md": "c06249ef6a63be0a57ffc3341faf6013984683d4ab7d2466f1186f644ed37aea"
+  },
+  "no_production_simulation": true,
+  "no_NNLS_or_rho_run": true,
+  "no_GPU": true
+}
