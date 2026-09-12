@@ -1,3 +1,7 @@
+# 当前任务 COMPLETED：有界辅助指标探索
+
+用户授权的四辅助量、三类单加与全加入固定比较完成；没有方案改善既有93TP/1FP、74.4%联合baseline。主扩展92TP/2FP，73.6%recall、2.1277%FDP，未过1%/80%。保留全部特征/模型/名单/分组/审查记录于 results/small_mismatch_auxiliary_confidence；两端核验与25文件hash均PASS。最后推送紧凑结果后STOP；不根据失败增加变体、改正则/阈值/分组，不对已曝光case声称独立FDR。没有新解卷积/rho/GPU/病例/监控/清理。主线仍开放，当前仅表明这四个固定辅助量没有带来增益。
+
 # 当前任务：固定四个辅助量的缓存开发探索 — 2026-09-12
 
 用户最新授权探索其他辅助指标。仅按 docs/SMALL_MISMATCH_AUXILIARY_CONFIDENCE.md 使用已完成5% case的 nominal A_solver、X_hat、mask、candidate/molecular records、metadata、result/design/summary，以及已冻结联合模型的seals/predictions。新增代码 analysis/run_small_mismatch_auxiliary_confidence.py 与analytic test；新输出 results/small_mismatch_auxiliary_confidence。四个observable量分为谱库/竞争、global-mean一致性、空间集中度三类，固定三类单加及全部加入四扩展，原baseline不重训。冻结并推送后仅20个小CPU分类器，复核/Git后停止；全部旧fold已曝光，不宣称独立FDR、不改旧结果、不做NNLS/rho/GPU/新case/清理。

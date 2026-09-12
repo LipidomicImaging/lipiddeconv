@@ -1,0 +1,6788 @@
+[
+  {
+    "lipid_name": "PA 16:0_24:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.981770182847718,
+      "PLUS_LIBRARY_COMPETITION": 0.9969730860312638,
+      "PLUS_MEAN_CONSISTENCY": 0.981747286614602,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9857804537662804,
+      "ALL_AUXILIARY": 0.9980000393732678
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 16:0_24:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 16:0_24:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 16:0_24:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 24:0_16:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.0042438392569912305,
+      "PLUS_LIBRARY_COMPETITION": 0.004102533808527619,
+      "PLUS_MEAN_CONSISTENCY": 0.004159162216355863,
+      "PLUS_SPATIAL_CONCENTRATION": 0.004168086925431178,
+      "ALL_AUXILIARY": 0.004107538346611747
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.8451663036844888,
+      "PLUS_LIBRARY_COMPETITION": 0.8406964520328865,
+      "PLUS_MEAN_CONSISTENCY": 0.8460839863132779,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8284678531046225,
+      "ALL_AUXILIARY": 0.8222025196938912
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9459971659922295,
+      "PLUS_LIBRARY_COMPETITION": 0.9321968356791689,
+      "PLUS_MEAN_CONSISTENCY": 0.9461030592205404,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9818584867375235,
+      "ALL_AUXILIARY": 0.9749524078152634
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_22:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.8790152771137011,
+      "PLUS_LIBRARY_COMPETITION": 0.8856919015831755,
+      "PLUS_MEAN_CONSISTENCY": 0.881190290997936,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9366887445006076,
+      "ALL_AUXILIARY": 0.9348119285388122
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_24:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.8768148732865528,
+      "PLUS_LIBRARY_COMPETITION": 0.9109663743055776,
+      "PLUS_MEAN_CONSISTENCY": 0.8776135093744599,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8541544319685035,
+      "ALL_AUXILIARY": 0.890359826425345
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_24:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_24:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9597348267812729,
+      "PLUS_LIBRARY_COMPETITION": 0.9668446018659804,
+      "PLUS_MEAN_CONSISTENCY": 0.9584786692011092,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9562320004588916,
+      "ALL_AUXILIARY": 0.9614642872486784
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_24:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.007433919851777252,
+      "PLUS_LIBRARY_COMPETITION": 0.005041304506776048,
+      "PLUS_MEAN_CONSISTENCY": 0.007387568620133304,
+      "PLUS_SPATIAL_CONCENTRATION": 0.008952141084955593,
+      "ALL_AUXILIARY": 0.006440078452954121
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:0_24:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:0_18:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9161445478403671,
+      "PLUS_LIBRARY_COMPETITION": 0.9605262801375569,
+      "PLUS_MEAN_CONSISTENCY": 0.9164451884801328,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9376597158493437,
+      "ALL_AUXILIARY": 0.9764279132978064
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_22:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_22:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9818905755732463,
+      "PLUS_LIBRARY_COMPETITION": 0.9843190761404802,
+      "PLUS_MEAN_CONSISTENCY": 0.9820527584546547,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9834752213700588,
+      "ALL_AUXILIARY": 0.9868139663790609
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_22:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.002303940557525172,
+      "PLUS_LIBRARY_COMPETITION": 0.0016927176907195513,
+      "PLUS_MEAN_CONSISTENCY": 0.0023294555640283117,
+      "PLUS_SPATIAL_CONCENTRATION": 0.0025352351053435605,
+      "ALL_AUXILIARY": 0.0020241819078450304
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 24:0_18:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_24:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_24:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.00525102336901916,
+      "PLUS_LIBRARY_COMPETITION": 0.014578261340687196,
+      "PLUS_MEAN_CONSISTENCY": 0.005362274521146385,
+      "PLUS_SPATIAL_CONCENTRATION": 0.005669498780835682,
+      "ALL_AUXILIARY": 0.015204866865171238
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_24:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.6197139889800101,
+      "PLUS_LIBRARY_COMPETITION": 0.7228901356820892,
+      "PLUS_MEAN_CONSISTENCY": 0.6271791285429531,
+      "PLUS_SPATIAL_CONCENTRATION": 0.6009405357171502,
+      "ALL_AUXILIARY": 0.7073837539347274
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:1_24:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:0_18:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:1_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:2_22:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9253146177394371,
+      "PLUS_LIBRARY_COMPETITION": 0.9394406420455887,
+      "PLUS_MEAN_CONSISTENCY": 0.9246016481682057,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9315953476428318,
+      "ALL_AUXILIARY": 0.948701344322655
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:2_22:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9235832730973712,
+      "PLUS_LIBRARY_COMPETITION": 0.9228540507413716,
+      "PLUS_MEAN_CONSISTENCY": 0.9213716693954949,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9291746648199147,
+      "ALL_AUXILIARY": 0.9328018098940624
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 24:0_18:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 24:1_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:2_24:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.003922843346301064,
+      "PLUS_LIBRARY_COMPETITION": 0.009178544443003728,
+      "PLUS_MEAN_CONSISTENCY": 0.004004622872957314,
+      "PLUS_SPATIAL_CONCENTRATION": 0.004241019509166445,
+      "ALL_AUXILIARY": 0.0104883668943061
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:2_24:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.06828510528710265,
+      "PLUS_LIBRARY_COMPETITION": 0.057858543518340425,
+      "PLUS_MEAN_CONSISTENCY": 0.06897243467171947,
+      "PLUS_SPATIAL_CONCENTRATION": 0.0617371931406631,
+      "ALL_AUXILIARY": 0.05124933136936779
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 18:2_24:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9326091004131816,
+      "PLUS_LIBRARY_COMPETITION": 0.9471870343692727,
+      "PLUS_MEAN_CONSISTENCY": 0.9327405659602229,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9339214285352669,
+      "ALL_AUXILIARY": 0.9479207942428899
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9787886014608703,
+      "PLUS_LIBRARY_COMPETITION": 0.9884829080054964,
+      "PLUS_MEAN_CONSISTENCY": 0.9787257668443917,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9772645877976959,
+      "ALL_AUXILIARY": 0.987792086440727
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.0012498223606788338,
+      "PLUS_LIBRARY_COMPETITION": 0.0013633836846694241,
+      "PLUS_MEAN_CONSISTENCY": 0.0012730892693365128,
+      "PLUS_SPATIAL_CONCENTRATION": 0.003253616191523973,
+      "ALL_AUXILIARY": 0.003054164495046778
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_20:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:0_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.5588466265635114,
+      "PLUS_LIBRARY_COMPETITION": 0.6261202193341324,
+      "PLUS_MEAN_CONSISTENCY": 0.5604112648079692,
+      "PLUS_SPATIAL_CONCENTRATION": 0.5297100484270567,
+      "ALL_AUXILIARY": 0.6056653211350168
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9651408086265497,
+      "PLUS_LIBRARY_COMPETITION": 0.9838595650807216,
+      "PLUS_MEAN_CONSISTENCY": 0.965579558606636,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9680252409319393,
+      "ALL_AUXILIARY": 0.9885518597553513
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9691560080091418,
+      "PLUS_LIBRARY_COMPETITION": 0.9773629863757743,
+      "PLUS_MEAN_CONSISTENCY": 0.9693651963512102,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9629314846997191,
+      "ALL_AUXILIARY": 0.9728901251582505
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 22:0_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9794347596754006,
+      "PLUS_LIBRARY_COMPETITION": 0.9793665623813954,
+      "PLUS_MEAN_CONSISTENCY": 0.9793985465238689,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9802386391076329,
+      "ALL_AUXILIARY": 0.9810697739934406
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9754112042586233,
+      "PLUS_LIBRARY_COMPETITION": 0.9755353190812764,
+      "PLUS_MEAN_CONSISTENCY": 0.9757344010364921,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9782660626835253,
+      "ALL_AUXILIARY": 0.9805159514620688
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:1_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.8383406679467726,
+      "PLUS_LIBRARY_COMPETITION": 0.8247556581780993,
+      "PLUS_MEAN_CONSISTENCY": 0.8394630298092649,
+      "PLUS_SPATIAL_CONCENTRATION": 0.837871722005153,
+      "ALL_AUXILIARY": 0.8258313919915713
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:2_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9306875084274867,
+      "PLUS_LIBRARY_COMPETITION": 0.946428063799798,
+      "PLUS_MEAN_CONSISTENCY": 0.9313097885304139,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8954018157582291,
+      "ALL_AUXILIARY": 0.9281178201078367
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:2_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.04896439846781222,
+      "PLUS_LIBRARY_COMPETITION": 0.04358056851843861,
+      "PLUS_MEAN_CONSISTENCY": 0.05016393557212542,
+      "PLUS_SPATIAL_CONCENTRATION": 0.04549717203169063,
+      "ALL_AUXILIARY": 0.04318800783702884
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:1_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:2_22:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9693806146369519,
+      "PLUS_LIBRARY_COMPETITION": 0.982234541193143,
+      "PLUS_MEAN_CONSISTENCY": 0.969393645280534,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9532503981469148,
+      "ALL_AUXILIARY": 0.9713299410078977
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:2_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9626512980185686,
+      "PLUS_LIBRARY_COMPETITION": 0.9560411770521396,
+      "PLUS_MEAN_CONSISTENCY": 0.9627839027434149,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9539421290517693,
+      "ALL_AUXILIARY": 0.9404486231348809
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 22:0_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:1_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:3_22:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9844826886421719,
+      "PLUS_LIBRARY_COMPETITION": 0.9874740254736377,
+      "PLUS_MEAN_CONSISTENCY": 0.9846731178162171,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9830755762807096,
+      "ALL_AUXILIARY": 0.9866179549311256
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:3_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.17169946506499426,
+      "PLUS_LIBRARY_COMPETITION": 0.13677823902976302,
+      "PLUS_MEAN_CONSISTENCY": 0.17139609027607253,
+      "PLUS_SPATIAL_CONCENTRATION": 0.16316696810310918,
+      "ALL_AUXILIARY": 0.13258591935816294
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:3_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.39086859920822925,
+      "PLUS_LIBRARY_COMPETITION": 0.32057208235804385,
+      "PLUS_MEAN_CONSISTENCY": 0.39206985778465814,
+      "PLUS_SPATIAL_CONCENTRATION": 0.3580259107238304,
+      "ALL_AUXILIARY": 0.281325800292145
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:0_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:1_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.950567943018182,
+      "PLUS_LIBRARY_COMPETITION": 0.9471561381298095,
+      "PLUS_MEAN_CONSISTENCY": 0.9510022445088798,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9797423399351582,
+      "ALL_AUXILIARY": 0.9775563960616908
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 22:2_20:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9469299761819379,
+      "PLUS_LIBRARY_COMPETITION": 0.9374667568496757,
+      "PLUS_MEAN_CONSISTENCY": 0.9467587526389715,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9425067175284493,
+      "ALL_AUXILIARY": 0.9350442249947689
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:3_20:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9824599649162716,
+      "PLUS_LIBRARY_COMPETITION": 0.9827228123840642,
+      "PLUS_MEAN_CONSISTENCY": 0.9827250546974761,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9817434756748988,
+      "ALL_AUXILIARY": 0.9824885304042548
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PA 20:4_22:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.0009182812419845786,
+      "PLUS_LIBRARY_COMPETITION": 0.0014977948477230146,
+      "PLUS_MEAN_CONSISTENCY": 0.0009340539372053149,
+      "PLUS_SPATIAL_CONCENTRATION": 0.0008287262198026624,
+      "ALL_AUXILIARY": 0.0013783003604818781
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:4_22:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.09951378957710698,
+      "PLUS_LIBRARY_COMPETITION": 0.07304806481687891,
+      "PLUS_MEAN_CONSISTENCY": 0.09980821729126141,
+      "PLUS_SPATIAL_CONCENTRATION": 0.07855750591721287,
+      "ALL_AUXILIARY": 0.05270053945927161
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 20:4_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.3329080149176257,
+      "PLUS_LIBRARY_COMPETITION": 0.24543105229709902,
+      "PLUS_MEAN_CONSISTENCY": 0.33361024468332895,
+      "PLUS_SPATIAL_CONCENTRATION": 0.2895386590755428,
+      "ALL_AUXILIARY": 0.20115659461248206
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:1_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:3_22:6",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.4298728907897807,
+      "PLUS_LIBRARY_COMPETITION": 0.31353958752534317,
+      "PLUS_MEAN_CONSISTENCY": 0.4288120436136636,
+      "PLUS_SPATIAL_CONCENTRATION": 0.3881303945724359,
+      "ALL_AUXILIARY": 0.26424929123983154
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:4_22:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9089008493715883,
+      "PLUS_LIBRARY_COMPETITION": 0.8936595052308854,
+      "PLUS_MEAN_CONSISTENCY": 0.9097149898604027,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8986828901066921,
+      "ALL_AUXILIARY": 0.8890961067042089
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:4_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.3280264997013116,
+      "PLUS_LIBRARY_COMPETITION": 0.301348309843541,
+      "PLUS_MEAN_CONSISTENCY": 0.34058990269164474,
+      "PLUS_SPATIAL_CONCENTRATION": 0.32343474945527795,
+      "ALL_AUXILIARY": 0.30934990753107144
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:5_22:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:5_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PA 22:6_22:6",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_20:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_20:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9791697538283224,
+      "PLUS_LIBRARY_COMPETITION": 0.9963237341368362,
+      "PLUS_MEAN_CONSISTENCY": 0.9795552026122056,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9874078871620483,
+      "ALL_AUXILIARY": 0.9976483176248974
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_22:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_22:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 14:0_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_18:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9844083997696909,
+      "PLUS_LIBRARY_COMPETITION": 0.9929054322233551,
+      "PLUS_MEAN_CONSISTENCY": 0.9844444680466274,
+      "PLUS_SPATIAL_CONCENTRATION": 0.98531859508292,
+      "ALL_AUXILIARY": 0.9938343131465242
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_18:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_18:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.840107770204556,
+      "PLUS_LIBRARY_COMPETITION": 0.9337842042592291,
+      "PLUS_MEAN_CONSISTENCY": 0.8408635818707739,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8537367327944458,
+      "ALL_AUXILIARY": 0.9462355471023421
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.8216095837123869,
+      "PLUS_LIBRARY_COMPETITION": 0.9273442833603878,
+      "PLUS_MEAN_CONSISTENCY": 0.8221725350639595,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8464335395133507,
+      "ALL_AUXILIARY": 0.9474444414062401
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.8572026714244609,
+      "PLUS_LIBRARY_COMPETITION": 0.9400070567890401,
+      "PLUS_MEAN_CONSISTENCY": 0.8562955058150297,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8783735109033768,
+      "ALL_AUXILIARY": 0.9450909336764086
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 16:0_20:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_16:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:1_18:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9115523242113869,
+      "PLUS_LIBRARY_COMPETITION": 0.9491919107089039,
+      "PLUS_MEAN_CONSISTENCY": 0.9119937000661539,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9116256970024774,
+      "ALL_AUXILIARY": 0.951040740279979
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 20:0_16:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:1_20:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:1_20:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9748057792365334,
+      "PLUS_LIBRARY_COMPETITION": 0.9915935127126062,
+      "PLUS_MEAN_CONSISTENCY": 0.9747545131123511,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9615599389683334,
+      "ALL_AUXILIARY": 0.981563985225357
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 16:1_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 16:1_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_18:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_18:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9471264763282448,
+      "PLUS_LIBRARY_COMPETITION": 0.9716745009455878,
+      "PLUS_MEAN_CONSISTENCY": 0.9475601094115751,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9437336488829773,
+      "ALL_AUXILIARY": 0.9723133812110061
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_18:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_18:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:1_18:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.975112259475913,
+      "PLUS_LIBRARY_COMPETITION": 0.9947124438944066,
+      "PLUS_MEAN_CONSISTENCY": 0.9753345547618677,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9698986241436769,
+      "ALL_AUXILIARY": 0.9935601503343471
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 18:1_18:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.907693254984396,
+      "PLUS_LIBRARY_COMPETITION": 0.938066270525006,
+      "PLUS_MEAN_CONSISTENCY": 0.9084000363579284,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9014328236297295,
+      "ALL_AUXILIARY": 0.9397543013755364
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 18:1_18:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 18:2_18:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.8946817219030754,
+      "PLUS_LIBRARY_COMPETITION": 0.8963882264493396,
+      "PLUS_MEAN_CONSISTENCY": 0.8939878236186812,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9368127138867371,
+      "ALL_AUXILIARY": 0.9395615774184201
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 17:0_18:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PS 17:0_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9906116054637698,
+      "PLUS_LIBRARY_COMPETITION": 0.9970649417350488,
+      "PLUS_MEAN_CONSISTENCY": 0.991123824686454,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9912395207533805,
+      "ALL_AUXILIARY": 0.9976025637457949
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PS 18:0_17:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.004794684448300574,
+      "PLUS_LIBRARY_COMPETITION": 0.004118632789182548,
+      "PLUS_MEAN_CONSISTENCY": 0.004839253201661075,
+      "PLUS_SPATIAL_CONCENTRATION": 0.010266432276850956,
+      "ALL_AUXILIARY": 0.0076636307306124805
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_22:6",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9376172882825708,
+      "PLUS_LIBRARY_COMPETITION": 0.9501486108301119,
+      "PLUS_MEAN_CONSISTENCY": 0.937733126860202,
+      "PLUS_SPATIAL_CONCENTRATION": 0.955848898316013,
+      "ALL_AUXILIARY": 0.9742400233688386
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_24:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_24:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:0_24:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 22:0_16:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9688658505851089,
+      "PLUS_LIBRARY_COMPETITION": 0.9684959896606052,
+      "PLUS_MEAN_CONSISTENCY": 0.9688872957820813,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9744110920113338,
+      "ALL_AUXILIARY": 0.9788117788833564
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 16:1_22:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.98503181960347,
+      "PLUS_LIBRARY_COMPETITION": 0.9893181824002173,
+      "PLUS_MEAN_CONSISTENCY": 0.985069615819981,
+      "PLUS_SPATIAL_CONCENTRATION": 0.988401287997094,
+      "ALL_AUXILIARY": 0.9928582695276502
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9688684745617909,
+      "PLUS_LIBRARY_COMPETITION": 0.9604325510342039,
+      "PLUS_MEAN_CONSISTENCY": 0.9690530484839814,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9853478893214682,
+      "ALL_AUXILIARY": 0.9787733163642445
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_20:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_22:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9650385888127587,
+      "PLUS_LIBRARY_COMPETITION": 0.9664690432833039,
+      "PLUS_MEAN_CONSISTENCY": 0.9641110873668443,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9664834045412496,
+      "ALL_AUXILIARY": 0.9662129209521458
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_22:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9702767550754704,
+      "PLUS_LIBRARY_COMPETITION": 0.9675866087245336,
+      "PLUS_MEAN_CONSISTENCY": 0.970188601927684,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9655353400805337,
+      "ALL_AUXILIARY": 0.9582702877130405
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_22:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9703150655435726,
+      "PLUS_LIBRARY_COMPETITION": 0.9809778577292659,
+      "PLUS_MEAN_CONSISTENCY": 0.9704706905009689,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9577227589728936,
+      "ALL_AUXILIARY": 0.9730864379876216
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:0_22:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9742921443769638,
+      "PLUS_LIBRARY_COMPETITION": 0.9798125150762336,
+      "PLUS_MEAN_CONSISTENCY": 0.9742467941075041,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9579281884188962,
+      "ALL_AUXILIARY": 0.9672043070254169
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_18:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.44245828829456646,
+      "PLUS_LIBRARY_COMPETITION": 0.419263307738907,
+      "PLUS_MEAN_CONSISTENCY": 0.4346541823661388,
+      "PLUS_SPATIAL_CONCENTRATION": 0.4655992225502129,
+      "ALL_AUXILIARY": 0.44509314459166044
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_20:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_20:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_22:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.004065146564384033,
+      "PLUS_LIBRARY_COMPETITION": 0.0020366566088075876,
+      "PLUS_MEAN_CONSISTENCY": 0.004503611514478221,
+      "PLUS_SPATIAL_CONCENTRATION": 0.004928122114209245,
+      "ALL_AUXILIARY": 0.002501950295036559
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_22:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.05246205808659934,
+      "PLUS_LIBRARY_COMPETITION": 0.035319546539301035,
+      "PLUS_MEAN_CONSISTENCY": 0.05194413300332259,
+      "PLUS_SPATIAL_CONCENTRATION": 0.06528141219242449,
+      "ALL_AUXILIARY": 0.03792008487813939
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.016691469522981655,
+      "PLUS_LIBRARY_COMPETITION": 0.015056246726741225,
+      "PLUS_MEAN_CONSISTENCY": 0.01873574511374558,
+      "PLUS_SPATIAL_CONCENTRATION": 0.016828473530821203,
+      "ALL_AUXILIARY": 0.016541436711423156
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:1_22:6",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.046689154047209545,
+      "PLUS_LIBRARY_COMPETITION": 0.05609137486295179,
+      "PLUS_MEAN_CONSISTENCY": 0.04713991014739645,
+      "PLUS_SPATIAL_CONCENTRATION": 0.041511210000063276,
+      "ALL_AUXILIARY": 0.048884825418858434
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.6788917936157438,
+      "PLUS_LIBRARY_COMPETITION": 0.5532326842756801,
+      "PLUS_MEAN_CONSISTENCY": 0.6838327892561713,
+      "PLUS_SPATIAL_CONCENTRATION": 0.6303459534579392,
+      "ALL_AUXILIARY": 0.5335977849233958
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_20:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 22:1_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9721463862529066,
+      "PLUS_LIBRARY_COMPETITION": 0.9848090276262715,
+      "PLUS_MEAN_CONSISTENCY": 0.9721674422702133,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9578890718863575,
+      "ALL_AUXILIARY": 0.9744924314526142
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_22:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_22:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9768601107328114,
+      "PLUS_LIBRARY_COMPETITION": 0.976016518312499,
+      "PLUS_MEAN_CONSISTENCY": 0.976807514023129,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9824380587865651,
+      "ALL_AUXILIARY": 0.9840921215649836
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_22:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.6665980897168541,
+      "PLUS_LIBRARY_COMPETITION": 0.5494943845929026,
+      "PLUS_MEAN_CONSISTENCY": 0.6656585283856813,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7200157242678963,
+      "ALL_AUXILIARY": 0.5921664081099941
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9138943663942726,
+      "PLUS_LIBRARY_COMPETITION": 0.8849285705112051,
+      "PLUS_MEAN_CONSISTENCY": 0.9132934612640174,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8771420410669969,
+      "ALL_AUXILIARY": 0.838769143981722
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:2_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9750916641125914,
+      "PLUS_LIBRARY_COMPETITION": 0.9768314087925534,
+      "PLUS_MEAN_CONSISTENCY": 0.9752983920482825,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9751673022088964,
+      "ALL_AUXILIARY": 0.9776703255903486
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_18:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_18:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:3_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:3_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 18:3_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_20:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.7041042138014287,
+      "PLUS_LIBRARY_COMPETITION": 0.6386778275346022,
+      "PLUS_MEAN_CONSISTENCY": 0.706099661833557,
+      "PLUS_SPATIAL_CONCENTRATION": 0.685140626988172,
+      "ALL_AUXILIARY": 0.6230671691215264
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.976041067705215,
+      "PLUS_LIBRARY_COMPETITION": 0.9687426330206763,
+      "PLUS_MEAN_CONSISTENCY": 0.9759627275917527,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9768334214742934,
+      "ALL_AUXILIARY": 0.969890113108018
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_20:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_20:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9617912913131723,
+      "PLUS_LIBRARY_COMPETITION": 0.9571697396752296,
+      "PLUS_MEAN_CONSISTENCY": 0.9617235557069873,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9507510725982498,
+      "ALL_AUXILIARY": 0.938510054384422
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:1_20:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:2_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.8362478762599761,
+      "PLUS_LIBRARY_COMPETITION": 0.7988154563647215,
+      "PLUS_MEAN_CONSISTENCY": 0.83784689645401,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8948073727346897,
+      "ALL_AUXILIARY": 0.8589186480035004
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:2_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:2_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9494561634594484,
+      "PLUS_LIBRARY_COMPETITION": 0.9073773379692593,
+      "PLUS_MEAN_CONSISTENCY": 0.9496130321413331,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9642742967375548,
+      "ALL_AUXILIARY": 0.931800286407426
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:2_20:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9764742201971597,
+      "PLUS_LIBRARY_COMPETITION": 0.985970917984279,
+      "PLUS_MEAN_CONSISTENCY": 0.9767044232565324,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9627262048628166,
+      "ALL_AUXILIARY": 0.9796907555948061
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:3_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:3_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.0880953798588982,
+      "PLUS_LIBRARY_COMPETITION": 0.03985754296923436,
+      "PLUS_MEAN_CONSISTENCY": 0.08746189686374693,
+      "PLUS_SPATIAL_CONCENTRATION": 0.06965340397788844,
+      "ALL_AUXILIARY": 0.030114906285210404
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:3_20:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9685569101466142,
+      "PLUS_LIBRARY_COMPETITION": 0.9726311977867479,
+      "PLUS_MEAN_CONSISTENCY": 0.9687740962111412,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9789870328738002,
+      "ALL_AUXILIARY": 0.9820882908302443
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 20:4_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:4_20:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9196644164597015,
+      "PLUS_LIBRARY_COMPETITION": 0.9304982774262046,
+      "PLUS_MEAN_CONSISTENCY": 0.918703764645754,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9036495907923769,
+      "ALL_AUXILIARY": 0.9062483629290169
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.8416908894215654,
+      "PLUS_LIBRARY_COMPETITION": 0.7614204531209269,
+      "PLUS_MEAN_CONSISTENCY": 0.841130069141044,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7565929801105804,
+      "ALL_AUXILIARY": 0.6495377155734037
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9535285462064699,
+      "PLUS_LIBRARY_COMPETITION": 0.926238718264962,
+      "PLUS_MEAN_CONSISTENCY": 0.9532499918157292,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9573667851786571,
+      "ALL_AUXILIARY": 0.9318124867044899
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.8797980798797372,
+      "PLUS_LIBRARY_COMPETITION": 0.7738074409982558,
+      "PLUS_MEAN_CONSISTENCY": 0.8814130071186383,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8747775077676352,
+      "ALL_AUXILIARY": 0.7749903833881033
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9828148728045538,
+      "PLUS_LIBRARY_COMPETITION": 0.9904425158175495,
+      "PLUS_MEAN_CONSISTENCY": 0.9827980382446755,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9784020351868677,
+      "ALL_AUXILIARY": 0.9870142407710685
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.6654935332412072,
+      "PLUS_LIBRARY_COMPETITION": 0.40886782270671407,
+      "PLUS_MEAN_CONSISTENCY": 0.6678301242671846,
+      "PLUS_SPATIAL_CONCENTRATION": 0.660590160656791,
+      "ALL_AUXILIARY": 0.39668579334187154
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:0_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 20:0_17:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.973941421592321,
+      "PLUS_LIBRARY_COMPETITION": 0.9819345919150321,
+      "PLUS_MEAN_CONSISTENCY": 0.973911554603296,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9756923640654938,
+      "ALL_AUXILIARY": 0.9823258440764533
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_20:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.019146790042815613,
+      "PLUS_LIBRARY_COMPETITION": 0.03675797306468504,
+      "PLUS_MEAN_CONSISTENCY": 0.021979239828406837,
+      "PLUS_SPATIAL_CONCENTRATION": 0.017708240343726245,
+      "ALL_AUXILIARY": 0.04717148587637804
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_20:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.7076521701512469,
+      "PLUS_LIBRARY_COMPETITION": 0.507612709081594,
+      "PLUS_MEAN_CONSISTENCY": 0.7081655491022991,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7596852111654396,
+      "ALL_AUXILIARY": 0.6193181980833067
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_22:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9822244832990491,
+      "PLUS_LIBRARY_COMPETITION": 0.9868980185503367,
+      "PLUS_MEAN_CONSISTENCY": 0.9823678885800345,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9852943387864872,
+      "ALL_AUXILIARY": 0.9904790999213854
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_22:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.11124376450626626,
+      "PLUS_LIBRARY_COMPETITION": 0.0658347288491173,
+      "PLUS_MEAN_CONSISTENCY": 0.1114568623266796,
+      "PLUS_SPATIAL_CONCENTRATION": 0.11730609348146143,
+      "ALL_AUXILIARY": 0.06552240330633459
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE 17:1_22:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.015323716910287949,
+      "PLUS_LIBRARY_COMPETITION": 0.010886788749349962,
+      "PLUS_MEAN_CONSISTENCY": 0.015787638754306513,
+      "PLUS_SPATIAL_CONCENTRATION": 0.016316376399764385,
+      "ALL_AUXILIARY": 0.00998803676653271
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9645336019895422,
+      "PLUS_LIBRARY_COMPETITION": 0.9328020136360244,
+      "PLUS_MEAN_CONSISTENCY": 0.9646428778270588,
+      "PLUS_SPATIAL_CONCENTRATION": 0.948363357856144,
+      "ALL_AUXILIARY": 0.9031244883713919
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9598071816825988,
+      "PLUS_LIBRARY_COMPETITION": 0.9545940843766797,
+      "PLUS_MEAN_CONSISTENCY": 0.9601509370422057,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9779879550733847,
+      "ALL_AUXILIARY": 0.9723282410043154
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.09168402407955613,
+      "PLUS_LIBRARY_COMPETITION": 0.07923410332169417,
+      "PLUS_MEAN_CONSISTENCY": 0.09912971922853493,
+      "PLUS_SPATIAL_CONCENTRATION": 0.09412837551851655,
+      "ALL_AUXILIARY": 0.08422987842026003
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:0_22:6",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.7753488789853756,
+      "PLUS_LIBRARY_COMPETITION": 0.9084254373404609,
+      "PLUS_MEAN_CONSISTENCY": 0.7760278162406805,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7363106064653883,
+      "ALL_AUXILIARY": 0.8832367718731468
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.07748368265255196,
+      "PLUS_LIBRARY_COMPETITION": 0.07362708378922199,
+      "PLUS_MEAN_CONSISTENCY": 0.07729843533488508,
+      "PLUS_SPATIAL_CONCENTRATION": 0.08238426658579351,
+      "ALL_AUXILIARY": 0.07363797240588146
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.967219464619695,
+      "PLUS_LIBRARY_COMPETITION": 0.9340190641200646,
+      "PLUS_MEAN_CONSISTENCY": 0.9671011312866677,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9446655564888815,
+      "ALL_AUXILIARY": 0.8887856939774645
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9541054185607578,
+      "PLUS_LIBRARY_COMPETITION": 0.9349343373539719,
+      "PLUS_MEAN_CONSISTENCY": 0.9541805924504025,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9452674745210801,
+      "ALL_AUXILIARY": 0.9123445191703529
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.6574967277555647,
+      "PLUS_LIBRARY_COMPETITION": 0.5946833894741949,
+      "PLUS_MEAN_CONSISTENCY": 0.6573584142233607,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7849558329458337,
+      "ALL_AUXILIARY": 0.7130608446434645
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9720779208473548,
+      "PLUS_LIBRARY_COMPETITION": 0.9748546954038414,
+      "PLUS_MEAN_CONSISTENCY": 0.9720421493255139,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9541489063578847,
+      "ALL_AUXILIARY": 0.9567330496282731
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_24:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_24:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9083481739905706,
+      "PLUS_LIBRARY_COMPETITION": 0.9989811928842094,
+      "PLUS_MEAN_CONSISTENCY": 0.9094007159953522,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8532043283683928,
+      "ALL_AUXILIARY": 0.9982622577687543
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_24:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_24:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-16:1_24:6",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_20:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.06184603694081751,
+      "PLUS_LIBRARY_COMPETITION": 0.05689407069284177,
+      "PLUS_MEAN_CONSISTENCY": 0.06425625697162748,
+      "PLUS_SPATIAL_CONCENTRATION": 0.053864605892271086,
+      "ALL_AUXILIARY": 0.05132583843702763
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.1586153184564683,
+      "PLUS_LIBRARY_COMPETITION": 0.11938646821972003,
+      "PLUS_MEAN_CONSISTENCY": 0.1609734666895148,
+      "PLUS_SPATIAL_CONCENTRATION": 0.16866992187941046,
+      "ALL_AUXILIARY": 0.12825240980617905
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9796321325850886,
+      "PLUS_LIBRARY_COMPETITION": 0.9827693924912957,
+      "PLUS_MEAN_CONSISTENCY": 0.9796404166703697,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9839907685742979,
+      "ALL_AUXILIARY": 0.9869013492307793
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.976151932393573,
+      "PLUS_LIBRARY_COMPETITION": 0.9658450595064938,
+      "PLUS_MEAN_CONSISTENCY": 0.9760548458460321,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9744927381460116,
+      "ALL_AUXILIARY": 0.9606156141734898
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:0_22:6",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.8126729259605304,
+      "PLUS_LIBRARY_COMPETITION": 0.8156469437647507,
+      "PLUS_MEAN_CONSISTENCY": 0.8122488181896107,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7787240803317413,
+      "ALL_AUXILIARY": 0.7862615153097244
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.8949494208765139,
+      "PLUS_LIBRARY_COMPETITION": 0.8770187338641583,
+      "PLUS_MEAN_CONSISTENCY": 0.8954922181141102,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8740749872217499,
+      "ALL_AUXILIARY": 0.8565651782902343
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.26656608222495715,
+      "PLUS_LIBRARY_COMPETITION": 0.17478372457965458,
+      "PLUS_MEAN_CONSISTENCY": 0.2679948744431692,
+      "PLUS_SPATIAL_CONCENTRATION": 0.27449760497572534,
+      "ALL_AUXILIARY": 0.17733313323081415
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9547699963016821,
+      "PLUS_LIBRARY_COMPETITION": 0.9275483556936175,
+      "PLUS_MEAN_CONSISTENCY": 0.9549093528891172,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9546477264830304,
+      "ALL_AUXILIARY": 0.9263013421610419
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_20:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.3536937450063687,
+      "PLUS_LIBRARY_COMPETITION": 0.3147359418181836,
+      "PLUS_MEAN_CONSISTENCY": 0.3526527919331131,
+      "PLUS_SPATIAL_CONCENTRATION": 0.3518200235287937,
+      "ALL_AUXILIARY": 0.30190877692761003
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9663556209746107,
+      "PLUS_LIBRARY_COMPETITION": 0.944245103642637,
+      "PLUS_MEAN_CONSISTENCY": 0.9663792644076183,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9713874666277875,
+      "ALL_AUXILIARY": 0.9535903320834976
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.6765037409253806,
+      "PLUS_LIBRARY_COMPETITION": 0.6461223818025754,
+      "PLUS_MEAN_CONSISTENCY": 0.609658559681277,
+      "PLUS_SPATIAL_CONCENTRATION": 0.6966933510599086,
+      "ALL_AUXILIARY": 0.5996509376537965
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9713876754760433,
+      "PLUS_LIBRARY_COMPETITION": 0.9751240759747751,
+      "PLUS_MEAN_CONSISTENCY": 0.9713346946850816,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9785880258986165,
+      "ALL_AUXILIARY": 0.9788496561253477
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9642057702730131,
+      "PLUS_LIBRARY_COMPETITION": 0.9627593575615837,
+      "PLUS_MEAN_CONSISTENCY": 0.9641057114098123,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9576867922303681,
+      "ALL_AUXILIARY": 0.9556737768497098
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:1_22:6",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.7848949878072893,
+      "PLUS_LIBRARY_COMPETITION": 0.7865866538378044,
+      "PLUS_MEAN_CONSISTENCY": 0.787302478708888,
+      "PLUS_SPATIAL_CONCENTRATION": 0.7879437981759296,
+      "ALL_AUXILIARY": 0.80193167988271
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:0_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9701944189989645,
+      "PLUS_LIBRARY_COMPETITION": 0.9764581826455973,
+      "PLUS_MEAN_CONSISTENCY": 0.9702468723350793,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9628179821610048,
+      "ALL_AUXILIARY": 0.9683280028955441
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-20:1_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9616705847236923,
+      "PLUS_LIBRARY_COMPETITION": 0.9631176548024502,
+      "PLUS_MEAN_CONSISTENCY": 0.9618480863053259,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9625499171125191,
+      "ALL_AUXILIARY": 0.9625568457348522
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_20:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.23303230798005167,
+      "PLUS_LIBRARY_COMPETITION": 0.17329635929184153,
+      "PLUS_MEAN_CONSISTENCY": 0.2377966011854581,
+      "PLUS_SPATIAL_CONCENTRATION": 0.41247777123288515,
+      "ALL_AUXILIARY": 0.298160087076752
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9719966770348608,
+      "PLUS_LIBRARY_COMPETITION": 0.9523142991454737,
+      "PLUS_MEAN_CONSISTENCY": 0.972069514524479,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9785259994049932,
+      "ALL_AUXILIARY": 0.9605155354115059
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9594267707466964,
+      "PLUS_LIBRARY_COMPETITION": 0.9919689170955074,
+      "PLUS_MEAN_CONSISTENCY": 0.9592336772157298,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9531031146493493,
+      "ALL_AUXILIARY": 0.9901822673735067
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-22:1_18:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.8767784780546788,
+      "PLUS_LIBRARY_COMPETITION": 0.7727664892478513,
+      "PLUS_MEAN_CONSISTENCY": 0.8775949035781913,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8699435590838991,
+      "ALL_AUXILIARY": 0.7490257641530175
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.013491986632361893,
+      "PLUS_LIBRARY_COMPETITION": 0.007552497921520365,
+      "PLUS_MEAN_CONSISTENCY": 0.012836157612836165,
+      "PLUS_SPATIAL_CONCENTRATION": 0.03275398467483861,
+      "ALL_AUXILIARY": 0.014378791818612105
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:5",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.8641829807360023,
+      "PLUS_LIBRARY_COMPETITION": 0.8279127914424851,
+      "PLUS_MEAN_CONSISTENCY": 0.8632600792331709,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8451545574260174,
+      "ALL_AUXILIARY": 0.8030957467870938
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:2_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9845982609446575,
+      "PLUS_LIBRARY_COMPETITION": 0.9886091768119273,
+      "PLUS_MEAN_CONSISTENCY": 0.9846234099706785,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9886468311753042,
+      "ALL_AUXILIARY": 0.9927477429822921
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_22:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.8307387460180493,
+      "PLUS_LIBRARY_COMPETITION": 0.9603074598916135,
+      "PLUS_MEAN_CONSISTENCY": 0.8316589392066775,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8651992085171389,
+      "ALL_AUXILIARY": 0.974390727509501
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_22:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_22:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-18:3_22:6",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.8202317018268664,
+      "PLUS_LIBRARY_COMPETITION": 0.8056239962713667,
+      "PLUS_MEAN_CONSISTENCY": 0.8225612824712457,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8096527534436061,
+      "ALL_AUXILIARY": 0.793997417419939
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:0_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:0_20:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:0_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:1_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:1_20:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:1_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:1_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:2_20:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.03268818775429133,
+      "PLUS_LIBRARY_COMPETITION": 0.023263983346805777,
+      "PLUS_MEAN_CONSISTENCY": 0.033780382225093164,
+      "PLUS_SPATIAL_CONCENTRATION": 0.03100602943661101,
+      "ALL_AUXILIARY": 0.020916251152791415
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:2_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:2_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9023823193649594,
+      "PLUS_LIBRARY_COMPETITION": 0.778056709563624,
+      "PLUS_MEAN_CONSISTENCY": 0.90199897274807,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8564587042282381,
+      "ALL_AUXILIARY": 0.6329891888314138
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:3_20:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PE O-20:3_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_20:0",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_18:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:5",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.8660571311129265,
+      "PLUS_LIBRARY_COMPETITION": 0.9085169671317461,
+      "PLUS_MEAN_CONSISTENCY": 0.8667585025360932,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8650987774953113,
+      "ALL_AUXILIARY": 0.911891267456451
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_18:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.008924823743501837,
+      "PLUS_LIBRARY_COMPETITION": 0.01496563770889066,
+      "PLUS_MEAN_CONSISTENCY": 0.008794423951727503,
+      "PLUS_SPATIAL_CONCENTRATION": 0.012534992901185319,
+      "ALL_AUXILIARY": 0.018404812685734344
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_20:3",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.02237633874186263,
+      "PLUS_LIBRARY_COMPETITION": 0.11196239357502631,
+      "PLUS_MEAN_CONSISTENCY": 0.02236609336911316,
+      "PLUS_SPATIAL_CONCENTRATION": 0.025420410214197994,
+      "ALL_AUXILIARY": 0.10395144198916213
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_18:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_18:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9815430568158365,
+      "PLUS_LIBRARY_COMPETITION": 0.9828244962364624,
+      "PLUS_MEAN_CONSISTENCY": 0.9817095438391084,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9883788659840593,
+      "ALL_AUXILIARY": 0.9898596257403317
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9623794497243999,
+      "PLUS_LIBRARY_COMPETITION": 0.9815640092442973,
+      "PLUS_MEAN_CONSISTENCY": 0.9621383604978542,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9646624441367148,
+      "ALL_AUXILIARY": 0.9819665613557346
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_20:2",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9642489021667963,
+      "PLUS_LIBRARY_COMPETITION": 0.9813970334548738,
+      "PLUS_MEAN_CONSISTENCY": 0.9644093310171397,
+      "PLUS_SPATIAL_CONCENTRATION": 0.959213844361451,
+      "ALL_AUXILIARY": 0.976715281802046
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_18:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.963585092598389,
+      "PLUS_LIBRARY_COMPETITION": 0.9809329048987487,
+      "PLUS_MEAN_CONSISTENCY": 0.963371608441117,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9603484133227229,
+      "ALL_AUXILIARY": 0.9795866399207394
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.06546566387229545,
+      "PLUS_LIBRARY_COMPETITION": 0.09169939919714831,
+      "PLUS_MEAN_CONSISTENCY": 0.06717338698360724,
+      "PLUS_SPATIAL_CONCENTRATION": 0.1025632339171919,
+      "ALL_AUXILIARY": 0.20800842034106654
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_20:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_18:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9771311378045675,
+      "PLUS_LIBRARY_COMPETITION": 0.9872222235217593,
+      "PLUS_MEAN_CONSISTENCY": 0.9770725491678215,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9797873483969032,
+      "ALL_AUXILIARY": 0.9900432923415211
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_18:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9368472138776733,
+      "PLUS_LIBRARY_COMPETITION": 0.9916664483147276,
+      "PLUS_MEAN_CONSISTENCY": 0.9377911447204772,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9567017928539188,
+      "ALL_AUXILIARY": 0.9936059834030616
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.48807956464405333,
+      "PLUS_LIBRARY_COMPETITION": 0.592582862761857,
+      "PLUS_MEAN_CONSISTENCY": 0.48901699932670184,
+      "PLUS_SPATIAL_CONCENTRATION": 0.5246900000657793,
+      "ALL_AUXILIARY": 0.6289417515826619
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 20:0_16:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_18:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.5606837735759508,
+      "PLUS_LIBRARY_COMPETITION": 0.7311832587587359,
+      "PLUS_MEAN_CONSISTENCY": 0.5616611519290108,
+      "PLUS_SPATIAL_CONCENTRATION": 0.5067680407458508,
+      "ALL_AUXILIARY": 0.6915148923647638
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_22:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_20:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_18:0",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_22:6",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:3_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9716821340640726,
+      "PLUS_LIBRARY_COMPETITION": 0.9704217648987373,
+      "PLUS_MEAN_CONSISTENCY": 0.9718681331065826,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9747877414487761,
+      "ALL_AUXILIARY": 0.973450609795881
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_22:6",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_22:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_20:5",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_22:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.7477064651591305,
+      "PLUS_LIBRARY_COMPETITION": 0.8019010086738295,
+      "PLUS_MEAN_CONSISTENCY": 0.7406361324471119,
+      "PLUS_SPATIAL_CONCENTRATION": 0.772867618286438,
+      "ALL_AUXILIARY": 0.8357177729614963
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.35555516742207083,
+      "PLUS_LIBRARY_COMPETITION": 0.3652771902777833,
+      "PLUS_MEAN_CONSISTENCY": 0.35981888321411953,
+      "PLUS_SPATIAL_CONCENTRATION": 0.34940741933804664,
+      "ALL_AUXILIARY": 0.37227055380290575
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_20:5",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.48668724968033317,
+      "PLUS_LIBRARY_COMPETITION": 0.5733081272066403,
+      "PLUS_MEAN_CONSISTENCY": 0.49746058463512133,
+      "PLUS_SPATIAL_CONCENTRATION": 0.4539046989820576,
+      "ALL_AUXILIARY": 0.5489748994145052
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_20:4",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.5276694486874286,
+      "PLUS_LIBRARY_COMPETITION": 0.598137250233158,
+      "PLUS_MEAN_CONSISTENCY": 0.5261690780033759,
+      "PLUS_SPATIAL_CONCENTRATION": 0.5240005888691028,
+      "ALL_AUXILIARY": 0.6153513004320244
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9678710873762035,
+      "PLUS_LIBRARY_COMPETITION": 0.9829519488817621,
+      "PLUS_MEAN_CONSISTENCY": 0.9680415441139316,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9489883658851154,
+      "ALL_AUXILIARY": 0.9683005440214342
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 20:2_18:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.7393943480287045,
+      "PLUS_LIBRARY_COMPETITION": 0.751411600896231,
+      "PLUS_MEAN_CONSISTENCY": 0.735009898564986,
+      "PLUS_SPATIAL_CONCENTRATION": 0.6813935716628887,
+      "ALL_AUXILIARY": 0.7163423519003087
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 14:0_24:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:0_22:4",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.21810502558863962,
+      "PLUS_LIBRARY_COMPETITION": 0.23700127382347172,
+      "PLUS_MEAN_CONSISTENCY": 0.21760423905454668,
+      "PLUS_SPATIAL_CONCENTRATION": 0.23459612299818539,
+      "ALL_AUXILIARY": 0.26974567870300586
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 16:1_22:3",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_20:4",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9716009094102889,
+      "PLUS_LIBRARY_COMPETITION": 0.977656245594506,
+      "PLUS_MEAN_CONSISTENCY": 0.9716472674297877,
+      "PLUS_SPATIAL_CONCENTRATION": 0.966791043776196,
+      "ALL_AUXILIARY": 0.9749986533578779
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:1_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9909255271357913,
+      "PLUS_LIBRARY_COMPETITION": 0.9948397343235242,
+      "PLUS_MEAN_CONSISTENCY": 0.9911071477112388,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9942042336156262,
+      "ALL_AUXILIARY": 0.9972887714508293
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:2_20:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.12649276747341284,
+      "PLUS_LIBRARY_COMPETITION": 0.17714868961595215,
+      "PLUS_MEAN_CONSISTENCY": 0.13159242521525535,
+      "PLUS_SPATIAL_CONCENTRATION": 0.21474072225287516,
+      "ALL_AUXILIARY": 0.2796329471094173
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 20:1_18:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_18:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_18:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9897410041296216,
+      "PLUS_LIBRARY_COMPETITION": 0.9963267545318526,
+      "PLUS_MEAN_CONSISTENCY": 0.9913359410726977,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9942671237369759,
+      "ALL_AUXILIARY": 0.9982076005344321
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:3",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.6802658204125548,
+      "PLUS_LIBRARY_COMPETITION": 0.7410203660460442,
+      "PLUS_MEAN_CONSISTENCY": 0.6767089141796993,
+      "PLUS_SPATIAL_CONCENTRATION": 0.6910960688460666,
+      "ALL_AUXILIARY": 0.7486695635994742
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.058353210404090625,
+      "PLUS_LIBRARY_COMPETITION": 0.06832256089201556,
+      "PLUS_MEAN_CONSISTENCY": 0.059076536164061784,
+      "PLUS_SPATIAL_CONCENTRATION": 0.08874962050923718,
+      "ALL_AUXILIARY": 0.10156678466660671
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_20:5",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9048314329248998,
+      "PLUS_LIBRARY_COMPETITION": 0.9415159739236293,
+      "PLUS_MEAN_CONSISTENCY": 0.904643614181931,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8970950475149292,
+      "ALL_AUXILIARY": 0.9408709051221502
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 18:0_17:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9654155885775663,
+      "PLUS_LIBRARY_COMPETITION": 0.9739982390567744,
+      "PLUS_MEAN_CONSISTENCY": 0.9652539560820723,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9589276711088726,
+      "ALL_AUXILIARY": 0.9701297665728728
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_18:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9904200935708233,
+      "PLUS_LIBRARY_COMPETITION": 0.993491265681939,
+      "PLUS_MEAN_CONSISTENCY": 0.9909253317828636,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9901796394408996,
+      "ALL_AUXILIARY": 0.9938573749012412
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 20:0_17:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.9749951205917813,
+      "PLUS_LIBRARY_COMPETITION": 0.9826126273852749,
+      "PLUS_MEAN_CONSISTENCY": 0.9749531304799262,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9770067683537658,
+      "ALL_AUXILIARY": 0.9835598000574437
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_20:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.8624428853209121,
+      "PLUS_LIBRARY_COMPETITION": 0.9390402712832033,
+      "PLUS_MEAN_CONSISTENCY": 0.8566267010845474,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9165430730422435,
+      "ALL_AUXILIARY": 0.9577782669235496
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.9730164571910378,
+      "PLUS_LIBRARY_COMPETITION": 0.9895934722592055,
+      "PLUS_MEAN_CONSISTENCY": 0.9728964521476434,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9678749560335326,
+      "ALL_AUXILIARY": 0.9857249275425897
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_20:3",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9178287448127767,
+      "PLUS_LIBRARY_COMPETITION": 0.9783635917895854,
+      "PLUS_MEAN_CONSISTENCY": 0.9188774676684291,
+      "PLUS_SPATIAL_CONCENTRATION": 0.924786895495335,
+      "ALL_AUXILIARY": 0.9803381628797854
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PG 17:1_20:4",
+    "fold": 2,
+    "scores": {
+      "BASELINE": 0.47020370559020563,
+      "PLUS_LIBRARY_COMPETITION": 0.4655694699474136,
+      "PLUS_MEAN_CONSISTENCY": 0.4982100077429753,
+      "PLUS_SPATIAL_CONCENTRATION": 0.3815220144280404,
+      "ALL_AUXILIARY": 0.43173502252677487
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PG 17:0_17:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9837939687773403,
+      "PLUS_LIBRARY_COMPETITION": 0.9904781783529744,
+      "PLUS_MEAN_CONSISTENCY": 0.9840759190587275,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9838137611342946,
+      "ALL_AUXILIARY": 0.9905299580847763
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_18:0",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_18:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:0_16:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:0_16:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_17:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:0_16:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_16:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_18:0",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9671937363856048,
+      "PLUS_LIBRARY_COMPETITION": 0.9652798945534049,
+      "PLUS_MEAN_CONSISTENCY": 0.9667999957139631,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9690243604483186,
+      "ALL_AUXILIARY": 0.9695224897473531
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_18:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_18:2",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_17:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:0_17:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:0_17:0",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC O-16:1_17:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9503816833345888,
+      "PLUS_LIBRARY_COMPETITION": 0.9534377298369785,
+      "PLUS_MEAN_CONSISTENCY": 0.9517650063699935,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9604601413626702,
+      "ALL_AUXILIARY": 0.9680655588676196
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_18:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": 0.8861889665471486,
+      "PLUS_LIBRARY_COMPETITION": 0.9323953185060214,
+      "PLUS_MEAN_CONSISTENCY": 0.886755114197222,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9047801366497403,
+      "ALL_AUXILIARY": 0.9528349424066513
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_20:0",
+    "fold": 3,
+    "scores": {
+      "BASELINE": 0.9563082728249058,
+      "PLUS_LIBRARY_COMPETITION": 0.989432641480875,
+      "PLUS_MEAN_CONSISTENCY": 0.9566078127376363,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9502540428812721,
+      "ALL_AUXILIARY": 0.9885632975080986
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_20:1",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.7613330924631069,
+      "PLUS_LIBRARY_COMPETITION": 0.8331841859369936,
+      "PLUS_MEAN_CONSISTENCY": 0.764360758910836,
+      "PLUS_SPATIAL_CONCENTRATION": 0.8042544768873624,
+      "ALL_AUXILIARY": 0.8867384857597972
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_20:2",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_20:3",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9730410861970228,
+      "PLUS_LIBRARY_COMPETITION": 0.9854169466262974,
+      "PLUS_MEAN_CONSISTENCY": 0.9730430556495174,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9740707427549669,
+      "ALL_AUXILIARY": 0.9872918591888652
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 14:0_20:4",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:1_17:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 18:0_14:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": 0.9777866890286281,
+      "PLUS_LIBRARY_COMPETITION": 0.9958647052993402,
+      "PLUS_MEAN_CONSISTENCY": 0.9776606635157478,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9681233928777927,
+      "ALL_AUXILIARY": 0.99271829505437
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 20:0_14:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 14:1_20:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:0_18:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:0_18:1",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:0_18:2",
+    "fold": 4,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:1_16:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 18:0_16:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:1_18:1",
+    "fold": 0,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 16:1_18:2",
+    "fold": 3,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 17:0_17:0",
+    "fold": 4,
+    "scores": {
+      "BASELINE": 0.9854313251178688,
+      "PLUS_LIBRARY_COMPETITION": 0.9920081619961317,
+      "PLUS_MEAN_CONSISTENCY": 0.9857255138584001,
+      "PLUS_SPATIAL_CONCENTRATION": 0.9855157256153051,
+      "ALL_AUXILIARY": 0.9922627057795725
+    },
+    "retained": {
+      "BASELINE": true,
+      "PLUS_LIBRARY_COMPETITION": true,
+      "PLUS_MEAN_CONSISTENCY": true,
+      "PLUS_SPATIAL_CONCENTRATION": true,
+      "ALL_AUXILIARY": true
+    }
+  },
+  {
+    "lipid_name": "PC 17:0_17:1",
+    "fold": 1,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  },
+  {
+    "lipid_name": "PC 17:1_17:1",
+    "fold": 2,
+    "scores": {
+      "BASELINE": null,
+      "PLUS_LIBRARY_COMPETITION": null,
+      "PLUS_MEAN_CONSISTENCY": null,
+      "PLUS_SPATIAL_CONCENTRATION": null,
+      "ALL_AUXILIARY": null
+    },
+    "retained": {
+      "BASELINE": false,
+      "PLUS_LIBRARY_COMPETITION": false,
+      "PLUS_MEAN_CONSISTENCY": false,
+      "PLUS_SPATIAL_CONCENTRATION": false,
+      "ALL_AUXILIARY": false
+    }
+  }
+]

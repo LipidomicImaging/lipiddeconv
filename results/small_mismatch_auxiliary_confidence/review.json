@@ -1,0 +1,576 @@
+{
+  "status": "CACHED_INDEPENDENT_REVIEW_PASS",
+  "results": {
+    "BASELINE": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 93,
+      "FP": 1,
+      "FN": 32,
+      "FDP": 0.010638297872340425,
+      "TP_retention": 0.744,
+      "all_truth_recall": 0.744,
+      "reportable_truth_recall": 0.744,
+      "filter_induced_true_loss": 32,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "PLUS_LIBRARY_COMPETITION": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 91,
+      "FP": 2,
+      "FN": 34,
+      "FDP": 0.021505376344086023,
+      "TP_retention": 0.728,
+      "all_truth_recall": 0.728,
+      "reportable_truth_recall": 0.728,
+      "filter_induced_true_loss": 34,
+      "retained": 93,
+      "coverage": 0.5344827586206896
+    },
+    "PLUS_MEAN_CONSISTENCY": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 93,
+      "FP": 1,
+      "FN": 32,
+      "FDP": 0.010638297872340425,
+      "TP_retention": 0.744,
+      "all_truth_recall": 0.744,
+      "reportable_truth_recall": 0.744,
+      "filter_induced_true_loss": 32,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "PLUS_SPATIAL_CONCENTRATION": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 92,
+      "FP": 2,
+      "FN": 33,
+      "FDP": 0.02127659574468085,
+      "TP_retention": 0.736,
+      "all_truth_recall": 0.736,
+      "reportable_truth_recall": 0.736,
+      "filter_induced_true_loss": 33,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "ALL_AUXILIARY": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 92,
+      "FP": 2,
+      "FN": 33,
+      "FDP": 0.02127659574468085,
+      "TP_retention": 0.736,
+      "all_truth_recall": 0.736,
+      "reportable_truth_recall": 0.736,
+      "filter_induced_true_loss": 33,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    }
+  },
+  "paired_vs_baseline": {
+    "PLUS_LIBRARY_COMPETITION": {
+      "gained_TP": 2,
+      "lost_TP": 4,
+      "gained_FP": 1,
+      "removed_FP": 0
+    },
+    "PLUS_MEAN_CONSISTENCY": {
+      "gained_TP": 0,
+      "lost_TP": 0,
+      "gained_FP": 0,
+      "removed_FP": 0
+    },
+    "PLUS_SPATIAL_CONCENTRATION": {
+      "gained_TP": 4,
+      "lost_TP": 5,
+      "gained_FP": 1,
+      "removed_FP": 0
+    },
+    "ALL_AUXILIARY": {
+      "gained_TP": 3,
+      "lost_TP": 4,
+      "gained_FP": 1,
+      "removed_FP": 0
+    }
+  },
+  "fold_results": {
+    "0": {
+      "BASELINE": {
+        "raw_TP": 31,
+        "raw_FP": 6,
+        "raw_FN": 0,
+        "TP": 27,
+        "FP": 1,
+        "FN": 4,
+        "FDP": 0.03571428571428571,
+        "TP_retention": 0.8709677419354839,
+        "all_truth_recall": 0.8709677419354839,
+        "reportable_truth_recall": 0.8709677419354839,
+        "filter_induced_true_loss": 4,
+        "retained": 28,
+        "coverage": 0.7567567567567568
+      },
+      "PLUS_LIBRARY_COMPETITION": {
+        "raw_TP": 31,
+        "raw_FP": 6,
+        "raw_FN": 0,
+        "TP": 26,
+        "FP": 1,
+        "FN": 5,
+        "FDP": 0.037037037037037035,
+        "TP_retention": 0.8387096774193549,
+        "all_truth_recall": 0.8387096774193549,
+        "reportable_truth_recall": 0.8387096774193549,
+        "filter_induced_true_loss": 5,
+        "retained": 27,
+        "coverage": 0.7297297297297297
+      },
+      "PLUS_MEAN_CONSISTENCY": {
+        "raw_TP": 31,
+        "raw_FP": 6,
+        "raw_FN": 0,
+        "TP": 27,
+        "FP": 1,
+        "FN": 4,
+        "FDP": 0.03571428571428571,
+        "TP_retention": 0.8709677419354839,
+        "all_truth_recall": 0.8709677419354839,
+        "reportable_truth_recall": 0.8709677419354839,
+        "filter_induced_true_loss": 4,
+        "retained": 28,
+        "coverage": 0.7567567567567568
+      },
+      "PLUS_SPATIAL_CONCENTRATION": {
+        "raw_TP": 31,
+        "raw_FP": 6,
+        "raw_FN": 0,
+        "TP": 27,
+        "FP": 1,
+        "FN": 4,
+        "FDP": 0.03571428571428571,
+        "TP_retention": 0.8709677419354839,
+        "all_truth_recall": 0.8709677419354839,
+        "reportable_truth_recall": 0.8709677419354839,
+        "filter_induced_true_loss": 4,
+        "retained": 28,
+        "coverage": 0.7567567567567568
+      },
+      "ALL_AUXILIARY": {
+        "raw_TP": 31,
+        "raw_FP": 6,
+        "raw_FN": 0,
+        "TP": 27,
+        "FP": 1,
+        "FN": 4,
+        "FDP": 0.03571428571428571,
+        "TP_retention": 0.8709677419354839,
+        "all_truth_recall": 0.8709677419354839,
+        "reportable_truth_recall": 0.8709677419354839,
+        "filter_induced_true_loss": 4,
+        "retained": 28,
+        "coverage": 0.7567567567567568
+      }
+    },
+    "1": {
+      "BASELINE": {
+        "raw_TP": 22,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 20,
+        "FP": 0,
+        "FN": 2,
+        "FDP": 0.0,
+        "TP_retention": 0.9090909090909091,
+        "all_truth_recall": 0.9090909090909091,
+        "reportable_truth_recall": 0.9090909090909091,
+        "filter_induced_true_loss": 2,
+        "retained": 20,
+        "coverage": 0.5882352941176471
+      },
+      "PLUS_LIBRARY_COMPETITION": {
+        "raw_TP": 22,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 20,
+        "FP": 0,
+        "FN": 2,
+        "FDP": 0.0,
+        "TP_retention": 0.9090909090909091,
+        "all_truth_recall": 0.9090909090909091,
+        "reportable_truth_recall": 0.9090909090909091,
+        "filter_induced_true_loss": 2,
+        "retained": 20,
+        "coverage": 0.5882352941176471
+      },
+      "PLUS_MEAN_CONSISTENCY": {
+        "raw_TP": 22,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 20,
+        "FP": 0,
+        "FN": 2,
+        "FDP": 0.0,
+        "TP_retention": 0.9090909090909091,
+        "all_truth_recall": 0.9090909090909091,
+        "reportable_truth_recall": 0.9090909090909091,
+        "filter_induced_true_loss": 2,
+        "retained": 20,
+        "coverage": 0.5882352941176471
+      },
+      "PLUS_SPATIAL_CONCENTRATION": {
+        "raw_TP": 22,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 20,
+        "FP": 0,
+        "FN": 2,
+        "FDP": 0.0,
+        "TP_retention": 0.9090909090909091,
+        "all_truth_recall": 0.9090909090909091,
+        "reportable_truth_recall": 0.9090909090909091,
+        "filter_induced_true_loss": 2,
+        "retained": 20,
+        "coverage": 0.5882352941176471
+      },
+      "ALL_AUXILIARY": {
+        "raw_TP": 22,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 20,
+        "FP": 0,
+        "FN": 2,
+        "FDP": 0.0,
+        "TP_retention": 0.9090909090909091,
+        "all_truth_recall": 0.9090909090909091,
+        "reportable_truth_recall": 0.9090909090909091,
+        "filter_induced_true_loss": 2,
+        "retained": 20,
+        "coverage": 0.5882352941176471
+      }
+    },
+    "2": {
+      "BASELINE": {
+        "raw_TP": 16,
+        "raw_FP": 9,
+        "raw_FN": 0,
+        "TP": 11,
+        "FP": 0,
+        "FN": 5,
+        "FDP": 0.0,
+        "TP_retention": 0.6875,
+        "all_truth_recall": 0.6875,
+        "reportable_truth_recall": 0.6875,
+        "filter_induced_true_loss": 5,
+        "retained": 11,
+        "coverage": 0.44
+      },
+      "PLUS_LIBRARY_COMPETITION": {
+        "raw_TP": 16,
+        "raw_FP": 9,
+        "raw_FN": 0,
+        "TP": 9,
+        "FP": 0,
+        "FN": 7,
+        "FDP": 0.0,
+        "TP_retention": 0.5625,
+        "all_truth_recall": 0.5625,
+        "reportable_truth_recall": 0.5625,
+        "filter_induced_true_loss": 7,
+        "retained": 9,
+        "coverage": 0.36
+      },
+      "PLUS_MEAN_CONSISTENCY": {
+        "raw_TP": 16,
+        "raw_FP": 9,
+        "raw_FN": 0,
+        "TP": 11,
+        "FP": 0,
+        "FN": 5,
+        "FDP": 0.0,
+        "TP_retention": 0.6875,
+        "all_truth_recall": 0.6875,
+        "reportable_truth_recall": 0.6875,
+        "filter_induced_true_loss": 5,
+        "retained": 11,
+        "coverage": 0.44
+      },
+      "PLUS_SPATIAL_CONCENTRATION": {
+        "raw_TP": 16,
+        "raw_FP": 9,
+        "raw_FN": 0,
+        "TP": 12,
+        "FP": 0,
+        "FN": 4,
+        "FDP": 0.0,
+        "TP_retention": 0.75,
+        "all_truth_recall": 0.75,
+        "reportable_truth_recall": 0.75,
+        "filter_induced_true_loss": 4,
+        "retained": 12,
+        "coverage": 0.48
+      },
+      "ALL_AUXILIARY": {
+        "raw_TP": 16,
+        "raw_FP": 9,
+        "raw_FN": 0,
+        "TP": 9,
+        "FP": 0,
+        "FN": 7,
+        "FDP": 0.0,
+        "TP_retention": 0.5625,
+        "all_truth_recall": 0.5625,
+        "reportable_truth_recall": 0.5625,
+        "filter_induced_true_loss": 7,
+        "retained": 9,
+        "coverage": 0.36
+      }
+    },
+    "3": {
+      "BASELINE": {
+        "raw_TP": 27,
+        "raw_FP": 10,
+        "raw_FN": 0,
+        "TP": 21,
+        "FP": 0,
+        "FN": 6,
+        "FDP": 0.0,
+        "TP_retention": 0.7777777777777778,
+        "all_truth_recall": 0.7777777777777778,
+        "reportable_truth_recall": 0.7777777777777778,
+        "filter_induced_true_loss": 6,
+        "retained": 21,
+        "coverage": 0.5675675675675675
+      },
+      "PLUS_LIBRARY_COMPETITION": {
+        "raw_TP": 27,
+        "raw_FP": 10,
+        "raw_FN": 0,
+        "TP": 22,
+        "FP": 1,
+        "FN": 5,
+        "FDP": 0.043478260869565216,
+        "TP_retention": 0.8148148148148148,
+        "all_truth_recall": 0.8148148148148148,
+        "reportable_truth_recall": 0.8148148148148148,
+        "filter_induced_true_loss": 5,
+        "retained": 23,
+        "coverage": 0.6216216216216216
+      },
+      "PLUS_MEAN_CONSISTENCY": {
+        "raw_TP": 27,
+        "raw_FP": 10,
+        "raw_FN": 0,
+        "TP": 21,
+        "FP": 0,
+        "FN": 6,
+        "FDP": 0.0,
+        "TP_retention": 0.7777777777777778,
+        "all_truth_recall": 0.7777777777777778,
+        "reportable_truth_recall": 0.7777777777777778,
+        "filter_induced_true_loss": 6,
+        "retained": 21,
+        "coverage": 0.5675675675675675
+      },
+      "PLUS_SPATIAL_CONCENTRATION": {
+        "raw_TP": 27,
+        "raw_FP": 10,
+        "raw_FN": 0,
+        "TP": 18,
+        "FP": 1,
+        "FN": 9,
+        "FDP": 0.05263157894736842,
+        "TP_retention": 0.6666666666666666,
+        "all_truth_recall": 0.6666666666666666,
+        "reportable_truth_recall": 0.6666666666666666,
+        "filter_induced_true_loss": 9,
+        "retained": 19,
+        "coverage": 0.5135135135135135
+      },
+      "ALL_AUXILIARY": {
+        "raw_TP": 27,
+        "raw_FP": 10,
+        "raw_FN": 0,
+        "TP": 21,
+        "FP": 1,
+        "FN": 6,
+        "FDP": 0.045454545454545456,
+        "TP_retention": 0.7777777777777778,
+        "all_truth_recall": 0.7777777777777778,
+        "reportable_truth_recall": 0.7777777777777778,
+        "filter_induced_true_loss": 6,
+        "retained": 22,
+        "coverage": 0.5945945945945946
+      }
+    },
+    "4": {
+      "BASELINE": {
+        "raw_TP": 29,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 14,
+        "FP": 0,
+        "FN": 15,
+        "FDP": 0.0,
+        "TP_retention": 0.4827586206896552,
+        "all_truth_recall": 0.4827586206896552,
+        "reportable_truth_recall": 0.4827586206896552,
+        "filter_induced_true_loss": 15,
+        "retained": 14,
+        "coverage": 0.34146341463414637
+      },
+      "PLUS_LIBRARY_COMPETITION": {
+        "raw_TP": 29,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 14,
+        "FP": 0,
+        "FN": 15,
+        "FDP": 0.0,
+        "TP_retention": 0.4827586206896552,
+        "all_truth_recall": 0.4827586206896552,
+        "reportable_truth_recall": 0.4827586206896552,
+        "filter_induced_true_loss": 15,
+        "retained": 14,
+        "coverage": 0.34146341463414637
+      },
+      "PLUS_MEAN_CONSISTENCY": {
+        "raw_TP": 29,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 14,
+        "FP": 0,
+        "FN": 15,
+        "FDP": 0.0,
+        "TP_retention": 0.4827586206896552,
+        "all_truth_recall": 0.4827586206896552,
+        "reportable_truth_recall": 0.4827586206896552,
+        "filter_induced_true_loss": 15,
+        "retained": 14,
+        "coverage": 0.34146341463414637
+      },
+      "PLUS_SPATIAL_CONCENTRATION": {
+        "raw_TP": 29,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 15,
+        "FP": 0,
+        "FN": 14,
+        "FDP": 0.0,
+        "TP_retention": 0.5172413793103449,
+        "all_truth_recall": 0.5172413793103449,
+        "reportable_truth_recall": 0.5172413793103449,
+        "filter_induced_true_loss": 14,
+        "retained": 15,
+        "coverage": 0.36585365853658536
+      },
+      "ALL_AUXILIARY": {
+        "raw_TP": 29,
+        "raw_FP": 12,
+        "raw_FN": 0,
+        "TP": 15,
+        "FP": 0,
+        "FN": 14,
+        "FDP": 0.0,
+        "TP_retention": 0.5172413793103449,
+        "all_truth_recall": 0.5172413793103449,
+        "reportable_truth_recall": 0.5172413793103449,
+        "filter_induced_true_loss": 14,
+        "retained": 15,
+        "coverage": 0.36585365853658536
+      }
+    }
+  },
+  "point_target_met": {
+    "BASELINE": false,
+    "PLUS_LIBRARY_COMPETITION": false,
+    "PLUS_MEAN_CONSISTENCY": false,
+    "PLUS_SPATIAL_CONCENTRATION": false,
+    "ALL_AUXILIARY": false
+  },
+  "primary_all_auxiliary_target_met": false,
+  "diagnostics": {
+    "library_separation": {
+      "by_truth": {
+        "True": [
+          0.2360329942037283,
+          0.6229306934451757,
+          0.7934451641204248
+        ],
+        "False": [
+          0.24006551754815766,
+          0.44505372153616324,
+          0.7671213648641226
+        ]
+      },
+      "pearson_with_log_X": 0.13706990313827072,
+      "pearson_with_log_rho": 0.22893505969254258
+    },
+    "competition_log_ratio": {
+      "by_truth": {
+        "True": [
+          -1.101397583019901,
+          -0.5799824097050454,
+          0.003974500200814387
+        ],
+        "False": [
+          -1.7551211201470702,
+          -1.434336622306736,
+          -0.9480489824399384
+        ]
+      },
+      "pearson_with_log_X": 0.8096955349290422,
+      "pearson_with_log_rho": 0.43807247125934884
+    },
+    "global_mean_log_disagreement": {
+      "by_truth": {
+        "True": [
+          0.00541984527899011,
+          0.03683218626253493,
+          0.8377788148979906
+        ],
+        "False": [
+          0.060751257998925626,
+          0.35682566280199784,
+          9.163536908834002
+        ]
+      },
+      "pearson_with_log_X": -0.35895051360352154,
+      "pearson_with_log_rho": -0.9750085477209359
+    },
+    "log_effective_pixel_fraction": {
+      "by_truth": {
+        "True": [
+          -0.7070200967841035,
+          -0.38969148558203687,
+          -0.1120697692441482
+        ],
+        "False": [
+          -0.7959910761285108,
+          -0.5028175172679697,
+          -0.2594276458447443
+        ]
+      },
+      "pearson_with_log_X": 0.34216637628130236,
+      "pearson_with_log_rho": 0.332802251202286
+    }
+  },
+  "maximum_feature_reconstruction_error": 1.6930901125533637e-15,
+  "maximum_model_prediction_error": 7.771561172376096e-16,
+  "no_models_refitted_in_review": true,
+  "frozen_baseline_exactly_reproduced": true,
+  "same_exposed_case_development_only": true,
+  "independent_FDR_validation": false,
+  "outcome_driven_rerun": false,
+  "contract_sha256": "3523ddf0c904a97b66dda0fcf86b11ffa9a9362b596a56c6c8d3c3b8975f9f37",
+  "provenance_sha256": "6aea15d7104b7d0b731e4699b3fa80154c14331492ed913ff73830cea47fca5f"
+}

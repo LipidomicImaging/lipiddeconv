@@ -1,3 +1,7 @@
+# 辅助指标探索完成：四个量均未改善原联合筛查 — 2026-09-12
+
+固定探索谱库分离/竞争分配、global-mean系数一致性、空间集中度。原baseline93TP/1FP、74.4%召回/1.0638%FDP；谱库竞争91/2、72.8%/2.1505%；一致性与baseline名单完全一致；空间及全部辅助分别92/2、73.6%/2.1277%（总数相同但名单不同）。全部未过1%/80%，不推广扩展、不调参再试。报告 results/small_mismatch_auxiliary_confidence/analysis_record.md。20个固定小CPU模型，baseline未重训；5解析测试、两端缓存独立复核通过，25文件下载hash一致。case已曝光且存在跨轮适应性，非独立FDR验证。无NNLS/rho/GPU/新case/清理，保存到Git后STOP。
+
 # 辅助指标探索准备中 — 2026-09-12
 
 用户最新授权探索其他辅助指标。仅按 docs/SMALL_MISMATCH_AUXILIARY_CONFIDENCE.md 使用已完成5% case的 nominal A_solver、X_hat、mask、candidate/molecular records、metadata、result/design/summary，以及已冻结联合模型的seals/predictions。新增代码 analysis/run_small_mismatch_auxiliary_confidence.py 与analytic test；新输出 results/small_mismatch_auxiliary_confidence。四个observable量分为谱库/竞争、global-mean一致性、空间集中度三类，固定三类单加及全部加入四扩展，原baseline不重训。冻结并推送后仅20个小CPU分类器，复核/Git后停止；全部旧fold已曝光，不宣称独立FDR、不改旧结果、不做NNLS/rho/GPU/新case/清理。

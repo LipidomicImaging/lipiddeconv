@@ -1,0 +1,119 @@
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+TWENTY_FIXED_SMALL_MODELS_COMPLETE
+{
+  "status": "CACHED_INDEPENDENT_REVIEW_PASS",
+  "results": {
+    "BASELINE": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 93,
+      "FP": 1,
+      "FN": 32,
+      "FDP": 0.010638297872340425,
+      "TP_retention": 0.744,
+      "all_truth_recall": 0.744,
+      "reportable_truth_recall": 0.744,
+      "filter_induced_true_loss": 32,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "PLUS_LIBRARY_COMPETITION": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 91,
+      "FP": 2,
+      "FN": 34,
+      "FDP": 0.021505376344086023,
+      "TP_retention": 0.728,
+      "all_truth_recall": 0.728,
+      "reportable_truth_recall": 0.728,
+      "filter_induced_true_loss": 34,
+      "retained": 93,
+      "coverage": 0.5344827586206896
+    },
+    "PLUS_MEAN_CONSISTENCY": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 93,
+      "FP": 1,
+      "FN": 32,
+      "FDP": 0.010638297872340425,
+      "TP_retention": 0.744,
+      "all_truth_recall": 0.744,
+      "reportable_truth_recall": 0.744,
+      "filter_induced_true_loss": 32,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "PLUS_SPATIAL_CONCENTRATION": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 92,
+      "FP": 2,
+      "FN": 33,
+      "FDP": 0.02127659574468085,
+      "TP_retention": 0.736,
+      "all_truth_recall": 0.736,
+      "reportable_truth_recall": 0.736,
+      "filter_induced_true_loss": 33,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    },
+    "ALL_AUXILIARY": {
+      "raw_TP": 125,
+      "raw_FP": 49,
+      "raw_FN": 0,
+      "TP": 92,
+      "FP": 2,
+      "FN": 33,
+      "FDP": 0.02127659574468085,
+      "TP_retention": 0.736,
+      "all_truth_recall": 0.736,
+      "reportable_truth_recall": 0.736,
+      "filter_induced_true_loss": 33,
+      "retained": 94,
+      "coverage": 0.5402298850574713
+    }
+  },
+  "target": {
+    "BASELINE": false,
+    "PLUS_LIBRARY_COMPETITION": false,
+    "PLUS_MEAN_CONSISTENCY": false,
+    "PLUS_SPATIAL_CONCENTRATION": false,
+    "ALL_AUXILIARY": false
+  },
+  "paired": {
+    "PLUS_LIBRARY_COMPETITION": {
+      "gained_TP": 2,
+      "lost_TP": 4,
+      "gained_FP": 1,
+      "removed_FP": 0
+    },
+    "PLUS_MEAN_CONSISTENCY": {
+      "gained_TP": 0,
+      "lost_TP": 0,
+      "gained_FP": 0,
+      "removed_FP": 0
+    },
+    "PLUS_SPATIAL_CONCENTRATION": {
+      "gained_TP": 4,
+      "lost_TP": 5,
+      "gained_FP": 1,
+      "removed_FP": 0
+    },
+    "ALL_AUXILIARY": {
+      "gained_TP": 3,
+      "lost_TP": 4,
+      "gained_FP": 1,
+      "removed_FP": 0
+    }
+  }
+}
