@@ -1,0 +1,17 @@
+{
+  "status": "TRAINING_STARTED",
+  "case": "SUPPORTED_MISMATCH__CAL_R71_K125",
+  "host": "westc:55786",
+  "pid": 115253,
+  "started_utc": "2026-09-12T06:27:58.953816+00:00",
+  "prepared_design_commit": "dbf304f86563442c6be6f064e8cd72fabee2e682",
+  "design_fingerprint": "a86cadbfcafe8abc9a12810c3ee71d673c5a1bae55c018824fb952e07bdac9e4",
+  "remote_launch_record": "/root/physical_identity_mainline_v1/jobs/SUPPORTED_MISMATCH__CAL_R71_K125.launch.json",
+  "remote_log": "/root/physical_identity_mainline_v1/jobs/SUPPORTED_MISMATCH__CAL_R71_K125.log",
+  "GPU_observed_20260912_0629_UTC": {
+    "utilization_percent": 97,
+    "memory_MiB": 8241
+  },
+  "completed_cases": 0,
+  "scientific_outcomes_available": false
+}
