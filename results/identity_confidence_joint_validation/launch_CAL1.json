@@ -1,0 +1,25 @@
+{
+  "case": "CAL1",
+  "pid": 121523,
+  "started_utc": "2026-09-12T09:55:40Z",
+  "command": [
+    "/root/miniconda3/bin/python",
+    "/root/identity_confidence_joint_validation/source/analysis/run_identity_confidence_joint_validation.py",
+    "solve",
+    "--development",
+    "/root/small_mismatch_nnls_first/results",
+    "--source-root",
+    "/root/physical_identity_mainline_v1/results/cases",
+    "--components",
+    "/root/small_mismatch_nnls_first/components",
+    "--output",
+    "/root/identity_confidence_joint_validation/results",
+    "--case",
+    "CAL1"
+  ],
+  "GPU": false,
+  "workers": 4,
+  "pre_execution_pushed_commit": "05c825b406dd12eb848b8758221ffe91f4a61fc3",
+  "automatic_next_case": false,
+  "log": "/root/identity_confidence_joint_validation/CAL1.log"
+}

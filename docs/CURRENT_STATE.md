@@ -1,3 +1,7 @@
+# CAL1 CPU validation RUNNING — 2026-09-12
+
+The first new case started at 2026-09-12T09:55:40Z (Beijing17:55:40), PID121523, four CPU workers, no GPU. Pre-execution model/input seal commit05c825b was successfully pushed first. Startup produced valid250/500-pixel checkpoint progress with no failure file. Only CAL1 is active; no next case is automatically queued. Expected duration is approximately20–25minutes from the completed predecessor, not a completion guarantee. Review/download/Git is required before continuing under docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md. Main objective remains ACTIVE; no outcome yet.
+
 # 新CAL/HOLD输入与共享模型封存完成 — 2026-09-12
 
 用户已明确授权7文件上传及按合同逐组CPU执行。四组完整391候选、每组125 truth全部实际受5%扰动；CAL/HOLD真值不相交，空间图与单一全局缩放验证通过。模型/输入17文件已下载hash一致，远程独立数组/来源检查PASS，尚无新NNLS结果。记录 results/identity_confidence_joint_validation/preparation_record.md。先推送封存记录，再只运行CAL1；逐组审核下载Git后放行，CAL失败则停止该版本。主目标持续ACTIVE，无GPU/清理/自动后续模型。
