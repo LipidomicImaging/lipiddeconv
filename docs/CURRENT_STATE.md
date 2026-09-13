@@ -1,3 +1,7 @@
+# PREPARED — 真实 CE29 全库 NNLS 对照 — 2026-09-13
+
+用户授权用NNLS重跑同一真实观测；输入2f5e49d0已封存。只调用既有fit_screened全391列、15837前景像素、四CPU、逐像素KKT；固定原模型/阈值/报告门槛，复用已完成34谱块S/C及已有rho，新报告候选仅补缺失rho。不改ISTA结果或其他线程任务，不新建监控。新脚本analysis/run_real_ce29_nnls_comparison.py，协议docs/REAL_CE29_NNLS_COMPARISON.md，输出results/real_ce29_nnls_joint_screening_v2。一次run后缓存复核、比较名单/计数、向用户汇报并保存Git后STOP；不因结果调整模型或删除数组。
+
 # COMPLETED — 真实 CE29 最新联合指标筛选 — 2026-09-13
 
 原始 production ISTA 报告76个分子身份；固定704e05f联合模型的候选池/DEV5%/DEV1%阈值分别保留33/27/18，剔除43/49/58。35项任务完成，耗时2084.125秒；独立缓存来源、特征、分数、集合复核PASS。真实FDR/recall未知，阈值名称不是实际风险保证；未调参、未重跑训练或全像素解卷积、无删除。完整名单与分数见results/real_ce29_joint_screening_v2/analysis_record.md和reported_76_screening.csv；所有数组保留，紧凑结果提交push核对后STOP。本条取代下方同一真实CE29任务的RUNNING交接；其他线程任务不变。

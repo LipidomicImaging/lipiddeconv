@@ -1,0 +1,11 @@
+# Real CE29: full-library NNLS comparison
+
+User authorization: run NNLS once on the same real CE29 observation, then apply the existing joint indicator. This extends the completed ISTA application without modifying it.
+
+Use only the sources bound by results/real_ce29_joint_screening_v2/input.json: original exported A_calibrated, B_cube, original V38 foreground mask and candidate order. No normalization, observation changes, simulated truth, GPU or training. Use all 391 columns on all 15,837 foreground pixels; exact-zero background remains zero. Reuse refit_screened_nnls.fit_screened with retained_indices=range(391), existing scipy NNLS maxiter3910, four workers, one BLAS thread, 250-pixel blocks, float64 solve/KKT before float32 storage. The helper name does not imply screening: every library column participates here.
+
+Keep candidate foreground-mean gate >0.001, molecular lipid_name grouping, sum of reported-alias abundance and max reported-alias rho. Reuse the completed 34-block S/C features, model, DEV normalization and all three fixed thresholds byte-for-byte. Reuse existing candidate rho; compute unchanged original rho only for newly reported candidates without a cached value. Do not fabricate rho despite its frozen model coefficient being zero.
+
+Preserve new arrays, every block and provenance separately in results/real_ce29_nnls_joint_screening_v2. Bind code, runtime, input hashes and the completed ISTA comparison before execution. On completion independently review cached block/array consistency, original KKT receipts, reconstructed signal, means, candidate/molecular memberships, scores and exact three selection sets. Compare raw and selected NNLS/ISTA memberships and counts; true TP/FP/FN/FDR/recall remain unknown. A larger retained set or lower reconstruction residual alone is not evidence of better identity correctness.
+
+New files needed: analysis/run_real_ce29_nnls_comparison.py and this protocol; existing parent application/score/rho helpers, refit_screened_nnls.py, run_nnls_solver_baseline.py, run_small_mismatch_nnls_first_case.py. No changes to those scientific implementations. Save reviewed compact outputs, report to user, commit/push the authorized experiment branch, then stop. No automatic parameter changes, new monitor, retry or deletion.
