@@ -1,6 +1,6 @@
 # ACTIVE — 执行物理块留出预测开发V1 — 2026-09-13
 
-实时交接：df8844c执行前快照已push；DEV34/34完整计算及远程exact review PASS，全部数组已下载hash一致。本地34块loss/KKT通过，但汇总exact FEATURES_CHANGED仅为per-block tau末位跨平台差异；全部S/C/Delta/support/positive一致，保留官方失败记录和独立兼容性审查，不修改代码或重算。先完成该DEV独立记录并具体Git push，之后ack DEV→唯一fit_model→review_model→download/hash/Git→ack model→CHECK。实际代码/输入seal已存在，禁止重新prepare或修改科学代码。root活跃远程传输会话使用无落盘密码helper；连接恢复不等于重新运行任务。
+实时交接：DEV具体结果8796bce已push并核对，之后唯一fit完成，两端review_model PASS。TRAIN候选池119/8，最终score83/0，仅66.4%recall；模型已封存不可改。下一步推送model.json/thresholds/model_seal/全部TRAIN分数与review/record，再ack model→只运行CHECK；完成后完整remote/local缓存审查、download/hash、具体Git保存→final_decision。DEV exact本地辅助tau末位差与独立兼容性PASS均已记录，不能改代码消除失败。活跃remote helper会话继续，禁止重新prepare/重训/旧CAL2/HOLD。
 
 用户“好的，远程主机已开”及随后登录信息授权本次远程执行。严格执行docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md，先代码/输入/34块/seal/Git再真实DEV，逐case缓存复核/download/hash/具体Git后交接；一次模型及阈值封存后CHECK。最终规则若已证明最多不足100TP则保存召回上界停算，否则一次原全像素缩库NNLS并完整最终评价。新输出results/physical_block_prediction_v1。所需文件限下方策略源和本执行合同、3个新科学模块及对应tests、无凭据remote_physical_block_session.py，以及已有refit/NNLS/KKT/原transform helpers。不重建流水线、不重算rho/profile/ISTA、不启旧CAL2/HOLD/新观测/GPU或删除。最后更新状态、标记本开发版本完成或如实技术失败、push后STOP；不声称主目标已达成。
 

@@ -1,0 +1,16 @@
+{
+  "status": "ARCHIVE_AND_ALL_MEMBERS_HASH_VERIFIED",
+  "stage": "model",
+  "remote_archive": "/root/physical_block_prediction_v1/model_reviewed.tar.gz",
+  "archive_sha256": "909c7a375356fbc288f50df8219e25729b79827fa0590e586f11ca60f5897126",
+  "file_count": 7,
+  "files": {
+    "handoffs/DEV_TRAIN.json": "0aceb811bd8bd985bf5a59cc6104aa8c85843cbeb1f6cb17f0bbd73981ead63f",
+    "fit_reservation.json": "cabd9f5c3600186899d9d95c5c27d5f6bcf45c6075b232cd64d4073ee492c31d",
+    "model.json": "eabd7d5c3276782ce1c3d87009f92ab5b9435dd65e0c6f5fbcf2903c512f79db",
+    "thresholds.json": "b31d1f2406ea606210d2076f84271fde0a2126aa2373498f8f37f40e8b8d3645",
+    "train_scores.json": "b78d7c83203a398695e8dc56dcf0198184a5724a86a50e2e76bfc853a3fc3ec4",
+    "model_seal.json": "dd132e777da5451aee5068450ca6b577f31df056ab975257b8640913047e3f3f",
+    "remote_model_review.json": "03c5614d4e246b1e80a9d3c290d2cfa84414d655278d65d1281006c19278070d"
+  }
+}

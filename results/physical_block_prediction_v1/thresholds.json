@@ -1,0 +1,28 @@
+{
+  "pool_threshold": 0.5735000428231877,
+  "final_raw_threshold": 0.9424186933811763,
+  "final_effective_threshold": 0.9424186933811763,
+  "train_pool": {
+    "TP": 119,
+    "FP": 8,
+    "FN": 6,
+    "FDP": 0.06299212598425197,
+    "all_truth_recall": 0.952,
+    "TP_retention": 0.952,
+    "all_truth_count": 125,
+    "raw_solver_misses": 0,
+    "retained": 127
+  },
+  "train_final": {
+    "TP": 83,
+    "FP": 0,
+    "FN": 42,
+    "FDP": 0.0,
+    "all_truth_recall": 0.664,
+    "TP_retention": 0.664,
+    "all_truth_count": 125,
+    "raw_solver_misses": 0,
+    "retained": 83
+  },
+  "rule": "TRAIN development only; complete ties; no independent FDR"
+}

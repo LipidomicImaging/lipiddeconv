@@ -1,3 +1,7 @@
+# 物理块留出预测：唯一模型已封存，CHECK待执行 — 2026-09-13
+
+DEV具体结果8796bce47e7f01cfa6f231d59f11bc26634a9ea1已成功push并核对后才fit。唯一八特征模型已封存，两端独立概率/阈值审查PASS，7文件下载hash一致；TRAIN候选池119TP/8FP、95.2%recall，最终分数门槛83TP/0FP、66.4%recall。尚未达到主目标；不能将TRAIN当最终或独立FDR。下一步先推送model seal和model_record，再ack model→CHECK34块→审查/download/具体Git→最终召回上界或一次完整重拟合。科学代码/输入/规则不变，DEV本地exact辅助tau末位失败与兼容性PASS均保留，所有数组两端保存。
+
 # 物理块留出预测：DEV计算完成，审查保存中 — 2026-09-13
 
 执行前快照df8844c02be8fcab5b4df0f652fa760722e3cdb7已成功推送并核对，design SHA256 8b7d878954ae76cec513cd956bcf56fcab8e2339c55fbff64ae5c863d168c56a。DEV34块、12852模型完整完成，1329.12秒，远程原环境exact缓存审查PASS，74文件完整下载hash匹配。全部34块本地loss/KKT通过；本地汇总exact检查FEATURES_CHANGED保留为失败记录。独立定位仅4892个per-block数值容差末位不同（最大6.05845e-28），全部377个S/C、12818个Delta和支持/正贡献判定完全一致；不修改科学代码或保存特征。独立摘要及DEV_record记录完整兼容性审查；保存该DEV具体Git后ack→唯一fit_model→模型/阈值review/seal/Git→CHECK。尚无分类器或CHECK结果，主目标未解决；大数组/所有块两端保留，不清理。
