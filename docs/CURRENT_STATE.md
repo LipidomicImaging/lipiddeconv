@@ -1,3 +1,9 @@
+# COMPLETED — 真实 NNLS 全图及模拟→真实差异分析 — 2026-09-13
+
+全库NNLS于19:47完成，15837像素/391列/64块，耗时2247.781秒；缓存和固定评分复核PASS。全图报告78，固定pool/DEV5/DEV1保留47/43/17（ISTA76，33/27/18）；旧rho>=.001仍6个同名身份。完整结果results/real_ce29_nnls_joint_screening_v2/analysis_record.md，全部数组/块保留，无删除。
+
+用户追加模拟/真实差异分析完成：固定模型模拟丰度单独AUC .955—.982，与联合分数几乎相同；模拟真身份估计丰度中位.0134—.0137、假身份.0019—.0023，真实ISTA .00407、NNLS .00770。平均谱完整库最优NNLS残差模拟.1866%/.2192%，真实19.2344%，不能等同逐峰噪声或归因ISTA。真实C中位下降但部分S强；来源/分数/秩AUC/计数独立检查PASS。分析results/real_ce29_score_transfer_diagnosis/analysis_record.md，真实FDR/recall未知。保存本次完整NNLS和诊断、向用户汇报并push后STOP；未改阈值/模型或启动新实验。本节取代同一真实NNLS任务下方RUNNING交接，其他线程任务独立保留。
+
 # COMPLETED — 真实 CE29 原 rho 阈值对照 — 2026-09-13
 
 按用户要求应用历史rho_zero>=0.001（源码run_small_mismatch_nnls_first_case.py:319-323），无调阈值。全图ISTA76→6；相同4500像素ISTA71→6、NNLS80→6，三个6名集合完全相同。复用76候选rho缓存，仅补21缺失候选原rho，使用同一全图平均观测谱，未改主NNLS/联合模型/原结果。独立计数/集合/CSV检查PASS，无恰好阈值边界值，真实FDR/recall未知。结果results/real_ce29_legacy_rho_threshold/analysis_record.md及molecular_screening.csv；保存push并向用户汇报，本对照完成。全库NNLS主任务仍按原合同继续，不能将此快照当整图NNLS最终。

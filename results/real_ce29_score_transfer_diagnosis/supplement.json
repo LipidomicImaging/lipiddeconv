@@ -1,0 +1,61 @@
+{
+  "AUC_within_each_exposed_simulation_reported_set": {
+    "SIM_DEV": {
+      "X_hat": 0.9549387755102041,
+      "S": 0.5781224489795919,
+      "C": 0.7453061224489796,
+      "score": 0.9586938775510204
+    },
+    "SIM_CHECK": {
+      "X_hat": 0.9676862745098039,
+      "S": 0.7046274509803921,
+      "C": 0.7634509803921569,
+      "score": 0.9658039215686275
+    },
+    "SIM_NEW": {
+      "X_hat": 0.9818548387096774,
+      "S": 0.7138536866359447,
+      "C": 0.8047235023041475,
+      "score": 0.9818548387096774
+    }
+  },
+  "logit_term_medians_upper_order_statistic": {
+    "SIM_DEV": {
+      "true": {
+        "abundance_logit": 0.9722625825885391,
+        "S_logit": -0.0673512071260236,
+        "C_logit": 0.015627075612240183
+      },
+      "false": {
+        "abundance_logit": -4.244145373122441,
+        "S_logit": -0.08174621465773126,
+        "C_logit": -0.03345140022910126
+      }
+    },
+    "SIM_CHECK": {
+      "true": {
+        "abundance_logit": 0.9430460788233022,
+        "S_logit": 0.05239069035080507,
+        "C_logit": 0.02151649271320116
+      },
+      "false": {
+        "abundance_logit": -5.117659629846359,
+        "S_logit": -0.06610395635147312,
+        "C_logit": -0.05062886677357076
+      }
+    },
+    "SIM_NEW": {
+      "true": {
+        "abundance_logit": 0.9642451816766446,
+        "S_logit": -0.00238838450553371,
+        "C_logit": 0.03525846594877676
+      },
+      "false": {
+        "abundance_logit": -4.695056127919488,
+        "S_logit": -0.07004777006666886,
+        "C_logit": -0.05062886677357076
+      }
+    }
+  },
+  "interpretation": "Descriptive ranks without fitting; X_hat is a diagnostic single feature, not a newly calibrated selection policy. Real truth and real AUC unknown."
+}

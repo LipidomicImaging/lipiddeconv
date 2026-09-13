@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_REVIEWED",
+  "report_sha256": "0aeef667d4b5f69fe1d22df2916ce3a06258218624329df8dded9cebfa9307bc",
+  "review_sha256": "90e99e5ad8d47c37fdee98a9c90870eb2d84f425a592789cec40b050cac8d9ea",
+  "all_pixels": 15837,
+  "all_candidate_columns": 391,
+  "reviewed_blocks": 64,
+  "complete_counts": {
+    "raw": 78,
+    "pool": 47,
+    "fdp5": 43,
+    "fdp1": 17
+  },
+  "legacy_rho_retained": 6,
+  "compile": "PASS",
+  "diff_check": "PASS",
+  "arrays_preserved": true,
+  "no_deletion": true
+}

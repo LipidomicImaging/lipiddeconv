@@ -1,0 +1,17 @@
+{
+  "values": {
+    "sim_true_median": {
+      "X": 0.013718151648280963,
+      "score_with_S_C_at_DEV_means": 0.9677802704641433
+    },
+    "real_ISTA_median": {
+      "X": 0.00407058349631971,
+      "score_with_S_C_at_DEV_means": 0.6097052669989789
+    },
+    "real_NNLS_median": {
+      "X": 0.007696614434724245,
+      "score_with_S_C_at_DEV_means": 0.9095396584383129
+    }
+  },
+  "scope": "Explanatory arithmetic with centered spectral terms set to their DEV means; not a proposed score or new selection."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_rank_AUC_matches_pairwise_AUC": true,
+  "source_hashes_rechecked": true,
+  "subset_counts_and_selections_rechecked": true,
+  "fixed_model_score_replays": "PASS",
+  "real_truth_metrics_remain_unknown": true,
+  "compile": "PASS",
+  "diff_check": "PASS",
+  "no_new_model_fit_or_threshold": true
+}

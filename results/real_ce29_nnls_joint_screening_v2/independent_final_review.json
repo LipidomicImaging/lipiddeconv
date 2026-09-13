@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "report_sha256": "0aeef667d4b5f69fe1d22df2916ce3a06258218624329df8dded9cebfa9307bc",
+  "reviewed_blocks": 64,
+  "foreground_pixels": 15837,
+  "full_library_columns": 391,
+  "finite_arrays": true,
+  "original_KKT_receipts_checked": true,
+  "block_and_reconstruction_replay": true,
+  "molecular_accounting_and_fixed_scores_checked": true,
+  "score_replay": {
+    "status": "PASS",
+    "max_probability_error": 2.220446049250313e-16,
+    "reported_count": 78,
+    "truth_used": false,
+    "monotonicity": "nondecreasing in rho/S/C; rho floor unchanged"
+  },
+  "no_optimizer_called": true
+}

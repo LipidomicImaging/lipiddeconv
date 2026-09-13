@@ -1,0 +1,42 @@
+{
+  "local_storage_root": "C:\\Users\\ld\\Documents\\ChatGPT\\\u8bfe\u9898\\lipiddeconv\\results\\real_ce29_score_transfer_diagnosis",
+  "no_arrays_deleted": true,
+  "files": {
+    ".gitattributes": {
+      "bytes": 72,
+      "sha256": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f"
+    },
+    "analysis_record.md": {
+      "bytes": 7328,
+      "sha256": "89c87df465e211a20111fde05689e70e1f5ca405bd93160b4ff1cbb44ed30f55"
+    },
+    "diagnosis.json": {
+      "bytes": 43060,
+      "sha256": "1c3d5b2810f6f921d2d0c532f8084c07e0e408b851d19ad007e77a6ead909451"
+    },
+    "full_nnls_supplement.json": {
+      "bytes": 27171,
+      "sha256": "30fdeca60fcd34848994fd03f175db6f49de9d940ef8ce234471df693f3340bc"
+    },
+    "independent_review.json": {
+      "bytes": 342,
+      "sha256": "1c992a357c6c924e8908dcf7baff7d2ab66865fb4f0c70bd6ec53e62606608d4"
+    },
+    "reference_score_arithmetic.json": {
+      "bytes": 531,
+      "sha256": "f58a350cd1909a52a7bb2c64ac333d719dd33de651a3c2c2abb6b3968ed75350"
+    },
+    "score_decomposition.csv": {
+      "bytes": 179244,
+      "sha256": "05da3b7e1a265c010e18fe9822c33157f5f67a13b042ba70efcaeb8abc744b55"
+    },
+    "score_decomposition.json": {
+      "bytes": 398874,
+      "sha256": "04085d1e238191bd12e774f6fd6533af108b98e09af2918e6b43bffdcc646bf6"
+    },
+    "supplement.json": {
+      "bytes": 1800,
+      "sha256": "2d668782921ce647a2e102eb892ee2717c1a2a0cd97c13039d0575b14c156053"
+    }
+  }
+}
