@@ -1,0 +1,19 @@
+{
+  "analysis/physical_block_monotone_score.py": "5524916a4a63bb130ceec60d78c0547a6fbfeae03dd3ababd6d4eeb4af4b2356",
+  "analysis/physical_block_prediction.py": "beef064161f8956c5800597fd36850e2604f148cdd5378ed37fb78d66fe394d0",
+  "analysis/refit_screened_nnls.py": "8480cb693dc22a1653cfd659c9ba67e44f848e7233d98fe2b6682a0b53e60e24",
+  "analysis/review_physical_block_prediction.py": "350d339811dcaa55b8aa98b7875da0134f3f5e934b07c96bdbe806bc93180bb9",
+  "analysis/run_identity_confidence_joint_validation.py": "24339767afeeb54c4c3d7e78727ac9e4092310dc8376dc5a427a622aca23afe6",
+  "analysis/run_new_composition_development.py": "346d9a79019d8bca6abe12d7ddd2370090f5c3bc5dd056f9f3e4de56d3b3723b",
+  "analysis/run_nnls_solver_baseline.py": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+  "analysis/run_physical_block_pool_refit.py": "00e6cd5ac7ca1730062d20cf6b27fec231a3087eab34ef6feb42d1d128ac84de",
+  "analysis/run_physical_block_prediction.py": "e558a4a5f5971b9129c5829c7aa8d51c003fe345eacd86ec6346c6dc102fbec6",
+  "analysis/run_small_mismatch_nnls_first_case.py": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+  "docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md": "f71b108c6d548711b333406552742430281b26a3054db7f6a1cc621edf8ef93b",
+  "docs/PHYSICAL_BLOCK_SCORE_CORRECTION_V2.md": "31c32c195407a426cff4ad52400391f6fb0c11ebd99b56aed9311f4739c1f3fa",
+  "src/rho_zero.py": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+  "tests/test_physical_block_monotone_score.py": "4b22ea6f405d8525728019a2d4091c84950e46a8fcadf2e492874725f70c75c8",
+  "tests/test_physical_block_prediction.py": "d63077dd248fbdb2beb64e0300c36c2b46edaa7a994723edcbd551f125cbe42a",
+  "tests/test_review_physical_block_prediction.py": "516b53222685e009729766a031f0825ee221043ed0c7fb1024e67c166fb82def",
+  "tests/test_run_physical_block_prediction.py": "e56989a09326b5bc40290223ce4fdb9a61e63c1e41aa6cb4df849ee2a3452d90"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "CACHE_REVIEW_PASS",
+  "case": "NEW_COMPOSITION_CHECK",
+  "stage": "prepared",
+  "design_sha256": "fab8040867e46fede8d598197291c2198da1ae856c6899bf79c4bd4fda57b0ec",
+  "remote_source_checked": false,
+  "reviewer_runtime": {
+    "numpy": "1.25.2",
+    "scipy": "1.11.3",
+    "sklearn": "1.2.2"
+  },
+  "independent_FDR_claim": false,
+  "prepared_hashes_checked": true,
+  "source_hashes_checked": false,
+  "inference_not_run": true
+}

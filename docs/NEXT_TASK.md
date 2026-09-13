@@ -1,3 +1,7 @@
+# ACTIVE — 修正评分结构并验证不同真值组合 — 2026-09-13
+
+用户明确要求修正rho零值被平方奖励的问题、解释另外7个FP，并换一组脂质组合测试。执行docs/PHYSICAL_BLOCK_SCORE_CORRECTION_V2.md：仅DEV缓存一次五特征单调rho/S/C模型，封存DEV95%及5%/1%规则；原CHECK描述性修正比较；现有未求解HOLD1改作NEW_COMPOSITION_CHECK开发数据（125真值与旧组不重合），保留旧停机合同，不再具有未曝光HOLD资格。复用现成输入/原NNLS/rho/34block及refit，不重生成观测、不改冻结门槛或旧结果。新目录results/physical_block_score_correction_v2；必要新增score/new-composition runner与缓存机制诊断输出。先code/input/runtime保存push、一次fit/model保存push，再新case求解→缓存独立审查/数组下载hash/本case push→一次修正pool refit→审查保存push后STOP。禁止坏结果调参重试或删除。当前尚无修正结果或新组合结果，旧CHECK121TP10FP仍有效。
+
 # COMPLETED — 物理预测联合筛选及高召回池实际二次解卷积 — 2026-09-13
 
 新CHECK筛选及用户追加pool-only第二次NNLS均已完成。固定高召回池与重拟合结果完全相同：121TP/10FP/4FN，FDP7.6336%、recall96.8%，无refit额外TP损失或FP移除；严格旧score交集83TP/2FP，2.3529%、66.4%，仅secondary。用户5%查询：DEV112/5（4.2735%、89.6%）；其固定cut转CHECK117/6（4.8780%、93.6%），未替换refit池、未对123名另跑NNLS。实际131列15837像素耗时156.08秒；144文件下载hash一致，remote/local缓存与独立数组身份复核PASS，所有最终/块数组两端保留，无删除。

@@ -1,0 +1,74 @@
+{
+  "version": "JOINT_NEW_CASE_VALIDATION_V1",
+  "cases": [
+    {
+      "id": "CAL1",
+      "role": "CAL",
+      "source": "SUPPORTED_MISMATCH__CAL_R71_K125",
+      "seed": 7401
+    },
+    {
+      "id": "CAL2",
+      "role": "CAL",
+      "source": "SUPPORTED_MISMATCH__CAL_R72_K125",
+      "seed": 7402
+    },
+    {
+      "id": "HOLD1",
+      "role": "HOLD",
+      "source": "close_neighbor__HOLD_R71_K125",
+      "seed": 7501
+    },
+    {
+      "id": "HOLD2",
+      "role": "HOLD",
+      "source": "close_neighbor__HOLD_R72_K125",
+      "seed": 7502
+    }
+  ],
+  "bindings": {
+    "source_files": {
+      "/root/small_mismatch_nnls_first/results/result.json": "df0da8a2b48e7d8c9b8b7e2d24f17cf2177c1e6967fb1d75cda6388d92b38797",
+      "/root/small_mismatch_nnls_first/results/molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+      "/root/small_mismatch_nnls_first/results/design.json": "f6401b069986dbedb4c8f130014f9a6ae6a0e8f1e38c0f6574c28e79d95efc27",
+      "/root/small_mismatch_nnls_first/components/A_solver.npy": "2e33915f99ce80172fe8e707e114ed17738628c8c7567528f27966be322da293",
+      "/root/small_mismatch_nnls_first/components/component_audit.json": "2c7a17fb6c29098290d47fdbe4260a9706190b1e71bb4038afde98a4cb0ee6a7",
+      "/root/small_mismatch_nnls_first/components/component_metadata.json": "13458619a58fa4d5bf406b1f93760a42e933458a0d6d8aa2875c33c0e611a02b",
+      "/root/small_mismatch_nnls_first/components/components.npz": "52686db8d0784b98a3290be4f51d8bde3d2fcb8aff906ac40a12cc96484b9f2f",
+      "/root/small_mismatch_nnls_first/components/metadata.json": "7cc7fd54c075237725b7f521a59a74f9552cb5dc21563912c83baffc4ef1c10a",
+      "/root/small_mismatch_nnls_first/components/provenance.json": "9b6c9b7f1eb578160565a5f911524ce3fc8bf316a81449b7606792508771e85f",
+      "/root/physical_identity_mainline_v1/results/cases/SUPPORTED_MISMATCH__CAL_R71_K125/input.json": "4aa69c1960e48e533a9592003915d3dc0e60e538e16b3ef295dec52b208d1e85",
+      "/root/physical_identity_mainline_v1/results/cases/SUPPORTED_MISMATCH__CAL_R71_K125/observation_truth.npz": "779d55c59077911bac6b18e42ae854dae271553807321a19e981b8da2ed56fae",
+      "/root/physical_identity_mainline_v1/results/cases/SUPPORTED_MISMATCH__CAL_R72_K125/input.json": "98ca0cc63f93f0082789dfe61cf90b9b557e59269a019b072e73e6e29dab0ac3",
+      "/root/physical_identity_mainline_v1/results/cases/SUPPORTED_MISMATCH__CAL_R72_K125/observation_truth.npz": "08fdf84ea8156ca0c2f752409b85b8a0ba2519e76159a13913afc8cc7e1335d4",
+      "/root/physical_identity_mainline_v1/results/cases/close_neighbor__HOLD_R71_K125/input.json": "818dc6724012c14d20f6a82e1778ee27b8c68fe3d2a1067cfe911f8f53f97494",
+      "/root/physical_identity_mainline_v1/results/cases/close_neighbor__HOLD_R71_K125/observation_truth.npz": "d551734f6c397fae071bd6adb1e444207802ecc0f640c8f534a2f1ea33946e9b",
+      "/root/physical_identity_mainline_v1/results/cases/close_neighbor__HOLD_R72_K125/input.json": "23114e8596aeb2e9462ee2063a58e63e2a4a0468a8bfa71848c632c4fa967b6a",
+      "/root/physical_identity_mainline_v1/results/cases/close_neighbor__HOLD_R72_K125/observation_truth.npz": "d29506031005a69801946d74e887876bb3dcf5871df35333c94c2d8de6b35de6"
+    },
+    "code": {
+      "analysis/run_identity_confidence_joint_validation.py": "24339767afeeb54c4c3d7e78727ac9e4092310dc8376dc5a427a622aca23afe6",
+      "analysis/test_identity_confidence_joint_validation.py": "616740966b82a6206a52eb006f970fc9d54471b497e8dd88584a1f3d6ae8cf42",
+      "analysis/run_small_mismatch_nnls_first_case.py": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+      "analysis/run_nnls_solver_baseline.py": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+      "analysis/small_relative_spectral_mismatch.py": "132344da5ec5e6924e9d261ccf2fee5d99c5ca6630619e317a1c1b42fce22269",
+      "src/rho_zero.py": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+      "docs/IDENTITY_CONFIDENCE_CONTINUOUS_PLAN.md": "88dcdc29f6b97d63a3a318666c0a83793aa2b55c2c2aa833b3df9c2ebcebeb7a"
+    },
+    "runtime": {
+      "numpy": "2.1.3",
+      "scipy": "1.15.3",
+      "sklearn": "1.6.1"
+    }
+  },
+  "model_sha256": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1",
+  "generator": "Original physical-ion lognormal mean1 CV.05, column L2, seed frozen per case, one dataset scalar",
+  "solver": "Unchanged full391 pixel NNLS and KKT via first-case engine; global-mean original rho_zero; mean gate .001",
+  "training": "One fixed six-feature L2 logistic model, C1; no auxiliary features or hyperparameter search",
+  "calibration": "One common tied-score cutoff; maximize pooled retention subject to per-case and pooled 1%/80% target",
+  "execution": "CAL1 feasibility before CAL2; both CAL and seals before HOLD; per-case review/download/push/ACK",
+  "scope": "New perturbation observations, fixed library/spatial construction; disjoint CAL/HOLD true pools, not unseen candidate names or real MSI",
+  "independent_population_FDR_guarantee": false,
+  "GPU": false,
+  "no_deletion": true
+}

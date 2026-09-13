@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "A_solver": true,
+    "A_target": true,
+    "X_true": true,
+    "B": true,
+    "fingerprint": true,
+    "truth_indices": true,
+    "truth_names": true,
+    "truth_counts": true,
+    "truth_disjoint": true,
+    "finite": true,
+    "zero_background": true,
+    "identical_nominal_A": true,
+    "forward_float32": true
+  },
+  "foreground_pixels": 15837,
+  "old_truth_count": 125,
+  "new_truth_count": 125,
+  "truth_overlap": 0,
+  "forward_max_absolute_error": 0.0,
+  "source_sha256": "48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7",
+  "scope": "Input provenance only; no learned outcomes, training or solver"
+}

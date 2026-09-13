@@ -1,0 +1,11 @@
+{
+  "status":"PASS",
+  "score_implementation_sha256":"5524916a4a63bb130ceec60d78c0547a6fbfeae03dd3ababd6d4eeb4af4b2356",
+  "final_runner_sha256":"346d9a79019d8bca6abe12d7ddd2370090f5c3bc5dd056f9f3e4de56d3b3723b",
+  "score_tests":{"local":11,"remote":11,"passed":true,"actual_training":false},
+  "score_independent_code_review":"PASS: correct objective and bounds; DEV-only fit; label-free prediction; tied thresholds and all-truth accounting",
+  "runner_checks":"CLI/AST/compile, alias identity accounting, solver/filter/refit losses, completion membership and hash rejection passed",
+  "initial_preparation_note":"Remote results/new_composition was prepared before an additional model-review PASS validation was finalized. It has no training, solver, rho or physical features. Preserve it as a technical preparation snapshot. Final code is prepared separately under results/new_composition_case.",
+  "final_remote_case":"/root/physical_block_score_correction_v2/results/new_composition_case",
+  "no_old_scientific_code_changed":true
+}

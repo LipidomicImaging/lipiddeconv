@@ -1,0 +1,100 @@
+{
+  "version": "PHYSICAL_BLOCK_SCORE_CORRECTION_V2",
+  "case": "NEW_COMPOSITION_CHECK",
+  "role": "DEVELOPMENT; original HOLD eligibility retired",
+  "runtime": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.6.1"
+  },
+  "code": {
+    "analysis/run_physical_block_prediction.py": "e558a4a5f5971b9129c5829c7aa8d51c003fe345eacd86ec6346c6dc102fbec6",
+    "analysis/physical_block_prediction.py": "beef064161f8956c5800597fd36850e2604f148cdd5378ed37fb78d66fe394d0",
+    "analysis/review_physical_block_prediction.py": "350d339811dcaa55b8aa98b7875da0134f3f5e934b07c96bdbe806bc93180bb9",
+    "analysis/run_nnls_solver_baseline.py": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+    "analysis/run_small_mismatch_nnls_first_case.py": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+    "analysis/run_identity_confidence_joint_validation.py": "24339767afeeb54c4c3d7e78727ac9e4092310dc8376dc5a427a622aca23afe6",
+    "analysis/refit_screened_nnls.py": "8480cb693dc22a1653cfd659c9ba67e44f848e7233d98fe2b6682a0b53e60e24",
+    "tests/test_physical_block_prediction.py": "d63077dd248fbdb2beb64e0300c36c2b46edaa7a994723edcbd551f125cbe42a",
+    "tests/test_review_physical_block_prediction.py": "516b53222685e009729766a031f0825ee221043ed0c7fb1024e67c166fb82def",
+    "tests/test_run_physical_block_prediction.py": "e56989a09326b5bc40290223ce4fdb9a61e63c1e41aa6cb4df849ee2a3452d90",
+    "docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md": "f71b108c6d548711b333406552742430281b26a3054db7f6a1cc621edf8ef93b",
+    "analysis/run_physical_block_pool_refit.py": "00e6cd5ac7ca1730062d20cf6b27fec231a3087eab34ef6feb42d1d128ac84de",
+    "analysis/run_new_composition_development.py": "346d9a79019d8bca6abe12d7ddd2370090f5c3bc5dd056f9f3e4de56d3b3723b",
+    "analysis/physical_block_monotone_score.py": "5524916a4a63bb130ceec60d78c0547a6fbfeae03dd3ababd6d4eeb4af4b2356",
+    "src/rho_zero.py": "6f78ab5ab495c75d0c4f52614278c2fa6accdb2743824995aa297df955d12d44",
+    "docs/PHYSICAL_BLOCK_SCORE_CORRECTION_V2.md": "31c32c195407a426cff4ad52400391f6fb0c11ebd99b56aed9311f4739c1f3fa"
+  },
+  "prepared": {
+    "prepared/block_manifest.json": "a82228c6a1e18ff11d1a78c66181a6a6d39e9d222dd1124e3685fb2ea4d34344",
+    "prepared/portable.npz": "31f4e96af58c291eb81491e5c38665e90508a8550d864971175ebb54b7135e93",
+    "prepared/source_contract.json": "70a63e6b292a93e5cdcdac079d83dd5ae12eefbbcf3a7c35b50128fc60f6e282",
+    "prepared/source_contract_seal.json": "08c14161286fe82b2f9cbf1e6e275d1f676be6d751a3695a7d59050f373e6a59",
+    "prepared/source_input.json": "c316810365fdbd05151fa4edbafdb0195c0a1a85916d066be2b9d9e00cb603e2",
+    "prepared/source_metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "prepared/source_perturbation_audit.json": "e11eebdfa220dd11a3f8cc837a1e76febd23ca7a30dbb9d85506b61ec2f48a0e",
+    "prepared/source_preparation_seal.json": "54c6e1c995f61ed59bedda1ea3224af21f074690a66bb07241868fc435cd155a"
+  },
+  "original_files": {
+    "/root/identity_confidence_joint_validation/results/cases/HOLD1/input.json": "c316810365fdbd05151fa4edbafdb0195c0a1a85916d066be2b9d9e00cb603e2",
+    "/root/identity_confidence_joint_validation/results/cases/HOLD1/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "/root/identity_confidence_joint_validation/results/cases/HOLD1/perturbation_audit.json": "e11eebdfa220dd11a3f8cc837a1e76febd23ca7a30dbb9d85506b61ec2f48a0e",
+    "/root/identity_confidence_joint_validation/results/cases/HOLD1/prepared_arrays.npz": "48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7",
+    "/root/identity_confidence_joint_validation/results/contract.json": "70a63e6b292a93e5cdcdac079d83dd5ae12eefbbcf3a7c35b50128fc60f6e282",
+    "/root/identity_confidence_joint_validation/results/contract_seal.json": "08c14161286fe82b2f9cbf1e6e275d1f676be6d751a3695a7d59050f373e6a59",
+    "/root/identity_confidence_joint_validation/results/preparation_seal.json": "54c6e1c995f61ed59bedda1ea3224af21f074690a66bb07241868fc435cd155a",
+    "/root/physical_block_prediction_v1/results/design.json": "8b7d878954ae76cec513cd956bcf56fcab8e2339c55fbff64ae5c863d168c56a",
+    "/root/physical_block_prediction_v1/results/design_seal.json": "43844039f494446a63c7ce134c5ac1fd828cdcf2fc1b4289268f5d425ee8ea11",
+    "/root/physical_block_prediction_v1/results/block_manifest.json": "a82228c6a1e18ff11d1a78c66181a6a6d39e9d222dd1124e3685fb2ea4d34344",
+    "/root/physical_block_prediction_v1/results/prepared/CHECK.npz": "7365cb8d07b5cde5510a90e55152e8212edf60902599f690445da0b478b66cd0"
+  },
+  "source_prepared_path": "/root/identity_confidence_joint_validation/results/cases/HOLD1/prepared_arrays.npz",
+  "source_prepared_sha256": "48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7",
+  "source_arrays": {
+    "A": {
+      "shape": [
+        1084,
+        391
+      ],
+      "dtype": "<f4",
+      "sha256": "b9e05e185ffa692966b86022f5487fcdabff92f330a0a389a6bb4889a175a447"
+    },
+    "B": {
+      "shape": [
+        1084,
+        200,
+        90
+      ],
+      "dtype": "<f4",
+      "sha256": "38555ec0b8d0b5bf080c0a64c775d1fc755baade15141133f783a823fae8d53d"
+    },
+    "mask": {
+      "shape": [
+        200,
+        90
+      ],
+      "dtype": "|b1",
+      "sha256": "702aa2e3b7707ca366bba9c797d2b0b247cec5f4229899c2cff1a628ed371971"
+    }
+  },
+  "candidate_count": 391,
+  "molecular_count": 377,
+  "all_truth_count": 125,
+  "foreground_pixels": 15837,
+  "workers_per_stage": 4,
+  "simultaneous_stages_max": 2,
+  "total_workers_max": 8,
+  "blas_threads": 1,
+  "block_size": 250,
+  "maxiter": 3910,
+  "physical_block_count": 34,
+  "physical_models": 12852,
+  "wall_budget_seconds_per_stage": 14400,
+  "budget_enforcement": "external process-group timeout; preserve partials",
+  "candidate_report_gate": 0.001,
+  "molecular_report_gate": "any alias; sum reported abundance; max reported rho",
+  "model_required_before_any_solve": true,
+  "independent_FDR_claim": false,
+  "no_observation_regeneration": true,
+  "scope": "Different true composition and perturbation together; existing spatial maps and relative abundances"
+}

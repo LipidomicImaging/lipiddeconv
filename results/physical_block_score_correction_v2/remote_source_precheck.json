@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source": "/root/identity_confidence_joint_validation/results/cases/HOLD1",
+  "new_role": "NEW_COMPOSITION_CHECK_DEVELOPMENT",
+  "runtime": {"numpy":"2.1.3","scipy":"1.15.3","sklearn":"1.6.1"},
+  "cpu_count":192,
+  "prepared_arrays_sha256":"48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7",
+  "input_sha256":"c316810365fdbd05151fa4edbafdb0195c0a1a85916d066be2b9d9e00cb603e2",
+  "metadata_sha256":"5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+  "learned_arrays_exists":false,
+  "result_exists":false,
+  "new_observation_generated":false
+}
