@@ -1,4 +1,10 @@
-# 两阶段开发：BASELINE完成，新指标臂待交接执行 — 2026-09-13
+# 两阶段空间供体指标开发比较已完成 — 2026-09-13
+
+本轮固定两臂已完整完成，缓存独立审查均PASS。原rho+丰度联合模型初筛及缩库重拟合均119TP/8FP/6FN，recall95.2%、FDP6.2992%；加入空间单/双供体指标后初筛及重拟合均120TP/8FP/5FN，recall96%、FDP6.25%。逐名比较仅新增一个真身份PE O-18:1_22:6，八个假身份完全相同；两种再次解卷积均未改变初筛名单。最终1%/80%和5%/80%均未通过，可靠定性主目标仍未解决，不外推为指标或两阶段方法不可能。
+
+方案4347b0d、模型/候选池d899022、BASELINE具体结果f1dff72均已按顺序成功推送；BASELINE保存后才执行AUGMENTED。两臂各15837像素、64块、391candidate/377molecular记录及完整最终数组全部保留，来源/冻结代码/模型/成员/有限性/原alias门槛与计数独立缓存审查PASS。27项先前测试通过，特征缓存14360项审查通过；未重跑训练/求解用于复核，无删除。报告results/two_stage_spatial_donor_v1/analysis_record.md，最终comparison.json及两臂独立review齐全。保存本次AUGMENTED具体结果和最终比较到授权记录分支后STOP；两个case均已曝光且共享身份与空间模板，结论是开发FDP，不是独立或真实MSI FDR验证。无新CAL2/HOLD/GPU/观测/下一实验启动。
+
+# 历史交接：BASELINE完成，新指标臂待执行 — 2026-09-13
 
 方案/输入4347b0d、模型/候选池d899022均已成功推送。BASELINE缩库127列、15837像素完整完成，原KKT检查及缓存source/blocks/array/alias复核PASS；初筛和最终均119TP/8FP/6FN，recall95.2%、FDP6.2992%，重拟合没有改变身份名单。全部391candidate/377molecular记录和64块/最终数组保留，无删除。空间特征独立缓存审查14360项通过。下一步先成功推送此BASELINE具体结果，再执行已预声明且已封存的AUGMENTED臂（128列）；不改任何模型/阈值/特征，不启动旧CAL2/HOLD。新输出 results/two_stage_spatial_donor_v1。本轮配对开发尚未完成，无独立FDR结论。
 

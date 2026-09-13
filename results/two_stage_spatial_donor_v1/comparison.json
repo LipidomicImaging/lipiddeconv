@@ -1,0 +1,133 @@
+{
+  "status": "DEVELOPMENT_COMPARISON_COMPLETE",
+  "arms": {
+    "BASELINE": {
+      "arm": "BASELINE",
+      "status": "CACHED_REVIEW_PASS",
+      "raw": {
+        "TP": 125,
+        "FP": 51,
+        "FN": 0,
+        "FDP": 0.2897727272727273,
+        "all_truth_recall": 1.0,
+        "reportable_truth_recall": 1.0,
+        "TP_retention": 1.0,
+        "solver_misses": 0,
+        "retained": 176,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "screened": {
+        "TP": 119,
+        "FP": 8,
+        "FN": 6,
+        "FDP": 0.06299212598425197,
+        "all_truth_recall": 0.952,
+        "reportable_truth_recall": 0.952,
+        "TP_retention": 0.952,
+        "solver_misses": 0,
+        "retained": 127,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "final": {
+        "TP": 119,
+        "FP": 8,
+        "FN": 6,
+        "FDP": 0.06299212598425197,
+        "all_truth_recall": 0.952,
+        "reportable_truth_recall": 0.952,
+        "TP_retention": 0.952,
+        "solver_misses": 0,
+        "retained": 127,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "screening_true_losses": [
+        "PA 20:1_20:2",
+        "PE 17:0_20:2",
+        "PE 18:2_22:4",
+        "PE O-18:1_22:6",
+        "PG 16:0_22:5",
+        "PG 20:2_18:3"
+      ],
+      "additional_refit_true_losses": [],
+      "refit_removed_false_identities": [],
+      "refit_removed_true_identities": [],
+      "final_endpoint_1pct_80": false,
+      "final_endpoint_5pct_80": false,
+      "relative_reconstruction_residual": 0.010919287075275574,
+      "numerical_review": "Finite arrays, original source hashes, all-index membership, original candidate gate and cached reconstruction; no optimization",
+      "exposure": "Development only; no independent FDR or real-MSI claim",
+      "arrays_sha256": "e00699dbbcc11cd048614388dd08e77d8183a6dc85c3448347143f44b21fa71c",
+      "receipt_sha256": "229c966493c5ede5542388622ac2428fa8fe091750deb0fa5696cdd2e053a144"
+    },
+    "AUGMENTED": {
+      "arm": "AUGMENTED",
+      "status": "CACHED_REVIEW_PASS",
+      "raw": {
+        "TP": 125,
+        "FP": 51,
+        "FN": 0,
+        "FDP": 0.2897727272727273,
+        "all_truth_recall": 1.0,
+        "reportable_truth_recall": 1.0,
+        "TP_retention": 1.0,
+        "solver_misses": 0,
+        "retained": 176,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "screened": {
+        "TP": 120,
+        "FP": 8,
+        "FN": 5,
+        "FDP": 0.0625,
+        "all_truth_recall": 0.96,
+        "reportable_truth_recall": 0.96,
+        "TP_retention": 0.96,
+        "solver_misses": 0,
+        "retained": 128,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "final": {
+        "TP": 120,
+        "FP": 8,
+        "FN": 5,
+        "FDP": 0.0625,
+        "all_truth_recall": 0.96,
+        "reportable_truth_recall": 0.96,
+        "TP_retention": 0.96,
+        "solver_misses": 0,
+        "retained": 128,
+        "all_truth_count": 125,
+        "raw_reported_truth_count": 125
+      },
+      "screening_true_losses": [
+        "PA 20:1_20:2",
+        "PE 17:0_20:2",
+        "PE 18:2_22:4",
+        "PG 16:0_22:5",
+        "PG 20:2_18:3"
+      ],
+      "additional_refit_true_losses": [],
+      "refit_removed_false_identities": [],
+      "refit_removed_true_identities": [],
+      "final_endpoint_1pct_80": false,
+      "final_endpoint_5pct_80": false,
+      "relative_reconstruction_residual": 0.009718078751748996,
+      "numerical_review": "Finite arrays, original source hashes, all-index membership, original candidate gate and cached reconstruction; no optimization",
+      "exposure": "Development only; no independent FDR or real-MSI claim",
+      "arrays_sha256": "6da51bb323516b1f1ba99e4a8f5023bb9efe431358301582a0de17bef8ad2aee",
+      "receipt_sha256": "fdbc9ddb12825d9bb9e98599e7f906eebee9056c632227310e9ab07e4dda5f60"
+    }
+  },
+  "augmented_final_added": [
+    "PE O-18:1_22:6"
+  ],
+  "augmented_final_removed": [],
+  "independent_validation": false,
+  "old_CAL1_NO_GO_unchanged": true,
+  "further_experiment_started": false
+}

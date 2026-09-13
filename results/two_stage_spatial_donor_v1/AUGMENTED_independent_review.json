@@ -1,0 +1,101 @@
+{
+  "status": "INDEPENDENT_CACHE_AUDIT_PASS",
+  "arm": "AUGMENTED",
+  "reviewed_at_utc": "2026-09-13T06:31:50.524273+00:00",
+  "source_hashes_verified": 12,
+  "frozen_code_hash_count": 10,
+  "model_and_prepared_seal_file_checks": {
+    "model_seal.json": 6,
+    "prepared_seal.json": 10
+  },
+  "recorded_prior_test_count": 27,
+  "test_check": "All frozen implementation/test file hashes match design; preparation record states 27 passed; tests not rerun in this cache audit.",
+  "completion_sha256": "5cf91f43e52d322ad2eea38a4116ca98368eb2ddcb69549a34de36b631afdb6f",
+  "root_review_sha256": "551a49c764763c60f5c03fb5fb4abe79ab17512ed129c3e014265117c9181d17",
+  "arrays_sha256": "6da51bb323516b1f1ba99e4a8f5023bb9efe431358301582a0de17bef8ad2aee",
+  "receipt_sha256": "fdbc9ddb12825d9bb9e98599e7f906eebee9056c632227310e9ab07e4dda5f60",
+  "exact_candidate_count": 391,
+  "exact_molecular_count": 377,
+  "foreground_pixels": 15837,
+  "retained_candidate_count": 128,
+  "block_count": 64,
+  "block_file_hash_count": 128,
+  "block_final_values_exact": true,
+  "independent_fingerprint_verified": true,
+  "actual_input_array_bindings_verified": [
+    "A",
+    "B",
+    "mask"
+  ],
+  "all_stored_arrays_finite": true,
+  "original_alias_and_candidate_gate_verified": true,
+  "metrics": {
+    "raw": {
+      "TP": 125,
+      "FP": 51,
+      "FN": 0,
+      "FDP": 0.2897727272727273,
+      "all_truth_recall": 1.0,
+      "reportable_truth_recall": 1.0,
+      "TP_retention": 1.0
+    },
+    "screened": {
+      "TP": 120,
+      "FP": 8,
+      "FN": 5,
+      "FDP": 0.0625,
+      "all_truth_recall": 0.96,
+      "reportable_truth_recall": 0.96,
+      "TP_retention": 0.96
+    },
+    "final": {
+      "TP": 120,
+      "FP": 8,
+      "FN": 5,
+      "FDP": 0.0625,
+      "all_truth_recall": 0.96,
+      "reportable_truth_recall": 0.96,
+      "TP_retention": 0.96
+    }
+  },
+  "initial_solver_misses": [],
+  "screening_true_losses": [
+    "PA 20:1_20:2",
+    "PE 17:0_20:2",
+    "PE 18:2_22:4",
+    "PG 16:0_22:5",
+    "PG 20:2_18:3"
+  ],
+  "additional_refit_true_losses": [],
+  "refit_removed_false_identities": [],
+  "refit_identity_changes": [],
+  "paired_final_identity_comparison": {
+    "augmented_added": [
+      {
+        "lipid_name": "PE O-18:1_22:6",
+        "molecular_truth": true
+      }
+    ],
+    "augmented_removed": [],
+    "same_false_identity_set": true,
+    "augmented_tp_superset": true,
+    "false_identities": [
+      "PE 17:1_20:1",
+      "PE O-18:1_20:2",
+      "PE O-18:2_22:5",
+      "PG 14:0_22:3",
+      "PG 16:0_20:5",
+      "PG 17:0_20:3",
+      "PG 17:1_20:4",
+      "PG 18:2_20:2"
+    ]
+  },
+  "maximum_recorded_kkt_bound_ratio": 0.0003347977349724175,
+  "scope": "Independent JSON/hash/NumPy review of all source hashes, actual bound inputs, result membership, all 64 block pairs and exact final X values, candidate means, molecular truth accounting and exact paired final identities. No training, fitting or rho.",
+  "not_repeated": [
+    "Full A@X reconstruction arithmetic: already checked by root cached review; independently checked B_hat hash, shape, dtype, finite values and zero background here.",
+    "Float64 pre-storage KKT arithmetic: only preserved per-block finite/bounded KKT receipts checked; unrounded solver values not available in stored float32 blocks."
+  ],
+  "optimization_performed": false,
+  "independent_FDR_validation": false
+}

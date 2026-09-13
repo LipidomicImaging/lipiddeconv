@@ -1,4 +1,10 @@
-# ACTIVE — BASELINE已完成，保存后运行封存AUGMENTED — 2026-09-13
+# COMPLETED — 两阶段空间供体指标开发比较 — 2026-09-13
+
+docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md规定的两种筛选→缩库NNLS配对开发、完整候选/分子计数、缓存独立审查与最终比较均完成。BASELINE最终119TP/8FP/6FN（95.2%recall、6.2992%FDP），AUGMENTED最终120TP/8FP/5FN（96%recall、6.25%FDP）；仅增加一个真身份，八个假身份不变，重拟合均未改变初筛名单。未达最终1%/80%或5%/80%，不能宣称独立FDR控制。更广泛目标保持未解决。
+
+最终文件仅results/two_stage_spatial_donor_v1内AUGMENTED完整紧凑结果/独立review/comparison.json/analysis_record.md及本状态更新。原始数组、两臂最终数组和全部块继续保留本地，不纳入轻量Git、不删除。BASELINE已在f1dff72保存后才执行AUGMENTED；现在commit/push本次具体AUGMENTED结果与完成记录，核对推送包含本case后STOP。不因本轮失败改阈值/特征/参数重试，不自动开始下一实验或旧CAL2/HOLD。本节取代下方历史ACTIVE交接。
+
+# 历史交接 — BASELINE已完成，保存后运行封存AUGMENTED — 2026-09-13
 
 BASELINE完整15837像素重拟合和缓存审查通过；初筛/最终同为119TP/8FP，95.2%recall、6.2992%FDP，身份名单无变化。当前只剩：BASELINE具体结果成功push→AUGMENTED预封存128列CPU重拟合→缓存独立审查→最终两臂comparison/analysis及Git。模型/输入前置push已完成4347b0d和d899022；不要重复训练、改阈值/指标或重跑BASELINE。每个臂的全部数组/块保留本地，紧凑记录Git；新结果 results/two_stage_spatial_donor_v1。结束后更新状态、标记本开发比较COMPLETED、push并STOP。没有旧CAL2/HOLD/GPU/新观测/清理。
 
