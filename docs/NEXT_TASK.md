@@ -1,3 +1,7 @@
+# ACTIVE — 两阶段空间供体指标开发比较 — 2026-09-13
+
+执行 docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md。只读旧DEV_TRAIN与已曝光CAL1缓存；新增 analysis/spatial_donor_confidence.py、analysis/refit_screened_nnls.py、analysis/run_two_stage_spatial_donor.py 及两项对应解析测试文件。先完成检查并推送合同/实现/输入hash封存；再仅一次增强分类器，保存原/增强模型各自TRAIN经验FDP5%候选池阈值及CAL1选择名单，推送后BASELINE缩库CPU NNLS→缓存独立复核/结果Git→AUGMENTED同流程。新结果仅 results/two_stage_spatial_donor_v1，保留全部分子/candidate记录、块和大数组；最终comparison.json/analysis_record.md、更新CURRENT_STATE、标记本次开发比较COMPLETED、commit/push后STOP。两个case都已曝光，不宣称独立FDR、不恢复旧CAL2/HOLD、不重算原rho/全库/ISTA、不修改旧结论、不调参重试或清理。更广泛最终定性目标保持未解决，下一独立验证须另行冻结。
+
 # CAL1完成并NO-GO；本版本其余三组停止 — 2026-09-12
 
 18:18:09完成。原始NNLS125TP/51FP/0FN；FDP<=1%下最多64TP/0FP，recall/retention51.2%；80%点100TP/3FP、FDP2.91%；recall>=80%的最佳FDP仍2.50%（117TP/3FP）。远程及本地独立检查PASS，316文件下载hash一致，大数组/块均两端保留，无删除或重算。记录 results/identity_confidence_joint_validation/cases/CAL1/analysis_record.md。冻结共享模型排序未达到目标，不能仅靠扩大CAL或改单一阈值修复；CAL2/HOLD1/HOLD2未求解、无HOLD阈值封存。此版本关闭，持续目标ACTIVE；先保存失败/来源与Git，再依据机制设计下一方法，不在此版本重调、不重复监控。

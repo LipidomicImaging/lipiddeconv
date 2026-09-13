@@ -1,0 +1,73 @@
+{
+  "version": "TWO_STAGE_SPATIAL_DONOR_V1",
+  "sources": {
+    "DEV_TRAIN": {
+      "path": "results\\small_mismatch_nnls_first_case\\case",
+      "hashes": {
+        "prepared_arrays.npz": "948463cef1f9899147d2bad71b6119b2bc02a36b525fa5cdb5501bd36f55a7ed",
+        "learned_arrays.npz": "802e355b178ad9a39905d6dd930448e09e0cd91e190f0aea24f0d916de499776",
+        "metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+        "molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+        "candidate_records.json": "0dcbf245842b07d94b43afc572f64b53dd1d9a91c34e4f0a68598efdb95d7f46",
+        "result.json": "df0da8a2b48e7d8c9b8b7e2d24f17cf2177c1e6967fb1d75cda6388d92b38797"
+      }
+    },
+    "EXPOSED_DEV_CHECK": {
+      "path": "results\\identity_confidence_joint_validation\\cases\\CAL1",
+      "hashes": {
+        "prepared_arrays.npz": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291",
+        "learned_arrays.npz": "c2d9b61aed6cfcb852262b21c21c5336f2431106f3aac60a611f6f4bb05e6ba8",
+        "metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+        "molecular_records.json": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+        "candidate_records.json": "7460462f49efed655a23db9cde7a7b4fba6d55620683586f013d73ea04f8b15f",
+        "result.json": "9974d12a3156e6114428717e21c4e2f053f84c7ab51b28e8166b868018f103f2"
+      }
+    },
+    "baseline_model_sha256": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1"
+  },
+  "code": {
+    "analysis/run_two_stage_spatial_donor.py": "e4f0e4311c7c56442f9178451975e89a0f0de1e830ffc5f0b0a4f7862b8b7dd2",
+    "analysis/spatial_donor_confidence.py": "a5d4d4e76f80c55ff3cd9e94567a9ba79d59f4850d04440d759a195bf285e4fe",
+    "analysis/refit_screened_nnls.py": "8480cb693dc22a1653cfd659c9ba67e44f848e7233d98fe2b6682a0b53e60e24",
+    "tests/test_spatial_donor_confidence.py": "ccc5f2f7ec262c98b637dd9902cc3af82d8926b81c2c7c1b6b84642bd9ce468c",
+    "tests/test_refit_screened_nnls.py": "6f64b0be2d5c11f64a7ee14cc97292710eebd462c90e365d18726723e4757719",
+    "tests/test_two_stage_spatial_donor.py": "14f3d7583938974746e2c189b49857adfd6e15b1a8e18bdee548611518a52ac4",
+    "analysis/run_nnls_solver_baseline.py": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+    "analysis/run_small_mismatch_nnls_first_case.py": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+    "analysis/run_identity_confidence_joint_validation.py": "24339767afeeb54c4c3d7e78727ac9e4092310dc8376dc5a427a622aca23afe6",
+    "docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md": "8089738d7fd8ad73a3e70a8c03d062c698759cb7519c14770100e7477db5325d"
+  },
+  "runtime": {
+    "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "numpy": "1.25.2",
+    "scipy": "1.11.3",
+    "sklearn": "1.2.2",
+    "platform": "win32"
+  },
+  "arms": [
+    "BASELINE",
+    "AUGMENTED"
+  ],
+  "features": [
+    "spatial_donor_log10_u1",
+    "spatial_donor_log10_u2"
+  ],
+  "candidate_pool_training_FDP": 0.05,
+  "final_reporting_gate": 0.001,
+  "strict_endpoint": {
+    "FDP": 0.01,
+    "recall": 0.8
+  },
+  "extended_descriptive_endpoint": {
+    "FDP": 0.05,
+    "recall": 0.8
+  },
+  "fit_count": 1,
+  "reduced_refit_count": 2,
+  "exposure": "Both cases exposed; shared identities/templates; development only",
+  "no_new_observation": true,
+  "no_HOLD": true,
+  "no_rho": true,
+  "no_GPU": true,
+  "storage": "All arrays and checkpoints retained locally; compact records in Git"
+}
