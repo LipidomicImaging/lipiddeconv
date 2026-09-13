@@ -1,3 +1,7 @@
+# PARTIAL REVIEW COMPLETE — 真实 CE29 前4500像素 — 2026-09-13
+
+按用户要求已统计18个完整NNLS块（4500/15837像素，28.4%），缓存hash/KKT和独立评分/别名/CSV集合复核PASS。同位置ISTA raw71、固定pool/DEV5/DEV1为34/29/18；NNLS raw80、44/40/20。两者丰度只取相同像素，谱块S/C仍用缓存全图证据；该前缀不是随机样本，阶段数量不能当全图最终或真实FDR/recall。报告results/real_ce29_nnls_joint_screening_v2/partial_004500/analysis_record.md。只保存快照并汇报，主PID53356/session74749继续；不得重启、改阈值或删除。本阶段完成不代表全库NNLS主任务结束。
+
 # RUNNING — 真实 CE29 全库 NNLS 对照 — 2026-09-13
 
 已于北京时间19:10:08启动本地PID53356，统一exec session74749；原input seal2f5e49d0、代码及合同已先push 0a0eeb8。当前只继续这次运行，不重复启动、不进度轮询。运行输出results/real_ce29_nnls_joint_screening_v2；nnls/status.json记录15837像素状态，最终report.json、independent_final_review.json和failure.json决定完成或失败。run会自动应用原模型/三档阈值并执行缓存审查。完成后直接汇报ISTA/NNLS raw与三档保留/差异名单，保存紧凑Git结果并STOP；保持未知真实FDR/recall，保留全部数组。
@@ -8,7 +12,7 @@
 
 # ACTIVE — 先开发可用的身份筛选指标 — 2026-09-13
 
-用户明确要求先做出有效指标，推迟等强/强弱交换家族。执行docs/CACHED_IDENTITY_EVIDENCE_V1.md：复用DEV/旧CHECK/新组合102个已完成full/delete物理块缓存，提取直接身份证据、去最大块贡献及稳定度；只在DEV一次比较预先固定TRIM/DIRECT/JOINT三臂，按DEV5%规则选定单一候选、封存push后迁移两组CHECK，再固定5%集合实际refit。旧指标/阈值/production/rho/观察/alias/分组保持不变，不新模拟、不因弱结果调参重跑。新输出results/cached_identity_evidence_v1；每case复核/保存/push后下游，所有数组保留、无删除。当前尚无新指标结果。完成此有限比较和实际终点后更新完成/push/STOP，不把开发结果称真实FDR保证。
+用户明确要求先做出有效指标，推迟等强/强弱交换家族。执行docs/CACHED_IDENTITY_EVIDENCE_V1.md：复用DEV/旧CHECK/新组合102个已完成full/delete物理块缓存，提取直接身份证据、去最大块贡献及稳定度；只在DEV一次比较预先固定TRIM/DIRECT/JOINT三臂，按DEV5%规则选定单一候选、封存push后迁移两组CHECK，再固定5%集合实际refit。旧指标/阈值/production/rho/观察/alias/分组保持不变，不新模拟、不因弱结果调参重跑。新输出results/cached_identity_evidence_v1；每case复核/保存/push后下游，所有数组保留、无删除。三组缓存新特征与独立复核完成；三臂DEV新增项权重全部0，三档名单与baseline一致，无增益，独立模型审查PASS。先保存模型/DEV结果push后执行两组CHECK评分及预声明5%集合实际refit，不改参数重试。完成此有限比较和实际终点后更新完成/push/STOP，不把开发结果称真实FDR保证。
 
 # COMPLETED — 真实 CE29 最新联合指标筛选 — 2026-09-13
 

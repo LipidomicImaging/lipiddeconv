@@ -1,0 +1,317 @@
+{
+  "status": "PASS",
+  "scope": "Independent cache-only DEV model arithmetic audit; no CHECK data accessed",
+  "method": "Python scalar math and independent tied-cut enumeration; no scoring/runner/optimizer imports",
+  "source_hashes": {
+    "design": "9384531a6ba97895e570a8b88a8baad1ed09e35354416a07fa13846d1bb119e5",
+    "design_seal": "f86129c9504e46c374ac058f92076f080372e4f78c5407001916e6819eb60d4a",
+    "reference_model": "a1fd3193d994cc22df1676ab6e5d76c5880f9acb6442065127efa3fe7280a8bb",
+    "reference_thresholds": "df44a646c0d6146259ece3c08dc3af5d61af1e4896825261f35d8b83745a79f4",
+    "model_seal": "35f5a991e46ef921fe7ec152a9dde46b1f8bb99b5a64cadd716cd076250d4038",
+    "selection": "042895829a7d018e94187ae30288e063080b2d4381007c4ec972810029137aae",
+    "reservation": "12e02af12467a6c185a27ddfd181a0200a7e98c03e4ff2590712abea8d09a89e",
+    "new_features": "af3c424285a89c15f29919f0f469d233b623de2ca1a17ec60e0accbe51cd8c88",
+    "feature_completion": "5d7f2824867e042f2cdb588cad7e146cd370b4dc77427e8eee69871feed59304",
+    "feature_review": "536189e2c1535df6a122aeac08e4f565ac54fe611c7c58c7ccc7186c60102050",
+    "dev_rows": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+    "old_features": "1190eef84a5ba15e69246f29ba1345c0d1d89d69e864f6a4c360662197ef2a2d",
+    "reference_train_scores": "7c4870623d210476a56046d57f97e61cd17dd4205dd5b40b2f222ecb503d45e4"
+  },
+  "sealed_model_artifacts_verified": 14,
+  "all_identity_count": 377,
+  "reported_train_count": 174,
+  "truth_denominator": 125,
+  "normalization": "Original five-column normalization unchanged; new columns independently recomputed from reported DEV only, population std, exact zero std replaced by 1",
+  "arms": {
+    "TRIM": {
+      "status": "PASS",
+      "normalization_errors": [
+        {
+          "feature": "trimmed_gain",
+          "mean_error": 0.0,
+          "std_error": 0.0
+        }
+      ],
+      "max_probability_error": 2.220446049250313e-16,
+      "objective": 42.342102748482645,
+      "objective_error": 0.0,
+      "max_gradient_error": 7.105427357601002e-15,
+      "max_projected_gradient": 3.401757599563737e-05,
+      "optimizer_message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "projected_gradient_below_requested_gtol": false,
+      "new_features": [
+        {
+          "feature": "trimmed_gain",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 1.3026230290953467,
+          "nonnegative_boundary_condition_satisfied": true
+        }
+      ],
+      "all_added_coefficients_exact_zero": true,
+      "same_selected_names_as_reference": {
+        "pool": true,
+        "fdp5": true,
+        "fdp1": true
+      },
+      "thresholds": {
+        "pool_threshold": 0.6299289536220914,
+        "fdp5_threshold": 0.8050718718815626,
+        "fdp1_threshold": 0.9587826401063207,
+        "required_pool_truth_count": 119,
+        "train_pool": {
+          "TP": 119,
+          "FP": 9,
+          "FN": 6,
+          "retained": 128,
+          "FDP": 0.0703125,
+          "all_truth_recall": 0.952,
+          "TP_retention": 0.952,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp5": {
+          "TP": 107,
+          "FP": 5,
+          "FN": 18,
+          "retained": 112,
+          "FDP": 0.044642857142857144,
+          "all_truth_recall": 0.856,
+          "TP_retention": 0.856,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp1": {
+          "TP": 65,
+          "FP": 0,
+          "FN": 60,
+          "retained": 65,
+          "FDP": 0.0,
+          "all_truth_recall": 0.52,
+          "TP_retention": 0.52,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        }
+      },
+      "max_existing_coefficient_change": 4.867539739272786e-06
+    },
+    "DIRECT": {
+      "status": "PASS",
+      "normalization_errors": [
+        {
+          "feature": "direct_gain",
+          "mean_error": 5.421010862427522e-20,
+          "std_error": 2.168404344971009e-19
+        },
+        {
+          "feature": "direct_per_signal",
+          "mean_error": 2.7755575615628914e-17,
+          "std_error": 0.0
+        }
+      ],
+      "max_probability_error": 1.1102230246251565e-16,
+      "objective": 42.34210274834293,
+      "objective_error": 2.1316282072803006e-14,
+      "max_gradient_error": 3.552713678800501e-15,
+      "max_projected_gradient": 1.0052445497656104e-05,
+      "optimizer_message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "projected_gradient_below_requested_gtol": false,
+      "new_features": [
+        {
+          "feature": "direct_gain",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 0.7112806828114563,
+          "nonnegative_boundary_condition_satisfied": true
+        },
+        {
+          "feature": "direct_per_signal",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 1.194474952543849,
+          "nonnegative_boundary_condition_satisfied": true
+        }
+      ],
+      "all_added_coefficients_exact_zero": true,
+      "same_selected_names_as_reference": {
+        "pool": true,
+        "fdp5": true,
+        "fdp1": true
+      },
+      "thresholds": {
+        "pool_threshold": 0.6299285108064415,
+        "fdp5_threshold": 0.8050711724716095,
+        "fdp1_threshold": 0.9587823488710803,
+        "required_pool_truth_count": 119,
+        "train_pool": {
+          "TP": 119,
+          "FP": 9,
+          "FN": 6,
+          "retained": 128,
+          "FDP": 0.0703125,
+          "all_truth_recall": 0.952,
+          "TP_retention": 0.952,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp5": {
+          "TP": 107,
+          "FP": 5,
+          "FN": 18,
+          "retained": 112,
+          "FDP": 0.044642857142857144,
+          "all_truth_recall": 0.856,
+          "TP_retention": 0.856,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp1": {
+          "TP": 65,
+          "FP": 0,
+          "FN": 60,
+          "retained": 65,
+          "FDP": 0.0,
+          "all_truth_recall": 0.52,
+          "TP_retention": 0.52,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        }
+      },
+      "max_existing_coefficient_change": 3.8937347746070827e-07
+    },
+    "JOINT": {
+      "status": "PASS",
+      "normalization_errors": [
+        {
+          "feature": "trimmed_gain",
+          "mean_error": 4.336808689942018e-19,
+          "std_error": 8.673617379884035e-19
+        },
+        {
+          "feature": "direct_gain",
+          "mean_error": 5.421010862427522e-20,
+          "std_error": 2.168404344971009e-19
+        },
+        {
+          "feature": "direct_per_signal",
+          "mean_error": 2.7755575615628914e-17,
+          "std_error": 0.0
+        },
+        {
+          "feature": "stability",
+          "mean_error": 2.220446049250313e-16,
+          "std_error": 5.551115123125783e-17
+        }
+      ],
+      "max_probability_error": 2.220446049250313e-16,
+      "objective": 42.342102749887616,
+      "objective_error": 1.2789769243681803e-13,
+      "max_gradient_error": 1.7763568394002505e-15,
+      "max_projected_gradient": 0.0001441277025676646,
+      "optimizer_message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "projected_gradient_below_requested_gtol": false,
+      "new_features": [
+        {
+          "feature": "trimmed_gain",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 1.3026060297564852,
+          "nonnegative_boundary_condition_satisfied": true
+        },
+        {
+          "feature": "direct_gain",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 0.7112807352724887,
+          "nonnegative_boundary_condition_satisfied": true
+        },
+        {
+          "feature": "direct_per_signal",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 1.1944692550226619,
+          "nonnegative_boundary_condition_satisfied": true
+        },
+        {
+          "feature": "stability",
+          "coefficient": 0.0,
+          "objective_gradient_at_coefficient": 0.788225378651237,
+          "nonnegative_boundary_condition_satisfied": true
+        }
+      ],
+      "all_added_coefficients_exact_zero": true,
+      "same_selected_names_as_reference": {
+        "pool": true,
+        "fdp5": true,
+        "fdp1": true
+      },
+      "thresholds": {
+        "pool_threshold": 0.6299289222334373,
+        "fdp5_threshold": 0.8050739444925162,
+        "fdp1_threshold": 0.9587834546812645,
+        "required_pool_truth_count": 119,
+        "train_pool": {
+          "TP": 119,
+          "FP": 9,
+          "FN": 6,
+          "retained": 128,
+          "FDP": 0.0703125,
+          "all_truth_recall": 0.952,
+          "TP_retention": 0.952,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp5": {
+          "TP": 107,
+          "FP": 5,
+          "FN": 18,
+          "retained": 112,
+          "FDP": 0.044642857142857144,
+          "all_truth_recall": 0.856,
+          "TP_retention": 0.856,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        },
+        "train_fdp1": {
+          "TP": 65,
+          "FP": 0,
+          "FN": 60,
+          "retained": 65,
+          "FDP": 0.0,
+          "all_truth_recall": 0.52,
+          "TP_retention": 0.52,
+          "all_truth_count": 125,
+          "raw_solver_misses": 0
+        }
+      },
+      "max_existing_coefficient_change": 1.3464342648927818e-05
+    }
+  },
+  "winner": "TRIM",
+  "winner_ranking": {
+    "TRIM": [
+      107,
+      -5,
+      -1,
+      0
+    ],
+    "DIRECT": [
+      107,
+      -5,
+      -2,
+      -1
+    ],
+    "JOINT": [
+      107,
+      -5,
+      -4,
+      -2
+    ]
+  },
+  "winner_explanation": "All arms tie at DEV5% 107TP/5FP; TRIM has the fewest added features. Not selected using CHECK.",
+  "threshold_replay": "Exact complete ties enumerated from serialized scores after independent scalar probability verification; avoids splitting ties due to scalar versus BLAS rounding.",
+  "interpretation": [
+    "All seven added coefficient positions across three arms are exactly zero, and their independently recomputed objective gradients at zero are positive. With the predeclared nonnegative constraints, increasing any such coefficient locally raises the DEV objective; zero is consistent with the active boundary.",
+    "Nonconstant feature values, their standardization, predictions and gradients were replayed. No missing-column or score-wiring error was found. This is evidence about the fixed constrained additive model on this DEV dataset, not proof that the features contain no information under all models or directions.",
+    "The optimizer reported relative-function-decrease termination, not achievement of gtol=1e-8. Actual projected gradients are retained for every arm. Small changes in existing coefficients and numeric cutoffs reflect finite optimization tolerance; all three endpoint selected-name sets equal the reference. No refit/retry is justified by this audit."
+  ],
+  "optimizer_called": false,
+  "fit_called": false,
+  "new_features_computed": false,
+  "model_or_seal_modified": false,
+  "independent_FDR_claim": false
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_BEFORE_CHECK_SCORING",
+  "winner": "TRIM",
+  "artifacts": {
+    "DIRECT/model.json": "c59b8d4e19432a78432f479d8ea3b9326b0490ae957839a7b02223e75fd70c8c",
+    "DIRECT/optimizer.json": "7b388460589eed5f68f58ad8fb0d5d97552ad367c5f52806faa298bba2577b2a",
+    "DIRECT/thresholds.json": "6fd56aa5f30c99bd3bc56ab25aa5273bd2801a119a6a340a1b2613d72a429c33",
+    "DIRECT/train_scores.json": "21f8920be42cfe2ec5aa0b3407616129cc7b1d2b0d5d1fda264c32a930773c3a",
+    "fit_reservation.json": "12e02af12467a6c185a27ddfd181a0200a7e98c03e4ff2590712abea8d09a89e",
+    "JOINT/model.json": "a765345c0e2105cd94a73393040eff38f7b2b0219e73b0ee3bfdf61c5cc7a43f",
+    "JOINT/optimizer.json": "8afdfc97303edd18d120a086f0fee37737a81da2a3e144c54da6289fe5a3cb1d",
+    "JOINT/thresholds.json": "91b4ada6115dc09d360455e79afdd274f0024455f5872bf7c7ba03c1220f87a4",
+    "JOINT/train_scores.json": "e608c737a1999346adf5a6a43b67b952558491bf7acff3a4faf7563f749830f8",
+    "selection.json": "042895829a7d018e94187ae30288e063080b2d4381007c4ec972810029137aae",
+    "TRIM/model.json": "a4b16c3e4ad82c4cd4137bede66626c77550bda874d09727550a713b177fee69",
+    "TRIM/optimizer.json": "bc75a9234542628d6ad23d04b1de1d3c54f6def3ecd0d5e9128e5fca9dde7c77",
+    "TRIM/thresholds.json": "9842942023c30325c19cab7bb7230f16edcd6f010fa33ba9c2ca6a8b292dcba5",
+    "TRIM/train_scores.json": "19048f4429c3ce4589681756f49f8db0e756cc3c5a154c0ce9c0fdaff8cdc303"
+  }
+}

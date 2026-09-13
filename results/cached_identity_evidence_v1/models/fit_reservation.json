@@ -1,0 +1,23 @@
+{
+  "input_commit": "74e6c05be9835e55c6a2506768ec1cbd62648872",
+  "design_sha256": "9384531a6ba97895e570a8b88a8baad1ed09e35354416a07fa13846d1bb119e5",
+  "arms": {
+    "TRIM": [
+      "trimmed_gain"
+    ],
+    "DIRECT": [
+      "direct_gain",
+      "direct_per_signal"
+    ],
+    "JOINT": [
+      "trimmed_gain",
+      "direct_gain",
+      "direct_per_signal",
+      "stability"
+    ]
+  },
+  "runtime": {
+    "numpy": "1.25.2",
+    "scipy": "1.11.3"
+  }
+}
