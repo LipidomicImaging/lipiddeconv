@@ -6,6 +6,10 @@
 
 用户授权用NNLS重跑同一真实观测；输入2f5e49d0已封存。只调用既有fit_screened全391列、15837前景像素、四CPU、逐像素KKT；固定原模型/阈值/报告门槛，复用已完成34谱块S/C及已有rho，新报告候选仅补缺失rho。不改ISTA结果或其他线程任务，不新建监控。新脚本analysis/run_real_ce29_nnls_comparison.py，协议docs/REAL_CE29_NNLS_COMPARISON.md，输出results/real_ce29_nnls_joint_screening_v2。一次run后缓存复核、比较名单/计数、向用户汇报并保存Git后STOP；不因结果调整模型或删除数组。
 
+# ACTIVE — 先开发可用的身份筛选指标 — 2026-09-13
+
+用户明确要求先做出有效指标，推迟等强/强弱交换家族。执行docs/CACHED_IDENTITY_EVIDENCE_V1.md：复用DEV/旧CHECK/新组合102个已完成full/delete物理块缓存，提取直接身份证据、去最大块贡献及稳定度；只在DEV一次比较预先固定TRIM/DIRECT/JOINT三臂，按DEV5%规则选定单一候选、封存push后迁移两组CHECK，再固定5%集合实际refit。旧指标/阈值/production/rho/观察/alias/分组保持不变，不新模拟、不因弱结果调参重跑。新输出results/cached_identity_evidence_v1；每case复核/保存/push后下游，所有数组保留、无删除。当前尚无新指标结果。完成此有限比较和实际终点后更新完成/push/STOP，不把开发结果称真实FDR保证。
+
 # COMPLETED — 真实 CE29 最新联合指标筛选 — 2026-09-13
 
 原始 production ISTA 报告76个分子身份；固定704e05f联合模型的候选池/DEV5%/DEV1%阈值分别保留33/27/18，剔除43/49/58。35项任务完成，耗时2084.125秒；独立缓存来源、特征、分数、集合复核PASS。真实FDR/recall未知，阈值名称不是实际风险保证；未调参、未重跑训练或全像素解卷积、无删除。完整名单与分数见results/real_ce29_joint_screening_v2/analysis_record.md和reported_76_screening.csv；所有数组保留，紧凑结果提交push核对后STOP。本条取代下方同一真实CE29任务的RUNNING交接；其他线程任务不变。
