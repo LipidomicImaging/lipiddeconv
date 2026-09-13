@@ -1,0 +1,14 @@
+{
+  "status": "PREPARATION_ARCHIVE_AND_MEMBERS_HASH_VERIFIED",
+  "archive_sha256": "5e477363ceb0261c0d481c87d9f519b51f32c5fb447dbb52e04b91190a8701dd",
+  "file_count": 6,
+  "files": {
+    "pool_refit_user_amendment/design.json": "ab5c3bc9a566c15fd94caeeb6df22de9e1a5ac4b9fcc6dacba13b88e88ce62e8",
+    "pool_refit_user_amendment/design_seal.json": "d04f2b73516c441725d8ee3580ffd1d7106eda202ab7ae1ae62f92f54c75d0c7",
+    "pool_refit_user_amendment/prepared/mask.npz": "a06341c582fc0eef48a52182031a085e2c90de9832259e3537f315d741ec28da",
+    "pool_refit_user_amendment/prepared/pool_candidate_records.json": "ebd46da9d5fc314766ae3b156360270f747a75edfff00be373c6ff3453f60246",
+    "pool_refit_user_amendment/prepared/pool_molecular_records.json": "68b00b48380ff7d4c1d25ffa5dc871e10d0d2a6139f4c5d39f9e9edd5cdefd72",
+    "handoffs/CHECK.json": "b054e467248f032c1cb41b4b1f1a319c31d82da148705cacad20ae43d0190a9b"
+  },
+  "remote_archive": "/root/physical_block_prediction_v1/pool_refit_prepared.tar.gz"
+}

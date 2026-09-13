@@ -1,0 +1,23 @@
+{
+  "status": "INDEPENDENT_PRE_REFIT_INPUT_REVIEW_PASS",
+  "design_sha256": "ab5c3bc9a566c15fd94caeeb6df22de9e1a5ac4b9fcc6dacba13b88e88ce62e8",
+  "seal_sha256": "d04f2b73516c441725d8ee3580ffd1d7106eda202ab7ae1ae62f92f54c75d0c7",
+  "source_archive_sha256": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291",
+  "source_arrays_exactly_equal_to_local_original": true,
+  "all_code_parent_and_prepared_hashes_match": true,
+  "all_alias_indices_match_original_order": true,
+  "candidate_count": 391,
+  "molecular_count": 377,
+  "fitted_columns": 131,
+  "pool_molecules": 131,
+  "foreground_pixels": 15837,
+  "pool_TP": 121,
+  "pool_FP": 10,
+  "all_truth_count": 125,
+  "raw_solver_misses": 0,
+  "cutoff": 0.5735000428231877,
+  "old_strict_names": 85,
+  "old_strict_does_not_limit_primary": true,
+  "fit_not_started": true,
+  "no_optimizer_or_training": true
+}
