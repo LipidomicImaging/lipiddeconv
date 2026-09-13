@@ -1,0 +1,7056 @@
+[
+  {
+    "lipid_name": "PA 16:0_24:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.028780846828077675,
+    "original_full_library_rho": 2.3722084274406817e-05,
+    "score": 0.9825105477168092,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      0
+    ],
+    "final_reported_candidate_indices": [
+      0
+    ],
+    "final_abundance": 0.030305107326444116,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 16:0_24:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      1
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 16:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      2
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 16:0_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      3
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 24:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      4
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002967562849661232,
+    "original_full_library_rho": 1.1143336815012658e-06,
+    "score": 0.1973729718813649,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      5
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006895878086363136,
+    "original_full_library_rho": 3.40555241748816e-07,
+    "score": 0.8566053791726259,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      6
+    ],
+    "final_reported_candidate_indices": [
+      6
+    ],
+    "final_abundance": 0.004882313457806995,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      7
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.009431059994484658,
+    "original_full_library_rho": 2.6827432914359548e-08,
+    "score": 0.922855740124401,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      8
+    ],
+    "final_reported_candidate_indices": [
+      8
+    ],
+    "final_abundance": 0.010891466178184943,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      9
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007029374498749453,
+    "original_full_library_rho": 1.8212562147434855e-09,
+    "score": 0.8374310825304692,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      10
+    ],
+    "final_reported_candidate_indices": [
+      10
+    ],
+    "final_abundance": 0.009325861563644141,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007223112365472696,
+    "original_full_library_rho": 3.502588471910543e-05,
+    "score": 0.9028247785574154,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      11
+    ],
+    "final_reported_candidate_indices": [
+      11
+    ],
+    "final_abundance": 0.007182632819417067,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      12
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.005592436156496564,
+    "original_full_library_rho": 2.8209490007305526e-07,
+    "score": 0.7527893626396369,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      13
+    ],
+    "final_reported_candidate_indices": [
+      13
+    ],
+    "final_abundance": 0.010143241026009346,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002798435842693016,
+    "original_full_library_rho": 8.827216288163046e-08,
+    "score": 0.13926220258587288,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      14
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:0_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      15
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010168518271073297,
+    "original_full_library_rho": 7.953136294954868e-07,
+    "score": 0.9432693521295828,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      16
+    ],
+    "final_reported_candidate_indices": [
+      16
+    ],
+    "final_abundance": 0.010812453384185149,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      17
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.03243130969716607,
+    "original_full_library_rho": 2.445432901997876e-06,
+    "score": 0.978714097712651,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      18
+    ],
+    "final_reported_candidate_indices": [
+      18
+    ],
+    "final_abundance": 0.03695690263498882,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002888469141716853,
+    "original_full_library_rho": 1.8202992382815063e-07,
+    "score": 0.16351716658681295,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      19
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      20
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 24:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      21
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      22
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0019468208526531136,
+    "original_full_library_rho": 5.439530169859179e-21,
+    "score": 0.07114805505144804,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      23
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.003685880464354406,
+    "original_full_library_rho": 0.0,
+    "score": 0.8760989361767991,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      24
+    ],
+    "final_reported_candidate_indices": [
+      24
+    ],
+    "final_abundance": 0.006933199240745311,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:1_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      25
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      26
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      27
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:2_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.013657934556231687,
+    "original_full_library_rho": 8.107625007123661e-07,
+    "score": 0.9655379158231796,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      28
+    ],
+    "final_reported_candidate_indices": [
+      28
+    ],
+    "final_abundance": 0.010771511130884372,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:2_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010836848911367299,
+    "original_full_library_rho": 7.174602177276562e-08,
+    "score": 0.9434894360860668,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      29
+    ],
+    "final_reported_candidate_indices": [
+      29
+    ],
+    "final_abundance": 0.0128088508997383,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 24:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      30
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 24:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      31
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      32
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      33
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 18:2_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      34
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010230080359142217,
+    "original_full_library_rho": 1.9490864283332188e-07,
+    "score": 0.9397451816284333,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      35
+    ],
+    "final_reported_candidate_indices": [
+      35
+    ],
+    "final_abundance": 0.010900866296489543,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.028867137679893563,
+    "original_full_library_rho": 3.043615283991979e-06,
+    "score": 0.9797764242557683,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      36
+    ],
+    "final_reported_candidate_indices": [
+      36
+    ],
+    "final_abundance": 0.03210742187574348,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      37
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      38
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      39
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      40
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      41
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      42
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0012019018775498809,
+    "original_full_library_rho": 0.0,
+    "score": 0.01421366541358415,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      43
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      44
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      45
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      46
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      47
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0043723109886317415,
+    "original_full_library_rho": 7.826002807698355e-08,
+    "score": 0.5369871151048194,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      48
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02219953556009215,
+    "original_full_library_rho": 5.907408698825584e-08,
+    "score": 0.9744146853740074,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      49
+    ],
+    "final_reported_candidate_indices": [
+      49
+    ],
+    "final_abundance": 0.027670849665617336,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.03309769634196742,
+    "original_full_library_rho": 5.979079327940263e-06,
+    "score": 0.9797429899927974,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      50
+    ],
+    "final_reported_candidate_indices": [
+      50
+    ],
+    "final_abundance": 0.034068401730040436,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      51
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      52
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.025925625523441357,
+    "original_full_library_rho": 4.691414283562586e-06,
+    "score": 0.9805113625900072,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      53
+    ],
+    "final_reported_candidate_indices": [
+      53
+    ],
+    "final_abundance": 0.027412136594489468,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      54
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.01916249402907252,
+    "original_full_library_rho": 8.032307644837957e-06,
+    "score": 0.9790492092290347,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      55
+    ],
+    "final_reported_candidate_indices": [
+      55
+    ],
+    "final_abundance": 0.019274971028645147,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      56
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.004251221721160569,
+    "original_full_library_rho": 1.057940585852966e-07,
+    "score": 0.512663356650384,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      57
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008378123097827756,
+    "original_full_library_rho": 2.3315721683249425e-07,
+    "score": 0.9087249363972788,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      58
+    ],
+    "final_reported_candidate_indices": [
+      58
+    ],
+    "final_abundance": 0.008956657927104343,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0017178161448050575,
+    "original_full_library_rho": 0.0,
+    "score": 0.12282449874213265,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      59
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      60
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:2_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.021882371022558213,
+    "original_full_library_rho": 1.3497125036189605e-06,
+    "score": 0.9781071562485933,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      61
+    ],
+    "final_reported_candidate_indices": [
+      61
+    ],
+    "final_abundance": 0.021096069645004774,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.014777952336106855,
+    "original_full_library_rho": 5.961825991581731e-06,
+    "score": 0.972549791367374,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      62
+    ],
+    "final_reported_candidate_indices": [
+      62
+    ],
+    "final_abundance": 0.01639242379709168,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      63
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      64
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:3_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.030774754113158435,
+    "original_full_library_rho": 2.0945558856361223e-05,
+    "score": 0.9820346683308409,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      65
+    ],
+    "final_reported_candidate_indices": [
+      65
+    ],
+    "final_abundance": 0.03148044204758457,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:3_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0021489965747884124,
+    "original_full_library_rho": 7.575517061119154e-08,
+    "score": 0.03906470272347805,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      66
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:3_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006606632979032688,
+    "original_full_library_rho": 2.0444533861292337e-06,
+    "score": 0.8537450878689171,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      67
+    ],
+    "final_reported_candidate_indices": [
+      67
+    ],
+    "final_abundance": 0.007432581542084868,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      68
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010385933023775487,
+    "original_full_library_rho": 1.2544570179213385e-06,
+    "score": 0.9469442631608433,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      69
+    ],
+    "final_reported_candidate_indices": [
+      69
+    ],
+    "final_abundance": 0.011362337970433307,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.012754966912831862,
+    "original_full_library_rho": 4.995624654926496e-07,
+    "score": 0.96088720589353,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      70
+    ],
+    "final_reported_candidate_indices": [
+      70
+    ],
+    "final_abundance": 0.012611883102443733,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02682600336263028,
+    "original_full_library_rho": 3.757345826370525e-05,
+    "score": 0.9832549181708955,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      71
+    ],
+    "final_reported_candidate_indices": [
+      71
+    ],
+    "final_abundance": 0.029110137934540016,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:4_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      72
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:4_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      73
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 20:4_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0015424646725822986,
+    "original_full_library_rho": 2.4449574118257494e-07,
+    "score": 0.006127401771904451,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      74
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      75
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:3_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002264429205217428,
+    "original_full_library_rho": 5.1959671025347575e-08,
+    "score": 0.05046182659609446,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      76
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:4_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008687372479158864,
+    "original_full_library_rho": 3.958971480312612e-06,
+    "score": 0.9279691375511001,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      77
+    ],
+    "final_reported_candidate_indices": [
+      77
+    ],
+    "final_abundance": 0.009659424348879203,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:4_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0035425461677220577,
+    "original_full_library_rho": 0.0,
+    "score": 0.8561530013175707,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      78
+    ],
+    "final_reported_candidate_indices": [
+      78
+    ],
+    "final_abundance": 0.007974611408930118,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:5_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      79
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:5_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      80
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PA 22:6_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      81
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      82
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0285542217047614,
+    "original_full_library_rho": 0.00031196057196008277,
+    "score": 0.985909956733823,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      83
+    ],
+    "final_reported_candidate_indices": [
+      83
+    ],
+    "final_abundance": 0.029208726596350376,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      84
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      85
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      86
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      87
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 14:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0018219778856617267,
+    "original_full_library_rho": 7.649684531705809e-07,
+    "score": 0.017618720304982537,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      88
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02797481432530102,
+    "original_full_library_rho": 0.00017272431060037503,
+    "score": 0.9851950155786778,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      89
+    ],
+    "final_reported_candidate_indices": [
+      89
+    ],
+    "final_abundance": 0.028363616049706077,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      90
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006331397971236414,
+    "original_full_library_rho": 3.3909982762285455e-06,
+    "score": 0.8410469752572034,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      91
+    ],
+    "final_reported_candidate_indices": [
+      91
+    ],
+    "final_abundance": 0.007544734257907563,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006767225781229294,
+    "original_full_library_rho": 7.490636249386811e-07,
+    "score": 0.8551477332712241,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      92
+    ],
+    "final_reported_candidate_indices": [
+      92
+    ],
+    "final_abundance": 0.008000668156791612,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0013412873698008905,
+    "original_full_library_rho": 1.4865851492575354e-06,
+    "score": 0.002792212140270697,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      93
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      94
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      95
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.005389408883063818,
+    "original_full_library_rho": 1.7747759889909233e-07,
+    "score": 0.7236597605755803,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      96
+    ],
+    "final_reported_candidate_indices": [
+      96
+    ],
+    "final_abundance": 0.007335230705174648,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      97
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      98
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.00929424599615393,
+    "original_full_library_rho": 1.0533854363654035e-05,
+    "score": 0.9417888650954931,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      99
+    ],
+    "final_reported_candidate_indices": [
+      99
+    ],
+    "final_abundance": 0.007510041080089009,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 20:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      100
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      101
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.026719260727738545,
+    "original_full_library_rho": 4.583797949657392e-05,
+    "score": 0.9835188209507844,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      102
+    ],
+    "final_reported_candidate_indices": [
+      102
+    ],
+    "final_abundance": 0.028617556424150908,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      103
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 16:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      104
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0015210684225866397,
+    "original_full_library_rho": 1.6229262648091347e-07,
+    "score": 0.005505459618504213,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      105
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008649557604693558,
+    "original_full_library_rho": 9.923477818866938e-07,
+    "score": 0.921112815721005,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      106
+    ],
+    "final_reported_candidate_indices": [
+      106
+    ],
+    "final_abundance": 0.010655535301064589,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.001140265012060282,
+    "original_full_library_rho": 0.0,
+    "score": 0.009971882885683231,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      107
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      108
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:1_18:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.027039810406542342,
+    "original_full_library_rho": 2.2272276948079612e-05,
+    "score": 0.9825583527926955,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      109
+    ],
+    "final_reported_candidate_indices": [
+      109
+    ],
+    "final_abundance": 0.028433074675350025,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010130360531871474,
+    "original_full_library_rho": 1.3435919000981562e-05,
+    "score": 0.952135757563798,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      110
+    ],
+    "final_reported_candidate_indices": [
+      110
+    ],
+    "final_abundance": 0.01039211458925495,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      111
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:2_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007458835441015434,
+    "original_full_library_rho": 8.366086897311926e-06,
+    "score": 0.9012505770903609,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      112
+    ],
+    "final_reported_candidate_indices": [
+      112
+    ],
+    "final_abundance": 0.007631222774826479,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 17:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      113
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 17:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02900716414923561,
+    "original_full_library_rho": 0.0019121636779132292,
+    "score": 0.9881173467634068,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      114
+    ],
+    "final_reported_candidate_indices": [
+      114
+    ],
+    "final_abundance": 0.029291417732657973,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PS 18:0_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      115
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      116
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      117
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      118
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      119
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      120
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.011158739646489934,
+    "original_full_library_rho": 1.608805892821405e-06,
+    "score": 0.9542671424385494,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      121
+    ],
+    "final_reported_candidate_indices": [
+      121
+    ],
+    "final_abundance": 0.013103231832533022,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      122
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      123
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:0_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      124
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 22:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      125
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      126
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02517881278118272,
+    "original_full_library_rho": 1.1301994228012318e-06,
+    "score": 0.9786344707424472,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      127
+    ],
+    "final_reported_candidate_indices": [
+      127
+    ],
+    "final_abundance": 0.028071948254991687,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      128
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      129
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      130
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 16:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      131
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02786342645691019,
+    "original_full_library_rho": 0.00019073778150113332,
+    "score": 0.9853301182346808,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      132
+    ],
+    "final_reported_candidate_indices": [
+      132
+    ],
+    "final_abundance": 0.02815636228814912,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      133
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      134
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0011630801954701524,
+    "original_full_library_rho": 0.0,
+    "score": 0.011404751787685762,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      135
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.03528579291563017,
+    "original_full_library_rho": 2.1506700238548153e-06,
+    "score": 0.9775518251580646,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      136
+    ],
+    "final_reported_candidate_indices": [
+      136
+    ],
+    "final_abundance": 0.03245923370797551,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      137
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.022509340390965107,
+    "original_full_library_rho": 7.426884244254356e-08,
+    "score": 0.9747922091259722,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      138
+    ],
+    "final_reported_candidate_indices": [
+      138
+    ],
+    "final_abundance": 0.02363874956416918,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.016861107720913888,
+    "original_full_library_rho": 2.434329774057968e-07,
+    "score": 0.9712905696103601,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      139
+    ],
+    "final_reported_candidate_indices": [
+      139
+    ],
+    "final_abundance": 0.007673005895761162,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.018782632546035648,
+    "original_full_library_rho": 3.6685598757481063e-07,
+    "score": 0.9743221808074909,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      140
+    ],
+    "final_reported_candidate_indices": [
+      140
+    ],
+    "final_abundance": 0.025283161681993457,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:0_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.026027021193702253,
+    "original_full_library_rho": 6.865980660384094e-06,
+    "score": 0.9810134627613634,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      141
+    ],
+    "final_reported_candidate_indices": [
+      141
+    ],
+    "final_abundance": 0.027940861581910247,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      142
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      143
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      144
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.002905666292933105,
+    "original_full_library_rho": 0.0,
+    "score": 0.7049847408844949,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      145
+    ],
+    "final_reported_candidate_indices": [
+      145
+    ],
+    "final_abundance": 0.011366417759464776,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      146
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      147
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      148
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      149
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0030701289241585987,
+    "original_full_library_rho": 7.853685767143757e-08,
+    "score": 0.2008946555734726,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      150
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0011665513677879432,
+    "original_full_library_rho": 0.0,
+    "score": 0.011636362790604749,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      151
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0015268481832366515,
+    "original_full_library_rho": 1.0515633746270512e-09,
+    "score": 0.004729682115335184,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      152
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      153
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      154
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0018164267563805553,
+    "original_full_library_rho": 0.0,
+    "score": 0.16302004492975672,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      155
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      156
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      157
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      158
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 22:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.031064595816728383,
+    "original_full_library_rho": 2.649420163685422e-05,
+    "score": 0.9822964767454514,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      159
+    ],
+    "final_reported_candidate_indices": [
+      159
+    ],
+    "final_abundance": 0.028485887785181387,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0028571972329765054,
+    "original_full_library_rho": 5.437919739203621e-09,
+    "score": 0.13873909403537438,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      160
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.030089097940610057,
+    "original_full_library_rho": 2.5620503757912928e-06,
+    "score": 0.9793477751292496,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      161
+    ],
+    "final_reported_candidate_indices": [
+      161
+    ],
+    "final_abundance": 0.02737262022572479,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.00199684301127987,
+    "original_full_library_rho": 0.0,
+    "score": 0.25130775067161676,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      162
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010622331286299708,
+    "original_full_library_rho": 3.9572921062894383e-07,
+    "score": 0.9458706474802983,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      163
+    ],
+    "final_reported_candidate_indices": [
+      163
+    ],
+    "final_abundance": 0.00785307847556981,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.015651941432881403,
+    "original_full_library_rho": 1.1572256757801258e-06,
+    "score": 0.9715325990993681,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      164
+    ],
+    "final_reported_candidate_indices": [
+      164
+    ],
+    "final_abundance": 0.02122131169475917,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      165
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0011449266041452292,
+    "original_full_library_rho": 0.0,
+    "score": 0.010252318544567703,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      166
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:3_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      167
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:3_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      168
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 18:3_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      169
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0024132901104773953,
+    "original_full_library_rho": 2.3780785847479784e-08,
+    "score": 0.06732843296509963,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      170
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.023392439534549427,
+    "original_full_library_rho": 1.4937840075100459e-06,
+    "score": 0.9787124464454134,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      171
+    ],
+    "final_reported_candidate_indices": [
+      171
+    ],
+    "final_abundance": 0.028026579817828842,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0020301175370548985,
+    "original_full_library_rho": 9.33208555216697e-09,
+    "score": 0.026581364274202074,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      172
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.019966030577114362,
+    "original_full_library_rho": 1.5923748828952344e-07,
+    "score": 0.9742711690578709,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      173
+    ],
+    "final_reported_candidate_indices": [
+      173
+    ],
+    "final_abundance": 0.027846405872618697,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      174
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      175
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      176
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008228389843396884,
+    "original_full_library_rho": 7.22742308593886e-08,
+    "score": 0.8998910363805651,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      177
+    ],
+    "final_reported_candidate_indices": [
+      177
+    ],
+    "final_abundance": 0.010028650996775253,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.003322780085490904,
+    "original_full_library_rho": 4.361889588207816e-08,
+    "score": 0.2610481853104159,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      178
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.009445606427256935,
+    "original_full_library_rho": 1.1055328250576584e-07,
+    "score": 0.9273572512577999,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      179
+    ],
+    "final_reported_candidate_indices": [
+      179
+    ],
+    "final_abundance": 0.008426303629513335,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:2_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.027754649957258834,
+    "original_full_library_rho": 3.4845822155506865e-05,
+    "score": 0.9831136965747577,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      180
+    ],
+    "final_reported_candidate_indices": [
+      180
+    ],
+    "final_abundance": 0.02951557483111345,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:3_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      181
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:3_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0021439647806158297,
+    "original_full_library_rho": 9.589074427550537e-09,
+    "score": 0.035694145771369284,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      182
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:3_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.013329945678624174,
+    "original_full_library_rho": 7.092721077762098e-06,
+    "score": 0.9688462456328173,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      183
+    ],
+    "final_reported_candidate_indices": [
+      183
+    ],
+    "final_abundance": 0.01174463046884009,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:4_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      184
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:4_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      185
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      186
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008207663430195803,
+    "original_full_library_rho": 0.0,
+    "score": 0.9909550662630157,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      187
+    ],
+    "final_reported_candidate_indices": [
+      187
+    ],
+    "final_abundance": 0.007837164516674199,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0036375292065698723,
+    "original_full_library_rho": 1.3945342707876243e-07,
+    "score": 0.3574968643908216,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      188
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.013439047808201356,
+    "original_full_library_rho": 4.234650090393185e-07,
+    "score": 0.9634696211507402,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      189
+    ],
+    "final_reported_candidate_indices": [
+      189
+    ],
+    "final_abundance": 0.016253408790629975,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007260675399326393,
+    "original_full_library_rho": 4.866579439950142e-07,
+    "score": 0.8760387689325345,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      190
+    ],
+    "final_reported_candidate_indices": [
+      190
+    ],
+    "final_abundance": 0.01029901383523593,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02921453285850436,
+    "original_full_library_rho": 5.086421866971365e-05,
+    "score": 0.9834739220869076,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      191
+    ],
+    "final_reported_candidate_indices": [
+      191
+    ],
+    "final_abundance": 0.029523091929275696,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      192
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0017255759691954255,
+    "original_full_library_rho": 9.289130659453174e-08,
+    "score": 0.011523236498979319,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      193
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      194
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      195
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      196
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      197
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 20:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.029000054048673635,
+    "original_full_library_rho": 2.7018423383562677e-05,
+    "score": 0.9826580419314515,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      198
+    ],
+    "final_reported_candidate_indices": [
+      198
+    ],
+    "final_abundance": 0.028417902251349936,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0029191512971914026,
+    "original_full_library_rho": 0.0,
+    "score": 0.7096018808113104,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      199
+    ],
+    "final_reported_candidate_indices": [
+      199
+    ],
+    "final_abundance": 0.004138267016638532,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0010428829508920975,
+    "original_full_library_rho": 0.0,
+    "score": 0.005377394499220966,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      200
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      201
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0071461071381325215,
+    "original_full_library_rho": 8.261295661013207e-07,
+    "score": 0.8743935842614622,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      202
+    ],
+    "final_reported_candidate_indices": [
+      202
+    ],
+    "final_abundance": 0.006417538457904334,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.03018526813816907,
+    "original_full_library_rho": 1.1709441740277343e-05,
+    "score": 0.981358856134572,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      203
+    ],
+    "final_reported_candidate_indices": [
+      203
+    ],
+    "final_abundance": 0.030887262284613106,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      204
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      205
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      206
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE 17:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      207
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      208
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.010801258978648897,
+    "original_full_library_rho": 1.112564514948202e-07,
+    "score": 0.9442240331158949,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      209
+    ],
+    "final_reported_candidate_indices": [
+      209
+    ],
+    "final_abundance": 0.017716822408295894,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02115608753084866,
+    "original_full_library_rho": 5.536057028418887e-08,
+    "score": 0.9738221497577356,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      210
+    ],
+    "final_reported_candidate_indices": [
+      210
+    ],
+    "final_abundance": 0.017506884395656896,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0013674561397819989,
+    "original_full_library_rho": 3.755330661325546e-08,
+    "score": 0.002624664417090651,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      211
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      212
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0018162372283799953,
+    "original_full_library_rho": 2.582096837051861e-07,
+    "score": 0.01632097525579431,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      213
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006612003713874983,
+    "original_full_library_rho": 1.3715294509683778e-09,
+    "score": 0.8101792596565895,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      214
+    ],
+    "final_reported_candidate_indices": [
+      214
+    ],
+    "final_abundance": 0.0081079168886334,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      215
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.017604780732466775,
+    "original_full_library_rho": 6.564248807191137e-07,
+    "score": 0.9738111962656946,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      216
+    ],
+    "final_reported_candidate_indices": [
+      216
+    ],
+    "final_abundance": 0.012906566945621836,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0050078741502173766,
+    "original_full_library_rho": 6.006694143725805e-08,
+    "score": 0.6571478332518942,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      217
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.009281072069011537,
+    "original_full_library_rho": 1.2860114868354233e-08,
+    "score": 0.9181791840003449,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      218
+    ],
+    "final_reported_candidate_indices": [
+      218
+    ],
+    "final_abundance": 0.018395439401959666,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.025540483121486882,
+    "original_full_library_rho": 5.219118498784981e-07,
+    "score": 0.977696460695182,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      219
+    ],
+    "final_reported_candidate_indices": [
+      219
+    ],
+    "final_abundance": 0.026448013424261653,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      220
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007175269020318327,
+    "original_full_library_rho": 1.880146822727292e-05,
+    "score": 0.8967707174055246,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      221
+    ],
+    "final_reported_candidate_indices": [
+      221
+    ],
+    "final_abundance": 0.007306598762827967,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      222
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      223
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-16:1_24:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      224
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0016071792506202529,
+    "original_full_library_rho": 3.2325562722434013e-07,
+    "score": 0.007998491938073872,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      225
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      226
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      227
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      228
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      229
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.025111591399659784,
+    "original_full_library_rho": 1.5296663751614192e-05,
+    "score": 0.9820269145398329,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      230
+    ],
+    "final_reported_candidate_indices": [
+      230
+    ],
+    "final_abundance": 0.025530081564832417,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02467906952257096,
+    "original_full_library_rho": 4.3595174700449104e-07,
+    "score": 0.9773954772879362,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      231
+    ],
+    "final_reported_candidate_indices": [
+      231
+    ],
+    "final_abundance": 0.028018028931994624,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      232
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      233
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      234
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      235
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0063459388175948215,
+    "original_full_library_rho": 1.8750095651993945e-07,
+    "score": 0.81825939799688,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      236
+    ],
+    "final_reported_candidate_indices": [
+      236
+    ],
+    "final_abundance": 0.006222820217074793,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002840858263134716,
+    "original_full_library_rho": 0.0,
+    "score": 0.6817508022526354,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      237
+    ],
+    "final_reported_candidate_indices": [
+      237
+    ],
+    "final_abundance": 0.007984822909623544,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.001206374120078253,
+    "original_full_library_rho": 2.006054606323843e-09,
+    "score": 0.0010417749939421602,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      238
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.015758934758785408,
+    "original_full_library_rho": 4.7403362565975066e-07,
+    "score": 0.9702870077001873,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      239
+    ],
+    "final_reported_candidate_indices": [
+      239
+    ],
+    "final_abundance": 0.01661829773670495,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      240
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006064302762646155,
+    "original_full_library_rho": 2.415566239110808e-07,
+    "score": 0.7979532928368221,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      241
+    ],
+    "final_reported_candidate_indices": [
+      241
+    ],
+    "final_abundance": 0.0076430495035269,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.030205689200344638,
+    "original_full_library_rho": 1.6181917823715703e-07,
+    "score": 0.9758523274862779,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      242
+    ],
+    "final_reported_candidate_indices": [
+      242
+    ],
+    "final_abundance": 0.02613837459935396,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006985857973346661,
+    "original_full_library_rho": 3.5561001255415566e-08,
+    "score": 0.8479361033843695,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      243
+    ],
+    "final_reported_candidate_indices": [
+      243
+    ],
+    "final_abundance": 0.01791300978704736,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.024611116386270986,
+    "original_full_library_rho": 8.615519144609645e-07,
+    "score": 0.9782313061545735,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      244
+    ],
+    "final_reported_candidate_indices": [
+      244
+    ],
+    "final_abundance": 0.025257999179876613,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.014492114488078372,
+    "original_full_library_rho": 1.3179699369397233e-06,
+    "score": 0.9690380475605044,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      245
+    ],
+    "final_reported_candidate_indices": [
+      245
+    ],
+    "final_abundance": 0.012333337766259703,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:1_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.004631288310224267,
+    "original_full_library_rho": 5.9353979930455224e-08,
+    "score": 0.5887621926876464,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      246
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.028203146008354,
+    "original_full_library_rho": 4.697279228873054e-06,
+    "score": 0.9804244478271311,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      247
+    ],
+    "final_reported_candidate_indices": [
+      247
+    ],
+    "final_abundance": 0.027496502237221852,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      248
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.01641177057386505,
+    "original_full_library_rho": 1.5063004494254562e-07,
+    "score": 0.9698180272660503,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      249
+    ],
+    "final_reported_candidate_indices": [
+      249
+    ],
+    "final_abundance": 0.01907523694691311,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      250
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.023757815576328306,
+    "original_full_library_rho": 5.437583100501459e-07,
+    "score": 0.9775113227659794,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      251
+    ],
+    "final_reported_candidate_indices": [
+      251
+    ],
+    "final_abundance": 0.025678101637077077,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.011995037427613868,
+    "original_full_library_rho": 1.163556115482508e-06,
+    "score": 0.9588577183748633,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      252
+    ],
+    "final_reported_candidate_indices": [
+      252
+    ],
+    "final_abundance": 0.012456333342156272,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-22:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      253
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.004639586968116592,
+    "original_full_library_rho": 0.0,
+    "score": 0.9472288161486406,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      254
+    ],
+    "final_reported_candidate_indices": [
+      254
+    ],
+    "final_abundance": 0.002414125569816191,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      255
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0014005500388357,
+    "original_full_library_rho": 0.0,
+    "score": 0.03800082335880541,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      256
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.008997887994102147,
+    "original_full_library_rho": 3.762810041696725e-07,
+    "score": 0.923942537309485,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      257
+    ],
+    "final_reported_candidate_indices": [
+      257
+    ],
+    "final_abundance": 0.01194046543304205,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:2_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.031621316715938076,
+    "original_full_library_rho": 0.0001737657329083862,
+    "score": 0.9847262895575507,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      258
+    ],
+    "final_reported_candidate_indices": [
+      258
+    ],
+    "final_abundance": 0.030759235294372866,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      259
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007096468853216658,
+    "original_full_library_rho": 4.0647574751801465e-07,
+    "score": 0.8676467916068523,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      260
+    ],
+    "final_reported_candidate_indices": [
+      260
+    ],
+    "final_abundance": 0.007327834467661433,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      261
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      262
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0010929491247363655,
+    "original_full_library_rho": 4.6902171149807544e-09,
+    "score": 0.0005413082670690092,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      263
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-18:3_22:6",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006757432627561052,
+    "original_full_library_rho": 3.761839488776071e-06,
+    "score": 0.8666815390152911,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      264
+    ],
+    "final_reported_candidate_indices": [
+      264
+    ],
+    "final_abundance": 0.008230036535831157,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0018986834846195127,
+    "original_full_library_rho": 6.924852937860139e-08,
+    "score": 0.019765204053021488,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      265
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      266
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      267
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      268
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      269
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      270
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      271
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0021816493875060554,
+    "original_full_library_rho": 9.087587596887405e-10,
+    "score": 0.03682054095361574,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      272
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      273
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:2_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006697363404094556,
+    "original_full_library_rho": 1.191929977672884e-07,
+    "score": 0.8385470307550248,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      274
+    ],
+    "final_reported_candidate_indices": [
+      274
+    ],
+    "final_abundance": 0.009356636714423511,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:3_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      275
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PE O-20:3_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      276
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      277
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      278
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      279
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.005011263760716567,
+    "original_full_library_rho": 1.6076450763120854e-06,
+    "score": 0.6957374904406897,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      280
+    ],
+    "final_reported_candidate_indices": [
+      280
+    ],
+    "final_abundance": 0.005829614276864409,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.00422492579555706,
+    "original_full_library_rho": 0.0,
+    "score": 0.9257084255303248,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      281
+    ],
+    "final_reported_candidate_indices": [
+      281
+    ],
+    "final_abundance": 0.0042842848458991695,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      282
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.002461512789259018,
+    "original_full_library_rho": 6.17205018410092e-08,
+    "score": 0.07684335673768466,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      283
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      284
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      285
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      286
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.008399618550615768,
+    "original_full_library_rho": 0.0,
+    "score": 0.9914626887077043,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      287
+    ],
+    "final_reported_candidate_indices": [
+      287
+    ],
+    "final_abundance": 0.015418240260203532,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.004236179887677882,
+    "original_full_library_rho": 0.0,
+    "score": 0.9264366227529505,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      288
+    ],
+    "final_reported_candidate_indices": [
+      288
+    ],
+    "final_abundance": 0.011210279786439105,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.013657877567946446,
+    "original_full_library_rho": 0.0,
+    "score": 0.9966942445443688,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      289
+    ],
+    "final_reported_candidate_indices": [
+      289
+    ],
+    "final_abundance": 0.017560785468018106,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.015098825168741965,
+    "original_full_library_rho": 2.1210040045100533e-07,
+    "score": 0.9674796179698517,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      290
+    ],
+    "final_reported_candidate_indices": [
+      290
+    ],
+    "final_abundance": 0.003229912903489075,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.019555633496606002,
+    "original_full_library_rho": 7.24226854467279e-07,
+    "score": 0.9759312464007347,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      291
+    ],
+    "final_reported_candidate_indices": [
+      291
+    ],
+    "final_abundance": 0.023033837382854357,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0010002202103675726,
+    "original_full_library_rho": 1.4741886942258638e-08,
+    "score": 0.0003001508408274298,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      292
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      293
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      294
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      295
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.027656901285479187,
+    "original_full_library_rho": 1.0239882345739361e-06,
+    "score": 0.9785059746878289,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      296
+    ],
+    "final_reported_candidate_indices": [
+      296
+    ],
+    "final_abundance": 0.02942962064900346,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      297
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006840735475054555,
+    "original_full_library_rho": 2.9671030238580916e-09,
+    "score": 0.8281068626365402,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      298
+    ],
+    "final_reported_candidate_indices": [
+      298
+    ],
+    "final_abundance": 0.012823372642125777,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.009659191252047734,
+    "original_full_library_rho": 1.368173719452884e-07,
+    "score": 0.9312950951540324,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      299
+    ],
+    "final_reported_candidate_indices": [
+      299
+    ],
+    "final_abundance": 0.005434897924587581,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 20:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      300
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0010361768968287699,
+    "original_full_library_rho": 1.9958701518506476e-09,
+    "score": 0.0003636060367144744,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      301
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_22:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      302
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      303
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      304
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0017896765986903196,
+    "original_full_library_rho": 1.936765017535047e-08,
+    "score": 0.013380013282579144,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      305
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      306
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:3_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.015063230794610952,
+    "original_full_library_rho": 3.2269065229920375e-06,
+    "score": 0.9720693792888716,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      307
+    ],
+    "final_reported_candidate_indices": [
+      307
+    ],
+    "final_abundance": 0.017659147469555027,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_22:6",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      308
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      309
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      310
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      311
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_22:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0022109781064963098,
+    "original_full_library_rho": 0.0,
+    "score": 0.37096092137372433,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      312
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.00832826080241852,
+    "original_full_library_rho": 1.9848072464904132e-07,
+    "score": 0.9067777708970243,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      313
+    ],
+    "final_reported_candidate_indices": [
+      313
+    ],
+    "final_abundance": 0.018495390772136872,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_20:5",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      314
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.003016879195153516,
+    "original_full_library_rho": 9.652411443121124e-09,
+    "score": 0.1756722210339026,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      315
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.032686429487052096,
+    "original_full_library_rho": 3.0370186525597903e-06,
+    "score": 0.978933325058492,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      316
+    ],
+    "final_reported_candidate_indices": [
+      316
+    ],
+    "final_abundance": 0.028426016394468796,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 20:2_18:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.003257195035184827,
+    "original_full_library_rho": 4.644752736460346e-08,
+    "score": 0.2443828096870686,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      317
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": true,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 14:0_24:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      318
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:0_22:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      319
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 16:1_22:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      320
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_20:4",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.02985714367003269,
+    "original_full_library_rho": 3.901391265236306e-06,
+    "score": 0.9799471998452602,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      321
+    ],
+    "final_reported_candidate_indices": [
+      321
+    ],
+    "final_abundance": 0.027786609419435608,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006094027770664593,
+    "original_full_library_rho": 5.305221688232085e-09,
+    "score": 0.7743006140668156,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      322
+    ],
+    "final_reported_candidate_indices": [
+      322
+    ],
+    "final_abundance": 0.010907499128060938,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:2_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.005608084774365669,
+    "original_full_library_rho": 4.464132520536329e-08,
+    "score": 0.7380401975201771,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      323
+    ],
+    "final_reported_candidate_indices": [
+      323
+    ],
+    "final_abundance": 0.004598274212942496,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 20:1_18:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      324
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      325
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      326
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      327
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      328
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      329
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.029363344742800314,
+    "original_full_library_rho": 1.920641213958581e-06,
+    "score": 0.9791008813041265,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      330
+    ],
+    "final_reported_candidate_indices": [
+      330
+    ],
+    "final_abundance": 0.029535498606352725,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:3",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.01449400960740468,
+    "original_full_library_rho": 6.985228053491896e-07,
+    "score": 0.9678896560470865,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      331
+    ],
+    "final_reported_candidate_indices": [
+      331
+    ],
+    "final_abundance": 0.012044011267956033,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      332
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_20:5",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.005240312929149535,
+    "original_full_library_rho": 0.0,
+    "score": 0.9655614169307742,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      333
+    ],
+    "final_reported_candidate_indices": [
+      333
+    ],
+    "final_abundance": 0.008033380948528799,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 18:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.014517559677742308,
+    "original_full_library_rho": 1.4661766467532482e-06,
+    "score": 0.9693027165580941,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      334
+    ],
+    "final_reported_candidate_indices": [
+      334
+    ],
+    "final_abundance": 0.01582045362822441,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      335
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.030253484049144255,
+    "original_full_library_rho": 0.0016738676987041465,
+    "score": 0.987830231513756,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      336
+    ],
+    "final_reported_candidate_indices": [
+      336
+    ],
+    "final_abundance": 0.03029684590493111,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 20:0_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.024718496354115035,
+    "original_full_library_rho": 7.239571930454064e-06,
+    "score": 0.9810011757020313,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      337
+    ],
+    "final_reported_candidate_indices": [
+      337
+    ],
+    "final_abundance": 0.025755103647979782,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      338
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_20:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.01554382832931574,
+    "original_full_library_rho": 6.508957206052707e-08,
+    "score": 0.9667808209769082,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      339
+    ],
+    "final_reported_candidate_indices": [
+      339
+    ],
+    "final_abundance": 0.01785959127037837,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006891672769895958,
+    "original_full_library_rho": 2.6659226932051354e-07,
+    "score": 0.8547858294767604,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      340
+    ],
+    "final_reported_candidate_indices": [
+      340
+    ],
+    "final_abundance": 0.007239265954161257,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:1_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.005124934570963142,
+    "original_full_library_rho": 1.4265562372079563e-06,
+    "score": 0.7111091016196901,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      341
+    ],
+    "final_reported_candidate_indices": [
+      341
+    ],
+    "final_abundance": 0.0025394782369768582,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PG 17:0_17:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.0290240949708805,
+    "original_full_library_rho": 2.2703570609881322e-05,
+    "score": 0.9824229907618245,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      342
+    ],
+    "final_reported_candidate_indices": [
+      342
+    ],
+    "final_abundance": 0.03079614103937289,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0012527357110197605,
+    "original_full_library_rho": 1.3357167917436247e-08,
+    "score": 0.0014195584837262713,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      343,
+      355,
+      367
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      344,
+      356,
+      368
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:0_16:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      345,
+      357,
+      379
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      346,
+      358,
+      380
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      347,
+      359,
+      366
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      348,
+      360
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      349,
+      361
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_18:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.011684874245753254,
+    "original_full_library_rho": 0.00012070438085510523,
+    "score": 0.9690354240451966,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      350
+    ],
+    "final_reported_candidate_indices": [
+      350
+    ],
+    "final_abundance": 0.011734995785605168,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      351
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      352
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_17:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      353,
+      363
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:0_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      354,
+      364
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:0_17:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      362
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC O-16:1_17:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.012439609531540169,
+    "original_full_library_rho": 0.00013944994157695303,
+    "score": 0.9724388516699687,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      365
+    ],
+    "final_reported_candidate_indices": [
+      365
+    ],
+    "final_abundance": 0.012367868960571732,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_18:2",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.007129579246721642,
+    "original_full_library_rho": 7.569255079522443e-07,
+    "score": 0.8731001676465379,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      369
+    ],
+    "final_reported_candidate_indices": [
+      369
+    ],
+    "final_abundance": 0.009036442249246967,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.011155732896300818,
+    "original_full_library_rho": 6.789333646194954e-06,
+    "score": 0.9582366873197093,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      370
+    ],
+    "final_reported_candidate_indices": [
+      370
+    ],
+    "final_abundance": 0.01246988796799745,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.006376050958195036,
+    "original_full_library_rho": 6.717687352908558e-07,
+    "score": 0.8303251627354239,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      371
+    ],
+    "final_reported_candidate_indices": [
+      371
+    ],
+    "final_abundance": 0.007456734141316377,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      372
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:3",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.028649249951077337,
+    "original_full_library_rho": 2.805614568165761e-05,
+    "score": 0.9827484471721126,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      373
+    ],
+    "final_reported_candidate_indices": [
+      373
+    ],
+    "final_abundance": 0.02881563636804871,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:0_20:4",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      374
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:1_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      375
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 18:0_14:1",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.028421367928907728,
+    "original_full_library_rho": 0.00026146727986344967,
+    "score": 0.9856952299481622,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      376
+    ],
+    "final_reported_candidate_indices": [
+      376
+    ],
+    "final_abundance": 0.02960179561457259,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 20:0_14:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      377
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 14:1_20:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      378
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:0",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      381
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      382
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:0_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      383
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:1_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": true,
+    "raw_abundance": 0.0016865811587116683,
+    "original_full_library_rho": 1.6318590509577538e-20,
+    "score": 0.02813893017346158,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      384
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 18:0_16:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      385
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:1_18:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      386
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 16:1_18:2",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      387
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 17:0_17:0",
+    "molecular_truth": true,
+    "reportable_truth": true,
+    "raw_reported": true,
+    "raw_abundance": 0.029573419458890617,
+    "original_full_library_rho": 3.618183331267823e-05,
+    "score": 0.9829721700804811,
+    "screened": true,
+    "final_reported": true,
+    "candidate_indices": [
+      388
+    ],
+    "final_reported_candidate_indices": [
+      388
+    ],
+    "final_abundance": 0.028356188057921568,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 17:0_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      389
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  },
+  {
+    "lipid_name": "PC 17:1_17:1",
+    "molecular_truth": false,
+    "reportable_truth": false,
+    "raw_reported": false,
+    "raw_abundance": 0,
+    "original_full_library_rho": null,
+    "score": null,
+    "screened": false,
+    "final_reported": false,
+    "candidate_indices": [
+      390
+    ],
+    "final_reported_candidate_indices": [],
+    "final_abundance": 0.0,
+    "screening_true_loss": false,
+    "refit_true_loss": false
+  }
+]

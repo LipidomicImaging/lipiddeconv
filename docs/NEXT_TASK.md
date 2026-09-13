@@ -1,3 +1,7 @@
+# ACTIVE — BASELINE已完成，保存后运行封存AUGMENTED — 2026-09-13
+
+BASELINE完整15837像素重拟合和缓存审查通过；初筛/最终同为119TP/8FP，95.2%recall、6.2992%FDP，身份名单无变化。当前只剩：BASELINE具体结果成功push→AUGMENTED预封存128列CPU重拟合→缓存独立审查→最终两臂comparison/analysis及Git。模型/输入前置push已完成4347b0d和d899022；不要重复训练、改阈值/指标或重跑BASELINE。每个臂的全部数组/块保留本地，紧凑记录Git；新结果 results/two_stage_spatial_donor_v1。结束后更新状态、标记本开发比较COMPLETED、push并STOP。没有旧CAL2/HOLD/GPU/新观测/清理。
+
 # ACTIVE — 两阶段空间供体指标开发比较 — 2026-09-13
 
 执行 docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md。只读旧DEV_TRAIN与已曝光CAL1缓存；新增 analysis/spatial_donor_confidence.py、analysis/refit_screened_nnls.py、analysis/run_two_stage_spatial_donor.py 及两项对应解析测试文件。先完成检查并推送合同/实现/输入hash封存；再仅一次增强分类器，保存原/增强模型各自TRAIN经验FDP5%候选池阈值及CAL1选择名单，推送后BASELINE缩库CPU NNLS→缓存独立复核/结果Git→AUGMENTED同流程。新结果仅 results/two_stage_spatial_donor_v1，保留全部分子/candidate记录、块和大数组；最终comparison.json/analysis_record.md、更新CURRENT_STATE、标记本次开发比较COMPLETED、commit/push后STOP。两个case都已曝光，不宣称独立FDR、不恢复旧CAL2/HOLD、不重算原rho/全库/ISTA、不修改旧结论、不调参重试或清理。更广泛最终定性目标保持未解决，下一独立验证须另行冻结。

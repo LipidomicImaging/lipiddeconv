@@ -1,0 +1,4785 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-13T06:21:25.730124+00:00",
+  "scope": "Independent cached witness and observable descriptor review only; no feature-optimum search, classifier fitting, selection change, solver, rho or truth-label outcome analysis.",
+  "method": "Aggregate all original same-name aliases in foreground float64 directly, normalize complete molecular maps, reconstruct each saved 1/2-donor unit-coefficient witness and compare its squared residual. Check complete eligible donor counts and full membership without searching for a better donor.",
+  "checks_executed": 14360,
+  "failed_checks": [],
+  "absolute_witness_tolerance": 5e-11,
+  "relative_mean_norm_tolerance": 1e-12,
+  "log_transform_tolerance": 5e-12,
+  "case_reviews": {
+    "DEV_TRAIN": {
+      "source_path": "results/small_mismatch_nnls_first_case/case",
+      "foreground_pixels": 15837,
+      "molecular_records_checked": 377,
+      "direct_witnesses_checked": 752,
+      "placeholder_conditions_checked": 2,
+      "nonzero_map_count": 377,
+      "zero_map_count": 0,
+      "originally_reported_count": 174,
+      "zero_maps_among_originally_reported": 0,
+      "maximum_u1_direct_witness_abs_error": 7.771561172376096e-16,
+      "maximum_u2_direct_witness_abs_error": 7.771561172376096e-16,
+      "maximum_mean_relative_error": 3.7414902416342835e-16,
+      "maximum_spatial_norm_relative_error": 2.4794904130671934e-16,
+      "maximum_log_feature_abs_error": 0.0,
+      "feature_variation_all": {
+        "spatial_donor_log10_u1": {
+          "n": 377,
+          "unique_values": 377,
+          "minimum": -2.296440068629186,
+          "p10": -0.8697496629107756,
+          "median": -0.25991525927798786,
+          "p90": -0.03578433983985611,
+          "maximum": 0.0,
+          "standard_deviation": 0.43505588687707897,
+          "floor_count": 0
+        },
+        "spatial_donor_log10_u2": {
+          "n": 377,
+          "unique_values": 377,
+          "minimum": -2.297439752387805,
+          "p10": -0.9516242085971511,
+          "median": -0.3123581235375226,
+          "p90": -0.048571555427290906,
+          "maximum": 0.0,
+          "standard_deviation": 0.4481313574033694,
+          "floor_count": 0
+        }
+      },
+      "feature_variation_originally_reported": {
+        "spatial_donor_log10_u1": {
+          "n": 174,
+          "unique_values": 174,
+          "minimum": -2.296440068629186,
+          "p10": -1.6247523687168264,
+          "median": -0.44370377763825986,
+          "p90": -0.16552570103116884,
+          "maximum": 0.0,
+          "standard_deviation": 0.5137314125410409,
+          "floor_count": 0
+        },
+        "spatial_donor_log10_u2": {
+          "n": 174,
+          "unique_values": 174,
+          "minimum": -2.297439752387805,
+          "p10": -1.642557226456098,
+          "median": -0.5674016951289221,
+          "p90": -0.2169824687788125,
+          "maximum": 0.0,
+          "standard_deviation": 0.5108586619171543,
+          "floor_count": 0
+        }
+      },
+      "originally_reported_feature_correlation": {
+        "pearson": 0.9905946042817978,
+        "spearman": 0.9867103277428171
+      },
+      "originally_reported_observable_associations": {
+        "spatial_donor_log10_u1": {
+          "with_log10_original_reported_abundance": {
+            "pearson": -0.24017208597152773,
+            "spearman": -0.1839722087758763
+          },
+          "with_log10_original_rho": {
+            "pearson": -0.18529892732137657,
+            "spearman": -0.19357262366736291
+          }
+        },
+        "spatial_donor_log10_u2": {
+          "with_log10_original_reported_abundance": {
+            "pearson": -0.23298756200957702,
+            "spearman": -0.16154104615735068
+          },
+          "with_log10_original_rho": {
+            "pearson": -0.20242480232679366,
+            "spearman": -0.18802589508459136
+          }
+        }
+      },
+      "saved_numerical_diagnostics": {
+        "candidate_count": 391,
+        "molecular_count": 377,
+        "foreground_pixel_count": 15837,
+        "feature_floor": 1e-12,
+        "near_collinear_gap": 1e-08,
+        "degenerate_direction_norm": 1.4210854715202004e-14,
+        "maximum_cached_pixel_directions": 64,
+        "gram_diagonal_max_abs_error": 8.881784197001252e-16,
+        "gram_clipping_max_abs_change": 8.881784197001252e-16,
+        "roundoff_error_estimate_not_certificate": 1.1256418019951079e-10,
+        "maximum_gram_direct_residual_discrepancy": 1.27675647831893e-15,
+        "near_collinear_distinct_pair_count": 0,
+        "total_near_collinear_pair_contexts": 0,
+        "total_degenerate_pair_contexts": 0,
+        "maximum_degenerate_pair_improvement_bound": 0.0,
+        "donor_names_and_indices_are_audit_only": true,
+        "zero_map_policy": "U1=U2=1 finite placeholders; spatial_nonzero=False"
+      },
+      "record_witness_errors": [
+        {
+          "molecular_index": 0,
+          "molecular_name": "PA 16:0_24:0",
+          "u1_abs_error": 8.673617379884035e-19,
+          "u2_abs_error": 8.673617379884035e-19
+        },
+        {
+          "molecular_index": 1,
+          "molecular_name": "PA 16:0_24:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 2,
+          "molecular_name": "PA 16:0_24:4",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 3,
+          "molecular_name": "PA 16:0_24:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 4,
+          "molecular_name": "PA 24:0_16:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 5,
+          "molecular_name": "PA 18:0_22:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 6,
+          "molecular_name": "PA 18:0_22:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 7,
+          "molecular_name": "PA 18:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 8,
+          "molecular_name": "PA 18:0_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 9,
+          "molecular_name": "PA 18:0_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 10,
+          "molecular_name": "PA 18:0_22:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 11,
+          "molecular_name": "PA 18:0_24:0",
+          "u1_abs_error": 8.673617379884035e-18,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 12,
+          "molecular_name": "PA 18:0_24:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 13,
+          "molecular_name": "PA 18:0_24:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 14,
+          "molecular_name": "PA 18:0_24:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 15,
+          "molecular_name": "PA 18:0_24:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 16,
+          "molecular_name": "PA 22:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 17,
+          "molecular_name": "PA 18:1_22:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 18,
+          "molecular_name": "PA 18:1_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 19,
+          "molecular_name": "PA 18:1_22:3",
+          "u1_abs_error": 7.771561172376096e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 20,
+          "molecular_name": "PA 18:1_22:4",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 21,
+          "molecular_name": "PA 24:0_18:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 22,
+          "molecular_name": "PA 18:1_24:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 23,
+          "molecular_name": "PA 18:1_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 24,
+          "molecular_name": "PA 18:1_24:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 25,
+          "molecular_name": "PA 18:1_24:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 26,
+          "molecular_name": "PA 22:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 27,
+          "molecular_name": "PA 22:1_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 28,
+          "molecular_name": "PA 18:2_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 29,
+          "molecular_name": "PA 18:2_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 30,
+          "molecular_name": "PA 24:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 31,
+          "molecular_name": "PA 24:1_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 32,
+          "molecular_name": "PA 18:2_24:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 33,
+          "molecular_name": "PA 18:2_24:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 34,
+          "molecular_name": "PA 18:2_24:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 35,
+          "molecular_name": "PA 20:0_20:0",
+          "u1_abs_error": 1.3877787807814457e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 36,
+          "molecular_name": "PA 20:0_20:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 37,
+          "molecular_name": "PA 20:0_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 38,
+          "molecular_name": "PA 20:0_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 39,
+          "molecular_name": "PA 20:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 40,
+          "molecular_name": "PA 20:0_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 41,
+          "molecular_name": "PA 20:0_22:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 42,
+          "molecular_name": "PA 20:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 43,
+          "molecular_name": "PA 20:0_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 44,
+          "molecular_name": "PA 20:0_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 45,
+          "molecular_name": "PA 20:0_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 46,
+          "molecular_name": "PA 20:0_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 47,
+          "molecular_name": "PA 20:1_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 48,
+          "molecular_name": "PA 20:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 49,
+          "molecular_name": "PA 20:1_20:3",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 50,
+          "molecular_name": "PA 20:1_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 51,
+          "molecular_name": "PA 22:0_20:1",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 7.771561172376096e-16
+        },
+        {
+          "molecular_index": 52,
+          "molecular_name": "PA 20:1_22:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 53,
+          "molecular_name": "PA 20:1_22:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 54,
+          "molecular_name": "PA 20:1_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 55,
+          "molecular_name": "PA 20:1_22:4",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 56,
+          "molecular_name": "PA 20:1_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 57,
+          "molecular_name": "PA 20:1_22:6",
+          "u1_abs_error": 1.3877787807814457e-16,
+          "u2_abs_error": 6.938893903907228e-17
+        },
+        {
+          "molecular_index": 58,
+          "molecular_name": "PA 20:2_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 59,
+          "molecular_name": "PA 20:2_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 60,
+          "molecular_name": "PA 22:1_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 61,
+          "molecular_name": "PA 20:2_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 62,
+          "molecular_name": "PA 20:2_22:6",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 2.0816681711721685e-17
+        },
+        {
+          "molecular_index": 63,
+          "molecular_name": "PA 22:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 64,
+          "molecular_name": "PA 22:1_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 65,
+          "molecular_name": "PA 20:3_22:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 66,
+          "molecular_name": "PA 20:3_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 67,
+          "molecular_name": "PA 20:3_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 68,
+          "molecular_name": "PA 22:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 69,
+          "molecular_name": "PA 22:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 70,
+          "molecular_name": "PA 22:2_20:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 71,
+          "molecular_name": "PA 22:3_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 72,
+          "molecular_name": "PA 20:4_22:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 73,
+          "molecular_name": "PA 20:4_22:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 74,
+          "molecular_name": "PA 20:4_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 75,
+          "molecular_name": "PA 22:1_20:5",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 76,
+          "molecular_name": "PA 22:3_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 77,
+          "molecular_name": "PA 22:4_22:5",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 78,
+          "molecular_name": "PA 22:4_22:6",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 79,
+          "molecular_name": "PA 22:5_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 80,
+          "molecular_name": "PA 22:5_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 81,
+          "molecular_name": "PA 22:6_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 82,
+          "molecular_name": "PS 14:0_20:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 83,
+          "molecular_name": "PS 14:0_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 84,
+          "molecular_name": "PS 14:0_22:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 85,
+          "molecular_name": "PS 14:0_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 86,
+          "molecular_name": "PS 14:0_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 87,
+          "molecular_name": "PS 14:0_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 88,
+          "molecular_name": "PS 14:0_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 89,
+          "molecular_name": "PS 16:0_18:0",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 90,
+          "molecular_name": "PS 16:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 91,
+          "molecular_name": "PS 16:0_18:2",
+          "u1_abs_error": 6.661338147750939e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 92,
+          "molecular_name": "PS 16:0_20:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 93,
+          "molecular_name": "PS 16:0_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 94,
+          "molecular_name": "PS 16:0_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 95,
+          "molecular_name": "PS 16:0_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 96,
+          "molecular_name": "PS 16:0_20:4",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 97,
+          "molecular_name": "PS 16:0_20:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 98,
+          "molecular_name": "PS 18:0_16:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 99,
+          "molecular_name": "PS 16:1_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 100,
+          "molecular_name": "PS 20:0_16:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 101,
+          "molecular_name": "PS 16:1_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 102,
+          "molecular_name": "PS 16:1_20:2",
+          "u1_abs_error": 6.938893903907228e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 103,
+          "molecular_name": "PS 16:1_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 104,
+          "molecular_name": "PS 16:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 105,
+          "molecular_name": "PS 18:0_18:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 106,
+          "molecular_name": "PS 18:0_18:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 107,
+          "molecular_name": "PS 18:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 108,
+          "molecular_name": "PS 18:0_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 109,
+          "molecular_name": "PS 18:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 110,
+          "molecular_name": "PS 18:1_18:2",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 111,
+          "molecular_name": "PS 18:1_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 112,
+          "molecular_name": "PS 18:2_18:2",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 113,
+          "molecular_name": "PS 17:0_18:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 114,
+          "molecular_name": "PS 17:0_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 115,
+          "molecular_name": "PS 18:0_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 116,
+          "molecular_name": "PE 16:0_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 117,
+          "molecular_name": "PE 16:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 118,
+          "molecular_name": "PE 16:0_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 119,
+          "molecular_name": "PE 16:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 120,
+          "molecular_name": "PE 16:0_22:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 121,
+          "molecular_name": "PE 16:0_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 122,
+          "molecular_name": "PE 16:0_24:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 123,
+          "molecular_name": "PE 16:0_24:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 124,
+          "molecular_name": "PE 16:0_24:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 125,
+          "molecular_name": "PE 22:0_16:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 126,
+          "molecular_name": "PE 16:1_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 127,
+          "molecular_name": "PE 16:1_22:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 128,
+          "molecular_name": "PE 16:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 129,
+          "molecular_name": "PE 16:1_22:4",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 130,
+          "molecular_name": "PE 16:1_22:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 131,
+          "molecular_name": "PE 16:1_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 132,
+          "molecular_name": "PE 18:0_20:0",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 133,
+          "molecular_name": "PE 18:0_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 134,
+          "molecular_name": "PE 18:0_20:2",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 135,
+          "molecular_name": "PE 18:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 136,
+          "molecular_name": "PE 18:0_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 137,
+          "molecular_name": "PE 18:0_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 138,
+          "molecular_name": "PE 18:0_22:3",
+          "u1_abs_error": 3.885780586188048e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 139,
+          "molecular_name": "PE 18:0_22:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 140,
+          "molecular_name": "PE 18:0_22:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 141,
+          "molecular_name": "PE 18:0_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 142,
+          "molecular_name": "PE 20:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 143,
+          "molecular_name": "PE 18:1_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 144,
+          "molecular_name": "PE 18:1_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 145,
+          "molecular_name": "PE 18:1_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 146,
+          "molecular_name": "PE 18:1_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 147,
+          "molecular_name": "PE 18:1_20:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 148,
+          "molecular_name": "PE 18:1_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 149,
+          "molecular_name": "PE 18:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 150,
+          "molecular_name": "PE 18:1_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 151,
+          "molecular_name": "PE 18:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 152,
+          "molecular_name": "PE 18:1_22:6",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 153,
+          "molecular_name": "PE 20:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 154,
+          "molecular_name": "PE 20:1_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 155,
+          "molecular_name": "PE 18:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 156,
+          "molecular_name": "PE 18:2_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 157,
+          "molecular_name": "PE 18:2_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 158,
+          "molecular_name": "PE 18:2_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 159,
+          "molecular_name": "PE 22:1_18:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 160,
+          "molecular_name": "PE 18:2_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 161,
+          "molecular_name": "PE 18:2_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 162,
+          "molecular_name": "PE 18:2_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 163,
+          "molecular_name": "PE 18:2_22:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 164,
+          "molecular_name": "PE 18:2_22:6",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 165,
+          "molecular_name": "PE 20:0_18:3",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 7.771561172376096e-16
+        },
+        {
+          "molecular_index": 166,
+          "molecular_name": "PE 20:1_18:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 167,
+          "molecular_name": "PE 18:3_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 168,
+          "molecular_name": "PE 18:3_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 169,
+          "molecular_name": "PE 18:3_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 170,
+          "molecular_name": "PE 20:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 171,
+          "molecular_name": "PE 20:0_20:4",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 172,
+          "molecular_name": "PE 20:0_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 173,
+          "molecular_name": "PE 20:1_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 174,
+          "molecular_name": "PE 20:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 175,
+          "molecular_name": "PE 20:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 176,
+          "molecular_name": "PE 20:1_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 177,
+          "molecular_name": "PE 20:2_20:2",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 178,
+          "molecular_name": "PE 20:2_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 179,
+          "molecular_name": "PE 20:2_20:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 180,
+          "molecular_name": "PE 20:2_20:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 181,
+          "molecular_name": "PE 20:3_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 182,
+          "molecular_name": "PE 20:3_20:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 183,
+          "molecular_name": "PE 20:3_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 184,
+          "molecular_name": "PE 20:4_20:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 185,
+          "molecular_name": "PE 20:4_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 186,
+          "molecular_name": "PE 17:0_20:0",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 187,
+          "molecular_name": "PE 17:0_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 188,
+          "molecular_name": "PE 17:0_20:2",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 189,
+          "molecular_name": "PE 17:0_20:3",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 190,
+          "molecular_name": "PE 17:0_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 191,
+          "molecular_name": "PE 17:0_20:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 192,
+          "molecular_name": "PE 17:0_22:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 193,
+          "molecular_name": "PE 17:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 194,
+          "molecular_name": "PE 17:0_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 195,
+          "molecular_name": "PE 17:0_22:4",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 196,
+          "molecular_name": "PE 17:0_22:5",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 197,
+          "molecular_name": "PE 17:0_22:6",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 198,
+          "molecular_name": "PE 20:0_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 199,
+          "molecular_name": "PE 17:1_20:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 200,
+          "molecular_name": "PE 17:1_20:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 201,
+          "molecular_name": "PE 17:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 202,
+          "molecular_name": "PE 17:1_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 203,
+          "molecular_name": "PE 17:1_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 204,
+          "molecular_name": "PE 17:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 205,
+          "molecular_name": "PE 17:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 206,
+          "molecular_name": "PE 17:1_22:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 207,
+          "molecular_name": "PE 17:1_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 208,
+          "molecular_name": "PE O-16:0_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 209,
+          "molecular_name": "PE O-16:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 210,
+          "molecular_name": "PE O-16:0_22:3",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 211,
+          "molecular_name": "PE O-16:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 212,
+          "molecular_name": "PE O-16:0_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 213,
+          "molecular_name": "PE O-16:0_22:6",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 214,
+          "molecular_name": "PE O-16:1_22:0",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 215,
+          "molecular_name": "PE O-16:1_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 216,
+          "molecular_name": "PE O-16:1_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 217,
+          "molecular_name": "PE O-16:1_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 218,
+          "molecular_name": "PE O-16:1_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 219,
+          "molecular_name": "PE O-16:1_22:5",
+          "u1_abs_error": 4.163336342344337e-17,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 220,
+          "molecular_name": "PE O-16:1_24:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 221,
+          "molecular_name": "PE O-16:1_24:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 222,
+          "molecular_name": "PE O-16:1_24:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 223,
+          "molecular_name": "PE O-16:1_24:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 224,
+          "molecular_name": "PE O-16:1_24:6",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 225,
+          "molecular_name": "PE O-18:0_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 226,
+          "molecular_name": "PE O-18:0_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 227,
+          "molecular_name": "PE O-18:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 228,
+          "molecular_name": "PE O-18:0_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 229,
+          "molecular_name": "PE O-18:0_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 230,
+          "molecular_name": "PE O-18:0_22:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 231,
+          "molecular_name": "PE O-18:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 232,
+          "molecular_name": "PE O-18:0_22:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 233,
+          "molecular_name": "PE O-18:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 234,
+          "molecular_name": "PE O-18:0_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 235,
+          "molecular_name": "PE O-18:0_22:6",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 236,
+          "molecular_name": "PE O-18:1_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 237,
+          "molecular_name": "PE O-18:1_20:2",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 238,
+          "molecular_name": "PE O-18:1_20:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 239,
+          "molecular_name": "PE O-18:1_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 240,
+          "molecular_name": "PE O-18:1_20:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 241,
+          "molecular_name": "PE O-18:1_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 242,
+          "molecular_name": "PE O-18:1_22:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 243,
+          "molecular_name": "PE O-18:1_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 244,
+          "molecular_name": "PE O-18:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 245,
+          "molecular_name": "PE O-18:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 246,
+          "molecular_name": "PE O-18:1_22:6",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 247,
+          "molecular_name": "PE O-20:0_18:2",
+          "u1_abs_error": 1.3877787807814457e-16,
+          "u2_abs_error": 1.3877787807814457e-16
+        },
+        {
+          "molecular_index": 248,
+          "molecular_name": "PE O-20:1_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 249,
+          "molecular_name": "PE O-18:2_20:2",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 250,
+          "molecular_name": "PE O-18:2_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 251,
+          "molecular_name": "PE O-18:2_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 252,
+          "molecular_name": "PE O-18:2_22:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 253,
+          "molecular_name": "PE O-22:1_18:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 254,
+          "molecular_name": "PE O-18:2_22:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 255,
+          "molecular_name": "PE O-18:2_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 256,
+          "molecular_name": "PE O-18:2_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 257,
+          "molecular_name": "PE O-18:2_22:5",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 258,
+          "molecular_name": "PE O-18:2_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 259,
+          "molecular_name": "PE O-18:3_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 260,
+          "molecular_name": "PE O-18:3_22:0",
+          "u1_abs_error": 2.6020852139652106e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 261,
+          "molecular_name": "PE O-18:3_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 262,
+          "molecular_name": "PE O-18:3_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 263,
+          "molecular_name": "PE O-18:3_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 264,
+          "molecular_name": "PE O-18:3_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 265,
+          "molecular_name": "PE O-20:0_20:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 266,
+          "molecular_name": "PE O-20:0_20:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 267,
+          "molecular_name": "PE O-20:0_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 6.661338147750939e-16
+        },
+        {
+          "molecular_index": 268,
+          "molecular_name": "PE O-20:1_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 269,
+          "molecular_name": "PE O-20:1_20:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 270,
+          "molecular_name": "PE O-20:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 271,
+          "molecular_name": "PE O-20:1_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 272,
+          "molecular_name": "PE O-20:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 273,
+          "molecular_name": "PE O-20:2_20:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 274,
+          "molecular_name": "PE O-20:2_20:4",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 275,
+          "molecular_name": "PE O-20:3_20:3",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 276,
+          "molecular_name": "PE O-20:3_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 277,
+          "molecular_name": "PG 14:0_20:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 278,
+          "molecular_name": "PG 16:0_18:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 279,
+          "molecular_name": "PG 14:0_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 280,
+          "molecular_name": "PG 16:0_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 281,
+          "molecular_name": "PG 16:1_20:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 282,
+          "molecular_name": "PG 18:2_18:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 283,
+          "molecular_name": "PG 14:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 284,
+          "molecular_name": "PG 16:0_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 285,
+          "molecular_name": "PG 16:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 286,
+          "molecular_name": "PG 18:1_18:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 287,
+          "molecular_name": "PG 18:2_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 288,
+          "molecular_name": "PG 14:0_22:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 289,
+          "molecular_name": "PG 16:0_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 290,
+          "molecular_name": "PG 16:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 291,
+          "molecular_name": "PG 18:0_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 292,
+          "molecular_name": "PG 18:1_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 293,
+          "molecular_name": "PG 14:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 294,
+          "molecular_name": "PG 16:0_20:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 295,
+          "molecular_name": "PG 16:1_20:1",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 296,
+          "molecular_name": "PG 18:0_18:2",
+          "u1_abs_error": 1.734723475976807e-18,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 297,
+          "molecular_name": "PG 18:1_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 298,
+          "molecular_name": "PG 14:0_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 299,
+          "molecular_name": "PG 16:0_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 300,
+          "molecular_name": "PG 20:0_16:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 301,
+          "molecular_name": "PG 18:0_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 302,
+          "molecular_name": "PG 14:0_22:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 303,
+          "molecular_name": "PG 16:0_20:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 304,
+          "molecular_name": "PG 18:0_18:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 305,
+          "molecular_name": "PG 16:1_22:6",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 306,
+          "molecular_name": "PG 18:2_20:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 307,
+          "molecular_name": "PG 18:3_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 308,
+          "molecular_name": "PG 16:0_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 309,
+          "molecular_name": "PG 16:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 310,
+          "molecular_name": "PG 18:1_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 311,
+          "molecular_name": "PG 18:2_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 312,
+          "molecular_name": "PG 16:0_22:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 313,
+          "molecular_name": "PG 16:1_22:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 314,
+          "molecular_name": "PG 18:0_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 315,
+          "molecular_name": "PG 18:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 316,
+          "molecular_name": "PG 18:2_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 317,
+          "molecular_name": "PG 20:2_18:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 318,
+          "molecular_name": "PG 14:0_24:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 319,
+          "molecular_name": "PG 16:0_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 320,
+          "molecular_name": "PG 16:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 321,
+          "molecular_name": "PG 18:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 322,
+          "molecular_name": "PG 18:1_20:3",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 323,
+          "molecular_name": "PG 18:2_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 324,
+          "molecular_name": "PG 20:1_18:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 325,
+          "molecular_name": "PG 17:0_18:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 326,
+          "molecular_name": "PG 17:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 327,
+          "molecular_name": "PG 17:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 328,
+          "molecular_name": "PG 17:0_20:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 329,
+          "molecular_name": "PG 17:0_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 330,
+          "molecular_name": "PG 17:0_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 331,
+          "molecular_name": "PG 17:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 332,
+          "molecular_name": "PG 17:0_20:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 333,
+          "molecular_name": "PG 17:0_20:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 334,
+          "molecular_name": "PG 18:0_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 335,
+          "molecular_name": "PG 17:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 336,
+          "molecular_name": "PG 17:1_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 337,
+          "molecular_name": "PG 20:0_17:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 338,
+          "molecular_name": "PG 17:1_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 339,
+          "molecular_name": "PG 17:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 340,
+          "molecular_name": "PG 17:1_20:3",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 341,
+          "molecular_name": "PG 17:1_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 342,
+          "molecular_name": "PG 17:0_17:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 343,
+          "molecular_name": "PC 14:0_18:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 344,
+          "molecular_name": "PC 14:0_18:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 345,
+          "molecular_name": "PC 16:0_16:0",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 346,
+          "molecular_name": "PC 16:0_16:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 347,
+          "molecular_name": "PC 14:0_17:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 348,
+          "molecular_name": "PC O-16:0_16:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 349,
+          "molecular_name": "PC O-16:1_16:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 350,
+          "molecular_name": "PC O-16:1_18:0",
+          "u1_abs_error": 8.673617379884035e-19,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 351,
+          "molecular_name": "PC O-16:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 352,
+          "molecular_name": "PC O-16:1_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 353,
+          "molecular_name": "PC O-16:1_17:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 354,
+          "molecular_name": "PC O-16:0_17:1",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 355,
+          "molecular_name": "PC O-16:0_17:0",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 356,
+          "molecular_name": "PC O-16:1_17:1",
+          "u1_abs_error": 2.6020852139652106e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 357,
+          "molecular_name": "PC 14:0_18:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 358,
+          "molecular_name": "PC 14:0_20:0",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 359,
+          "molecular_name": "PC 14:0_20:1",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 360,
+          "molecular_name": "PC 14:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 361,
+          "molecular_name": "PC 14:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 362,
+          "molecular_name": "PC 14:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 363,
+          "molecular_name": "PC 14:1_17:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 364,
+          "molecular_name": "PC 18:0_14:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 365,
+          "molecular_name": "PC 20:0_14:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 366,
+          "molecular_name": "PC 14:1_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 367,
+          "molecular_name": "PC 16:0_18:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 368,
+          "molecular_name": "PC 16:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 369,
+          "molecular_name": "PC 16:0_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 370,
+          "molecular_name": "PC 16:1_16:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 371,
+          "molecular_name": "PC 18:0_16:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 372,
+          "molecular_name": "PC 16:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 373,
+          "molecular_name": "PC 16:1_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 374,
+          "molecular_name": "PC 17:0_17:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 375,
+          "molecular_name": "PC 17:0_17:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 376,
+          "molecular_name": "PC 17:1_17:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        }
+      ]
+    },
+    "EXPOSED_DEV_CHECK": {
+      "source_path": "results/identity_confidence_joint_validation/cases/CAL1",
+      "foreground_pixels": 15837,
+      "molecular_records_checked": 377,
+      "direct_witnesses_checked": 752,
+      "placeholder_conditions_checked": 2,
+      "nonzero_map_count": 377,
+      "zero_map_count": 0,
+      "originally_reported_count": 176,
+      "zero_maps_among_originally_reported": 0,
+      "maximum_u1_direct_witness_abs_error": 7.771561172376096e-16,
+      "maximum_u2_direct_witness_abs_error": 8.881784197001252e-16,
+      "maximum_mean_relative_error": 3.360407649084091e-16,
+      "maximum_spatial_norm_relative_error": 3.5340549829342943e-16,
+      "maximum_log_feature_abs_error": 0.0,
+      "feature_variation_all": {
+        "spatial_donor_log10_u1": {
+          "n": 377,
+          "unique_values": 377,
+          "minimum": -2.2614195537709687,
+          "p10": -0.8999758491940163,
+          "median": -0.23909576720317055,
+          "p90": -0.039863658444871025,
+          "maximum": 0.0,
+          "standard_deviation": 0.4445952391178266,
+          "floor_count": 0
+        },
+        "spatial_donor_log10_u2": {
+          "n": 377,
+          "unique_values": 377,
+          "minimum": -2.281871081118171,
+          "p10": -1.0539442737412605,
+          "median": -0.3099743240344117,
+          "p90": -0.050817319583909545,
+          "maximum": 0.0,
+          "standard_deviation": 0.46125411709669406,
+          "floor_count": 0
+        }
+      },
+      "feature_variation_originally_reported": {
+        "spatial_donor_log10_u1": {
+          "n": 176,
+          "unique_values": 176,
+          "minimum": -2.2614195537709687,
+          "p10": -1.5078272449673116,
+          "median": -0.4615651952276171,
+          "p90": -0.19181412434929052,
+          "maximum": 0.0,
+          "standard_deviation": 0.5087994322008496,
+          "floor_count": 0
+        },
+        "spatial_donor_log10_u2": {
+          "n": 176,
+          "unique_values": 176,
+          "minimum": -2.2693124002455347,
+          "p10": -1.6250379759766616,
+          "median": -0.5347365007055377,
+          "p90": -0.23850013928191136,
+          "maximum": 0.0,
+          "standard_deviation": 0.5078412193410474,
+          "floor_count": 0
+        }
+      },
+      "originally_reported_feature_correlation": {
+        "pearson": 0.9903337977301928,
+        "spearman": 0.9799207572088928
+      },
+      "originally_reported_observable_associations": {
+        "spatial_donor_log10_u1": {
+          "with_log10_original_reported_abundance": {
+            "pearson": -0.24727243723084505,
+            "spearman": -0.17089368258859786
+          },
+          "with_log10_original_rho": {
+            "pearson": -0.22105067677771958,
+            "spearman": -0.18616608531311965
+          }
+        },
+        "spatial_donor_log10_u2": {
+          "with_log10_original_reported_abundance": {
+            "pearson": -0.224856749533564,
+            "spearman": -0.13070438036539733
+          },
+          "with_log10_original_rho": {
+            "pearson": -0.2289904192600798,
+            "spearman": -0.18022065263388054
+          }
+        }
+      },
+      "saved_numerical_diagnostics": {
+        "candidate_count": 391,
+        "molecular_count": 377,
+        "foreground_pixel_count": 15837,
+        "feature_floor": 1e-12,
+        "near_collinear_gap": 1e-08,
+        "degenerate_direction_norm": 1.4210854715202004e-14,
+        "maximum_cached_pixel_directions": 64,
+        "gram_diagonal_max_abs_error": 6.661338147750939e-16,
+        "gram_clipping_max_abs_change": 6.661338147750939e-16,
+        "roundoff_error_estimate_not_certificate": 1.1255707477215319e-10,
+        "maximum_gram_direct_residual_discrepancy": 1.1379786002407855e-15,
+        "near_collinear_distinct_pair_count": 0,
+        "total_near_collinear_pair_contexts": 0,
+        "total_degenerate_pair_contexts": 0,
+        "maximum_degenerate_pair_improvement_bound": 0.0,
+        "donor_names_and_indices_are_audit_only": true,
+        "zero_map_policy": "U1=U2=1 finite placeholders; spatial_nonzero=False"
+      },
+      "record_witness_errors": [
+        {
+          "molecular_index": 0,
+          "molecular_name": "PA 16:0_24:0",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 1,
+          "molecular_name": "PA 16:0_24:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 2,
+          "molecular_name": "PA 16:0_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 3,
+          "molecular_name": "PA 16:0_24:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 4,
+          "molecular_name": "PA 24:0_16:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 5,
+          "molecular_name": "PA 18:0_22:0",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 6,
+          "molecular_name": "PA 18:0_22:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 7,
+          "molecular_name": "PA 18:0_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 8,
+          "molecular_name": "PA 18:0_22:3",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 9,
+          "molecular_name": "PA 18:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 10,
+          "molecular_name": "PA 18:0_22:5",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 11,
+          "molecular_name": "PA 18:0_24:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 12,
+          "molecular_name": "PA 18:0_24:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 13,
+          "molecular_name": "PA 18:0_24:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 14,
+          "molecular_name": "PA 18:0_24:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 15,
+          "molecular_name": "PA 18:0_24:6",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 16,
+          "molecular_name": "PA 22:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 17,
+          "molecular_name": "PA 18:1_22:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 18,
+          "molecular_name": "PA 18:1_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 19,
+          "molecular_name": "PA 18:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 20,
+          "molecular_name": "PA 18:1_22:4",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 21,
+          "molecular_name": "PA 24:0_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 22,
+          "molecular_name": "PA 18:1_24:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 23,
+          "molecular_name": "PA 18:1_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 24,
+          "molecular_name": "PA 18:1_24:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 25,
+          "molecular_name": "PA 18:1_24:6",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 26,
+          "molecular_name": "PA 22:0_18:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 27,
+          "molecular_name": "PA 22:1_18:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 28,
+          "molecular_name": "PA 18:2_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 29,
+          "molecular_name": "PA 18:2_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 30,
+          "molecular_name": "PA 24:0_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 31,
+          "molecular_name": "PA 24:1_18:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 32,
+          "molecular_name": "PA 18:2_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 33,
+          "molecular_name": "PA 18:2_24:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 34,
+          "molecular_name": "PA 18:2_24:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 35,
+          "molecular_name": "PA 20:0_20:0",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 36,
+          "molecular_name": "PA 20:0_20:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 37,
+          "molecular_name": "PA 20:0_20:2",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 38,
+          "molecular_name": "PA 20:0_20:3",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 39,
+          "molecular_name": "PA 20:0_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 40,
+          "molecular_name": "PA 20:0_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 41,
+          "molecular_name": "PA 20:0_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 42,
+          "molecular_name": "PA 20:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 43,
+          "molecular_name": "PA 20:0_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 44,
+          "molecular_name": "PA 20:0_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 45,
+          "molecular_name": "PA 20:0_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 46,
+          "molecular_name": "PA 20:0_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 47,
+          "molecular_name": "PA 20:1_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 48,
+          "molecular_name": "PA 20:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 49,
+          "molecular_name": "PA 20:1_20:3",
+          "u1_abs_error": 2.0816681711721685e-17,
+          "u2_abs_error": 2.0816681711721685e-17
+        },
+        {
+          "molecular_index": 50,
+          "molecular_name": "PA 20:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 51,
+          "molecular_name": "PA 22:0_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 52,
+          "molecular_name": "PA 20:1_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 53,
+          "molecular_name": "PA 20:1_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 54,
+          "molecular_name": "PA 20:1_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 55,
+          "molecular_name": "PA 20:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 56,
+          "molecular_name": "PA 20:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 57,
+          "molecular_name": "PA 20:1_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 58,
+          "molecular_name": "PA 20:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 59,
+          "molecular_name": "PA 20:2_20:3",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 60,
+          "molecular_name": "PA 22:1_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 61,
+          "molecular_name": "PA 20:2_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 62,
+          "molecular_name": "PA 20:2_22:6",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 63,
+          "molecular_name": "PA 22:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 64,
+          "molecular_name": "PA 22:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 65,
+          "molecular_name": "PA 20:3_22:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 66,
+          "molecular_name": "PA 20:3_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 67,
+          "molecular_name": "PA 20:3_22:6",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 68,
+          "molecular_name": "PA 22:0_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 69,
+          "molecular_name": "PA 22:1_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 70,
+          "molecular_name": "PA 22:2_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 71,
+          "molecular_name": "PA 22:3_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 72,
+          "molecular_name": "PA 20:4_22:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 73,
+          "molecular_name": "PA 20:4_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 74,
+          "molecular_name": "PA 20:4_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 75,
+          "molecular_name": "PA 22:1_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 76,
+          "molecular_name": "PA 22:3_22:6",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 77,
+          "molecular_name": "PA 22:4_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 78,
+          "molecular_name": "PA 22:4_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 79,
+          "molecular_name": "PA 22:5_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 80,
+          "molecular_name": "PA 22:5_22:6",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 81,
+          "molecular_name": "PA 22:6_22:6",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 82,
+          "molecular_name": "PS 14:0_20:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 83,
+          "molecular_name": "PS 14:0_20:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 84,
+          "molecular_name": "PS 14:0_22:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 85,
+          "molecular_name": "PS 14:0_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 86,
+          "molecular_name": "PS 14:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 87,
+          "molecular_name": "PS 14:0_22:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 88,
+          "molecular_name": "PS 14:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 89,
+          "molecular_name": "PS 16:0_18:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 90,
+          "molecular_name": "PS 16:0_18:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 91,
+          "molecular_name": "PS 16:0_18:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 92,
+          "molecular_name": "PS 16:0_20:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 93,
+          "molecular_name": "PS 16:0_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 94,
+          "molecular_name": "PS 16:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 95,
+          "molecular_name": "PS 16:0_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 96,
+          "molecular_name": "PS 16:0_20:4",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 97,
+          "molecular_name": "PS 16:0_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 98,
+          "molecular_name": "PS 18:0_16:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 99,
+          "molecular_name": "PS 16:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 100,
+          "molecular_name": "PS 20:0_16:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 101,
+          "molecular_name": "PS 16:1_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 102,
+          "molecular_name": "PS 16:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 103,
+          "molecular_name": "PS 16:1_20:3",
+          "u1_abs_error": 6.661338147750939e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 104,
+          "molecular_name": "PS 16:1_20:4",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 105,
+          "molecular_name": "PS 18:0_18:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 106,
+          "molecular_name": "PS 18:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 107,
+          "molecular_name": "PS 18:0_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 108,
+          "molecular_name": "PS 18:0_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 109,
+          "molecular_name": "PS 18:1_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 110,
+          "molecular_name": "PS 18:1_18:2",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 111,
+          "molecular_name": "PS 18:1_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 112,
+          "molecular_name": "PS 18:2_18:2",
+          "u1_abs_error": 1.734723475976807e-18,
+          "u2_abs_error": 8.673617379884035e-19
+        },
+        {
+          "molecular_index": 113,
+          "molecular_name": "PS 17:0_18:1",
+          "u1_abs_error": 4.336808689942018e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 114,
+          "molecular_name": "PS 17:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 115,
+          "molecular_name": "PS 18:0_17:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 116,
+          "molecular_name": "PE 16:0_22:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 117,
+          "molecular_name": "PE 16:0_22:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 118,
+          "molecular_name": "PE 16:0_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 119,
+          "molecular_name": "PE 16:0_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 120,
+          "molecular_name": "PE 16:0_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 121,
+          "molecular_name": "PE 16:0_22:6",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 122,
+          "molecular_name": "PE 16:0_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 123,
+          "molecular_name": "PE 16:0_24:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 124,
+          "molecular_name": "PE 16:0_24:6",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 125,
+          "molecular_name": "PE 22:0_16:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 126,
+          "molecular_name": "PE 16:1_22:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 127,
+          "molecular_name": "PE 16:1_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 128,
+          "molecular_name": "PE 16:1_22:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 129,
+          "molecular_name": "PE 16:1_22:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 130,
+          "molecular_name": "PE 16:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 131,
+          "molecular_name": "PE 16:1_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 132,
+          "molecular_name": "PE 18:0_20:0",
+          "u1_abs_error": 8.673617379884035e-19,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 133,
+          "molecular_name": "PE 18:0_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 134,
+          "molecular_name": "PE 18:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 135,
+          "molecular_name": "PE 18:0_20:3",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 136,
+          "molecular_name": "PE 18:0_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 137,
+          "molecular_name": "PE 18:0_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 138,
+          "molecular_name": "PE 18:0_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 139,
+          "molecular_name": "PE 18:0_22:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 140,
+          "molecular_name": "PE 18:0_22:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 141,
+          "molecular_name": "PE 18:0_22:6",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 142,
+          "molecular_name": "PE 20:0_18:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 143,
+          "molecular_name": "PE 18:1_20:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 144,
+          "molecular_name": "PE 18:1_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 145,
+          "molecular_name": "PE 18:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 146,
+          "molecular_name": "PE 18:1_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 147,
+          "molecular_name": "PE 18:1_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 148,
+          "molecular_name": "PE 18:1_22:2",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 7.771561172376096e-16
+        },
+        {
+          "molecular_index": 149,
+          "molecular_name": "PE 18:1_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 150,
+          "molecular_name": "PE 18:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 151,
+          "molecular_name": "PE 18:1_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 152,
+          "molecular_name": "PE 18:1_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 153,
+          "molecular_name": "PE 20:0_18:2",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 154,
+          "molecular_name": "PE 20:1_18:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 155,
+          "molecular_name": "PE 18:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 156,
+          "molecular_name": "PE 18:2_20:3",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 157,
+          "molecular_name": "PE 18:2_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 158,
+          "molecular_name": "PE 18:2_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 159,
+          "molecular_name": "PE 22:1_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 160,
+          "molecular_name": "PE 18:2_22:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 161,
+          "molecular_name": "PE 18:2_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 162,
+          "molecular_name": "PE 18:2_22:4",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 163,
+          "molecular_name": "PE 18:2_22:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 164,
+          "molecular_name": "PE 18:2_22:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 165,
+          "molecular_name": "PE 20:0_18:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 166,
+          "molecular_name": "PE 20:1_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 167,
+          "molecular_name": "PE 18:3_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 168,
+          "molecular_name": "PE 18:3_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 169,
+          "molecular_name": "PE 18:3_22:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 170,
+          "molecular_name": "PE 20:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 171,
+          "molecular_name": "PE 20:0_20:4",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 172,
+          "molecular_name": "PE 20:0_20:5",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 173,
+          "molecular_name": "PE 20:1_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 174,
+          "molecular_name": "PE 20:1_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 175,
+          "molecular_name": "PE 20:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 176,
+          "molecular_name": "PE 20:1_20:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 177,
+          "molecular_name": "PE 20:2_20:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 178,
+          "molecular_name": "PE 20:2_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 179,
+          "molecular_name": "PE 20:2_20:4",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 180,
+          "molecular_name": "PE 20:2_20:5",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 5.204170427930421e-18
+        },
+        {
+          "molecular_index": 181,
+          "molecular_name": "PE 20:3_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 182,
+          "molecular_name": "PE 20:3_20:4",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 183,
+          "molecular_name": "PE 20:3_20:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 184,
+          "molecular_name": "PE 20:4_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 185,
+          "molecular_name": "PE 20:4_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 186,
+          "molecular_name": "PE 17:0_20:0",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 187,
+          "molecular_name": "PE 17:0_20:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 188,
+          "molecular_name": "PE 17:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 189,
+          "molecular_name": "PE 17:0_20:3",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 190,
+          "molecular_name": "PE 17:0_20:4",
+          "u1_abs_error": 1.0408340855860843e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 191,
+          "molecular_name": "PE 17:0_20:5",
+          "u1_abs_error": 4.163336342344337e-17,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 192,
+          "molecular_name": "PE 17:0_22:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 193,
+          "molecular_name": "PE 17:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 194,
+          "molecular_name": "PE 17:0_22:3",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 195,
+          "molecular_name": "PE 17:0_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 196,
+          "molecular_name": "PE 17:0_22:5",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 197,
+          "molecular_name": "PE 17:0_22:6",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 198,
+          "molecular_name": "PE 20:0_17:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 199,
+          "molecular_name": "PE 17:1_20:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 200,
+          "molecular_name": "PE 17:1_20:2",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 201,
+          "molecular_name": "PE 17:1_20:3",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 202,
+          "molecular_name": "PE 17:1_20:4",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 6.938893903907228e-18
+        },
+        {
+          "molecular_index": 203,
+          "molecular_name": "PE 17:1_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 204,
+          "molecular_name": "PE 17:1_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 205,
+          "molecular_name": "PE 17:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 206,
+          "molecular_name": "PE 17:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 207,
+          "molecular_name": "PE 17:1_22:6",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 208,
+          "molecular_name": "PE O-16:0_22:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 209,
+          "molecular_name": "PE O-16:0_22:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 210,
+          "molecular_name": "PE O-16:0_22:3",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 211,
+          "molecular_name": "PE O-16:0_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 212,
+          "molecular_name": "PE O-16:0_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 213,
+          "molecular_name": "PE O-16:0_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 214,
+          "molecular_name": "PE O-16:1_22:0",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 215,
+          "molecular_name": "PE O-16:1_22:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 216,
+          "molecular_name": "PE O-16:1_22:2",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 217,
+          "molecular_name": "PE O-16:1_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 218,
+          "molecular_name": "PE O-16:1_22:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 219,
+          "molecular_name": "PE O-16:1_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 220,
+          "molecular_name": "PE O-16:1_24:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 221,
+          "molecular_name": "PE O-16:1_24:1",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 222,
+          "molecular_name": "PE O-16:1_24:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 223,
+          "molecular_name": "PE O-16:1_24:5",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 224,
+          "molecular_name": "PE O-16:1_24:6",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 225,
+          "molecular_name": "PE O-18:0_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 226,
+          "molecular_name": "PE O-18:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 227,
+          "molecular_name": "PE O-18:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 228,
+          "molecular_name": "PE O-18:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 229,
+          "molecular_name": "PE O-18:0_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 230,
+          "molecular_name": "PE O-18:0_22:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 231,
+          "molecular_name": "PE O-18:0_22:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 232,
+          "molecular_name": "PE O-18:0_22:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 233,
+          "molecular_name": "PE O-18:0_22:4",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 234,
+          "molecular_name": "PE O-18:0_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 235,
+          "molecular_name": "PE O-18:0_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 236,
+          "molecular_name": "PE O-18:1_20:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 237,
+          "molecular_name": "PE O-18:1_20:2",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 238,
+          "molecular_name": "PE O-18:1_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 239,
+          "molecular_name": "PE O-18:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 240,
+          "molecular_name": "PE O-18:1_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 241,
+          "molecular_name": "PE O-18:1_22:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 242,
+          "molecular_name": "PE O-18:1_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 243,
+          "molecular_name": "PE O-18:1_22:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 244,
+          "molecular_name": "PE O-18:1_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 245,
+          "molecular_name": "PE O-18:1_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 246,
+          "molecular_name": "PE O-18:1_22:6",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 1.3877787807814457e-17
+        },
+        {
+          "molecular_index": 247,
+          "molecular_name": "PE O-20:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 248,
+          "molecular_name": "PE O-20:1_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 249,
+          "molecular_name": "PE O-18:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 250,
+          "molecular_name": "PE O-18:2_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 251,
+          "molecular_name": "PE O-18:2_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 252,
+          "molecular_name": "PE O-18:2_22:0",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 1.0408340855860843e-17
+        },
+        {
+          "molecular_index": 253,
+          "molecular_name": "PE O-22:1_18:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 254,
+          "molecular_name": "PE O-18:2_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 255,
+          "molecular_name": "PE O-18:2_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 256,
+          "molecular_name": "PE O-18:2_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 257,
+          "molecular_name": "PE O-18:2_22:5",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 258,
+          "molecular_name": "PE O-18:2_22:6",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 259,
+          "molecular_name": "PE O-18:3_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 260,
+          "molecular_name": "PE O-18:3_22:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.734723475976807e-18
+        },
+        {
+          "molecular_index": 261,
+          "molecular_name": "PE O-18:3_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 262,
+          "molecular_name": "PE O-18:3_22:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 263,
+          "molecular_name": "PE O-18:3_22:5",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 264,
+          "molecular_name": "PE O-18:3_22:6",
+          "u1_abs_error": 6.938893903907228e-18,
+          "u2_abs_error": 1.0408340855860843e-17
+        },
+        {
+          "molecular_index": 265,
+          "molecular_name": "PE O-20:0_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 266,
+          "molecular_name": "PE O-20:0_20:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 6.661338147750939e-16
+        },
+        {
+          "molecular_index": 267,
+          "molecular_name": "PE O-20:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 268,
+          "molecular_name": "PE O-20:1_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.7755575615628914e-16
+        },
+        {
+          "molecular_index": 269,
+          "molecular_name": "PE O-20:1_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 270,
+          "molecular_name": "PE O-20:1_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 271,
+          "molecular_name": "PE O-20:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 272,
+          "molecular_name": "PE O-20:2_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 273,
+          "molecular_name": "PE O-20:2_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 274,
+          "molecular_name": "PE O-20:2_20:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 275,
+          "molecular_name": "PE O-20:3_20:3",
+          "u1_abs_error": 7.771561172376096e-16,
+          "u2_abs_error": 8.881784197001252e-16
+        },
+        {
+          "molecular_index": 276,
+          "molecular_name": "PE O-20:3_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 277,
+          "molecular_name": "PG 14:0_20:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 278,
+          "molecular_name": "PG 16:0_18:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 279,
+          "molecular_name": "PG 14:0_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 280,
+          "molecular_name": "PG 16:0_20:5",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 281,
+          "molecular_name": "PG 16:1_20:4",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 282,
+          "molecular_name": "PG 18:2_18:3",
+          "u1_abs_error": 6.661338147750939e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 283,
+          "molecular_name": "PG 14:0_22:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 284,
+          "molecular_name": "PG 16:0_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 285,
+          "molecular_name": "PG 16:1_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 286,
+          "molecular_name": "PG 18:1_18:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 287,
+          "molecular_name": "PG 18:2_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 6.938893903907228e-17
+        },
+        {
+          "molecular_index": 288,
+          "molecular_name": "PG 14:0_22:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 289,
+          "molecular_name": "PG 16:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 290,
+          "molecular_name": "PG 16:1_20:2",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 291,
+          "molecular_name": "PG 18:0_18:3",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 292,
+          "molecular_name": "PG 18:1_18:2",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 6.661338147750939e-16
+        },
+        {
+          "molecular_index": 293,
+          "molecular_name": "PG 14:0_22:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 294,
+          "molecular_name": "PG 16:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 295,
+          "molecular_name": "PG 16:1_20:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 296,
+          "molecular_name": "PG 18:0_18:2",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 3.469446951953614e-18
+        },
+        {
+          "molecular_index": 297,
+          "molecular_name": "PG 18:1_18:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 298,
+          "molecular_name": "PG 14:0_22:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 299,
+          "molecular_name": "PG 16:0_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 300,
+          "molecular_name": "PG 20:0_16:1",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 301,
+          "molecular_name": "PG 18:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 302,
+          "molecular_name": "PG 14:0_22:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 303,
+          "molecular_name": "PG 16:0_20:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 304,
+          "molecular_name": "PG 18:0_18:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 305,
+          "molecular_name": "PG 16:1_22:6",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 306,
+          "molecular_name": "PG 18:2_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 307,
+          "molecular_name": "PG 18:3_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 308,
+          "molecular_name": "PG 16:0_22:6",
+          "u1_abs_error": 5.551115123125783e-16,
+          "u2_abs_error": 5.551115123125783e-16
+        },
+        {
+          "molecular_index": 309,
+          "molecular_name": "PG 16:1_22:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 310,
+          "molecular_name": "PG 18:1_20:5",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 311,
+          "molecular_name": "PG 18:2_20:4",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 312,
+          "molecular_name": "PG 16:0_22:5",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 313,
+          "molecular_name": "PG 16:1_22:4",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 314,
+          "molecular_name": "PG 18:0_20:5",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 315,
+          "molecular_name": "PG 18:1_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 316,
+          "molecular_name": "PG 18:2_20:3",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 317,
+          "molecular_name": "PG 20:2_18:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 318,
+          "molecular_name": "PG 14:0_24:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 319,
+          "molecular_name": "PG 16:0_22:4",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 4.440892098500626e-16
+        },
+        {
+          "molecular_index": 320,
+          "molecular_name": "PG 16:1_22:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 321,
+          "molecular_name": "PG 18:0_20:4",
+          "u1_abs_error": 2.7755575615628914e-16,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 322,
+          "molecular_name": "PG 18:1_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 323,
+          "molecular_name": "PG 18:2_20:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.6653345369377348e-16
+        },
+        {
+          "molecular_index": 324,
+          "molecular_name": "PG 20:1_18:3",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 325,
+          "molecular_name": "PG 17:0_18:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 326,
+          "molecular_name": "PG 17:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 327,
+          "molecular_name": "PG 17:0_18:2",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 328,
+          "molecular_name": "PG 17:0_20:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 329,
+          "molecular_name": "PG 17:0_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 330,
+          "molecular_name": "PG 17:0_20:2",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 331,
+          "molecular_name": "PG 17:0_20:3",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 332,
+          "molecular_name": "PG 17:0_20:4",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 333,
+          "molecular_name": "PG 17:0_20:5",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 334,
+          "molecular_name": "PG 18:0_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 335,
+          "molecular_name": "PG 17:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 336,
+          "molecular_name": "PG 17:1_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 337,
+          "molecular_name": "PG 20:0_17:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 338,
+          "molecular_name": "PG 17:1_20:1",
+          "u1_abs_error": 3.3306690738754696e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 339,
+          "molecular_name": "PG 17:1_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 340,
+          "molecular_name": "PG 17:1_20:3",
+          "u1_abs_error": 1.3877787807814457e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 341,
+          "molecular_name": "PG 17:1_20:4",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 342,
+          "molecular_name": "PG 17:0_17:0",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 343,
+          "molecular_name": "PC 14:0_18:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 8.326672684688674e-17
+        },
+        {
+          "molecular_index": 344,
+          "molecular_name": "PC 14:0_18:1",
+          "u1_abs_error": 8.326672684688674e-17,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 345,
+          "molecular_name": "PC 16:0_16:0",
+          "u1_abs_error": 7.771561172376096e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 346,
+          "molecular_name": "PC 16:0_16:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 347,
+          "molecular_name": "PC 14:0_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 348,
+          "molecular_name": "PC O-16:0_16:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 349,
+          "molecular_name": "PC O-16:1_16:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 350,
+          "molecular_name": "PC O-16:1_18:0",
+          "u1_abs_error": 3.469446951953614e-18,
+          "u2_abs_error": 8.673617379884035e-19
+        },
+        {
+          "molecular_index": 351,
+          "molecular_name": "PC O-16:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 352,
+          "molecular_name": "PC O-16:1_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 353,
+          "molecular_name": "PC O-16:1_17:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 354,
+          "molecular_name": "PC O-16:0_17:1",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 355,
+          "molecular_name": "PC O-16:0_17:0",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 356,
+          "molecular_name": "PC O-16:1_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 357,
+          "molecular_name": "PC 14:0_18:2",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 4.163336342344337e-17
+        },
+        {
+          "molecular_index": 358,
+          "molecular_name": "PC 14:0_20:0",
+          "u1_abs_error": 1.6653345369377348e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 359,
+          "molecular_name": "PC 14:0_20:1",
+          "u1_abs_error": 2.7755575615628914e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 360,
+          "molecular_name": "PC 14:0_20:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 361,
+          "molecular_name": "PC 14:0_20:3",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 362,
+          "molecular_name": "PC 14:0_20:4",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 363,
+          "molecular_name": "PC 14:1_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 364,
+          "molecular_name": "PC 18:0_14:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.7755575615628914e-17
+        },
+        {
+          "molecular_index": 365,
+          "molecular_name": "PC 20:0_14:1",
+          "u1_abs_error": 4.440892098500626e-16,
+          "u2_abs_error": 3.3306690738754696e-16
+        },
+        {
+          "molecular_index": 366,
+          "molecular_name": "PC 14:1_20:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 367,
+          "molecular_name": "PC 16:0_18:0",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 368,
+          "molecular_name": "PC 16:0_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 369,
+          "molecular_name": "PC 16:0_18:2",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 370,
+          "molecular_name": "PC 16:1_16:1",
+          "u1_abs_error": 5.551115123125783e-17,
+          "u2_abs_error": 0.0
+        },
+        {
+          "molecular_index": 371,
+          "molecular_name": "PC 18:0_16:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 372,
+          "molecular_name": "PC 16:1_18:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 373,
+          "molecular_name": "PC 16:1_18:2",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.1102230246251565e-16
+        },
+        {
+          "molecular_index": 374,
+          "molecular_name": "PC 17:0_17:0",
+          "u1_abs_error": 2.220446049250313e-16,
+          "u2_abs_error": 2.220446049250313e-16
+        },
+        {
+          "molecular_index": 375,
+          "molecular_name": "PC 17:0_17:1",
+          "u1_abs_error": 1.1102230246251565e-16,
+          "u2_abs_error": 5.551115123125783e-17
+        },
+        {
+          "molecular_index": 376,
+          "molecular_name": "PC 17:1_17:1",
+          "u1_abs_error": 0.0,
+          "u2_abs_error": 1.3877787807814457e-17
+        }
+      ]
+    }
+  },
+  "read_file_sha256": {
+    "results/two_stage_spatial_donor_v1/design.json": "2396794e23d148b3ea8210d5bcfff7b23448580f32b694e2c09a97f5edbba795",
+    "results/two_stage_spatial_donor_v1/prepared_seal.json": "cd86f906e15ee39b34a4ef0a97d57e1050e60c243097edf5e801882308a69e8d",
+    "AGENTS.md": "84b9e120c2718ce999fe6fdd7f6ec27484d330612af5111a36252d328ee5dc37",
+    "docs/CURRENT_STATE.md": "118db09313603c8428561cd62f54e5a9cd03d710202913f413adadf9c30760ad",
+    "docs/NEXT_TASK.md": "fc060f4e0d5364ae3856d0a1e19e2f2eb7b90ac03784ec097e879e6439183d4d",
+    "docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md": "8089738d7fd8ad73a3e70a8c03d062c698759cb7519c14770100e7477db5325d",
+    "analysis/spatial_donor_confidence.py": "a5d4d4e76f80c55ff3cd9e94567a9ba79d59f4850d04440d759a195bf285e4fe",
+    "results/two_stage_spatial_donor_v1/prepared/train_features.json": "95425aae002d319c99e8c784cc9e3672576ae674dc10c60902e98514bdfea8a5",
+    "results/small_mismatch_nnls_first_case/case/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "results/small_mismatch_nnls_first_case/case/molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+    "results/small_mismatch_nnls_first_case/case/learned_arrays.npz": "802e355b178ad9a39905d6dd930448e09e0cd91e190f0aea24f0d916de499776",
+    "results/small_mismatch_nnls_first_case/case/prepared_arrays.npz": "948463cef1f9899147d2bad71b6119b2bc02a36b525fa5cdb5501bd36f55a7ed",
+    "results/two_stage_spatial_donor_v1/prepared/check_features.json": "78cf775b5fe9b2b0bba9afa3aee9f76560270d407d5d2a38f78886081b17f616",
+    "results/identity_confidence_joint_validation/cases/CAL1/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "results/identity_confidence_joint_validation/cases/CAL1/molecular_records.json": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+    "results/identity_confidence_joint_validation/cases/CAL1/learned_arrays.npz": "c2d9b61aed6cfcb852262b21c21c5336f2431106f3aac60a611f6f4bb05e6ba8",
+    "results/identity_confidence_joint_validation/cases/CAL1/prepared_arrays.npz": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291"
+  },
+  "files_changed_during_review": [],
+  "limitations": [
+    "This validates the saved witnesses and their membership, not global optimality over every possible donor pair.",
+    "No structural identity or FDR conclusion follows from these observable-only correlations.",
+    "Two previously exposed development cases remain development evidence; models and cutoffs were not modified.",
+    "Zero-map U=1 values are placeholders, not spatial uniqueness; none of these maps may become model input."
+  ]
+}

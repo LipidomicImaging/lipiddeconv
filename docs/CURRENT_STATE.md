@@ -1,3 +1,7 @@
+# 两阶段开发：BASELINE完成，新指标臂待交接执行 — 2026-09-13
+
+方案/输入4347b0d、模型/候选池d899022均已成功推送。BASELINE缩库127列、15837像素完整完成，原KKT检查及缓存source/blocks/array/alias复核PASS；初筛和最终均119TP/8FP/6FN，recall95.2%、FDP6.2992%，重拟合没有改变身份名单。全部391candidate/377molecular记录和64块/最终数组保留，无删除。空间特征独立缓存审查14360项通过。下一步先成功推送此BASELINE具体结果，再执行已预声明且已封存的AUGMENTED臂（128列）；不改任何模型/阈值/特征，不启动旧CAL2/HOLD。新输出 results/two_stage_spatial_donor_v1。本轮配对开发尚未完成，无独立FDR结论。
+
 # 新目标澄清与两阶段开发准备 — 2026-09-13
 
 用户明确最终用途为筛选候选脂质离子后缩库再次解卷积，获得可靠定性，并授权设计新指标及多指标联合。按 docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md，仅复用旧5% NNLS案例作为DEV_TRAIN与已曝光CAL1作为EXPOSED_DEV_CHECK。新增空间单/双供体解释度两量，固定一次八特征logistic扩展，与原共享模型对照；开发初筛统一采用TRAIN经验FDP5%规则，最终分别报告1%/5%及80%召回，不改旧1% NO-GO。代码、输入和模型/候选集合分阶段封存推送后，依次执行两种候选池的CPU缩库NNLS，逐结果缓存审查/Git保存。原完整库、rho、alias门槛与真值分母保持；无新观测、旧CAL2/HOLD/GPU/清理。状态PREPARING，尚无新指标或重拟合结果；整个开发比较不构成独立FDR验证。
