@@ -1,0 +1,44 @@
+{
+  "status": "PARTIAL_FIRST_BLOCK_REVIEW_PASS",
+  "case": "DEV_TRAIN",
+  "reviewed_block_indices": [
+    0
+  ],
+  "total_planned_blocks": 34,
+  "final_case_review": false,
+  "review_scope": "Exactly the first cached block; process/provenance and numerical checks only",
+  "deferred_checks": [
+    "remaining 33 blocks and complete artifact membership",
+    "full-case feature aggregation and final independent review"
+  ],
+  "source_input_sha256": "bc65d9a2ec31cba474dbd5fdb01c467beeacbf9b3e349ce102ed10d544d071c8",
+  "original_DEV_container_sha256": "948463cef1f9899147d2bad71b6119b2bc02a36b525fa5cdb5501bd36f55a7ed",
+  "design_sha256": "8b7d878954ae76cec513cd956bcf56fcab8e2339c55fbff64ae5c863d168c56a",
+  "design_seal_sha256": "43844039f494446a63c7ce134c5ac1fd828cdcf2fc1b4289268f5d425ee8ea11",
+  "block_manifest_sha256": "a82228c6a1e18ff11d1a78c66181a6a6d39e9d222dd1124e3685fb2ea4d34344",
+  "block_record_sha256": "59e37207f15ce35212c463fb84bae1ffb34ee67b30105d39327cd38b5a326579",
+  "block_arrays_sha256": "3c86a3ed30dc958296b09e8c7e6ee68b4275fabf66e4a3ac1735a7b01b34150e",
+  "review_implementation_sha256": "350d339811dcaa55b8aa98b7875da0134f3f5e934b07c96bdbe806bc93180bb9",
+  "frozen_code_hashes_verified": true,
+  "held_channel_count": 8,
+  "train_channel_count": 1076,
+  "candidate_count": 391,
+  "checked_molecular_alias_deletions": 377,
+  "alias_membership_and_excluded_coefficients_verified": true,
+  "all_four_loss_arrays_independently_verified": true,
+  "all_coefficients_finite_nonnegative": true,
+  "unsupported_columns": [],
+  "full_KKT": {
+    "max_dual_violation": 1.6022475230262345e-16,
+    "max_complementarity": 4.8420508777227354e-18,
+    "max_bound_ratio": 4.3505962763428264e-05,
+    "empty_design": false
+  },
+  "maximum_KKT_across_full_and_deletions": {
+    "max_dual_violation": 3.7457745103363846e-16,
+    "max_complementarity": 9.722332700685878e-18,
+    "max_bound_ratio": 7.809265993898341e-05
+  },
+  "no_optimizer_or_training": true,
+  "no_truth_or_label_analysis": true
+}

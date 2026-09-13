@@ -1,0 +1,252 @@
+{
+  "status": "INDEPENDENT_ARTIFACT_AND_FEATURE_COMPATIBILITY_REVIEW_PASS",
+  "case": "DEV_TRAIN",
+  "reviewed_at_utc": "2026-09-13T08:11:48.822633+00:00",
+  "design_sha256": "8b7d878954ae76cec513cd956bcf56fcab8e2339c55fbff64ae5c863d168c56a",
+  "pre_execution_commit": "df8844c02be8fcab5b4df0f652fa760722e3cdb7",
+  "completion_sha256": "28f5470e6d0e6e6ad4d5195391cf8531636bb0639ccf518b5f9b11058c0ad01e",
+  "remote_review_sha256": "8a3465aa85ddf6dd07d620bbcf5436cca36144ba8bb62c743ae2533c8f2e1676",
+  "download_review_sha256": "1fa1187c4dc0dd21c4a32be75a569d16aee980e83055697ce7cb9e10a76f0dde",
+  "official_local_failure_sha256": "8bb477bd3bf95779e7817e48e047a76a493524326824a11fc6213b9b67b3bb37",
+  "completed_artifact_hash_count": 70,
+  "downloaded_file_hash_count": 74,
+  "exact_block_count": 34,
+  "requested_models": 12852,
+  "numerical_solver_calls": 12852,
+  "all_377_molecular_features_verified": true,
+  "maximum_recorded_kkt_bound_ratio": 0.0005762702406452628,
+  "raw_source_counts": {
+    "reported": 174,
+    "TP": 125,
+    "FP": 49,
+    "FN": 0,
+    "all_truth_count": 125,
+    "reportable_truth_count": 125,
+    "recall": 1.0,
+    "FDP": 0.28160919540229884
+  },
+  "supported_block_count_min": 3,
+  "supported_block_count_max": 10,
+  "unsupported_molecular_count": 0,
+  "feature_distributions": {
+    "all_377": {
+      "S": {
+        "count": 377,
+        "minimum": -0.012749798810462766,
+        "q25": -0.0004644881677595399,
+        "median": -4.7763011343837635e-17,
+        "q75": 0.00015395294053989082,
+        "maximum": 0.11557386066141118,
+        "negative_count": 209,
+        "zero_count": 10
+      },
+      "C": {
+        "count": 377,
+        "minimum": 0.0,
+        "q25": 0.0,
+        "median": 0.25,
+        "q75": 0.5,
+        "maximum": 1.0,
+        "negative_count": 0,
+        "zero_count": 142
+      }
+    },
+    "originally_reported_174": {
+      "S": {
+        "count": 174,
+        "minimum": -0.012749798810462766,
+        "q25": -0.0030482207183458116,
+        "median": -4.178358820453499e-05,
+        "q75": 0.0023379275120438484,
+        "maximum": 0.11557386066141118,
+        "negative_count": 92,
+        "zero_count": 1
+      },
+      "C": {
+        "count": 174,
+        "minimum": 0.0,
+        "q25": 0.2857142857142857,
+        "median": 0.5,
+        "q75": 0.75,
+        "maximum": 1.0,
+        "negative_count": 0,
+        "zero_count": 18
+      }
+    }
+  },
+  "numerical_compatibility": {
+    "status": "NUMERICAL_COMPATIBILITY_PASS_OFFICIAL_EXACT_CHECK_REMAINS_FAILED",
+    "official_local_result": "FEATURES_CHANGED",
+    "exact_failure_reproduced": true,
+    "only_changed_field": "blocks[].positive_tolerance",
+    "changed_field_count": 4892,
+    "maximum_absolute_tolerance_difference": 6.058451752097371e-28,
+    "maximum_relative_tolerance_difference": 3.431803065488193e-16,
+    "predictive_gain_S_exact_for_all_377": true,
+    "positive_fraction_C_exact_for_all_377": true,
+    "all_12818_deltas_exact": true,
+    "all_support_and_positive_flags_exact": true,
+    "all_names_block_order_and_counts_exact": true,
+    "S_and_C_ranking_unchanged": true,
+    "global_squared_norm_local": 0.31197789228212414,
+    "global_squared_norm_remote_preparation": 0.31197789228212414,
+    "changed_tolerances_are_held_norm_dominated": true,
+    "changes_by_block": [
+      {
+        "block_index": 0,
+        "held_channels": 8,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 1.0097419586828951e-28,
+        "local_held_squared_norm": 0.02325871962278509,
+        "high_accuracy_sum_of_rounded_squares": 0.02325871962278509,
+        "implied_remote_squared_norm_min": 0.023258719622785088,
+        "implied_remote_squared_norm_max": 0.023258719622785088,
+        "cross_implementation_dot_error_bound": 1.755920891299158e-16
+      },
+      {
+        "block_index": 6,
+        "held_channels": 34,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 1.262177448353619e-29,
+        "local_held_squared_norm": 0.002382858085895773,
+        "high_accuracy_sum_of_rounded_squares": 0.0023828580858957726,
+        "implied_remote_squared_norm_min": 0.0023828580858957726,
+        "implied_remote_squared_norm_max": 0.0023828580858957726,
+        "cross_implementation_dot_error_bound": 7.301590795397084e-17
+      },
+      {
+        "block_index": 8,
+        "held_channels": 29,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 6.058451752097371e-28,
+        "local_held_squared_norm": 0.057300685620874814,
+        "high_accuracy_sum_of_rounded_squares": 0.057300685620874814,
+        "implied_remote_squared_norm_min": 0.05730068562087479,
+        "implied_remote_squared_norm_max": 0.05730068562087479,
+        "cross_implementation_dot_error_bound": 1.5013503558732463e-15
+      },
+      {
+        "block_index": 9,
+        "held_channels": 32,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 4.0389678347315804e-28,
+        "local_held_squared_norm": 0.09417739919161425,
+        "high_accuracy_sum_of_rounded_squares": 0.09417739919161425,
+        "implied_remote_squared_norm_min": 0.09417739919161426,
+        "implied_remote_squared_norm_max": 0.09417739919161426,
+        "cross_implementation_dot_error_bound": 2.7185058415280015e-15
+      },
+      {
+        "block_index": 10,
+        "held_channels": 22,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 4.0389678347315804e-28,
+        "local_held_squared_norm": 0.07970207202639264,
+        "high_accuracy_sum_of_rounded_squares": 0.07970207202639264,
+        "implied_remote_squared_norm_min": 0.07970207202639262,
+        "implied_remote_squared_norm_max": 0.07970207202639262,
+        "cross_implementation_dot_error_bound": 1.5927673585326222e-15
+      },
+      {
+        "block_index": 14,
+        "held_channels": 6,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 4.930380657631324e-32,
+        "local_held_squared_norm": 9.126940952099576e-06,
+        "high_accuracy_sum_of_rounded_squares": 9.126940952099576e-06,
+        "implied_remote_squared_norm_min": 9.126940952099575e-06,
+        "implied_remote_squared_norm_max": 9.126940952099575e-06,
+        "cross_implementation_dot_error_bound": 5.269128794495916e-20
+      },
+      {
+        "block_index": 15,
+        "held_channels": 8,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 3.1554436208840472e-30,
+        "local_held_squared_norm": 0.0004174797104938428,
+        "high_accuracy_sum_of_rounded_squares": 0.0004174797104938428,
+        "implied_remote_squared_norm_min": 0.0004174797104938427,
+        "implied_remote_squared_norm_max": 0.0004174797104938427,
+        "cross_implementation_dot_error_bound": 3.1517699909479506e-18
+      },
+      {
+        "block_index": 16,
+        "held_channels": 16,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 1.5777218104420236e-30,
+        "local_held_squared_norm": 0.0002752281341148971,
+        "high_accuracy_sum_of_rounded_squares": 0.0002752281341148971,
+        "implied_remote_squared_norm_min": 0.00027522813411489706,
+        "implied_remote_squared_norm_max": 0.00027522813411489706,
+        "cross_implementation_dot_error_bound": 4.0334528720505545e-18
+      },
+      {
+        "block_index": 18,
+        "held_channels": 73,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 1.262177448353619e-29,
+        "local_held_squared_norm": 0.0031137019870954253,
+        "high_accuracy_sum_of_rounded_squares": 0.0031137019870954253,
+        "implied_remote_squared_norm_min": 0.0031137019870954258,
+        "implied_remote_squared_norm_max": 0.0031137019870954258,
+        "cross_implementation_dot_error_bound": 2.0326593390819983e-16
+      },
+      {
+        "block_index": 19,
+        "held_channels": 212,
+        "changed_tolerances": 377,
+        "maximum_absolute_difference": 1.262177448353619e-29,
+        "local_held_squared_norm": 0.0033050122052189703,
+        "high_accuracy_sum_of_rounded_squares": 0.0033050122052189703,
+        "implied_remote_squared_norm_min": 0.0033050122052189707,
+        "implied_remote_squared_norm_max": 0.0033050122052189707,
+        "cross_implementation_dot_error_bound": 6.237811099732734e-16
+      },
+      {
+        "block_index": 28,
+        "held_channels": 10,
+        "changed_tolerances": 376,
+        "maximum_absolute_difference": 6.310887241768095e-30,
+        "local_held_squared_norm": 0.00097710343207853,
+        "high_accuracy_sum_of_rounded_squares": 0.00097710343207853,
+        "implied_remote_squared_norm_min": 0.0009771034320785299,
+        "implied_remote_squared_norm_max": 0.0009771034320785299,
+        "cross_implementation_dot_error_bound": 9.112342912964352e-18
+      },
+      {
+        "block_index": 31,
+        "held_channels": 27,
+        "changed_tolerances": 370,
+        "maximum_absolute_difference": 3.1554436208840472e-30,
+        "local_held_squared_norm": 0.0005227961045342823,
+        "high_accuracy_sum_of_rounded_squares": 0.0005227961045342822,
+        "implied_remote_squared_norm_min": 0.0005227961045342822,
+        "implied_remote_squared_norm_max": 0.0005227961045342822,
+        "cross_implementation_dot_error_bound": 1.2769245993642757e-17
+      },
+      {
+        "block_index": 32,
+        "held_channels": 20,
+        "changed_tolerances": 376,
+        "maximum_absolute_difference": 3.944304526105059e-31,
+        "local_held_squared_norm": 4.3575272555017715e-05,
+        "high_accuracy_sum_of_rounded_squares": 4.357527255501772e-05,
+        "implied_remote_squared_norm_min": 4.357527255501773e-05,
+        "implied_remote_squared_norm_max": 4.357527255501773e-05,
+        "cross_implementation_dot_error_bound": 7.934036426763234e-19
+      }
+    ],
+    "float64_error_bound": "For each held block n, gamma(2n)=2n*eps64/(1-2n*eps64). Cross-dot bound=2*(gamma(2n)+eps64)*fsum(rounded b_i*b_i). Tau bound=128*eps64*max(M,N)*cross_dot_bound+4*eps64*max(abs(tau_local),abs(tau_saved)). All observed differences satisfy this conservative floating-point engineering bound; not an interval-arithmetic certificate.",
+    "maximum_observed_difference_to_bound_ratio": 0.029075135802817904,
+    "inference": "Only the held-block squared-norm dot-product/multiplication rounding path can account for the observed differing fields: cached losses, deltas, factor, support and all classification outputs are unchanged. All differing contexts are strictly held-norm-dominated. Different NumPy/BLAS runtimes are documented.",
+    "scientific_values_replaced_or_rounded": false,
+    "production_features_source": "Unchanged byte-hash-verified remote features.json; local replay is diagnostic only"
+  },
+  "new_classifier_fit_performed": false,
+  "new_threshold_or_selection_outcome_exists": false,
+  "final_refit_not_run": true,
+  "independent_FDR_claim": false,
+  "all_block_arrays_retained_locally_and_remotely": true,
+  "scope": "All scientific artifact membership/hashes, 74 downloaded-member hashes, block model counts and source bindings, finite stored arrays, all 377 S/C values and 12818 delta/tau/support/sign contexts, original raw identity accounting. No duplicate loss/KKT replay, solver, classifier, test or rho call.",
+  "KKT_review_evidence": "Frozen remote full review passed; root official local execution completed all 34 independent loss/KKT checks before failing exact feature-object equality. This separate review checks stored diagnostics and scalar-score compatibility only."
+}

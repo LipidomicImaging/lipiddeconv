@@ -1,4 +1,8 @@
-# 物理块留出预测开发准备中 — 2026-09-13
+# 物理块留出预测：DEV计算完成，审查保存中 — 2026-09-13
+
+执行前快照df8844c02be8fcab5b4df0f652fa760722e3cdb7已成功推送并核对，design SHA256 8b7d878954ae76cec513cd956bcf56fcab8e2339c55fbff64ae5c863d168c56a。DEV34块、12852模型完整完成，1329.12秒，远程原环境exact缓存审查PASS，74文件完整下载hash匹配。全部34块本地loss/KKT通过；本地汇总exact检查FEATURES_CHANGED保留为失败记录。独立定位仅4892个per-block数值容差末位不同（最大6.05845e-28），全部377个S/C、12818个Delta和支持/正贡献判定完全一致；不修改科学代码或保存特征。独立摘要及DEV_record记录完整兼容性审查；保存该DEV具体Git后ack→唯一fit_model→模型/阈值review/seal/Git→CHECK。尚无分类器或CHECK结果，主目标未解决；大数组/所有块两端保留，不清理。
+
+# 历史准备 — 物理块留出预测开发 — 2026-09-13
 
 用户已同意执行并开启远程主机，登录及既有DEV/CHECK/components可用性已确认。按docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md完成实现/测试、输入/划块/运行时封存并先推送，再DEV34块预测→独立缓存审查/下载/Git→一次模型/阈值seal→CHECK同流程→最终门槛召回上界检查或一次完整缩库重拟合。原始观察、rho、production ISTA、alias门槛、d_frag分组不变；无新模拟/旧CAL2/HOLD/GPU/清理。新增analysis/physical_block_prediction.py、analysis/review_physical_block_prediction.py、analysis/run_physical_block_prediction.py及对应tests、无凭据transport helper；新结果仅results/physical_block_prediction_v1。目前未开始真实拟合。
 
