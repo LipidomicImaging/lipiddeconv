@@ -1,0 +1,323 @@
+{
+  "status": "COMPLETED_REVIEWED",
+  "scope": "Exposed constructed development cases; not independent real-acquisition FDR validation",
+  "all_truth_count_per_case": 125,
+  "old_CHECK": {
+    "old_model_screen": {
+      "pool": {
+        "TP": 121,
+        "FP": 10,
+        "FN": 4,
+        "retained": 131,
+        "FDP": 0.07633587786259542,
+        "all_truth_recall": 0.968,
+        "TP_retention": 0.968,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      },
+      "fdp5": {
+        "TP": 117,
+        "FP": 6,
+        "FN": 8,
+        "retained": 123,
+        "FDP": 0.04878048780487805,
+        "all_truth_recall": 0.936,
+        "TP_retention": 0.936,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      },
+      "fdp1": {
+        "TP": 83,
+        "FP": 2,
+        "FN": 42,
+        "retained": 85,
+        "FDP": 0.023529411764705882,
+        "all_truth_recall": 0.664,
+        "TP_retention": 0.664,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      }
+    },
+    "corrected_screen": {
+      "pool": {
+        "TP": 117,
+        "FP": 7,
+        "FN": 8,
+        "retained": 124,
+        "FDP": 0.056451612903225805,
+        "all_truth_recall": 0.936,
+        "TP_retention": 0.936,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      },
+      "fdp5": {
+        "TP": 111,
+        "FP": 2,
+        "FN": 14,
+        "retained": 113,
+        "FDP": 0.017699115044247787,
+        "all_truth_recall": 0.888,
+        "TP_retention": 0.888,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      },
+      "fdp1": {
+        "TP": 71,
+        "FP": 1,
+        "FN": 54,
+        "retained": 72,
+        "FDP": 0.013888888888888888,
+        "all_truth_recall": 0.568,
+        "TP_retention": 0.568,
+        "all_truth_count": 125,
+        "raw_solver_misses": 0
+      }
+    },
+    "corrected_refit_performed": false
+  },
+  "new_composition": {
+    "old_model_screen": {
+      "pool": {
+        "TP": 120,
+        "FP": 9,
+        "FN": 5,
+        "FDP": 0.06976744186046512,
+        "all_truth_recall": 0.96,
+        "TP_retention": 0.967741935483871,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 129
+      },
+      "fdp5": {
+        "TP": 118,
+        "FP": 7,
+        "FN": 7,
+        "FDP": 0.056,
+        "all_truth_recall": 0.944,
+        "TP_retention": 0.9516129032258065,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 125
+      },
+      "fdp1": {
+        "TP": 86,
+        "FP": 1,
+        "FN": 39,
+        "FDP": 0.011494252873563218,
+        "all_truth_recall": 0.688,
+        "TP_retention": 0.6935483870967742,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 87
+      }
+    },
+    "corrected_screen": {
+      "pool": {
+        "TP": 121,
+        "FP": 9,
+        "FN": 4,
+        "FDP": 0.06923076923076923,
+        "all_truth_recall": 0.968,
+        "TP_retention": 0.9758064516129032,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 130
+      },
+      "fdp5": {
+        "TP": 113,
+        "FP": 5,
+        "FN": 12,
+        "FDP": 0.0423728813559322,
+        "all_truth_recall": 0.904,
+        "TP_retention": 0.9112903225806451,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 118
+      },
+      "fdp1": {
+        "TP": 67,
+        "FP": 0,
+        "FN": 58,
+        "FDP": 0.0,
+        "all_truth_recall": 0.536,
+        "TP_retention": 0.5403225806451613,
+        "all_truth_count": 125,
+        "raw_solver_misses": 1,
+        "retained": 67
+      }
+    },
+    "actual_high_recall_pool_refit": {
+      "TP": 121,
+      "FP": 9,
+      "FN": 4,
+      "FDP": 0.06923076923076923,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.9758064516129032,
+      "all_truth_count": 125,
+      "raw_solver_misses": 1,
+      "retained": 130
+    },
+    "transitions": {
+      "raw_solver_missed_truth": [
+        "PE O-18:1_20:3"
+      ],
+      "screening_removed_truth": [
+        "PE O-18:2_20:3",
+        "PE O-18:2_22:4",
+        "PG 16:0_22:6"
+      ],
+      "screening_removed_false": [
+        "PA 16:0_24:0",
+        "PA 18:0_22:1",
+        "PA 18:0_22:3",
+        "PA 18:1_24:1",
+        "PA 18:1_24:5",
+        "PA 20:0_20:1",
+        "PA 20:1_20:2",
+        "PA 20:1_22:5",
+        "PA 22:0_20:3",
+        "PA 22:4_22:6",
+        "PA 22:5_22:6",
+        "PS 16:0_18:0",
+        "PS 18:0_18:1",
+        "PE 16:0_22:5",
+        "PE 16:1_22:2",
+        "PE 16:1_22:5",
+        "PE 20:0_18:1",
+        "PE 18:1_20:4",
+        "PE 18:1_22:2",
+        "PE 20:0_18:2",
+        "PE 18:2_20:3",
+        "PE 20:4_20:4",
+        "PE 17:0_20:2",
+        "PE O-16:0_22:3",
+        "PE O-16:0_22:6",
+        "PE O-16:1_22:4",
+        "PE O-18:0_20:3",
+        "PE O-18:0_20:4",
+        "PE O-18:0_22:1",
+        "PE O-18:1_22:5",
+        "PE O-18:1_22:6",
+        "PE O-18:2_22:2",
+        "PE O-18:3_22:4",
+        "PG 16:1_20:4",
+        "PG 14:0_22:2",
+        "PG 18:0_18:2",
+        "PG 20:0_16:1",
+        "PG 16:0_20:0",
+        "PG 18:1_20:5",
+        "PG 18:2_20:4",
+        "PG 16:0_22:5",
+        "PG 18:0_20:4",
+        "PG 17:0_20:5",
+        "PG 17:1_18:1",
+        "PG 17:1_20:2",
+        "PG 17:1_20:3",
+        "PC 16:0_18:2"
+      ],
+      "refit_removed_truth": [],
+      "refit_removed_false": [],
+      "refit_gained_names": []
+    },
+    "endpoint_flags": {
+      "primary_strict_1pct_recall80_pass": false,
+      "primary_secondary_5pct_recall80_pass": false
+    },
+    "refit_residual": {
+      "foreground_squared_residual": 0.5191478274745454,
+      "foreground_observation_squared_norm": 6309.819697032545,
+      "foreground_relative_l2_residual": 0.009070621514611292
+    },
+    "false_identity_abundances": [
+      {
+        "lipid_name": "PA 20:0_20:0",
+        "first_abundance": 0.004953674843132915,
+        "refit_abundance": 0.008168387702051855,
+        "refit_to_first": 1.6489551617170373,
+        "rho_zero": 4.0431784462373444e-07,
+        "corrected_score": 0.8081285128270628
+      },
+      {
+        "lipid_name": "PA 20:0_22:3",
+        "first_abundance": 0.0046895358662738884,
+        "refit_abundance": 0.0014272592118671093,
+        "refit_to_first": 0.30434978056818884,
+        "rho_zero": 5.002175048951911e-07,
+        "corrected_score": 0.7551859480378234
+      },
+      {
+        "lipid_name": "PE 16:0_22:3",
+        "first_abundance": 0.007570491756235441,
+        "refit_abundance": 0.004370195124659906,
+        "refit_to_first": 0.5772670079272448,
+        "rho_zero": 1.2486286757259598e-07,
+        "corrected_score": 0.9001526071806003
+      },
+      {
+        "lipid_name": "PE 17:0_20:4",
+        "first_abundance": 0.004591470850806419,
+        "refit_abundance": 0.004872851294512215,
+        "refit_to_first": 1.0612832908775576,
+        "rho_zero": 5.1638671743151445e-08,
+        "corrected_score": 0.6737071487006865
+      },
+      {
+        "lipid_name": "PE 17:1_22:3",
+        "first_abundance": 0.006564594142873368,
+        "refit_abundance": 0.004046880851494299,
+        "refit_to_first": 0.6164708378640071,
+        "rho_zero": 5.431737804093865e-10,
+        "corrected_score": 0.8602601551220814
+      },
+      {
+        "lipid_name": "PE 17:1_22:4",
+        "first_abundance": 0.0045076043661412225,
+        "refit_abundance": 0.00461875661607951,
+        "refit_to_first": 1.024658830036905,
+        "rho_zero": 5.6372886691447455e-08,
+        "corrected_score": 0.6549450987493463
+      },
+      {
+        "lipid_name": "PE O-18:2_20:2",
+        "first_abundance": 0.0049541726216013144,
+        "refit_abundance": 0.005454940129380724,
+        "refit_to_first": 1.101079947355074,
+        "rho_zero": 0.0,
+        "corrected_score": 0.7126730118305188
+      },
+      {
+        "lipid_name": "PG 18:1_20:3",
+        "first_abundance": 0.0064188182662422546,
+        "refit_abundance": 0.008305588576538124,
+        "refit_to_first": 1.2939435628235092,
+        "rho_zero": 9.164727571288318e-08,
+        "corrected_score": 0.8500720124142545
+      },
+      {
+        "lipid_name": "PG 17:0_20:2",
+        "first_abundance": 0.005991981345622902,
+        "refit_abundance": 0.0031793159040485967,
+        "refit_to_first": 0.5305950937866426,
+        "rho_zero": 1.0611439713646569e-08,
+        "corrected_score": 0.8411461938157456
+      }
+    ],
+    "false_abundance_changes": {
+      "increased": 5,
+      "decreased": 4
+    },
+    "fdp5_subset_refit_performed": false
+  },
+  "next_candidate_diagnostics_only": [
+    "Net held-block gain after removing largest positive gain; abundance/support-matched analysis",
+    "Cached deletion redistribution and held-block replacement within/outside frozen competitor groups"
+  ],
+  "new_indicator_experiment_started": false,
+  "independent_FDR_claim": false,
+  "sources_sha256": {
+    "old_CHECK_comparison.json": "4f199836464ad7c64f36e2e19a43564a0e38773fc0ea362d9e76c7784d833eb8",
+    "new_composition_case/selection.json": "7176f3fc14b1b19da61906517daf7d10650bc5c25987ad920716a6957b7dedaf",
+    "new_composition_case/pool_refit/completion.json": "5641d9a0a43ee963c90c0c9c1de6e40227ced70978ac316a18c7129823f3ef7d",
+    "new_composition_case/pool_refit/molecular_records.json": "31f0096e31d916a7d2400e196d4a0650646abcf25232ad38788e184c656e6740"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-13T10:22:58.151238+00:00",
+  "pid": 8358,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "14400s",
+    "/root/miniconda3/bin/python",
+    "analysis/run_new_composition_development.py",
+    "pool_refit",
+    "--output",
+    "/root/physical_block_score_correction_v2/results/new_composition_case"
+  ],
+  "log": "/root/physical_block_score_correction_v2/pool_refit.log",
+  "case_handoff_sha256": "8f45cc7746ed953e25b93267e7b5527fe1d108bb4747559b757be6b86e8a2cee"
+}

@@ -1,4 +1,10 @@
-# ACTIVE — 新组合初筛完成，待一次缩库重拟合 — 2026-09-13
+# COMPLETED — 评分修正、不同组合验证及最终保存 — 2026-09-13
+
+本轮已完成修正模型、原7假身份及4真值损失解释、不同125真值组合初筛和一次实际缩库NNLS。新组最终121TP9FP4FN，FDP6.9231%、recall96.8%，与输入高召回池完全相同。原始漏1、筛选漏3、重拟合无额外漏失；固定DEV5%初筛新组113/5（4.2373%、90.4%），未另跑该118名集合。模型、阈值、原观察/alias/rho/solver定义未改。remote/local及独立缓存审查PASS，138文件最终归档及137成员下载hash匹配，全部数组保留。初筛具体063c370已先成功push再交接refit。
+
+现在只保存results/physical_block_score_correction_v2最终case、analysis_record.md/comparison.json/retention_review.json、假身份强度说明及CURRENT_STATE/NEXT_TASK，commit并成功push后核对该case已入Git，STOP。本轮工作完成，不代表FDR/recall主目标解决。用户最新的继续挖掘意见已写为候选策略（支持块去最大净贡献、竞争者替代、成对强度家族），尚未执行新诊断/模型/阈值试验；不按弱结果调参重跑。下方真实CE29独立线程任务不受本节影响，不修改/停止/重复启动它。本轮下方ACTIVE/RUNNING为历史交接。
+
+# 历史交接 — 新组合初筛完成，待一次缩库重拟合 — 2026-09-13
 
 新组合两阶段完整完成，remote/local缓存和独立数组/身份/分数/counts审查PASS，412文件100052918字节下载hash一致（20210a28398b11785f2167541c0810b360ce4afc06fac0f477ef4471b666a2eb），所有数组保留。原始124TP56FP漏1（PE O-18:1_20:3）；修正pool121TP9FP/4FN，FDP6.9231%、recall96.8%，其中筛掉另外3真值。新组旧模型120/9；固定DEV5%修正113/5（4.2373%、90.4%），旧118/7（5.6%、94.4%）。5%集合未另跑refit。9假名字与旧10无重合，另有一个rho0/S负/C0被丰度补偿放行。先提交push此case与独立复核→ack→一次130名pool refit→缓存审核/下载/保存push后STOP；不改模型/阈值/旧结果，无删除。报告results/physical_block_score_correction_v2/new_composition_case/initial_case_record.md。
 

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "case": "NEW_COMPOSITION_CHECK",
+  "stage": "pool_refit",
+  "prior_case_pushed_before_refit": "063c37076e8449afaf10ab7b0e0362ecf5341855",
+  "archive": {
+    "local": "C:/Users/ld/Documents/ChatGPT/课题/lipiddeconv/results/physical_block_score_correction_v2_transfer/pool_refit_completed.tar.gz",
+    "remote": "/root/physical_block_score_correction_v2/pool_refit_completed.tar.gz",
+    "sha256": "09f98d9465a41460dac1a88bc38432836f05315fa63300ce5f2343e5bc2caac4",
+    "bytes": 71252237,
+    "files": 138,
+    "manifest_members_verified": 137
+  },
+  "reviews": {
+    "new_composition_case/reviews/pool_refit_remote.json": {
+      "status": "CACHE_REVIEW_PASS",
+      "sha256": "2371a4e5563a7b400421dc40e5e68120c4183e43336bba92a93f5378fd52ab85"
+    },
+    "new_composition_case/reviews/pool_refit_local.json": {
+      "status": "CACHE_REVIEW_PASS",
+      "sha256": "d56b452338b9af6e4fa122922ea6d012d504f81bc5f7ae052ea509dac004382d"
+    },
+    "new_composition_case/independent_refit_review.json": {
+      "status": "PASS",
+      "sha256": "1ceeeeb1c264b7e24b1681fa035131bcd5f52d578eb37fba38844a860eb946af"
+    }
+  },
+  "retained_local_case": "C:/Users/ld/Documents/ChatGPT/课题/lipiddeconv/results/physical_block_score_correction_v2/new_composition_case",
+  "retained_remote_case": "/root/physical_block_score_correction_v2/results/new_composition_case",
+  "final_arrays_sha256": "5642ec4a708e565519282c1d18e452b41b463de339de2e0f2dacada6a04c2018",
+  "initial_arrays_sha256": "3776cda44762a226a9f1556fba5d1bf558dad8180e227e3ff41097dcee9ed0ee",
+  "source_arrays_sha256": "48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7",
+  "full_records_preserved": true,
+  "all_initial_and_refit_nnls_blocks_and_physical_blocks_preserved": true,
+  "deleted_paths": [],
+  "large_arrays_excluded_from_lightweight_git": true,
+  "review_used_cached_results_only": true,
+  "deferred_checks": [
+    "No corrected old-CHECK pool refit in this version",
+    "No separate DEV5%-subset refit",
+    "No equal-strength or strength-swap family",
+    "No independent real-acquisition FDR validation",
+    "No newly proposed indicator experiment"
+  ],
+  "scientific_objective_solved": false
+}

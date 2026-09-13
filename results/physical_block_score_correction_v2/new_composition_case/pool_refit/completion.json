@@ -1,0 +1,128 @@
+{
+  "status": "COMPLETE",
+  "case": "NEW_COMPOSITION_CHECK",
+  "stage": "pool_refit",
+  "binding": {
+    "design_sha256": "fab8040867e46fede8d598197291c2198da1ae856c6899bf79c4bd4fda57b0ec",
+    "model_binding_sha256": "9f027cdc1d513b6d84c33adfaf06b5713b3a86526a3af3df7336cba92095d38f",
+    "selection_sha256": "7176f3fc14b1b19da61906517daf7d10650bc5c25987ad920716a6957b7dedaf",
+    "case_handoff_sha256": "8f45cc7746ed953e25b93267e7b5527fe1d108bb4747559b757be6b86e8a2cee"
+  },
+  "counts": {
+    "raw": {
+      "TP": 124,
+      "FP": 56,
+      "FN": 1,
+      "FDP": 0.3111111111111111,
+      "all_truth_recall": 0.992,
+      "TP_retention": 1.0,
+      "all_truth_count": 125,
+      "raw_solver_misses": 1,
+      "retained": 180
+    },
+    "pool": {
+      "TP": 121,
+      "FP": 9,
+      "FN": 4,
+      "FDP": 0.06923076923076923,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.9758064516129032,
+      "all_truth_count": 125,
+      "raw_solver_misses": 1,
+      "retained": 130
+    },
+    "refit_primary": {
+      "TP": 121,
+      "FP": 9,
+      "FN": 4,
+      "FDP": 0.06923076923076923,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.9758064516129032,
+      "all_truth_count": 125,
+      "raw_solver_misses": 1,
+      "retained": 130
+    }
+  },
+  "transitions": {
+    "raw_solver_missed_truth": [
+      "PE O-18:1_20:3"
+    ],
+    "screening_removed_truth": [
+      "PE O-18:2_20:3",
+      "PE O-18:2_22:4",
+      "PG 16:0_22:6"
+    ],
+    "screening_removed_false": [
+      "PA 16:0_24:0",
+      "PA 18:0_22:1",
+      "PA 18:0_22:3",
+      "PA 18:1_24:1",
+      "PA 18:1_24:5",
+      "PA 20:0_20:1",
+      "PA 20:1_20:2",
+      "PA 20:1_22:5",
+      "PA 22:0_20:3",
+      "PA 22:4_22:6",
+      "PA 22:5_22:6",
+      "PS 16:0_18:0",
+      "PS 18:0_18:1",
+      "PE 16:0_22:5",
+      "PE 16:1_22:2",
+      "PE 16:1_22:5",
+      "PE 20:0_18:1",
+      "PE 18:1_20:4",
+      "PE 18:1_22:2",
+      "PE 20:0_18:2",
+      "PE 18:2_20:3",
+      "PE 20:4_20:4",
+      "PE 17:0_20:2",
+      "PE O-16:0_22:3",
+      "PE O-16:0_22:6",
+      "PE O-16:1_22:4",
+      "PE O-18:0_20:3",
+      "PE O-18:0_20:4",
+      "PE O-18:0_22:1",
+      "PE O-18:1_22:5",
+      "PE O-18:1_22:6",
+      "PE O-18:2_22:2",
+      "PE O-18:3_22:4",
+      "PG 16:1_20:4",
+      "PG 14:0_22:2",
+      "PG 18:0_18:2",
+      "PG 20:0_16:1",
+      "PG 16:0_20:0",
+      "PG 18:1_20:5",
+      "PG 18:2_20:4",
+      "PG 16:0_22:5",
+      "PG 18:0_20:4",
+      "PG 17:0_20:5",
+      "PG 17:1_18:1",
+      "PG 17:1_20:2",
+      "PG 17:1_20:3",
+      "PC 16:0_18:2"
+    ],
+    "refit_removed_truth": [],
+    "refit_removed_false": [],
+    "refit_gained_names": []
+  },
+  "endpoint_flags": {
+    "primary_strict_1pct_recall80_pass": false,
+    "primary_secondary_5pct_recall80_pass": false
+  },
+  "residual": {
+    "foreground_squared_residual": 0.5191478274745454,
+    "foreground_observation_squared_norm": 6309.819697032545,
+    "foreground_relative_l2_residual": 0.009070621514611292
+  },
+  "elapsed_seconds": 154.33348556607962,
+  "matching_cached_blocks_reused": false,
+  "elapsed_scope": "current helper invocation",
+  "artifacts": {
+    "candidate_records.json": "30a2acf9b68abdf6853ba7f210ba11a6c040b9ba9aff8d3e025f8409b6c02d04",
+    "molecular_records.json": "31f0096e31d916a7d2400e196d4a0650646abcf25232ad38788e184c656e6740",
+    "fit/binding.json": "4d64b8d17d0f167b9629f5ce9a038cdd2fc87981fd95b1c6852f96bfa2c7bcac",
+    "fit/completion.json": "3c1185f2f0f512e292b3ec0dc0e17c8f404f4912104331e24edb9e821119f87a",
+    "fit/learned_arrays.npz": "5642ec4a708e565519282c1d18e452b41b463de339de2e0f2dacada6a04c2018"
+  },
+  "independent_FDR_claim": false
+}

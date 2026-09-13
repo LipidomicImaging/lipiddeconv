@@ -1,0 +1,14 @@
+{
+  "status": "REVIEWED_DOWNLOADED_PUSHED_CASE_BEFORE_REFIT",
+  "commit": "063c37076e8449afaf10ab7b0e0362ecf5341855",
+  "reviews": {
+    "nnls_rho": "864ae18a5e5d1fef6e7160d36c48553647c17f12931363cd5d5d90b4100fc88f",
+    "physical_features": "7243a377b691879dbde7ca159bf012d9489c4ea37edf2fb3e395e14b7969e83d"
+  },
+  "selection_sha256": "7176f3fc14b1b19da61906517daf7d10650bc5c25987ad920716a6957b7dedaf",
+  "selection_seal_sha256": "39bfe3e9e8aadccd1374912e03361b9d95ccee37ec7f0e68628847d9a8858f21",
+  "binding": {
+    "design_sha256": "fab8040867e46fede8d598197291c2198da1ae856c6899bf79c4bd4fda57b0ec",
+    "model_binding_sha256": "9f027cdc1d513b6d84c33adfaf06b5713b3a86526a3af3df7336cba92095d38f"
+  }
+}
