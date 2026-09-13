@@ -1,0 +1,22 @@
+{
+  "actual_FDR_and_recall_unknown": true,
+  "optimization_called": false,
+  "checked": {
+    "NNLS": {
+      "added_vs_DEV5": 6,
+      "retained": 49,
+      "raw": 78,
+      "source_csv_sha256": "b0d1eca74e4078bf2655f3dc9f7a37ea91ca742983eb134e3c8fa2db9e34caaf"
+    },
+    "ISTA": {
+      "added_vs_DEV5": 11,
+      "retained": 38,
+      "raw": 76,
+      "source_csv_sha256": "5552b1da02b51ebb7c37e7fbbba9972e047f54584f9e8a6b2145711ee8b3aafb"
+    }
+  },
+  "all_source_and_artifact_hashes_match": true,
+  "status": "PASS",
+  "thresholds_selected_from_real_data": false,
+  "independent_original_csv_membership_and_values": true
+}

@@ -1,3 +1,9 @@
+# COMPLETED — 真实 CE29 模拟DEV10阈值迁移 — 2026-09-13
+
+按用户要求复查最终全图ISTA与NNLS，仅应用已保存模拟DEV阈值joint_score>=0.5406530976316042。ISTA76→38（原报告50%），NNLS78→49（62.82%），共同30、ISTA独有8、NNLS独有19；较原DEV5档分别新增11/6名。阈值来源的两个逐组看真值最佳cut仅作敏感性：0.2706294889→48/55，0.3436665579→43/53；均不能称真实FDR<10%，真实TP/FP/FN/recall未知。使用15837像素完整结果，未重算solver/rho/特征或模型，无删除；去丰度新拟合仍暂停、未执行。原分数独立标量复算、原CSV独立名单/数值检查及来源/产物hash全部PASS，compile/diff-check通过。
+
+输出results/real_ce29_dev10_threshold/analysis_record.md、retained_identities.csv、added_vs_DEV5.csv及全754条分子记录、来源阈值快照、复核和hash；脚本analysis/summarize_real_ce29_dev10.py。保存本次紧凑结果与状态，commit/push核对包含本case，向用户汇报后STOP。不把本对照当作重新确定科学阈值或启动独立线程任务。
+
 # COMPLETED — 真实 NNLS 全图及模拟→真实差异分析 — 2026-09-13
 
 全库NNLS于19:47完成，15837像素/391列/64块，耗时2247.781秒；缓存和固定评分复核PASS。全图报告78，固定pool/DEV5/DEV1保留47/43/17（ISTA76，33/27/18）；旧rho>=.001仍6个同名身份。完整结果results/real_ce29_nnls_joint_screening_v2/analysis_record.md，全部数组/块保留，无删除。

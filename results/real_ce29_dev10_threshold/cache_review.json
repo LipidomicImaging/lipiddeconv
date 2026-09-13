@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": true,
+  "parent_reviews": "PASS",
+  "independent_scalar_score_errors": {
+    "ISTA": 2.7755575615628914e-16,
+    "NNLS": 2.220446049250313e-16
+  },
+  "original_threshold_flags_unchanged": true,
+  "unknown_truth_preserved": true,
+  "no_new_optimization": true,
+  "output_records": 754
+}

@@ -1,0 +1,49 @@
+{
+  "all_previous_outputs_and_arrays_preserved": true,
+  "files": {
+    ".gitattributes": {
+      "sha256": "308a40fa1d89ae5ea4390b4c9b46a0108b09f171f07898f25d451fa0c69c4e9f",
+      "bytes": 72
+    },
+    "added_vs_DEV5.csv": {
+      "sha256": "04f65ccdf81edf6214a5fe92bd48781769fcb2cf53730101c6f5a220596b7753",
+      "bytes": 2868
+    },
+    "analysis_record.md": {
+      "sha256": "00f4fa7471597d536e3a0928dbc6bc6c1664b0b1cf668f17c38d39a259eb138a",
+      "bytes": 1763
+    },
+    "artifact_hashes.json": {
+      "sha256": "c0610ee6cd0939e9d36e8fafafbdda797180bd2c0bd6c5994bbc2f274b6be489",
+      "bytes": 753
+    },
+    "cache_review.json": {
+      "sha256": "4c757474b4f7fe6855c5d9b3f6cab8853205cb0bc6719764c4973c1e6bd1e99b",
+      "bytes": 337
+    },
+    "independent_csv_review.json": {
+      "sha256": "40d0438580030ab51e6e9ccb63308695edb3fda96c0aa24f39a1e2590c626a97",
+      "bytes": 651
+    },
+    "molecular_records.json": {
+      "sha256": "f84bc3bd5acca0247f5a66b647fc2d248c102aeef3fd5742ca97a5e1f5623a62",
+      "bytes": 485772
+    },
+    "molecular_screening.csv": {
+      "sha256": "5a85c226be203384b825391eefbf8dbaa1b269290dd698b3e70f92532dc1c49a",
+      "bytes": 73246
+    },
+    "report.json": {
+      "sha256": "f80e3d8c6eaf2e3fd3fbc975856f2bbc7800e3fd113de03d2d7b4fa164827fc2",
+      "bytes": 16861
+    },
+    "retained_identities.csv": {
+      "sha256": "7463058445ff061c3f7aedd7f24c52d1f36e5deb1dd552bb78e2ad3008940296",
+      "bytes": 13351
+    },
+    "source_threshold_query.json": {
+      "sha256": "4cba0c3515c0cc59ece7f48824fd8eb18fb820da66eabe4a8d96d98452bc8b17",
+      "bytes": 12697
+    }
+  }
+}
