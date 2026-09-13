@@ -1,0 +1,2216 @@
+{
+  "model_seal_sha256": "d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2",
+  "rows_sha256": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+  "features_sha256": "01b6a4ef155b32126669dafd4667a68f931f3557dbc3c06ea94277a76034ed64",
+  "review": {
+    "status": "PASS",
+    "max_probability_error": 2.220446049250313e-16,
+    "reported_count": 176,
+    "truth_used": false,
+    "monotonicity": "nondecreasing in rho/S/C; rho floor unchanged"
+  },
+  "selections": {
+    "pool": [
+      "PA 16:0_24:0",
+      "PA 18:0_22:1",
+      "PA 18:0_22:3",
+      "PA 18:0_22:5",
+      "PA 18:0_24:0",
+      "PA 18:0_24:4",
+      "PA 22:0_18:1",
+      "PA 18:1_22:2",
+      "PA 18:2_22:2",
+      "PA 18:2_22:3",
+      "PA 20:0_20:0",
+      "PA 20:0_20:1",
+      "PA 20:1_20:2",
+      "PA 20:1_20:3",
+      "PA 20:1_20:4",
+      "PA 20:1_22:2",
+      "PA 20:1_22:4",
+      "PA 20:1_22:6",
+      "PA 20:2_20:2",
+      "PA 20:2_22:4",
+      "PA 20:2_22:6",
+      "PA 20:3_22:3",
+      "PA 20:3_22:6",
+      "PA 22:1_20:4",
+      "PA 22:2_20:4",
+      "PA 22:3_20:4",
+      "PA 22:4_22:5",
+      "PS 14:0_20:1",
+      "PS 16:0_18:0",
+      "PS 16:0_18:2",
+      "PS 16:0_20:0",
+      "PS 16:0_20:4",
+      "PS 16:1_18:1",
+      "PS 16:1_20:2",
+      "PS 18:0_18:1",
+      "PS 18:1_18:1",
+      "PS 18:1_18:2",
+      "PS 18:2_18:2",
+      "PS 17:0_18:2",
+      "PE 16:0_22:6",
+      "PE 16:1_22:2",
+      "PE 18:0_20:0",
+      "PE 18:0_20:4",
+      "PE 18:0_22:3",
+      "PE 18:0_22:4",
+      "PE 18:0_22:5",
+      "PE 18:0_22:6",
+      "PE 22:1_18:2",
+      "PE 18:2_22:3",
+      "PE 18:2_22:5",
+      "PE 18:2_22:6",
+      "PE 20:0_20:4",
+      "PE 20:1_20:2",
+      "PE 20:2_20:2",
+      "PE 20:2_20:4",
+      "PE 20:2_20:5",
+      "PE 20:3_20:5",
+      "PE 17:0_20:1",
+      "PE 17:0_20:3",
+      "PE 17:0_20:4",
+      "PE 17:0_20:5",
+      "PE 20:0_17:1",
+      "PE 17:1_20:4",
+      "PE 17:1_22:1",
+      "PE O-16:0_22:2",
+      "PE O-16:0_22:3",
+      "PE O-16:1_22:0",
+      "PE O-16:1_22:2",
+      "PE O-16:1_22:3",
+      "PE O-16:1_22:4",
+      "PE O-16:1_22:5",
+      "PE O-16:1_24:1",
+      "PE O-18:0_22:1",
+      "PE O-18:0_22:2",
+      "PE O-18:1_20:1",
+      "PE O-18:1_20:4",
+      "PE O-18:1_22:1",
+      "PE O-18:1_22:2",
+      "PE O-18:1_22:3",
+      "PE O-18:1_22:4",
+      "PE O-18:1_22:5",
+      "PE O-18:1_22:6",
+      "PE O-20:0_18:2",
+      "PE O-18:2_20:2",
+      "PE O-18:2_20:4",
+      "PE O-18:2_22:0",
+      "PE O-18:2_22:2",
+      "PE O-18:2_22:5",
+      "PE O-18:2_22:6",
+      "PE O-18:3_22:0",
+      "PE O-18:3_22:6",
+      "PE O-20:2_20:4",
+      "PG 16:0_20:5",
+      "PG 18:2_18:2",
+      "PG 16:0_20:3",
+      "PG 16:1_20:2",
+      "PG 18:0_18:3",
+      "PG 18:0_18:2",
+      "PG 14:0_22:1",
+      "PG 16:0_20:1",
+      "PG 18:3_20:4",
+      "PG 16:1_22:4",
+      "PG 18:2_20:3",
+      "PG 18:0_20:4",
+      "PG 18:1_20:3",
+      "PG 18:2_20:2",
+      "PG 17:0_20:2",
+      "PG 17:0_20:3",
+      "PG 17:0_20:5",
+      "PG 18:0_17:1",
+      "PG 17:1_18:2",
+      "PG 20:0_17:1",
+      "PG 17:1_20:2",
+      "PG 17:1_20:3",
+      "PG 17:1_20:4",
+      "PG 17:0_17:0",
+      "PC O-16:1_18:0",
+      "PC O-16:1_17:1",
+      "PC 14:0_18:2",
+      "PC 14:0_20:0",
+      "PC 14:0_20:1",
+      "PC 14:0_20:3",
+      "PC 18:0_14:1",
+      "PC 17:0_17:0"
+    ],
+    "fdp5": [
+      "PA 16:0_24:0",
+      "PA 18:0_22:1",
+      "PA 18:0_22:3",
+      "PA 18:0_22:5",
+      "PA 18:0_24:0",
+      "PA 22:0_18:1",
+      "PA 18:1_22:2",
+      "PA 18:2_22:2",
+      "PA 18:2_22:3",
+      "PA 20:0_20:0",
+      "PA 20:0_20:1",
+      "PA 20:1_20:3",
+      "PA 20:1_20:4",
+      "PA 20:1_22:2",
+      "PA 20:1_22:4",
+      "PA 20:2_20:2",
+      "PA 20:2_22:4",
+      "PA 20:2_22:6",
+      "PA 20:3_22:3",
+      "PA 20:3_22:6",
+      "PA 22:1_20:4",
+      "PA 22:2_20:4",
+      "PA 22:3_20:4",
+      "PA 22:4_22:5",
+      "PS 14:0_20:1",
+      "PS 16:0_18:0",
+      "PS 16:0_18:2",
+      "PS 16:0_20:0",
+      "PS 16:1_18:1",
+      "PS 16:1_20:2",
+      "PS 18:0_18:1",
+      "PS 18:1_18:1",
+      "PS 18:1_18:2",
+      "PS 18:2_18:2",
+      "PS 17:0_18:2",
+      "PE 16:0_22:6",
+      "PE 16:1_22:2",
+      "PE 18:0_20:0",
+      "PE 18:0_20:4",
+      "PE 18:0_22:3",
+      "PE 18:0_22:4",
+      "PE 18:0_22:5",
+      "PE 18:0_22:6",
+      "PE 22:1_18:2",
+      "PE 18:2_22:3",
+      "PE 18:2_22:5",
+      "PE 18:2_22:6",
+      "PE 20:0_20:4",
+      "PE 20:1_20:2",
+      "PE 20:2_20:2",
+      "PE 20:2_20:4",
+      "PE 20:2_20:5",
+      "PE 20:3_20:5",
+      "PE 17:0_20:1",
+      "PE 17:0_20:3",
+      "PE 17:0_20:4",
+      "PE 17:0_20:5",
+      "PE 20:0_17:1",
+      "PE 17:1_20:4",
+      "PE 17:1_22:1",
+      "PE O-16:0_22:2",
+      "PE O-16:0_22:3",
+      "PE O-16:1_22:0",
+      "PE O-16:1_22:2",
+      "PE O-16:1_22:4",
+      "PE O-16:1_22:5",
+      "PE O-16:1_24:1",
+      "PE O-18:0_22:1",
+      "PE O-18:0_22:2",
+      "PE O-18:1_20:1",
+      "PE O-18:1_20:4",
+      "PE O-18:1_22:1",
+      "PE O-18:1_22:2",
+      "PE O-18:1_22:3",
+      "PE O-18:1_22:4",
+      "PE O-18:1_22:5",
+      "PE O-20:0_18:2",
+      "PE O-18:2_20:2",
+      "PE O-18:2_20:4",
+      "PE O-18:2_22:0",
+      "PE O-18:2_22:5",
+      "PE O-18:2_22:6",
+      "PE O-18:3_22:0",
+      "PE O-18:3_22:6",
+      "PE O-20:2_20:4",
+      "PG 18:2_18:2",
+      "PG 16:0_20:3",
+      "PG 16:1_20:2",
+      "PG 18:0_18:3",
+      "PG 18:0_18:2",
+      "PG 14:0_22:1",
+      "PG 16:0_20:1",
+      "PG 18:3_20:4",
+      "PG 16:1_22:4",
+      "PG 18:2_20:3",
+      "PG 18:0_20:4",
+      "PG 18:1_20:3",
+      "PG 17:0_20:2",
+      "PG 17:0_20:3",
+      "PG 18:0_17:1",
+      "PG 17:1_18:2",
+      "PG 20:0_17:1",
+      "PG 17:1_20:2",
+      "PG 17:1_20:3",
+      "PG 17:0_17:0",
+      "PC O-16:1_18:0",
+      "PC O-16:1_17:1",
+      "PC 14:0_18:2",
+      "PC 14:0_20:0",
+      "PC 14:0_20:1",
+      "PC 14:0_20:3",
+      "PC 18:0_14:1",
+      "PC 17:0_17:0"
+    ],
+    "fdp1": [
+      "PA 16:0_24:0",
+      "PA 18:1_22:2",
+      "PA 18:2_22:2",
+      "PA 20:0_20:1",
+      "PA 20:1_20:3",
+      "PA 20:1_20:4",
+      "PA 20:1_22:2",
+      "PA 20:1_22:4",
+      "PA 20:2_22:4",
+      "PA 20:2_22:6",
+      "PA 20:3_22:3",
+      "PA 22:3_20:4",
+      "PS 14:0_20:1",
+      "PS 16:0_18:0",
+      "PS 16:1_18:1",
+      "PS 16:1_20:2",
+      "PS 18:1_18:1",
+      "PS 18:1_18:2",
+      "PS 17:0_18:2",
+      "PE 16:0_22:6",
+      "PE 16:1_22:2",
+      "PE 18:0_20:0",
+      "PE 18:0_20:4",
+      "PE 18:0_22:3",
+      "PE 18:0_22:4",
+      "PE 18:0_22:5",
+      "PE 18:0_22:6",
+      "PE 22:1_18:2",
+      "PE 18:2_22:3",
+      "PE 18:2_22:6",
+      "PE 20:0_20:4",
+      "PE 20:1_20:2",
+      "PE 20:2_20:5",
+      "PE 20:3_20:5",
+      "PE 17:0_20:3",
+      "PE 17:0_20:5",
+      "PE 20:0_17:1",
+      "PE 17:1_22:1",
+      "PE O-16:0_22:3",
+      "PE O-16:1_22:2",
+      "PE O-16:1_22:5",
+      "PE O-18:0_22:1",
+      "PE O-18:0_22:2",
+      "PE O-18:1_20:4",
+      "PE O-18:1_22:2",
+      "PE O-18:1_22:4",
+      "PE O-18:1_22:5",
+      "PE O-20:0_18:2",
+      "PE O-18:2_20:2",
+      "PE O-18:2_20:4",
+      "PE O-18:2_22:0",
+      "PE O-18:2_22:6",
+      "PG 16:0_20:3",
+      "PG 16:1_20:2",
+      "PG 18:0_18:3",
+      "PG 18:0_18:2",
+      "PG 18:3_20:4",
+      "PG 16:1_22:4",
+      "PG 18:2_20:3",
+      "PG 18:0_20:4",
+      "PG 17:0_20:2",
+      "PG 17:0_20:3",
+      "PG 18:0_17:1",
+      "PG 17:1_18:2",
+      "PG 20:0_17:1",
+      "PG 17:1_20:2",
+      "PG 17:0_17:0",
+      "PC O-16:1_18:0",
+      "PC O-16:1_17:1",
+      "PC 14:0_20:3",
+      "PC 18:0_14:1",
+      "PC 17:0_17:0"
+    ]
+  },
+  "rows": [
+    {
+      "lipid_name": "PA 16:0_24:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9895574526212424
+    },
+    {
+      "lipid_name": "PA 16:0_24:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 16:0_24:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 16:0_24:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 24:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:0_22:0",
+      "raw_solver_reported": true,
+      "new_score": 0.35918351795711834
+    },
+    {
+      "lipid_name": "PA 18:0_22:1",
+      "raw_solver_reported": true,
+      "new_score": 0.8814577526077764
+    },
+    {
+      "lipid_name": "PA 18:0_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9346896645875611
+    },
+    {
+      "lipid_name": "PA 18:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:0_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.8813757814442921
+    },
+    {
+      "lipid_name": "PA 18:0_24:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9209867291623847
+    },
+    {
+      "lipid_name": "PA 18:0_24:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:0_24:4",
+      "raw_solver_reported": true,
+      "new_score": 0.7787980132490427
+    },
+    {
+      "lipid_name": "PA 18:0_24:5",
+      "raw_solver_reported": true,
+      "new_score": 0.2344915489793939
+    },
+    {
+      "lipid_name": "PA 18:0_24:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:0_18:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9359263485132993
+    },
+    {
+      "lipid_name": "PA 18:1_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:1_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9796440686507957
+    },
+    {
+      "lipid_name": "PA 18:1_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.23757561982936187
+    },
+    {
+      "lipid_name": "PA 18:1_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 24:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:1_24:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:1_24:4",
+      "raw_solver_reported": true,
+      "new_score": 0.06314472579542271
+    },
+    {
+      "lipid_name": "PA 18:1_24:5",
+      "raw_solver_reported": true,
+      "new_score": 0.5245881842006888
+    },
+    {
+      "lipid_name": "PA 18:1_24:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:0_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:2_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9731400124843188
+    },
+    {
+      "lipid_name": "PA 18:2_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9501591574646684
+    },
+    {
+      "lipid_name": "PA 24:0_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 24:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:2_24:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:2_24:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 18:2_24:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9349930148302777
+    },
+    {
+      "lipid_name": "PA 20:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9826258386904658
+    },
+    {
+      "lipid_name": "PA 20:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.005427681140902231
+    },
+    {
+      "lipid_name": "PA 20:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:0_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.779057858891044
+    },
+    {
+      "lipid_name": "PA 20:1_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9786154497415069
+    },
+    {
+      "lipid_name": "PA 20:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9883154274310995
+    },
+    {
+      "lipid_name": "PA 22:0_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9788737187681207
+    },
+    {
+      "lipid_name": "PA 20:1_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9925865291029112
+    },
+    {
+      "lipid_name": "PA 20:1_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:1_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.7901601191526302
+    },
+    {
+      "lipid_name": "PA 20:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.922578379715366
+    },
+    {
+      "lipid_name": "PA 20:2_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.03384533528237947
+    },
+    {
+      "lipid_name": "PA 22:1_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:2_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9730032776467605
+    },
+    {
+      "lipid_name": "PA 20:2_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.9725449283952202
+    },
+    {
+      "lipid_name": "PA 22:0_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:3_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9914272654806485
+    },
+    {
+      "lipid_name": "PA 20:3_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.1086178704209124
+    },
+    {
+      "lipid_name": "PA 20:3_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.8261303966843445
+    },
+    {
+      "lipid_name": "PA 22:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9417418591113581
+    },
+    {
+      "lipid_name": "PA 22:2_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9472707898877428
+    },
+    {
+      "lipid_name": "PA 22:3_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9860994351776705
+    },
+    {
+      "lipid_name": "PA 20:4_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:4_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 20:4_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.026352089861637444
+    },
+    {
+      "lipid_name": "PA 22:1_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:3_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.11923922262605866
+    },
+    {
+      "lipid_name": "PA 22:4_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9378646803027416
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.45966662595979024
+    },
+    {
+      "lipid_name": "PA 22:5_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:5_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PA 22:6_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_20:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.996346967760237
+    },
+    {
+      "lipid_name": "PS 14:0_22:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 14:0_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.039505623949383124
+    },
+    {
+      "lipid_name": "PS 16:0_18:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9969707884132455
+    },
+    {
+      "lipid_name": "PS 16:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9142741020968388
+    },
+    {
+      "lipid_name": "PS 16:0_20:0",
+      "raw_solver_reported": true,
+      "new_score": 0.876677227097536
+    },
+    {
+      "lipid_name": "PS 16:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.011922687765329894
+    },
+    {
+      "lipid_name": "PS 16:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:0_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:0_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.7881075493050403
+    },
+    {
+      "lipid_name": "PS 16:0_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 18:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:1_18:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9593944570931799
+    },
+    {
+      "lipid_name": "PS 20:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.979642342977402
+    },
+    {
+      "lipid_name": "PS 16:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 16:1_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 18:0_18:0",
+      "raw_solver_reported": true,
+      "new_score": 0.012870135682326056
+    },
+    {
+      "lipid_name": "PS 18:0_18:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9260028717152861
+    },
+    {
+      "lipid_name": "PS 18:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.00420895389526972
+    },
+    {
+      "lipid_name": "PS 18:0_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 18:1_18:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9961219206674979
+    },
+    {
+      "lipid_name": "PS 18:1_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9811759319860326
+    },
+    {
+      "lipid_name": "PS 18:1_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 18:2_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9200897871907054
+    },
+    {
+      "lipid_name": "PS 17:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PS 17:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9999717302928484
+    },
+    {
+      "lipid_name": "PS 18:0_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.9590438606019996
+    },
+    {
+      "lipid_name": "PE 16:0_24:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_24:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:0_24:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 22:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:1_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:1_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9819400055534616
+    },
+    {
+      "lipid_name": "PE 16:1_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:1_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:1_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 16:1_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:0_20:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9944071010662742
+    },
+    {
+      "lipid_name": "PE 18:0_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.004763651097240072
+    },
+    {
+      "lipid_name": "PE 18:0_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9932152448623186
+    },
+    {
+      "lipid_name": "PE 18:0_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9760576850535637
+    },
+    {
+      "lipid_name": "PE 18:0_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9827103639942274
+    },
+    {
+      "lipid_name": "PE 18:0_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9715998309718599
+    },
+    {
+      "lipid_name": "PE 18:0_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.9966539527586712
+    },
+    {
+      "lipid_name": "PE 20:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.2706294889329924
+    },
+    {
+      "lipid_name": "PE 18:1_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:1_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.32070788899289554
+    },
+    {
+      "lipid_name": "PE 18:1_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.004829287103561693
+    },
+    {
+      "lipid_name": "PE 18:1_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.019049059358494557
+    },
+    {
+      "lipid_name": "PE 20:0_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.04412653364056686
+    },
+    {
+      "lipid_name": "PE 18:2_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:2_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:2_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 22:1_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9992697544591794
+    },
+    {
+      "lipid_name": "PE 18:2_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.251778508454154
+    },
+    {
+      "lipid_name": "PE 18:2_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9909846529535421
+    },
+    {
+      "lipid_name": "PE 18:2_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.07902346435890877
+    },
+    {
+      "lipid_name": "PE 18:2_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9484805385746788
+    },
+    {
+      "lipid_name": "PE 18:2_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.9736003961656586
+    },
+    {
+      "lipid_name": "PE 20:0_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:1_18:3",
+      "raw_solver_reported": true,
+      "new_score": 0.00413560298284473
+    },
+    {
+      "lipid_name": "PE 18:3_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:3_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 18:3_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.132307781674293
+    },
+    {
+      "lipid_name": "PE 20:0_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9854410445464703
+    },
+    {
+      "lipid_name": "PE 20:0_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.0785309878970914
+    },
+    {
+      "lipid_name": "PE 20:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9751681771885842
+    },
+    {
+      "lipid_name": "PE 20:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:1_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:1_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9129116011562904
+    },
+    {
+      "lipid_name": "PE 20:2_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.4027925916558277
+    },
+    {
+      "lipid_name": "PE 20:2_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9190971971352945
+    },
+    {
+      "lipid_name": "PE 20:2_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9943826420395597
+    },
+    {
+      "lipid_name": "PE 20:3_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:3_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.09120482135368026
+    },
+    {
+      "lipid_name": "PE 20:3_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9831891100281472
+    },
+    {
+      "lipid_name": "PE 20:4_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:4_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_20:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9070305807295841
+    },
+    {
+      "lipid_name": "PE 17:0_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.504540624026386
+    },
+    {
+      "lipid_name": "PE 17:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9635351074605076
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.8990543862501315
+    },
+    {
+      "lipid_name": "PE 17:0_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9874942201615335
+    },
+    {
+      "lipid_name": "PE 17:0_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.038495075688106596
+    },
+    {
+      "lipid_name": "PE 17:0_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:0_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 20:0_17:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9929179081200322
+    },
+    {
+      "lipid_name": "PE 17:1_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.2730286174495194
+    },
+    {
+      "lipid_name": "PE 17:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.0025691700598232015
+    },
+    {
+      "lipid_name": "PE 17:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9005751404628111
+    },
+    {
+      "lipid_name": "PE 17:1_22:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9693192924310898
+    },
+    {
+      "lipid_name": "PE 17:1_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:1_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:1_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE 17:1_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:0_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:0_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9545541132903659
+    },
+    {
+      "lipid_name": "PE O-16:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9767537340325766
+    },
+    {
+      "lipid_name": "PE O-16:0_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.01281262403248456
+    },
+    {
+      "lipid_name": "PE O-16:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:0_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.05653205100617954
+    },
+    {
+      "lipid_name": "PE O-16:1_22:0",
+      "raw_solver_reported": true,
+      "new_score": 0.8792606749950702
+    },
+    {
+      "lipid_name": "PE O-16:1_22:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:1_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9861724592058552
+    },
+    {
+      "lipid_name": "PE O-16:1_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.7967796193960371
+    },
+    {
+      "lipid_name": "PE O-16:1_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.935043723735633
+    },
+    {
+      "lipid_name": "PE O-16:1_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9787471008668913
+    },
+    {
+      "lipid_name": "PE O-16:1_24:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:1_24:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9387563201907472
+    },
+    {
+      "lipid_name": "PE O-16:1_24:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:1_24:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-16:1_24:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.037956510605043764
+    },
+    {
+      "lipid_name": "PE O-18:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_22:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9881011400768638
+    },
+    {
+      "lipid_name": "PE O-18:0_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9816419215289918
+    },
+    {
+      "lipid_name": "PE O-18:0_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:0_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:1_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.8739713861486779
+    },
+    {
+      "lipid_name": "PE O-18:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.2530330625301654
+    },
+    {
+      "lipid_name": "PE O-18:1_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.005721539480104136
+    },
+    {
+      "lipid_name": "PE O-18:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9830455012704754
+    },
+    {
+      "lipid_name": "PE O-18:1_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:1_22:1",
+      "raw_solver_reported": true,
+      "new_score": 0.8301946276844013
+    },
+    {
+      "lipid_name": "PE O-18:1_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9861948545515081
+    },
+    {
+      "lipid_name": "PE O-18:1_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.868503850050302
+    },
+    {
+      "lipid_name": "PE O-18:1_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9838926541164604
+    },
+    {
+      "lipid_name": "PE O-18:1_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9777910181178653
+    },
+    {
+      "lipid_name": "PE O-18:1_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.7138150364034965
+    },
+    {
+      "lipid_name": "PE O-20:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9959567197473358
+    },
+    {
+      "lipid_name": "PE O-20:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9806013323023228
+    },
+    {
+      "lipid_name": "PE O-18:2_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:2_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.97872931376177
+    },
+    {
+      "lipid_name": "PE O-18:2_22:0",
+      "raw_solver_reported": true,
+      "new_score": 0.961034861015693
+    },
+    {
+      "lipid_name": "PE O-22:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:2_22:2",
+      "raw_solver_reported": true,
+      "new_score": 0.6560502575165563
+    },
+    {
+      "lipid_name": "PE O-18:2_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:2_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.012311844650013662
+    },
+    {
+      "lipid_name": "PE O-18:2_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.9462726183596201
+    },
+    {
+      "lipid_name": "PE O-18:2_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.9961395683388428
+    },
+    {
+      "lipid_name": "PE O-18:3_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:3_22:0",
+      "raw_solver_reported": true,
+      "new_score": 0.901624539465851
+    },
+    {
+      "lipid_name": "PE O-18:3_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:3_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-18:3_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.0033161770876874996
+    },
+    {
+      "lipid_name": "PE O-18:3_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.8764927809972194
+    },
+    {
+      "lipid_name": "PE O-20:0_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.06356411810305293
+    },
+    {
+      "lipid_name": "PE O-20:0_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:1_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:1_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.09833784293343173
+    },
+    {
+      "lipid_name": "PE O-20:2_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:2_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.8560046594770703
+    },
+    {
+      "lipid_name": "PE O-20:3_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PE O-20:3_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 14:0_20:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_18:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 14:0_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.778049274590276
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.6291080899935921
+    },
+    {
+      "lipid_name": "PG 18:2_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 14:0_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.17594672273416687
+    },
+    {
+      "lipid_name": "PG 16:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:1_20:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:1_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:2_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9253281556277925
+    },
+    {
+      "lipid_name": "PG 14:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.6012700147845493
+    },
+    {
+      "lipid_name": "PG 16:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9674991186922364
+    },
+    {
+      "lipid_name": "PG 16:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.969495152230745
+    },
+    {
+      "lipid_name": "PG 18:0_18:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9855514782211251
+    },
+    {
+      "lipid_name": "PG 18:1_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.0021179689971731115
+    },
+    {
+      "lipid_name": "PG 14:0_22:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9902603299295923
+    },
+    {
+      "lipid_name": "PG 18:1_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 14:0_22:1",
+      "raw_solver_reported": true,
+      "new_score": 0.8826873678018545
+    },
+    {
+      "lipid_name": "PG 16:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9439875028890128
+    },
+    {
+      "lipid_name": "PG 20:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:0_18:1",
+      "raw_solver_reported": true,
+      "new_score": 0.002678984296423135
+    },
+    {
+      "lipid_name": "PG 14:0_22:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_20:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:0_18:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:1_22:6",
+      "raw_solver_reported": true,
+      "new_score": 0.048965541877799494
+    },
+    {
+      "lipid_name": "PG 18:2_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:3_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.972835622578573
+    },
+    {
+      "lipid_name": "PG 16:0_22:6",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:1_22:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:1_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:2_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_22:5",
+      "raw_solver_reported": true,
+      "new_score": 0.10565121847064528
+    },
+    {
+      "lipid_name": "PG 16:1_22:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9635197498452895
+    },
+    {
+      "lipid_name": "PG 18:0_20:5",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.3151191791172417
+    },
+    {
+      "lipid_name": "PG 18:2_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.983225748970831
+    },
+    {
+      "lipid_name": "PG 20:2_18:3",
+      "raw_solver_reported": true,
+      "new_score": 0.4063646442930658
+    },
+    {
+      "lipid_name": "PG 14:0_24:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:0_22:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 16:1_22:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 18:0_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.9938831106912348
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.8643451828890468
+    },
+    {
+      "lipid_name": "PG 18:2_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.7979746253710533
+    },
+    {
+      "lipid_name": "PG 20:1_18:3",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_18:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_20:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.987519526380821
+    },
+    {
+      "lipid_name": "PG 17:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9726025808282881
+    },
+    {
+      "lipid_name": "PG 17:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:0_20:5",
+      "raw_solver_reported": true,
+      "new_score": 0.7531854519522947
+    },
+    {
+      "lipid_name": "PG 18:0_17:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9753877422771686
+    },
+    {
+      "lipid_name": "PG 17:1_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:1_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9943356646610088
+    },
+    {
+      "lipid_name": "PG 20:0_17:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9870960546292581
+    },
+    {
+      "lipid_name": "PG 17:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PG 17:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.9761133806899094
+    },
+    {
+      "lipid_name": "PG 17:1_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.8840895034549252
+    },
+    {
+      "lipid_name": "PG 17:1_20:4",
+      "raw_solver_reported": true,
+      "new_score": 0.775245186810568
+    },
+    {
+      "lipid_name": "PG 17:0_17:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9927635506703749
+    },
+    {
+      "lipid_name": "PC 14:0_18:0",
+      "raw_solver_reported": true,
+      "new_score": 0.00728028101646159
+    },
+    {
+      "lipid_name": "PC 14:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:0_16:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 14:0_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:1_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:1_18:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9675272101327592
+    },
+    {
+      "lipid_name": "PC O-16:1_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:1_17:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:0_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:0_17:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC O-16:1_17:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9827388157429027
+    },
+    {
+      "lipid_name": "PC 14:0_18:2",
+      "raw_solver_reported": true,
+      "new_score": 0.8977796438292116
+    },
+    {
+      "lipid_name": "PC 14:0_20:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9580281947618202
+    },
+    {
+      "lipid_name": "PC 14:0_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.8683140699368912
+    },
+    {
+      "lipid_name": "PC 14:0_20:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 14:0_20:3",
+      "raw_solver_reported": true,
+      "new_score": 0.9854720764262656
+    },
+    {
+      "lipid_name": "PC 14:0_20:4",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 14:1_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 18:0_14:1",
+      "raw_solver_reported": true,
+      "new_score": 0.9925442747496839
+    },
+    {
+      "lipid_name": "PC 20:0_14:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 14:1_20:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:0_18:0",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:0_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:0_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:1_16:1",
+      "raw_solver_reported": true,
+      "new_score": 0.025743377349821624
+    },
+    {
+      "lipid_name": "PC 18:0_16:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:1_18:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 16:1_18:2",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 17:0_17:0",
+      "raw_solver_reported": true,
+      "new_score": 0.9874335658853269
+    },
+    {
+      "lipid_name": "PC 17:0_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    },
+    {
+      "lipid_name": "PC 17:1_17:1",
+      "raw_solver_reported": false,
+      "new_score": null
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+# ACTIVE — 单调评分已固定；不同组合待执行 — 2026-09-13
+
+唯一DEV模型已完成，两端缓存概率/目标/阈值复核PASS；rho系数落在0边界，实际由丰度及S/C评分。原CHECK修正pool117TP7FP（5.6452%、93.6%），恰好去掉3个零rho假身份和4个真身份；DEV5%门槛迁移111TP2FP（1.7699%、88.8%）。未跑原CHECK修正池refit。封存输入43030116a14fc49e7d2b2da81b088822d752740a已先push再fit，模型seal d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2；报告results/physical_block_score_correction_v2/model_record.md。最终新case远程/root/physical_block_score_correction_v2/results/new_composition_case已prepare及两端核对。先push本模型→bind_model→两阶段原NNLS/rho与34block并行各4CPU→缓存核对/下载hash/本casepush→一次修正poolrefit→保存push后STOP。模型/阈值不因新结果改变，旧HOLD不继续作独立验证，无删除。
+
 # ACTIVE — 修正评分结构并验证不同真值组合 — 2026-09-13
 
 用户明确要求修正rho零值被平方奖励的问题、解释另外7个FP，并换一组脂质组合测试。执行docs/PHYSICAL_BLOCK_SCORE_CORRECTION_V2.md：仅DEV缓存一次五特征单调rho/S/C模型，封存DEV95%及5%/1%规则；原CHECK描述性修正比较；现有未求解HOLD1改作NEW_COMPOSITION_CHECK开发数据（125真值与旧组不重合），保留旧停机合同，不再具有未曝光HOLD资格。复用现成输入/原NNLS/rho/34block及refit，不重生成观测、不改冻结门槛或旧结果。新目录results/physical_block_score_correction_v2；必要新增score/new-composition runner与缓存机制诊断输出。先code/input/runtime保存push、一次fit/model保存push，再新case求解→缓存独立审查/数组下载hash/本case push→一次修正pool refit→审查保存push后STOP。禁止坏结果调参重试或删除。当前尚无修正结果或新组合结果，旧CHECK121TP10FP仍有效。

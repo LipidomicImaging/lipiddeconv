@@ -1,0 +1,154 @@
+{
+  "role": "EXPOSED_OLD_CHECK_DEVELOPMENT_ONLY",
+  "old": {
+    "pool": {
+      "TP": 121,
+      "FP": 10,
+      "FN": 4,
+      "retained": 131,
+      "FDP": 0.07633587786259542,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.968,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    },
+    "fdp5": {
+      "TP": 117,
+      "FP": 6,
+      "FN": 8,
+      "retained": 123,
+      "FDP": 0.04878048780487805,
+      "all_truth_recall": 0.936,
+      "TP_retention": 0.936,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    },
+    "fdp1": {
+      "TP": 83,
+      "FP": 2,
+      "FN": 42,
+      "retained": 85,
+      "FDP": 0.023529411764705882,
+      "all_truth_recall": 0.664,
+      "TP_retention": 0.664,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    }
+  },
+  "corrected": {
+    "pool": {
+      "TP": 117,
+      "FP": 7,
+      "FN": 8,
+      "retained": 124,
+      "FDP": 0.056451612903225805,
+      "all_truth_recall": 0.936,
+      "TP_retention": 0.936,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    },
+    "fdp5": {
+      "TP": 111,
+      "FP": 2,
+      "FN": 14,
+      "retained": 113,
+      "FDP": 0.017699115044247787,
+      "all_truth_recall": 0.888,
+      "TP_retention": 0.888,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    },
+    "fdp1": {
+      "TP": 71,
+      "FP": 1,
+      "FN": 54,
+      "retained": 72,
+      "FDP": 0.013888888888888888,
+      "all_truth_recall": 0.568,
+      "TP_retention": 0.568,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0
+    }
+  },
+  "changes": {
+    "pool": {
+      "removed_true": [
+        "PA 18:1_24:5",
+        "PA 22:4_22:6",
+        "PE 18:1_20:3",
+        "PG 16:1_20:4"
+      ],
+      "added_true": [],
+      "removed_false": [
+        "PE 17:1_20:1",
+        "PE O-18:1_20:2",
+        "PG 14:0_22:3"
+      ],
+      "added_false": []
+    },
+    "fdp5": {
+      "removed_true": [
+        "PA 18:0_24:4",
+        "PA 18:1_24:5",
+        "PA 22:4_22:6",
+        "PE O-18:2_22:2",
+        "PG 16:1_20:4",
+        "PG 17:0_20:5",
+        "PS 16:0_20:4"
+      ],
+      "added_true": [
+        "PE O-18:1_22:3"
+      ],
+      "removed_false": [
+        "PE O-16:1_22:3",
+        "PG 14:0_22:3",
+        "PG 16:0_20:5",
+        "PG 17:1_20:4"
+      ],
+      "added_false": []
+    },
+    "fdp1": {
+      "removed_true": [
+        "PA 18:0_24:0",
+        "PA 18:2_22:3",
+        "PA 20:0_20:0",
+        "PA 22:1_20:4",
+        "PA 22:4_22:5",
+        "PC 14:0_18:2",
+        "PC 14:0_20:0",
+        "PE 17:0_20:1",
+        "PE 18:2_22:5",
+        "PG 16:0_20:1",
+        "PG 17:0_20:5",
+        "PG 18:2_18:2",
+        "PS 18:2_18:2"
+      ],
+      "added_true": [
+        "PE 20:1_20:2"
+      ],
+      "removed_false": [
+        "PE O-18:2_22:5"
+      ],
+      "added_false": []
+    }
+  },
+  "zero_rho_false_scores": [
+    {
+      "lipid_name": "PE 17:1_20:1",
+      "raw_solver_reported": true,
+      "new_score": 0.2730286174495194
+    },
+    {
+      "lipid_name": "PE O-18:1_20:2",
+      "raw_solver_reported": true,
+      "new_score": 0.2530330625301654
+    },
+    {
+      "lipid_name": "PG 14:0_22:3",
+      "raw_solver_reported": true,
+      "new_score": 0.6012700147845493
+    }
+  ],
+  "model_seal_sha256": "d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2",
+  "no_refit_yet": true
+}

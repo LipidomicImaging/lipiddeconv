@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "max_probability_error": 6.661338147750939e-16,
+  "reported_count": 174,
+  "truth_used": "DEV threshold/normalization review only",
+  "monotonicity": "nondecreasing in rho/S/C; rho floor unchanged",
+  "optimizer_called": false,
+  "model_seal_sha256": "d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2",
+  "max_projected_gradient": 7.30163361185171e-06,
+  "train_pool": {
+    "TP": 119,
+    "FP": 9,
+    "FN": 6,
+    "retained": 128,
+    "FDP": 0.0703125,
+    "all_truth_recall": 0.952,
+    "TP_retention": 0.952,
+    "all_truth_count": 125,
+    "raw_solver_misses": 0
+  },
+  "train_fdp5": {
+    "TP": 107,
+    "FP": 5,
+    "FN": 18,
+    "retained": 112,
+    "FDP": 0.044642857142857144,
+    "all_truth_recall": 0.856,
+    "TP_retention": 0.856,
+    "all_truth_count": 125,
+    "raw_solver_misses": 0
+  },
+  "train_fdp1": {
+    "TP": 65,
+    "FP": 0,
+    "FN": 60,
+    "retained": 65,
+    "FDP": 0.0,
+    "all_truth_recall": 0.52,
+    "TP_retention": 0.52,
+    "all_truth_count": 125,
+    "raw_solver_misses": 0
+  }
+}
