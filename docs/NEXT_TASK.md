@@ -1,3 +1,9 @@
+# COMPLETED — 下一步解决策略设计；实验未启动 — 2026-09-13
+
+本轮“请想出下一步的解决策略”已形成docs/NEXT_STRATEGY_PHYSICAL_BLOCK_PREDICTION.md，并完成明确本地物理组件的只读结构核对。主目标仍为筛选→重拟合→最终具体身份1%错误与80%all-truth recall；尚未达成。只提交该策略和CURRENT_STATE/NEXT_TASK后停止，不将策略设计完成当作科学目标完成。
+
+下一可执行步骤：在计算前冻结完整物理块manifest、完整库/删除全部alias的预测评分、数值与无支持处理、预算及一次联合模型；先旧DEV前景均值机制诊断，再已曝光CAL1开发检查，有可行性才完整两阶段验证与另行冻结强度家族CAL/HOLD。明确允许源为当前两阶段协议列出的案例/原模型/结果/solver/helper，加原design与local_source_map指向的final_sources/005/component_metadata.json和006/components.npz；不扫描重仓库、不重建旧版本。现阶段无新输出数组、训练、解卷积、rho、profile、GPU或清理；保持旧失败记录，不能依结果调参重试。
+
 # COMPLETED — 两阶段空间供体指标开发比较 — 2026-09-13
 
 docs/TWO_STAGE_SPATIAL_DONOR_DEVELOPMENT_V1.md规定的两种筛选→缩库NNLS配对开发、完整候选/分子计数、缓存独立审查与最终比较均完成。BASELINE最终119TP/8FP/6FN（95.2%recall、6.2992%FDP），AUGMENTED最终120TP/8FP/5FN（96%recall、6.25%FDP）；仅增加一个真身份，八个假身份不变，重拟合均未改变初筛名单。未达最终1%/80%或5%/80%，不能宣称独立FDR控制。更广泛目标保持未解决。
