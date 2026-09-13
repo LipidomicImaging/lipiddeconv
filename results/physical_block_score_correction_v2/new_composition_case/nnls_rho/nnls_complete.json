@@ -1,0 +1,16 @@
+{
+  "status": "NNLS_COMPLETE",
+  "fingerprint": "23dcf6cefa1afadad0e856797b4ecdcbf1bbded38f881c9b6323e738baf5b496",
+  "arrays_sha256": "3776cda44762a226a9f1556fba5d1bf558dad8180e227e3ff41097dcee9ed0ee",
+  "KKT": {
+    "max_dual_violation": 1.120575633360066e-15,
+    "max_complementarity": 7.176481152868646e-16,
+    "max_bound_ratio": 0.0004819755363262172
+  },
+  "all_pixels_KKT_checked_before_float32": true,
+  "residual": {
+    "foreground_squared_residual": 0.1683538275856276,
+    "foreground_observation_squared_norm": 6309.819697032545,
+    "foreground_relative_l2_residual": 0.005165388872263842
+  }
+}

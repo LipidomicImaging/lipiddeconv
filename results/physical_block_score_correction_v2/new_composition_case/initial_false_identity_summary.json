@@ -1,0 +1,111 @@
+{
+  "stage": "FIRST_SCREEN_COMPLETE_BEFORE_REFIT",
+  "false_rows": [
+    {
+      "lipid_name": "PE 16:0_22:3",
+      "first_X_hat": 0.007570491756235441,
+      "rho_zero": 1.2486286757259598e-07,
+      "S": -1.4096525874946528e-05,
+      "C": 0.5,
+      "corrected_score": 0.9001526071806003,
+      "in_DEV5pct_selection": true,
+      "was_true_in_old_CHECK": false
+    },
+    {
+      "lipid_name": "PE 17:1_22:3",
+      "first_X_hat": 0.006564594142873368,
+      "rho_zero": 5.431737804093865e-10,
+      "S": 0.00046088960433474763,
+      "C": 0.2857142857142857,
+      "corrected_score": 0.8602601551220814,
+      "in_DEV5pct_selection": true,
+      "was_true_in_old_CHECK": false
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "first_X_hat": 0.0064188182662422546,
+      "rho_zero": 9.164727571288318e-08,
+      "S": 0.0002765578924146044,
+      "C": 0.2222222222222222,
+      "corrected_score": 0.8500720124142545,
+      "in_DEV5pct_selection": true,
+      "was_true_in_old_CHECK": true
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "first_X_hat": 0.005991981345622902,
+      "rho_zero": 1.0611439713646569e-08,
+      "S": 0.001320599630843484,
+      "C": 0.5555555555555556,
+      "corrected_score": 0.8411461938157456,
+      "in_DEV5pct_selection": true,
+      "was_true_in_old_CHECK": true
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "first_X_hat": 0.0049541726216013144,
+      "rho_zero": 0.0,
+      "S": -0.00026765367731766,
+      "C": 0.0,
+      "corrected_score": 0.7126730118305188,
+      "in_DEV5pct_selection": false,
+      "was_true_in_old_CHECK": true
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "first_X_hat": 0.004953674843132915,
+      "rho_zero": 4.0431784462373444e-07,
+      "S": 0.007872885848579364,
+      "C": 0.6,
+      "corrected_score": 0.8081285128270628,
+      "in_DEV5pct_selection": true,
+      "was_true_in_old_CHECK": true
+    },
+    {
+      "lipid_name": "PA 20:0_22:3",
+      "first_X_hat": 0.0046895358662738884,
+      "rho_zero": 5.002175048951911e-07,
+      "S": 0.004843919342702363,
+      "C": 0.6666666666666666,
+      "corrected_score": 0.7551859480378234,
+      "in_DEV5pct_selection": false,
+      "was_true_in_old_CHECK": false
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "first_X_hat": 0.004591470850806419,
+      "rho_zero": 5.1638671743151445e-08,
+      "S": -0.001830315013683918,
+      "C": 0.6666666666666666,
+      "corrected_score": 0.6737071487006865,
+      "in_DEV5pct_selection": false,
+      "was_true_in_old_CHECK": true
+    },
+    {
+      "lipid_name": "PE 17:1_22:4",
+      "first_X_hat": 0.0045076043661412225,
+      "rho_zero": 5.6372886691447455e-08,
+      "S": -0.0005856581906680557,
+      "C": 0.25,
+      "corrected_score": 0.6549450987493463,
+      "in_DEV5pct_selection": false,
+      "was_true_in_old_CHECK": false
+    }
+  ],
+  "false_count": 9,
+  "positive_S_count": 5,
+  "negative_S_count": 4,
+  "zero_rho_negative_S_C0": [
+    "PE O-18:2_20:2"
+  ],
+  "old_false_overlap": [],
+  "first_solver_missed_true": [
+    "PE O-18:1_20:3"
+  ],
+  "screen_removed_true": [
+    "PE O-18:2_20:3",
+    "PE O-18:2_22:4",
+    "PG 16:0_22:6"
+  ],
+  "selection_sha256": "7176f3fc14b1b19da61906517daf7d10650bc5c25987ad920716a6957b7dedaf"
+}

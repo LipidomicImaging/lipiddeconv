@@ -1,0 +1,29 @@
+{
+  "old_CHECK": {
+    "true_positive_candidate_count": 125,
+    "true_mean_coefficient_quantiles": {
+      "min": 0.007335604023158281,
+      "q25": 0.007834927627532849,
+      "median": 0.014671208070659336,
+      "q75": 0.029342416121610412,
+      "max": 0.02934241617490426
+    },
+    "max_min_ratio": 4.0000000112153185,
+    "median_observation_norm": 0.6036783466931458,
+    "source_sha256": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291"
+  },
+  "new_composition": {
+    "true_positive_candidate_count": 125,
+    "true_mean_coefficient_quantiles": {
+      "min": 0.007504340401789251,
+      "q25": 0.008015149635158036,
+      "median": 0.015008680818809421,
+      "q75": 0.03001736162647827,
+      "max": 0.030017361663307377
+    },
+    "max_min_ratio": 4.000000007482386,
+    "median_observation_norm": 0.6036783439481135,
+    "source_sha256": "48a517e0f77568f7811ff8c711ab0223174ca8d8ad7053d20c5f7b7c6f52fbe7"
+  },
+  "scope": "Descriptive source abundance comparison. Relative abundance families were not redesigned, and this is not a controlled equal-intensity or swapped-dominance challenge."
+}

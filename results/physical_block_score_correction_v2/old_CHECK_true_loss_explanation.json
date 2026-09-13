@@ -1,0 +1,203 @@
+{
+  "status": "CACHED_EXPLANATORY_AUDIT_ONLY",
+  "role": "EXPOSED_OLD_CHECK_DEVELOPMENT",
+  "source_hashes": {
+    "comparison": "4f199836464ad7c64f36e2e19a43564a0e38773fc0ea362d9e76c7784d833eb8",
+    "new_scores": "22431b7f7dbe0b15c4b337622f3d0d488834eb046998539197c60b1db75efa18",
+    "new_model": "a1fd3193d994cc22df1676ab6e5d76c5880f9acb6442065127efa3fe7280a8bb",
+    "thresholds": "df44a646c0d6146259ece3c08dc3af5d61af1e4896825261f35d8b83745a79f4",
+    "old_model": "eabd7d5c3276782ce1c3d87009f92ab5b9435dd65e0c6f5fbcf2903c512f79db",
+    "old_selection": "378dbb19302fdfeb3edfc81c672bd8877478d93dd74c44c918f0420a534ee746",
+    "rows": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+    "features": "01b6a4ef155b32126669dafd4667a68f931f3557dbc3c06ea94277a76034ed64",
+    "truth_input": "88c10306bd3bfc909c691c07ac1254349f738138b2cd6814be3ad664242a2624",
+    "truth_metadata": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "truth_arrays": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291"
+  },
+  "foreground_count": 15837,
+  "truth_usage": "Only post-hoc explanatory foreground means from bound CAL1 X_true; never score inputs, features, training or thresholds.",
+  "abundance_definition": "X_hat is full-library reported-alias foreground mean; true_X is all molecular aliases summed then averaged over the same 15837 foreground pixels. These four each have one alias.",
+  "old_pool_threshold": 0.5735000428231877,
+  "new_pool_threshold": 0.6299285665027182,
+  "old_logit_threshold": 0.2961457447136612,
+  "new_logit_threshold": 0.5319103759431442,
+  "new_intercept": 2.4301635021791,
+  "old_intercept": 2.301860450255234,
+  "new_rho_coefficient": 0.0,
+  "all_four_rho_zero": true,
+  "records": [
+    {
+      "lipid_name": "PA 18:1_24:5",
+      "candidate_indices": [
+        24
+      ],
+      "X_hat": 0.003685880464354406,
+      "true_X_foreground_mean": 0.007335604035726202,
+      "X_hat_to_true_ratio": 0.5024644795988522,
+      "rho_zero": 0.0,
+      "S": 0.002616405949988232,
+      "C": 0.2222222222222222,
+      "old_score": 0.9046572781752146,
+      "new_score": 0.5245881842006888,
+      "old_score_minus_own_pool_cut": 0.3311572353520269,
+      "new_score_minus_own_pool_cut": -0.10534038230202947,
+      "standardized_a": -0.7891364661421585,
+      "new_logit": 0.09843213467984804,
+      "old_logit": 2.2500781758443344,
+      "new_logit_minus_own_pool_cut": -0.43347824126329615,
+      "old_logit_minus_own_pool_cut": 1.9539324311306734,
+      "new_logit_contributions": {
+        "a": -1.80943860007778,
+        "a_squared": -0.5267737657948411,
+        "r": -0.0,
+        "s": 0.060835687328429866,
+        "c": -0.05635468895506059
+      },
+      "old_logit_contributions": {
+        "a": -1.9366312129184238,
+        "r": -0.15363012350155567,
+        "a_squared": -0.7189687038548409,
+        "a_r": -0.043221632488986084,
+        "r_squared": 3.147232566783926,
+        "rho_is_zero": 0.05451779004870727,
+        "s": 0.04588681167684717,
+        "c": -0.44696777015657335
+      },
+      "new_abundance_contribution": -2.3362123658726213,
+      "new_physical_contribution": 0.004480998373369273,
+      "old_rho_linear_squared_zero_contribution": 3.048120233331077
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "candidate_indices": [
+        78
+      ],
+      "X_hat": 0.0035425461677220577,
+      "true_X_foreground_mean": 0.007335604033748606,
+      "X_hat_to_true_ratio": 0.4829249440705924,
+      "rho_zero": 0.0,
+      "S": -0.000418497235491167,
+      "C": 0.4,
+      "old_score": 0.9048893961634197,
+      "new_score": 0.45966662595979024,
+      "old_score_minus_own_pool_cut": 0.331389353340232,
+      "new_score_minus_own_pool_cut": -0.17026194054292798,
+      "standardized_a": -0.8288328394657097,
+      "new_logit": -0.16168480783635747,
+      "old_logit": 2.2527722567496973,
+      "new_logit_minus_own_pool_cut": -0.6935951837795016,
+      "old_logit_minus_own_pool_cut": 1.9566265120360362,
+      "new_logit_contributions": {
+        "a": -1.9004598026916661,
+        "a_squared": -0.5811039306139798,
+        "r": -0.0,
+        "s": -0.09057514971628582,
+        "c": -0.019709426993525646
+      },
+      "old_logit_contributions": {
+        "a": -2.034050656723727,
+        "r": -0.15363012350155567,
+        "a_squared": -0.7931213870684715,
+        "a_r": -0.04539583445854383,
+        "r_squared": 3.147232566783926,
+        "rho_is_zero": 0.05451779004870727,
+        "s": -0.06831853177224083,
+        "c": -0.1563220168136311
+      },
+      "new_abundance_contribution": -2.481563733305646,
+      "new_physical_contribution": -0.11028457670981145,
+      "old_rho_linear_squared_zero_contribution": 3.048120233331077
+    },
+    {
+      "lipid_name": "PE 18:1_20:3",
+      "candidate_indices": [
+        145
+      ],
+      "X_hat": 0.002905666292933105,
+      "true_X_foreground_mean": 0.014671208073591643,
+      "X_hat_to_true_ratio": 0.19805228569849953,
+      "rho_zero": 0.0,
+      "S": -3.956590949941086e-05,
+      "C": 0.0,
+      "old_score": 0.6660625096688902,
+      "new_score": 0.2706294889329924,
+      "old_score_minus_own_pool_cut": 0.09256246684570257,
+      "new_score_minus_own_pool_cut": -0.35929907756972584,
+      "standardized_a": -1.0271790744439933,
+      "new_logit": -0.9914311626288946,
+      "old_logit": 0.6904297037338674,
+      "new_logit_minus_own_pool_cut": -1.5233415385720388,
+      "old_logit_minus_own_pool_cut": 0.3942839590202062,
+      "new_logit_contributions": {
+        "a": -2.3552548212317808,
+        "a_squared": -0.8925082510154878,
+        "r": -0.0,
+        "s": -0.07167032615374674,
+        "c": -0.10216126640697927
+      },
+      "old_logit_contributions": {
+        "a": -2.5208150201825035,
+        "r": -0.15363012350155567,
+        "a_squared": -1.2181424780031074,
+        "a_r": -0.056259415653461126,
+        "r_squared": 3.147232566783926,
+        "rho_is_zero": 0.05451779004870727,
+        "s": -0.05405910417812109,
+        "c": -0.810274961835251
+      },
+      "new_abundance_contribution": -3.2477630722472686,
+      "new_physical_contribution": -0.173831592560726,
+      "old_rho_linear_squared_zero_contribution": 3.048120233331077
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "candidate_indices": [
+        281
+      ],
+      "X_hat": 0.00422492579555706,
+      "true_X_foreground_mean": 0.009053127659299168,
+      "X_hat_to_true_ratio": 0.4666813453378526,
+      "rho_zero": 0.0,
+      "S": 0.0016170815622237433,
+      "C": 0.2222222222222222,
+      "old_score": 0.9417266571900091,
+      "new_score": 0.6291080899935921,
+      "old_score_minus_own_pool_cut": 0.36822661436682147,
+      "new_score_minus_own_pool_cut": -0.000820476509126089,
+      "standardized_a": -0.6525317750242464,
+      "new_logit": 0.5283924136580427,
+      "old_logit": 2.7825703125252192,
+      "new_logit_minus_own_pool_cut": -0.0035179622851014836,
+      "old_logit_minus_own_pool_cut": 2.486424567811558,
+      "new_logit_contributions": {
+        "a": -1.496212926616221,
+        "a_squared": -0.36018302557362575,
+        "r": -0.0,
+        "s": 0.010979552623850052,
+        "c": -0.05635468895506059
+      },
+      "old_logit_contributions": {
+        "a": -1.601387665064977,
+        "r": -0.15363012350155567,
+        "a_squared": -0.4915968483290798,
+        "a_r": -0.0357396848042795,
+        "r_squared": 3.147232566783926,
+        "rho_is_zero": 0.05451779004870727,
+        "s": 0.008281597293817305,
+        "c": -0.44696777015657335
+      },
+      "new_abundance_contribution": -1.8563959521898468,
+      "new_physical_contribution": -0.04537513633121054,
+      "old_rho_linear_squared_zero_contribution": 3.048120233331077
+    }
+  ],
+  "interpretation": [
+    "All four lost true identities have rho=0. Rho=0 is not by itself evidence of falseness: two still have positive S and nonzero C.",
+    "The old positive rho-square term added 3.14723 logit units at the floor; together with old linear-rho and zero-indicator terms it added 3.04812, excluding the abundance-rho cross term. This reward also elevated these four truths.",
+    "The corrected fitted rho coefficient is exactly zero. The corrected model therefore neither rewards nor penalizes rho directly; their lower scores reflect the removed old terms, newly fitted abundance/evidence coefficients and the separately DEV-frozen cutoff together.",
+    "For all four a is negative and both new abundance terms contribute negatively. Their measured means are 0.002906 to 0.004225; S/C contributions are too small to offset this. PG 16:1_20:4 misses the fixed pool cutoff by only 0.00082048.",
+    "Score formulas and their DEV thresholds both changed; raw thresholds are on different fitted score scales. These arithmetic contributions are not a controlled single-variable ablation or unique causal explanation of solver under-allocation."
+  ],
+  "new_fit_or_threshold_search": false,
+  "retuning_authorized_by_this_note": false
+}

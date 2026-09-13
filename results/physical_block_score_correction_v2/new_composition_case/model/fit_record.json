@@ -1,0 +1,80 @@
+{
+  "source_hashes": {
+    "rows": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+    "features": "1190eef84a5ba15e69246f29ba1345c0d1d89d69e864f6a4c360662197ef2a2d",
+    "reference_model": "eabd7d5c3276782ce1c3d87009f92ab5b9435dd65e0c6f5fbcf2903c512f79db",
+    "reference_scores": "b78d7c83203a398695e8dc56dcf0198184a5724a86a50e2e76bfc853a3fc3ec4",
+    "protocol": "31c32c195407a426cff4ad52400391f6fb0c11ebd99b56aed9311f4739c1f3fa"
+  },
+  "source_paths": {
+    "rows": "/root/physical_block_prediction_v1/results/prepared/DEV_TRAIN_records.json",
+    "features": "/root/physical_block_prediction_v1/results/cases/DEV_TRAIN/features.json",
+    "reference_model": "/root/physical_block_prediction_v1/results/model.json",
+    "reference_scores": "/root/physical_block_prediction_v1/results/train_scores.json",
+    "protocol": "/root/physical_block_score_correction_v2/docs/PHYSICAL_BLOCK_SCORE_CORRECTION_V2.md"
+  },
+  "implementation_sha256": "5524916a4a63bb130ceec60d78c0547a6fbfeae03dd3ababd6d4eeb4af4b2356",
+  "snapshot_commit": "43030116a14fc49e7d2b2da81b088822d752740a",
+  "fit_count": 1,
+  "role": "DEV_TRAIN",
+  "options": {
+    "maxiter": 2000,
+    "gtol": 1e-08,
+    "ftol": 2.220446049250313e-09
+  },
+  "initial_theta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "objective": "sum logloss + 0.5 * squared coefficient norm; intercept unpenalized; C=1",
+  "runtime": {
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "numpy": "2.1.3",
+    "scipy": "1.15.3"
+  },
+  "optimizer": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 15,
+    "function_evaluations": 16,
+    "elapsed_seconds": 0.001364048570394516,
+    "objective": 42.342102748340224,
+    "gradient": [
+      1.6659508754734986e-06,
+      2.20961724251012e-06,
+      9.326240086870657,
+      -4.833009932259102e-07,
+      7.3016336101863755e-06,
+      -4.670395921113624e-06
+    ],
+    "projected_gradient": [
+      1.6659508754734986e-06,
+      2.20961724251012e-06,
+      0.0,
+      -4.833009932259102e-07,
+      7.3016336101863755e-06,
+      -4.670395921113624e-06
+    ],
+    "theta": [
+      2.292934970960802,
+      -0.8459017294859806,
+      0.0,
+      0.5886620672980939,
+      0.05809417650062963,
+      2.4301635021791
+    ],
+    "max_projected_gradient": 7.3016336101863755e-06
+  },
+  "prediction_review": {
+    "status": "PASS",
+    "max_probability_error": 2.220446049250313e-16,
+    "reported_count": 174,
+    "truth_used": false,
+    "monotonicity": "nondecreasing in rho/S/C; rho floor unchanged"
+  },
+  "optimizer_result_sha256": "331ac68233521e3768725a4387ad8dd1346f56c1d71d1e0f5cfce2f735e4a765"
+}

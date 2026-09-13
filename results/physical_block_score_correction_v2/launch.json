@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-13T09:46:08.804012+00:00",
+  "case": "/root/physical_block_score_correction_v2/results/new_composition_case",
+  "workers_per_stage": 4,
+  "stages": [
+    {
+      "stage": "nnls_rho",
+      "pid": 7312,
+      "log": "/root/physical_block_score_correction_v2/nnls_rho.log",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=30s",
+        "14400s",
+        "/root/miniconda3/bin/python",
+        "analysis/run_new_composition_development.py",
+        "nnls_rho",
+        "--output",
+        "/root/physical_block_score_correction_v2/results/new_composition_case"
+      ]
+    },
+    {
+      "stage": "physical_features",
+      "pid": 7313,
+      "log": "/root/physical_block_score_correction_v2/physical_features.log",
+      "command": [
+        "timeout",
+        "--signal=TERM",
+        "--kill-after=30s",
+        "14400s",
+        "/root/miniconda3/bin/python",
+        "analysis/run_new_composition_development.py",
+        "physical_features",
+        "--output",
+        "/root/physical_block_score_correction_v2/results/new_composition_case"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,14 @@
+# ACTIVE — 新组合初筛完成，待一次缩库重拟合 — 2026-09-13
+
+新组合两阶段完整完成，remote/local缓存和独立数组/身份/分数/counts审查PASS，412文件100052918字节下载hash一致（20210a28398b11785f2167541c0810b360ce4afc06fac0f477ef4471b666a2eb），所有数组保留。原始124TP56FP漏1（PE O-18:1_20:3）；修正pool121TP9FP/4FN，FDP6.9231%、recall96.8%，其中筛掉另外3真值。新组旧模型120/9；固定DEV5%修正113/5（4.2373%、90.4%），旧118/7（5.6%、94.4%）。5%集合未另跑refit。9假名字与旧10无重合，另有一个rho0/S负/C0被丰度补偿放行。先提交push此case与独立复核→ack→一次130名pool refit→缓存审核/下载/保存push后STOP；不改模型/阈值/旧结果，无删除。报告results/physical_block_score_correction_v2/new_composition_case/initial_case_record.md。
+
 # RUNNING — 真实CE29数据应用GitHub最新联合指标 — 2026-09-13
 
 用户要求查GitHub最新联合指标并筛选原真实实验结果。已核对实验分支704e05f的单调五项模型和三档原DEV阈值；真实production ISTA原始报告76个分子身份。来源/模型/34block/代码先封存并push f066cc5，18:09:05本地PID44448开始四CPU特征计算，统一exec session58989。仅等待此任务完成，不重复启动或进度轮询。新输出results/real_ce29_joint_screening_v2；run.log及report.json/failure.json是结束证据。完成后运行analysis/review_real_ce29_joint_screening.py缓存复核、输出三档数量/名单、Git保存并STOP。不要重跑ISTA/训练/全像素NNLS或调阈值，真实FDR/recall保持未知。原不同组合远程实验独立保留，不修改或停止它。运行解释/约束见docs/REAL_CE29_JOINT_SCREENING_V2.md。
 
+# RUNNING — 不同真值组合正在计算 — 2026-09-13
+
+新模型704e05fa35e39b15735fd5c600eaed9f8510db0f已push并核对；09:46:08UTC新组合两阶段并行启动，timeout父PID7312（NNLS/rho）和7313（34block），各4CPU/BLAS1，原始125真值与旧组不重合。远程/root/physical_block_score_correction_v2/results/new_composition_case，日志父目录nnls_rho.log和physical_features.log。仅继续当前运行，不重启重复任务。完成后缓存独立核对、下载全部数组hash、保存这个case并push，再一次修正poolrefit→审查/保存/push后STOP。原CHECK修正117/7，5%门槛111/2是已曝光开发结果；新组合尚无结果。模型/规则保持固定，无删除。
 # ACTIVE — 单调评分已固定；不同组合待执行 — 2026-09-13
 
 唯一DEV模型已完成，两端缓存概率/目标/阈值复核PASS；rho系数落在0边界，实际由丰度及S/C评分。原CHECK修正pool117TP7FP（5.6452%、93.6%），恰好去掉3个零rho假身份和4个真身份；DEV5%门槛迁移111TP2FP（1.7699%、88.8%）。未跑原CHECK修正池refit。封存输入43030116a14fc49e7d2b2da81b088822d752740a已先push再fit，模型seal d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2；报告results/physical_block_score_correction_v2/model_record.md。最终新case远程/root/physical_block_score_correction_v2/results/new_composition_case已prepare及两端核对。先push本模型→bind_model→两阶段原NNLS/rho与34block并行各4CPU→缓存核对/下载hash/本casepush→一次修正poolrefit→保存push后STOP。模型/阈值不因新结果改变，旧HOLD不继续作独立验证，无删除。

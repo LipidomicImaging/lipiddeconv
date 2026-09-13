@@ -1,0 +1,25 @@
+{
+  "old_truth_count": 125,
+  "new_truth_count": 125,
+  "truth_overlap": 0,
+  "old_pool_false_count": 10,
+  "old_false_now_deliberately_present": [
+    "PA 20:1_22:6",
+    "PE 17:1_20:1",
+    "PE O-18:2_22:5",
+    "PG 16:0_20:5",
+    "PG 17:0_20:3",
+    "PG 17:1_20:4",
+    "PG 18:2_20:2"
+  ],
+  "old_false_still_absent": [
+    "PE O-16:1_22:3",
+    "PE O-18:1_20:2",
+    "PG 14:0_22:3"
+  ],
+  "inference": "Old false identity is case-specific, not a permanent bad-library label. No blacklists or model changes follow this composition audit.",
+  "source_hashes": {
+    "results\\physical_block_score_correction_v2\\source_new_composition\\input.json": "c316810365fdbd05151fa4edbafdb0195c0a1a85916d066be2b9d9e00cb603e2",
+    "results\\physical_block_prediction_v1\\selection.json": "378dbb19302fdfeb3edfc81c672bd8877478d93dd74c44c918f0420a534ee746"
+  }
+}
