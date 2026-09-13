@@ -1,3 +1,7 @@
+# RUNNING — 真实 CE29 全库 NNLS 对照 — 2026-09-13
+
+已于北京时间19:10:08启动本地PID53356，统一exec session74749；原input seal2f5e49d0、代码及合同已先push 0a0eeb8。当前只继续这次运行，不重复启动、不进度轮询。运行输出results/real_ce29_nnls_joint_screening_v2；nnls/status.json记录15837像素状态，最终report.json、independent_final_review.json和failure.json决定完成或失败。run会自动应用原模型/三档阈值并执行缓存审查。完成后直接汇报ISTA/NNLS raw与三档保留/差异名单，保存紧凑Git结果并STOP；保持未知真实FDR/recall，保留全部数组。
+
 # PREPARED — 真实 CE29 全库 NNLS 对照 — 2026-09-13
 
 用户授权用NNLS重跑同一真实观测；输入2f5e49d0已封存。只调用既有fit_screened全391列、15837前景像素、四CPU、逐像素KKT；固定原模型/阈值/报告门槛，复用已完成34谱块S/C及已有rho，新报告候选仅补缺失rho。不改ISTA结果或其他线程任务，不新建监控。新脚本analysis/run_real_ce29_nnls_comparison.py，协议docs/REAL_CE29_NNLS_COMPARISON.md，输出results/real_ce29_nnls_joint_screening_v2。一次run后缓存复核、比较名单/计数、向用户汇报并保存Git后STOP；不因结果调整模型或删除数组。
