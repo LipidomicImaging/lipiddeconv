@@ -1,0 +1,1148 @@
+{
+  "arm": "AUGMENTED",
+  "model_sha256": "4b78e64093b98cc485e8d2ac4e062f3a83b241e16aee7e81251bc7133921581a",
+  "cutoff": 0.632840346532133,
+  "selected_names": [
+    "PA 16:0_24:0",
+    "PA 18:0_22:1",
+    "PA 18:0_22:3",
+    "PA 18:0_22:5",
+    "PA 18:0_24:0",
+    "PA 18:0_24:4",
+    "PA 22:0_18:1",
+    "PA 18:1_22:2",
+    "PA 18:1_24:5",
+    "PA 18:2_22:2",
+    "PA 18:2_22:3",
+    "PA 20:0_20:0",
+    "PA 20:0_20:1",
+    "PA 20:1_20:3",
+    "PA 20:1_20:4",
+    "PA 20:1_22:2",
+    "PA 20:1_22:4",
+    "PA 20:2_20:2",
+    "PA 20:2_22:4",
+    "PA 20:2_22:6",
+    "PA 20:3_22:3",
+    "PA 20:3_22:6",
+    "PA 22:1_20:4",
+    "PA 22:2_20:4",
+    "PA 22:3_20:4",
+    "PA 22:4_22:5",
+    "PA 22:4_22:6",
+    "PS 14:0_20:1",
+    "PS 16:0_18:0",
+    "PS 16:0_18:2",
+    "PS 16:0_20:0",
+    "PS 16:0_20:4",
+    "PS 16:1_18:1",
+    "PS 16:1_20:2",
+    "PS 18:0_18:1",
+    "PS 18:1_18:1",
+    "PS 18:1_18:2",
+    "PS 18:2_18:2",
+    "PS 17:0_18:2",
+    "PE 16:0_22:6",
+    "PE 16:1_22:2",
+    "PE 18:0_20:0",
+    "PE 18:0_20:4",
+    "PE 18:0_22:3",
+    "PE 18:0_22:4",
+    "PE 18:0_22:5",
+    "PE 18:0_22:6",
+    "PE 18:1_20:3",
+    "PE 22:1_18:2",
+    "PE 18:2_22:3",
+    "PE 18:2_22:5",
+    "PE 18:2_22:6",
+    "PE 20:0_20:4",
+    "PE 20:1_20:2",
+    "PE 20:2_20:2",
+    "PE 20:2_20:4",
+    "PE 20:2_20:5",
+    "PE 20:3_20:5",
+    "PE 17:0_20:1",
+    "PE 17:0_20:3",
+    "PE 17:0_20:4",
+    "PE 17:0_20:5",
+    "PE 20:0_17:1",
+    "PE 17:1_20:1",
+    "PE 17:1_20:4",
+    "PE 17:1_22:1",
+    "PE O-16:0_22:2",
+    "PE O-16:0_22:3",
+    "PE O-16:1_22:0",
+    "PE O-16:1_22:2",
+    "PE O-16:1_22:4",
+    "PE O-16:1_22:5",
+    "PE O-16:1_24:1",
+    "PE O-18:0_22:1",
+    "PE O-18:0_22:2",
+    "PE O-18:1_20:1",
+    "PE O-18:1_20:2",
+    "PE O-18:1_20:4",
+    "PE O-18:1_22:1",
+    "PE O-18:1_22:2",
+    "PE O-18:1_22:3",
+    "PE O-18:1_22:4",
+    "PE O-18:1_22:5",
+    "PE O-18:1_22:6",
+    "PE O-20:0_18:2",
+    "PE O-18:2_20:2",
+    "PE O-18:2_20:4",
+    "PE O-18:2_22:0",
+    "PE O-18:2_22:2",
+    "PE O-18:2_22:5",
+    "PE O-18:2_22:6",
+    "PE O-18:3_22:0",
+    "PE O-18:3_22:6",
+    "PE O-20:2_20:4",
+    "PG 16:0_20:5",
+    "PG 16:1_20:4",
+    "PG 18:2_18:2",
+    "PG 14:0_22:3",
+    "PG 16:0_20:3",
+    "PG 16:1_20:2",
+    "PG 18:0_18:3",
+    "PG 18:0_18:2",
+    "PG 14:0_22:1",
+    "PG 16:0_20:1",
+    "PG 18:3_20:4",
+    "PG 16:1_22:4",
+    "PG 18:2_20:3",
+    "PG 18:0_20:4",
+    "PG 18:1_20:3",
+    "PG 18:2_20:2",
+    "PG 17:0_20:2",
+    "PG 17:0_20:3",
+    "PG 17:0_20:5",
+    "PG 18:0_17:1",
+    "PG 17:1_18:2",
+    "PG 20:0_17:1",
+    "PG 17:1_20:2",
+    "PG 17:1_20:3",
+    "PG 17:1_20:4",
+    "PG 17:0_17:0",
+    "PC O-16:1_18:0",
+    "PC O-16:1_17:1",
+    "PC 14:0_18:2",
+    "PC 14:0_20:0",
+    "PC 14:0_20:1",
+    "PC 14:0_20:3",
+    "PC 18:0_14:1",
+    "PC 17:0_17:0"
+  ],
+  "retained_indices": [
+    0,
+    6,
+    8,
+    10,
+    11,
+    13,
+    16,
+    18,
+    24,
+    28,
+    29,
+    35,
+    36,
+    49,
+    50,
+    53,
+    55,
+    58,
+    61,
+    62,
+    65,
+    67,
+    69,
+    70,
+    71,
+    77,
+    78,
+    83,
+    89,
+    91,
+    92,
+    96,
+    99,
+    102,
+    106,
+    109,
+    110,
+    112,
+    114,
+    121,
+    127,
+    132,
+    136,
+    138,
+    139,
+    140,
+    141,
+    145,
+    159,
+    161,
+    163,
+    164,
+    171,
+    173,
+    177,
+    179,
+    180,
+    183,
+    187,
+    189,
+    190,
+    191,
+    198,
+    199,
+    202,
+    203,
+    209,
+    210,
+    214,
+    216,
+    218,
+    219,
+    221,
+    230,
+    231,
+    236,
+    237,
+    239,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    249,
+    251,
+    252,
+    254,
+    257,
+    258,
+    260,
+    264,
+    274,
+    280,
+    281,
+    287,
+    288,
+    289,
+    290,
+    291,
+    296,
+    298,
+    299,
+    307,
+    313,
+    316,
+    321,
+    322,
+    323,
+    330,
+    331,
+    333,
+    334,
+    336,
+    337,
+    339,
+    340,
+    341,
+    342,
+    350,
+    365,
+    369,
+    370,
+    371,
+    373,
+    376,
+    388
+  ],
+  "scores": [
+    {
+      "lipid_name": "PA 16:0_24:0",
+      "score": 0.9809521386812913,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_22:0",
+      "score": 0.15026145457602647,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 18:0_22:1",
+      "score": 0.8508919252712266,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_22:3",
+      "score": 0.8856791383958911,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_22:5",
+      "score": 0.921897091972475,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_24:0",
+      "score": 0.9386653754579483,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_24:4",
+      "score": 0.7697576220761092,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:0_24:5",
+      "score": 0.09936368129702991,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 22:0_18:1",
+      "score": 0.8853742871967901,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:1_22:2",
+      "score": 0.9661991232495172,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:1_22:3",
+      "score": 0.11202502828603156,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 18:1_24:4",
+      "score": 0.0950384793682767,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 18:1_24:5",
+      "score": 0.8708499637644722,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:2_22:2",
+      "score": 0.9422896087241692,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 18:2_22:3",
+      "score": 0.8997772934887693,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:0_20:0",
+      "score": 0.9568023113992904,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:0_20:1",
+      "score": 0.9731895109101277,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:0_22:3",
+      "score": 0.02127921913812658,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 20:1_20:2",
+      "score": 0.5082726812525739,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 20:1_20:3",
+      "score": 0.9910744760470463,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:1_20:4",
+      "score": 0.9670874169421632,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:1_22:2",
+      "score": 0.9696391539189761,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:1_22:4",
+      "score": 0.9945605736897459,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:1_22:6",
+      "score": 0.6016577400829172,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 20:2_20:2",
+      "score": 0.9030964481167528,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:2_20:3",
+      "score": 0.21914358065971828,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 20:2_22:4",
+      "score": 0.9873762443613346,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:2_22:6",
+      "score": 0.992180755198805,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:3_22:3",
+      "score": 0.9816434622259612,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:3_22:4",
+      "score": 0.03985386869564875,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 20:3_22:6",
+      "score": 0.9184311758504906,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 22:1_20:4",
+      "score": 0.9232892807575644,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 22:2_20:4",
+      "score": 0.9545529405115685,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 22:3_20:4",
+      "score": 0.9811606584145923,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 20:4_22:6",
+      "score": 0.008062200755052063,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 22:3_22:6",
+      "score": 0.05866739653246061,
+      "selected": false
+    },
+    {
+      "lipid_name": "PA 22:4_22:5",
+      "score": 0.9722725820167375,
+      "selected": true
+    },
+    {
+      "lipid_name": "PA 22:4_22:6",
+      "score": 0.8652768503170392,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 14:0_20:1",
+      "score": 0.9767388063199237,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 14:0_22:4",
+      "score": 0.0150052940749244,
+      "selected": false
+    },
+    {
+      "lipid_name": "PS 16:0_18:0",
+      "score": 0.9759971147272509,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 16:0_18:2",
+      "score": 0.7119008766134818,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 16:0_20:0",
+      "score": 0.7359631211627318,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 16:0_20:1",
+      "score": 0.0030047330947515615,
+      "selected": false
+    },
+    {
+      "lipid_name": "PS 16:0_20:4",
+      "score": 0.8291356584738441,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 16:1_18:1",
+      "score": 0.8931784765277909,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 16:1_20:2",
+      "score": 0.9885637156557138,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 18:0_18:0",
+      "score": 0.005178833484359962,
+      "selected": false
+    },
+    {
+      "lipid_name": "PS 18:0_18:1",
+      "score": 0.8696505717146641,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 18:0_18:2",
+      "score": 0.017568065055949964,
+      "selected": false
+    },
+    {
+      "lipid_name": "PS 18:1_18:1",
+      "score": 0.9782121076363306,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 18:1_18:2",
+      "score": 0.9816060596472265,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 18:2_18:2",
+      "score": 0.9882106716005042,
+      "selected": true
+    },
+    {
+      "lipid_name": "PS 17:0_18:2",
+      "score": 0.9797493514878945,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 16:0_22:6",
+      "score": 0.9940532744896359,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 16:1_22:2",
+      "score": 0.9709385952092677,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_20:0",
+      "score": 0.9986437595501593,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_20:3",
+      "score": 0.02897401032010745,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:0_20:4",
+      "score": 0.9589807451737715,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_22:3",
+      "score": 0.9691547935258024,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_22:4",
+      "score": 0.96417427070081,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_22:5",
+      "score": 0.9800402043125217,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:0_22:6",
+      "score": 0.9965502573251844,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:1_20:3",
+      "score": 0.728251148067907,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:1_22:4",
+      "score": 0.14608071303839573,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:1_22:5",
+      "score": 0.015230534437278996,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:1_22:6",
+      "score": 0.005922331282173909,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:2_20:2",
+      "score": 0.16722167424674134,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 22:1_18:2",
+      "score": 0.9895593936085489,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:2_22:2",
+      "score": 0.132352195589219,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:2_22:3",
+      "score": 0.9767715467188584,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:2_22:4",
+      "score": 0.2175255752658579,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 18:2_22:5",
+      "score": 0.953045212702386,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 18:2_22:6",
+      "score": 0.9934147636889068,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:1_18:3",
+      "score": 0.015618479560841479,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:0_20:3",
+      "score": 0.052551214751470336,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:0_20:4",
+      "score": 0.9955381956158696,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:0_20:5",
+      "score": 0.02696807307680769,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:1_20:2",
+      "score": 0.9741723219554402,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:2_20:2",
+      "score": 0.8875284099725174,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:2_20:3",
+      "score": 0.2290886221363467,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:2_20:4",
+      "score": 0.9377837416470621,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:2_20:5",
+      "score": 0.997866907414258,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 20:3_20:4",
+      "score": 0.03767614716509535,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:3_20:5",
+      "score": 0.9725889336114005,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:0_20:1",
+      "score": 0.9917692064246119,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:0_20:2",
+      "score": 0.32749832064763496,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 17:0_20:3",
+      "score": 0.98770633507192,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:0_20:4",
+      "score": 0.9705578556155932,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:0_20:5",
+      "score": 0.9897779485803122,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:0_22:2",
+      "score": 0.016080282968812202,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 20:0_17:1",
+      "score": 0.9723522294633802,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:1_20:1",
+      "score": 0.7170090853117429,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:1_20:2",
+      "score": 0.007808276878587309,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE 17:1_20:4",
+      "score": 0.963238074496488,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE 17:1_22:1",
+      "score": 0.9698085900198297,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:0_22:2",
+      "score": 0.9357197163046563,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:0_22:3",
+      "score": 0.9898279968968821,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:0_22:4",
+      "score": 0.0029816837201173643,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-16:0_22:6",
+      "score": 0.025619781505782285,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-16:1_22:0",
+      "score": 0.8885268701186808,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:1_22:2",
+      "score": 0.9776057563869955,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:1_22:3",
+      "score": 0.510867574034428,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-16:1_22:4",
+      "score": 0.8743506524551331,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:1_22:5",
+      "score": 0.9902481114978915,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-16:1_24:1",
+      "score": 0.9074999358304698,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:0_20:1",
+      "score": 0.009857364695297629,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-18:0_22:1",
+      "score": 0.9657945501075588,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:0_22:2",
+      "score": 0.9953249208832797,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_20:1",
+      "score": 0.7882215940120301,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_20:2",
+      "score": 0.6615299354566307,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_20:3",
+      "score": 0.001195349485865118,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-18:1_20:4",
+      "score": 0.9660729847060018,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:1",
+      "score": 0.7293750174781196,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:2",
+      "score": 0.9699583625989595,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:3",
+      "score": 0.8134349685826212,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:4",
+      "score": 0.9652397454478929,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:5",
+      "score": 0.958845250206639,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:1_22:6",
+      "score": 0.7307483294963357,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-20:0_18:2",
+      "score": 0.9824806366200638,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_20:2",
+      "score": 0.9652489766656366,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_20:4",
+      "score": 0.9724241844545711,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_22:0",
+      "score": 0.9892867495450305,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_22:2",
+      "score": 0.9165167981338862,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_22:4",
+      "score": 0.04250257096217566,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-18:2_22:5",
+      "score": 0.9051573200870887,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:2_22:6",
+      "score": 0.9705336514965925,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:3_22:0",
+      "score": 0.9819018297849018,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-18:3_22:5",
+      "score": 0.000759826654581522,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-18:3_22:6",
+      "score": 0.967840496200143,
+      "selected": true
+    },
+    {
+      "lipid_name": "PE O-20:0_20:2",
+      "score": 0.018775952514682937,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-20:2_20:2",
+      "score": 0.03592513441369855,
+      "selected": false
+    },
+    {
+      "lipid_name": "PE O-20:2_20:4",
+      "score": 0.8486496694736888,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:0_20:5",
+      "score": 0.721127133717124,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:1_20:4",
+      "score": 0.9116476773741895,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 14:0_22:4",
+      "score": 0.0625868147255175,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 18:2_18:2",
+      "score": 0.9944850415548161,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 14:0_22:3",
+      "score": 0.8855260486739613,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:0_20:3",
+      "score": 0.9964975245388176,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:1_20:2",
+      "score": 0.9570874492929767,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:0_18:3",
+      "score": 0.9780684353876561,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:1_18:2",
+      "score": 0.00037207873795283927,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 18:0_18:2",
+      "score": 0.9972627738168027,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 14:0_22:1",
+      "score": 0.8201149462488305,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:0_20:1",
+      "score": 0.8839401373593427,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:0_18:1",
+      "score": 0.0005670897621855572,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 16:1_22:6",
+      "score": 0.01733198901586298,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 18:3_20:4",
+      "score": 0.953853668459256,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 16:0_22:5",
+      "score": 0.3966549962629993,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 16:1_22:4",
+      "score": 0.9011386632747291,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:1_20:4",
+      "score": 0.1963826759358686,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 18:2_20:3",
+      "score": 0.9782893254441741,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 20:2_18:3",
+      "score": 0.20880023972317246,
+      "selected": false
+    },
+    {
+      "lipid_name": "PG 18:0_20:4",
+      "score": 0.97736394059082,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:1_20:3",
+      "score": 0.7560718225799642,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:2_20:2",
+      "score": 0.6900877924406822,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:0_20:2",
+      "score": 0.965455121082346,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:0_20:3",
+      "score": 0.9623561882074019,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:0_20:5",
+      "score": 0.9735475575614388,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 18:0_17:1",
+      "score": 0.9563636187725733,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:1_18:2",
+      "score": 0.9836306950378323,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 20:0_17:1",
+      "score": 0.977152928117604,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:1_20:2",
+      "score": 0.9555549149501255,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:1_20:3",
+      "score": 0.913328559451724,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:1_20:4",
+      "score": 0.7437613456949713,
+      "selected": true
+    },
+    {
+      "lipid_name": "PG 17:0_17:0",
+      "score": 0.9762412112575621,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 14:0_18:0",
+      "score": 0.0021538570985270094,
+      "selected": false
+    },
+    {
+      "lipid_name": "PC O-16:1_18:0",
+      "score": 0.9952569202089216,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC O-16:1_17:1",
+      "score": 0.9947517484045193,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 14:0_18:2",
+      "score": 0.8892508771801229,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 14:0_20:0",
+      "score": 0.9430064192994564,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 14:0_20:1",
+      "score": 0.8907004941773756,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 14:0_20:3",
+      "score": 0.971999787340718,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 18:0_14:1",
+      "score": 0.9883972230369203,
+      "selected": true
+    },
+    {
+      "lipid_name": "PC 16:1_16:1",
+      "score": 0.0546844739926674,
+      "selected": false
+    },
+    {
+      "lipid_name": "PC 17:0_17:0",
+      "score": 0.9742107905079553,
+      "selected": true
+    }
+  ],
+  "selection_inputs": "Original reported scores/nominal alias names/cached X_hat-derived features; no truth"
+}

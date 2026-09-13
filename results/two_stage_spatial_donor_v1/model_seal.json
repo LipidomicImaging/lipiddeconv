@@ -1,0 +1,12 @@
+{
+  "design_sha256": "2396794e23d148b3ea8210d5bcfff7b23448580f32b694e2c09a97f5edbba795",
+  "files": {
+    "prepared/train_features.json": "95425aae002d319c99e8c784cc9e3672576ae674dc10c60902e98514bdfea8a5",
+    "prepared/training_reservation.json": "4fcf02dce4d47936bc3ba2de7cd580e76035b06ef6ae1a66c8d04d40bdd9e6b6",
+    "prepared/BASELINE_model.json": "cc1127afc52d0bcf73ee43e634643234e987633390ec35eb7e8b3ae75b930b3c",
+    "prepared/BASELINE_train_scores.json": "a785a52e648ac36b169693da4df8f725ea9284eeb1f2440d82009847b3ab89b3",
+    "prepared/AUGMENTED_model.json": "4b78e64093b98cc485e8d2ac4e062f3a83b241e16aee7e81251bc7133921581a",
+    "prepared/AUGMENTED_train_scores.json": "c13bb988c5269551f49c2d0eb19d1f36cb2da415a878f76f200190fbb1a0dc47"
+  },
+  "status": "FROZEN_BEFORE_DEV_CHECK_FEATURES_AND_SELECTION"
+}
