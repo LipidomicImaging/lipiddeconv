@@ -1,3 +1,7 @@
+# RUNNING — 真实CE29数据应用GitHub最新联合指标 — 2026-09-13
+
+用户要求查GitHub最新联合指标并筛选原真实实验结果。已核对实验分支704e05f的单调五项模型和三档原DEV阈值；真实production ISTA原始报告76个分子身份。来源/模型/34block/代码先封存并push f066cc5，18:09:05本地PID44448开始四CPU特征计算，统一exec session58989。仅等待此任务完成，不重复启动或进度轮询。新输出results/real_ce29_joint_screening_v2；run.log及report.json/failure.json是结束证据。完成后运行analysis/review_real_ce29_joint_screening.py缓存复核、输出三档数量/名单、Git保存并STOP。不要重跑ISTA/训练/全像素NNLS或调阈值，真实FDR/recall保持未知。原不同组合远程实验独立保留，不修改或停止它。运行解释/约束见docs/REAL_CE29_JOINT_SCREENING_V2.md。
+
 # ACTIVE — 单调评分已固定；不同组合待执行 — 2026-09-13
 
 唯一DEV模型已完成，两端缓存概率/目标/阈值复核PASS；rho系数落在0边界，实际由丰度及S/C评分。原CHECK修正pool117TP7FP（5.6452%、93.6%），恰好去掉3个零rho假身份和4个真身份；DEV5%门槛迁移111TP2FP（1.7699%、88.8%）。未跑原CHECK修正池refit。封存输入43030116a14fc49e7d2b2da81b088822d752740a已先push再fit，模型seal d600620cddd3027166ab7743b8fe2f48430211fac419c36e5280185de2da8fc2；报告results/physical_block_score_correction_v2/model_record.md。最终新case远程/root/physical_block_score_correction_v2/results/new_composition_case已prepare及两端核对。先push本模型→bind_model→两阶段原NNLS/rho与34block并行各4CPU→缓存核对/下载hash/本casepush→一次修正poolrefit→保存push后STOP。模型/阈值不因新结果改变，旧HOLD不继续作独立验证，无删除。
