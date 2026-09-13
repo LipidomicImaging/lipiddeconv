@@ -1,3 +1,7 @@
+# COMPLETED — 真实 CE29 原 rho 阈值对照 — 2026-09-13
+
+按用户要求应用历史rho_zero>=0.001（源码run_small_mismatch_nnls_first_case.py:319-323），无调阈值。全图ISTA76→6；相同4500像素ISTA71→6、NNLS80→6，三个6名集合完全相同。复用76候选rho缓存，仅补21缺失候选原rho，使用同一全图平均观测谱，未改主NNLS/联合模型/原结果。独立计数/集合/CSV检查PASS，无恰好阈值边界值，真实FDR/recall未知。结果results/real_ce29_legacy_rho_threshold/analysis_record.md及molecular_screening.csv；保存push并向用户汇报，本对照完成。全库NNLS主任务仍按原合同继续，不能将此快照当整图NNLS最终。
+
 # PARTIAL REVIEW COMPLETE — 真实 CE29 前4500像素 — 2026-09-13
 
 按用户要求已统计18个完整NNLS块（4500/15837像素，28.4%），缓存hash/KKT和独立评分/别名/CSV集合复核PASS。同位置ISTA raw71、固定pool/DEV5/DEV1为34/29/18；NNLS raw80、44/40/20。两者丰度只取相同像素，谱块S/C仍用缓存全图证据；该前缀不是随机样本，阶段数量不能当全图最终或真实FDR/recall。报告results/real_ce29_nnls_joint_screening_v2/partial_004500/analysis_record.md。只保存快照并汇报，主PID53356/session74749继续；不得重启、改阈值或删除。本阶段完成不代表全库NNLS主任务结束。

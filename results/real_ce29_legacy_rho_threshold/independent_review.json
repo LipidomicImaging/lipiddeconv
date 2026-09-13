@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_threshold_sets_and_CSV_counts": true,
+  "actual_threshold": 0.001,
+  "comparison": ">=",
+  "exact_boundary_ties": 0,
+  "real_FDR_recall_unknown": true,
+  "new_rho_candidates": 21,
+  "main_run_unchanged": true,
+  "compile": "PASS"
+}

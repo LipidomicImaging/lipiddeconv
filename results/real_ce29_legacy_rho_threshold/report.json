@@ -1,0 +1,159 @@
+{
+  "status": "REVIEWED_LEGACY_THRESHOLD_COMPARISON",
+  "rule": "raw reported molecular identity AND max reported-alias rho_zero >= 0.001",
+  "summary": {
+    "ISTA_FULL": {
+      "raw": 76,
+      "retained": 6,
+      "removed": 70,
+      "names": [
+        "PE 18:0_22:6",
+        "PE 20:1_18:3",
+        "PE O-18:1_20:4",
+        "PE O-18:1_22:6",
+        "PS 18:0_18:1",
+        "PS 18:1_18:1"
+      ],
+      "exact_threshold_ties": 0,
+      "joint_comparison": {
+        "pool": {
+          "retained": 33,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp5": {
+          "retained": 27,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp1": {
+          "retained": 18,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        }
+      }
+    },
+    "ISTA_PARTIAL_4500": {
+      "raw": 71,
+      "retained": 6,
+      "removed": 65,
+      "names": [
+        "PE 18:0_22:6",
+        "PE 20:1_18:3",
+        "PE O-18:1_20:4",
+        "PE O-18:1_22:6",
+        "PS 18:0_18:1",
+        "PS 18:1_18:1"
+      ],
+      "exact_threshold_ties": 0,
+      "joint_comparison": {
+        "pool": {
+          "retained": 34,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp5": {
+          "retained": 29,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp1": {
+          "retained": 18,
+          "common": [
+            "PE 18:0_22:6",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        }
+      }
+    },
+    "NNLS_PARTIAL_4500": {
+      "raw": 80,
+      "retained": 6,
+      "removed": 74,
+      "names": [
+        "PE 18:0_22:6",
+        "PE 20:1_18:3",
+        "PE O-18:1_20:4",
+        "PE O-18:1_22:6",
+        "PS 18:0_18:1",
+        "PS 18:1_18:1"
+      ],
+      "exact_threshold_ties": 0,
+      "joint_comparison": {
+        "pool": {
+          "retained": 44,
+          "common": [
+            "PE 18:0_22:6",
+            "PE 20:1_18:3",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp5": {
+          "retained": 40,
+          "common": [
+            "PE 18:0_22:6",
+            "PE 20:1_18:3",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        },
+        "fdp1": {
+          "retained": 20,
+          "common": [
+            "PE 18:0_22:6",
+            "PE 20:1_18:3",
+            "PE O-18:1_20:4",
+            "PE O-18:1_22:6",
+            "PS 18:0_18:1",
+            "PS 18:1_18:1"
+          ]
+        }
+      }
+    }
+  },
+  "actual_FDR": null,
+  "TP": null,
+  "FP": null,
+  "FN": null,
+  "recall": null,
+  "truth_available": false,
+  "partial_NNLS_not_final": true,
+  "new_rho_count": 21,
+  "cached_rho_count": 76,
+  "full_foreground_rho_used": true,
+  "no_main_run_mutation": true,
+  "input_sha256": "fb41e73c73f5753c53a4b9faed9bf85445a0e803c6f3fe8168e346c5cc1bd1d3"
+}

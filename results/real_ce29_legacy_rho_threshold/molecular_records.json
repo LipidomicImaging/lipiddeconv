@@ -1,0 +1,3634 @@
+[
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PA 20:1_20:1",
+    "lipid_class": "PA",
+    "X_hat": 0.0012204861544833515,
+    "reported_candidate_indices": [
+      47
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.005904324938712007,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 14:0_22:0",
+    "lipid_class": "PS",
+    "X_hat": 0.004943039691070102,
+    "reported_candidate_indices": [
+      84
+    ],
+    "rho_zero": 0.0001458934024469743,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6514101006991938,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 14:0_22:1",
+    "lipid_class": "PS",
+    "X_hat": 0.007469897935364135,
+    "reported_candidate_indices": [
+      85
+    ],
+    "rho_zero": 0.0005741889725840205,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8216830823260608,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 14:0_22:2",
+    "lipid_class": "PS",
+    "X_hat": 0.0035910531830547748,
+    "reported_candidate_indices": [
+      86
+    ],
+    "rho_zero": 1.3972007457499058e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.45253505294125135,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 16:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.018849844165172713,
+    "reported_candidate_indices": [
+      90
+    ],
+    "rho_zero": 8.176961300049885e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9828873946788518,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 16:0_20:2",
+    "lipid_class": "PS",
+    "X_hat": 0.003465598543634408,
+    "reported_candidate_indices": [
+      94
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.43418880825079087,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 16:1_20:1",
+    "lipid_class": "PS",
+    "X_hat": 0.003767493836187643,
+    "reported_candidate_indices": [
+      101
+    ],
+    "rho_zero": 7.000445449792729e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5759890259183167,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 18:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.07104063590718107,
+    "reported_candidate_indices": [
+      106
+    ],
+    "rho_zero": 0.002585842751012908,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9929893861302918,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 18:0_18:2",
+    "lipid_class": "PS",
+    "X_hat": 0.004019268843843552,
+    "reported_candidate_indices": [
+      107
+    ],
+    "rho_zero": 7.563829654905488e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5826161021649842,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PS 18:1_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.07337007264323502,
+    "reported_candidate_indices": [
+      109
+    ],
+    "rho_zero": 0.005087623636312783,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9994819865346593,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.02052518620541731,
+    "reported_candidate_indices": [
+      119
+    ],
+    "rho_zero": 0.0006480872765251761,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7958503314059616,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 16:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.056662870395508505,
+    "reported_candidate_indices": [
+      121
+    ],
+    "rho_zero": 0.0001738179233929324,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9899368002891562,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:0_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.002910685452931968,
+    "reported_candidate_indices": [
+      133
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2723965097410628,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.10008111490599345,
+    "reported_candidate_indices": [
+      136
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.4745502732735387,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:0_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0011026387225491967,
+    "reported_candidate_indices": [
+      137
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0033555673188283524,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0224243672740242,
+    "reported_candidate_indices": [
+      139
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9762440458956523,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.2430186358557401,
+    "reported_candidate_indices": [
+      141
+    ],
+    "rho_zero": 0.03246030453851104,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9999999999736098,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.004431943002525114,
+    "reported_candidate_indices": [
+      143
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6370538778507585,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:1_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.003302428208099872,
+    "reported_candidate_indices": [
+      145
+    ],
+    "rho_zero": 0.0001323858269762327,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.01994617035573181,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.02906358388086082,
+    "reported_candidate_indices": [
+      146
+    ],
+    "rho_zero": 0.00036860569993070117,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9789173870228036,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.042849456658358986,
+    "reported_candidate_indices": [
+      152
+    ],
+    "rho_zero": 7.161433365746296e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9700263742826626,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:1_18:2",
+    "lipid_class": "PE",
+    "X_hat": 0.001110697252484861,
+    "reported_candidate_indices": [
+      154
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0034965135181815824,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.00235098424323507,
+    "reported_candidate_indices": [
+      164
+    ],
+    "rho_zero": 0.0004130139298274248,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.21797643688258564,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:1_18:3",
+    "lipid_class": "PE",
+    "X_hat": 0.0022194340215394427,
+    "reported_candidate_indices": [
+      166
+    ],
+    "rho_zero": 0.0010242920961881655,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.3320761085091329,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.014489468912776554,
+    "reported_candidate_indices": [
+      171
+    ],
+    "rho_zero": 6.51537327126405e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9982520822194091,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.02055197359367885,
+    "reported_candidate_indices": [
+      175
+    ],
+    "rho_zero": 2.1422679909286225e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9843034166753882,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:2_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0030435813548569195,
+    "reported_candidate_indices": [
+      179
+    ],
+    "rho_zero": 0.0008389621084076506,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.20325203375179818,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 20:3_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.012733364138250759,
+    "reported_candidate_indices": [
+      182
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9617959252046565,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE 17:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0011542058237190786,
+    "reported_candidate_indices": [
+      197
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.004465807452880877,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0017796236226615485,
+    "reported_candidate_indices": [
+      211
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.042235478413510254,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:0_22:5",
+    "lipid_class": "PE",
+    "X_hat": 0.004328126221311399,
+    "reported_candidate_indices": [
+      212
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5893024013917447,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:1_22:1",
+    "lipid_class": "PE",
+    "X_hat": 0.0015122085889088548,
+    "reported_candidate_indices": [
+      215
+    ],
+    "rho_zero": 5.669198324961753e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.02929032135087137,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:1_22:2",
+    "lipid_class": "PE",
+    "X_hat": 0.0011527609331009674,
+    "reported_candidate_indices": [
+      216
+    ],
+    "rho_zero": 1.0084685632259315e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0013527024744397237,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.006355509415755673,
+    "reported_candidate_indices": [
+      218
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8508388163959453,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:1_24:0",
+    "lipid_class": "PE",
+    "X_hat": 0.0011994730470494266,
+    "reported_candidate_indices": [
+      220
+    ],
+    "rho_zero": 3.104387290755964e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.00660833935520627,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-16:1_24:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0012682269332131278,
+    "reported_candidate_indices": [
+      224
+    ],
+    "rho_zero": 3.420899005156468e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.009878899186384203,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:0_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.0030493404632940427,
+    "reported_candidate_indices": [
+      227
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.3107238206544533,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.008688431049173717,
+    "reported_candidate_indices": [
+      228
+    ],
+    "rho_zero": 6.343989945850036e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9186557557962326,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:0_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0030317644321426504,
+    "reported_candidate_indices": [
+      229
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.241103099415752,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0016766063349577076,
+    "reported_candidate_indices": [
+      235
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.03279334616443501,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.01143571348543155,
+    "reported_candidate_indices": [
+      236
+    ],
+    "rho_zero": 3.0264265849368767e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9672056001855549,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:1_20:2",
+    "lipid_class": "PE",
+    "X_hat": 0.0036867645692421785,
+    "reported_candidate_indices": [
+      237
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.525332657780698,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0616082453322032,
+    "reported_candidate_indices": [
+      239
+    ],
+    "rho_zero": 0.0011441976961459226,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9994009893556853,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.014933578264642325,
+    "reported_candidate_indices": [
+      244
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9491316290322981,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.08362738739149775,
+    "reported_candidate_indices": [
+      246
+    ],
+    "rho_zero": 0.001832565857962544,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9996849618576633,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-20:1_18:2",
+    "lipid_class": "PE",
+    "X_hat": 0.0020214254411057542,
+    "reported_candidate_indices": [
+      248
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.055200749225859665,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:2_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.004230347797652717,
+    "reported_candidate_indices": [
+      256
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5796313542775594,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.03957136601458654,
+    "reported_candidate_indices": [
+      258
+    ],
+    "rho_zero": 0.0002933056357237929,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9987913858712247,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-20:0_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.001070504924346424,
+    "reported_candidate_indices": [
+      266
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0023971933261170415,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.004121898148795869,
+    "reported_candidate_indices": [
+      267
+    ],
+    "rho_zero": 1.4714155344993335e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5867278034904516,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PE O-20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.03507887626589133,
+    "reported_candidate_indices": [
+      271
+    ],
+    "rho_zero": 0.00020889701313465392,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9941245938914046,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 14:0_20:0",
+    "lipid_class": "PG",
+    "X_hat": 0.0029034017160741643,
+    "reported_candidate_indices": [
+      277
+    ],
+    "rho_zero": 7.656797266103282e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.3046519915242203,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 14:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0015217893129586188,
+    "reported_candidate_indices": [
+      283
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.018747811848945497,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:0_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.006965233251819613,
+    "reported_candidate_indices": [
+      284
+    ],
+    "rho_zero": 1.571989819966083e-17,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8669370651433278,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:1_20:3",
+    "lipid_class": "PG",
+    "X_hat": 0.0024990073350468845,
+    "reported_candidate_indices": [
+      285
+    ],
+    "rho_zero": 1.4407753482108483e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.17702280305487839,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 14:0_22:2",
+    "lipid_class": "PG",
+    "X_hat": 0.0013766143633431771,
+    "reported_candidate_indices": [
+      293
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.011227202479640094,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.01088759997649656,
+    "reported_candidate_indices": [
+      295
+    ],
+    "rho_zero": 2.919932682823108e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9586552533097559,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 14:0_22:1",
+    "lipid_class": "PG",
+    "X_hat": 0.027349346025652994,
+    "reported_candidate_indices": [
+      298
+    ],
+    "rho_zero": 0.00013441678370542176,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.979519411763291,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:0_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.002688533754090185,
+    "reported_candidate_indices": [
+      299
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.22303080163330274,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 14:0_22:0",
+    "lipid_class": "PG",
+    "X_hat": 0.0077394994338569065,
+    "reported_candidate_indices": [
+      302
+    ],
+    "rho_zero": 0.00012501860153572424,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9033764358170795,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:0_22:6",
+    "lipid_class": "PG",
+    "X_hat": 0.004921008444491788,
+    "reported_candidate_indices": [
+      308
+    ],
+    "rho_zero": 0.00021740297484383028,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.4669156252780071,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:1_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.004930928360130924,
+    "reported_candidate_indices": [
+      313
+    ],
+    "rho_zero": 2.8311063452497585e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7101867095827207,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 16:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.01505433904952393,
+    "reported_candidate_indices": [
+      319
+    ],
+    "rho_zero": 6.420630489332761e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9729290017517265,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 18:0_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0027067653831285873,
+    "reported_candidate_indices": [
+      321
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.21759027884087098,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 18:2_20:2",
+    "lipid_class": "PG",
+    "X_hat": 0.0021282280458019428,
+    "reported_candidate_indices": [
+      323
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.08259604507114669,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 17:0_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.004877012592005975,
+    "reported_candidate_indices": [
+      329
+    ],
+    "rho_zero": 8.518268395036036e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7312257025973047,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 17:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.0025246432852639067,
+    "reported_candidate_indices": [
+      338
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.17406360526221573,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PG 17:1_20:2",
+    "lipid_class": "PG",
+    "X_hat": 0.001027884660910343,
+    "reported_candidate_indices": [
+      339
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.002317892033527966,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 14:0_18:0",
+    "lipid_class": "PC",
+    "X_hat": 0.013064874170262345,
+    "reported_candidate_indices": [
+      355
+    ],
+    "rho_zero": 0.0002542093841047771,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9408406095764477,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC O-16:1_16:1",
+    "lipid_class": "PC",
+    "X_hat": 0.005480474190915677,
+    "reported_candidate_indices": [
+      349
+    ],
+    "rho_zero": 7.72443565550052e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7674107366959951,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 14:1_17:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0014836530613080638,
+    "reported_candidate_indices": [
+      375
+    ],
+    "rho_zero": 2.7373928298844608e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.015288622618421963,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 14:1_20:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0010918874494828912,
+    "reported_candidate_indices": [
+      378
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0031661377409713328,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 16:0_18:0",
+    "lipid_class": "PC",
+    "X_hat": 0.0029140906919341543,
+    "reported_candidate_indices": [
+      381
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2733314382923654,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 16:0_18:1",
+    "lipid_class": "PC",
+    "X_hat": 0.04736858283734614,
+    "reported_candidate_indices": [
+      382
+    ],
+    "rho_zero": 0.00014990294742948563,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9477904614485442,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 18:0_16:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0010720296356095517,
+    "reported_candidate_indices": [
+      385
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0028595176421202613,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_FULL",
+    "lipid_name": "PC 17:0_17:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0010813103441311062,
+    "reported_candidate_indices": [
+      389
+    ],
+    "rho_zero": 0.00017337138947159944,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0022870575889049455,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PA 20:1_20:1",
+    "lipid_class": "PA",
+    "X_hat": 0.0014089837261966648,
+    "reported_candidate_indices": [
+      47
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.01270277318452186,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:0",
+    "lipid_class": "PS",
+    "X_hat": 0.005009698658239446,
+    "reported_candidate_indices": [
+      84
+    ],
+    "rho_zero": 0.0001458934024469743,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6608462592108161,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:1",
+    "lipid_class": "PS",
+    "X_hat": 0.0077648070350166765,
+    "reported_candidate_indices": [
+      85
+    ],
+    "rho_zero": 0.0005741889725840205,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8349007753191471,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:2",
+    "lipid_class": "PS",
+    "X_hat": 0.002372001443061385,
+    "reported_candidate_indices": [
+      86
+    ],
+    "rho_zero": 1.3972007457499058e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.13466989111521727,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 16:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.012980764442061223,
+    "reported_candidate_indices": [
+      90
+    ],
+    "rho_zero": 8.176961300049885e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9736591294575344,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 16:0_20:2",
+    "lipid_class": "PS",
+    "X_hat": 0.0016608051139022184,
+    "reported_candidate_indices": [
+      94
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.03015034888514217,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 16:1_20:1",
+    "lipid_class": "PS",
+    "X_hat": 0.002786077289994965,
+    "reported_candidate_indices": [
+      101
+    ],
+    "rho_zero": 7.000445449792729e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2983064441395155,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 18:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.07982133256224916,
+    "reported_candidate_indices": [
+      106
+    ],
+    "rho_zero": 0.002585842751012908,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9916790991416524,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PS 18:1_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.04118742393589168,
+    "reported_candidate_indices": [
+      109
+    ],
+    "rho_zero": 0.005087623636312783,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9997003341606264,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.023122842080683364,
+    "reported_candidate_indices": [
+      119
+    ],
+    "rho_zero": 0.0006480872765251761,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8075954540951356,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 16:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.05764235578932696,
+    "reported_candidate_indices": [
+      121
+    ],
+    "rho_zero": 0.0001738179233929324,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9897621620505096,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:0_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.0028801655632317608,
+    "reported_candidate_indices": [
+      133
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2640384956338231,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.10010097424013333,
+    "reported_candidate_indices": [
+      136
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.4744531145601222,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.025838141079558733,
+    "reported_candidate_indices": [
+      139
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9776822448827155,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.2384936099171949,
+    "reported_candidate_indices": [
+      141
+    ],
+    "rho_zero": 0.03246030453851104,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9999999999752673,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.005107163403946389,
+    "reported_candidate_indices": [
+      143
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7342244752680834,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.004744929881488336,
+    "reported_candidate_indices": [
+      145
+    ],
+    "rho_zero": 0.0001323858269762327,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0677070013458016,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0296047561774095,
+    "reported_candidate_indices": [
+      146
+    ],
+    "rho_zero": 0.00036860569993070117,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9789615333506478,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.04233610768132429,
+    "reported_candidate_indices": [
+      152
+    ],
+    "rho_zero": 7.161433365746296e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9702066508091942,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:1_18:2",
+    "lipid_class": "PE",
+    "X_hat": 0.0012172465778798798,
+    "reported_candidate_indices": [
+      154
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.005819045104057773,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0031169214219751717,
+    "reported_candidate_indices": [
+      164
+    ],
+    "rho_zero": 0.0004130139298274248,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.47352341654617475,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:1_18:3",
+    "lipid_class": "PE",
+    "X_hat": 0.0023664905180990495,
+    "reported_candidate_indices": [
+      166
+    ],
+    "rho_zero": 0.0010242920961881655,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.39790535221798645,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.014614030755922108,
+    "reported_candidate_indices": [
+      171
+    ],
+    "rho_zero": 6.51537327126405e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9982714506123461,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.022113372953415415,
+    "reported_candidate_indices": [
+      175
+    ],
+    "rho_zero": 2.1422679909286225e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9850295191915963,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:2_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.002976078526299312,
+    "reported_candidate_indices": [
+      179
+    ],
+    "rho_zero": 0.0008389621084076506,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.18919759350290752,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE 20:3_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.011129906042648751,
+    "reported_candidate_indices": [
+      182
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9527799671315406,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.001723144611498962,
+    "reported_candidate_indices": [
+      211
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.03629453993684578,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:0_22:5",
+    "lipid_class": "PE",
+    "X_hat": 0.005136807432688935,
+    "reported_candidate_indices": [
+      212
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7133216706516834,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:1",
+    "lipid_class": "PE",
+    "X_hat": 0.001817068493021414,
+    "reported_candidate_indices": [
+      215
+    ],
+    "rho_zero": 5.669198324961753e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.07009503798565372,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:2",
+    "lipid_class": "PE",
+    "X_hat": 0.001285011725573153,
+    "reported_candidate_indices": [
+      216
+    ],
+    "rho_zero": 1.0084685632259315e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0024578397270371664,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.008585171168662378,
+    "reported_candidate_indices": [
+      218
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9226446889051431,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:0",
+    "lipid_class": "PE",
+    "X_hat": 0.0014797468707093218,
+    "reported_candidate_indices": [
+      220
+    ],
+    "rho_zero": 3.104387290755964e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.020070948669892688,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0011095370673912567,
+    "reported_candidate_indices": [
+      222
+    ],
+    "rho_zero": 3.964401827561168e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.004158256196876729,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:6",
+    "lipid_class": "PE",
+    "X_hat": 0.001345897480758481,
+    "reported_candidate_indices": [
+      224
+    ],
+    "rho_zero": 3.420899005156468e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.013558061816851543,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.0025429381475161232,
+    "reported_candidate_indices": [
+      227
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.17618207348541304,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.008554620249179102,
+    "reported_candidate_indices": [
+      228
+    ],
+    "rho_zero": 6.343989945850036e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.916078047960677,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0036287084857076985,
+    "reported_candidate_indices": [
+      229
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.3865340797540688,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0026493419174926707,
+    "reported_candidate_indices": [
+      235
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.21594174642726433,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.012347898761149029,
+    "reported_candidate_indices": [
+      236
+    ],
+    "rho_zero": 3.0264265849368767e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9709871435294253,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:2",
+    "lipid_class": "PE",
+    "X_hat": 0.004115339573576544,
+    "reported_candidate_indices": [
+      237
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6202084124083841,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.06160948225353948,
+    "reported_candidate_indices": [
+      239
+    ],
+    "rho_zero": 0.0011441976961459226,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9994009756358677,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0166747678553325,
+    "reported_candidate_indices": [
+      244
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9549965207207848,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.07109609341021213,
+    "reported_candidate_indices": [
+      246
+    ],
+    "rho_zero": 0.001832565857962544,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9997539032623233,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-20:1_18:2",
+    "lipid_class": "PE",
+    "X_hat": 0.002254151108511438,
+    "reported_candidate_indices": [
+      248
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.08758702234568903,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:2_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.00642041761500554,
+    "reported_candidate_indices": [
+      256
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8307882309322918,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.04241748673043912,
+    "reported_candidate_indices": [
+      258
+    ],
+    "rho_zero": 0.0002933056357237929,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9987530503574497,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-18:3_22:0",
+    "lipid_class": "PE",
+    "X_hat": 0.0010623307715242922,
+    "reported_candidate_indices": [
+      260
+    ],
+    "rho_zero": 3.284360508134398e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.003104619447990239,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-20:0_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.001186902039573296,
+    "reported_candidate_indices": [
+      266
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.004281962363575383,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0038571834711514786,
+    "reported_candidate_indices": [
+      267
+    ],
+    "rho_zero": 1.4714155344993335e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.5295368385217973,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PE O-20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.03574184222353183,
+    "reported_candidate_indices": [
+      271
+    ],
+    "rho_zero": 0.00020889701313465392,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.99410235857657,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 14:0_20:0",
+    "lipid_class": "PG",
+    "X_hat": 0.002985898739249933,
+    "reported_candidate_indices": [
+      277
+    ],
+    "rho_zero": 7.656797266103282e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.3289703294657599,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0012664648410172959,
+    "reported_candidate_indices": [
+      283
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.007185309775564383,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:0_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.01033565858467288,
+    "reported_candidate_indices": [
+      284
+    ],
+    "rho_zero": 1.571989819966083e-17,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9398886890487627,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:1_20:3",
+    "lipid_class": "PG",
+    "X_hat": 0.0028951011720061313,
+    "reported_candidate_indices": [
+      285
+    ],
+    "rho_zero": 1.4407753482108483e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2841665638999944,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:2",
+    "lipid_class": "PG",
+    "X_hat": 0.0015463372472425665,
+    "reported_candidate_indices": [
+      293
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.020364367111208044,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.010940723252021296,
+    "reported_candidate_indices": [
+      295
+    ],
+    "rho_zero": 2.919932682823108e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9589994769240515,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:1",
+    "lipid_class": "PG",
+    "X_hat": 0.02474872290345047,
+    "reported_candidate_indices": [
+      298
+    ],
+    "rho_zero": 0.00013441678370542176,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9788693358533963,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:0_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.0012250513400210064,
+    "reported_candidate_indices": [
+      299
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0063950017818085615,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:0",
+    "lipid_class": "PG",
+    "X_hat": 0.00838668991006167,
+    "reported_candidate_indices": [
+      302
+    ],
+    "rho_zero": 0.00012501860153572424,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9183769868209428,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:0_22:6",
+    "lipid_class": "PG",
+    "X_hat": 0.0048481623402500795,
+    "reported_candidate_indices": [
+      308
+    ],
+    "rho_zero": 0.00021740297484383028,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.45522841402269537,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:1_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.005303449970526496,
+    "reported_candidate_indices": [
+      313
+    ],
+    "rho_zero": 2.8311063452497585e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7540491430345363,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 16:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.014960491602126341,
+    "reported_candidate_indices": [
+      319
+    ],
+    "rho_zero": 6.420630489332761e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.972722072285194,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 18:0_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0026319277733338016,
+    "reported_candidate_indices": [
+      321
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.19830765572126308,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 18:2_20:2",
+    "lipid_class": "PG",
+    "X_hat": 0.001911182646534952,
+    "reported_candidate_indices": [
+      323
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0517556058090263,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 17:0_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.004781794324380169,
+    "reported_candidate_indices": [
+      329
+    ],
+    "rho_zero": 8.518268395036036e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7187530717519195,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PG 17:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.0028699970812706903,
+    "reported_candidate_indices": [
+      338
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2643897300132565,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PC 14:0_18:0",
+    "lipid_class": "PC",
+    "X_hat": 0.011969626936899456,
+    "reported_candidate_indices": [
+      355
+    ],
+    "rho_zero": 0.0002542093841047771,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9327601621384549,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PC O-16:1_16:1",
+    "lipid_class": "PC",
+    "X_hat": 0.004412889765997041,
+    "reported_candidate_indices": [
+      349
+    ],
+    "rho_zero": 7.72443565550052e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6254909209068857,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PC 14:1_20:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0012223139773250675,
+    "reported_candidate_indices": [
+      378
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.005937481644632545,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PC 16:0_18:0",
+    "lipid_class": "PC",
+    "X_hat": 0.0024368111986651556,
+    "reported_candidate_indices": [
+      381
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.15115450709186257,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "ISTA_PARTIAL_4500",
+    "lipid_name": "PC 16:0_18:1",
+    "lipid_class": "PC",
+    "X_hat": 0.04687440651045472,
+    "reported_candidate_indices": [
+      382
+    ],
+    "rho_zero": 0.00014990294742948563,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.948145928499924,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:0",
+    "lipid_class": "PS",
+    "X_hat": 0.007879783791721114,
+    "reported_candidate_indices": [
+      84
+    ],
+    "rho_zero": 0.0001458934024469743,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8701504564609251,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:1",
+    "lipid_class": "PS",
+    "X_hat": 0.019684573486396403,
+    "reported_candidate_indices": [
+      85
+    ],
+    "rho_zero": 0.0005741889725840205,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9565074996929719,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 14:0_22:2",
+    "lipid_class": "PS",
+    "X_hat": 0.0021854927129494085,
+    "reported_candidate_indices": [
+      86
+    ],
+    "rho_zero": 1.3972007457499058e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.09757299600929523,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 16:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.00539662440896316,
+    "reported_candidate_indices": [
+      90
+    ],
+    "rho_zero": 8.176961300049885e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8379184164918042,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 16:0_20:1",
+    "lipid_class": "PS",
+    "X_hat": 0.014986933991929416,
+    "reported_candidate_indices": [
+      93
+    ],
+    "rho_zero": 0.00016125637032590818,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9687148253049966,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 20:0_16:1",
+    "lipid_class": "PS",
+    "X_hat": 0.007326195158620168,
+    "reported_candidate_indices": [
+      100
+    ],
+    "rho_zero": 4.683432691287376e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8703249754390324,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 16:1_20:1",
+    "lipid_class": "PS",
+    "X_hat": 0.0032264486344426788,
+    "reported_candidate_indices": [
+      101
+    ],
+    "rho_zero": 7.000445449792729e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.43261609323749767,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 18:0_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.05946390738415296,
+    "reported_candidate_indices": [
+      106
+    ],
+    "rho_zero": 0.002585842751012908,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9943614474859863,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 18:0_18:2",
+    "lipid_class": "PS",
+    "X_hat": 0.0036244156621194432,
+    "reported_candidate_indices": [
+      107
+    ],
+    "rho_zero": 7.563829654905488e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.49104251145669786,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PS 18:1_18:1",
+    "lipid_class": "PS",
+    "X_hat": 0.04625502094656096,
+    "reported_candidate_indices": [
+      109
+    ],
+    "rho_zero": 0.005087623636312783,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.999680316553625,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.053643360081252464,
+    "reported_candidate_indices": [
+      119
+    ],
+    "rho_zero": 0.0006480872765251761,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7809714231476445,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 16:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.03164717118616681,
+    "reported_candidate_indices": [
+      121
+    ],
+    "rho_zero": 0.0001738179233929324,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.992486938103968,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.02011064402982851,
+    "reported_candidate_indices": [
+      136
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7041904655115522,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.29068736642407667,
+    "reported_candidate_indices": [
+      141
+    ],
+    "rho_zero": 0.03246030453851104,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9999999999495415,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.0042515890239974395,
+    "reported_candidate_indices": [
+      143
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6042640682548271,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:3",
+    "lipid_class": "PE",
+    "X_hat": 0.012397630986843676,
+    "reported_candidate_indices": [
+      145
+    ],
+    "rho_zero": 0.0001323858269762327,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.4187807521190064,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.035428734917314915,
+    "reported_candidate_indices": [
+      146
+    ],
+    "rho_zero": 0.00036860569993070117,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9787693320592502,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:1_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0012619899208914122,
+    "reported_candidate_indices": [
+      147
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.007082357534472309,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.01658915703350936,
+    "reported_candidate_indices": [
+      152
+    ],
+    "rho_zero": 7.161433365746296e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.961332243322261,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.021366681413842244,
+    "reported_candidate_indices": [
+      164
+    ],
+    "rho_zero": 0.0004130139298274248,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9864911490462113,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:1_18:3",
+    "lipid_class": "PE",
+    "X_hat": 0.01836646584205381,
+    "reported_candidate_indices": [
+      166
+    ],
+    "rho_zero": 0.0010242920961881655,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9933538998251354,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.013904297290613613,
+    "reported_candidate_indices": [
+      171
+    ],
+    "rho_zero": 6.51537327126405e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9981525244340356,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.006729687211451367,
+    "reported_candidate_indices": [
+      175
+    ],
+    "rho_zero": 2.1422679909286225e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9071892295623488,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:1_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.006514124286739287,
+    "reported_candidate_indices": [
+      176
+    ],
+    "rho_zero": 0.00010709334524943779,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9667512725728795,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:2_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.05492362311762392,
+    "reported_candidate_indices": [
+      179
+    ],
+    "rho_zero": 0.0008389621084076506,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9519255723338829,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE 20:3_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.004198975439347527,
+    "reported_candidate_indices": [
+      182
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6190482884294122,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:0_22:3",
+    "lipid_class": "PE",
+    "X_hat": 0.0010308952529397477,
+    "reported_candidate_indices": [
+      210
+    ],
+    "rho_zero": 1.0528499947543375e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0024059952220627707,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:0_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0033844638265654796,
+    "reported_candidate_indices": [
+      211
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.41475385773132706,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:1",
+    "lipid_class": "PE",
+    "X_hat": 0.0017190480819546364,
+    "reported_candidate_indices": [
+      215
+    ],
+    "rho_zero": 5.669198324961753e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0543898645016782,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:2",
+    "lipid_class": "PE",
+    "X_hat": 0.001892824587816272,
+    "reported_candidate_indices": [
+      216
+    ],
+    "rho_zero": 1.0084685632259315e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.017374442299571278,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0017131073592936445,
+    "reported_candidate_indices": [
+      218
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.03679168740493628,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:0",
+    "lipid_class": "PE",
+    "X_hat": 0.0012416560138305806,
+    "reported_candidate_indices": [
+      220
+    ],
+    "rho_zero": 3.104387290755964e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.007982010062637972,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:1",
+    "lipid_class": "PE",
+    "X_hat": 0.0011359540226601186,
+    "reported_candidate_indices": [
+      221
+    ],
+    "rho_zero": 2.817181180701199e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.004624284087960537,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:4",
+    "lipid_class": "PE",
+    "X_hat": 0.001067960725831679,
+    "reported_candidate_indices": [
+      222
+    ],
+    "rho_zero": 3.964401827561168e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0033477847132442453,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:5",
+    "lipid_class": "PE",
+    "X_hat": 0.001053383167534024,
+    "reported_candidate_indices": [
+      223
+    ],
+    "rho_zero": 2.754749068638319e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.002937784410220992,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-16:1_24:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0034411900229242747,
+    "reported_candidate_indices": [
+      224
+    ],
+    "rho_zero": 3.420899005156468e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.49436408925677283,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.006791748064562853,
+    "reported_candidate_indices": [
+      228
+    ],
+    "rho_zero": 6.343989945850036e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8625277330922,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_20:5",
+    "lipid_class": "PE",
+    "X_hat": 0.003255126225492859,
+    "reported_candidate_indices": [
+      229
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.29540508420313405,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_22:5",
+    "lipid_class": "PE",
+    "X_hat": 0.003362793622143348,
+    "reported_candidate_indices": [
+      234
+    ],
+    "rho_zero": 2.637935204762149e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2599810551631619,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:0_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.002867720582462564,
+    "reported_candidate_indices": [
+      235
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.27630322129252005,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:1",
+    "lipid_class": "PE",
+    "X_hat": 0.00923076084780324,
+    "reported_candidate_indices": [
+      236
+    ],
+    "rho_zero": 3.0264265849368767e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9515933378890579,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:2",
+    "lipid_class": "PE",
+    "X_hat": 0.002030808496695398,
+    "reported_candidate_indices": [
+      237
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0858930465288909,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.08190485228238524,
+    "reported_candidate_indices": [
+      239
+    ],
+    "rho_zero": 0.0011441976961459226,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9991122016819663,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.011355809480430456,
+    "reported_candidate_indices": [
+      244
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9253688879418807,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_22:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0017193269476689845,
+    "reported_candidate_indices": [
+      245
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.034239566857612876,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:1_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.04710423061840872,
+    "reported_candidate_indices": [
+      246
+    ],
+    "rho_zero": 0.001832565857962544,
+    "retained_by_legacy_rho": true,
+    "joint_score": 0.9998392947911667,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-20:1_18:2",
+    "lipid_class": "PE",
+    "X_hat": 0.0019285387399521723,
+    "reported_candidate_indices": [
+      248
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.04476381490015103,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:2_22:4",
+    "lipid_class": "PE",
+    "X_hat": 0.016171945615986918,
+    "reported_candidate_indices": [
+      256
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9662239937604856,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:2_22:5",
+    "lipid_class": "PE",
+    "X_hat": 0.0016537134732175723,
+    "reported_candidate_indices": [
+      257
+    ],
+    "rho_zero": 4.805003211171027e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.03190549863318086,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:2_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.026668758561792856,
+    "reported_candidate_indices": [
+      258
+    ],
+    "rho_zero": 0.0002933056357237929,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9988182058242956,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:3_22:0",
+    "lipid_class": "PE",
+    "X_hat": 0.001681956059462891,
+    "reported_candidate_indices": [
+      260
+    ],
+    "rho_zero": 3.284360508134398e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.0351089124896974,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-18:3_22:6",
+    "lipid_class": "PE",
+    "X_hat": 0.0064695594827456565,
+    "reported_candidate_indices": [
+      264
+    ],
+    "rho_zero": 2.5175131283712554e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8451095704932873,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-20:0_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0034298908555845933,
+    "reported_candidate_indices": [
+      267
+    ],
+    "rho_zero": 1.4714155344993335e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.42295211512588327,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-20:1_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.023857456209429275,
+    "reported_candidate_indices": [
+      271
+    ],
+    "rho_zero": 0.00020889701313465392,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9938018604646144,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-20:2_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.008433296286201666,
+    "reported_candidate_indices": [
+      274
+    ],
+    "rho_zero": 2.6870462455272714e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9537654723651751,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PE O-20:3_20:4",
+    "lipid_class": "PE",
+    "X_hat": 0.0216048283743653,
+    "reported_candidate_indices": [
+      276
+    ],
+    "rho_zero": 7.615184451565365e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9822682505217467,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_20:0",
+    "lipid_class": "PG",
+    "X_hat": 0.0024838723341428907,
+    "reported_candidate_indices": [
+      277
+    ],
+    "rho_zero": 7.656797266103282e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.1860846178957217,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0036028756567274183,
+    "reported_candidate_indices": [
+      283
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.45864845162740214,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:0_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0017517783298794205,
+    "reported_candidate_indices": [
+      284
+    ],
+    "rho_zero": 1.571989819966083e-17,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.036849118933083146,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:1_20:3",
+    "lipid_class": "PG",
+    "X_hat": 0.006398046469048293,
+    "reported_candidate_indices": [
+      285
+    ],
+    "rho_zero": 1.4407753482108483e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8515875363287162,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:3",
+    "lipid_class": "PG",
+    "X_hat": 0.001997496342100122,
+    "reported_candidate_indices": [
+      288
+    ],
+    "rho_zero": 3.570940616813679e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.07406612874099416,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:2",
+    "lipid_class": "PG",
+    "X_hat": 0.008124139175407536,
+    "reported_candidate_indices": [
+      293
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9055336345915888,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.011380416122979076,
+    "reported_candidate_indices": [
+      295
+    ],
+    "rho_zero": 2.919932682823108e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9616322063024808,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:1",
+    "lipid_class": "PG",
+    "X_hat": 0.02178999836134608,
+    "reported_candidate_indices": [
+      298
+    ],
+    "rho_zero": 0.00013441678370542176,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9774782434879465,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 14:0_22:0",
+    "lipid_class": "PG",
+    "X_hat": 0.008480930586024442,
+    "reported_candidate_indices": [
+      302
+    ],
+    "rho_zero": 0.00012501860153572424,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9202241692940423,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:1_22:6",
+    "lipid_class": "PG",
+    "X_hat": 0.012092156683017998,
+    "reported_candidate_indices": [
+      305
+    ],
+    "rho_zero": 0.00010411499836123742,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9484260414735839,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:0_22:6",
+    "lipid_class": "PG",
+    "X_hat": 0.013743147930284775,
+    "reported_candidate_indices": [
+      308
+    ],
+    "rho_zero": 0.00021740297484383028,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.900240158180999,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:1_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0013148087725089175,
+    "reported_candidate_indices": [
+      313
+    ],
+    "rho_zero": 2.8311063452497585e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.008733263216167107,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 18:1_20:4",
+    "lipid_class": "PG",
+    "X_hat": 0.0013195430602784958,
+    "reported_candidate_indices": [
+      315
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.008567783551700656,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:0_22:4",
+    "lipid_class": "PG",
+    "X_hat": 0.013751502512489626,
+    "reported_candidate_indices": [
+      319
+    ],
+    "rho_zero": 6.420630489332761e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9695893907373346,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": true,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 16:1_22:3",
+    "lipid_class": "PG",
+    "X_hat": 0.002199701648563354,
+    "reported_candidate_indices": [
+      320
+    ],
+    "rho_zero": 1.358095887672964e-07,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.10771459590177503,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 17:0_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.0027530656128650056,
+    "reported_candidate_indices": [
+      329
+    ],
+    "rho_zero": 8.518268395036036e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2532949170017577,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PG 17:1_20:1",
+    "lipid_class": "PG",
+    "X_hat": 0.0013237597649464559,
+    "reported_candidate_indices": [
+      338
+    ],
+    "rho_zero": 0.0,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.009298750144998189,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 14:0_18:0",
+    "lipid_class": "PC",
+    "X_hat": 0.008971933172229406,
+    "reported_candidate_indices": [
+      355
+    ],
+    "rho_zero": 0.0002542093841047771,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8897461793320891,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC O-16:1_16:1",
+    "lipid_class": "PC",
+    "X_hat": 0.005030250070925579,
+    "reported_candidate_indices": [
+      349
+    ],
+    "rho_zero": 7.72443565550052e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.7178638646167299,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 14:0_20:1",
+    "lipid_class": "PC",
+    "X_hat": 0.005197950294604298,
+    "reported_candidate_indices": [
+      371
+    ],
+    "rho_zero": 0.00013288381777823362,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.6702682567169019,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 14:1_17:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0029228021148556107,
+    "reported_candidate_indices": [
+      375
+    ],
+    "rho_zero": 2.7373928298844608e-06,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.2597545627779379,
+    "retained_by_joint_pool": false,
+    "retained_by_joint_dev5": false,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 20:0_14:1",
+    "lipid_class": "PC",
+    "X_hat": 0.0062115140914772585,
+    "reported_candidate_indices": [
+      377
+    ],
+    "rho_zero": 8.140096789269771e-05,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.8400712496770197,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 16:0_18:1",
+    "lipid_class": "PC",
+    "X_hat": 0.02645733012674666,
+    "reported_candidate_indices": [
+      382
+    ],
+    "rho_zero": 0.00014990294742948563,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9533298539963894,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  },
+  {
+    "dataset": "NNLS_PARTIAL_4500",
+    "lipid_name": "PC 17:0_17:1",
+    "lipid_class": "PC",
+    "X_hat": 0.00897368440040696,
+    "reported_candidate_indices": [
+      389
+    ],
+    "rho_zero": 0.00017337138947159944,
+    "retained_by_legacy_rho": false,
+    "joint_score": 0.9010406147927834,
+    "retained_by_joint_pool": true,
+    "retained_by_joint_dev5": true,
+    "retained_by_joint_dev1": false,
+    "molecular_truth": null
+  }
+]
