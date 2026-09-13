@@ -1,3 +1,7 @@
+# ACTIVE — 执行物理块留出预测开发V1 — 2026-09-13
+
+用户“好的，远程主机已开”及随后登录信息授权本次远程执行。严格执行docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md，先代码/输入/34块/seal/Git再真实DEV，逐case缓存复核/download/hash/具体Git后交接；一次模型及阈值封存后CHECK。最终规则若已证明最多不足100TP则保存召回上界停算，否则一次原全像素缩库NNLS并完整最终评价。新输出results/physical_block_prediction_v1。所需文件限下方策略源和本执行合同、3个新科学模块及对应tests、无凭据remote_physical_block_session.py，以及已有refit/NNLS/KKT/原transform helpers。不重建流水线、不重算rho/profile/ISTA、不启旧CAL2/HOLD/新观测/GPU或删除。最后更新状态、标记本开发版本完成或如实技术失败、push后STOP；不声称主目标已达成。
+
 # COMPLETED — 下一步解决策略设计；实验未启动 — 2026-09-13
 
 本轮“请想出下一步的解决策略”已形成docs/NEXT_STRATEGY_PHYSICAL_BLOCK_PREDICTION.md，并完成明确本地物理组件的只读结构核对。主目标仍为筛选→重拟合→最终具体身份1%错误与80%all-truth recall；尚未达成。只提交该策略和CURRENT_STATE/NEXT_TASK后停止，不将策略设计完成当作科学目标完成。

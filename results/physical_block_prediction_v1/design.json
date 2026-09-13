@@ -1,0 +1,69 @@
+{
+  "version": "PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1",
+  "runtime": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.6.1"
+  },
+  "source_hashes": {
+    "/root/small_mismatch_nnls_first/results/prepared_arrays.npz": "948463cef1f9899147d2bad71b6119b2bc02a36b525fa5cdb5501bd36f55a7ed",
+    "/root/small_mismatch_nnls_first/results/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "/root/small_mismatch_nnls_first/results/molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+    "/root/small_mismatch_nnls_first/results/result.json": "df0da8a2b48e7d8c9b8b7e2d24f17cf2177c1e6967fb1d75cda6388d92b38797",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/prepared_arrays.npz": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/molecular_records.json": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/result.json": "9974d12a3156e6114428717e21c4e2f053f84c7ab51b28e8166b868018f103f2",
+    "/root/small_mismatch_nnls_first/components/component_metadata.json": "13458619a58fa4d5bf406b1f93760a42e933458a0d6d8aa2875c33c0e611a02b",
+    "/root/small_mismatch_nnls_first/components/components.npz": "52686db8d0784b98a3290be4f51d8bde3d2fcb8aff906ac40a12cc96484b9f2f",
+    "/root/identity_confidence_joint_validation/results/model.json": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1"
+  },
+  "code": {
+    "analysis/run_physical_block_prediction.py": "e558a4a5f5971b9129c5829c7aa8d51c003fe345eacd86ec6346c6dc102fbec6",
+    "analysis/physical_block_prediction.py": "beef064161f8956c5800597fd36850e2604f148cdd5378ed37fb78d66fe394d0",
+    "analysis/review_physical_block_prediction.py": "350d339811dcaa55b8aa98b7875da0134f3f5e934b07c96bdbe806bc93180bb9",
+    "analysis/run_nnls_solver_baseline.py": "4301d51f370f782c3428ac073a39dc8fdf586fa262a94255289c7946009f9ba7",
+    "analysis/run_small_mismatch_nnls_first_case.py": "d2232f561556707e734fb6129f1841391a7b5927bf251d4d0ef6e3c8b7f00985",
+    "analysis/run_identity_confidence_joint_validation.py": "24339767afeeb54c4c3d7e78727ac9e4092310dc8376dc5a427a622aca23afe6",
+    "analysis/refit_screened_nnls.py": "8480cb693dc22a1653cfd659c9ba67e44f848e7233d98fe2b6682a0b53e60e24",
+    "tests/test_physical_block_prediction.py": "d63077dd248fbdb2beb64e0300c36c2b46edaa7a994723edcbd551f125cbe42a",
+    "tests/test_review_physical_block_prediction.py": "516b53222685e009729766a031f0825ee221043ed0c7fb1024e67c166fb82def",
+    "tests/test_run_physical_block_prediction.py": "e56989a09326b5bc40290223ce4fdb9a61e63c1e41aa6cb4df849ee2a3452d90",
+    "docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md": "f71b108c6d548711b333406552742430281b26a3054db7f6a1cc621edf8ef93b"
+  },
+  "expected_sources_sha256": "c9be71d10383d0a81105b1cda5dc130208bf326528c9a2acfe3360df11a05e6e",
+  "cases": {
+    "DEV_TRAIN": {
+      "input_sha256": "bc65d9a2ec31cba474dbd5fdb01c467beeacbf9b3e349ce102ed10d544d071c8",
+      "records_sha256": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+      "foreground_pixels": 15837,
+      "b_squared_norm": 0.31197789228212414
+    },
+    "CHECK": {
+      "input_sha256": "7365cb8d07b5cde5510a90e55152e8212edf60902599f690445da0b478b66cd0",
+      "records_sha256": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+      "foreground_pixels": 15837,
+      "b_squared_norm": 0.3114360692197462
+    }
+  },
+  "blocks_sha256": "a82228c6a1e18ff11d1a78c66181a6a6d39e9d222dd1124e3685fb2ea4d34344",
+  "baseline_model_sha256": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1",
+  "workers": 4,
+  "case_wall_seconds": 14400,
+  "case_block_bytes_limit": 2147483648,
+  "block_count": 34,
+  "models_per_block": 378,
+  "score_positive_epsilon_multiplier": 128,
+  "features": [
+    "predictive_gain",
+    "positive_block_fraction"
+  ],
+  "candidate_pool_recall": 0.95,
+  "final_training_FDP": 0.01,
+  "exposure": "Both cases exposed; original data blocks are not independent acquisitions",
+  "final_rule": "pool AND frozen effective final score AND refit original candidate gate",
+  "no_new_observation": true,
+  "no_rho": true,
+  "no_GPU": true,
+  "no_deletion": true
+}

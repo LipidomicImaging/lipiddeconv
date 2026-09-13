@@ -1,3 +1,7 @@
+# 物理块留出预测开发准备中 — 2026-09-13
+
+用户已同意执行并开启远程主机，登录及既有DEV/CHECK/components可用性已确认。按docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md完成实现/测试、输入/划块/运行时封存并先推送，再DEV34块预测→独立缓存审查/下载/Git→一次模型/阈值seal→CHECK同流程→最终门槛召回上界检查或一次完整缩库重拟合。原始观察、rho、production ISTA、alias门槛、d_frag分组不变；无新模拟/旧CAL2/HOLD/GPU/清理。新增analysis/physical_block_prediction.py、analysis/review_physical_block_prediction.py、analysis/run_physical_block_prediction.py及对应tests、无凭据transport helper；新结果仅results/physical_block_prediction_v1。目前未开始真实拟合。
+
 # 下一步策略已拟定，尚未执行 — 2026-09-13
 
 用户要求回到“筛选候选→再次解卷积→可靠定性”主任务，并将同一干扰组不同强度组合纳入思考。下一优先方案为物理离子块留出预测贡献：完整包络/共享通道一起留出；完整391库与删除分子全部alias的模型仅在其余块拟合，比较未参与拟合块的预测差，允许等强和多候选联合替代。原始176报告候选保留进入新流程的机会，不能永久封死到上轮128。具体策略docs/NEXT_STRATEGY_PHYSICAL_BLOCK_PREDICTION.md；本轮仅策略和来源结构只读核对，没有新训练/求解/模拟。

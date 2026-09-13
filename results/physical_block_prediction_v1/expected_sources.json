@@ -1,0 +1,21 @@
+{
+  "cases": {
+    "DEV_TRAIN": "/root/small_mismatch_nnls_first/results",
+    "CHECK": "/root/identity_confidence_joint_validation/results/cases/CAL1"
+  },
+  "components": "/root/small_mismatch_nnls_first/components/components.npz",
+  "baseline_model": "/root/identity_confidence_joint_validation/results/model.json",
+  "source_hashes": {
+    "/root/small_mismatch_nnls_first/results/prepared_arrays.npz": "948463cef1f9899147d2bad71b6119b2bc02a36b525fa5cdb5501bd36f55a7ed",
+    "/root/small_mismatch_nnls_first/results/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "/root/small_mismatch_nnls_first/results/molecular_records.json": "35c7b4b1a42df77bd93402a4f1e2289ce9fc250f982a52560c7bf5eb796298ad",
+    "/root/small_mismatch_nnls_first/results/result.json": "df0da8a2b48e7d8c9b8b7e2d24f17cf2177c1e6967fb1d75cda6388d92b38797",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/prepared_arrays.npz": "84248e4a0dd7e65cd0fc268e40aa94dfb7137940d6e21b9cfbd42964072a4291",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/metadata.json": "5c76be2bf57b6e0280cbf96ba8dca92effd3245ecd7192e9930d7e1726837f01",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/molecular_records.json": "7beffe182c65bd7792002b779f8f5b7ac75f1f6a9486b5f24d9db884ae262170",
+    "/root/identity_confidence_joint_validation/results/cases/CAL1/result.json": "9974d12a3156e6114428717e21c4e2f053f84c7ab51b28e8166b868018f103f2",
+    "/root/small_mismatch_nnls_first/components/component_metadata.json": "13458619a58fa4d5bf406b1f93760a42e933458a0d6d8aa2875c33c0e611a02b",
+    "/root/small_mismatch_nnls_first/components/components.npz": "52686db8d0784b98a3290be4f51d8bde3d2fcb8aff906ac40a12cc96484b9f2f",
+    "/root/identity_confidence_joint_validation/results/model.json": "687ecbca9b30aae11fda8979f434739479b20e5b7ceffba2d39b20924fd5f1b1"
+  }
+}
