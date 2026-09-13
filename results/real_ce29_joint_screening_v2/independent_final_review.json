@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_hashes_and_scientific_artifacts_verified": true,
+  "original_ISTA_abundances_preserved": true,
+  "independent_features_scores_and_counts_verified": true,
+  "actual_FDR_and_recall_remain_unknown": true,
+  "mutable_log_receipt": {
+    "run.log": {
+      "snapshot_sha256": "f07bd106568039b792e0a58fee45731ae5fd8e19ee96a867a8295ce390c38d5a",
+      "final_sha256": "e6345213404d0168538ea3c158e8f41d17385cccfe5dcf27a8a7868684ccde08",
+      "reason": "The runner prints its terminal receipt after writing the manifest; the process log is a mutable execution transcript, not a scientific input or numeric artifact."
+    }
+  },
+  "no_solver_or_training_rerun": true,
+  "report_sha256": "131255ea7447e250f5ab27394b88429f34a48c659f5e501afdddfacebf1a8d0a"
+}

@@ -1,0 +1,37 @@
+TASK_COMPLETE rho 59.84
+TASK_COMPLETE 1 137.61
+TASK_COMPLETE 2 138.06
+TASK_COMPLETE 0 145.17
+TASK_COMPLETE 3 145.33
+TASK_COMPLETE 5 158.44
+TASK_COMPLETE 4 162.69
+TASK_COMPLETE 6 257.95
+TASK_COMPLETE 7 479.16
+TASK_COMPLETE 9 455.58
+TASK_COMPLETE 10 364.92
+TASK_COMPLETE 8 487.48
+TASK_COMPLETE 11 128.36
+TASK_COMPLETE 12 153.06
+TASK_COMPLETE 13 147.11
+TASK_COMPLETE 14 152.59
+TASK_COMPLETE 15 149.75
+TASK_COMPLETE 16 348.5
+TASK_COMPLETE 18 380.62
+TASK_COMPLETE 17 408.02
+TASK_COMPLETE 19 384.12
+TASK_COMPLETE 20 176.36
+TASK_COMPLETE 21 134.41
+TASK_COMPLETE 22 131.06
+TASK_COMPLETE 23 116.99
+TASK_COMPLETE 24 160.34
+TASK_COMPLETE 25 159.7
+TASK_COMPLETE 26 162.89
+TASK_COMPLETE 27 160.97
+TASK_COMPLETE 28 302.33
+TASK_COMPLETE 29 367.72
+TASK_COMPLETE 31 381.81
+TASK_COMPLETE 30 403.64
+TASK_COMPLETE 33 96.58
+TASK_COMPLETE 32 183.53
+{"status": "COMPLETE_REVIEWED", "published_commit": "704e05fa35e39b15735fd5c600eaed9f8510db0f", "elapsed_seconds": 2084.125, "original_reported_molecular_identities": 76, "original_reported_candidates": 76, "actual_FDR": null, "TP": null, "FP": null, "FN": null, "recall": null, "truth_available": false, "interpretation": "Exploratory transfer of synthetic NNLS-trained fixed score to real production ISTA. DEV1/5 labels are threshold provenance, not real FDR guarantees.", "input_sha256": "bfb53e6400a6cea8682b5c23cc4b2603092f1d4ecebcee09f089c316a073c018", "model_sha256": "a1fd3193d994cc22df1676ab6e5d76c5880f9acb6442065127efa3fe7280a8bb", "thresholds_sha256": "df44a646c0d6146259ece3c08dc3af5d61af1e4896825261f35d8b83745a79f4", "all_block_cached_reviews_pass": true, "score_replay_pass": true, "no_ISTA_or_training_rerun": true, "no_deletion": true}
+RETAINED_COUNTS {'pool': 33, 'fdp5': 27, 'fdp1': 18}
