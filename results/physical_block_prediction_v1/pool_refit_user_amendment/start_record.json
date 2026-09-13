@@ -1,0 +1,11 @@
+{
+  "status": "POOL_REFIT_STARTED",
+  "pid": 5662,
+  "started_at_utc": "2026-09-13T08:55:51.118048+00:00",
+  "snapshot_commit": "51568621c16bd8cf944c0d42a8cbbe4a834755c2",
+  "seal_sha256": "d04f2b73516c441725d8ee3580ffd1d7106eda202ab7ae1ae62f92f54c75d0c7",
+  "log": "/root/physical_block_prediction_v1/POOL_REFIT.log",
+  "timeout_seconds": 14400,
+  "kill_grace_seconds": 30,
+  "process_group_timeout": true
+}

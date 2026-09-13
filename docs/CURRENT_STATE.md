@@ -1,3 +1,15 @@
+# COMPLETED — 物理预测联合筛选及高召回池实际二次解卷积 — 2026-09-13
+
+新CHECK筛选及用户追加pool-only第二次NNLS均已完成。固定高召回池与重拟合结果完全相同：121TP/10FP/4FN，FDP7.6336%、recall96.8%，无refit额外TP损失或FP移除；严格旧score交集83TP/2FP，2.3529%、66.4%，仅secondary。用户5%查询：DEV112/5（4.2735%、89.6%）；其固定cut转CHECK117/6（4.8780%、93.6%），未替换refit池、未对123名另跑NNLS。实际131列15837像素耗时156.08秒；144文件下载hash一致，remote/local缓存与独立数组身份复核PASS，所有最终/块数组两端保留，无删除。
+
+报告results/physical_block_prediction_v1/pool_refit_user_amendment/analysis_record.md；用户追问的实际模型和10个FP强度见false_identity_analysis.md/.json。5个FP强度升、5个降，均高于.001；PG14:0_22:3升2.949倍。3个rho=0/S<0/C0假身份仍通过（正rho平方项及加法补偿）；7个FP有正预测证据，不能据此推断具体供体。原feature本地exact tau末位差及独立兼容性PASS保留。当前严格1%/80%目标仍未解决；没有新相对丰度家族或独立真实MSI FDR保证。
+
+CHECK具体保存b6fdfea，追加refit输入seal5156862均已先push后下游。现在只保存该最终case、用户要求的解释与状态到Git并核对push后STOP；不再自动拟合/阈值调整/候选回补/旧CAL2/HOLD/清理。
+
+# 实际二次解卷积RUNNING — 2026-09-13
+
+已于08:55:51UTC启动131列CHECK pool-only全像素NNLS，timeout父PID5662，输入封存51568621c16bd8cf944c0d42a8cbbe4a834755c2已push并核对。日志/root/physical_block_prediction_v1/POOL_REFIT.log；结果/root/physical_block_prediction_v1/results/pool_refit_user_amendment/refit/status.json及父目录result.json。现只继续本次计算，不重复启动、不增加分析步骤。完成后缓存核对/counts、下载保留全部最终及块数组/hash、保存该case Git、更新状态完成并STOP。用户已要求简化流程、优先实际结果。当前已知CHECK5%阈值117/6（FDP4.878%、recall93.6%）；重拟合输入121/10（7.6336%、96.8%），尚无refit结果。
+
 # 新方案CHECK初筛完成，准备用户要求的实际二次解卷积 — 2026-09-13
 
 CHECK34块/12852拟合完成1260.51秒，remote exact/cache与local模型概率复核PASS，77文件hash下载一致。固定高召回阈值0.5735000428231877实际留下121TP/10FP，recall96.8%、FDP7.6336%；原严门槛83TP/2FP、66.4%recall，仅保留作对照。用户5%问题：DEV112/5（89.6%、4.2735%）；该DEV查询阈值原样移到CHECK117/6（93.6%、4.8780%），未采用为重拟合池。CHECK本地34块loss/KKT通过，汇总exact tau末位差失败保留；独立兼容性审查正在完成。新run_physical_block_pool_refit.py仅调用既有solver，131候选/131列，主端点pool-only原alias门槛，无83资格上限。先保存CHECK和增补协议/code/review→ack→prepare新输入seal/独立审查/push→一次全像素refit，尚未执行。无旧CAL2/HOLD/新观察/rho/候选回补/GPU/清理。

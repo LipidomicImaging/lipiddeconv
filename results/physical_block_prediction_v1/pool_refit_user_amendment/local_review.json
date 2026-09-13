@@ -1,0 +1,85 @@
+{
+  "status": "POOL_REFIT_CACHE_REVIEW_PASS",
+  "case": "CHECK",
+  "remote_source_checked": false,
+  "result_sha256": "8ca5d02028fd885e997448098e63d7ddc1e97ccfc83a98dfe83ce8219b16568c",
+  "design_sha256": "ab5c3bc9a566c15fd94caeeb6df22de9e1a5ac4b9fcc6dacba13b88e88ce62e8",
+  "learned_arrays_sha256": "a844ca838de349f1b1505583f845bd3b518edae2ae7ef14a7280af0739febde5",
+  "completion_sha256": "47c19053b236f6a8dffb92e8a4a0bc8af7a6bcd76223bf5e9bd9e28bc68a0d09",
+  "reviewed_blocks": 64,
+  "foreground_pixels": 15837,
+  "candidate_count": 391,
+  "molecular_count": 377,
+  "all_final_and_checkpoint_arrays_finite": true,
+  "all_alias_membership_checked": true,
+  "max_reconstruction_error": 0.0,
+  "reconstruction_bound": 5.154919624328613e-07,
+  "original_float64_KKT_receipts_checked": true,
+  "KKT_not_recomputed_from_float32": true,
+  "residual_review": "not recomputed locally; bound to downloaded remote source review",
+  "remote_review_sha256": "20b42c789ffd864428e126981172697d122281d58e30b3156e92deaae8403c09",
+  "count_and_gate_replay": "exact flags and counts; numeric aggregates rtol1e-12 atol1e-15",
+  "reviewer_runtime": {
+    "numpy": "1.25.2",
+    "scipy": "1.11.3",
+    "sklearn": "1.2.2"
+  },
+  "independent_FDR_claim": false,
+  "counts": {
+    "raw": {
+      "TP": 125,
+      "FP": 51,
+      "FN": 0,
+      "FDP": 0.2897727272727273,
+      "all_truth_recall": 1.0,
+      "TP_retention": 1.0,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0,
+      "retained": 176
+    },
+    "pool": {
+      "TP": 121,
+      "FP": 10,
+      "FN": 4,
+      "FDP": 0.07633587786259542,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.968,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0,
+      "retained": 131
+    },
+    "refit_primary": {
+      "TP": 121,
+      "FP": 10,
+      "FN": 4,
+      "FDP": 0.07633587786259542,
+      "all_truth_recall": 0.968,
+      "TP_retention": 0.968,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0,
+      "retained": 131
+    },
+    "old_strict_score_eligible": {
+      "TP": 83,
+      "FP": 2,
+      "FN": 42,
+      "FDP": 0.023529411764705882,
+      "all_truth_recall": 0.664,
+      "TP_retention": 0.664,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0,
+      "retained": 85
+    },
+    "old_strict_intersection": {
+      "TP": 83,
+      "FP": 2,
+      "FN": 42,
+      "FDP": 0.023529411764705882,
+      "all_truth_recall": 0.664,
+      "TP_retention": 0.664,
+      "all_truth_count": 125,
+      "raw_solver_misses": 0,
+      "retained": 85
+    }
+  }
+}

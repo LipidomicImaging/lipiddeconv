@@ -1,0 +1,68 @@
+{
+  "status": "INDEPENDENT_FINAL_ARRAY_AND_IDENTITY_ACCOUNTING_PASS",
+  "full_pixel_count": 15837,
+  "candidate_count": 391,
+  "molecular_count": 377,
+  "counts": {
+    "raw": {
+      "TP": 125,
+      "FP": 51,
+      "FN": 0,
+      "FDP": 0.2897727272727273,
+      "all_truth_recall": 1.0,
+      "retained": 176
+    },
+    "pool": {
+      "TP": 121,
+      "FP": 10,
+      "FN": 4,
+      "FDP": 0.07633587786259542,
+      "all_truth_recall": 0.968,
+      "retained": 131
+    },
+    "refit": {
+      "TP": 121,
+      "FP": 10,
+      "FN": 4,
+      "FDP": 0.07633587786259542,
+      "all_truth_recall": 0.968,
+      "retained": 131
+    },
+    "strict_secondary": {
+      "TP": 83,
+      "FP": 2,
+      "FN": 42,
+      "FDP": 0.023529411764705882,
+      "all_truth_recall": 0.664,
+      "retained": 85
+    }
+  },
+  "screening_truth_losses": [
+    "PE 17:0_20:2",
+    "PE 18:2_22:4",
+    "PG 16:0_22:5",
+    "PG 20:2_18:3"
+  ],
+  "refit_truth_losses": [],
+  "refit_false_removals": [],
+  "all_reported_false_names": [
+    "PA 20:1_22:6",
+    "PE 17:1_20:1",
+    "PE O-16:1_22:3",
+    "PE O-18:1_20:2",
+    "PE O-18:2_22:5",
+    "PG 14:0_22:3",
+    "PG 16:0_20:5",
+    "PG 17:0_20:3",
+    "PG 17:1_20:4",
+    "PG 18:2_20:2"
+  ],
+  "learned_arrays_sha256": "a844ca838de349f1b1505583f845bd3b518edae2ae7ef14a7280af0739febde5",
+  "result_sha256": "8ca5d02028fd885e997448098e63d7ddc1e97ccfc83a98dfe83ce8219b16568c",
+  "local_review_sha256": "b5ecf73d5e21de09217aa423e3d95b19ae86dd6412e013d5a2eebdb09de42113",
+  "remote_review_sha256": "20b42c789ffd864428e126981172697d122281d58e30b3156e92deaae8403c09",
+  "false_identity_analysis_sha256": "c4fa9e40de51094c8a74c295413e2be1979888faf62b97dfcd2b0388e3fe2d30",
+  "no_optimizer_or_training": true,
+  "all_arrays_retained_locally_and_remotely": true,
+  "independent_FDR_claim": false
+}
