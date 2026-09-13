@@ -1,0 +1,27 @@
+{
+  "status": "IMPLEMENTATION_CHECKS_PASS",
+  "version": "PHYSICAL_BLOCK_POOL_REFIT_USER_AMENDMENT_V1",
+  "checks": {
+    "cli_help": "PASS: actions prepare/run/review and expected arguments",
+    "syntax_ast_parse": "PASS",
+    "tiny_alias_primary_accounting": "PASS: alternate same-name alias activates; screened truth remains lost; refit removes false identity; empty old strict set does not cap primary"
+  },
+  "checked_python_executable": "D:\\anaconda\\python.exe",
+  "runtime": {
+    "numpy": "1.25.2",
+    "scipy": "1.11.3",
+    "sklearn": "1.2.2"
+  },
+  "code_sha256": "00e6cd5ac7ca1730062d20cf6b27fec231a3087eab34ef6feb42d1d128ac84de",
+  "protocol_sha256": "249b8436a122d215d5b23df0c32193028f0274f45b3183a8d2b62dfee197533b",
+  "independent_read_only_code_review": {
+    "reviewer": "review_scores",
+    "status": "NO_BLOCKING_BUG_FOUND",
+    "scope": "parent/helper source schema, aliases, primary vs secondary, portable cached review and external budget responsibility"
+  },
+  "real_case_fit_run": false,
+  "optimization_run": false,
+  "classifier_fit_run": false,
+  "rho_run": false,
+  "prepared_output_created": false
+}

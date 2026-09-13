@@ -1,3 +1,15 @@
+# 新方案CHECK初筛完成，准备用户要求的实际二次解卷积 — 2026-09-13
+
+CHECK34块/12852拟合完成1260.51秒，remote exact/cache与local模型概率复核PASS，77文件hash下载一致。固定高召回阈值0.5735000428231877实际留下121TP/10FP，recall96.8%、FDP7.6336%；原严门槛83TP/2FP、66.4%recall，仅保留作对照。用户5%问题：DEV112/5（89.6%、4.2735%）；该DEV查询阈值原样移到CHECK117/6（93.6%、4.8780%），未采用为重拟合池。CHECK本地34块loss/KKT通过，汇总exact tau末位差失败保留；独立兼容性审查正在完成。新run_physical_block_pool_refit.py仅调用既有solver，131候选/131列，主端点pool-only原alias门槛，无83资格上限。先保存CHECK和增补协议/code/review→ack→prepare新输入seal/独立审查/push→一次全像素refit，尚未执行。无旧CAL2/HOLD/新观察/rho/候选回补/GPU/清理。
+
+# 用户更新：检验高召回候选池的实际二次解卷积 — 2026-09-13
+
+DEV新分数在用户请求的FDP<=5%描述性门槛下最多112TP/5FP，recall89.6%，实际FDP4.2735%；没有恰好5%点。这不是新CHECK阈值。用户接受原高召回pool的约6.3%错误并要求检验二次解卷积，因此新增docs/PHYSICAL_BLOCK_POOL_REFIT_USER_AMENDMENT_V1.md；保留原模型与严门槛，将pool-only重拟合作为单独授权下游端点，不能由83TP的严门槛提前停止。CHECK原34块仍计算中；先完整审查保存，再封存新增runner/输入并实际重拟合一次。原运行不改，无新的筛查模型或rho。
+
+# 物理块留出预测：CHECK运行中 — 2026-09-13
+
+DEV8796bce与唯一模型2ce3b343383888eb7b4691729938c1b2bf36c8be已按顺序push并核对，model seal dd132e777da5451aee5068450ca6b577f31df056ab975257b8640913047e3f3f。CHECK于08:19:11UTC启动，PID4740，远程/root/physical_block_prediction_v1/CHECK.log；四CPU/原34物理块/377分子删除，所有输出保留。只读已有日志和完成标记，禁止重复启动。完成后remote review→下载/hash→local缓存与独立审查→固定selection→具体CHECK Git→ack→final_decision。尚无CHECK结果，不依TRAIN66.4%直接宣称CHECK失败。没有旧CAL2/HOLD/新观察/GPU/清理。
+
 # 物理块留出预测：唯一模型已封存，CHECK待执行 — 2026-09-13
 
 DEV具体结果8796bce47e7f01cfa6f231d59f11bc26634a9ea1已成功push并核对后才fit。唯一八特征模型已封存，两端独立概率/阈值审查PASS，7文件下载hash一致；TRAIN候选池119TP/8FP、95.2%recall，最终分数门槛83TP/0FP、66.4%recall。尚未达到主目标；不能将TRAIN当最终或独立FDR。下一步先推送model seal和model_record，再ack model→CHECK34块→审查/download/具体Git→最终召回上界或一次完整重拟合。科学代码/输入/规则不变，DEV本地exact辅助tau末位失败与兼容性PASS均保留，所有数组两端保存。

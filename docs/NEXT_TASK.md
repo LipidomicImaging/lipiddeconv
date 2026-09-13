@@ -1,6 +1,10 @@
+# ACTIVE — 用户要求高召回初筛后实际再次解卷积 — 2026-09-13
+
+最新用户接受高召回初筛后实际二次解卷积，按docs/PHYSICAL_BLOCK_POOL_REFIT_USER_AMENDMENT_V1.md。CHECK已完整计算并remote/localblock复核，固定pool121TP10FP（96.8%recall/7.6336%FDP）；本地exact辅助tau末位失败保留、独立兼容性审查待保存。5%DEV描述112/5（89.6%），其阈值原样迁移CHECK117/6（93.6%、FDP4.878%），不改变refitpool。接下来CHECK_record/独立summary完成后具体Git push（含增补协议/新runner/实施checks）→ack CHECK→新runner prepare inputseal→独立输入审查/download/hash/Git→run一次全15837像素131列pool-only NNLS→remote/local/独立结果审查/下载全部数组/Git→STOP。禁止调用旧final_decision重复或跳过这次用户追加refit；严分数集合仅secondary。原科学文件/模型/阈值不改，无新训练/rho/候选回补/旧CAL2/HOLD/清理。
+
 # ACTIVE — 执行物理块留出预测开发V1 — 2026-09-13
 
-实时交接：DEV具体结果8796bce已push并核对，之后唯一fit完成，两端review_model PASS。TRAIN候选池119/8，最终score83/0，仅66.4%recall；模型已封存不可改。下一步推送model.json/thresholds/model_seal/全部TRAIN分数与review/record，再ack model→只运行CHECK；完成后完整remote/local缓存审查、download/hash、具体Git保存→final_decision。DEV exact本地辅助tau末位差与独立兼容性PASS均已记录，不能改代码消除失败。活跃remote helper会话继续，禁止重新prepare/重训/旧CAL2/HOLD。
+实时交接：DEV8796bce、模型2ce3b343383888eb7b4691729938c1b2bf36c8be均已push并核对；CHECK于08:19:11UTC启动PID4740，远程/root/physical_block_prediction_v1/CHECK.log，不重复启动。只读该日志/结果完成标记；完成后remote review_case→下载全部块/hash→local和独立缓存审查→check_selection/review_model→具体CHECK Git→ack CHECK→final_decision及review_final。如果冻结最终名单真身份不足100则按合同保存召回上界提前停算，否则一次全像素缩库NNLS。所有科学文件及阈值封存不变；DEV本地tau末位exact失败及独立兼容性PASS保留。
 
 用户“好的，远程主机已开”及随后登录信息授权本次远程执行。严格执行docs/PHYSICAL_BLOCK_PREDICTION_EXECUTION_V1.md，先代码/输入/34块/seal/Git再真实DEV，逐case缓存复核/download/hash/具体Git后交接；一次模型及阈值封存后CHECK。最终规则若已证明最多不足100TP则保存召回上界停算，否则一次原全像素缩库NNLS并完整最终评价。新输出results/physical_block_prediction_v1。所需文件限下方策略源和本执行合同、3个新科学模块及对应tests、无凭据remote_physical_block_session.py，以及已有refit/NNLS/KKT/原transform helpers。不重建流水线、不重算rho/profile/ISTA、不启旧CAL2/HOLD/新观测/GPU或删除。最后更新状态、标记本开发版本完成或如实技术失败、push后STOP；不声称主目标已达成。
 

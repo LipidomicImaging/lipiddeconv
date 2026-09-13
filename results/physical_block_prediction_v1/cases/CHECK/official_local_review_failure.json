@@ -1,0 +1,16 @@
+{
+  "status": "EXACT_LOCAL_FEATURE_REPLAY_FAILED",
+  "case": "CHECK",
+  "command_action": "review_case without --remote",
+  "exit_code": 1,
+  "error": "FEATURES_CHANGED",
+  "failed_assertion": "recomputed == saved",
+  "completed_local_block_numerical_reviews": 34,
+  "all_local_block_loss_KKT_checks_passed": true,
+  "remote_exact_case_review": "CACHE_REVIEW_PASS",
+  "local_model_and_CHECK_prediction_replay": "INDEPENDENT_MODEL_REPLAY_PASS",
+  "downloaded_files_hashes_match": true,
+  "cause": "Pending independent field-by-field diagnosis",
+  "scientific_code_or_saved_features_changed": false,
+  "amended_pool_refit_started": false
+}

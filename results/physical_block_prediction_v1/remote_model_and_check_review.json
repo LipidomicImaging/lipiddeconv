@@ -1,0 +1,25 @@
+{
+  "status": "INDEPENDENT_MODEL_REPLAY_PASS",
+  "reviews": {
+    "DEV_TRAIN": {
+      "status": "PASS",
+      "is_train": true,
+      "row_count": 377,
+      "reported_count": 174,
+      "maxprob_error": 7.771561172376096e-16,
+      "unreported_probability": "None",
+      "no_optimizer_or_training": true,
+      "thresholds_independently_verified": true
+    },
+    "CHECK": {
+      "status": "PASS",
+      "is_train": false,
+      "row_count": 377,
+      "reported_count": 176,
+      "maxprob_error": 3.3306690738754696e-16,
+      "unreported_probability": "None",
+      "no_optimizer_or_training": true
+    }
+  },
+  "model_seal_sha256": "dd132e777da5451aee5068450ca6b577f31df056ab975257b8640913047e3f3f"
+}
