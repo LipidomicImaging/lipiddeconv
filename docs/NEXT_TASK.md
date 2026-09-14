@@ -1,3 +1,9 @@
+# ACTIVE — Real CE29 identity competition / failure geometry audit — 2026-09-14
+
+本轮唯一任务按 docs/REAL_CE29_COMPETITION_AUDIT_V1.md 与 results/real_ce29_competition_audit_v1/audit_contract.json 执行。优先复用精确hash缓存，不改任何旧solver/阈值/分组。先合同/3个必要代码文件/来源registry及本状态commit并成功push，再preflight验证391候选与377原lipid_name映射，执行CE29全图及原64前景顺序块均值、两组V58 MILD CAL均值的全库CPU NNLS删除诊断。所有同名候选一起删除；full系数全为exact zero的identity仅用数学可行性/KKT证明复用full，不按truth缩库。67个诊断与全部原34谱块缓存严格区分，不重算production/rho/训练。
+
+完成identity/edge/graph/coverage/V58对照及独立review，保存用户要求结果与全部float64诊断缓存（大数组本地保留、不纳入轻量Git），更新CURRENT_STATE、标记本审计完成、commit/push核对包含此case后STOP。关键hash或validation失败必须如实STOP，不替换近似源或将部分结果称最终。缺ISTA deletion及V58像素缓存保留不可评估，不伪造跨solver稳定性/真实身份标签。允许来源与精确路径见合同source_paths和绑定provenance，禁止重仓库扫描、decoy构建/FDR校准/ML/新训练/自动后续实验/删除。
+
 # COMPLETED — 真实 CE29 模拟DEV10阈值迁移 — 2026-09-13
 
 按用户要求复查最终全图ISTA与NNLS，仅应用已保存模拟DEV阈值joint_score>=0.5406530976316042。ISTA76→38（原报告50%），NNLS78→49（62.82%），共同30、ISTA独有8、NNLS独有19；较原DEV5档分别新增11/6名。阈值来源的两个逐组看真值最佳cut仅作敏感性：0.2706294889→48/55，0.3436665579→43/53；均不能称真实FDR<10%，真实TP/FP/FN/recall未知。使用15837像素完整结果，未重算solver/rho/特征或模型，无删除；去丰度新拟合仍暂停、未执行。原分数独立标量复算、原CSV独立名单/数值检查及来源/产物hash全部PASS，compile/diff-check通过。
