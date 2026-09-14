@@ -1,5 +1,9 @@
 # ACTIVE — Real CE29 identity competition / failure geometry audit — 2026-09-14
 
+复核交接：67/67诊断完成（678.453秒，全部原KKT PASS），原summarize完成。首次独立复核在common_fragment_support标记STOP_INVALID_AUDIT；已确认原review错误归一化该字段，冻结合同/producer实际为raw sum。原脚本、合同、数组和全部科学表保持不变，初次失败另存validation_report_initial.json；新review_real_ce29_competition_support_units.py仅修正两项期望单位，有解析检查及原输出hash绑定。先push该修正封存，再只读全部缓存复查，不重solve/重summarize/调参数。当前不可接受为最终科学结果。
+
+运行交接：合同/代码/296项来源已于8b6e426d14befe78bf80373ca95b3c901d62ef0f先push并ls-remote核对。source/preflight PASS，2026-09-14T05:43:38Z启动本地PID33940，统一exec session78474，四CPU/BLAS1。仅继续当前一次67上下文诊断，不重复启动。结束依据 results/real_ce29_competition_audit_v1/diagnostic_completion.json 或 failure.json；然后 frozen summarize→independent review→具体结果Git/push→STOP。status.json只是进度，不是最终科学结果。
+
 执行用户新合同 docs/REAL_CE29_COMPETITION_AUDIT_V1.md，输出仅 results/real_ce29_competition_audit_v1。既有真实391候选/377 lipid_name/15837前景、production ISTA、full-library NNLS、固定DEV10阈值与全部34谱块缓存保持不变。已完成有界来源盘点；沿用原64个250前景顺序像素块，新增其均值与全图均值的原全库NNLS全同名删除诊断；V58仅复用两组已曝光MILD CAL均值缓存做同定义机制对照。缺ISTA删除缓存时明确不可评估跨solver边，34谱块不冒充像素块。先封存合同/代码/来源并push，后source preflight、单次CPU诊断、独立缓存复算、结果commit/push和STOP。无新训练/decoy/FDR/阈值调整或删除；不得重建历史或扫描重仓库。
 
 允许来源限合同 source_paths、已绑定CE29 input/final manifests及其明确成员、physical components provenance明确指向的candidate JSONL/channel formulas、CE uncertainty缓存两组MILD CAL inputs与原transfer manifest。外部原数组只读精确路径。此前独立任务保持原状态。

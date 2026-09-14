@@ -1,0 +1,42 @@
+{
+  "status": "REVIEW_IMPLEMENTATION_CORRECTION_BEFORE_CACHE_REVIEW",
+  "original_review_sha256": "79358679a42253dccb20936b45f73d28b133bf327588b83065af5573e26a9428",
+  "contract_sha256": "05f0cb8d3222c8f9cc062a84aa08646b29f070861b839e987b71a3c612e6c022",
+  "corrected_entrypoint_sha256": "b609a071d19f38d408bb1ac6d4d4dffa6f5ee4f7cc8c71b0b9df4cdd2f5a12f4",
+  "initial_failure_sha256": "e7d229b8f93be38d2ba5956aab65af6a14b4f05aa76b08e0d1d658a9bc4c9d15",
+  "root_cause": "Original independent reviewer divided common/specific b sums by total fragment b; frozen contract and producer both require raw sums.",
+  "changed_fields": [
+    "common_fragment_support",
+    "specific_fragment_support"
+  ],
+  "invariant": "No scientific contract, producer, source, solver, threshold, diagnostic array or table change.",
+  "original_scientific_output_hashes": {
+    "block_edge_stability.csv": "9179984e5414c0b0778fd21f08d0c3e9df3f2247d35232a1625bdae95f59fcc8",
+    "competition_edges.csv": "057d44dfca3ad8bcfc182587ee583604a9f7af2dd783f210f6b30d326c3b052e",
+    "competition_graph_edges.csv": "0332017c724c2bc45439374675518516367b635a2963a6a858d5479162d16357",
+    "identity_deletion_metrics.csv": "688b5eddcae993d6ecd548e32f0e369800d97e9d18889ff3836c70bd556899fb",
+    "identity_master_table.csv": "78d9f5d364720bc56ee365a1345e4d71b5c0c212c5ab75600d19c58278d612d3",
+    "identity_solver_agreement.csv": "4664a5af526fb583c66fb7371b45dc45161ae6f838c507526ab2994cec98034b",
+    "identity_specific_support.csv": "c9b6225c4eb7cd170a3f7a3f1801c9543e46d7b33ee41d39cdfc9533b0dac3d3",
+    "identity_spectral_geometry.csv": "4d571ebbedb9d2c20aecb259c76a19c0ce36dcc2067e6b926f17301d73be0211",
+    "solver_edge_agreement.csv": "89aed9219b4aef37b35009b2a1e0697e23be2af9347f6d22a653fe1bd7b7804c",
+    "v58_identity_geometry.csv": "befc63a962924670a7545987ae914f2f0046060e83610a800adca5fbcd0eac56",
+    "v58_vs_ce29_geometry_comparison.csv": "bcabf19e5ba11e269576ef0834db61b2d7402d9164454a951470eb60808a79af",
+    "competition_graph_summary.json": "2d771495aad9516dbfd8477542b7ed60183ddea04247a6888a2fbc55f733efed",
+    "decoy_coverage_audit.json": "17c862ce5bb8e695226cfe9eeaad68c46c17fbe8cb8ad1b7ee08de9788f4c673",
+    "decision_summary.json": "22a8fe5816f92e7869f63a0cd3888061f6743e2cb6972140e3e904e82959f416"
+  },
+  "algebra_check": {
+    "status": "PASS",
+    "no_solver": true,
+    "common_raw_sums": [
+      4.0,
+      4.0
+    ],
+    "specific_raw_sums": [
+      2.0,
+      3.0
+    ]
+  },
+  "solver_calls": 0
+}

@@ -1,5 +1,9 @@
 # ACTIVE — Real CE29 identity competition / failure geometry audit — 2026-09-14
 
+当前诊断已全部完成，不再运行run。首review为STOP_INVALID_AUDIT，根因是review两字段多做归一化，与冻结raw-sum合同不同；原结果/脚本与失败保留。下一步只推送review_units_correction.json及最小独立wrapper，然后运行review_real_ce29_competition_support_units.py run（先核对review_correction_git.json）；PASS后最终case保存/Git/STOP。不得重solve、改合同/阈值或覆盖初次失败。
+
+当前已RUNNING：封存提交8b6e426已push/核对，input_binding PASS；本地PID33940、exec session78474，13:43北京时间启动。禁止重启第二份。仅完成当前67上下文后运行原summarize及independent review，审查PASS才保存最终结果/Git/push/STOP。诊断未结束前不能输出最终competition数量或路线。
+
 本轮唯一任务按 docs/REAL_CE29_COMPETITION_AUDIT_V1.md 与 results/real_ce29_competition_audit_v1/audit_contract.json 执行。优先复用精确hash缓存，不改任何旧solver/阈值/分组。先合同/3个必要代码文件/来源registry及本状态commit并成功push，再preflight验证391候选与377原lipid_name映射，执行CE29全图及原64前景顺序块均值、两组V58 MILD CAL均值的全库CPU NNLS删除诊断。所有同名候选一起删除；full系数全为exact zero的identity仅用数学可行性/KKT证明复用full，不按truth缩库。67个诊断与全部原34谱块缓存严格区分，不重算production/rho/训练。
 
 完成identity/edge/graph/coverage/V58对照及独立review，保存用户要求结果与全部float64诊断缓存（大数组本地保留、不纳入轻量Git），更新CURRENT_STATE、标记本审计完成、commit/push核对包含此case后STOP。关键hash或validation失败必须如实STOP，不替换近似源或将部分结果称最终。缺ISTA deletion及V58像素缓存保留不可评估，不伪造跨solver稳定性/真实身份标签。允许来源与精确路径见合同source_paths和绑定provenance，禁止重仓库扫描、decoy构建/FDR校准/ML/新训练/自动后续实验/删除。
