@@ -1,0 +1,12 @@
+{
+  "status": "STOP_INVALID_AUDIT",
+  "error": "AuditFailure: TABLE_VALUE: SOLVER/PA 24:0_16:1/spatial_cosine_ista_nnls",
+  "solver_calls": 0,
+  "review_units_correction": {
+    "original_failure_preserved": true,
+    "correction_sha256": "1597d69f7959b9d348037149d64e63349670795ca6be63e699af5078c662e249",
+    "entrypoint_sha256": "b609a071d19f38d408bb1ac6d4d4dffa6f5ee4f7cc8c71b0b9df4cdd2f5a12f4",
+    "pushed_commit": "8c0d113d27020e5cb67392727a2ae3eccd82059c",
+    "scientific_outputs_unchanged": true
+  }
+}

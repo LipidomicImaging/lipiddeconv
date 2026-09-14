@@ -1,0 +1,10 @@
+{
+  "reason": "Frozen solver-agreement contract requires undefined zero-vector cosine to be NA. Producer does so; original independent reviewer returned zero.",
+  "entrypoint_sha256": "538b8ae325a43abad2f3205e2e5bab7cf616032a5f5074a10eedc582fe843277",
+  "units_entrypoint_sha256": "b609a071d19f38d408bb1ac6d4d4dffa6f5ee4f7cc8c71b0b9df4cdd2f5a12f4",
+  "units_binding_sha256": "1597d69f7959b9d348037149d64e63349670795ca6be63e699af5078c662e249",
+  "second_failure_sha256": "629b2e1ce580dd9ec87412eda6a1727b3cba659076ff98185f970508f7e93450",
+  "changed_field": "spatial_cosine only when at least one map has EXACT zero L2 norm",
+  "scientific_contract_and_outputs_unchanged": true,
+  "solver_calls": 0
+}
