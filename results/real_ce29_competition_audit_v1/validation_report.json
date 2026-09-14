@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "reviewer": "independent_numpy_cached_arrays",
+  "solver_calls": 0,
+  "full_coverage": true,
+  "sampling_used": false,
+  "source_review": {
+    "entries": 296,
+    "unique_files": 296,
+    "bytes": 198595361,
+    "all_path_bytes_sha256_expected_sha256_match": true
+  },
+  "input_review": {
+    "candidate_order_exact": true,
+    "molecular_grouping_exact": true,
+    "candidate_count": 391,
+    "molecular_count": 377,
+    "foreground_pixels": 15837,
+    "original_A_exact": true,
+    "original_B_block_means_recomputed": true,
+    "block_count": 64,
+    "block_unit": "consecutive foreground-order pixels, 250 except last",
+    "full_mean_weighted_block_mean_consistent": true,
+    "V58_A_B_exact": true,
+    "no_truth_field_in_solver_input": true
+  },
+  "diagnostic_review": {
+    "datasets": 67,
+    "full_models": 67,
+    "molecular_deletions": 25259,
+    "deleted_all_aliases": true,
+    "no_candidate_pruning": true,
+    "full_delete_same_b": true,
+    "all_allowed_columns_KKT_checked": true,
+    "all_SSE_recomputed": true,
+    "analytic_zero_deletions": 21057,
+    "maximum_independent_KKT_bound_ratio": 0.0007957995359789741
+  },
+  "production_counts": {
+    "ISTA": {
+      "reported": 76,
+      "retained": 38
+    },
+    "NNLS": {
+      "reported": 78,
+      "retained": 49
+    }
+  },
+  "ce29_tables_without_truth_fields": [
+    "block_edge_stability.csv",
+    "competition_edges.csv",
+    "competition_graph_edges.csv",
+    "identity_deletion_metrics.csv",
+    "identity_master_table.csv",
+    "identity_solver_agreement.csv",
+    "identity_specific_support.csv",
+    "identity_spectral_geometry.csv",
+    "solver_edge_agreement.csv"
+  ],
+  "table_review": {
+    "molecular_tables": 5,
+    "CE29_global_molecular_metrics": 377,
+    "all_edge_metrics_recomputed": 5134,
+    "all_block_edge_denominators_recomputed": true,
+    "all_pairwise_block_rank_statistics_recomputed": true,
+    "strict_stable_edges": 14,
+    "strict_stable_unordered_pairs": 12,
+    "reciprocal_strict_stable_pairs": 2,
+    "graph_membership_exact": true,
+    "all_V58_molecular_labels_checked": 754,
+    "original_spectral_fold_cache_hashes_verified": 34,
+    "source_data_outcomes_preserved": true,
+    "ISTA_deletion_evidence_not_fabricated": true
+  },
+  "elapsed_seconds": 25.203,
+  "contract_sha256": "05f0cb8d3222c8f9cc062a84aa08646b29f070861b839e987b71a3c612e6c022",
+  "input_sha256": "3c2c231b84c235b6d33f94a5a47fb05de634696a6860edf2d7d1aaccba05423b",
+  "limitations": [
+    "KKT verifies numerical optimality, not unique identity attribution.",
+    "Block means are diagnostics, not pixelwise production refits or independent replicates.",
+    "Missing ISTA deletion evidence remains unavailable.",
+    "No real CE29 truth, FDR or recall is inferred."
+  ],
+  "review_corrections": {
+    "initial_failure_sha256": "e7d229b8f93be38d2ba5956aab65af6a14b4f05aa76b08e0d1d658a9bc4c9d15",
+    "units_review_failure_sha256": "629b2e1ce580dd9ec87412eda6a1727b3cba659076ff98185f970508f7e93450",
+    "units_binding_sha256": "1597d69f7959b9d348037149d64e63349670795ca6be63e699af5078c662e249",
+    "zero_map_binding_sha256": "b41a68b3b6ef48528534821561883d879ea6e1380a2dcf5f006a72fef074b312",
+    "review_commit": "9aa13c6e24b3405557e3f213dec7d1d7f0b8f165",
+    "original_script_preserved": true,
+    "scientific_outputs_unchanged": true
+  }
+}

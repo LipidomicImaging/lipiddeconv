@@ -1,4 +1,10 @@
-# ACTIVE — Real CE29 identity competition / failure geometry audit — 2026-09-14
+# COMPLETED — Real CE29 identity competition / failure geometry audit — 2026-09-14
+
+本轮唯一审计任务已完成：67/67诊断（678.453秒）、377身份、5134条有向边、14条严格稳定首位边（0.2727%）。最终独立review PASS，完整验证296来源、25259次删除的KKT/SSE及全部表/边/分母；无抽样、未重solve或改变科学输出。两次review实现口径错误与先push的最小修正封存均保留，详见validation_report.json及两份历史失败报告。
+
+结果、分析和决定集中保存于results/real_ce29_competition_audit_v1；final_storage_manifest.json绑定精确产物及保留的大数组。路线SOLVER_STABILITY_FIRST只为审计判断，不授权新实验；缺ISTA删除证据保留NA，真实FDR/身份真假/recall未知。现在只将本case最终紧凑结果、分析、复核和状态commit/push到codex/v58-v59-run-records并核对远端包含本case，然后STOP。所有数组保留，无删除。不启动decoy/FDR/ML/V59/V60/新训练。本节取代下方本任务全部运行及失败交接，其他独立任务不变。
+
+# 历史交接（已由上方COMPLETED取代）— Real CE29 identity competition audit
 
 当前诊断已全部完成，不再运行run。首review为STOP_INVALID_AUDIT，根因是review两字段多做归一化，与冻结raw-sum合同不同；原结果/脚本与失败保留。下一步只推送review_units_correction.json及最小独立wrapper，然后运行review_real_ce29_competition_support_units.py run（先核对review_correction_git.json）；PASS后最终case保存/Git/STOP。不得重solve、改合同/阈值或覆盖初次失败。
 

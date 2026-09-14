@@ -1,4 +1,12 @@
-# ACTIVE — Real CE29 identity competition / failure geometry audit — 2026-09-14
+# COMPLETED — Real CE29 identity competition / failure geometry audit — 2026-09-14
+
+本审计计算、分析和最终独立复核已完成；本节取代下方同一任务的ACTIVE/RUNNING/失败交接，其他独立任务保持原状态。391候选/377分子身份/15837前景像素，67/67诊断完成，耗时678.453秒。复核PASS覆盖296来源、67全库模型、25259次同名整体删除及全部KKT/SSE、5134边与块分母；无抽样、无复核求解器调用，原科学表/决策哈希未变。两个独立复核口径错误（raw-sum支持度和零向量cosine）及原失败记录保留，各项修正先push后缓存复核。
+
+ISTA/NNLS报告76/78、共同61、Jaccard65.59%；固定DEV10保留38/49未变。5134有向边，严格稳定首位边14（0.2727%，各自有效块2至64），892持续出现边、27可重叠极大团，覆盖34/377。前5接收身份占块首位替代20.07%；同类占全部边35.74%、全图增益71.97%、严格稳定边12/14。CE29与V58已知FP几何只部分相似，不能证明机制相同；残差投影受KKT限制，强弱anchor各1不支持群体推断。
+
+最终路线SOLVER_STABILITY_FIRST，跨solver删除边缺ISTA缓存、保持不可评估；真实身份真假/FDR/recall未知。完整结果与分析在results/real_ce29_competition_audit_v1，final_storage_manifest.json列出精确输出成员与本地大数组哈希。所有原/新数组保留，无删除、无新训练/调阈值/decoy或后续实验。保存本case紧凑结果、分析、最终PASS复核与状态并commit/push，核对远端提交包含本case后STOP。
+
+# 历史交接（已由上方COMPLETED取代）— Real CE29 identity competition audit
 
 复核交接：67/67诊断完成（678.453秒，全部原KKT PASS），原summarize完成。首次独立复核在common_fragment_support标记STOP_INVALID_AUDIT；已确认原review错误归一化该字段，冻结合同/producer实际为raw sum。原脚本、合同、数组和全部科学表保持不变，初次失败另存validation_report_initial.json；新review_real_ce29_competition_support_units.py仅修正两项期望单位，有解析检查及原输出hash绑定。先push该修正封存，再只读全部缓存复查，不重solve/重summarize/调参数。当前不可接受为最终科学结果。
 

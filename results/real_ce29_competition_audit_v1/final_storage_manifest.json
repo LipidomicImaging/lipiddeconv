@@ -1,0 +1,1172 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-14T07:19:47.6397394Z",
+  "local_output_directory": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1",
+  "branch": "codex/v58-v59-run-records",
+  "final_review_status": "PASS",
+  "scientific_outputs_unchanged": true,
+  "source_files_verified": 296,
+  "original_source_storage": "Exact original source locations and hashes remain in provenance.json; source arrays retained unchanged",
+  "no_arrays_deleted": true,
+  "total_members": 165,
+  "retained_npz_count": 68,
+  "diagnostic_members": 134,
+  "manifest_self_excluded": true,
+  "members": [
+    {
+      "path": ".gitattributes",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\.gitattributes",
+      "bytes": 99,
+      "sha256": "85bd86fea6a765d52d87defc76158a39a5282ca78885b8d8171bdd0654d74ad9",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "analysis_record.md",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\analysis_record.md",
+      "bytes": 8814,
+      "sha256": "d7ce9504e96fcb041b4e47bf75d9e8c1ab3fc9cf26be04713e9bd247757575c7",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "audit_contract.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\audit_contract.json",
+      "bytes": 27936,
+      "sha256": "05f0cb8d3222c8f9cc062a84aa08646b29f070861b839e987b71a3c612e6c022",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "block_edge_stability.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\block_edge_stability.csv",
+      "bytes": 2208885,
+      "sha256": "9179984e5414c0b0778fd21f08d0c3e9df3f2247d35232a1625bdae95f59fcc8",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "competition_edges.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\competition_edges.csv",
+      "bytes": 2732724,
+      "sha256": "057d44dfca3ad8bcfc182587ee583604a9f7af2dd783f210f6b30d326c3b052e",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "competition_graph_edges.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\competition_graph_edges.csv",
+      "bytes": 511429,
+      "sha256": "0332017c724c2bc45439374675518516367b635a2963a6a858d5479162d16357",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "competition_graph_summary.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\competition_graph_summary.json",
+      "bytes": 583890,
+      "sha256": "2d771495aad9516dbfd8477542b7ed60183ddea04247a6888a2fbc55f733efed",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "decision_summary.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\decision_summary.json",
+      "bytes": 2126,
+      "sha256": "22a8fe5816f92e7869f63a0cd3888061f6743e2cb6972140e3e904e82959f416",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "decoy_coverage_audit.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\decoy_coverage_audit.json",
+      "bytes": 1939323,
+      "sha256": "17c862ce5bb8e695226cfe9eeaad68c46c17fbe8cb8ad1b7ee08de9788f4c673",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostic_completion.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostic_completion.json",
+      "bytes": 23944,
+      "sha256": "30a174658e9a68b43e7c37d06a2a9c63623dcdc67aa669a540359515591ac543",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostic_inputs.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostic_inputs.npz",
+      "bytes": 737343,
+      "sha256": "3c2c231b84c235b6d33f94a5a47fb05de634696a6860edf2d7d1aaccba05423b",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_000.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_000.json",
+      "bytes": 22025,
+      "sha256": "c5c7a8f88d71ba99d7ea9670b8f8c880713c3bd06feb814231ec420a882e86dd",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_000.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_000.npz",
+      "bytes": 44053,
+      "sha256": "9f092dbb4f5456cb9751d8e363c6692e2b5f0698b5b1dafd75e5b698e92021bc",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_001.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_001.json",
+      "bytes": 22026,
+      "sha256": "344d8d8a32452a4e22887d909d78aaf1590afc861527a47a9ca1077ad5347b85",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_001.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_001.npz",
+      "bytes": 47859,
+      "sha256": "c19e6fc4e5e00b7508ac746712d9d5cf9077538e22a735b31a59515162a97d4c",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_002.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_002.json",
+      "bytes": 22026,
+      "sha256": "7559bad65e400b6d9bb18514bd10c2c2a0ade506da75ad5153c9f981c7deea3a",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_002.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_002.npz",
+      "bytes": 47989,
+      "sha256": "01c6eba3d2831a0b144a20a0cfaedd86455943b4fc212cafec9416458ca3ae70",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_003.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_003.json",
+      "bytes": 22025,
+      "sha256": "3622291802c17b7c3eb0e54e2d03ad363268255c03cd66e2de669ed13bcff8a5",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_003.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_003.npz",
+      "bytes": 50055,
+      "sha256": "99e83bfe5514e86b3da1cadeed52a0ec2771bd00a669197be84b26599d5b788e",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_004.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_004.json",
+      "bytes": 22026,
+      "sha256": "c666b1680ca2e1fe69ea1c92a95c8bb55c98cb9567f0cd4742f3d2e4cd720382",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_004.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_004.npz",
+      "bytes": 51408,
+      "sha256": "baad44e51d0aa46f68da2b7cf0274b9f03f6784055f261049f59a9e8b32640b7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_005.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_005.json",
+      "bytes": 22027,
+      "sha256": "bf060497426c435d608f0e7ff4e2e06be4fa74305f08c6fa9ada964630c2fd45",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_005.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_005.npz",
+      "bytes": 52032,
+      "sha256": "0cbe9dd96d65c12a6dc1e7c46d696c8346ec6f8d5b737f55ba2ecc6bfece0105",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_006.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_006.json",
+      "bytes": 22015,
+      "sha256": "2229f15ee6708e2f94b9e6fdd21dab14c5582a5887be99c3c8cfd9e9754ade86",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_006.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_006.npz",
+      "bytes": 53144,
+      "sha256": "f12883d494feca1fea05c75f87e801b7090e6173d4f7fd1489e80d8ab0e8329d",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_007.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_007.json",
+      "bytes": 22027,
+      "sha256": "1c87feaa4e22a2ed3c79152f260a94727faf93afd67ca613e5c01d1e478cc64b",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_007.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_007.npz",
+      "bytes": 55803,
+      "sha256": "9a304fb5b6d906d82a95369c0ec0951486ad32718032ac17b79f988073534076",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_008.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_008.json",
+      "bytes": 22014,
+      "sha256": "f82afd0a31dc0c80279e79fb3b8bd6b3c8c88b0b092e0c6d543e3a50db244b8f",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_008.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_008.npz",
+      "bytes": 55184,
+      "sha256": "65255a08acdbb33f0bbfc69e28d42e63fb253d9e737fc1680e50199a50cce227",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_009.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_009.json",
+      "bytes": 22027,
+      "sha256": "282d8b2236a7eef71124bce858d9c772d886b4c603f8db39d6087994c2b45219",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_009.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_009.npz",
+      "bytes": 56514,
+      "sha256": "19da251b35a4e787e4e19becf42165a9247a9235a0b955fc6bc211ff136fcae5",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_010.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_010.json",
+      "bytes": 22026,
+      "sha256": "8ca06a55a4c73fe171e608ff56e7f0bc1b6706a3ccd24e38d5a2bf18da810f47",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_010.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_010.npz",
+      "bytes": 55101,
+      "sha256": "4494772a71c8acdec2b6e20a41d8e55909cb2394ffabcfb92e8fb711c1b48052",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_011.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_011.json",
+      "bytes": 22027,
+      "sha256": "09586dc0918f25d755d5762ed2cddfebd018f8ec7bdbe69bc93174c6a726ec0b",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_011.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_011.npz",
+      "bytes": 59132,
+      "sha256": "836df6db16f817af6548233c0ee8ce41599b9e5073aa8636515bdd7e3dde2de1",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_012.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_012.json",
+      "bytes": 22025,
+      "sha256": "6d78edf87142efb58c3a2b6076fd5109eb4c761543acd5977a8fa0d1e47becdb",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_012.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_012.npz",
+      "bytes": 58094,
+      "sha256": "e623e43a3114ba53cb01c2ade59184bc4e261d1b841cc0f334b6d917e666e96b",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_013.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_013.json",
+      "bytes": 22026,
+      "sha256": "97f91389eeb63418be0c31d7e6f48c7acba931abc7719e885690e6bf89421fee",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_013.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_013.npz",
+      "bytes": 54063,
+      "sha256": "23ef726a4e3dd5b93dfac20c5947f9560a2f38d862a4c8fec705d3647c930a93",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_014.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_014.json",
+      "bytes": 22027,
+      "sha256": "93c572429301e7e8c511bf8b327a0252199420279a2d42e261fae891d56fcece",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_014.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_014.npz",
+      "bytes": 53089,
+      "sha256": "53400910c723ccbfb14b21c8edacd573017088e63e189a95b82b080037ec2958",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_015.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_015.json",
+      "bytes": 22024,
+      "sha256": "774f6bdd5d01d3ccec21bb1f24da1e448a1f75e157d7034cd2b6c53cb78c0a68",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_015.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_015.npz",
+      "bytes": 52166,
+      "sha256": "198ed9f2d12ae230520e3fee678b8386cc959ccdfceb94f001e226520af71ff8",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_016.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_016.json",
+      "bytes": 22026,
+      "sha256": "6ceb0b09e1f4465bfbaeaa68fe790530662099b85ac844231f112c3234ba15cd",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_016.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_016.npz",
+      "bytes": 52096,
+      "sha256": "39ef7b3118be3bb3361cdd099010bcaf4681373d820a007ebeab7fe89c9fb4e8",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_017.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_017.json",
+      "bytes": 22026,
+      "sha256": "1b88a564b97bc369f7dce21d72a59d5b894cf662bbdfdba2d118da53900bab96",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_017.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_017.npz",
+      "bytes": 52263,
+      "sha256": "ef660fa445ab7d693b55764809b55f107aa47626794be86c925b90b8d26796df",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_018.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_018.json",
+      "bytes": 22027,
+      "sha256": "f8dfd24930e6ad52e764aea66ac3256bfb048d828e7aad940a6c72e896000640",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_018.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_018.npz",
+      "bytes": 50420,
+      "sha256": "d28528b033cbc47e314d8de369d4d29e39a6b22f2a515a75668ba6a10192a146",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_019.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_019.json",
+      "bytes": 22027,
+      "sha256": "c7c9ad9823bbe7848a522c402a3ee0542ebff82f85a742f821f763833b4f4b26",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_019.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_019.npz",
+      "bytes": 51129,
+      "sha256": "43013c35e037e35ff3de40272592bfdfa8a78e7b0518f0b8f4c19121c02736b8",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_020.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_020.json",
+      "bytes": 22027,
+      "sha256": "93eac8293970633641cf5de5245989c7606aec1d3466dd1ff95da1bfd7f4625e",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_020.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_020.npz",
+      "bytes": 52070,
+      "sha256": "a5a5a783c79f0eb8eb0ce6d39b07a99ed0c687a03bc67038ecb472d2f44ffc30",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_021.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_021.json",
+      "bytes": 22026,
+      "sha256": "c1dcbb20a1a57c7fc8b18530dc3d39aad6a351069183de3d5f51d858ba139623",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_021.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_021.npz",
+      "bytes": 48859,
+      "sha256": "e0295275841cd5c0fd77b0a66e60fbbf3153446a28f16abc5d3c21d451ac9fd5",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_022.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_022.json",
+      "bytes": 22027,
+      "sha256": "4e90f193e26c9f0a8fc8af5dd992011b26e746d4b419167f9fc21c3ab5e5c6a8",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_022.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_022.npz",
+      "bytes": 48363,
+      "sha256": "8b5600b16dbbd34b36ef32193ed6582befde48b39b2d633c827909b5950f252b",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_023.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_023.json",
+      "bytes": 22027,
+      "sha256": "3c1cfc905322ab7017496b25df9284d713dba6bc22c8c295680db37ee275cb63",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_023.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_023.npz",
+      "bytes": 51860,
+      "sha256": "c24c0c213ca33eec6856c4e026b5a63424d49d66db2c724ce1a84ed01e57ceff",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_024.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_024.json",
+      "bytes": 22026,
+      "sha256": "43334267acba47d935cc41e68ac75c734ebdee6e376d857200ebd2a70ced857a",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_024.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_024.npz",
+      "bytes": 51144,
+      "sha256": "78507bc97c27dce5a8cce15928712f63b1201c8d08f14e4e85557fb3bfdaceeb",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_025.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_025.json",
+      "bytes": 22026,
+      "sha256": "96361ec62734f75df69e1b238d1545dfedbdfa32c99dfc1ccc6d8e15c6f92360",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_025.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_025.npz",
+      "bytes": 53260,
+      "sha256": "ef5c10370a5acfb453a83261324d2c21afcf39d30b421e5bc565ca62b91f2ce7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_026.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_026.json",
+      "bytes": 22026,
+      "sha256": "c2f873c28d362579af940fffee1ad377bde2c4e6391f9f4da2be40aca6b96466",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_026.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_026.npz",
+      "bytes": 52248,
+      "sha256": "c4e9986def51c17995118f670bda456865c1dd8302a86f645afb56d005db12bf",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_027.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_027.json",
+      "bytes": 22026,
+      "sha256": "0b79387d4f4e206d81e21d660533b85bf4143ef665537fb5657c5e9122db9aaa",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_027.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_027.npz",
+      "bytes": 51307,
+      "sha256": "067cc8b78c59939becdfe2d31f3762711e91c7887bdd3b6e747ed525f4a61243",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_028.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_028.json",
+      "bytes": 22025,
+      "sha256": "7ad5d736afdaed349a161bcc78408d9aa476b53ce16b7abda73245ce1fdf437c",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_028.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_028.npz",
+      "bytes": 52044,
+      "sha256": "18ac13e64a4b6805e8a3dde0ae46f492ab9aa0dc23d400d1c1cae78ed48d9047",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_029.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_029.json",
+      "bytes": 22024,
+      "sha256": "a128c1cfda8da1730dff7835e836526f7b01dff35fcd454403570162c3bf3b07",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_029.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_029.npz",
+      "bytes": 52183,
+      "sha256": "dcf2650501e3d2a0e12b1ae28a8726ab82508cbf9a80231fa20d6f65582d425c",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_030.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_030.json",
+      "bytes": 22025,
+      "sha256": "20b5a953b28b9df379e2ce60d47e056ae22490de84bb0c9550412e6b5c099fa1",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_030.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_030.npz",
+      "bytes": 52155,
+      "sha256": "c555e048c8f9bea74b3ddedd33b49bc666af3325a8bce1851578f424bf9d0549",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_031.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_031.json",
+      "bytes": 22013,
+      "sha256": "b7a5074f19ef5721ed922bb2a9ec0919678269791be46fdff68a391dfecbe8d6",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_031.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_031.npz",
+      "bytes": 52094,
+      "sha256": "0efcb9d526d04b2b266531e1ebae011bb68229f55de5c68bff2910d2a923fb3d",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_032.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_032.json",
+      "bytes": 22027,
+      "sha256": "807aee0adf19e075fb6495e83ee4ccd1147120f633e5fffba1b85c6c6cd95ca5",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_032.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_032.npz",
+      "bytes": 52840,
+      "sha256": "22d519d9cde79e0306a501712911e4e7124e651adbeb040d91c326226ce3ea58",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_033.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_033.json",
+      "bytes": 22026,
+      "sha256": "4b00057e1ee4c88775c4bac349f970e4c1bbc724cfe67dbb658632ef87acc67c",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_033.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_033.npz",
+      "bytes": 52164,
+      "sha256": "224ea3feb8e6fd6abb6a85a3ec0f7b76c2e8aa67c05a643dcee64e58a19ef388",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_034.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_034.json",
+      "bytes": 22027,
+      "sha256": "78f579f98e233c035e6edce0b1a57ee21747b724825755e00183cbfaed235a05",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_034.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_034.npz",
+      "bytes": 53000,
+      "sha256": "e027af80d0e0daf5d814918a1f9be8ecf7cf356b3ee502a3aaace396e231d687",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_035.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_035.json",
+      "bytes": 22027,
+      "sha256": "4118985ea7dd4e635a6d2c1259bb81a1153175ea6216e597eec638385552e78a",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_035.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_035.npz",
+      "bytes": 52975,
+      "sha256": "336d49f271a84873d6a4ccf011b24504dede3fc21583717bfa62a27000003f73",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_036.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_036.json",
+      "bytes": 22026,
+      "sha256": "cf96dc023d38e7d0a6191d26f0625e37daff5b14129b28573c2fe661ea6d887f",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_036.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_036.npz",
+      "bytes": 52167,
+      "sha256": "c72a55935783a3a3e150d1e6208e111d2fc513a0285f3860c728f1362c0e2ae1",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_037.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_037.json",
+      "bytes": 22027,
+      "sha256": "5905f5cd95840c8e6a29864c148b537f49bd8d2e7331c75f2e6e66316f0701de",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_037.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_037.npz",
+      "bytes": 53892,
+      "sha256": "ed3b49af448352386c93f3d85c007819d01a16649cdfb26e9046550ff185c411",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_038.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_038.json",
+      "bytes": 22027,
+      "sha256": "ee2e8ef2b58e268b023284e65a97cc454898cc45090209e5d1a98e2c828f3a44",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_038.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_038.npz",
+      "bytes": 53157,
+      "sha256": "d20e08138369ea8082fea2a8793d8cb3ea0489b3ffd3745fd580103978efc687",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_039.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_039.json",
+      "bytes": 22027,
+      "sha256": "7704ba6077952888ecf7c288f8708614f82a98c6b087c64bb4d731b04deca3ed",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_039.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_039.npz",
+      "bytes": 52563,
+      "sha256": "2a79137d53e57da9a91743f33977e5a7a655d39b78f38b654d11d971f277d9b8",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_040.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_040.json",
+      "bytes": 22025,
+      "sha256": "d4737b347b08c8f50984c30623a68e6f1b07c6f26edf0b008c8f944c9c425ebe",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_040.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_040.npz",
+      "bytes": 52204,
+      "sha256": "2089d97c30d2c0ebb25b5f220a066de88ea0e0351fb3d751e4c71a73d1f79143",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_041.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_041.json",
+      "bytes": 22026,
+      "sha256": "cda9f3f1daa3c651e79108f5e8f07828f08d29d0ce235a60d34d87bf1566a886",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_041.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_041.npz",
+      "bytes": 54220,
+      "sha256": "132a3b650a6a2192abf7b30f57fdca2533ad36db820e63021ae765bdff8efc76",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_042.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_042.json",
+      "bytes": 22014,
+      "sha256": "1f059dea899fa6403660836cd0b88a2dfac3663e7be8353a47c3cacc6186f459",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_042.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_042.npz",
+      "bytes": 55140,
+      "sha256": "6b644bacd03bd922acfbc3be3aea138b8af9e0da03b2134c1cc1911c170a9381",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_043.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_043.json",
+      "bytes": 22027,
+      "sha256": "79012578c1163b76de93f8243c4bc439d46270cb80743a3bec271bc14d4e993d",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_043.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_043.npz",
+      "bytes": 54804,
+      "sha256": "0fe73a5ad02917478f035d85f40a95ae57f404f98f8c8088d6f29dfb65073c83",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_044.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_044.json",
+      "bytes": 22025,
+      "sha256": "608b20a84f3db3b87e8e997b5352c80fa014ca82c73774d50c8b80fcfd612565",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_044.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_044.npz",
+      "bytes": 52959,
+      "sha256": "280864f33e126363b211bf2ae97e42cbbdebc9703ffe995e5590a4995fb2ff31",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_045.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_045.json",
+      "bytes": 22027,
+      "sha256": "fa2f058fc83b8f364522ab1579c87d496b630a896a5812af4e832c0981f76bb6",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_045.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_045.npz",
+      "bytes": 53003,
+      "sha256": "3394fa4a2f56ab4da94052cd29970a8a6d7a9948a01e2e2b03987d8916b58e44",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_046.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_046.json",
+      "bytes": 22027,
+      "sha256": "b478b8dca287da4dce82e5b84ab14b0e0025956c43b2ea428076d6d70920fd74",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_046.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_046.npz",
+      "bytes": 52612,
+      "sha256": "2b1d76ffbe84c08ddf5a204c26fa8d51cdaa313b0285eab8cd6d18e50b91bc46",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_047.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_047.json",
+      "bytes": 22026,
+      "sha256": "215072a0ca5d5befecaeb7d95651f944244bc8913e214e307b03d86f52d06878",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_047.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_047.npz",
+      "bytes": 45859,
+      "sha256": "c0b6cbe2af781ebfcbcd6efe4548d9ffe9829f6945bbcbc303e6dbd48a69ef0e",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_048.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_048.json",
+      "bytes": 22013,
+      "sha256": "e867d0904a58c45ab245c99349d721de07cc86ab2d36a1bda44c74bfae1016f1",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_048.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_048.npz",
+      "bytes": 42817,
+      "sha256": "9881ed26b86cdc32a09cbcd30613b902c90eafc143a6a770d1b8dee86ce5cde7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_049.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_049.json",
+      "bytes": 22026,
+      "sha256": "2f14c6102ce54439e4e73913e882abbaa219be64dc92a5037d0041cc0de35570",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_049.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_049.npz",
+      "bytes": 45474,
+      "sha256": "9d6fbd40c02c76be909fc048045e048f47146a7e4f83f55ee5f7089dfc00e8c8",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_050.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_050.json",
+      "bytes": 22027,
+      "sha256": "e55c95b85d7d91e80183663d1ae82609dc7ae9cddcaaec60951204481ad9635a",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_050.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_050.npz",
+      "bytes": 50830,
+      "sha256": "8febdda78071926038f43b361207eecaa8d2bccccfac65ad679ffacd7727fd65",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_051.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_051.json",
+      "bytes": 22026,
+      "sha256": "3eaa4a041a3dcdb4cfd48ec6fc87599ea4d740976fc7aac61fed1476b0c8c409",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_051.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_051.npz",
+      "bytes": 51692,
+      "sha256": "d536ff88f20452ca2629d8cf93bdafe4bf6751759a082643f5401969878e33c3",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_052.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_052.json",
+      "bytes": 22026,
+      "sha256": "621ffa00617317b0c761db18570a772b0b9f6af819963aee3689362104edba23",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_052.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_052.npz",
+      "bytes": 47654,
+      "sha256": "389bba0accb73d6a5da17d1d13c225c7192bf1b039ac8fd886cc92a1ca52763a",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_053.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_053.json",
+      "bytes": 22024,
+      "sha256": "0ef02f865d9d332d3ca581e2d75bd05991f7703598a6915b6fda8ce98dbdca2d",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_053.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_053.npz",
+      "bytes": 51153,
+      "sha256": "65b4d624b9243d250ef470390a9df86468cb824eb3e3044b158e4a6cc613d80b",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_054.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_054.json",
+      "bytes": 22026,
+      "sha256": "257b856141a569ba382b30f0fa6abe47a3ee5d2ef244a775c1a9dcc2611818bd",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_054.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_054.npz",
+      "bytes": 51921,
+      "sha256": "59b38129abb88d731abe7dab58c3f49fd3cd2f894c2e0d41c9eafc0c4a5002ac",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_055.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_055.json",
+      "bytes": 22026,
+      "sha256": "3391abb7d266dff86a8ee77178fbe5a88b77807d2c594c8b7b9b34b44a73704d",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_055.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_055.npz",
+      "bytes": 54209,
+      "sha256": "56d2c1dc2ef841e9c3459ff60526b6767eba96c7f1ee202f18451a5b3e966f49",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_056.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_056.json",
+      "bytes": 22026,
+      "sha256": "c5e89bf36e7023ec10d306d6cb1fbd67f62187599676bfcdf0980ad03084619d",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_056.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_056.npz",
+      "bytes": 54791,
+      "sha256": "64b7dfbedccd83af333d0dbfc57872c15ad76cedb1a9fb420c57d222d33e942a",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_057.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_057.json",
+      "bytes": 22027,
+      "sha256": "b90f99ff67efffaf2aff305eb2021e16fbfc5840d2e10178289c71e0cf16cbe0",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_057.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_057.npz",
+      "bytes": 55930,
+      "sha256": "caf85e3e3c394e90743c0bd6924c479393710dad1b5cb9f053ffa2622de6b6c3",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_058.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_058.json",
+      "bytes": 22026,
+      "sha256": "2a650377d8855d00ca93be5cd5ecd12be4e266495f0a1d0cc1939808521b4657",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_058.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_058.npz",
+      "bytes": 54102,
+      "sha256": "7a7ea7982df646d3bbb0f4e868069105e2be81960da3e0109befd92b72a6ae76",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_059.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_059.json",
+      "bytes": 22027,
+      "sha256": "2f3ed8adf3722a4d046b4d262f915b26195c79fe9bb77ce98b388c24eb74e14b",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_059.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_059.npz",
+      "bytes": 54946,
+      "sha256": "643f4057b4d204835bb2e3b2554601c30dceb5054d1092a475044e78eac062a3",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_060.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_060.json",
+      "bytes": 22025,
+      "sha256": "67cca3f579075e28ef9e8b79cf8466336d5986c43fa6d26da7aa630c214d423e",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_060.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_060.npz",
+      "bytes": 50977,
+      "sha256": "9a120b01803f1ffcdc610c883306fd981ca3f11061fe58db23d6eb74baa73d76",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_061.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_061.json",
+      "bytes": 22026,
+      "sha256": "cd0723b85044b0ce1fc86d82632789669f73f064b24755164936547384654dd6",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_061.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_061.npz",
+      "bytes": 45729,
+      "sha256": "b6405c659f964e73bea0ac29ae12e66def0a42e3edef0ec7c5f89af06a4aa23d",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_062.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_062.json",
+      "bytes": 22024,
+      "sha256": "dacfa99df3a12670b480882752f32bf5d42c7256b343931cc7f65d136c731c37",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_062.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_062.npz",
+      "bytes": 41262,
+      "sha256": "bb40beb0b59f908acf2a679ca1ce83401d0cd6fd264d20567d8c5bf53acdb0b7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_063.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_063.json",
+      "bytes": 22027,
+      "sha256": "4cc94ed0cd21d09e97c472ce292bdd637993710bda65c8735a941ca0db783abe",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_BLOCK_063.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_BLOCK_063.npz",
+      "bytes": 40524,
+      "sha256": "9716c573e3acff1c069e1c49937dade7948115e96c372548c036f881d54f57d3",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/CE29_GLOBAL.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_GLOBAL.json",
+      "bytes": 22023,
+      "sha256": "e65b4ea9000f7e0f5f7c24b783416c2ba1b9495af96372deac198b1ea0adc347",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/CE29_GLOBAL.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\CE29_GLOBAL.npz",
+      "bytes": 57025,
+      "sha256": "7e8314a4d918cc5247b768360745900df71dbb945098a5dedfb3ee65a6c14ee7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/V58_MILD_CAL_R1_K125.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\V58_MILD_CAL_R1_K125.json",
+      "bytes": 22035,
+      "sha256": "362d6330b84929039db5a1054c385831b8107c7409b1af006f970c4af6479c3e",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/V58_MILD_CAL_R1_K125.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\V58_MILD_CAL_R1_K125.npz",
+      "bytes": 274425,
+      "sha256": "e43b8db522fbe3e38e4ad308107696d5bea7df8d9a0a47d5de397aed0f79ca7a",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "diagnostics/V58_MILD_CAL_R2_K125.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\V58_MILD_CAL_R2_K125.json",
+      "bytes": 22034,
+      "sha256": "df4198a282cce218802c07a223388978bba343c3d6a80405ffeb8d4c4a384730",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "diagnostics/V58_MILD_CAL_R2_K125.npz",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\diagnostics\\V58_MILD_CAL_R2_K125.npz",
+      "bytes": 274158,
+      "sha256": "ba7ff097b48407a8f2f09f4a71d650f84d2f0b7ef113b7ccb4d82e7d5d41a2e7",
+      "storage": "retained_local_array_excluded_from_lightweight_git"
+    },
+    {
+      "path": "identity_deletion_metrics.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\identity_deletion_metrics.csv",
+      "bytes": 399512,
+      "sha256": "688b5eddcae993d6ecd548e32f0e369800d97e9d18889ff3836c70bd556899fb",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "identity_master_table.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\identity_master_table.csv",
+      "bytes": 173685,
+      "sha256": "78d9f5d364720bc56ee365a1345e4d71b5c0c212c5ab75600d19c58278d612d3",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "identity_solver_agreement.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\identity_solver_agreement.csv",
+      "bytes": 40708,
+      "sha256": "4664a5af526fb583c66fb7371b45dc45161ae6f838c507526ab2994cec98034b",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "identity_specific_support.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\identity_specific_support.csv",
+      "bytes": 177650,
+      "sha256": "c9b6225c4eb7cd170a3f7a3f1801c9543e46d7b33ee41d39cdfc9533b0dac3d3",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "identity_spectral_geometry.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\identity_spectral_geometry.csv",
+      "bytes": 311730,
+      "sha256": "4d571ebbedb9d2c20aecb259c76a19c0ce36dcc2067e6b926f17301d73be0211",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "input_binding.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\input_binding.json",
+      "bytes": 9590,
+      "sha256": "6fcf82453bf10dec674c7a19d41fa6e3828e3e923b3dffe8b56f2f31bccd1e04",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "pre_execution_git.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\pre_execution_git.json",
+      "bytes": 345,
+      "sha256": "a0dd7589fb7602301538c60304a8214e2fd3d818c8c1c8e7531294e345b52374",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "provenance.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\provenance.json",
+      "bytes": 290282,
+      "sha256": "a7585938e22d5d1d6ab6597e1c7db177bc33a451ee0144eb1ecc258c202d3d1d",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "review_correction_git.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\review_correction_git.json",
+      "bytes": 290,
+      "sha256": "3dcacce97a207400938a03935f2237b411f8c9a2bc31274f06556430fdd0987b",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "review_units_correction.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\review_units_correction.json",
+      "bytes": 2534,
+      "sha256": "1597d69f7959b9d348037149d64e63349670795ca6be63e699af5078c662e249",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "review_zero_map_correction.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\review_zero_map_correction.json",
+      "bytes": 710,
+      "sha256": "b41a68b3b6ef48528534821561883d879ea6e1380a2dcf5f006a72fef074b312",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "review_zero_map_git.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\review_zero_map_git.json",
+      "bytes": 299,
+      "sha256": "7b62fbfe3e719d409e519531667931f467b6ed101daa71c1448198cce00451a7",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "run_started.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\run_started.json",
+      "bytes": 221,
+      "sha256": "445d6abfa047966a10169c531af0207b3c7710bd17ff12c53a3cc71f0abc1dbc",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "solver_edge_agreement.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\solver_edge_agreement.csv",
+      "bytes": 339152,
+      "sha256": "89aed9219b4aef37b35009b2a1e0697e23be2af9347f6d22a653fe1bd7b7804c",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "status.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\status.json",
+      "bytes": 11050,
+      "sha256": "2d38d8e458cac67c721c65f45ee29e6758a2498cc5dc7b88941b27ce1ceb1341",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "v58_identity_geometry.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\v58_identity_geometry.csv",
+      "bytes": 762630,
+      "sha256": "befc63a962924670a7545987ae914f2f0046060e83610a800adca5fbcd0eac56",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "v58_vs_ce29_geometry_comparison.csv",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\v58_vs_ce29_geometry_comparison.csv",
+      "bytes": 89579,
+      "sha256": "bcabf19e5ba11e269576ef0834db61b2d7402d9164454a951470eb60808a79af",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "validation_report_initial.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\validation_report_initial.json",
+      "bytes": 149,
+      "sha256": "e7d229b8f93be38d2ba5956aab65af6a14b4f05aa76b08e0d1d658a9bc4c9d15",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "validation_report_units.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\validation_report_units.json",
+      "bytes": 524,
+      "sha256": "629b2e1ce580dd9ec87412eda6a1727b3cba659076ff98185f970508f7e93450",
+      "storage": "compact_git_record"
+    },
+    {
+      "path": "validation_report.json",
+      "local_path": "C:\\Users\\ld\\Documents\\ChatGPT\\课题\\lipiddeconv\\results\\real_ce29_competition_audit_v1\\validation_report.json",
+      "bytes": 3442,
+      "sha256": "5b34a44aee780de81b204adfe7f152a3546eab82b7ae40b31b9252019b4ddc43",
+      "storage": "compact_git_record"
+    }
+  ]
+}

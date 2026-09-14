@@ -1,0 +1,408 @@
+{
+  "completed": 67,
+  "planned": 67,
+  "records": [
+    {
+      "diagnostic_id": "CE29_BLOCK_000",
+      "solver_calls": 53,
+      "analytic_zero_deletion_count": 325,
+      "seconds": 65.81200000000007
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_002",
+      "solver_calls": 57,
+      "analytic_zero_deletion_count": 321,
+      "seconds": 69.57800000000003
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_001",
+      "solver_calls": 57,
+      "analytic_zero_deletion_count": 321,
+      "seconds": 71.73400000000004
+    },
+    {
+      "diagnostic_id": "CE29_GLOBAL",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 84.40699999999998
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_003",
+      "solver_calls": 59,
+      "analytic_zero_deletion_count": 319,
+      "seconds": 65.21899999999994
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_004",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 63.31299999999999
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_005",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 61.781999999999925
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_006",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 52.875
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_007",
+      "solver_calls": 65,
+      "analytic_zero_deletion_count": 313,
+      "seconds": 21.812999999999988
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_008",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 21.125
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_009",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 21.610000000000014
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_010",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 21.265999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_011",
+      "solver_calls": 66,
+      "analytic_zero_deletion_count": 312,
+      "seconds": 22.546999999999912
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_013",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 20.593000000000075
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_012",
+      "solver_calls": 65,
+      "analytic_zero_deletion_count": 313,
+      "seconds": 22.09400000000005
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_014",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 19.484000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_015",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 18.2349999999999
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_016",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 17.952999999999975
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_017",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 18.140999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_018",
+      "solver_calls": 59,
+      "analytic_zero_deletion_count": 319,
+      "seconds": 16.937000000000012
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_021",
+      "solver_calls": 58,
+      "analytic_zero_deletion_count": 320,
+      "seconds": 17.828000000000088
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_019",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 19.172000000000025
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_020",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 19.077999999999975
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_022",
+      "solver_calls": 57,
+      "analytic_zero_deletion_count": 321,
+      "seconds": 17.859000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_024",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 18.797000000000025
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_023",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 19.577999999999975
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_026",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 19.281000000000063
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_025",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 20.15700000000004
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_027",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 21.28099999999995
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_028",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 21.703000000000088
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_029",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 21.515999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_030",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 21.40599999999995
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_031",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 19.5
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_032",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 19.593999999999937
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_033",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 19.609000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_034",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 19.421999999999912
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_035",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 20.890999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_036",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 20.610000000000014
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_038",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 20.672000000000025
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_037",
+      "solver_calls": 62,
+      "analytic_zero_deletion_count": 316,
+      "seconds": 21.359000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_039",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 20.859000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_040",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 21.28200000000004
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_041",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 22.452999999999975
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_042",
+      "solver_calls": 64,
+      "analytic_zero_deletion_count": 314,
+      "seconds": 22.875
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_044",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 25.59400000000005
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_043",
+      "solver_calls": 64,
+      "analytic_zero_deletion_count": 314,
+      "seconds": 27.047000000000025
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_045",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 25.343999999999937
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_046",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 25.234000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_048",
+      "solver_calls": 52,
+      "analytic_zero_deletion_count": 326,
+      "seconds": 13.75
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_047",
+      "solver_calls": 55,
+      "analytic_zero_deletion_count": 323,
+      "seconds": 14.858999999999924
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_049",
+      "solver_calls": 54,
+      "analytic_zero_deletion_count": 324,
+      "seconds": 14.156000000000063
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_050",
+      "solver_calls": 59,
+      "analytic_zero_deletion_count": 319,
+      "seconds": 16.156000000000063
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_052",
+      "solver_calls": 57,
+      "analytic_zero_deletion_count": 321,
+      "seconds": 14.390999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_051",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 15.889999999999986
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_053",
+      "solver_calls": 60,
+      "analytic_zero_deletion_count": 318,
+      "seconds": 16.04600000000005
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_054",
+      "solver_calls": 61,
+      "analytic_zero_deletion_count": 317,
+      "seconds": 16.062000000000012
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_055",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 18.84299999999996
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_056",
+      "solver_calls": 64,
+      "analytic_zero_deletion_count": 314,
+      "seconds": 19.656000000000063
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_057",
+      "solver_calls": 65,
+      "analytic_zero_deletion_count": 313,
+      "seconds": 20.515999999999963
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_058",
+      "solver_calls": 63,
+      "analytic_zero_deletion_count": 315,
+      "seconds": 21.218999999999937
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_061",
+      "solver_calls": 54,
+      "analytic_zero_deletion_count": 324,
+      "seconds": 19.672000000000025
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_062",
+      "solver_calls": 50,
+      "analytic_zero_deletion_count": 328,
+      "seconds": 16.734000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_060",
+      "solver_calls": 59,
+      "analytic_zero_deletion_count": 319,
+      "seconds": 22.609000000000037
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_059",
+      "solver_calls": 64,
+      "analytic_zero_deletion_count": 314,
+      "seconds": 25.358999999999924
+    },
+    {
+      "diagnostic_id": "CE29_BLOCK_063",
+      "solver_calls": 50,
+      "analytic_zero_deletion_count": 328,
+      "seconds": 16.390999999999963
+    },
+    {
+      "diagnostic_id": "V58_MILD_CAL_R1_K125",
+      "solver_calls": 173,
+      "analytic_zero_deletion_count": 205,
+      "seconds": 263.89099999999996
+    },
+    {
+      "diagnostic_id": "V58_MILD_CAL_R2_K125",
+      "solver_calls": 173,
+      "analytic_zero_deletion_count": 205,
+      "seconds": 263.9530000000001
+    }
+  ]
+}

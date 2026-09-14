@@ -1,0 +1,47 @@
+{
+  "Q1_stable_spectral_competition": "PARTIAL",
+  "Q2_CE29_vs_V58_known_FP_geometry": "PARTIAL",
+  "Q3_competitive_decoy_assignment": "PARTIALLY_SUPPORTED",
+  "Q4_next_route": "SOLVER_STABILITY_FIRST",
+  "decision_status": "COMPETITIVE_DECOY_GEOMETRY_PARTIAL_SOLVER_EVIDENCE_REQUIRED",
+  "evidence": {
+    "edge_count": 5134,
+    "strict_stable_edge_count": 14,
+    "strict_stable_edge_fraction": 0.0027269185820023374,
+    "support_jaccard": 0.6559139784946236,
+    "same_class_strict_stable_fraction": 0.8571428571428571,
+    "top5_receiver_fraction": 0.2007376185458377,
+    "global_top_delta_residual_absorption": {
+      "n": 62,
+      "median": 3.3725609053007224e-15,
+      "q25": -2.4664458363608017e-15,
+      "q75": 0.027068957690365044,
+      "IQR": 0.02706895769036751,
+      "minimum": -1.0393324120143567e-13,
+      "maximum": 0.9055991293075842
+    },
+    "global_removed_signal_cosine": {
+      "n": 377,
+      "median": 0.0,
+      "q25": 0.0,
+      "q75": 0.0,
+      "IQR": 0.0,
+      "minimum": 0.0,
+      "maximum": 0.9911008662827991
+    }
+  },
+  "reasons": [
+    "Cross-solver deletion edges cannot be evaluated: only unchanged NNLS diagnostic is available.",
+    "Two synthetic CAL specimens permit mechanism effect comparisons but do not establish equivalence or population generality.",
+    "Raw postfit residual cosine is constrained by KKT and is not an absorption fraction.",
+    "Current production retention supplies descriptive groups and was not changed."
+  ],
+  "limitations": [
+    "Real molecular identity correctness, error rates and recall remain unknown.",
+    "Original processing blocks follow foreground index order and are neither randomized nor independent specimens.",
+    "Mean-spectrum replacement need not reproduce every pixelwise replacement.",
+    "Library-exclusive channels do not establish chemically unique identity evidence.",
+    "No exchangeability, null calibration, target-decoy library, or new selector was constructed."
+  ],
+  "permitted_next_execution": "NONE; audit ends after independent review and saved result"
+}
